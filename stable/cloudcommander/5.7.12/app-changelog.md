@@ -1,10 +1,14 @@
 
 
-## [cloudcommander-5.7.10](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.7.10) (2024-03-27)
+## [cloudcommander-5.7.12](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.7.12) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image coderaiser/cloudcmd to latest[@faf36ba](https://github.com/faf36ba) by renovate ([#19958](https://github.com/truecharts/charts/issues/19958))
+
+- update container image coderaiser/cloudcmd to latest[@70fea30](https://github.com/70fea30) by renovate ([#19949](https://github.com/truecharts/charts/issues/19949))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
