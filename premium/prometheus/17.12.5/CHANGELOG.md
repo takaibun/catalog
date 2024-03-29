@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [prometheus-17.12.4](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.4) (2024-03-29)
+## [prometheus-17.12.5](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.5) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image kube-prometheus-stack to v56.21.4[@923897b](https://github.com/923897b) by renovate ([#19075](https://github.com/truecharts/charts/issues/19075))
 
 - update container image bitnami/prometheus to v2.51.1[@cde1074](https://github.com/cde1074) by renovate ([#19925](https://github.com/truecharts/charts/issues/19925))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [prometheus-17.12.4](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.4) (2024-03-28)

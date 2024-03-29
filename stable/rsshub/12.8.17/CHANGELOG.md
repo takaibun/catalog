@@ -8,11 +8,15 @@ title: Changelog
 **Important:**
 
 
-## [rsshub-12.8.15](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.15) (2024-03-28)
+## [rsshub-12.8.17](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.17) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image diygod/rsshub to latest[@d1d239b](https://github.com/d1d239b) by renovate ([#19932](https://github.com/truecharts/charts/issues/19932))
+
+- update container image diygod/rsshub to latest[@a9b27f5](https://github.com/a9b27f5) by renovate ([#19920](https://github.com/truecharts/charts/issues/19920))
 
 - update container image diygod/rsshub to latest[@e7755bb](https://github.com/e7755bb) by renovate ([#19894](https://github.com/truecharts/charts/issues/19894))
 
@@ -91,10 +95,6 @@ title: Changelog
 - update container image diygod/rsshub to latest[@b5a6e57](https://github.com/b5a6e57) by renovate ([#19220](https://github.com/truecharts/charts/issues/19220))
 
 
-## [rsshub-12.8.15](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.15) (2024-03-28)
+## [rsshub-12.8.16](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.16) (2024-03-29)
 
 ### Chore
-
-
-
-- update container image diygod/rsshub to latest[@e7755bb](https://github.com/e7755bb) by renovate ([#19894](https://github.com/truecharts/charts/issues/19894))
