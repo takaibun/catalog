@@ -1,6 +1,6 @@
 
 
-## [watcharr-4.10.0](https://github.com/truecharts/charts/compare/watcharr-4.7.0...watcharr-4.10.0) (2024-03-28)
+## [watcharr-4.10.0](https://github.com/truecharts/charts/compare/watcharr-4.7.0...watcharr-4.10.0) (2024-03-29)
 
 ### Chore
 

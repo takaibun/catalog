@@ -1,6 +1,6 @@
 
 
-## [ddns-go-10.9.2](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-10.9.2) (2024-03-28)
+## [ddns-go-10.9.2](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-10.9.2) (2024-03-29)
 
 ### Chore
 

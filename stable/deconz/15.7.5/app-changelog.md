@@ -1,6 +1,6 @@
 
 
-## [deconz-15.7.5](https://github.com/truecharts/charts/compare/deconz-15.6.0...deconz-15.7.5) (2024-03-28)
+## [deconz-15.7.5](https://github.com/truecharts/charts/compare/deconz-15.6.0...deconz-15.7.5) (2024-03-29)
 
 ### Chore
 

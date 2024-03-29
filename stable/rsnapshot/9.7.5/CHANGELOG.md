@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rsnapshot-9.7.5](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.7.5) (2024-03-28)
+## [rsnapshot-9.7.5](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.7.5) (2024-03-29)
 
 ### Chore
 

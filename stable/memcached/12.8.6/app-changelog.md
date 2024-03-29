@@ -1,6 +1,6 @@
 
 
-## [memcached-12.8.6](https://github.com/truecharts/charts/compare/memcached-12.7.0...memcached-12.8.6) (2024-03-28)
+## [memcached-12.8.6](https://github.com/truecharts/charts/compare/memcached-12.7.0...memcached-12.8.6) (2024-03-29)
 
 ### Chore
 
