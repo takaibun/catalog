@@ -95,6 +95,6 @@ title: Changelog
 - Return to Stable ([#19563](https://github.com/truecharts/charts/issues/19563))
 
 
-## [immich-14.2.4](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.2.4) (2024-03-27)
+## [immich-14.6.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.6.0) (2024-03-29)
 
 ### Chore
