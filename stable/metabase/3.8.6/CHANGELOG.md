@@ -54,7 +54,7 @@ title: Changelog
 - update container image metabase/metabase to v0.49.0[@102b6a4](https://github.com/102b6a4) by renovate ([#19346](https://github.com/truecharts/charts/issues/19346))
 
 
-## [metabase-3.8.6](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.8.6) (2024-03-28)
+## [metabase-3.8.6](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.8.6) (2024-03-29)
 
 ### Chore
 
@@ -77,11 +77,13 @@ title: Changelog
 - update container image metabase/metabase to v0.49.0[@102b6a4](https://github.com/102b6a4) by renovate ([#19346](https://github.com/truecharts/charts/issues/19346))
 
 
-## [metabase-3.8.5](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.8.5) (2024-03-27)
+## [metabase-3.8.6](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.8.6) (2024-03-28)
 
 ### Chore
 
 
+
+- update container image metabase/metabase to v0.49.2[@c102b54](https://github.com/c102b54) by renovate ([#19928](https://github.com/truecharts/charts/issues/19928))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image metabase/metabase to v0.49.0[@102b6a4](https://github.com/102b6a4) by renovate ([#19346](https://github.com/truecharts/charts/issues/19346))
-
