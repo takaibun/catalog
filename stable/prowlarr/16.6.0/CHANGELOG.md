@@ -35,7 +35,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316[@882daa1](https://github.com/882daa1) by renovate ([#19255](https://github.com/truecharts/charts/issues/19255))
 
 
-## [prowlarr-16.6.0](https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.6.0) (2024-03-28)
+## [prowlarr-16.6.0](https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.6.0) (2024-03-29)
 
 ### Chore
 

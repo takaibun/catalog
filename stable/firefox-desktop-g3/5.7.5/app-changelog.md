@@ -1,10 +1,14 @@
 
 
-## [firefox-desktop-g3-5.7.3](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-5.7.3) (2024-03-25)
+## [firefox-desktop-g3-5.7.5](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-5.7.5) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@d969e16](https://github.com/d969e16) by renovate ([#19930](https://github.com/truecharts/charts/issues/19930))
+
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 

@@ -31,7 +31,7 @@ title: Changelog
 - update container image xwiki to 16.1.0-postgres-tomcat[@74dd45c](https://github.com/74dd45c) by renovate ([#19294](https://github.com/truecharts/charts/issues/19294))
 
 
-## [xwiki-12.9.2](https://github.com/truecharts/charts/compare/xwiki-12.7.0...xwiki-12.9.2) (2024-03-28)
+## [xwiki-12.9.2](https://github.com/truecharts/charts/compare/xwiki-12.7.0...xwiki-12.9.2) (2024-03-29)
 
 ### Chore
 
