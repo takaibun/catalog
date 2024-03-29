@@ -45,11 +45,13 @@ title: Changelog
 - Update severely outdated container again ([#19677](https://github.com/truecharts/charts/issues/19677))
 
 
-## [jackett-20.0.7](https://github.com/truecharts/charts/compare/jackett-19.6.0...jackett-20.0.7) (2024-03-29)
+## [jackett-20.0.8](https://github.com/truecharts/charts/compare/jackett-19.6.0...jackett-20.0.8) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image ghcr.io/geek-cookbook/jackett to v0.21.2212[@c15ce92](https://github.com/c15ce92) by renovate ([#19955](https://github.com/truecharts/charts/issues/19955))
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2199[@0ebd2bb](https://github.com/0ebd2bb) by renovate ([#19913](https://github.com/truecharts/charts/issues/19913))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2163[@e48ff47](https://github.com/e48ff47) by renovate ([#19819](https://github.com/truecharts/charts/issues/19819))
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2146[@4c96e8b](https://github.com/4c96e8b) by renovate ([#19771](https://github.com/truecharts/charts/issues/19771))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
