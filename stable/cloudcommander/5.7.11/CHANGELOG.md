@@ -43,11 +43,13 @@ title: Changelog
 - update container image coderaiser/cloudcmd to latest[@2b5301f](https://github.com/2b5301f) by renovate ([#19219](https://github.com/truecharts/charts/issues/19219))
 
 
-## [cloudcommander-5.7.10](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.7.10) (2024-03-27)
+## [cloudcommander-5.7.11](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.7.11) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image coderaiser/cloudcmd to latest[@70fea30](https://github.com/70fea30) by renovate ([#19949](https://github.com/truecharts/charts/issues/19949))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image coderaiser/cloudcmd to latest[@5c247c0](https://github.com/5c247c0) by renovate ([#19542](https://github.com/truecharts/charts/issues/19542))
 
 - update container image coderaiser/cloudcmd to latest[@0f1d9df](https://github.com/0f1d9df) by renovate ([#19461](https://github.com/truecharts/charts/issues/19461))
-
-- update container image coderaiser/cloudcmd to latest[@52a650f](https://github.com/52a650f) by renovate ([#19456](https://github.com/truecharts/charts/issues/19456))

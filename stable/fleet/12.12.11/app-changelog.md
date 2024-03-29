@@ -1,10 +1,14 @@
 
 
-## [fleet-12.12.9](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-12.12.9) (2024-03-27)
+## [fleet-12.12.11](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-12.12.11) (2024-03-29)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/fleet to 2.3.3[@677c979](https://github.com/677c979) by renovate ([#19950](https://github.com/truecharts/charts/issues/19950))
+
+- update container image mariadb to v13.7.5[@665bc08](https://github.com/665bc08) by renovate ([#19868](https://github.com/truecharts/charts/issues/19868))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
