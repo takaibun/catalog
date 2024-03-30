@@ -57,11 +57,13 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.8.7](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.8.7) (2024-03-30)
+## [nextcloud-29.8.8](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.8.8) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image tccr.io/tccr/nextcloud-fpm to v[@78a98b1](https://github.com/78a98b1) by renovate ([#19985](https://github.com/truecharts/charts/issues/19985))
 
 - update container image collabora/code to v23.05.10.1.1[@1b9e3f4](https://github.com/1b9e3f4) by renovate ([#19912](https://github.com/truecharts/charts/issues/19912))
 
@@ -96,5 +98,3 @@ title: Changelog
 
 
 - update migration guide ([#19966](https://github.com/truecharts/charts/issues/19966))
-
-### Fix

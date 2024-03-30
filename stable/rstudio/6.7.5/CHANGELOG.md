@@ -92,7 +92,7 @@ title: Changelog
 - update container image rocker/rstudio to 4.3.3[@223204c](https://github.com/223204c) by renovate ([#19283](https://github.com/truecharts/charts/issues/19283))
 
 
-## [rstudio-6.7.4](https://github.com/truecharts/charts/compare/rstudio-6.6.0...rstudio-6.7.4) (2024-03-27)
+## [rstudio-6.7.5](https://github.com/truecharts/charts/compare/rstudio-6.6.0...rstudio-6.7.5) (2024-03-30)
 
 ### Chore
 

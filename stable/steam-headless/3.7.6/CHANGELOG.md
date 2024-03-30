@@ -31,11 +31,13 @@ title: Changelog
 - update container image josh5/steam-headless to latest[@6633416](https://github.com/6633416) by renovate ([#19266](https://github.com/truecharts/charts/issues/19266))
 
 
-## [steam-headless-3.7.5](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-3.7.5) (2024-03-27)
+## [steam-headless-3.7.6](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-3.7.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image josh5/steam-headless to latest[@e1367b0](https://github.com/e1367b0) by renovate ([#19981](https://github.com/truecharts/charts/issues/19981))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [steam-headless-3.7.5](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-3.7.5) (2024-03-27)
-
-### Chore
