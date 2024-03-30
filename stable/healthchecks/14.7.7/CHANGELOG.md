@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [healthchecks-14.7.6](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.7.6) (2024-03-27)
+## [healthchecks-14.7.7](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.7.7) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [healthchecks-14.7.6](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.7.6) (2024-03-27)

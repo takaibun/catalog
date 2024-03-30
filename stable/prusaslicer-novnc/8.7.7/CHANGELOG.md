@@ -58,11 +58,13 @@ title: Changelog
 - update container image mikeah/prusaslicer-novnc to latest[@1377f07](https://github.com/1377f07) by renovate ([#19274](https://github.com/truecharts/charts/issues/19274))
 
 
-## [prusaslicer-novnc-8.7.6](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-8.7.6) (2024-03-30)
+## [prusaslicer-novnc-8.7.7](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-8.7.7) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image mikeah/prusaslicer-novnc to latest[@0dd0ad9](https://github.com/0dd0ad9) by renovate ([#19943](https://github.com/truecharts/charts/issues/19943))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image mikeah/prusaslicer-novnc to latest[@bd59d9d](https://github.com/bd59d9d) by renovate ([#19623](https://github.com/truecharts/charts/issues/19623))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))

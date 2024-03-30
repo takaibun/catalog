@@ -50,11 +50,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [dashy-6.7.5](https://github.com/truecharts/charts/compare/dashy-6.6.0...dashy-6.7.5) (2024-03-28)
+## [dashy-6.7.6](https://github.com/truecharts/charts/compare/dashy-6.6.0...dashy-6.7.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image lissy93/dashy to 2.1.2[@3826f73](https://github.com/3826f73) by renovate ([#19865](https://github.com/truecharts/charts/issues/19865))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 - update container image lissy93/dashy to 2.1.2[@3826f73](https://github.com/3826f73) by renovate ([#19865](https://github.com/truecharts/charts/issues/19865))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

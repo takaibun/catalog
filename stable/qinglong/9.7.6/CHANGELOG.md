@@ -50,11 +50,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [qinglong-9.7.5](https://github.com/truecharts/charts/compare/qinglong-9.6.0...qinglong-9.7.5) (2024-03-30)
+## [qinglong-9.7.6](https://github.com/truecharts/charts/compare/qinglong-9.6.0...qinglong-9.7.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image whyour/qinglong to v2.17.3[@dd2e3a7](https://github.com/dd2e3a7) by renovate ([#19963](https://github.com/truecharts/charts/issues/19963))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 - update container image whyour/qinglong to v2.17.3[@dd2e3a7](https://github.com/dd2e3a7) by renovate ([#19963](https://github.com/truecharts/charts/issues/19963))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
