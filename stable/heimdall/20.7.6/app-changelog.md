@@ -1,10 +1,14 @@
 
 
-## [heimdall-20.7.4](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.4) (2024-03-25)
+## [heimdall-20.7.6](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image linuxserver/heimdall to v[@494cf99](https://github.com/494cf99) by renovate ([#19970](https://github.com/truecharts/charts/issues/19970))
+
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 

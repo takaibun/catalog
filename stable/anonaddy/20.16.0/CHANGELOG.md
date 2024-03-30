@@ -49,7 +49,7 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [anonaddy-20.16.0](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-20.16.0) (2024-03-29)
+## [anonaddy-20.16.0](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-20.16.0) (2024-03-30)
 
 ### Chore
 
@@ -90,10 +90,10 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [anonaddy-20.15.6](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-20.15.6) (2024-03-27)
+## [anonaddy-20.16.0](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-20.16.0) (2024-03-29)
 
 ### Chore
 
 
 
-- update container image mariadb to v13.7.5[@665bc08](https://github.com/665bc08) by renovate ([#19868](https://github.com/truecharts/charts/issues/19868))
+- update container image anonaddy/anonaddy to v1.1.0[@65f49a6](https://github.com/65f49a6) by renovate ([#19964](https://github.com/truecharts/charts/issues/19964))
