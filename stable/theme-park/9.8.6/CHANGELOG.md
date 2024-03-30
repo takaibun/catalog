@@ -71,11 +71,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [theme-park-9.8.5](https://github.com/truecharts/charts/compare/theme-park-9.7.0...theme-park-9.8.5) (2024-03-30)
+## [theme-park-9.8.6](https://github.com/truecharts/charts/compare/theme-park-9.7.0...theme-park-9.8.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image ghcr.io/onedr0p/theme-park to 1.16[@fa9a08f](https://github.com/fa9a08f) by renovate ([#19951](https://github.com/truecharts/charts/issues/19951))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
