@@ -74,11 +74,13 @@ title: Changelog
 - update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
 
 
-## [webtop-9.7.54](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.54) (2024-03-30)
+## [webtop-9.7.56](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.56) (2024-03-30)
 
 ### Chore
 
 
+
+- update webtop by renovate ([#19974](https://github.com/truecharts/charts/issues/19974))
 
 - update webtop by renovate ([#19961](https://github.com/truecharts/charts/issues/19961))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update webtop by renovate ([#19655](https://github.com/truecharts/charts/issues/19655))
 
 - update webtop by renovate ([#19523](https://github.com/truecharts/charts/issues/19523))
-
-- update webtop by renovate ([#19496](https://github.com/truecharts/charts/issues/19496))
