@@ -54,7 +54,7 @@ title: Changelog
 - update container image linuxserver/mylar3 to vversion-v0.8.0[@1913dcb](https://github.com/1913dcb) by renovate ([#19345](https://github.com/truecharts/charts/issues/19345))
 
 
-## [mylar-13.8.6](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.8.6) (2024-03-29)
+## [mylar-13.8.6](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.8.6) (2024-03-30)
 
 ### Chore
 
