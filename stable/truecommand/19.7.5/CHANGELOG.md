@@ -92,7 +92,7 @@ title: Changelog
 - update container image ixsystems/truecommand to v3.0.1[@df4fe22](https://github.com/df4fe22) by renovate ([#19314](https://github.com/truecharts/charts/issues/19314))
 
 
-## [truecommand-19.7.4](https://github.com/truecharts/charts/compare/truecommand-19.6.0...truecommand-19.7.4) (2024-03-27)
+## [truecommand-19.7.5](https://github.com/truecharts/charts/compare/truecommand-19.6.0...truecommand-19.7.5) (2024-03-30)
 
 ### Chore
 

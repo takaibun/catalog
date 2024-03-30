@@ -92,7 +92,7 @@ title: Changelog
 - update container image kasmweb/workspaces to v1.15.1[@1b13b4f](https://github.com/1b13b4f) by renovate ([#19316](https://github.com/truecharts/charts/issues/19316))
 
 
-## [kasm-8.7.4](https://github.com/truecharts/charts/compare/kasm-8.6.0...kasm-8.7.4) (2024-03-27)
+## [kasm-8.7.5](https://github.com/truecharts/charts/compare/kasm-8.6.0...kasm-8.7.5) (2024-03-30)
 
 ### Chore
 

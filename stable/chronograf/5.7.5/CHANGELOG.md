@@ -92,7 +92,7 @@ title: Changelog
 - update container image chronograf to latest[@ac8f8cc](https://github.com/ac8f8cc) by renovate ([#19218](https://github.com/truecharts/charts/issues/19218))
 
 
-## [chronograf-5.7.4](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.7.4) (2024-03-27)
+## [chronograf-5.7.5](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.7.5) (2024-03-30)
 
 ### Chore
 

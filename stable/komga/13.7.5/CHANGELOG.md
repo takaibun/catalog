@@ -92,7 +92,7 @@ title: Changelog
 - update container image gotson/komga to v1.10.4[@5b4f581](https://github.com/5b4f581) by renovate ([#19312](https://github.com/truecharts/charts/issues/19312))
 
 
-## [komga-13.7.4](https://github.com/truecharts/charts/compare/komga-13.6.0...komga-13.7.4) (2024-03-27)
+## [komga-13.7.5](https://github.com/truecharts/charts/compare/komga-13.6.0...komga-13.7.5) (2024-03-30)
 
 ### Chore
 

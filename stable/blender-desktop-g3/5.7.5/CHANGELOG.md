@@ -92,7 +92,7 @@ title: Changelog
 - update container image accetto/ubuntu-vnc-xfce-blender-g3 to latest[@7125ef7](https://github.com/7125ef7) by renovate ([#19212](https://github.com/truecharts/charts/issues/19212))
 
 
-## [blender-desktop-g3-5.7.4](https://github.com/truecharts/charts/compare/blender-desktop-g3-5.6.0...blender-desktop-g3-5.7.4) (2024-03-27)
+## [blender-desktop-g3-5.7.5](https://github.com/truecharts/charts/compare/blender-desktop-g3-5.6.0...blender-desktop-g3-5.7.5) (2024-03-30)
 
 ### Chore
 

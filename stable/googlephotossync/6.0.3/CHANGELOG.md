@@ -92,7 +92,7 @@ title: Changelog
 - *BREAKING CHANGES* cleanup questions ([#19713](https://github.com/truecharts/charts/issues/19713))
 
 
-## [googlephotossync-6.0.2](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.0.2) (2024-03-27)
+## [googlephotossync-6.0.3](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.0.3) (2024-03-30)
 
 ### Chore
 

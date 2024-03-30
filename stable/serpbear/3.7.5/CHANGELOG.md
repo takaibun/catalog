@@ -92,7 +92,7 @@ title: Changelog
 - update container image towfiqi/serpbear to latest[@3e61661](https://github.com/3e61661) by renovate ([#19292](https://github.com/truecharts/charts/issues/19292))
 
 
-## [serpbear-3.7.4](https://github.com/truecharts/charts/compare/serpbear-3.6.0...serpbear-3.7.4) (2024-03-27)
+## [serpbear-3.7.5](https://github.com/truecharts/charts/compare/serpbear-3.6.0...serpbear-3.7.5) (2024-03-30)
 
 ### Chore
 

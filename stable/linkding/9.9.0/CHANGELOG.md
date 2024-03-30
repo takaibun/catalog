@@ -58,11 +58,13 @@ title: Changelog
 - update container image sissbruecker/linkding to v1.24.2[@b246499](https://github.com/b246499) by renovate ([#19327](https://github.com/truecharts/charts/issues/19327))
 
 
-## [linkding-9.8.4](https://github.com/truecharts/charts/compare/linkding-9.6.0...linkding-9.8.4) (2024-03-30)
+## [linkding-9.9.0](https://github.com/truecharts/charts/compare/linkding-9.6.0...linkding-9.9.0) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image sissbruecker/linkding to v1.26.0[@5bfea74](https://github.com/5bfea74) by renovate ([#19997](https://github.com/truecharts/charts/issues/19997))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image sissbruecker/linkding to v1.25.0[@32ec417](https://github.com/32ec417) by renovate ([#19490](https://github.com/truecharts/charts/issues/19490))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))

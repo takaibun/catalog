@@ -92,7 +92,7 @@ title: Changelog
 - update container image ghcr.io/analogj/scrutiny to v0.8.0-omnibus[@426c4a3](https://github.com/426c4a3) by renovate ([#19337](https://github.com/truecharts/charts/issues/19337))
 
 
-## [scrutiny-10.8.4](https://github.com/truecharts/charts/compare/scrutiny-10.6.0...scrutiny-10.8.4) (2024-03-27)
+## [scrutiny-10.8.5](https://github.com/truecharts/charts/compare/scrutiny-10.6.0...scrutiny-10.8.5) (2024-03-30)
 
 ### Chore
 
