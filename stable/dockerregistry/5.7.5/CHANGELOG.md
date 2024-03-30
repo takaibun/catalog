@@ -31,11 +31,13 @@ title: Changelog
 - update container image registry to 2[@422c023](https://github.com/422c023) by renovate ([#19282](https://github.com/truecharts/charts/issues/19282))
 
 
-## [dockerregistry-5.7.4](https://github.com/truecharts/charts/compare/dockerregistry-5.6.0...dockerregistry-5.7.4) (2024-03-27)
+## [dockerregistry-5.7.5](https://github.com/truecharts/charts/compare/dockerregistry-5.6.0...dockerregistry-5.7.5) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [dockerregistry-5.7.4](https://github.com/truecharts/charts/compare/dockerregistry-5.6.0...dockerregistry-5.7.4) (2024-03-27)
-
-### Chore

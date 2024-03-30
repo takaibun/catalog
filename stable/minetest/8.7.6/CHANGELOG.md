@@ -31,11 +31,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/minetest to 5.8.0[@3ee96cb](https://github.com/3ee96cb) by renovate ([#19239](https://github.com/truecharts/charts/issues/19239))
 
 
-## [minetest-8.7.5](https://github.com/truecharts/charts/compare/minetest-8.6.0...minetest-8.7.5) (2024-03-29)
+## [minetest-8.7.6](https://github.com/truecharts/charts/compare/minetest-8.6.0...minetest-8.7.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image ghcr.io/linuxserver/minetest to 5.8.0[@52206a3](https://github.com/52206a3) by renovate ([#19905](https://github.com/truecharts/charts/issues/19905))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [minetest-8.7.5](https://github.com/truecharts/charts/compare/minetest-8.6.0...minetest-8.7.5) (2024-03-29)
-
-### Chore

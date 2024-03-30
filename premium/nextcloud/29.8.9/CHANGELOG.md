@@ -59,11 +59,13 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.8.8](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.8.8) (2024-03-30)
+## [nextcloud-29.8.9](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.8.9) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image tccr.io/tccr/nextcloud-fpm to v[@78a98b1](https://github.com/78a98b1) by renovate ([#19985](https://github.com/truecharts/charts/issues/19985))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 ### Docs
-

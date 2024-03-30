@@ -35,11 +35,13 @@ title: Changelog
 - update container image xwiki to 16.1.0-postgres-tomcat[@74dd45c](https://github.com/74dd45c) by renovate ([#19294](https://github.com/truecharts/charts/issues/19294))
 
 
-## [xwiki-12.9.3](https://github.com/truecharts/charts/compare/xwiki-12.7.0...xwiki-12.9.3) (2024-03-30)
+## [xwiki-12.9.4](https://github.com/truecharts/charts/compare/xwiki-12.7.0...xwiki-12.9.4) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image xwiki to 16.2.0-postgres-tomcat[@96fcb3b](https://github.com/96fcb3b) by renovate ([#19936](https://github.com/truecharts/charts/issues/19936))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image xwiki to 16.2.0-postgres-tomcat[@9cc64a9](https://github.com/9cc64a9) by renovate ([#19911](https://github.com/truecharts/charts/issues/19911))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image xwiki to v16.2.0-postgres-tomcat[@8ff43f7](https://github.com/8ff43f7) by renovate ([#19802](https://github.com/truecharts/charts/issues/19802))

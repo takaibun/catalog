@@ -33,11 +33,13 @@ title: Changelog
 - update container image linuxserver/snapdrop to latest[@9cd65cd](https://github.com/9cd65cd) by renovate ([#19268](https://github.com/truecharts/charts/issues/19268))
 
 
-## [snapdrop-9.7.6](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.7.6) (2024-03-29)
+## [snapdrop-9.7.7](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.7.7) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image linuxserver/snapdrop to latest[@1b8fbfa](https://github.com/1b8fbfa) by renovate ([#19908](https://github.com/truecharts/charts/issues/19908))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image linuxserver/snapdrop to latest[@e552b6f](https://github.com/e552b6f) by renovate ([#19588](https://github.com/truecharts/charts/issues/19588))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [trilium-notes-12.8.6](https://github.com/truecharts/charts/compare/trilium-notes-12.7.0...trilium-notes-12.8.6) (2024-03-29)
+## [trilium-notes-12.8.7](https://github.com/truecharts/charts/compare/trilium-notes-12.7.0...trilium-notes-12.8.7) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image ghcr.io/zadam/trilium to v0.63.5[@93cb2cd](https://github.com/93cb2cd) by renovate ([#19915](https://github.com/truecharts/charts/issues/19915))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [trilium-notes-12.8.6](https://github.com/truecharts/charts/compare/trilium-notes-12.7.0...trilium-notes-12.8.6) (2024-03-29)
-
-### Chore

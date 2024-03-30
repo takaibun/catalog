@@ -53,11 +53,13 @@ title: Changelog
 - Fix Missing ENV for Mail functionality ([#19767](https://github.com/truecharts/charts/issues/19767))
 
 
-## [wekan-14.15.8](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.15.8) (2024-03-27)
+## [wekan-14.15.9](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.15.9) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image mongodb to v12.7.5[@a541265](https://github.com/a541265) by renovate ([#19870](https://github.com/truecharts/charts/issues/19870))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - Fix Missing ENV for Mail functionality ([#19767](https://github.com/truecharts/charts/issues/19767))
 
-
-## [wekan-14.15.8](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.15.8) (2024-03-27)
