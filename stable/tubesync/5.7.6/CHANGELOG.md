@@ -77,11 +77,13 @@ title: Changelog
 - update container image ghcr.io/meeb/tubesync to latest[@4d50ddd](https://github.com/4d50ddd) by renovate ([#19251](https://github.com/truecharts/charts/issues/19251))
 
 
-## [tubesync-5.7.5](https://github.com/truecharts/charts/compare/tubesync-5.6.0...tubesync-5.7.5) (2024-03-27)
+## [tubesync-5.7.6](https://github.com/truecharts/charts/compare/tubesync-5.6.0...tubesync-5.7.6) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/meeb/tubesync to latest[@4d50ddd](https://github.com/4d50ddd) by renovate ([#19251](https://github.com/truecharts/charts/issues/19251))
-

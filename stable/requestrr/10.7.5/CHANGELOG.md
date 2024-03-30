@@ -71,11 +71,13 @@ title: Changelog
 - update container image thomst08/requestrr to v2.1.6[@6cdeb52](https://github.com/6cdeb52) by renovate ([#19329](https://github.com/truecharts/charts/issues/19329))
 
 
-## [requestrr-10.7.4](https://github.com/truecharts/charts/compare/requestrr-10.6.0...requestrr-10.7.4) (2024-03-27)
+## [requestrr-10.7.5](https://github.com/truecharts/charts/compare/requestrr-10.6.0...requestrr-10.7.5) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -95,5 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

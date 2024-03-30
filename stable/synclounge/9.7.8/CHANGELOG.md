@@ -89,12 +89,12 @@ title: Changelog
 - update container image ghcr.io/linuxserver/synclounge to 5.2.26[@fb4a0ce](https://github.com/fb4a0ce) by renovate ([#19248](https://github.com/truecharts/charts/issues/19248))
 
 
-## [synclounge-9.7.7](https://github.com/truecharts/charts/compare/synclounge-9.6.0...synclounge-9.7.7) (2024-03-27)
+## [synclounge-9.7.8](https://github.com/truecharts/charts/compare/synclounge-9.6.0...synclounge-9.7.8) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image ghcr.io/linuxserver/synclounge to 5.2.26[@0b3efb5](https://github.com/0b3efb5) by renovate ([#19831](https://github.com/truecharts/charts/issues/19831))
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

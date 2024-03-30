@@ -95,6 +95,6 @@ title: Changelog
 - Fix UDP Port ([#19679](https://github.com/truecharts/charts/issues/19679))
 
 
-## [wg-easy-12.1.4](https://github.com/truecharts/charts/compare/wg-easy-11.6.0...wg-easy-12.1.4) (2024-03-27)
+## [wg-easy-12.1.5](https://github.com/truecharts/charts/compare/wg-easy-11.6.0...wg-easy-12.1.5) (2024-03-30)
 
 ### Chore
