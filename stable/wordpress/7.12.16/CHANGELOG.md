@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [wordpress-7.12.16](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.12.16) (2024-03-29)
+## [wordpress-7.12.16](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.12.16) (2024-03-30)
 
 ### Chore
 

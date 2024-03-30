@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [twonky-server-5.7.6](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.7.6) (2024-03-29)
+## [twonky-server-5.7.6](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.7.6) (2024-03-30)
 
 ### Chore
 

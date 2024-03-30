@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [fileflows-10.8.11](https://github.com/truecharts/charts/compare/fileflows-10.7.0...fileflows-10.8.11) (2024-03-29)
+## [fileflows-10.8.11](https://github.com/truecharts/charts/compare/fileflows-10.7.0...fileflows-10.8.11) (2024-03-30)
 
 ### Chore
 

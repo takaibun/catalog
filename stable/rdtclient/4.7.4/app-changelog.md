@@ -1,6 +1,6 @@
 
 
-## [rdtclient-4.7.4](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.4) (2024-03-28)
+## [rdtclient-4.7.4](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.4) (2024-03-30)
 
 ### Chore
 

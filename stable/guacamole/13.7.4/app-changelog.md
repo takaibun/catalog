@@ -1,6 +1,6 @@
 
 
-## [guacamole-13.7.4](https://github.com/truecharts/charts/compare/guacamole-13.6.0...guacamole-13.7.4) (2024-03-29)
+## [guacamole-13.7.4](https://github.com/truecharts/charts/compare/guacamole-13.6.0...guacamole-13.7.4) (2024-03-30)
 
 ### Chore
 

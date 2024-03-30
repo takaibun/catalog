@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [logitech-media-server-11.7.10](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-11.7.10) (2024-03-29)
+## [logitech-media-server-11.7.10](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-11.7.10) (2024-03-30)
 
 ### Chore
 
