@@ -71,11 +71,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [borg-server-4.7.5](https://github.com/truecharts/charts/compare/borg-server-4.6.0...borg-server-4.7.5) (2024-03-30)
+## [borg-server-4.8.0](https://github.com/truecharts/charts/compare/borg-server-4.6.0...borg-server-4.8.0) (2024-03-31)
 
 ### Chore
 
 
+
+- update container image ghcr.io/anotherstranger/borg-server to v2.3.0[@295707a](https://github.com/295707a) by renovate ([#20024](https://github.com/truecharts/charts/issues/20024))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
