@@ -1,10 +1,14 @@
 
 
-## [calibre-web-18.7.6](https://github.com/truecharts/charts/compare/calibre-web-18.6.0...calibre-web-18.7.6) (2024-03-27)
+## [calibre-web-18.7.8](https://github.com/truecharts/charts/compare/calibre-web-18.6.0...calibre-web-18.7.8) (2024-03-31)
 
 ### Chore
 
 
+
+- update container image linuxserver/calibre-web to version-0.6.21[@167ae83](https://github.com/167ae83) by renovate ([#20031](https://github.com/truecharts/charts/issues/20031))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 

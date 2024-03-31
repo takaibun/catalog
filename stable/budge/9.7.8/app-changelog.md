@@ -1,10 +1,14 @@
 
 
-## [budge-9.7.6](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.7.6) (2024-03-27)
+## [budge-9.7.8](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.7.8) (2024-03-31)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/budge to 0.0.9[@f64b16b](https://github.com/f64b16b) by renovate ([#20030](https://github.com/truecharts/charts/issues/20030))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
