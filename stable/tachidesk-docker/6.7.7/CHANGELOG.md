@@ -8,13 +8,13 @@ title: Changelog
 **Important:**
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [tachidesk-docker-6.7.7](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.7) (2024-03-31)
 
 ### Chore
 
 
 
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
+- update container image ghcr.io/suwayomi/tachidesk to preview[@87283db](https://github.com/87283db) by renovate ([#20050](https://github.com/truecharts/charts/issues/20050))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -26,16 +26,16 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
+- update container image ghcr.io/suwayomi/tachidesk to preview[@c9316b8](https://github.com/c9316b8) by renovate ([#19398](https://github.com/truecharts/charts/issues/19398))
+
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [tachidesk-docker-6.7.6](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.6) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -47,16 +47,16 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
+- update container image ghcr.io/suwayomi/tachidesk to preview[@c9316b8](https://github.com/c9316b8) by renovate ([#19398](https://github.com/truecharts/charts/issues/19398))
+
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [tachidesk-docker-6.7.6](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.6) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -68,16 +68,16 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
+- update container image ghcr.io/suwayomi/tachidesk to preview[@c9316b8](https://github.com/c9316b8) by renovate ([#19398](https://github.com/truecharts/charts/issues/19398))
+
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [tachidesk-docker-6.7.6](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.6) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -89,11 +89,11 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
+- update container image ghcr.io/suwayomi/tachidesk to preview[@c9316b8](https://github.com/c9316b8) by renovate ([#19398](https://github.com/truecharts/charts/issues/19398))
+
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.5](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.5) (2024-03-30)
+## [tachidesk-docker-6.7.6](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.6) (2024-03-30)
 
 ### Chore
-
-

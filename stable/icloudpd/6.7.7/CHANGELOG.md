@@ -8,15 +8,17 @@ title: Changelog
 **Important:**
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [icloudpd-6.7.7](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.7) (2024-03-31)
 
 ### Chore
 
 
 
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
+- update container image boredazfcuk/icloudpd to v1.0.731[@f289b78](https://github.com/f289b78) by renovate ([#20053](https://github.com/truecharts/charts/issues/20053))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image boredazfcuk/icloudpd to v1.0.730[@08227d1](https://github.com/08227d1) by renovate ([#19888](https://github.com/truecharts/charts/issues/19888))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -29,15 +31,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [icloudpd-6.7.6](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.6) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image boredazfcuk/icloudpd to v1.0.730[@08227d1](https://github.com/08227d1) by renovate ([#19888](https://github.com/truecharts/charts/issues/19888))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -50,15 +52,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [icloudpd-6.7.6](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.6) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image boredazfcuk/icloudpd to v1.0.730[@08227d1](https://github.com/08227d1) by renovate ([#19888](https://github.com/truecharts/charts/issues/19888))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -71,15 +73,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [icloudpd-6.7.6](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.6) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image boredazfcuk/icloudpd to v1.0.730[@08227d1](https://github.com/08227d1) by renovate ([#19888](https://github.com/truecharts/charts/issues/19888))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -92,8 +94,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.5](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.5) (2024-03-30)
+## [icloudpd-6.7.6](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.6) (2024-03-30)
 
 ### Chore
-
-

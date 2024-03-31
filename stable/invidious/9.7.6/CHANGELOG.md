@@ -8,13 +8,13 @@ title: Changelog
 **Important:**
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [invidious-9.7.6](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.7.6) (2024-03-31)
 
 ### Chore
 
 
 
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
+- update container image quay.io/invidious/invidious to latest[@b46c32a](https://github.com/b46c32a) by renovate ([#20051](https://github.com/truecharts/charts/issues/20051))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -29,13 +29,11 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [invidious-9.7.5](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.7.5) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -50,13 +48,11 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [invidious-9.7.5](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.7.5) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -71,13 +67,11 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [invidious-9.7.5](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.7.5) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -92,8 +86,14 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.5](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.5) (2024-03-30)
+## [invidious-9.7.5](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.7.5) (2024-03-30)
 
 ### Chore
 
 
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+
+- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
