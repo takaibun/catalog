@@ -66,11 +66,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/speedtest-tracker to v0.18.3[@85071b7](https://github.com/85071b7) by renovate ([#19307](https://github.com/truecharts/charts/issues/19307))
 
 
-## [speedtest-tracker-1.8.5](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.5) (2024-03-30)
+## [speedtest-tracker-1.8.6](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.6) (2024-03-31)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/speedtest-tracker to v0.18.4[@3a690db](https://github.com/3a690db) by renovate ([#20034](https://github.com/truecharts/charts/issues/20034))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [speedtest-tracker-1.8.5](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.5) (2024-03-30)
 
 ### Chore
-
