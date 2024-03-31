@@ -1,6 +1,6 @@
 
 
-## [duckdns-9.7.7](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-9.7.7) (2024-03-30)
+## [duckdns-9.7.7](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-9.7.7) (2024-03-31)
 
 ### Chore
 

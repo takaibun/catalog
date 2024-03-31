@@ -1,6 +1,6 @@
 
 
-## [portainer-8.9.4](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.4) (2024-03-30)
+## [portainer-8.9.4](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.4) (2024-03-31)
 
 ### Chore
 

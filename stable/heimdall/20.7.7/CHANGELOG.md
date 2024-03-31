@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [heimdall-20.7.7](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.7) (2024-03-30)
+## [heimdall-20.7.7](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.7) (2024-03-31)
 
 ### Chore
 

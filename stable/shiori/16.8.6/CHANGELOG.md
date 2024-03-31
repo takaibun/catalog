@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [shiori-16.8.6](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.8.6) (2024-03-30)
+## [shiori-16.8.6](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.8.6) (2024-03-31)
 
 ### Chore
 

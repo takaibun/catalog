@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [xen-orchestra-8.9.1](https://github.com/truecharts/charts/compare/xen-orchestra-8.7.0...xen-orchestra-8.9.1) (2024-03-30)
+## [xen-orchestra-8.9.1](https://github.com/truecharts/charts/compare/xen-orchestra-8.7.0...xen-orchestra-8.9.1) (2024-03-31)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [theme-park-9.8.6](https://github.com/truecharts/charts/compare/theme-park-9.7.0...theme-park-9.8.6) (2024-03-30)
+## [theme-park-9.8.6](https://github.com/truecharts/charts/compare/theme-park-9.7.0...theme-park-9.8.6) (2024-03-31)
 
 ### Chore
 
