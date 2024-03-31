@@ -62,7 +62,7 @@ title: Changelog
 - update container image ghcr.io/linuxserver/tvheadend to latest[@b04a8ce](https://github.com/b04a8ce) by renovate ([#19354](https://github.com/truecharts/charts/issues/19354))
 
 
-## [tvheadend-19.7.8](https://github.com/truecharts/charts/compare/tvheadend-19.6.0...tvheadend-19.7.8) (2024-03-30)
+## [tvheadend-19.7.8](https://github.com/truecharts/charts/compare/tvheadend-19.6.0...tvheadend-19.7.8) (2024-03-31)
 
 ### Chore
 
@@ -89,12 +89,12 @@ title: Changelog
 - update container image ghcr.io/linuxserver/tvheadend to latest[@b04a8ce](https://github.com/b04a8ce) by renovate ([#19354](https://github.com/truecharts/charts/issues/19354))
 
 
-## [tvheadend-19.7.7](https://github.com/truecharts/charts/compare/tvheadend-19.6.0...tvheadend-19.7.7) (2024-03-30)
+## [tvheadend-19.7.8](https://github.com/truecharts/charts/compare/tvheadend-19.6.0...tvheadend-19.7.8) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image ghcr.io/linuxserver/tvheadend to latest[@24ef289](https://github.com/24ef289) by renovate ([#20007](https://github.com/truecharts/charts/issues/20007))
 
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

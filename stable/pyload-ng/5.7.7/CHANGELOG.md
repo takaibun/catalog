@@ -58,7 +58,7 @@ title: Changelog
 - update container image lscr.io/linuxserver/pyload-ng to latest[@59d3b48](https://github.com/59d3b48) by renovate ([#19271](https://github.com/truecharts/charts/issues/19271))
 
 
-## [pyload-ng-5.7.7](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.7.7) (2024-03-30)
+## [pyload-ng-5.7.7](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.7.7) (2024-03-31)
 
 ### Chore
 
