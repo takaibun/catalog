@@ -65,11 +65,13 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.8.11](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.8.11) (2024-04-01)
+## [nextcloud-29.8.12](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.8.12) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image nginxinc/nginx-unprivileged to 1.25.4[@a464d52](https://github.com/a464d52) by renovate ([#20080](https://github.com/truecharts/charts/issues/20080))
 
 - update container image clamav/clamav to 1.3.0[@2f089bf](https://github.com/2f089bf) by renovate ([#20075](https://github.com/truecharts/charts/issues/20075))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image tccr.io/tccr/nextcloud-push-notify to v0.6.10[@f175c4f](https://github.com/f175c4f) by renovate ([#19536](https://github.com/truecharts/charts/issues/19536))
 
 - update container image nginxinc/nginx-unprivileged to 1.25.4[@898edc7](https://github.com/898edc7) by renovate ([#19448](https://github.com/truecharts/charts/issues/19448))
-
-- update container image clamav/clamav to 1.3.0[@866bbd5](https://github.com/866bbd5) by renovate ([#19444](https://github.com/truecharts/charts/issues/19444))
