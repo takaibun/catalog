@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [fluidd-9.8.5](https://github.com/truecharts/charts/compare/fluidd-9.6.0...fluidd-9.8.5) (2024-03-30)
+## [fluidd-9.8.6](https://github.com/truecharts/charts/compare/fluidd-9.6.0...fluidd-9.8.6) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image ghcr.io/fluidd-core/fluidd to v1.29.1[@1cce172](https://github.com/1cce172) by renovate ([#20072](https://github.com/truecharts/charts/issues/20072))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [fluidd-9.8.5](https://github.com/truecharts/charts/compare/fluidd-9.6.0...fluidd-9.8.5) (2024-03-30)

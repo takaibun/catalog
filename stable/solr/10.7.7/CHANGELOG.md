@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [solr-10.7.6](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.6) (2024-03-30)
+## [solr-10.7.7](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.7) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image bitnami/solr to 9.5.0[@f1b568f](https://github.com/f1b568f) by renovate ([#20062](https://github.com/truecharts/charts/issues/20062))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [solr-10.7.6](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.6) (2024-03-30)
