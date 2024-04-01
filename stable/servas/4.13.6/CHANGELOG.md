@@ -51,11 +51,13 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [servas-4.13.5](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.13.5) (2024-03-30)
+## [servas-4.13.6](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.13.6) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 
 - update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
 
@@ -95,5 +97,3 @@ title: Changelog
 ## [servas-4.13.5](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.13.5) (2024-03-30)
 
 ### Chore
-
-

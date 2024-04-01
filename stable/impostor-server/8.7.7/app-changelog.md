@@ -1,10 +1,14 @@
 
 
-## [impostor-server-8.7.5](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.5) (2024-03-30)
+## [impostor-server-8.7.7](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.7) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image aeonlucid/impostor to nightly[@1dafaf6](https://github.com/1dafaf6) by renovate ([#20087](https://github.com/truecharts/charts/issues/20087))
+
+- update container image aeonlucid/impostor to nightly[@b89da34](https://github.com/b89da34) by renovate ([#20002](https://github.com/truecharts/charts/issues/20002))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
