@@ -8,17 +8,17 @@ title: Changelog
 **Important:**
 
 
-## [impostor-server-8.7.7](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.7) (2024-04-01)
+## [dns-doh-companion-5.7.8](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.7.8) (2024-04-01)
 
 ### Chore
 
 
 
-- update container image aeonlucid/impostor to nightly[@1dafaf6](https://github.com/1dafaf6) by renovate ([#20087](https://github.com/truecharts/charts/issues/20087))
-
-- update container image aeonlucid/impostor to nightly[@b89da34](https://github.com/b89da34) by renovate ([#20002](https://github.com/truecharts/charts/issues/20002))
+- update container image testdasi/simple-dns-doh to latest[@5e1d672](https://github.com/5e1d672) by renovate ([#20106](https://github.com/truecharts/charts/issues/20106))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -26,22 +26,22 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image testdasi/simple-dns-doh to latest[@8b26a47](https://github.com/8b26a47) by renovate ([#19558](https://github.com/truecharts/charts/issues/19558))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [impostor-server-8.7.7](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.7) (2024-04-01)
+## [dns-doh-companion-5.7.7](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.7.7) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image aeonlucid/impostor to nightly[@1dafaf6](https://github.com/1dafaf6) by renovate ([#20087](https://github.com/truecharts/charts/issues/20087))
-
-- update container image aeonlucid/impostor to nightly[@b89da34](https://github.com/b89da34) by renovate ([#20002](https://github.com/truecharts/charts/issues/20002))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -49,22 +49,22 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image testdasi/simple-dns-doh to latest[@8b26a47](https://github.com/8b26a47) by renovate ([#19558](https://github.com/truecharts/charts/issues/19558))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [impostor-server-8.7.7](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.7) (2024-04-01)
+## [dns-doh-companion-5.7.7](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.7.7) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image aeonlucid/impostor to nightly[@1dafaf6](https://github.com/1dafaf6) by renovate ([#20087](https://github.com/truecharts/charts/issues/20087))
-
-- update container image aeonlucid/impostor to nightly[@b89da34](https://github.com/b89da34) by renovate ([#20002](https://github.com/truecharts/charts/issues/20002))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -72,22 +72,22 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image testdasi/simple-dns-doh to latest[@8b26a47](https://github.com/8b26a47) by renovate ([#19558](https://github.com/truecharts/charts/issues/19558))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [impostor-server-8.7.7](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.7) (2024-04-01)
+## [dns-doh-companion-5.7.7](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.7.7) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image aeonlucid/impostor to nightly[@1dafaf6](https://github.com/1dafaf6) by renovate ([#20087](https://github.com/truecharts/charts/issues/20087))
-
-- update container image aeonlucid/impostor to nightly[@b89da34](https://github.com/b89da34) by renovate ([#20002](https://github.com/truecharts/charts/issues/20002))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -95,6 +95,6 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+- update container image testdasi/simple-dns-doh to latest[@8b26a47](https://github.com/8b26a47) by renovate ([#19558](https://github.com/truecharts/charts/issues/19558))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
