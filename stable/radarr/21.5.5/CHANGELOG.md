@@ -29,7 +29,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/radarr to 5.3.6.8612[@431f4d8](https://github.com/431f4d8) by renovate ([#19257](https://github.com/truecharts/charts/issues/19257))
 
 
-## [radarr-21.5.5](https://github.com/truecharts/charts/compare/radarr-21.4.0...radarr-21.5.5) (2024-03-30)
+## [radarr-21.5.5](https://github.com/truecharts/charts/compare/radarr-21.4.0...radarr-21.5.5) (2024-04-01)
 
 ### Chore
 
