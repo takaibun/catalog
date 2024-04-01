@@ -90,10 +90,10 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [chevereto-12.12.11](https://github.com/truecharts/charts/compare/chevereto-12.9.0...chevereto-12.12.11) (2024-03-30)
+## [chevereto-12.12.12](https://github.com/truecharts/charts/compare/chevereto-12.9.0...chevereto-12.12.12) (2024-04-01)
 
 ### Chore
 
 
 
-- update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
+- update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
