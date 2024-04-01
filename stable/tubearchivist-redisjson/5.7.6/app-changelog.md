@@ -1,6 +1,6 @@
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-03-31)
+## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-04-01)
 
 ### Chore
 

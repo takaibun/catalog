@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [authelia-23.9.5](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.9.5) (2024-03-31)
+## [authelia-23.9.5](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.9.5) (2024-04-01)
 
 ### Chore
 

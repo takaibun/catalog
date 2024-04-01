@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [budge-9.7.8](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.7.8) (2024-03-31)
+## [budge-9.7.8](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.7.8) (2024-04-01)
 
 ### Chore
 

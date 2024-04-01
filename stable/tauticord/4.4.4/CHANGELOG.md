@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [tauticord-4.4.4](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-4.4.4) (2024-03-31)
+## [tauticord-4.4.4](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-4.4.4) (2024-04-01)
 
 ### Chore
 

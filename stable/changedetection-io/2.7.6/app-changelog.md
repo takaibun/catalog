@@ -1,6 +1,6 @@
 
 
-## [changedetection-io-2.7.6](https://github.com/truecharts/charts/compare/changedetection-io-2.6.0...changedetection-io-2.7.6) (2024-03-31)
+## [changedetection-io-2.7.6](https://github.com/truecharts/charts/compare/changedetection-io-2.6.0...changedetection-io-2.7.6) (2024-04-01)
 
 ### Chore
 
