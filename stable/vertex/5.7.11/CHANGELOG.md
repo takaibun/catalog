@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [vertex-5.7.11](https://github.com/truecharts/charts/compare/vertex-5.6.0...vertex-5.7.11) (2024-04-01)
+## [vertex-5.7.11](https://github.com/truecharts/charts/compare/vertex-5.6.0...vertex-5.7.11) (2024-04-02)
 
 ### Chore
 

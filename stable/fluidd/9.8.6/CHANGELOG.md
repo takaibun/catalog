@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [fluidd-9.8.6](https://github.com/truecharts/charts/compare/fluidd-9.6.0...fluidd-9.8.6) (2024-04-01)
+## [fluidd-9.8.6](https://github.com/truecharts/charts/compare/fluidd-9.6.0...fluidd-9.8.6) (2024-04-02)
 
 ### Chore
 

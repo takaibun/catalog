@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [duckdns-9.7.8](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-9.7.8) (2024-04-01)
+## [duckdns-9.7.8](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-9.7.8) (2024-04-02)
 
 ### Chore
 

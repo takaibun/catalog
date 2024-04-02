@@ -1,6 +1,6 @@
 
 
-## [webnut-8.7.6](https://github.com/truecharts/charts/compare/webnut-8.6.0...webnut-8.7.6) (2024-04-01)
+## [webnut-8.7.6](https://github.com/truecharts/charts/compare/webnut-8.6.0...webnut-8.7.6) (2024-04-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [speedtest-tracker-1.8.7](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.7) (2024-04-01)
+## [speedtest-tracker-1.8.7](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.7) (2024-04-02)
 
 ### Chore
 

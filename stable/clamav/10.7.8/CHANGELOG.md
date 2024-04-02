@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [clamav-10.7.8](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.7.8) (2024-04-01)
+## [clamav-10.7.8](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.7.8) (2024-04-02)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [solr-10.7.7](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.7) (2024-04-01)
+## [solr-10.7.7](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.7) (2024-04-02)
 
 ### Chore
 
