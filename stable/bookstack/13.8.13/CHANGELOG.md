@@ -94,6 +94,6 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [bookstack-13.8.12](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-13.8.12) (2024-04-01)
+## [bookstack-13.8.13](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-13.8.13) (2024-04-02)
 
 ### Chore
