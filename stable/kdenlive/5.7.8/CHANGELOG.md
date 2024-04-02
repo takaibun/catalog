@@ -58,7 +58,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [kdenlive-5.7.8](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-5.7.8) (2024-04-01)
+## [kdenlive-5.7.8](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-5.7.8) (2024-04-02)
 
 ### Chore
 
@@ -83,11 +83,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [kdenlive-5.7.7](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-5.7.7) (2024-03-30)
+## [kdenlive-5.7.8](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-5.7.8) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image lscr.io/linuxserver/kdenlive to latest[@4f03ef4](https://github.com/4f03ef4) by renovate ([#20103](https://github.com/truecharts/charts/issues/20103))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image lscr.io/linuxserver/kdenlive to latest[@2e7fe49](https://github.com/2e7fe49) by renovate ([#19783](https://github.com/truecharts/charts/issues/19783))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
