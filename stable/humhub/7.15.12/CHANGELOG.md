@@ -57,11 +57,13 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [humhub-7.15.10](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-7.15.10) (2024-04-02)
+## [humhub-7.15.12](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-7.15.12) (2024-04-02)
 
 ### Chore
 
 
+
+- update humhub to v1.15.4[@2ec9dee](https://github.com/2ec9dee) by renovate (patch) ([#20138](https://github.com/truecharts/charts/issues/20138))
 
 - update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19390](https://github.com/truecharts/charts/issues/19390))
 
 - update container image mariadb to v13.6.0[@da7a483](https://github.com/da7a483) by renovate ([#19362](https://github.com/truecharts/charts/issues/19362))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
