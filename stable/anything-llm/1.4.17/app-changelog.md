@@ -1,10 +1,14 @@
 
 
-## [anything-llm-1.4.15](https://github.com/truecharts/charts/compare/anything-llm-1.3.0...anything-llm-1.4.15) (2024-03-31)
+## [anything-llm-1.4.17](https://github.com/truecharts/charts/compare/anything-llm-1.3.0...anything-llm-1.4.17) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@a67cae2](https://github.com/a67cae2) by renovate ([#20125](https://github.com/truecharts/charts/issues/20125))
+
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@8f5b0de](https://github.com/8f5b0de) by renovate ([#20118](https://github.com/truecharts/charts/issues/20118))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
