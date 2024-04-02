@@ -1,10 +1,14 @@
 
 
-## [webtop-9.7.56](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.56) (2024-03-30)
+## [webtop-9.7.73](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.73) (2024-04-02)
 
 ### Chore
 
 
+
+- update webtop by renovate ([#20128](https://github.com/truecharts/charts/issues/20128))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update webtop by renovate ([#19974](https://github.com/truecharts/charts/issues/19974))
 

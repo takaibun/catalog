@@ -33,11 +33,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [nzbhydra-19.7.7](https://github.com/truecharts/charts/compare/nzbhydra-19.6.0...nzbhydra-19.7.7) (2024-03-30)
+## [nzbhydra-20.0.0](https://github.com/truecharts/charts/compare/nzbhydra-19.6.0...nzbhydra-20.0.0) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image ghcr.io/geek-cookbook/nzbhydra2 to v6.0.0[@46b5142](https://github.com/46b5142) by renovate ([#20095](https://github.com/truecharts/charts/issues/20095))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image ghcr.io/geek-cookbook/nzbhydra2 to v5.3.10[@5897938](https://github.com/5897938) by renovate ([#19473](https://github.com/truecharts/charts/issues/19473))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
