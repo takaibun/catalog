@@ -1,10 +1,14 @@
 
 
-## [docker-6.0.6](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.0.6) (2024-03-30)
+## [docker-6.0.8](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.0.8) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image docker to 26.0.0-dind[@7ff986c](https://github.com/7ff986c) by renovate ([#20133](https://github.com/truecharts/charts/issues/20133))
+
+- update container image docker to 26.0.0-dind[@557204d](https://github.com/557204d) by renovate ([#20124](https://github.com/truecharts/charts/issues/20124))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
