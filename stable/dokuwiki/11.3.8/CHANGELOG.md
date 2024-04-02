@@ -33,7 +33,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [dokuwiki-11.3.8](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-11.3.8) (2024-04-01)
+## [dokuwiki-11.3.8](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-11.3.8) (2024-04-02)
 
 ### Chore
 
@@ -83,11 +83,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [dokuwiki-11.3.7](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-11.3.7) (2024-04-01)
+## [dokuwiki-11.3.8](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-11.3.8) (2024-04-01)
 
 ### Chore
 
 
+
+- update container image bitnami/dokuwiki to 20240206.1.0[@28c3ab0](https://github.com/28c3ab0) by renovate ([#20098](https://github.com/truecharts/charts/issues/20098))
 
 - update container image bitnami/dokuwiki to 20240206.1.0[@341af3b](https://github.com/341af3b) by renovate ([#20045](https://github.com/truecharts/charts/issues/20045))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
