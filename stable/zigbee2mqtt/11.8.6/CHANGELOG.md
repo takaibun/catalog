@@ -71,7 +71,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [zigbee2mqtt-11.8.6](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.6) (2024-04-01)
+## [zigbee2mqtt-11.8.6](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.6) (2024-04-02)
 
 ### Chore
 
@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [zigbee2mqtt-11.8.5](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.5) (2024-03-30)
+## [zigbee2mqtt-11.8.6](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.6) (2024-04-01)
 
 ### Chore
 

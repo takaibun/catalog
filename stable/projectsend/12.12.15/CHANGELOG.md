@@ -55,11 +55,13 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [projectsend-12.12.14](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-12.12.14) (2024-04-01)
+## [projectsend-12.12.15](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-12.12.15) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/projectsend to latest[@c7bd5de](https://github.com/c7bd5de) by renovate ([#20117](https://github.com/truecharts/charts/issues/20117))
 
 - update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mariadb to v13.6.0[@da7a483](https://github.com/da7a483) by renovate ([#19362](https://github.com/truecharts/charts/issues/19362))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-- update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
