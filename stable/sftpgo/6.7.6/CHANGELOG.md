@@ -58,7 +58,7 @@ title: Changelog
 - add plugins and docs ([#20144](https://github.com/truecharts/charts/issues/20144))
 
 
-## [sftpgo-6.7.5](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.7.5) (2024-03-30)
+## [sftpgo-6.7.6](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.7.6) (2024-04-02)
 
 ### Chore
 
@@ -76,6 +76,12 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+### Feat
+
+
+
+- add plugins and docs ([#20144](https://github.com/truecharts/charts/issues/20144))
+
 
 ## [sftpgo-6.7.5](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.7.5) (2024-03-30)
 
@@ -92,8 +98,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-
-## [sftpgo-6.7.5](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.7.5) (2024-03-30)
