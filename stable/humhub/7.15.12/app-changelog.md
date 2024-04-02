@@ -1,10 +1,14 @@
 
 
-## [humhub-7.15.9](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-7.15.9) (2024-04-02)
+## [humhub-7.15.12](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-7.15.12) (2024-04-02)
 
 ### Chore
 
 
+
+- update humhub to v1.15.4[@2ec9dee](https://github.com/2ec9dee) by renovate (patch) ([#20138](https://github.com/truecharts/charts/issues/20138))
+
+- update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
 
 - update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 

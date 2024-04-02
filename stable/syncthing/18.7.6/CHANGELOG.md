@@ -71,11 +71,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [syncthing-18.7.5](https://github.com/truecharts/charts/compare/syncthing-18.6.0...syncthing-18.7.5) (2024-03-30)
+## [syncthing-18.7.6](https://github.com/truecharts/charts/compare/syncthing-18.6.0...syncthing-18.7.6) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image syncthing/syncthing to v1.27.5[@5414b27](https://github.com/5414b27) by renovate ([#20130](https://github.com/truecharts/charts/issues/20130))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

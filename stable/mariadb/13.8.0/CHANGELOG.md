@@ -35,11 +35,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [mariadb-13.7.8](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.7.8) (2024-04-02)
+## [mariadb-13.8.0](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.8.0) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
 
 - update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image bitnami/mariadb to 11.2.3[@6192a35](https://github.com/6192a35) by renovate ([#20057](https://github.com/truecharts/charts/issues/20057))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

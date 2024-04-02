@@ -45,11 +45,13 @@ title: Changelog
 - update container image ghcr.io/nwithan8/tauticord to v4.1.1[@485f6ca](https://github.com/485f6ca) by renovate ([#19342](https://github.com/truecharts/charts/issues/19342))
 
 
-## [tauticord-5.0.0](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-5.0.0) (2024-04-02)
+## [tauticord-5.1.0](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-5.1.0) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image ghcr.io/nwithan8/tauticord to v5.1.0[@cc1aed9](https://github.com/cc1aed9) by renovate ([#20142](https://github.com/truecharts/charts/issues/20142))
 
 - update container image ghcr.io/nwithan8/tauticord to v5.0.0[@c1c12f6](https://github.com/c1c12f6) by renovate ([#20055](https://github.com/truecharts/charts/issues/20055))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image ghcr.io/nwithan8/tauticord to v4.2.0[@7be80ef](https://github.com/7be80ef) by renovate ([#19775](https://github.com/truecharts/charts/issues/19775))
