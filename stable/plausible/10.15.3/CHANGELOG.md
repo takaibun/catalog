@@ -86,14 +86,14 @@ title: Changelog
 - update container image clickhouse to v12.6.4[@d0026b3](https://github.com/d0026b3) by renovate ([#19298](https://github.com/truecharts/charts/issues/19298))
 
 
-## [plausible-10.15.2](https://github.com/truecharts/charts/compare/plausible-10.11.0...plausible-10.15.2) (2024-03-30)
+## [plausible-10.15.3](https://github.com/truecharts/charts/compare/plausible-10.11.0...plausible-10.15.3) (2024-04-03)
 
 ### Chore
 
 
 
+- update container image clickhouse to v12.9.2[@8ddfdfb](https://github.com/8ddfdfb) by renovate ([#20195](https://github.com/truecharts/charts/issues/20195))
+
 - update container image clickhouse to v12.9.1[@3f15dba](https://github.com/3f15dba) by renovate ([#20009](https://github.com/truecharts/charts/issues/20009))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image clickhouse to v12.9.0[@8ff7c83](https://github.com/8ff7c83) by renovate ([#19891](https://github.com/truecharts/charts/issues/19891))
