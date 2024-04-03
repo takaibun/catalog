@@ -1,10 +1,14 @@
 
 
-## [healthchecks-14.7.6](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.7.6) (2024-03-27)
+## [healthchecks-14.8.0](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.8.0) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/healthchecks to v3.3.20240403[@58845e7](https://github.com/58845e7) by renovate ([#20199](https://github.com/truecharts/charts/issues/20199))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 

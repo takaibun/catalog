@@ -1,10 +1,14 @@
 
 
-## [medusa-10.7.6](https://github.com/truecharts/charts/compare/medusa-10.6.0...medusa-10.7.6) (2024-03-29)
+## [medusa-10.7.8](https://github.com/truecharts/charts/compare/medusa-10.6.0...medusa-10.7.8) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/medusa to v1.0.21[@73252eb](https://github.com/73252eb) by renovate ([#20196](https://github.com/truecharts/charts/issues/20196))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image ghcr.io/linuxserver/medusa to v1.0.20[@649c2f1](https://github.com/649c2f1) by renovate ([#19889](https://github.com/truecharts/charts/issues/19889))
 
