@@ -1,6 +1,6 @@
 
 
-## [mediainfo-9.8.0](https://github.com/truecharts/charts/compare/mediainfo-9.6.0...mediainfo-9.8.0) (2024-04-02)
+## [mediainfo-9.8.0](https://github.com/truecharts/charts/compare/mediainfo-9.6.0...mediainfo-9.8.0) (2024-04-03)
 
 ### Chore
 

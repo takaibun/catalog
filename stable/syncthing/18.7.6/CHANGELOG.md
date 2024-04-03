@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [syncthing-18.7.6](https://github.com/truecharts/charts/compare/syncthing-18.6.0...syncthing-18.7.6) (2024-04-02)
+## [syncthing-18.7.6](https://github.com/truecharts/charts/compare/syncthing-18.6.0...syncthing-18.7.6) (2024-04-03)
 
 ### Chore
 

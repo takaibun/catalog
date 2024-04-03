@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [mkvtoolnix-10.8.0](https://github.com/truecharts/charts/compare/mkvtoolnix-10.6.0...mkvtoolnix-10.8.0) (2024-04-02)
+## [mkvtoolnix-10.8.0](https://github.com/truecharts/charts/compare/mkvtoolnix-10.6.0...mkvtoolnix-10.8.0) (2024-04-03)
 
 ### Chore
 
@@ -50,11 +50,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [mkvtoolnix-10.7.5](https://github.com/truecharts/charts/compare/mkvtoolnix-10.6.0...mkvtoolnix-10.7.5) (2024-03-30)
+## [mkvtoolnix-10.8.0](https://github.com/truecharts/charts/compare/mkvtoolnix-10.6.0...mkvtoolnix-10.8.0) (2024-04-02)
 
 ### Chore
 
 
+
+- update container image jlesage/mkvtoolnix to v24.04.1[@63e205a](https://github.com/63e205a) by renovate ([#20155](https://github.com/truecharts/charts/issues/20155))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

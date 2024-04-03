@@ -1,6 +1,6 @@
 
 
-## [scrypted-4.8.0](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.8.0) (2024-04-02)
+## [scrypted-4.8.0](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.8.0) (2024-04-03)
 
 ### Chore
 

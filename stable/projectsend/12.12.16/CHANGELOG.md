@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [projectsend-12.12.16](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-12.12.16) (2024-04-02)
+## [projectsend-12.12.16](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-12.12.16) (2024-04-03)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [jupyter-8.7.5](https://github.com/truecharts/charts/compare/jupyter-8.6.0...jupyter-8.7.5) (2024-04-02)
+## [jupyter-8.7.5](https://github.com/truecharts/charts/compare/jupyter-8.6.0...jupyter-8.7.5) (2024-04-03)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [libremdb-7.8.42](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-7.8.42) (2024-04-02)
+## [libremdb-7.8.42](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-7.8.42) (2024-04-03)
 
 ### Chore
 

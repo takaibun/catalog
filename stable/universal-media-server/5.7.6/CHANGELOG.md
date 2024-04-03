@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [universal-media-server-5.7.6](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-5.7.6) (2024-04-02)
+## [universal-media-server-5.7.6](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-5.7.6) (2024-04-03)
 
 ### Chore
 
