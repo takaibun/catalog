@@ -33,7 +33,7 @@ title: Changelog
 - add plugins and docs ([#20144](https://github.com/truecharts/charts/issues/20144))
 
 
-## [sftpgo-6.7.6](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.7.6) (2024-04-02)
+## [sftpgo-6.7.6](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.7.6) (2024-04-03)
 
 ### Chore
 

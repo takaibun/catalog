@@ -1,10 +1,14 @@
 
 
-## [mariadb-13.7.8](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.7.8) (2024-04-02)
+## [mariadb-13.8.1](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.8.1) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image bitnami/mariadb to 11.3.2[@a4fcb09](https://github.com/a4fcb09) by renovate ([#20159](https://github.com/truecharts/charts/issues/20159))
+
+- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
 
 - update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
 
