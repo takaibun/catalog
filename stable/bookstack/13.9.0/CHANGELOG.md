@@ -53,11 +53,13 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [bookstack-13.8.13](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-13.8.13) (2024-04-02)
+## [bookstack-13.9.0](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-13.9.0) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image mariadb to v13.8.0[@3e48b89](https://github.com/3e48b89) by renovate ([#20156](https://github.com/truecharts/charts/issues/20156))
 
 - update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
-
-## [bookstack-13.8.13](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-13.8.13) (2024-04-02)

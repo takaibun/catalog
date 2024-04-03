@@ -59,11 +59,13 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [anonaddy-20.16.4](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-20.16.4) (2024-04-02)
+## [anonaddy-20.17.0](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-20.17.0) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image mariadb to v13.8.0[@3e48b89](https://github.com/3e48b89) by renovate ([#20156](https://github.com/truecharts/charts/issues/20156))
 
 - update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image mariadb to v13.7.0[@dec1ae1](https://github.com/dec1ae1) by renovate ([#19393](https://github.com/truecharts/charts/issues/19393))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19390](https://github.com/truecharts/charts/issues/19390))
