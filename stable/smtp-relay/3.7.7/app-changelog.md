@@ -1,10 +1,14 @@
 
 
-## [smtp-relay-3.7.5](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.5) (2024-03-30)
+## [smtp-relay-3.7.7](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.7) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image ghcr.io/ix-ai/smtp to v0.5.2[@34f0884](https://github.com/34f0884) by renovate ([#20179](https://github.com/truecharts/charts/issues/20179))
+
+- update container image ghcr.io/ix-ai/smtp to v0.5.2[@2e21208](https://github.com/2e21208) by renovate ([#20146](https://github.com/truecharts/charts/issues/20146))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
