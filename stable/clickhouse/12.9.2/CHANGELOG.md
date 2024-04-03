@@ -8,17 +8,17 @@ title: Changelog
 **Important:**
 
 
-## [smtp-relay-3.7.7](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.7) (2024-04-03)
+## [clickhouse-12.9.2](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.9.2) (2024-04-03)
 
 ### Chore
 
 
 
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@34f0884](https://github.com/34f0884) by renovate ([#20179](https://github.com/truecharts/charts/issues/20179))
-
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@2e21208](https://github.com/2e21208) by renovate ([#20146](https://github.com/truecharts/charts/issues/20146))
+- update container image clickhouse/clickhouse-server to v24.3.2.23[@c96ce34](https://github.com/c96ce34) by renovate ([#20181](https://github.com/truecharts/charts/issues/20181))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image clickhouse/clickhouse-server to v24.3.1.2672[@c92d2e1](https://github.com/c92d2e1) by renovate ([#19879](https://github.com/truecharts/charts/issues/19879))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -30,18 +30,18 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image clickhouse/clickhouse-server to v24.2.2.71[@fc9b0ac](https://github.com/fc9b0ac) by renovate ([#19299](https://github.com/truecharts/charts/issues/19299))
 
-## [smtp-relay-3.7.7](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.7) (2024-04-03)
+
+## [clickhouse-12.9.1](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.9.1) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@34f0884](https://github.com/34f0884) by renovate ([#20179](https://github.com/truecharts/charts/issues/20179))
-
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@2e21208](https://github.com/2e21208) by renovate ([#20146](https://github.com/truecharts/charts/issues/20146))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image clickhouse/clickhouse-server to v24.3.1.2672[@c92d2e1](https://github.com/c92d2e1) by renovate ([#19879](https://github.com/truecharts/charts/issues/19879))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -53,16 +53,18 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image clickhouse/clickhouse-server to v24.2.2.71[@fc9b0ac](https://github.com/fc9b0ac) by renovate ([#19299](https://github.com/truecharts/charts/issues/19299))
 
-## [smtp-relay-3.7.6](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.6) (2024-04-03)
+
+## [clickhouse-12.9.1](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.9.1) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@2e21208](https://github.com/2e21208) by renovate ([#20146](https://github.com/truecharts/charts/issues/20146))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image clickhouse/clickhouse-server to v24.3.1.2672[@c92d2e1](https://github.com/c92d2e1) by renovate ([#19879](https://github.com/truecharts/charts/issues/19879))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -74,16 +76,18 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image clickhouse/clickhouse-server to v24.2.2.71[@fc9b0ac](https://github.com/fc9b0ac) by renovate ([#19299](https://github.com/truecharts/charts/issues/19299))
 
-## [smtp-relay-3.7.6](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.6) (2024-04-03)
+
+## [clickhouse-12.9.1](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.9.1) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@2e21208](https://github.com/2e21208) by renovate ([#20146](https://github.com/truecharts/charts/issues/20146))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image clickhouse/clickhouse-server to v24.3.1.2672[@c92d2e1](https://github.com/c92d2e1) by renovate ([#19879](https://github.com/truecharts/charts/issues/19879))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -94,6 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-
-## [smtp-relay-3.7.6](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.7.6) (2024-04-03)
