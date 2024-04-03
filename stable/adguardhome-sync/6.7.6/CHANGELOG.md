@@ -83,11 +83,13 @@ title: Changelog
 - update container image ghcr.io/bakito/adguardhome-sync to v0.6.6[@7487e9b](https://github.com/7487e9b) by renovate ([#19305](https://github.com/truecharts/charts/issues/19305))
 
 
-## [adguardhome-sync-6.7.5](https://github.com/truecharts/charts/compare/adguardhome-sync-6.6.0...adguardhome-sync-6.7.5) (2024-03-30)
+## [adguardhome-sync-6.7.6](https://github.com/truecharts/charts/compare/adguardhome-sync-6.6.0...adguardhome-sync-6.7.6) (2024-04-03)
 
 ### Chore
 
 
+
+- update container image ghcr.io/bakito/adguardhome-sync to v0.6.8[@2a6f9ae](https://github.com/2a6f9ae) by renovate ([#20166](https://github.com/truecharts/charts/issues/20166))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image ghcr.io/bakito/adguardhome-sync to v0.6.7[@1d1b1f9](https://github.com/1d1b1f9) by renovate ([#19753](https://github.com/truecharts/charts/issues/19753))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
