@@ -89,7 +89,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tt-rss-16.7.11](https://github.com/truecharts/charts/compare/tt-rss-16.6.0...tt-rss-16.7.11) (2024-03-30)
+## [tt-rss-16.7.11](https://github.com/truecharts/charts/compare/tt-rss-16.6.0...tt-rss-16.7.11) (2024-04-04)
 
 ### Chore
 
