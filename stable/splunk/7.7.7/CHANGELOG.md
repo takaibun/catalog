@@ -8,15 +8,17 @@ title: Changelog
 **Important:**
 
 
-## [unpoller-10.10.0](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.0) (2024-04-04)
+## [splunk-7.7.7](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.7.7) (2024-04-04)
 
 ### Chore
 
 
 
-- update container image ghcr.io/unpoller/unpoller to v2.11.0[@6e04812](https://github.com/6e04812) by renovate ([#20208](https://github.com/truecharts/charts/issues/20208))
+- update container image splunk/splunk to 9.2.1[@d227c11](https://github.com/d227c11) by renovate ([#20229](https://github.com/truecharts/charts/issues/20229))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image splunk/splunk to v9.2.1[@b79ebcc](https://github.com/b79ebcc) by renovate ([#19890](https://github.com/truecharts/charts/issues/19890))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -29,15 +31,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [unpoller-10.10.0](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.0) (2024-04-04)
+## [splunk-7.7.6](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.7.6) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image ghcr.io/unpoller/unpoller to v2.11.0[@6e04812](https://github.com/6e04812) by renovate ([#20208](https://github.com/truecharts/charts/issues/20208))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image splunk/splunk to v9.2.1[@b79ebcc](https://github.com/b79ebcc) by renovate ([#19890](https://github.com/truecharts/charts/issues/19890))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -50,15 +52,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [unpoller-10.10.0](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.0) (2024-04-04)
+## [splunk-7.7.6](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.7.6) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image ghcr.io/unpoller/unpoller to v2.11.0[@6e04812](https://github.com/6e04812) by renovate ([#20208](https://github.com/truecharts/charts/issues/20208))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image splunk/splunk to v9.2.1[@b79ebcc](https://github.com/b79ebcc) by renovate ([#19890](https://github.com/truecharts/charts/issues/19890))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -71,15 +73,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [unpoller-10.10.0](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.0) (2024-04-04)
+## [splunk-7.7.6](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.7.6) (2024-03-30)
 
 ### Chore
 
 
 
-- update container image ghcr.io/unpoller/unpoller to v2.11.0[@6e04812](https://github.com/6e04812) by renovate ([#20208](https://github.com/truecharts/charts/issues/20208))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image splunk/splunk to v9.2.1[@b79ebcc](https://github.com/b79ebcc) by renovate ([#19890](https://github.com/truecharts/charts/issues/19890))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -92,8 +94,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [unpoller-10.10.0](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.0) (2024-04-04)
+## [splunk-7.7.6](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.7.6) (2024-03-30)
 
 ### Chore
-
-
