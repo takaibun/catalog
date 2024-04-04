@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [gamevault-backend-6.0.1](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.0.1) (2024-04-03)
+## [gamevault-backend-6.0.1](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.0.1) (2024-04-04)
 
 ### Chore
 

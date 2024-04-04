@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [ersatztv-3.7.8](https://github.com/truecharts/charts/compare/ersatztv-3.6.0...ersatztv-3.7.8) (2024-04-03)
+## [ersatztv-3.7.8](https://github.com/truecharts/charts/compare/ersatztv-3.6.0...ersatztv-3.7.8) (2024-04-04)
 
 ### Chore
 

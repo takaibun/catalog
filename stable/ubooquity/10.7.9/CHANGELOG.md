@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [ubooquity-10.7.9](https://github.com/truecharts/charts/compare/ubooquity-10.6.0...ubooquity-10.7.9) (2024-04-03)
+## [ubooquity-10.7.9](https://github.com/truecharts/charts/compare/ubooquity-10.6.0...ubooquity-10.7.9) (2024-04-04)
 
 ### Chore
 
