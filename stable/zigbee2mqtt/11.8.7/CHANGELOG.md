@@ -89,7 +89,7 @@ title: Changelog
 - add ember driver option ([#20188](https://github.com/truecharts/charts/issues/20188))
 
 
-## [zigbee2mqtt-11.8.6](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.6) (2024-04-02)
+## [zigbee2mqtt-11.8.7](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.7) (2024-04-03)
 
 ### Chore
 
