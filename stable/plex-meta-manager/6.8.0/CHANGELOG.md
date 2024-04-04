@@ -71,11 +71,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [plex-meta-manager-6.7.5](https://github.com/truecharts/charts/compare/plex-meta-manager-6.6.0...plex-meta-manager-6.7.5) (2024-03-30)
+## [plex-meta-manager-6.8.0](https://github.com/truecharts/charts/compare/plex-meta-manager-6.6.0...plex-meta-manager-6.8.0) (2024-04-04)
 
 ### Chore
 
 
+
+- update container image meisnate12/plex-meta-manager to v1.21.0[@219f112](https://github.com/219f112) by renovate ([#20216](https://github.com/truecharts/charts/issues/20216))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 ### Chore
 
 
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

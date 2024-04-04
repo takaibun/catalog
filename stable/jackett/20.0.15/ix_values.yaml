@@ -1,0 +1,30 @@
+image:
+  repository: ghcr.io/geek-cookbook/jackett
+  pullPolicy: IfNotPresent
+  tag: 0.21.2278@sha256:f8f213605bedce44efc46ef595359fdbb78ccc02f190d9871293b6f6a3ff6eab
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        targetPort: 9117
+        port: 9117
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/health"
+            readiness:
+              path: "/health"
+            startup:
+              path: "/health"
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true
