@@ -59,7 +59,7 @@ title: Changelog
 - Fix Missing ENV for Mail functionality ([#19767](https://github.com/truecharts/charts/issues/19767))
 
 
-## [wekan-14.16.0](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.0) (2024-04-03)
+## [wekan-14.16.0](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.0) (2024-04-04)
 
 ### Chore
 
