@@ -1,10 +1,14 @@
 
 
-## [littlelink-13.7.11](https://github.com/truecharts/charts/compare/littlelink-13.6.0...littlelink-13.7.11) (2024-04-03)
+## [littlelink-13.7.13](https://github.com/truecharts/charts/compare/littlelink-13.6.0...littlelink-13.7.13) (2024-04-04)
 
 ### Chore
 
 
+
+- update container image ghcr.io/techno-tim/littlelink-server to latest[@32dcaf6](https://github.com/32dcaf6) by renovate ([#20213](https://github.com/truecharts/charts/issues/20213))
+
+- update container image ghcr.io/techno-tim/littlelink-server to latest[@ea7a0d1](https://github.com/ea7a0d1) by renovate ([#20192](https://github.com/truecharts/charts/issues/20192))
 
 - update container image ghcr.io/techno-tim/littlelink-server to latest[@88735f8](https://github.com/88735f8) by renovate ([#20164](https://github.com/truecharts/charts/issues/20164))
 

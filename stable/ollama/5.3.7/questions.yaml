@@ -111,6 +111,16 @@ questions:
                               attrs:
 
 
+                                - variable: imageSelector
+                                  label: Select Image
+                                  schema:
+                                    type: string
+                                    default: image
+                                    enum:
+                                      - value: image
+                                        description: Image
+                                      - value: rocmImage
+                                        description: Rocm(AMD)
 
                                 - variable: envList
                                   label: Extra Environment Variables

@@ -1,10 +1,14 @@
 
 
-## [ollama-5.3.5](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-5.3.5) (2024-04-02)
+## [ollama-5.3.7](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-5.3.7) (2024-04-04)
 
 ### Chore
 
 
+
+- update container image ghcr.io/open-webui/open-webui to latest[@31969d9](https://github.com/31969d9) by renovate ([#20212](https://github.com/truecharts/charts/issues/20212))
+
+- update container image ghcr.io/open-webui/open-webui to latest[@ec2bae1](https://github.com/ec2bae1) by renovate ([#20119](https://github.com/truecharts/charts/issues/20119))
 
 - update container image ghcr.io/open-webui/open-webui to latest[@e2f40e1](https://github.com/e2f40e1) by renovate ([#20078](https://github.com/truecharts/charts/issues/20078))
 
