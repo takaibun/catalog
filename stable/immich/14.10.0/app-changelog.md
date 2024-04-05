@@ -1,10 +1,12 @@
 
 
-## [immich-14.6.1](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.6.1) (2024-03-31)
+## [immich-14.10.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.10.0) (2024-04-05)
 
 ### Chore
 
 
+
+- update immich to v1.101.0[@969d6f2](https://github.com/969d6f2) by renovate (minor) ([#20264](https://github.com/truecharts/charts/issues/20264))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -29,3 +31,9 @@
 
 
 - Return to Stable ([#19563](https://github.com/truecharts/charts/issues/19563))
+
+### Fix
+
+
+
+- expose ml image type
