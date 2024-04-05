@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [portainer-8.9.4](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.4) (2024-04-03)
+## [portainer-8.9.6](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.6) (2024-04-05)
 
 ### Chore
 
 
+
+- update portainer to v2.20.1[@052939c](https://github.com/052939c) by renovate (patch) ([#20251](https://github.com/truecharts/charts/issues/20251))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [portainer-8.9.4](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.4) (2024-04-03)
-
-### Chore
