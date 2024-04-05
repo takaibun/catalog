@@ -35,7 +35,7 @@ title: Changelog
 - update container image ghcr.io/linuxserver/sickchill to 2024.3.1[@c2ab87f](https://github.com/c2ab87f) by renovate ([#19246](https://github.com/truecharts/charts/issues/19246))
 
 
-## [sickchill-11.8.8](https://github.com/truecharts/charts/compare/sickchill-11.7.0...sickchill-11.8.8) (2024-04-04)
+## [sickchill-11.8.8](https://github.com/truecharts/charts/compare/sickchill-11.7.0...sickchill-11.8.8) (2024-04-05)
 
 ### Chore
 
@@ -89,12 +89,12 @@ title: Changelog
 - update container image ghcr.io/linuxserver/sickchill to 2024.3.1[@c2ab87f](https://github.com/c2ab87f) by renovate ([#19246](https://github.com/truecharts/charts/issues/19246))
 
 
-## [sickchill-11.8.7](https://github.com/truecharts/charts/compare/sickchill-11.7.0...sickchill-11.8.7) (2024-03-30)
+## [sickchill-11.8.8](https://github.com/truecharts/charts/compare/sickchill-11.7.0...sickchill-11.8.8) (2024-04-04)
 
 ### Chore
 
 
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image ghcr.io/linuxserver/sickchill to 2024.3.1[@ff717f8](https://github.com/ff717f8) by renovate ([#20221](https://github.com/truecharts/charts/issues/20221))
 
-- update container image ghcr.io/linuxserver/sickchill to 2024.3.1[@44fdf09](https://github.com/44fdf09) by renovate ([#19906](https://github.com/truecharts/charts/issues/19906))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

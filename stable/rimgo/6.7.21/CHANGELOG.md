@@ -67,7 +67,7 @@ title: Changelog
 - update container image quay.io/pussthecatorg/rimgo to latest[@760f7c7](https://github.com/760f7c7) by renovate ([#19280](https://github.com/truecharts/charts/issues/19280))
 
 
-## [rimgo-6.7.21](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.7.21) (2024-04-04)
+## [rimgo-6.7.21](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.7.21) (2024-04-05)
 
 ### Chore
 
