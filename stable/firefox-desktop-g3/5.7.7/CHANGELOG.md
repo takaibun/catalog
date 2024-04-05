@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [firefox-desktop-g3-5.7.6](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-5.7.6) (2024-03-30)
+## [firefox-desktop-g3-5.7.7](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-5.7.7) (2024-04-05)
 
 ### Chore
 
 
+
+- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@09bdf46](https://github.com/09bdf46) by renovate ([#20265](https://github.com/truecharts/charts/issues/20265))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
