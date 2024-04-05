@@ -45,11 +45,15 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [prometheus-17.12.10](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.10) (2024-04-05)
+## [prometheus-17.12.11](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.11) (2024-04-05)
 
 ### Chore
 
 
+
+- update container image bitnami/prometheus to 2.51.1[@174eb4c](https://github.com/174eb4c) by renovate ([#20274](https://github.com/truecharts/charts/issues/20274))
+
+- update container image bitnami/alertmanager to 0.27.0[@dd682f9](https://github.com/dd682f9) by renovate ([#20271](https://github.com/truecharts/charts/issues/20271))
 
 - update container image bitnami/prometheus to 2.51.1[@035adc7](https://github.com/035adc7) by renovate ([#20243](https://github.com/truecharts/charts/issues/20243))
 
@@ -93,7 +97,3 @@ title: Changelog
 - update container image bitnami/alertmanager to 0.27.0[@f4015b5](https://github.com/f4015b5) by renovate ([#20044](https://github.com/truecharts/charts/issues/20044))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image kube-prometheus-stack to v56.21.4[@923897b](https://github.com/923897b) by renovate ([#19075](https://github.com/truecharts/charts/issues/19075))
-
-- update container image bitnami/prometheus to v2.51.1[@cde1074](https://github.com/cde1074) by renovate ([#19925](https://github.com/truecharts/charts/issues/19925))
