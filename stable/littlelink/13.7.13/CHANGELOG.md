@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [littlelink-13.7.13](https://github.com/truecharts/charts/compare/littlelink-13.6.0...littlelink-13.7.13) (2024-04-04)
+## [littlelink-13.7.13](https://github.com/truecharts/charts/compare/littlelink-13.6.0...littlelink-13.7.13) (2024-04-05)
 
 ### Chore
 

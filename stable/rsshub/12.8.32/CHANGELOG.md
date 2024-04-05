@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rsshub-12.8.32](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.32) (2024-04-04)
+## [rsshub-12.8.32](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.32) (2024-04-05)
 
 ### Chore
 

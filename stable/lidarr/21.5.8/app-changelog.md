@@ -1,6 +1,6 @@
 
 
-## [lidarr-21.5.8](https://github.com/truecharts/charts/compare/lidarr-21.4.0...lidarr-21.5.8) (2024-04-02)
+## [lidarr-21.5.8](https://github.com/truecharts/charts/compare/lidarr-21.4.0...lidarr-21.5.8) (2024-04-05)
 
 ### Chore
 

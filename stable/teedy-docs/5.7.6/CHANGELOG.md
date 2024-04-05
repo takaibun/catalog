@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [teedy-docs-5.7.6](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.7.6) (2024-04-04)
+## [teedy-docs-5.7.6](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.7.6) (2024-04-05)
 
 ### Chore
 

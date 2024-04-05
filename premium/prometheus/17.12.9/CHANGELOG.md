@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [prometheus-17.12.9](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.9) (2024-04-04)
+## [prometheus-17.12.9](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.12.9) (2024-04-05)
 
 ### Chore
 

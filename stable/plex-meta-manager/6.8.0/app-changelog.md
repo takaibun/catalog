@@ -1,6 +1,6 @@
 
 
-## [plex-meta-manager-6.8.0](https://github.com/truecharts/charts/compare/plex-meta-manager-6.6.0...plex-meta-manager-6.8.0) (2024-04-04)
+## [plex-meta-manager-6.8.0](https://github.com/truecharts/charts/compare/plex-meta-manager-6.6.0...plex-meta-manager-6.8.0) (2024-04-05)
 
 ### Chore
 

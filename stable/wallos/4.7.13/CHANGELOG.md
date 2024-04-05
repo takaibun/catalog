@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [wallos-4.7.13](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-4.7.13) (2024-04-04)
+## [wallos-4.7.13](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-4.7.13) (2024-04-05)
 
 ### Chore
 
