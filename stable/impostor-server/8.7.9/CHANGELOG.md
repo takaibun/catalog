@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [impostor-server-8.7.9](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.9) (2024-04-05)
+## [impostor-server-8.7.9](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.7.9) (2024-04-06)
 
 ### Chore
 

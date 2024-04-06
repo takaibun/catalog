@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rimgo-6.7.22](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.7.22) (2024-04-05)
+## [rimgo-6.7.22](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.7.22) (2024-04-06)
 
 ### Chore
 

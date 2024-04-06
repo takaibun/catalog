@@ -1,6 +1,6 @@
 
 
-## [red-discordbot-5.7.7](https://github.com/truecharts/charts/compare/red-discordbot-5.6.0...red-discordbot-5.7.7) (2024-04-05)
+## [red-discordbot-5.7.7](https://github.com/truecharts/charts/compare/red-discordbot-5.6.0...red-discordbot-5.7.7) (2024-04-06)
 
 ### Chore
 

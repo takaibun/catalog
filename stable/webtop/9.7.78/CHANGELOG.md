@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [webtop-9.7.78](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.78) (2024-04-05)
+## [webtop-9.7.78](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.78) (2024-04-06)
 
 ### Chore
 

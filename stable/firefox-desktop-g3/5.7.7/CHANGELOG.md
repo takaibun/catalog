@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [firefox-desktop-g3-5.7.7](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-5.7.7) (2024-04-05)
+## [firefox-desktop-g3-5.7.7](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-5.7.7) (2024-04-06)
 
 ### Chore
 

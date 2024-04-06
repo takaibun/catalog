@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [matomo-13.13.1](https://github.com/truecharts/charts/compare/matomo-13.9.0...matomo-13.13.1) (2024-04-05)
+## [matomo-13.13.1](https://github.com/truecharts/charts/compare/matomo-13.9.0...matomo-13.13.1) (2024-04-06)
 
 ### Chore
 

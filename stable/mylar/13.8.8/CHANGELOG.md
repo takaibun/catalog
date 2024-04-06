@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [mylar-13.8.8](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.8.8) (2024-04-05)
+## [mylar-13.8.8](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.8.8) (2024-04-06)
 
 ### Chore
 
