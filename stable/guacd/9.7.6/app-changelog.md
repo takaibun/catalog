@@ -1,10 +1,14 @@
 
 
-## [guacd-9.7.4](https://github.com/truecharts/charts/compare/guacd-9.6.0...guacd-9.7.4) (2024-03-27)
+## [guacd-9.7.6](https://github.com/truecharts/charts/compare/guacd-9.6.0...guacd-9.7.6) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image guacamole/guacd to v1.5.5[@38232ca](https://github.com/38232ca) by renovate ([#20304](https://github.com/truecharts/charts/issues/20304))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 

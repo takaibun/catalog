@@ -8,11 +8,15 @@ title: Changelog
 **Important:**
 
 
-## [wekan-14.16.0](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.0) (2024-04-04)
+## [wekan-14.16.2](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.2) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image mongodb to v12.7.9[@2512c16](https://github.com/2512c16) by renovate ([#20305](https://github.com/truecharts/charts/issues/20305))
+
+- update container image mongodb to v12.7.8[@567a54c](https://github.com/567a54c) by renovate ([#20261](https://github.com/truecharts/charts/issues/20261))
 
 - update container image wekanteam/wekan to v7.42[@770951a](https://github.com/770951a) by renovate ([#20170](https://github.com/truecharts/charts/issues/20170))
 
@@ -59,11 +63,13 @@ title: Changelog
 - Fix Missing ENV for Mail functionality ([#19767](https://github.com/truecharts/charts/issues/19767))
 
 
-## [wekan-14.16.0](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.0) (2024-04-04)
+## [wekan-14.16.1](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.1) (2024-04-05)
 
 ### Chore
 
 
+
+- update container image mongodb to v12.7.8[@567a54c](https://github.com/567a54c) by renovate ([#20261](https://github.com/truecharts/charts/issues/20261))
 
 - update container image wekanteam/wekan to v7.42[@770951a](https://github.com/770951a) by renovate ([#20170](https://github.com/truecharts/charts/issues/20170))
 
@@ -92,9 +98,3 @@ title: Changelog
 - update container image mongodb to v12.7.1[@cba1f01](https://github.com/cba1f01) by renovate ([#19443](https://github.com/truecharts/charts/issues/19443))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image mongodb to v12.7.0[@a2a5c75](https://github.com/a2a5c75) by renovate ([#19364](https://github.com/truecharts/charts/issues/19364))
-
-- update container image wekanteam/wekan to v7.40[@ef8172f](https://github.com/ef8172f) by renovate ([#19407](https://github.com/truecharts/charts/issues/19407))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

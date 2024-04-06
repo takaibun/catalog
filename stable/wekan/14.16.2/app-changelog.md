@@ -1,10 +1,14 @@
 
 
-## [wekan-14.16.0](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.0) (2024-04-04)
+## [wekan-14.16.2](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.16.2) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image mongodb to v12.7.9[@2512c16](https://github.com/2512c16) by renovate ([#20305](https://github.com/truecharts/charts/issues/20305))
+
+- update container image mongodb to v12.7.8[@567a54c](https://github.com/567a54c) by renovate ([#20261](https://github.com/truecharts/charts/issues/20261))
 
 - update container image wekanteam/wekan to v7.42[@770951a](https://github.com/770951a) by renovate ([#20170](https://github.com/truecharts/charts/issues/20170))
 

@@ -6,6 +6,8 @@
 
 
 
+- update container image guacamole/guacd to v1.5.5[@38232ca](https://github.com/38232ca) by renovate ([#20304](https://github.com/truecharts/charts/issues/20304))
+
 - update container image guacamole/guacamole to v1.5.5[@0f62f6d](https://github.com/0f62f6d) by renovate ([#20303](https://github.com/truecharts/charts/issues/20303))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
