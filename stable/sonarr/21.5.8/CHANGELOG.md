@@ -62,7 +62,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/sonarr to 4.0.2.1183[@bbfcda0](https://github.com/bbfcda0) by renovate ([#19260](https://github.com/truecharts/charts/issues/19260))
 
 
-## [sonarr-21.5.8](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.5.8) (2024-04-05)
+## [sonarr-21.5.8](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.5.8) (2024-04-06)
 
 ### Chore
 
@@ -89,12 +89,12 @@ title: Changelog
 - update container image ghcr.io/onedr0p/sonarr to 4.0.2.1183[@bbfcda0](https://github.com/bbfcda0) by renovate ([#19260](https://github.com/truecharts/charts/issues/19260))
 
 
-## [sonarr-21.5.7](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.5.7) (2024-04-05)
+## [sonarr-21.5.8](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.5.8) (2024-04-05)
 
 ### Chore
 
 
 
-- update container image ghcr.io/onedr0p/sonarr to v4.0.3.1413[@04d8e19](https://github.com/04d8e19) by renovate ([#20083](https://github.com/truecharts/charts/issues/20083))
+- update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
 
-- update container image ghcr.io/onedr0p/sonarr to 4.0.2.1183[@42ba5af](https://github.com/42ba5af) by renovate ([#20068](https://github.com/truecharts/charts/issues/20068))
+- update container image ghcr.io/onedr0p/sonarr to v4.0.3.1413[@04d8e19](https://github.com/04d8e19) by renovate ([#20083](https://github.com/truecharts/charts/issues/20083))
