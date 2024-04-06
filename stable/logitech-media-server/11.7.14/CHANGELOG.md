@@ -86,14 +86,14 @@ title: Changelog
 - update container image lmscommunity/logitechmediaserver to stable[@6389750](https://github.com/6389750) by renovate ([#19269](https://github.com/truecharts/charts/issues/19269))
 
 
-## [logitech-media-server-11.7.13](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-11.7.13) (2024-04-04)
+## [logitech-media-server-11.7.14](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-11.7.14) (2024-04-06)
 
 ### Chore
 
 
 
+- update container image lmscommunity/logitechmediaserver to stable[@3f2d6b9](https://github.com/3f2d6b9) by renovate ([#20309](https://github.com/truecharts/charts/issues/20309))
+
 - update container image lmscommunity/logitechmediaserver to stable[@875c45f](https://github.com/875c45f) by renovate ([#20172](https://github.com/truecharts/charts/issues/20172))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image lmscommunity/logitechmediaserver to stable[@4847ce2](https://github.com/4847ce2) by renovate ([#19982](https://github.com/truecharts/charts/issues/19982))
