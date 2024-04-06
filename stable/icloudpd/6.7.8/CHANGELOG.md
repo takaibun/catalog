@@ -58,11 +58,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [icloudpd-6.7.7](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.7) (2024-04-01)
+## [icloudpd-6.7.8](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-6.7.8) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image boredazfcuk/icloudpd to v1.0.733[@266005e](https://github.com/266005e) by renovate ([#20302](https://github.com/truecharts/charts/issues/20302))
 
 - update container image boredazfcuk/icloudpd to v1.0.731[@f289b78](https://github.com/f289b78) by renovate ([#20053](https://github.com/truecharts/charts/issues/20053))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))

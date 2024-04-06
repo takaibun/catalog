@@ -63,11 +63,13 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [matomo-13.13.1](https://github.com/truecharts/charts/compare/matomo-13.9.0...matomo-13.13.1) (2024-04-06)
+## [matomo-13.13.2](https://github.com/truecharts/charts/compare/matomo-13.9.0...matomo-13.13.2) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image mariadb to v13.8.1[@2f26ade](https://github.com/2f26ade) by renovate ([#20286](https://github.com/truecharts/charts/issues/20286))
 
 - update container image bitnami/matomo to 5.0.3[@8fe5652](https://github.com/8fe5652) by renovate ([#20272](https://github.com/truecharts/charts/issues/20272))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mariadb to v13.7.3[@8398c91](https://github.com/8398c91) by renovate ([#19693](https://github.com/truecharts/charts/issues/19693))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image mariadb to v13.7.2[@5126463](https://github.com/5126463) by renovate ([#19560](https://github.com/truecharts/charts/issues/19560))

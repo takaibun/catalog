@@ -62,11 +62,13 @@ title: Changelog
 - update container image wiserain/flexget to v3.11.23[@c3382cf](https://github.com/c3382cf) by renovate ([#19331](https://github.com/truecharts/charts/issues/19331))
 
 
-## [flexget-9.7.7](https://github.com/truecharts/charts/compare/flexget-9.6.0...flexget-9.7.7) (2024-03-31)
+## [flexget-9.7.8](https://github.com/truecharts/charts/compare/flexget-9.6.0...flexget-9.7.8) (2024-04-06)
 
 ### Chore
 
 
+
+- update container image wiserain/flexget to 3.11.27[@4bf508b](https://github.com/4bf508b) by renovate ([#20301](https://github.com/truecharts/charts/issues/20301))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image wiserain/flexget to v3.11.27[@7063056](https://github.com/7063056) by renovate ([#19975](https://github.com/truecharts/charts/issues/19975))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
