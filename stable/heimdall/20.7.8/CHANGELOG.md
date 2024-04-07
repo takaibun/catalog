@@ -89,7 +89,7 @@ title: Changelog
 - update container image linuxserver/heimdall to v[@c4ff101](https://github.com/c4ff101) by renovate ([#19267](https://github.com/truecharts/charts/issues/19267))
 
 
-## [heimdall-20.7.8](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.8) (2024-04-06)
+## [heimdall-20.7.8](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.8) (2024-04-07)
 
 ### Chore
 
