@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [unpoller-10.10.0](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.0) (2024-04-05)
+## [unpoller-10.10.1](https://github.com/truecharts/charts/compare/unpoller-10.8.0...unpoller-10.10.1) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image ghcr.io/unpoller/unpoller to v2.11.1[@1e54332](https://github.com/1e54332) by renovate ([#20344](https://github.com/truecharts/charts/issues/20344))
 
 - update container image ghcr.io/unpoller/unpoller to v2.11.0[@6e04812](https://github.com/6e04812) by renovate ([#20208](https://github.com/truecharts/charts/issues/20208))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-

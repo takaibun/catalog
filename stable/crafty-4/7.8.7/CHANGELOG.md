@@ -8,13 +8,13 @@ title: Changelog
 **Important:**
 
 
-## [rdtclient-4.7.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.6) (2024-04-07)
+## [crafty-4-7.8.7](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.8.7) (2024-04-07)
 
 ### Chore
 
 
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
+- update container image registry.gitlab.com/crafty-controller/crafty-4 to v4.3.2[@dbc25c4](https://github.com/dbc25c4) by renovate ([#20355](https://github.com/truecharts/charts/issues/20355))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -24,18 +24,18 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image registry.gitlab.com/crafty-controller/crafty-4 to v4.3.1[@634d156](https://github.com/634d156) by renovate ([#19489](https://github.com/truecharts/charts/issues/19489))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [rdtclient-4.7.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.6) (2024-04-07)
+## [crafty-4-7.8.6](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.8.6) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -45,18 +45,18 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image registry.gitlab.com/crafty-controller/crafty-4 to v4.3.1[@634d156](https://github.com/634d156) by renovate ([#19489](https://github.com/truecharts/charts/issues/19489))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [rdtclient-4.7.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.6) (2024-04-07)
+## [crafty-4-7.8.6](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.8.6) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -66,18 +66,18 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image registry.gitlab.com/crafty-controller/crafty-4 to v4.3.1[@634d156](https://github.com/634d156) by renovate ([#19489](https://github.com/truecharts/charts/issues/19489))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [rdtclient-4.7.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.6) (2024-04-07)
+## [crafty-4-7.8.6](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.8.6) (2024-03-30)
 
 ### Chore
 
 
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -87,13 +87,13 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image registry.gitlab.com/crafty-controller/crafty-4 to v4.3.1[@634d156](https://github.com/634d156) by renovate ([#19489](https://github.com/truecharts/charts/issues/19489))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [rdtclient-4.7.5](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.7.5) (2024-04-02)
+## [crafty-4-7.8.6](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.8.6) (2024-03-30)
 
 ### Chore
-
-

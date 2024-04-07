@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [firefox-13.0.5](https://github.com/truecharts/charts/compare/firefox-12.2.0...firefox-13.0.5) (2024-04-01)
+## [firefox-13.0.6](https://github.com/truecharts/charts/compare/firefox-12.2.0...firefox-13.0.6) (2024-04-07)
 
 ### Chore
