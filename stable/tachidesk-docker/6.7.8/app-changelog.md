@@ -1,10 +1,14 @@
 
 
-## [tachidesk-docker-6.7.6](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.6) (2024-03-30)
+## [tachidesk-docker-6.7.8](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-6.7.8) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image ghcr.io/suwayomi/tachidesk to preview[@fcee255](https://github.com/fcee255) by renovate ([#20350](https://github.com/truecharts/charts/issues/20350))
+
+- update container image ghcr.io/suwayomi/tachidesk to preview[@87283db](https://github.com/87283db) by renovate ([#20050](https://github.com/truecharts/charts/issues/20050))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
