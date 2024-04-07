@@ -1,10 +1,14 @@
 
 
-## [tinymediamanager-10.7.4](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.7.4) (2024-03-27)
+## [tinymediamanager-10.7.6](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.7.6) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image tinymediamanager/tinymediamanager to v5.0.4[@a804099](https://github.com/a804099) by renovate ([#20366](https://github.com/truecharts/charts/issues/20366))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
