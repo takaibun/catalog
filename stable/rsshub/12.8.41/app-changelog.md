@@ -1,10 +1,14 @@
 
 
-## [rsshub-12.8.39](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.39) (2024-04-07)
+## [rsshub-12.8.41](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.8.41) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image diygod/rsshub to latest[@7e62c5e](https://github.com/7e62c5e) by renovate ([#20370](https://github.com/truecharts/charts/issues/20370))
+
+- update container image diygod/rsshub to latest[@878f718](https://github.com/878f718) by renovate ([#20358](https://github.com/truecharts/charts/issues/20358))
 
 - update container image diygod/rsshub to latest[@25786d5](https://github.com/25786d5) by renovate ([#20336](https://github.com/truecharts/charts/issues/20336))
 
