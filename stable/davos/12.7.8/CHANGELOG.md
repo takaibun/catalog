@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [davos-12.7.8](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-12.7.8) (2024-04-06)
+## [davos-12.7.8](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-12.7.8) (2024-04-07)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [odoo-17.7.7](https://github.com/truecharts/charts/compare/odoo-17.6.0...odoo-17.7.7) (2024-04-06)
+## [odoo-17.7.7](https://github.com/truecharts/charts/compare/odoo-17.6.0...odoo-17.7.7) (2024-04-07)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [tauticord-5.2.0](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-5.2.0) (2024-04-06)
+## [tauticord-5.2.0](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-5.2.0) (2024-04-07)
 
 ### Chore
 

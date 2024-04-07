@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [guacd-9.7.6](https://github.com/truecharts/charts/compare/guacd-9.6.0...guacd-9.7.6) (2024-04-06)
+## [guacd-9.7.6](https://github.com/truecharts/charts/compare/guacd-9.6.0...guacd-9.7.6) (2024-04-07)
 
 ### Chore
 

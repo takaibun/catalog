@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [steam-headless-3.7.8](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-3.7.8) (2024-04-06)
+## [steam-headless-3.7.8](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-3.7.8) (2024-04-07)
 
 ### Chore
 

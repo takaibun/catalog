@@ -1,6 +1,6 @@
 
 
-## [tvheadend-19.7.9](https://github.com/truecharts/charts/compare/tvheadend-19.6.0...tvheadend-19.7.9) (2024-04-06)
+## [tvheadend-19.7.9](https://github.com/truecharts/charts/compare/tvheadend-19.6.0...tvheadend-19.7.9) (2024-04-07)
 
 ### Chore
 

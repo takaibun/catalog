@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [anything-llm-1.4.24](https://github.com/truecharts/charts/compare/anything-llm-1.3.0...anything-llm-1.4.24) (2024-04-06)
+## [anything-llm-1.4.24](https://github.com/truecharts/charts/compare/anything-llm-1.3.0...anything-llm-1.4.24) (2024-04-07)
 
 ### Chore
 
