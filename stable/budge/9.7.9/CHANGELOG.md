@@ -35,11 +35,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [budge-9.7.8](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.7.8) (2024-04-01)
+## [budge-9.7.9](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.7.9) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/budge to 0.0.9[@a0f19c8](https://github.com/a0f19c8) by renovate ([#20349](https://github.com/truecharts/charts/issues/20349))
 
 - update container image ghcr.io/linuxserver/budge to 0.0.9[@f64b16b](https://github.com/f64b16b) by renovate ([#20030](https://github.com/truecharts/charts/issues/20030))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
