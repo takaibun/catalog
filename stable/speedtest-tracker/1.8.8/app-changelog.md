@@ -1,10 +1,14 @@
 
 
-## [speedtest-tracker-1.8.6](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.6) (2024-04-01)
+## [speedtest-tracker-1.8.8](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.8.8) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/speedtest-tracker to 0.18.5[@01b54f8](https://github.com/01b54f8) by renovate ([#20339](https://github.com/truecharts/charts/issues/20339))
+
+- update container image ghcr.io/linuxserver/speedtest-tracker to v0.18.5[@8392208](https://github.com/8392208) by renovate ([#20107](https://github.com/truecharts/charts/issues/20107))
 
 - update container image ghcr.io/linuxserver/speedtest-tracker to v0.18.4[@3a690db](https://github.com/3a690db) by renovate ([#20034](https://github.com/truecharts/charts/issues/20034))
 
