@@ -58,7 +58,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [solr-10.7.8](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.8) (2024-04-06)
+## [solr-10.7.8](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.7.8) (2024-04-07)
 
 ### Chore
 

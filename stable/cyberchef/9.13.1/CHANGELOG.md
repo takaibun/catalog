@@ -74,7 +74,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cyberchef-9.13.1](https://github.com/truecharts/charts/compare/cyberchef-9.6.0...cyberchef-9.13.1) (2024-04-06)
+## [cyberchef-9.13.1](https://github.com/truecharts/charts/compare/cyberchef-9.6.0...cyberchef-9.13.1) (2024-04-07)
 
 ### Chore
 
