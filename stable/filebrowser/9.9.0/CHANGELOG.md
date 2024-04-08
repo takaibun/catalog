@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [filebrowser-9.8.0](https://github.com/truecharts/charts/compare/filebrowser-9.6.0...filebrowser-9.8.0) (2024-04-02)
+## [filebrowser-9.9.0](https://github.com/truecharts/charts/compare/filebrowser-9.6.0...filebrowser-9.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image docker.io/filebrowser/filebrowser to v2.28.0[@d312dba](https://github.com/d312dba) by renovate ([#20110](https://github.com/truecharts/charts/issues/20110))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [filebrowser-9.8.0](https://github.com/truecharts/charts/compare/filebrowser-9.6.0...filebrowser-9.8.0) (2024-04-02)

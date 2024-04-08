@@ -74,11 +74,13 @@ title: Changelog
 - update container image ghcr.io/taxel/plextraktsync to v0.29.7[@a2dc236](https://github.com/a2dc236) by renovate ([#19310](https://github.com/truecharts/charts/issues/19310))
 
 
-## [plextraktsync-7.8.10](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-7.8.10) (2024-04-01)
+## [plextraktsync-7.9.0](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-7.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/taxel/plextraktsync to v0.29.12[@f6068d1](https://github.com/f6068d1) by renovate ([#20021](https://github.com/truecharts/charts/issues/20021))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))

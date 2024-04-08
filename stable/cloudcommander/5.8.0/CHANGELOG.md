@@ -94,6 +94,6 @@ title: Changelog
 - update container image coderaiser/cloudcmd to latest[@2b5301f](https://github.com/2b5301f) by renovate ([#19219](https://github.com/truecharts/charts/issues/19219))
 
 
-## [cloudcommander-5.7.14](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.7.14) (2024-04-04)
+## [cloudcommander-5.8.0](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.8.0) (2024-04-08)
 
 ### Chore

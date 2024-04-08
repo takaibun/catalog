@@ -58,11 +58,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [deconz-15.7.6](https://github.com/truecharts/charts/compare/deconz-15.6.0...deconz-15.7.6) (2024-03-30)
+## [deconz-15.8.0](https://github.com/truecharts/charts/compare/deconz-15.6.0...deconz-15.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image deconzcommunity/deconz to v2.26.2[@56410bd](https://github.com/56410bd) by renovate ([#19752](https://github.com/truecharts/charts/issues/19752))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))

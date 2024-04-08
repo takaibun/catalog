@@ -19,3 +19,9 @@
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+### Fix
+
+
+
+- liveness probe fix, add large-v3 model, update version, remove unused storage ([#20042](https://github.com/truecharts/charts/issues/20042))

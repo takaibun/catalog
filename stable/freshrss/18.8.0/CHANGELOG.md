@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [freshrss-18.7.9](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-18.7.9) (2024-04-08)
+## [freshrss-18.8.0](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-18.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/freshrss to 1.23.1[@16ef974](https://github.com/16ef974) by renovate ([#20372](https://github.com/truecharts/charts/issues/20372))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [freshrss-18.7.9](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-18.7.9) (2024-04-08)
 
 ### Chore
-

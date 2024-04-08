@@ -54,11 +54,13 @@ title: Changelog
 - *BREAKING CHANGES* cleanup questions ([#19713](https://github.com/truecharts/charts/issues/19713))
 
 
-## [googlephotossync-6.0.3](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.0.3) (2024-03-30)
+## [googlephotossync-6.1.0](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.1.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - *BREAKING CHANGES* cleanup questions ([#19713](https://github.com/truecharts/charts/issues/19713))
 
-
-## [googlephotossync-6.0.3](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.0.3) (2024-03-30)

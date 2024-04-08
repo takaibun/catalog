@@ -54,11 +54,13 @@ title: Changelog
 - update container image to 20-jammy-lite-v0.97.0 ([#20122](https://github.com/truecharts/charts/issues/20122))
 
 
-## [scrypted-4.8.0](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.8.0) (2024-04-03)
+## [scrypted-4.9.0](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image to 20-jammy-lite-v0.97.0 ([#20122](https://github.com/truecharts/charts/issues/20122))
 
-
-## [scrypted-4.8.0](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.8.0) (2024-04-03)

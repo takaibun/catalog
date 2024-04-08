@@ -66,11 +66,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/davos to 2.2.2[@c20172c](https://github.com/c20172c) by renovate ([#19232](https://github.com/truecharts/charts/issues/19232))
 
 
-## [davos-12.7.8](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-12.7.8) (2024-04-07)
+## [davos-12.8.0](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-12.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/davos to 2.2.2[@4e77ee7](https://github.com/4e77ee7) by renovate ([#20295](https://github.com/truecharts/charts/issues/20295))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [davos-12.7.8](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-12.7.8) (2024-04-07)
 
 ### Chore
-

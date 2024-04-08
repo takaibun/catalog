@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [librespeed-13.7.9](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.7.9) (2024-04-08)
+## [librespeed-13.8.0](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/librespeed to 5.3.0[@182a49f](https://github.com/182a49f) by renovate ([#20361](https://github.com/truecharts/charts/issues/20361))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [librespeed-13.7.9](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.7.9) (2024-04-08)
 
 ### Chore
-

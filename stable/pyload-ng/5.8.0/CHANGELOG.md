@@ -66,11 +66,13 @@ title: Changelog
 - update container image lscr.io/linuxserver/pyload-ng to latest[@59d3b48](https://github.com/59d3b48) by renovate ([#19271](https://github.com/truecharts/charts/issues/19271))
 
 
-## [pyload-ng-5.7.8](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.7.8) (2024-04-07)
+## [pyload-ng-5.8.0](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image lscr.io/linuxserver/pyload-ng to latest[@35775e6](https://github.com/35775e6) by renovate ([#20298](https://github.com/truecharts/charts/issues/20298))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [pyload-ng-5.7.8](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.7.8) (2024-04-07)
 
 ### Chore
-

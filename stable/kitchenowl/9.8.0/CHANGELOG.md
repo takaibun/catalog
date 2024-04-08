@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [kitchenowl-9.7.7](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-9.7.7) (2024-04-08)
+## [kitchenowl-9.8.0](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-9.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update kitchenowl by renovate ([#20230](https://github.com/truecharts/charts/issues/20230))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [kitchenowl-9.7.7](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-9.7.7) (2024-04-08)

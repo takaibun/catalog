@@ -70,11 +70,13 @@ title: Changelog
 - Fix UDP Port ([#19679](https://github.com/truecharts/charts/issues/19679))
 
 
-## [wg-easy-12.1.5](https://github.com/truecharts/charts/compare/wg-easy-11.6.0...wg-easy-12.1.5) (2024-03-30)
+## [wg-easy-12.2.0](https://github.com/truecharts/charts/compare/wg-easy-11.6.0...wg-easy-12.2.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 ### Fix
 
 
-
-- Fix UDP Port ([#19679](https://github.com/truecharts/charts/issues/19679))

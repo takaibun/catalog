@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [universal-media-server-5.7.6](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-5.7.6) (2024-04-03)
+## [universal-media-server-5.8.0](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-5.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image universalmediaserver/ums to latest[@631d70b](https://github.com/631d70b) by renovate ([#20121](https://github.com/truecharts/charts/issues/20121))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [universal-media-server-5.7.6](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-5.7.6) (2024-04-03)

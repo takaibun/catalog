@@ -94,6 +94,6 @@ title: Changelog
 - update container image docker to 25.0.4-dind[@93529df](https://github.com/93529df) by renovate ([#19221](https://github.com/truecharts/charts/issues/19221))
 
 
-## [docker-6.0.8](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.0.8) (2024-04-03)
+## [docker-6.1.0](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.1.0) (2024-04-08)
 
 ### Chore

@@ -66,11 +66,13 @@ title: Changelog
 - add ember driver option ([#20188](https://github.com/truecharts/charts/issues/20188))
 
 
-## [zigbee2mqtt-11.8.7](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.7) (2024-04-03)
+## [zigbee2mqtt-11.9.0](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image koenkk/zigbee2mqtt to v1.36.1[@32901c8](https://github.com/32901c8) by renovate ([#20108](https://github.com/truecharts/charts/issues/20108))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [zigbee2mqtt-11.8.7](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.8.7) (2024-04-03)
 
 ### Chore
-

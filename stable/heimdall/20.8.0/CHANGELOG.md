@@ -66,11 +66,13 @@ title: Changelog
 - update container image linuxserver/heimdall to v[@c4ff101](https://github.com/c4ff101) by renovate ([#19267](https://github.com/truecharts/charts/issues/19267))
 
 
-## [heimdall-20.7.8](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.8) (2024-04-07)
+## [heimdall-20.8.0](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image linuxserver/heimdall to v[@95603df](https://github.com/95603df) by renovate ([#20297](https://github.com/truecharts/charts/issues/20297))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [heimdall-20.7.8](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.7.8) (2024-04-07)
 
 ### Chore
-
