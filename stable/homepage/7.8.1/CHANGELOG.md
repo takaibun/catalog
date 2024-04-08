@@ -58,11 +58,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [homepage-7.8.0](https://github.com/truecharts/charts/compare/homepage-7.6.0...homepage-7.8.0) (2024-04-08)
+## [homepage-7.8.1](https://github.com/truecharts/charts/compare/homepage-7.6.0...homepage-7.8.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image ghcr.io/gethomepage/homepage to v0.8.11[@13d1bf9](https://github.com/13d1bf9) by renovate ([#20440](https://github.com/truecharts/charts/issues/20440))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image ghcr.io/gethomepage/homepage to v0.8.10[@fc0d6e8](https://github.com/fc0d6e8) by renovate ([#19733](https://github.com/truecharts/charts/issues/19733))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))

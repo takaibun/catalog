@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ddns-go-10.10.0](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-10.10.0) (2024-04-08)
+## [ddns-go-10.10.1](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-10.10.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image jeessy/ddns-go to v6.3.2[@2e7d5c4](https://github.com/2e7d5c4) by renovate ([#20442](https://github.com/truecharts/charts/issues/20442))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [ddns-go-10.10.0](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-10.10.0) (2024-04-08)
 
 ### Chore
-
