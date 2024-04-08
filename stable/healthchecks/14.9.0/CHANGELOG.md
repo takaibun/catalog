@@ -89,12 +89,12 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [healthchecks-14.8.0](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.8.0) (2024-04-04)
+## [healthchecks-14.9.0](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.9.0) (2024-04-08)
 
 ### Chore
 
 
 
-- update container image ghcr.io/linuxserver/healthchecks to v3.3.20240403[@58845e7](https://github.com/58845e7) by renovate ([#20199](https://github.com/truecharts/charts/issues/20199))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image ghcr.io/linuxserver/healthchecks to v3.3.20240403[@58845e7](https://github.com/58845e7) by renovate ([#20199](https://github.com/truecharts/charts/issues/20199))

@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cura-novnc-8.7.6](https://github.com/truecharts/charts/compare/cura-novnc-8.6.0...cura-novnc-8.7.6) (2024-04-06)
+## [cura-novnc-8.8.0](https://github.com/truecharts/charts/compare/cura-novnc-8.6.0...cura-novnc-8.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image mikeah/cura-novnc to latest[@18593f2](https://github.com/18593f2) by renovate ([#20257](https://github.com/truecharts/charts/issues/20257))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-

@@ -77,11 +77,13 @@ title: Changelog
 - update container image gotson/komga to v1.10.4[@5b4f581](https://github.com/5b4f581) by renovate ([#19312](https://github.com/truecharts/charts/issues/19312))
 
 
-## [komga-13.7.5](https://github.com/truecharts/charts/compare/komga-13.6.0...komga-13.7.5) (2024-03-30)
+## [komga-13.8.0](https://github.com/truecharts/charts/compare/komga-13.6.0...komga-13.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image gotson/komga to v1.10.4[@5b4f581](https://github.com/5b4f581) by renovate ([#19312](https://github.com/truecharts/charts/issues/19312))
-

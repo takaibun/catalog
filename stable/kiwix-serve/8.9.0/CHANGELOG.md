@@ -77,11 +77,13 @@ title: Changelog
 - update container image ghcr.io/kiwix/kiwix-serve to v3.7.0[@9b92d0a](https://github.com/9b92d0a) by renovate ([#19339](https://github.com/truecharts/charts/issues/19339))
 
 
-## [kiwix-serve-8.8.5](https://github.com/truecharts/charts/compare/kiwix-serve-8.6.0...kiwix-serve-8.8.5) (2024-03-30)
+## [kiwix-serve-8.9.0](https://github.com/truecharts/charts/compare/kiwix-serve-8.6.0...kiwix-serve-8.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/kiwix/kiwix-serve to v3.7.0[@9b92d0a](https://github.com/9b92d0a) by renovate ([#19339](https://github.com/truecharts/charts/issues/19339))
-

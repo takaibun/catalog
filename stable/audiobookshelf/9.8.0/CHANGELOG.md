@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [audiobookshelf-9.7.6](https://github.com/truecharts/charts/compare/audiobookshelf-9.6.0...audiobookshelf-9.7.6) (2024-03-30)
+## [audiobookshelf-9.8.0](https://github.com/truecharts/charts/compare/audiobookshelf-9.6.0...audiobookshelf-9.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image advplyr/audiobookshelf to v2.8.1[@c367c39](https://github.com/c367c39) by renovate ([#19388](https://github.com/truecharts/charts/issues/19388))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-

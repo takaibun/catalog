@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ersatztv-3.7.8](https://github.com/truecharts/charts/compare/ersatztv-3.6.0...ersatztv-3.7.8) (2024-04-04)
+## [ersatztv-3.8.0](https://github.com/truecharts/charts/compare/ersatztv-3.6.0...ersatztv-3.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image jasongdove/ersatztv to v0.8.6 by renovate ([#20183](https://github.com/truecharts/charts/issues/20183))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-

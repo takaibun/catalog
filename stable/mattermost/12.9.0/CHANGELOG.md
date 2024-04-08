@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [mattermost-12.8.9](https://github.com/truecharts/charts/compare/mattermost-12.7.0...mattermost-12.8.9) (2024-03-30)
+## [mattermost-12.9.0](https://github.com/truecharts/charts/compare/mattermost-12.7.0...mattermost-12.9.0) (2024-04-08)
 
 ### Chore

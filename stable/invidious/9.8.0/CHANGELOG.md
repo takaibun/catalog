@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [invidious-9.7.6](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.7.6) (2024-04-01)
+## [invidious-9.8.0](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image quay.io/invidious/invidious to latest[@b46c32a](https://github.com/b46c32a) by renovate ([#20051](https://github.com/truecharts/charts/issues/20051))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-

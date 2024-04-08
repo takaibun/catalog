@@ -83,11 +83,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [kopia-11.8.4](https://github.com/truecharts/charts/compare/kopia-11.6.0...kopia-11.8.4) (2024-03-30)
+## [kopia-11.9.0](https://github.com/truecharts/charts/compare/kopia-11.6.0...kopia-11.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image kopia/kopia to v0.16.1[@566406c](https://github.com/566406c) by renovate ([#19811](https://github.com/truecharts/charts/issues/19811))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image kopia/kopia to v0.16.0[@748cc75](https://github.com/748cc75) by renovate ([#19698](https://github.com/truecharts/charts/issues/19698))

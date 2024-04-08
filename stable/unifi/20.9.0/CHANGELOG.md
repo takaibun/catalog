@@ -95,6 +95,6 @@ title: Changelog
 - update icon ([#20324](https://github.com/truecharts/charts/issues/20324))
 
 
-## [unifi-20.8.3](https://github.com/truecharts/charts/compare/unifi-20.6.0...unifi-20.8.3) (2024-04-06)
+## [unifi-20.9.0](https://github.com/truecharts/charts/compare/unifi-20.6.0...unifi-20.9.0) (2024-04-08)
 
 ### Chore

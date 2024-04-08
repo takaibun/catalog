@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [miniflux-14.7.6](https://github.com/truecharts/charts/compare/miniflux-14.6.0...miniflux-14.7.6) (2024-04-01)
+## [miniflux-14.8.0](https://github.com/truecharts/charts/compare/miniflux-14.6.0...miniflux-14.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image miniflux/miniflux to v2.1.2[@d70bc29](https://github.com/d70bc29) by renovate ([#20022](https://github.com/truecharts/charts/issues/20022))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-

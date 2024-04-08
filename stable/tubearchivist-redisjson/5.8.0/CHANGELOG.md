@@ -77,11 +77,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tubearchivist-redisjson-5.7.6](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.7.6) (2024-04-01)
+## [tubearchivist-redisjson-5.8.0](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-5.6.0...tubearchivist-redisjson-5.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image redislabs/rejson to latest[@3a98bcd](https://github.com/3a98bcd) by renovate ([#20038](https://github.com/truecharts/charts/issues/20038))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
