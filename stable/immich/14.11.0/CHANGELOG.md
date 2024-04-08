@@ -49,11 +49,13 @@ title: Changelog
 - expose ml image type
 
 
-## [immich-14.10.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.10.0) (2024-04-07)
+## [immich-14.11.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.11.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update immich to v1.101.0[@969d6f2](https://github.com/969d6f2) by renovate (minor) ([#20264](https://github.com/truecharts/charts/issues/20264))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 - update immich to v1.101.0[@969d6f2](https://github.com/969d6f2) by renovate (minor) ([#20264](https://github.com/truecharts/charts/issues/20264))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

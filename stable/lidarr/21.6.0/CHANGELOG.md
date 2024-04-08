@@ -39,11 +39,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/lidarr-develop to 2.2.1.4073[@ae2b24d](https://github.com/ae2b24d) by renovate ([#19254](https://github.com/truecharts/charts/issues/19254))
 
 
-## [lidarr-21.5.9](https://github.com/truecharts/charts/compare/lidarr-21.4.0...lidarr-21.5.9) (2024-04-08)
+## [lidarr-21.6.0](https://github.com/truecharts/charts/compare/lidarr-21.4.0...lidarr-21.6.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/onedr0p/lidarr-develop to 2.2.1.4073[@ae2b24d](https://github.com/ae2b24d) by renovate ([#19254](https://github.com/truecharts/charts/issues/19254))
-
-
-## [lidarr-21.5.9](https://github.com/truecharts/charts/compare/lidarr-21.4.0...lidarr-21.5.9) (2024-04-08)

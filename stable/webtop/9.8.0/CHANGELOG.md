@@ -51,11 +51,13 @@ title: Changelog
 - update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
 
 
-## [webtop-9.7.79](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.79) (2024-04-07)
+## [webtop-9.8.0](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image lscr.io/linuxserver/webtop to arch-kde[@9f64fa2](https://github.com/9f64fa2) by renovate ([#20299](https://github.com/truecharts/charts/issues/20299))
 
@@ -95,5 +97,3 @@ title: Changelog
 ## [webtop-9.7.79](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.7.79) (2024-04-07)
 
 ### Chore
-
-

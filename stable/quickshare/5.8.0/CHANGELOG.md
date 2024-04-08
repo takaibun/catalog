@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [quickshare-5.7.6](https://github.com/truecharts/charts/compare/quickshare-5.6.0...quickshare-5.7.6) (2024-04-05)
+## [quickshare-5.8.0](https://github.com/truecharts/charts/compare/quickshare-5.6.0...quickshare-5.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image hexxa/quickshare to latest[@7b572a8](https://github.com/7b572a8) by renovate ([#20223](https://github.com/truecharts/charts/issues/20223))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [quickshare-5.7.6](https://github.com/truecharts/charts/compare/quickshare-5.6.0...quickshare-5.7.6) (2024-04-05)
-
-### Chore

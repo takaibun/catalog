@@ -31,11 +31,13 @@ title: Changelog
 - update container image machines/filestash to latest[@2925085](https://github.com/2925085) by renovate ([#19272](https://github.com/truecharts/charts/issues/19272))
 
 
-## [filestash-6.7.5](https://github.com/truecharts/charts/compare/filestash-6.6.0...filestash-6.7.5) (2024-03-30)
+## [filestash-6.8.0](https://github.com/truecharts/charts/compare/filestash-6.6.0...filestash-6.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [filestash-6.7.5](https://github.com/truecharts/charts/compare/filestash-6.6.0...filestash-6.7.5) (2024-03-30)
-
-### Chore

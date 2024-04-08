@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tinymediamanager-10.7.6](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.7.6) (2024-04-08)
+## [tinymediamanager-10.8.0](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image tinymediamanager/tinymediamanager to v5.0.4[@a804099](https://github.com/a804099) by renovate ([#20366](https://github.com/truecharts/charts/issues/20366))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [tinymediamanager-10.7.6](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.7.6) (2024-04-08)
-
-### Chore

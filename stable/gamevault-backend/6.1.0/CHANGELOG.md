@@ -39,11 +39,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [gamevault-backend-6.0.1](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.0.1) (2024-04-04)
+## [gamevault-backend-6.1.0](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.1.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image phalcode/gamevault-backend to v11.0.2[@dbf2598](https://github.com/dbf2598) by renovate ([#20167](https://github.com/truecharts/charts/issues/20167))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-
-## [gamevault-backend-6.0.1](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.0.1) (2024-04-04)

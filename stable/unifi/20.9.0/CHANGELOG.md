@@ -37,11 +37,13 @@ title: Changelog
 - update icon ([#20324](https://github.com/truecharts/charts/issues/20324))
 
 
-## [unifi-20.8.3](https://github.com/truecharts/charts/compare/unifi-20.6.0...unifi-20.8.3) (2024-04-06)
+## [unifi-20.9.0](https://github.com/truecharts/charts/compare/unifi-20.6.0...unifi-20.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,6 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

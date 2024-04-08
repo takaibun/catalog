@@ -37,11 +37,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [babybuddy-16.7.8](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.7.8) (2024-04-08)
+## [babybuddy-16.8.0](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/babybuddy to 2.2.1[@f232f43](https://github.com/f232f43) by renovate ([#20383](https://github.com/truecharts/charts/issues/20383))
 
@@ -91,10 +93,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [babybuddy-16.7.7](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.7.7) (2024-04-02)
+## [babybuddy-16.7.8](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.7.8) (2024-04-08)
 
 ### Chore
 
-
-
-- update container image ghcr.io/linuxserver/babybuddy to 2.2.1[@b2b85c3](https://github.com/b2b85c3) by renovate ([#20064](https://github.com/truecharts/charts/issues/20064))

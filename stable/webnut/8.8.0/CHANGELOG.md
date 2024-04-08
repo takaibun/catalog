@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [webnut-8.7.6](https://github.com/truecharts/charts/compare/webnut-8.6.0...webnut-8.7.6) (2024-04-02)
+## [webnut-8.8.0](https://github.com/truecharts/charts/compare/webnut-8.6.0...webnut-8.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image edgd1er/webnut to latest[@f9db3f8](https://github.com/f9db3f8) by renovate ([#20063](https://github.com/truecharts/charts/issues/20063))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [webnut-8.7.6](https://github.com/truecharts/charts/compare/webnut-8.6.0...webnut-8.7.6) (2024-04-02)
-
-### Chore

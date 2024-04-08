@@ -43,11 +43,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cyberchef-9.13.1](https://github.com/truecharts/charts/compare/cyberchef-9.6.0...cyberchef-9.13.1) (2024-04-07)
+## [cyberchef-9.14.0](https://github.com/truecharts/charts/compare/cyberchef-9.6.0...cyberchef-9.14.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image mpepping/cyberchef to v10.15.1[@f36d830](https://github.com/f36d830) by renovate ([#20314](https://github.com/truecharts/charts/issues/20314))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image mpepping/cyberchef to v10.12.0[@220115c](https://github.com/220115c) by renovate ([#19987](https://github.com/truecharts/charts/issues/19987))
 
 - update container image mpepping/cyberchef to v10.10.0[@7dd029b](https://github.com/7dd029b) by renovate ([#19903](https://github.com/truecharts/charts/issues/19903))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

@@ -39,11 +39,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/remmina to 1.4.2[@434b2fc](https://github.com/434b2fc) by renovate ([#19243](https://github.com/truecharts/charts/issues/19243))
 
 
-## [remmina-10.7.9](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.7.9) (2024-04-07)
+## [remmina-10.8.0](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/remmina to 1.4.2[@ff9a558](https://github.com/ff9a558) by renovate ([#20331](https://github.com/truecharts/charts/issues/20331))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/linuxserver/remmina to 1.4.2[@434b2fc](https://github.com/434b2fc) by renovate ([#19243](https://github.com/truecharts/charts/issues/19243))
-
-
-## [remmina-10.7.9](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.7.9) (2024-04-07)

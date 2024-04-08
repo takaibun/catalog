@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [teedy-docs-5.7.6](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.7.6) (2024-04-05)
+## [teedy-docs-5.8.0](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image sismics/docs to latest[@a98d732](https://github.com/a98d732) by renovate ([#20206](https://github.com/truecharts/charts/issues/20206))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [teedy-docs-5.7.6](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.7.6) (2024-04-05)
-
-### Chore

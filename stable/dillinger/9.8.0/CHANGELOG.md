@@ -33,11 +33,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/dillinger to 3.39.1[@953ad36](https://github.com/953ad36) by renovate ([#19233](https://github.com/truecharts/charts/issues/19233))
 
 
-## [dillinger-9.7.6](https://github.com/truecharts/charts/compare/dillinger-9.6.0...dillinger-9.7.6) (2024-03-30)
+## [dillinger-9.8.0](https://github.com/truecharts/charts/compare/dillinger-9.6.0...dillinger-9.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image ghcr.io/linuxserver/dillinger to 3.39.1[@58dc39f](https://github.com/58dc39f) by renovate ([#19568](https://github.com/truecharts/charts/issues/19568))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

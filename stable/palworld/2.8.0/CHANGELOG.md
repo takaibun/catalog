@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [palworld-2.7.6](https://github.com/truecharts/charts/compare/palworld-2.6.0...palworld-2.7.6) (2024-04-05)
+## [palworld-2.8.0](https://github.com/truecharts/charts/compare/palworld-2.6.0...palworld-2.8.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/ich777/steamcmd to palworld[@bbfe940](https://github.com/bbfe940) by renovate ([#20220](https://github.com/truecharts/charts/issues/20220))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [palworld-2.7.6](https://github.com/truecharts/charts/compare/palworld-2.6.0...palworld-2.7.6) (2024-04-05)
-
-### Chore

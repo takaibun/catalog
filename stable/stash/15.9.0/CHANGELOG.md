@@ -31,11 +31,13 @@ title: Changelog
 - update container image stashapp/stash to v0.25.1[@6b8814b](https://github.com/6b8814b) by renovate ([#19328](https://github.com/truecharts/charts/issues/19328))
 
 
-## [stash-15.8.5](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.8.5) (2024-03-30)
+## [stash-15.9.0](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.9.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [stash-15.8.5](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.8.5) (2024-03-30)
-
-### Chore

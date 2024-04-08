@@ -41,11 +41,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cops-8.9.10](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-8.9.10) (2024-04-08)
+## [cops-8.10.0](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-8.10.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image lscr.io/linuxserver/cops to 2.5.3[@3a8d1a0](https://github.com/3a8d1a0) by renovate ([#20387](https://github.com/truecharts/charts/issues/20387))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image lscr.io/linuxserver/cops to 2.5.0[@7893c20](https://github.com/7893c20) by renovate ([#19604](https://github.com/truecharts/charts/issues/19604))
-
-- update container image lscr.io/linuxserver/cops to 2.5.0[@0245494](https://github.com/0245494) by renovate ([#19438](https://github.com/truecharts/charts/issues/19438))
