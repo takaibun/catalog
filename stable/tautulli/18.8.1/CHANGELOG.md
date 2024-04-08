@@ -33,11 +33,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/tautulli to 2.13.4[@b3000c0](https://github.com/b3000c0) by renovate ([#19261](https://github.com/truecharts/charts/issues/19261))
 
 
-## [tautulli-18.8.0](https://github.com/truecharts/charts/compare/tautulli-18.6.0...tautulli-18.8.0) (2024-04-08)
+## [tautulli-18.8.1](https://github.com/truecharts/charts/compare/tautulli-18.6.0...tautulli-18.8.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image ghcr.io/onedr0p/tautulli to 2.13.4[@809bccf](https://github.com/809bccf) by renovate ([#20431](https://github.com/truecharts/charts/issues/20431))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

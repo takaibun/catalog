@@ -1,10 +1,14 @@
 
 
-## [kdenlive-5.7.8](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-5.7.8) (2024-04-02)
+## [kdenlive-5.8.1](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-5.8.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image lscr.io/linuxserver/kdenlive to latest[@d58d62a](https://github.com/d58d62a) by renovate ([#20434](https://github.com/truecharts/charts/issues/20434))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image lscr.io/linuxserver/kdenlive to latest[@4f03ef4](https://github.com/4f03ef4) by renovate ([#20103](https://github.com/truecharts/charts/issues/20103))
 
