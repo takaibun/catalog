@@ -54,11 +54,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [owncast-13.8.0](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-13.8.0) (2024-04-08)
+## [owncast-13.8.1](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-13.8.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image gabekangas/owncast to v0.1.3[@dcad037](https://github.com/dcad037) by renovate ([#20391](https://github.com/truecharts/charts/issues/20391))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-
-## [owncast-13.8.0](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-13.8.0) (2024-04-08)

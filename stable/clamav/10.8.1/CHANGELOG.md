@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [clamav-10.8.0](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.8.0) (2024-04-08)
+## [clamav-10.8.1](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.8.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image clamav/clamav to 1.3.0[@5d7a5eb](https://github.com/5d7a5eb) by renovate ([#20394](https://github.com/truecharts/charts/issues/20394))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [clamav-10.8.0](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.8.0) (2024-04-08)
 
 ### Chore
-

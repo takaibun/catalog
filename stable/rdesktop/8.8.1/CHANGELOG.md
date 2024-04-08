@@ -90,10 +90,10 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [rdesktop-8.8.0](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-8.8.0) (2024-04-08)
+## [rdesktop-8.8.1](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-8.8.1) (2024-04-08)
 
 ### Chore
 
 
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image lscr.io/linuxserver/rdesktop to fedora-openbox[@852aa96](https://github.com/852aa96) by renovate ([#20396](https://github.com/truecharts/charts/issues/20396))
