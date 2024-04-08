@@ -93,7 +93,7 @@ title: Changelog
 - update ignored by renovate (patch) ([#19333](https://github.com/truecharts/charts/issues/19333))
 
 
-## [semaphore-1.1.6](https://github.com/truecharts/charts/compare/semaphore-1.1.2...semaphore-1.1.6) (2024-03-28)
+## [semaphore-1.2.0](https://github.com/truecharts/charts/compare/semaphore-1.1.2...semaphore-1.2.0) (2024-04-08)
 
 ### Chore
 

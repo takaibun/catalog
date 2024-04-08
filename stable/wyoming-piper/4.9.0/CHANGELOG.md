@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [wyoming-piper-4.8.5](https://github.com/truecharts/charts/compare/wyoming-piper-4.7.0...wyoming-piper-4.8.5) (2024-03-30)
+## [wyoming-piper-4.9.0](https://github.com/truecharts/charts/compare/wyoming-piper-4.7.0...wyoming-piper-4.9.0) (2024-04-08)
 
 ### Chore
 

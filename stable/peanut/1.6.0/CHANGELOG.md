@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [peanut-1.5.5](https://github.com/truecharts/charts/compare/peanut-1.4.0...peanut-1.5.5) (2024-03-30)
+## [peanut-1.6.0](https://github.com/truecharts/charts/compare/peanut-1.4.0...peanut-1.6.0) (2024-04-08)
 
 ### Chore
 

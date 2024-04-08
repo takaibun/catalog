@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tanoshi-5.7.5](https://github.com/truecharts/charts/compare/tanoshi-5.6.0...tanoshi-5.7.5) (2024-03-30)
+## [tanoshi-5.8.0](https://github.com/truecharts/charts/compare/tanoshi-5.6.0...tanoshi-5.8.0) (2024-04-08)
 
 ### Chore
 

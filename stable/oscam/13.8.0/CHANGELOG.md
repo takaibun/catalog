@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [oscam-13.7.5](https://github.com/truecharts/charts/compare/oscam-13.6.0...oscam-13.7.5) (2024-03-30)
+## [oscam-13.8.0](https://github.com/truecharts/charts/compare/oscam-13.6.0...oscam-13.8.0) (2024-04-08)
 
 ### Chore
 

@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cstrike1-6-5.7.5](https://github.com/truecharts/charts/compare/cstrike1-6-5.6.0...cstrike1-6-5.7.5) (2024-03-30)
+## [cstrike1-6-5.8.0](https://github.com/truecharts/charts/compare/cstrike1-6-5.6.0...cstrike1-6-5.8.0) (2024-04-08)
 
 ### Chore
 

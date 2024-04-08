@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [spaceengineers-6.7.5](https://github.com/truecharts/charts/compare/spaceengineers-6.6.0...spaceengineers-6.7.5) (2024-03-30)
+## [spaceengineers-6.8.0](https://github.com/truecharts/charts/compare/spaceengineers-6.6.0...spaceengineers-6.8.0) (2024-04-08)
 
 ### Chore
 

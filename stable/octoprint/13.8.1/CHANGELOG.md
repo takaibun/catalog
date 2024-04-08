@@ -89,7 +89,7 @@ title: Changelog
 - update icon ([#20369](https://github.com/truecharts/charts/issues/20369))
 
 
-## [octoprint-13.8.0](https://github.com/truecharts/charts/compare/octoprint-13.6.0...octoprint-13.8.0) (2024-04-08)
+## [octoprint-13.8.1](https://github.com/truecharts/charts/compare/octoprint-13.6.0...octoprint-13.8.1) (2024-04-08)
 
 ### Chore
 

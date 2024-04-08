@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [notifiarr-4.7.5](https://github.com/truecharts/charts/compare/notifiarr-4.6.0...notifiarr-4.7.5) (2024-03-30)
+## [notifiarr-4.8.0](https://github.com/truecharts/charts/compare/notifiarr-4.6.0...notifiarr-4.8.0) (2024-04-08)
 
 ### Chore
 

@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [fabulinus-2.7.5](https://github.com/truecharts/charts/compare/fabulinus-2.6.0...fabulinus-2.7.5) (2024-03-30)
+## [fabulinus-2.8.0](https://github.com/truecharts/charts/compare/fabulinus-2.6.0...fabulinus-2.8.0) (2024-04-08)
 
 ### Chore
 
