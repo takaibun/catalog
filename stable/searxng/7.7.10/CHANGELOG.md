@@ -39,7 +39,7 @@ title: Changelog
 - update container image searxng/searxng to latest[@ac62dca](https://github.com/ac62dca) by renovate ([#19285](https://github.com/truecharts/charts/issues/19285))
 
 
-## [searxng-7.7.10](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.7.10) (2024-04-07)
+## [searxng-7.7.10](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.7.10) (2024-04-08)
 
 ### Chore
 
@@ -70,11 +70,13 @@ title: Changelog
 - update container image searxng/searxng to latest[@ac62dca](https://github.com/ac62dca) by renovate ([#19285](https://github.com/truecharts/charts/issues/19285))
 
 
-## [searxng-7.7.9](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.7.9) (2024-03-30)
+## [searxng-7.7.10](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.7.10) (2024-04-07)
 
 ### Chore
 
 
+
+- update container image searxng/searxng to latest[@2165f3e](https://github.com/2165f3e) by renovate ([#20377](https://github.com/truecharts/charts/issues/20377))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-- update container image searxng/searxng to latest[@ac62dca](https://github.com/ac62dca) by renovate ([#19285](https://github.com/truecharts/charts/issues/19285))
