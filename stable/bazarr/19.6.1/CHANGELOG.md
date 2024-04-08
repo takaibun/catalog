@@ -8,21 +8,17 @@ title: Changelog
 **Important:**
 
 
-## [mariadb-13.9.1](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.1) (2024-04-08)
+## [bazarr-19.6.1](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.1) (2024-04-08)
 
 ### Chore
 
 
 
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@5f73fa1](https://github.com/5f73fa1) by renovate ([#20422](https://github.com/truecharts/charts/issues/20422))
+
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image bitnami/mariadb to 11.3.2[@a4fcb09](https://github.com/a4fcb09) by renovate ([#20159](https://github.com/truecharts/charts/issues/20159))
-
-- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
-
-- update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
-
-- update container image bitnami/mariadb to 11.2.3[@6192a35](https://github.com/6192a35) by renovate ([#20057](https://github.com/truecharts/charts/issues/20057))
+- update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -32,14 +28,16 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image bitnami/mariadb to 11.2.3[@302e664](https://github.com/302e664) by renovate ([#19540](https://github.com/truecharts/charts/issues/19540))
-
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@113035f](https://github.com/113035f) by renovate ([#19384](https://github.com/truecharts/charts/issues/19384))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@07af48c](https://github.com/07af48c) by renovate ([#19253](https://github.com/truecharts/charts/issues/19253))
 
-## [mariadb-13.9.1](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.1) (2024-04-08)
+
+## [bazarr-19.6.0](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.0) (2024-04-08)
 
 ### Chore
 
@@ -47,13 +45,7 @@ title: Changelog
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image bitnami/mariadb to 11.3.2[@a4fcb09](https://github.com/a4fcb09) by renovate ([#20159](https://github.com/truecharts/charts/issues/20159))
-
-- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
-
-- update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
-
-- update container image bitnami/mariadb to 11.2.3[@6192a35](https://github.com/6192a35) by renovate ([#20057](https://github.com/truecharts/charts/issues/20057))
+- update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -63,14 +55,16 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image bitnami/mariadb to 11.2.3[@302e664](https://github.com/302e664) by renovate ([#19540](https://github.com/truecharts/charts/issues/19540))
-
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@113035f](https://github.com/113035f) by renovate ([#19384](https://github.com/truecharts/charts/issues/19384))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@07af48c](https://github.com/07af48c) by renovate ([#19253](https://github.com/truecharts/charts/issues/19253))
 
-## [mariadb-13.9.0](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.0) (2024-04-08)
+
+## [bazarr-19.6.0](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.0) (2024-04-08)
 
 ### Chore
 
@@ -78,13 +72,7 @@ title: Changelog
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image bitnami/mariadb to 11.3.2[@a4fcb09](https://github.com/a4fcb09) by renovate ([#20159](https://github.com/truecharts/charts/issues/20159))
-
-- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
-
-- update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
-
-- update container image bitnami/mariadb to 11.2.3[@6192a35](https://github.com/6192a35) by renovate ([#20057](https://github.com/truecharts/charts/issues/20057))
+- update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -94,6 +82,19 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image bitnami/mariadb to 11.2.3[@302e664](https://github.com/302e664) by renovate ([#19540](https://github.com/truecharts/charts/issues/19540))
-
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@113035f](https://github.com/113035f) by renovate ([#19384](https://github.com/truecharts/charts/issues/19384))
+
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image ghcr.io/onedr0p/bazarr to 1.4.2[@07af48c](https://github.com/07af48c) by renovate ([#19253](https://github.com/truecharts/charts/issues/19253))
+
+
+## [bazarr-19.6.0](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.0) (2024-04-08)
+
+### Chore
+
+
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
