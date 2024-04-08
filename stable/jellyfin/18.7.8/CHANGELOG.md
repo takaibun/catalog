@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [jellyfin-18.7.8](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.7.8) (2024-04-07)
+## [jellyfin-18.7.8](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.7.8) (2024-04-08)
 
 ### Chore
 

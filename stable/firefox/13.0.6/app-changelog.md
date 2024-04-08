@@ -1,6 +1,6 @@
 
 
-## [firefox-13.0.6](https://github.com/truecharts/charts/compare/firefox-12.2.0...firefox-13.0.6) (2024-04-07)
+## [firefox-13.0.6](https://github.com/truecharts/charts/compare/firefox-12.2.0...firefox-13.0.6) (2024-04-08)
 
 ### Chore
 

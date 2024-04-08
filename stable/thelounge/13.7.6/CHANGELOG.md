@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [thelounge-13.7.6](https://github.com/truecharts/charts/compare/thelounge-13.6.0...thelounge-13.7.6) (2024-04-07)
+## [thelounge-13.7.6](https://github.com/truecharts/charts/compare/thelounge-13.6.0...thelounge-13.7.6) (2024-04-08)
 
 ### Chore
 

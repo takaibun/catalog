@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rflood-5.7.7](https://github.com/truecharts/charts/compare/rflood-5.6.0...rflood-5.7.7) (2024-04-07)
+## [rflood-5.7.7](https://github.com/truecharts/charts/compare/rflood-5.6.0...rflood-5.7.7) (2024-04-08)
 
 ### Chore
 

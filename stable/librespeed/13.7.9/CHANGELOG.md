@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [librespeed-13.7.9](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.7.9) (2024-04-07)
+## [librespeed-13.7.9](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.7.9) (2024-04-08)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [portainer-8.9.6](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.6) (2024-04-07)
+## [portainer-8.9.6](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.9.6) (2024-04-08)
 
 ### Chore
 

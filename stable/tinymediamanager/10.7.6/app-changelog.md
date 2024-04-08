@@ -1,6 +1,6 @@
 
 
-## [tinymediamanager-10.7.6](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.7.6) (2024-04-07)
+## [tinymediamanager-10.7.6](https://github.com/truecharts/charts/compare/tinymediamanager-10.6.0...tinymediamanager-10.7.6) (2024-04-08)
 
 ### Chore
 

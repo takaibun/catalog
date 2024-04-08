@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [lazylibrarian-18.7.10](https://github.com/truecharts/charts/compare/lazylibrarian-18.6.0...lazylibrarian-18.7.10) (2024-04-07)
+## [lazylibrarian-18.7.10](https://github.com/truecharts/charts/compare/lazylibrarian-18.6.0...lazylibrarian-18.7.10) (2024-04-08)
 
 ### Chore
 
