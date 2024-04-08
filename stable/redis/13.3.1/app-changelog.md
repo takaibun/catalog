@@ -1,10 +1,12 @@
 
 
-## [redis-13.2.7](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.2.7) (2024-04-02)
+## [redis-13.3.1](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.1) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image bitnami/redis to 7.2.4[@5447a91](https://github.com/5447a91) by renovate ([#20061](https://github.com/truecharts/charts/issues/20061))
 
