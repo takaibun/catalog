@@ -39,7 +39,7 @@ title: Changelog
 - fix typo
 
 
-## [redis-13.3.1](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.1) (2024-04-09)
+## [redis-13.3.2](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.2) (2024-04-09)
 
 ### Chore
 
@@ -70,7 +70,7 @@ title: Changelog
 - fix typo
 
 
-## [redis-13.3.1](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.1) (2024-04-08)
+## [redis-13.3.1](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.1) (2024-04-09)
 
 ### Chore
 
@@ -94,7 +94,6 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+### Fix
 
-## [redis-13.3.1](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.1) (2024-04-08)
 
-### Chore
