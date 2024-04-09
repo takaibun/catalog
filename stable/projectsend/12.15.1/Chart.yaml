@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: social
+  truecharts.org/category: files
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 2024.03.0
+appVersion: latest
 dependencies:
   - name: common
     version: 20.3.2
@@ -23,29 +23,22 @@ dependencies:
     alias: ""
     tags: []
     import-values: []
-  - name: redis
-    version: 13.2.2
-    repository: oci://tccr.io/truecharts
-    condition: redis.enabled
-    alias: ""
-    tags: []
-    import-values: []
 deprecated: false
-description: Welcome to the free social web
-home: https://truecharts.org/charts/stable/friendica
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/friendica.png
+description: ProjectSend is a self-hosted application that lets you upload files and assign them to specific clients that you create yourself.
+home: https://truecharts.org/charts/stable/projectsend
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/projectsend.png
 keywords:
-  - friend
-  - social
-kubeVersion: ">=1.24.0-0"
+  - projectsend
+  - files
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: friendica
+name: projectsend
 sources:
-  - https://friendi.ca/
-  - https://github.com/truecharts/charts/tree/master/charts/stable/friendica
-  - https://hub.docker.com/_/friendica
+  - https://github.com/projectsend/projectsend
+  - https://github.com/truecharts/charts/tree/master/charts/stable/projectsend
+  - https://ghcr.io/linuxserver/projectsend
 type: application
-version: 14.3.0
+version: 12.15.1

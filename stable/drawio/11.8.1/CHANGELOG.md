@@ -82,11 +82,13 @@ title: Changelog
 - update container image jgraph/drawio to v[@29e30c0](https://github.com/29e30c0) by renovate ([#19265](https://github.com/truecharts/charts/issues/19265))
 
 
-## [drawio-11.8.0](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.0) (2024-04-08)
+## [drawio-11.8.1](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image jgraph/drawio to v24.2.3[@d884f55](https://github.com/d884f55) by renovate ([#20453](https://github.com/truecharts/charts/issues/20453))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image jgraph/drawio to v24.2.1[@f8f907e](https://github.com/f8f907e) by renovate ([#19927](https://github.com/truecharts/charts/issues/19927))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

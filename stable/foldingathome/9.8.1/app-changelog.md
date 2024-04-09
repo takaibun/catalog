@@ -1,10 +1,14 @@
 
 
-## [foldingathome-9.7.7](https://github.com/truecharts/charts/compare/foldingathome-9.6.0...foldingathome-9.7.7) (2024-03-30)
+## [foldingathome-9.8.1](https://github.com/truecharts/charts/compare/foldingathome-9.6.0...foldingathome-9.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@6daaa80](https://github.com/6daaa80) by renovate ([#20463](https://github.com/truecharts/charts/issues/20463))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 

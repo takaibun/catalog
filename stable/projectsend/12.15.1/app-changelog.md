@@ -1,10 +1,12 @@
 
 
-## [friendica-14.3.0](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.3.0) (2024-04-08)
+## [projectsend-12.15.1](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-12.15.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/projectsend to latest[@40fc4e9](https://github.com/40fc4e9) by renovate ([#20447](https://github.com/truecharts/charts/issues/20447))
 
 - update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
@@ -15,6 +17,8 @@
 - update container image mariadb to v13.8.0[@3e48b89](https://github.com/3e48b89) by renovate ([#20156](https://github.com/truecharts/charts/issues/20156))
 
 - update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
+
+- update container image ghcr.io/linuxserver/projectsend to latest[@c7bd5de](https://github.com/c7bd5de) by renovate ([#20117](https://github.com/truecharts/charts/issues/20117))
 
 - update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 
@@ -28,19 +32,17 @@
 
 - update container image mariadb to v13.7.4[@8c030a5](https://github.com/8c030a5) by renovate ([#19764](https://github.com/truecharts/charts/issues/19764))
 
+- update container image ghcr.io/linuxserver/projectsend to latest[@afc5c32](https://github.com/afc5c32) by renovate ([#19797](https://github.com/truecharts/charts/issues/19797))
+
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image mariadb to v13.7.3[@8398c91](https://github.com/8398c91) by renovate ([#19693](https://github.com/truecharts/charts/issues/19693))
 
-- update container image friendica to v2024.03[@0cc133b](https://github.com/0cc133b) by renovate ([#19669](https://github.com/truecharts/charts/issues/19669))
-
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image friendica to v[@85105b0](https://github.com/85105b0) by renovate ([#19662](https://github.com/truecharts/charts/issues/19662))
-
-- update container image redis to v13.2.2[@0ea5f1a](https://github.com/0ea5f1a) by renovate ([#19365](https://github.com/truecharts/charts/issues/19365))
-
 - update container image mariadb to v13.7.2[@5126463](https://github.com/5126463) by renovate ([#19560](https://github.com/truecharts/charts/issues/19560))
+
+- update container image ghcr.io/linuxserver/projectsend to latest[@5c5f987](https://github.com/5c5f987) by renovate ([#19480](https://github.com/truecharts/charts/issues/19480))
 
 - update container image mariadb to v13.7.1[@dfd144d](https://github.com/dfd144d) by renovate ([#19441](https://github.com/truecharts/charts/issues/19441))
 
@@ -55,7 +57,3 @@
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
-
-- update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
-
-- update container image friendica to 2023.12[@95a7d8e](https://github.com/95a7d8e) by renovate ([#19227](https://github.com/truecharts/charts/issues/19227))
