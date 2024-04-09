@@ -6,6 +6,8 @@
 
 
 
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+
 - update container image ghcr.io/rogerfar/rdtclient to v2.0.66[@c693300](https://github.com/c693300) by renovate ([#20483](https://github.com/truecharts/charts/issues/20483))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

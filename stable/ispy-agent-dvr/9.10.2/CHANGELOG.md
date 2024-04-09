@@ -14,6 +14,8 @@ title: Changelog
 
 
 
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+
 - update container image doitandbedone/ispyagentdvr to v5.3.9.0[@1d14deb](https://github.com/1d14deb) by renovate ([#20479](https://github.com/truecharts/charts/issues/20479))
 
 - update container image doitandbedone/ispyagentdvr to v5.3.8.0[@b672cdb](https://github.com/b672cdb) by renovate ([#20438](https://github.com/truecharts/charts/issues/20438))
@@ -78,11 +80,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ispy-agent-dvr-9.10.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.1) (2024-04-09)
+## [ispy-agent-dvr-9.10.2](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image doitandbedone/ispyagentdvr to v5.3.9.0[@1d14deb](https://github.com/1d14deb) by renovate ([#20479](https://github.com/truecharts/charts/issues/20479))
 
 - update container image doitandbedone/ispyagentdvr to v5.3.8.0[@b672cdb](https://github.com/b672cdb) by renovate ([#20438](https://github.com/truecharts/charts/issues/20438))
 
@@ -93,7 +97,3 @@ title: Changelog
 - update container image doitandbedone/ispyagentdvr to v5.3.6.0[@02fdfb5](https://github.com/02fdfb5) by renovate ([#20232](https://github.com/truecharts/charts/issues/20232))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image doitandbedone/ispyagentdvr to v5.3.5.0[@42c209e](https://github.com/42c209e) by renovate ([#19947](https://github.com/truecharts/charts/issues/19947))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
