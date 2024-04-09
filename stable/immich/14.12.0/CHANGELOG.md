@@ -51,7 +51,7 @@ title: Changelog
 - expose ml image type
 
 
-## [immich-14.12.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.12.0) (2024-04-08)
+## [immich-14.12.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.12.0) (2024-04-09)
 
 ### Chore
 
@@ -94,6 +94,6 @@ title: Changelog
 - expose ml image type
 
 
-## [immich-14.11.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.11.0) (2024-04-08)
+## [immich-14.12.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.12.0) (2024-04-08)
 
 ### Chore

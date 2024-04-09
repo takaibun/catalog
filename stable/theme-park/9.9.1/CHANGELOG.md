@@ -33,7 +33,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [theme-park-9.9.1](https://github.com/truecharts/charts/compare/theme-park-9.7.0...theme-park-9.9.1) (2024-04-08)
+## [theme-park-9.9.1](https://github.com/truecharts/charts/compare/theme-park-9.7.0...theme-park-9.9.1) (2024-04-09)
 
 ### Chore
 
