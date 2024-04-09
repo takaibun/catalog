@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ddclient-9.8.0](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.0) (2024-04-08)
+## [ddclient-9.8.1](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/ddclient to 3.11.2[@e108991](https://github.com/e108991) by renovate ([#20465](https://github.com/truecharts/charts/issues/20465))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [ddclient-9.8.0](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.0) (2024-04-08)
 
 ### Chore
-
