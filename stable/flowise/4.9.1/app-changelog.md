@@ -1,10 +1,14 @@
 
 
-## [flowise-4.8.7](https://github.com/truecharts/charts/compare/flowise-4.7.0...flowise-4.8.7) (2024-04-05)
+## [flowise-4.9.1](https://github.com/truecharts/charts/compare/flowise-4.7.0...flowise-4.9.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image flowiseai/flowise to v1.6.4[@54b4614](https://github.com/54b4614) by renovate ([#20480](https://github.com/truecharts/charts/issues/20480))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image flowiseai/flowise to v1.6.3[@c5615eb](https://github.com/c5615eb) by renovate ([#20233](https://github.com/truecharts/charts/issues/20233))
 

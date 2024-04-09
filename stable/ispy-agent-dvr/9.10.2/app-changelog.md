@@ -1,10 +1,14 @@
 
 
-## [ispy-agent-dvr-9.10.0](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.0) (2024-04-08)
+## [ispy-agent-dvr-9.10.2](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image doitandbedone/ispyagentdvr to v5.3.9.0[@1d14deb](https://github.com/1d14deb) by renovate ([#20479](https://github.com/truecharts/charts/issues/20479))
+
+- update container image doitandbedone/ispyagentdvr to v5.3.8.0[@b672cdb](https://github.com/b672cdb) by renovate ([#20438](https://github.com/truecharts/charts/issues/20438))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 

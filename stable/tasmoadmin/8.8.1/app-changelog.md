@@ -1,10 +1,14 @@
 
 
-## [tasmoadmin-8.7.5](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.7.5) (2024-03-30)
+## [tasmoadmin-8.8.1](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image ghcr.io/tasmoadmin/tasmoadmin to v4.0.2[@ba3fa1d](https://github.com/ba3fa1d) by renovate ([#20452](https://github.com/truecharts/charts/issues/20452))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
