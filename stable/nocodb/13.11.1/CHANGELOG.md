@@ -49,11 +49,13 @@ title: Changelog
 - update container image nocodb/nocodb to v0.204.5[@7b87bba](https://github.com/7b87bba) by renovate ([#19323](https://github.com/truecharts/charts/issues/19323))
 
 
-## [nocodb-13.11.0](https://github.com/truecharts/charts/compare/nocodb-13.6.0...nocodb-13.11.0) (2024-04-08)
+## [nocodb-13.11.1](https://github.com/truecharts/charts/compare/nocodb-13.6.0...nocodb-13.11.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

@@ -37,11 +37,13 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [hasty-paste-6.10.0](https://github.com/truecharts/charts/compare/hasty-paste-6.6.0...hasty-paste-6.10.0) (2024-04-08)
+## [hasty-paste-6.10.1](https://github.com/truecharts/charts/compare/hasty-paste-6.6.0...hasty-paste-6.10.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
@@ -95,6 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
