@@ -83,11 +83,13 @@ title: Changelog
 - update container image towfiqi/serpbear to latest[@3e61661](https://github.com/3e61661) by renovate ([#19292](https://github.com/truecharts/charts/issues/19292))
 
 
-## [serpbear-3.8.0](https://github.com/truecharts/charts/compare/serpbear-3.6.0...serpbear-3.8.0) (2024-04-08)
+## [serpbear-3.8.1](https://github.com/truecharts/charts/compare/serpbear-3.6.0...serpbear-3.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))

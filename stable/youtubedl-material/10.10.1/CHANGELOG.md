@@ -89,12 +89,12 @@ title: Changelog
 - update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
 
 
-## [youtubedl-material-10.10.0](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-10.10.0) (2024-04-09)
+## [youtubedl-material-10.10.1](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-10.10.1) (2024-04-09)
 
 ### Chore
 
 
 
-- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))

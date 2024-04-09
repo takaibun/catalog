@@ -95,6 +95,6 @@ title: Changelog
 - Update Image to Beta from Alpha tags ([#20326](https://github.com/truecharts/charts/issues/20326))
 
 
-## [photostructure-7.9.0](https://github.com/truecharts/charts/compare/photostructure-7.6.0...photostructure-7.9.0) (2024-04-08)
+## [photostructure-7.9.1](https://github.com/truecharts/charts/compare/photostructure-7.6.0...photostructure-7.9.1) (2024-04-09)
 
 ### Chore

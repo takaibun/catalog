@@ -41,11 +41,13 @@ title: Changelog
 - update container image jenkins/jenkins to v2.449-jdk17[@38c1f36](https://github.com/38c1f36) by renovate ([#19344](https://github.com/truecharts/charts/issues/19344))
 
 
-## [jenkins-7.15.1](https://github.com/truecharts/charts/compare/jenkins-7.9.0...jenkins-7.15.1) (2024-04-09)
+## [jenkins-7.16.0](https://github.com/truecharts/charts/compare/jenkins-7.9.0...jenkins-7.16.0) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image jenkins/jenkins to v2.453-jdk17[@e045a12](https://github.com/e045a12) by renovate ([#20491](https://github.com/truecharts/charts/issues/20491))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image jenkins/jenkins to v2.450-jdk17[@969c613](https://github.com/969c613) by renovate ([#19515](https://github.com/truecharts/charts/issues/19515))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))

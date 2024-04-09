@@ -89,12 +89,12 @@ title: Changelog
 - update container image codetheweb/muse to v2.7.0[@961fce6](https://github.com/961fce6) by renovate ([#19335](https://github.com/truecharts/charts/issues/19335))
 
 
-## [muse-5.10.0](https://github.com/truecharts/charts/compare/muse-5.7.0...muse-5.10.0) (2024-04-08)
+## [muse-5.10.1](https://github.com/truecharts/charts/compare/muse-5.7.0...muse-5.10.1) (2024-04-09)
 
 ### Chore
 
 
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

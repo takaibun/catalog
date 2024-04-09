@@ -95,6 +95,6 @@ title: Changelog
 - update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
 
 
-## [mongo-express-6.10.1](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.1) (2024-04-09)
+## [mongo-express-6.10.2](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.2) (2024-04-09)
 
 ### Chore

@@ -89,12 +89,12 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [smtp-relay-3.8.0](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.8.0) (2024-04-08)
+## [smtp-relay-3.8.1](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.8.1) (2024-04-09)
 
 ### Chore
 
 
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/ix-ai/smtp to v0.5.2[@34f0884](https://github.com/34f0884) by renovate ([#20179](https://github.com/truecharts/charts/issues/20179))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

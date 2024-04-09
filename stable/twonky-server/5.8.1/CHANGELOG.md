@@ -95,6 +95,6 @@ title: Changelog
 - update container image dtjs48jkt/twonkyserver to latest[@fe69332](https://github.com/fe69332) by renovate ([#19225](https://github.com/truecharts/charts/issues/19225))
 
 
-## [twonky-server-5.8.0](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.0) (2024-04-08)
+## [twonky-server-5.8.1](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.1) (2024-04-09)
 
 ### Chore

@@ -95,6 +95,6 @@ title: Changelog
 - liveness probe fix, add large-v3 model, update version, remove unused storage ([#20042](https://github.com/truecharts/charts/issues/20042))
 
 
-## [whisper-asr-webservice-4.8.0](https://github.com/truecharts/charts/compare/whisper-asr-webservice-4.6.0...whisper-asr-webservice-4.8.0) (2024-04-08)
+## [whisper-asr-webservice-4.8.1](https://github.com/truecharts/charts/compare/whisper-asr-webservice-4.6.0...whisper-asr-webservice-4.8.1) (2024-04-09)
 
 ### Chore
