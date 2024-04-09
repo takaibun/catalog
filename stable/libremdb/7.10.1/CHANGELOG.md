@@ -14,6 +14,8 @@ title: Changelog
 
 
 
+- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
+
 - update container image quay.io/pussthecatorg/libremdb to latest[@3b7b6fe](https://github.com/3b7b6fe) by renovate ([#20450](https://github.com/truecharts/charts/issues/20450))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@642bb96](https://github.com/642bb96) by renovate ([#19994](https://github.com/truecharts/charts/issues/19994))
-
-- update container image quay.io/pussthecatorg/libremdb to latest[@588dfb6](https://github.com/588dfb6) by renovate ([#19983](https://github.com/truecharts/charts/issues/19983))

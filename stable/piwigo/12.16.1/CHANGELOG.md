@@ -71,11 +71,13 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [piwigo-12.16.0](https://github.com/truecharts/charts/compare/piwigo-12.10.0...piwigo-12.16.0) (2024-04-08)
+## [piwigo-12.16.1](https://github.com/truecharts/charts/compare/piwigo-12.10.0...piwigo-12.16.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
 - update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
 
 - update container image ghcr.io/linuxserver/piwigo to 14.3.0[@fbeb2a6](https://github.com/fbeb2a6) by renovate ([#20006](https://github.com/truecharts/charts/issues/20006))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
