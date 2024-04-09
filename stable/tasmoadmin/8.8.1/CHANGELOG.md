@@ -31,11 +31,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tasmoadmin-8.8.0](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.8.0) (2024-04-08)
+## [tasmoadmin-8.8.1](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image ghcr.io/tasmoadmin/tasmoadmin to v4.0.2[@ba3fa1d](https://github.com/ba3fa1d) by renovate ([#20452](https://github.com/truecharts/charts/issues/20452))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [tasmoadmin-8.8.0](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.8.0) (2024-04-08)
-
-### Chore
