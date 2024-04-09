@@ -1,10 +1,14 @@
 
 
-## [mongo-express-6.9.0](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.9.0) (2024-04-08)
+## [mongo-express-6.10.1](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image docker.io/mongo-express to latest[@21dc2ec](https://github.com/21dc2ec) by renovate ([#19351](https://github.com/truecharts/charts/issues/19351))
+
+- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
