@@ -71,11 +71,13 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [ctfd-4.20.1](https://github.com/truecharts/charts/compare/ctfd-4.12.0...ctfd-4.20.1) (2024-04-09)
+## [ctfd-4.20.2](https://github.com/truecharts/charts/compare/ctfd-4.12.0...ctfd-4.20.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 
 - update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

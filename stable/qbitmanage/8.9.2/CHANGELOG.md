@@ -35,11 +35,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [qbitmanage-8.9.1](https://github.com/truecharts/charts/compare/qbitmanage-8.6.0...qbitmanage-8.9.1) (2024-04-09)
+## [qbitmanage-8.9.2](https://github.com/truecharts/charts/compare/qbitmanage-8.6.0...qbitmanage-8.9.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image bobokun/qbit_manage to v4.1.1[@df8af9b](https://github.com/df8af9b) by renovate ([#20401](https://github.com/truecharts/charts/issues/20401))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image bobokun/qbit_manage to v4.1.0[@9671c00](https://github.com/9671c00) by renovate ([#20315](https://github.com/truecharts/charts/issues/20315))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

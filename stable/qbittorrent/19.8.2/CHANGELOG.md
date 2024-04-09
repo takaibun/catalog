@@ -37,11 +37,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
 
-## [qbittorrent-19.8.1](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.1) (2024-04-09)
+## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
 
@@ -95,6 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))

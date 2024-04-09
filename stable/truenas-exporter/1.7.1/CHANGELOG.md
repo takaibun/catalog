@@ -33,11 +33,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [truenas-exporter-1.7.0](https://github.com/truecharts/charts/compare/truenas-exporter-1.5.0...truenas-exporter-1.7.0) (2024-04-08)
+## [truenas-exporter-1.7.1](https://github.com/truecharts/charts/compare/truenas-exporter-1.5.0...truenas-exporter-1.7.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image prom/graphite-exporter to v0.15.1[@9b2900c](https://github.com/9b2900c) by renovate ([#19643](https://github.com/truecharts/charts/issues/19643))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))

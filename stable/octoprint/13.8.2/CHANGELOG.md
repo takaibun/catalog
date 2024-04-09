@@ -37,11 +37,13 @@ title: Changelog
 - update icon ([#20369](https://github.com/truecharts/charts/issues/20369))
 
 
-## [octoprint-13.8.1](https://github.com/truecharts/charts/compare/octoprint-13.6.0...octoprint-13.8.1) (2024-04-08)
+## [octoprint-13.8.2](https://github.com/truecharts/charts/compare/octoprint-13.6.0...octoprint-13.8.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -95,6 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

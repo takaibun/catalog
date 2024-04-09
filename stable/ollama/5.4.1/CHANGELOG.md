@@ -57,11 +57,13 @@ title: Changelog
 - update container image ghcr.io/open-webui/open-webui to latest[@74b95a7](https://github.com/74b95a7) by renovate ([#19262](https://github.com/truecharts/charts/issues/19262))
 
 
-## [ollama-5.4.0](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-5.4.0) (2024-04-08)
+## [ollama-5.4.1](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-5.4.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image ghcr.io/open-webui/open-webui to latest[@e0a5a54](https://github.com/e0a5a54) by renovate ([#19482](https://github.com/truecharts/charts/issues/19482))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

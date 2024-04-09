@@ -39,11 +39,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/medusa to 1.0.19[@dbaa681](https://github.com/dbaa681) by renovate ([#19238](https://github.com/truecharts/charts/issues/19238))
 
 
-## [medusa-10.8.0](https://github.com/truecharts/charts/compare/medusa-10.6.0...medusa-10.8.0) (2024-04-08)
+## [medusa-10.8.1](https://github.com/truecharts/charts/compare/medusa-10.6.0...medusa-10.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/linuxserver/medusa to 1.0.19[@dbaa681](https://github.com/dbaa681) by renovate ([#19238](https://github.com/truecharts/charts/issues/19238))
-
-
-## [medusa-10.8.0](https://github.com/truecharts/charts/compare/medusa-10.6.0...medusa-10.8.0) (2024-04-08)

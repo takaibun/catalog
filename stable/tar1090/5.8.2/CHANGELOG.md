@@ -63,11 +63,13 @@ title: Changelog
 - update container image mikenye/tar1090 to latest[@a1075a0](https://github.com/a1075a0) by renovate ([#19275](https://github.com/truecharts/charts/issues/19275))
 
 
-## [tar1090-5.8.1](https://github.com/truecharts/charts/compare/tar1090-5.6.0...tar1090-5.8.1) (2024-04-09)
+## [tar1090-5.8.2](https://github.com/truecharts/charts/compare/tar1090-5.6.0...tar1090-5.8.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image mikenye/tar1090 to latest[@ed32650](https://github.com/ed32650) by renovate ([#20435](https://github.com/truecharts/charts/issues/20435))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mikenye/tar1090 to latest[@b1c2fd9](https://github.com/b1c2fd9) by renovate ([#19688](https://github.com/truecharts/charts/issues/19688))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image mikenye/tar1090 to latest[@849e4ee](https://github.com/849e4ee) by renovate ([#19652](https://github.com/truecharts/charts/issues/19652))

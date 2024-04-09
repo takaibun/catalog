@@ -65,11 +65,13 @@ title: Changelog
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 
-## [servas-4.16.1](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.16.1) (2024-04-09)
+## [servas-4.16.2](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.16.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mariadb to v13.7.4[@8c030a5](https://github.com/8c030a5) by renovate ([#19764](https://github.com/truecharts/charts/issues/19764))
 
 - update container image beromir/servas to v0.2.0[@1ab7aa9](https://github.com/1ab7aa9) by renovate ([#19801](https://github.com/truecharts/charts/issues/19801))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))

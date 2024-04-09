@@ -65,11 +65,13 @@ title: Changelog
 - update container image seafileltd/seafile-mc to v11.0.6[@be2599c](https://github.com/be2599c) by renovate ([#19325](https://github.com/truecharts/charts/issues/19325))
 
 
-## [seafile-5.15.1](https://github.com/truecharts/charts/compare/seafile-5.9.0...seafile-5.15.1) (2024-04-09)
+## [seafile-5.15.2](https://github.com/truecharts/charts/compare/seafile-5.9.0...seafile-5.15.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image mariadb to v13.7.4[@8c030a5](https://github.com/8c030a5) by renovate ([#19764](https://github.com/truecharts/charts/issues/19764))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image mariadb to v13.7.3[@8398c91](https://github.com/8398c91) by renovate ([#19693](https://github.com/truecharts/charts/issues/19693))

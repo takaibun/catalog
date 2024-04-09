@@ -45,11 +45,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [slash-4.8.1](https://github.com/truecharts/charts/compare/slash-4.6.0...slash-4.8.1) (2024-04-09)
+## [slash-4.8.2](https://github.com/truecharts/charts/compare/slash-4.6.0...slash-4.8.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image yourselfhosted/slash to 1.0.0[@1fe4218](https://github.com/1fe4218) by renovate ([#20437](https://github.com/truecharts/charts/issues/20437))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image yourselfhosted/slash to 1.0.0[@4b8301c](https://github.com/4b8301c) by renovate ([#19836](https://github.com/truecharts/charts/issues/19836))

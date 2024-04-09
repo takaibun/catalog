@@ -71,30 +71,30 @@ title: Changelog
 - add default blocklist, default whitelist, default group and enable customised prefetcher
 
 
-## [blocky-14.8.1](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.1) (2024-04-09)
+## [blocky-14.8.2](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.2) (2024-04-09)
 
 ### Chore
 
 
 
-- bump to release updated default DNS servers
-
-- update values.yaml to reflect default blacklist/whitelist changes
+- release lower blocky default lookup timeouts
 
 - remove non-functional blocklist
 
 - bump to release new default blocklists
 
-- update and annotate default DNS servers
-
-- release lower blocky default lookup timeouts
-
-- bump blocky
+- update values.yaml to reflect default blacklist/whitelist changes
 
 - bump blocky to apply whitelist/blacklist changes
+
+- update and annotate default DNS servers
+
+- bump to release updated default DNS servers
+
+- bump blocky
 
 - move blocky default lists directly to template
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
-- update container image redis to v13.2.2[@0ea5f1a](https://github.com/0ea5f1a) by renovate ([#19365](https://github.com/truecharts/charts/issues/19365))
+- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))

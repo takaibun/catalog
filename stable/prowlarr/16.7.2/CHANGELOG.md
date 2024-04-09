@@ -47,11 +47,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/prowlarr-develop to 1.14.1.4316[@882daa1](https://github.com/882daa1) by renovate ([#19255](https://github.com/truecharts/charts/issues/19255))
 
 
-## [prowlarr-16.7.1](https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.7.1) (2024-04-09)
+## [prowlarr-16.7.2](https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.7.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image ghcr.io/onedr0p/prowlarr-develop to 1.15.0.4361[@bd8092d](https://github.com/bd8092d) by renovate ([#20425](https://github.com/truecharts/charts/issues/20425))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
-
-- update container image ghcr.io/onedr0p/prowlarr-develop to 1.15.0.4361[@833d7ca](https://github.com/833d7ca) by renovate ([#20066](https://github.com/truecharts/charts/issues/20066))

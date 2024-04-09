@@ -41,11 +41,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [pwndrop-9.8.1](https://github.com/truecharts/charts/compare/pwndrop-9.6.0...pwndrop-9.8.1) (2024-04-09)
+## [pwndrop-9.8.2](https://github.com/truecharts/charts/compare/pwndrop-9.6.0...pwndrop-9.8.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image ghcr.io/linuxserver/pwndrop to 1.0.1[@4776da0](https://github.com/4776da0) by renovate ([#20420](https://github.com/truecharts/charts/issues/20420))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image ghcr.io/linuxserver/pwndrop to 1.0.1[@f2f3237](https://github.com/f2f3237) by renovate ([#19599](https://github.com/truecharts/charts/issues/19599))
-
-- update container image ghcr.io/linuxserver/pwndrop to 1.0.1[@f5a5176](https://github.com/f5a5176) by renovate ([#19464](https://github.com/truecharts/charts/issues/19464))

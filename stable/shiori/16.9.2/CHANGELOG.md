@@ -39,11 +39,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [shiori-16.9.1](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.9.1) (2024-04-09)
+## [shiori-16.9.2](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.9.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image ghcr.io/go-shiori/shiori to v1.6.2[@95485c7](https://github.com/95485c7) by renovate ([#20405](https://github.com/truecharts/charts/issues/20405))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image ghcr.io/go-shiori/shiori to v1.6.0[@628826c](https://github.com/628826c) by renovate ([#19427](https://github.com/truecharts/charts/issues/19427))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-
-## [shiori-16.9.1](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.9.1) (2024-04-09)
