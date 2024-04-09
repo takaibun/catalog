@@ -53,7 +53,7 @@ title: Changelog
 - add VictoriaMetrics database ([#20158](https://github.com/truecharts/charts/issues/20158))
 
 
-## [victoriametrics-0.0.2]victoriametrics-0.0.2 (2024-04-08)
+## [victoriametrics-0.0.2]victoriametrics-0.0.2 (2024-04-09)
 
 ### Chore
 
