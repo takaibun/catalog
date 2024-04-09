@@ -74,7 +74,7 @@ title: Changelog
 - fix typo
 
 
-## [redis-13.3.3](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.3) (2024-04-09)
+## [redis-13.3.4](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-13.3.4) (2024-04-09)
 
 ### Chore
 

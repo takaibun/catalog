@@ -14,6 +14,10 @@ title: Changelog
 
 
 
+- update container image friendica to 2024.03[@c824f39](https://github.com/c824f39) by renovate ([#20464](https://github.com/truecharts/charts/issues/20464))
+
+- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
+
 - update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
 
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
@@ -83,18 +87,14 @@ title: Changelog
 - update container image friendica to 2023.12[@95a7d8e](https://github.com/95a7d8e) by renovate ([#19227](https://github.com/truecharts/charts/issues/19227))
 
 
-## [friendica-14.4.3](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.3) (2024-04-09)
+## [friendica-14.4.4](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.4) (2024-04-09)
 
 ### Chore
 
 
 
+- update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
+
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
-
-- update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
-
-- update container image friendica to 2024.03[@93a0f0c](https://github.com/93a0f0c) by renovate ([#20462](https://github.com/truecharts/charts/issues/20462))

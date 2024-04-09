@@ -76,11 +76,13 @@ title: Changelog
 - update ignored updates to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#20000](https://github.com/truecharts/charts/issues/20000))
 
 
-## [peppermint-0.1.1]peppermint-0.1.1 (2024-04-09)
+## [peppermint-0.1.2]peppermint-0.1.2 (2024-04-09)
 
 ### Chore
 
 
+
+- update ignored updates to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20488](https://github.com/truecharts/charts/issues/20488))
 
 - lock file maintenance ignored by renovate ([#20393](https://github.com/truecharts/charts/issues/20393))
 
@@ -95,6 +97,3 @@ title: Changelog
 
 ### Chore
 
-
-
-- lock file maintenance ignored by renovate ([#20393](https://github.com/truecharts/charts/issues/20393))
