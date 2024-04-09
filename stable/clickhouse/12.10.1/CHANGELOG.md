@@ -66,11 +66,13 @@ title: Changelog
 - update container image clickhouse/clickhouse-server to v24.2.2.71[@fc9b0ac](https://github.com/fc9b0ac) by renovate ([#19299](https://github.com/truecharts/charts/issues/19299))
 
 
-## [clickhouse-12.10.0](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.10.0) (2024-04-08)
+## [clickhouse-12.10.1](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.10.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [clickhouse-12.10.0](https://github.com/truecharts/charts/compare/clickhouse-12.7.0...clickhouse-12.10.0) (2024-04-08)
 
 ### Chore
-

@@ -62,11 +62,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [watcharr-4.11.0](https://github.com/truecharts/charts/compare/watcharr-4.7.0...watcharr-4.11.0) (2024-04-08)
+## [watcharr-4.11.1](https://github.com/truecharts/charts/compare/watcharr-4.7.0...watcharr-4.11.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image ghcr.io/sbondco/watcharr to v1.37.0[@f013921](https://github.com/f013921) by renovate ([#19892](https://github.com/truecharts/charts/issues/19892))

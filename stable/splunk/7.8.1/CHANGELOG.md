@@ -62,11 +62,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [splunk-7.8.0](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.8.0) (2024-04-08)
+## [splunk-7.8.1](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-7.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image splunk/splunk to 9.2.1[@d227c11](https://github.com/d227c11) by renovate ([#20229](https://github.com/truecharts/charts/issues/20229))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [tandoor-recipes-16.8.1](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.1) (2024-04-09)
+## [tandoor-recipes-16.8.2](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image vabene1111/recipes to v1.5.17[@18424a5](https://github.com/18424a5) by renovate ([#20411](https://github.com/truecharts/charts/issues/20411))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [tandoor-recipes-16.8.1](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.1) (2024-04-09)
 
 ### Chore
-

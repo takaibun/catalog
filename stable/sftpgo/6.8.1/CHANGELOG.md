@@ -66,11 +66,13 @@ title: Changelog
 - add plugins and docs ([#20144](https://github.com/truecharts/charts/issues/20144))
 
 
-## [sftpgo-6.8.0](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.8.0) (2024-04-08)
+## [sftpgo-6.8.1](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [sftpgo-6.8.0](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-6.8.0) (2024-04-08)
 
 ### Chore
-

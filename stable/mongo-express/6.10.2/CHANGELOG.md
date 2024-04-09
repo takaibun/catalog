@@ -66,11 +66,13 @@ title: Changelog
 - update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
 
 
-## [mongo-express-6.10.1](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.1) (2024-04-09)
+## [mongo-express-6.10.2](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.2) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image docker.io/mongo-express to latest[@21dc2ec](https://github.com/21dc2ec) by renovate ([#19351](https://github.com/truecharts/charts/issues/19351))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [mongo-express-6.10.1](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.1) (2024-04-09)
 
 ### Chore
-
