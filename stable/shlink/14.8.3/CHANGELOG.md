@@ -43,11 +43,13 @@ title: Changelog
 - update container image shlinkio/shlink to v4.0.3[@efa6992](https://github.com/efa6992) by renovate ([#19326](https://github.com/truecharts/charts/issues/19326))
 
 
-## [shlink-14.8.2](https://github.com/truecharts/charts/compare/shlink-14.4.0...shlink-14.8.2) (2024-04-09)
+## [shlink-14.8.3](https://github.com/truecharts/charts/compare/shlink-14.4.0...shlink-14.8.3) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))

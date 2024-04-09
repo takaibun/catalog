@@ -1,16 +1,22 @@
 
 
-## [solr-10.8.0](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.8.0) (2024-04-08)
+## [mariadb-13.9.3](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.3) (2024-04-09)
 
 ### Chore
 
 
 
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image bitnami/solr to 9.5.0[@084bb6c](https://github.com/084bb6c) by renovate ([#20291](https://github.com/truecharts/charts/issues/20291))
+- update container image bitnami/mariadb to 11.3.2[@a4fcb09](https://github.com/a4fcb09) by renovate ([#20159](https://github.com/truecharts/charts/issues/20159))
 
-- update container image bitnami/solr to 9.5.0[@f1b568f](https://github.com/f1b568f) by renovate ([#20062](https://github.com/truecharts/charts/issues/20062))
+- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
+
+- update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
+
+- update container image bitnami/mariadb to 11.2.3[@6192a35](https://github.com/6192a35) by renovate ([#20057](https://github.com/truecharts/charts/issues/20057))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -20,7 +26,7 @@
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image bitnami/solr to 9.5.0[@996036d](https://github.com/996036d) by renovate ([#19659](https://github.com/truecharts/charts/issues/19659))
+- update container image bitnami/mariadb to 11.2.3[@302e664](https://github.com/302e664) by renovate ([#19540](https://github.com/truecharts/charts/issues/19540))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 

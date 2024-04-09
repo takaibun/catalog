@@ -7,35 +7,32 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 11.3.2
+appVersion: 7.2.4
 dependencies:
   - name: common
-    version: 20.3.2
+    version: 20.3.3
     repository: oci://tccr.io/truecharts
     condition: includeCommon
     alias: ""
     tags: []
     import-values: []
 deprecated: false
-description: Fast, reliable, scalable, and easy to use open-source relational database system.
-home: https://truecharts.org/charts/stable/mariadb
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/mariadb.png
+description: Open source, advanced key-value store.
+home: https://truecharts.org/charts/stable/redis
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/redis.png
 keywords:
-  - mariadb
-  - mysql
+  - redis
+  - keyvalue
   - database
-  - sql
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: mariadb
+name: redis
 sources:
-  - https://github.com/prometheus/mysqld_exporter
-  - https://mariadb.org
-  - https://github.com/bitnami/bitnami-docker-mariadb
-  - https://github.com/truecharts/charts/tree/master/charts/stable/mariadb
-  - https://hub.docker.com/r/bitnami/mariadb
+  - https://github.com/bitnami/bitnami-docker-redis
+  - https://github.com/truecharts/charts/tree/master/charts/stable/redis
+  - https://hub.docker.com/r/bitnami/redis
 type: application
-version: 13.9.1
+version: 13.3.4
