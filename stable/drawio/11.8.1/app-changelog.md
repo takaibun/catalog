@@ -1,10 +1,14 @@
 
 
-## [drawio-11.7.4](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.7.4) (2024-04-04)
+## [drawio-11.8.1](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image jgraph/drawio to v24.2.3[@d884f55](https://github.com/d884f55) by renovate ([#20453](https://github.com/truecharts/charts/issues/20453))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image jgraph/drawio to v24.2.2[@ab82dbb](https://github.com/ab82dbb) by renovate ([#20197](https://github.com/truecharts/charts/issues/20197))
 

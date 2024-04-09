@@ -66,7 +66,7 @@ title: Changelog
 - update container image docker.io/alpine/socat to 1.8.0.0[@2e782d6](https://github.com/2e782d6) by renovate ([#19222](https://github.com/truecharts/charts/issues/19222))
 
 
-## [jellyfin-18.8.0](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.8.0) (2024-04-08)
+## [jellyfin-18.8.0](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.8.0) (2024-04-09)
 
 ### Chore
 

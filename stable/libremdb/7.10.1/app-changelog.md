@@ -1,10 +1,14 @@
 
 
-## [libremdb-7.9.3](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-7.9.3) (2024-04-08)
+## [libremdb-7.10.1](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-7.10.1) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@3b7b6fe](https://github.com/3b7b6fe) by renovate ([#20450](https://github.com/truecharts/charts/issues/20450))
+
+- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@07c4c1e](https://github.com/07c4c1e) by renovate ([#20436](https://github.com/truecharts/charts/issues/20436))
 
