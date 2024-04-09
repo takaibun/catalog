@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [victoriametrics-0.0.2]victoriametrics-0.0.2 (2024-04-08)
+## [victoriametrics-0.0.2]victoriametrics-0.0.2 (2024-04-09)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [scrutiny-10.9.1](https://github.com/truecharts/charts/compare/scrutiny-10.6.0...scrutiny-10.9.1) (2024-04-08)
+## [scrutiny-10.9.1](https://github.com/truecharts/charts/compare/scrutiny-10.6.0...scrutiny-10.9.1) (2024-04-09)
 
 ### Chore
 

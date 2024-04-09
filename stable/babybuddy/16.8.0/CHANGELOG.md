@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [babybuddy-16.8.0](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.8.0) (2024-04-08)
+## [babybuddy-16.8.0](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.8.0) (2024-04-09)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [monero-node-6.7.1](https://github.com/truecharts/charts/compare/monero-node-6.5.0...monero-node-6.7.1) (2024-04-08)
+## [monero-node-6.7.1](https://github.com/truecharts/charts/compare/monero-node-6.5.0...monero-node-6.7.1) (2024-04-09)
 
 ### Chore
 

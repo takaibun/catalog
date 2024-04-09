@@ -89,12 +89,12 @@ title: Changelog
 - update container image kubeapps to v14.7.2[@1ccbe44](https://github.com/1ccbe44) by renovate ([#19317](https://github.com/truecharts/charts/issues/19317))
 
 
-## [kubeapps-2.10.0](https://github.com/truecharts/charts/compare/kubeapps-2.8.0...kubeapps-2.10.0) (2024-04-08)
+## [kubeapps-2.10.1](https://github.com/truecharts/charts/compare/kubeapps-2.8.0...kubeapps-2.10.1) (2024-04-08)
 
 ### Chore
 
 
 
-- update container image kubeapps to v15.0.1[@12bfab1](https://github.com/12bfab1) by renovate ([#20289](https://github.com/truecharts/charts/issues/20289))
+- update container image kubeapps to v15.0.2[@1818f22](https://github.com/1818f22) by renovate ([#20443](https://github.com/truecharts/charts/issues/20443))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image kubeapps to v15.0.1[@12bfab1](https://github.com/12bfab1) by renovate ([#20289](https://github.com/truecharts/charts/issues/20289))

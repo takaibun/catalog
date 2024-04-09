@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [tandoor-recipes-16.8.1](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.1) (2024-04-08)
+## [tandoor-recipes-16.8.1](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.1) (2024-04-09)
 
 ### Chore
 

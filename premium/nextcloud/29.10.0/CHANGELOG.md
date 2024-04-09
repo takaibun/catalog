@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [nextcloud-29.10.0](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.0) (2024-04-08)
+## [nextcloud-29.10.0](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.0) (2024-04-09)
 
 ### Chore
 
@@ -73,11 +73,13 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.9.2](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.9.2) (2024-04-08)
+## [nextcloud-29.10.0](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.0) (2024-04-08)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
 - update container image nginxinc/nginx-unprivileged to 1.25.4[@ef60d54](https://github.com/ef60d54) by renovate ([#20397](https://github.com/truecharts/charts/issues/20397))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image tccr.io/tccr/nextcloud-fpm to v[@78a98b1](https://github.com/78a98b1) by renovate ([#19985](https://github.com/truecharts/charts/issues/19985))
 
 - update container image collabora/code to v23.05.10.1.1[@1b9e3f4](https://github.com/1b9e3f4) by renovate ([#19912](https://github.com/truecharts/charts/issues/19912))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

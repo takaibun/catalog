@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [plex-17.8.2](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-17.8.2) (2024-04-08)
+## [plex-17.8.2](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-17.8.2) (2024-04-09)
 
 ### Chore
 
@@ -89,12 +89,12 @@ title: Changelog
 - update container image ghcr.io/onedr0p/plex to v1.40.1.8227-c0dd5a73e[@4ca8db0](https://github.com/4ca8db0) by renovate ([#19308](https://github.com/truecharts/charts/issues/19308))
 
 
-## [plex-17.8.1](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-17.8.1) (2024-04-08)
+## [plex-17.8.2](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-17.8.2) (2024-04-08)
 
 ### Chore
 
 
 
-- update container image ghcr.io/onedr0p/plex to 1.40.1.8227-c0dd5a73e[@1841a02](https://github.com/1841a02) by renovate ([#20385](https://github.com/truecharts/charts/issues/20385))
+- update container image ghcr.io/onedr0p/plex to 1.40.1.8227-c0dd5a73e[@c8d7453](https://github.com/c8d7453) by renovate ([#20424](https://github.com/truecharts/charts/issues/20424))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image ghcr.io/onedr0p/plex to 1.40.1.8227-c0dd5a73e[@1841a02](https://github.com/1841a02) by renovate ([#20385](https://github.com/truecharts/charts/issues/20385))

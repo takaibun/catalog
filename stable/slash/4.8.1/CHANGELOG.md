@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [slash-4.8.1](https://github.com/truecharts/charts/compare/slash-4.6.0...slash-4.8.1) (2024-04-08)
+## [slash-4.8.1](https://github.com/truecharts/charts/compare/slash-4.6.0...slash-4.8.1) (2024-04-09)
 
 ### Chore
 

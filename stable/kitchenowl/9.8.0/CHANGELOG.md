@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [kitchenowl-9.8.0](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-9.8.0) (2024-04-08)
+## [kitchenowl-9.8.0](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-9.8.0) (2024-04-09)
 
 ### Chore
 

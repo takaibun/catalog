@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [esphome-19.9.0](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-19.9.0) (2024-04-08)
+## [esphome-19.9.0](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-19.9.0) (2024-04-09)
 
 ### Chore
 

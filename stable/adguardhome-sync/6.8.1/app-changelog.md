@@ -1,6 +1,6 @@
 
 
-## [adguardhome-sync-6.8.1](https://github.com/truecharts/charts/compare/adguardhome-sync-6.6.0...adguardhome-sync-6.8.1) (2024-04-08)
+## [adguardhome-sync-6.8.1](https://github.com/truecharts/charts/compare/adguardhome-sync-6.6.0...adguardhome-sync-6.8.1) (2024-04-09)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [lancache-monolithic-8.8.0](https://github.com/truecharts/charts/compare/lancache-monolithic-8.6.0...lancache-monolithic-8.8.0) (2024-04-08)
+## [lancache-monolithic-8.8.0](https://github.com/truecharts/charts/compare/lancache-monolithic-8.6.0...lancache-monolithic-8.8.0) (2024-04-09)
 
 ### Chore
 

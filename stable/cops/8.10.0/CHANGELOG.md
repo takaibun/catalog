@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [cops-8.10.0](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-8.10.0) (2024-04-08)
+## [cops-8.10.0](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-8.10.0) (2024-04-09)
 
 ### Chore
 

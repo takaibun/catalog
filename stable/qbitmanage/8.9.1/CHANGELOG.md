@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [qbitmanage-8.9.1](https://github.com/truecharts/charts/compare/qbitmanage-8.6.0...qbitmanage-8.9.1) (2024-04-08)
+## [qbitmanage-8.9.1](https://github.com/truecharts/charts/compare/qbitmanage-8.6.0...qbitmanage-8.9.1) (2024-04-09)
 
 ### Chore
 

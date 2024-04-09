@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [healthchecks-14.9.1](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.9.1) (2024-04-08)
+## [healthchecks-14.9.1](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.9.1) (2024-04-09)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [sonarr-21.6.1](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.6.1) (2024-04-08)
+## [sonarr-21.6.1](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.6.1) (2024-04-09)
 
 ### Chore
 

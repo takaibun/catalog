@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [ispy-agent-dvr-9.10.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.1) (2024-04-08)
+## [ispy-agent-dvr-9.10.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.1) (2024-04-09)
 
 ### Chore
 

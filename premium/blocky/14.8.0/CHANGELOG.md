@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [blocky-14.8.0](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.0) (2024-04-08)
+## [blocky-14.8.0](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.0) (2024-04-09)
 
 ### Chore
 
@@ -67,34 +67,34 @@ title: Changelog
 - add default blocklist, default whitelist, default group and enable customised prefetcher
 
 
-## [blocky-14.7.0](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.7.0) (2024-04-08)
+## [blocky-14.8.0](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.0) (2024-04-08)
 
 ### Chore
 
 
 
-- release lower blocky default lookup timeouts
-
 - bump blocky
 
-- update values.yaml to reflect default blacklist/whitelist changes
-
 - move blocky default lists directly to template
+
+- bump to release new default blocklists
 
 - bump blocky to apply whitelist/blacklist changes
 
 - update and annotate default DNS servers
 
-- remove non-functional blocklist
-
-- bump to release new default blocklists
-
 - bump to release updated default DNS servers
 
-- update container image redis to v13.2.2[@0ea5f1a](https://github.com/0ea5f1a) by renovate ([#19365](https://github.com/truecharts/charts/issues/19365))
+- release lower blocky default lookup timeouts
 
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
+- remove non-functional blocklist
 
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+- update values.yaml to reflect default blacklist/whitelist changes
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
+
+- update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))

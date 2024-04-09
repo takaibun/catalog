@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [owncast-13.8.1](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-13.8.1) (2024-04-08)
+## [owncast-13.8.1](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-13.8.1) (2024-04-09)
 
 ### Chore
 
