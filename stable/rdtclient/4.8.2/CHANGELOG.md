@@ -8,17 +8,23 @@ title: Changelog
 **Important:**
 
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+## [rdtclient-4.8.2](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.2) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.69[@dc06c39](https://github.com/dc06c39) by renovate ([#20515](https://github.com/truecharts/charts/issues/20515))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.66[@c693300](https://github.com/c693300) by renovate ([#20483](https://github.com/truecharts/charts/issues/20483))
+
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.65[@65d7754](https://github.com/65d7754) by renovate ([#20364](https://github.com/truecharts/charts/issues/20364))
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -33,17 +39,21 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+## [rdtclient-4.8.1](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.1) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
-
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.66[@c693300](https://github.com/c693300) by renovate ([#20483](https://github.com/truecharts/charts/issues/20483))
+
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.65[@65d7754](https://github.com/65d7754) by renovate ([#20364](https://github.com/truecharts/charts/issues/20364))
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -58,17 +68,21 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+## [rdtclient-4.8.1](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.1) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
-
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.66[@c693300](https://github.com/c693300) by renovate ([#20483](https://github.com/truecharts/charts/issues/20483))
+
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.65[@65d7754](https://github.com/65d7754) by renovate ([#20364](https://github.com/truecharts/charts/issues/20364))
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -83,18 +97,4 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
-
-### Chore
-
-
-
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+## [rdtclient-4.8.1](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.1) (2024-04-10)

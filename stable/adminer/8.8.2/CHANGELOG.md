@@ -8,13 +8,13 @@ title: Changelog
 **Important:**
 
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+## [adminer-8.8.2](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.2) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
+- update container image adminer to latest[@5385e9d](https://github.com/5385e9d) by renovate ([#20507](https://github.com/truecharts/charts/issues/20507))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -32,14 +32,14 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+
+## [adminer-8.8.1](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.1) (2024-04-09)
 
 ### Chore
 
 
-
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -57,14 +57,14 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+
+## [adminer-8.8.1](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.1) (2024-04-09)
 
 ### Chore
 
 
-
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -82,14 +82,14 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
 
-## [flaresolverr-13.8.2](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.2) (2024-04-10)
+
+## [adminer-8.8.1](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.1) (2024-04-09)
 
 ### Chore
 
 
-
-- update container image ghcr.io/flaresolverr/flaresolverr to v3.3.17[@5f5661d](https://github.com/5f5661d) by renovate ([#20505](https://github.com/truecharts/charts/issues/20505))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
