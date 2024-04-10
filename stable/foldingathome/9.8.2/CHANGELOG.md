@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [foldingathome-9.8.2](https://github.com/truecharts/charts/compare/foldingathome-9.6.0...foldingathome-9.8.2) (2024-04-09)
+## [foldingathome-9.8.2](https://github.com/truecharts/charts/compare/foldingathome-9.6.0...foldingathome-9.8.2) (2024-04-10)
 
 ### Chore
 

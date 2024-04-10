@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [code-server-11.10.0](https://github.com/truecharts/charts/compare/code-server-11.7.0...code-server-11.10.0) (2024-04-09)
+## [code-server-11.10.0](https://github.com/truecharts/charts/compare/code-server-11.7.0...code-server-11.10.0) (2024-04-10)
 
 ### Chore
 

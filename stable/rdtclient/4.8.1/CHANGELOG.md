@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rdtclient-4.8.1](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.1) (2024-04-09)
+## [rdtclient-4.8.1](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.1) (2024-04-10)
 
 ### Chore
 

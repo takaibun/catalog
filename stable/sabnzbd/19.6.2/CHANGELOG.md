@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [sabnzbd-19.6.2](https://github.com/truecharts/charts/compare/sabnzbd-19.4.0...sabnzbd-19.6.2) (2024-04-09)
+## [sabnzbd-19.6.2](https://github.com/truecharts/charts/compare/sabnzbd-19.4.0...sabnzbd-19.6.2) (2024-04-10)
 
 ### Chore
 

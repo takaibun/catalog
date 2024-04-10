@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [drawio-11.8.2](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.2) (2024-04-09)
+## [drawio-11.8.2](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.2) (2024-04-10)
 
 ### Chore
 

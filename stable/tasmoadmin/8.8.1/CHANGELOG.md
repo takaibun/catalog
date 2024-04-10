@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [tasmoadmin-8.8.1](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.8.1) (2024-04-09)
+## [tasmoadmin-8.8.1](https://github.com/truecharts/charts/compare/tasmoadmin-8.6.0...tasmoadmin-8.8.1) (2024-04-10)
 
 ### Chore
 

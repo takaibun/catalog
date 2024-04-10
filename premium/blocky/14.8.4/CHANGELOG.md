@@ -75,17 +75,11 @@ title: Changelog
 - add default blocklist, default whitelist, default group and enable customised prefetcher
 
 
-## [blocky-14.8.3](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.3) (2024-04-09)
+## [blocky-14.8.4](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.4) (2024-04-09)
 
 ### Chore
 
 
-
-- bump blocky
-
-- update values.yaml to reflect default blacklist/whitelist changes
-
-- bump to release new default blocklists
 
 - remove non-functional blocklist
 
@@ -95,6 +89,12 @@ title: Changelog
 
 - release lower blocky default lookup timeouts
 
+- bump blocky
+
 - move blocky default lists directly to template
 
+- update values.yaml to reflect default blacklist/whitelist changes
+
 - bump blocky to apply whitelist/blacklist changes
+
+- bump to release new default blocklists

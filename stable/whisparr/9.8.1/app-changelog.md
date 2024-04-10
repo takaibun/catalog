@@ -1,6 +1,6 @@
 
 
-## [whisparr-9.8.1](https://github.com/truecharts/charts/compare/whisparr-9.6.0...whisparr-9.8.1) (2024-04-09)
+## [whisparr-9.8.1](https://github.com/truecharts/charts/compare/whisparr-9.6.0...whisparr-9.8.1) (2024-04-10)
 
 ### Chore
 

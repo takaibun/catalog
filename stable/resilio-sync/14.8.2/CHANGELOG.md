@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [resilio-sync-14.8.2](https://github.com/truecharts/charts/compare/resilio-sync-14.6.0...resilio-sync-14.8.2) (2024-04-09)
+## [resilio-sync-14.8.2](https://github.com/truecharts/charts/compare/resilio-sync-14.6.0...resilio-sync-14.8.2) (2024-04-10)
 
 ### Chore
 

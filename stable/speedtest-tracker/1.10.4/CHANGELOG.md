@@ -53,11 +53,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/speedtest-tracker to v0.18.3[@85071b7](https://github.com/85071b7) by renovate ([#19307](https://github.com/truecharts/charts/issues/19307))
 
 
-## [speedtest-tracker-1.10.3](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.10.3) (2024-04-09)
+## [speedtest-tracker-1.10.4](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.10.4) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image ghcr.io/linuxserver/speedtest-tracker to v0.18.3[@85071b7](https://github.com/85071b7) by renovate ([#19307](https://github.com/truecharts/charts/issues/19307))
 
-
-## [speedtest-tracker-1.10.3](https://github.com/truecharts/charts/compare/speedtest-tracker-1.6.0...speedtest-tracker-1.10.3) (2024-04-09)

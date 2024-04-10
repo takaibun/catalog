@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [grafana-image-renderer-5.8.2](https://github.com/truecharts/charts/compare/grafana-image-renderer-5.6.0...grafana-image-renderer-5.8.2) (2024-04-09)
+## [grafana-image-renderer-5.8.2](https://github.com/truecharts/charts/compare/grafana-image-renderer-5.6.0...grafana-image-renderer-5.8.2) (2024-04-10)
 
 ### Chore
 

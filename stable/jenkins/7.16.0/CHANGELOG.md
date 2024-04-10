@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [jenkins-7.16.0](https://github.com/truecharts/charts/compare/jenkins-7.9.0...jenkins-7.16.0) (2024-04-09)
+## [jenkins-7.16.0](https://github.com/truecharts/charts/compare/jenkins-7.9.0...jenkins-7.16.0) (2024-04-10)
 
 ### Chore
 

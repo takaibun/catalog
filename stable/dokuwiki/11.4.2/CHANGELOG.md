@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [dokuwiki-11.4.2](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-11.4.2) (2024-04-09)
+## [dokuwiki-11.4.2](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-11.4.2) (2024-04-10)
 
 ### Chore
 

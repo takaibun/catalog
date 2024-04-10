@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [filezilla-11.8.2](https://github.com/truecharts/charts/compare/filezilla-11.6.0...filezilla-11.8.2) (2024-04-09)
+## [filezilla-11.8.2](https://github.com/truecharts/charts/compare/filezilla-11.6.0...filezilla-11.8.2) (2024-04-10)
 
 ### Chore
 

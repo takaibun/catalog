@@ -93,7 +93,7 @@ title: Changelog
 - Add slskd (Soulseek daemon) to incubator ([#19918](https://github.com/truecharts/charts/issues/19918))
 
 
-## [slskd-0.1.0]slskd-0.1.0 (2024-04-08)
+## [slskd-0.1.1]slskd-0.1.1 (2024-04-09)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [ddclient-9.8.2](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.2) (2024-04-09)
+## [ddclient-9.8.2](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.2) (2024-04-10)
 
 ### Chore
 

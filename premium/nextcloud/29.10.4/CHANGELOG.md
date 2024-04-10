@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [nextcloud-29.10.4](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.4) (2024-04-09)
+## [nextcloud-29.10.4](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.4) (2024-04-10)
 
 ### Chore
 
@@ -81,11 +81,13 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.10.3](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.3) (2024-04-09)
+## [nextcloud-29.10.4](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.4) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
 - update container image nginxinc/nginx-unprivileged to 1.25.4[@ef60d54](https://github.com/ef60d54) by renovate ([#20397](https://github.com/truecharts/charts/issues/20397))
-
-- update container image clamav/clamav to 1.3.0[@5d7a5eb](https://github.com/5d7a5eb) by renovate ([#20394](https://github.com/truecharts/charts/issues/20394))
