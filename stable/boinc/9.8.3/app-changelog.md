@@ -6,6 +6,8 @@
 
 
 
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
 - update container image ghcr.io/linuxserver/boinc to latest[@5415968](https://github.com/5415968) by renovate ([#20468](https://github.com/truecharts/charts/issues/20468))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))

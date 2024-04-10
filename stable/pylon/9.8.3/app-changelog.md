@@ -6,6 +6,8 @@
 
 
 
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
 - update container image ghcr.io/linuxserver/pylon to 2.10.0[@01eeb2a](https://github.com/01eeb2a) by renovate ([#20469](https://github.com/truecharts/charts/issues/20469))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
