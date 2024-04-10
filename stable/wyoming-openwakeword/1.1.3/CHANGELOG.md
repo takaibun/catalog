@@ -27,11 +27,13 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 
-## [wyoming-openwakeword-1.1.2](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.2) (2024-04-10)
+## [wyoming-openwakeword-1.1.3](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,6 +97,4 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 
-## [wyoming-openwakeword-1.1.1](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.1) (2024-04-09)
-
-### Chore
+## [wyoming-openwakeword-1.1.2](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.2) (2024-04-10)

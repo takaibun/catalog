@@ -47,11 +47,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/smokeping to 2.8.2[@a1ac286](https://github.com/a1ac286) by renovate ([#19247](https://github.com/truecharts/charts/issues/19247))
 
 
-## [smokeping-10.8.3](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-10.8.3) (2024-04-10)
+## [smokeping-10.8.4](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-10.8.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/linuxserver/smokeping to 2.8.2[@c940a2e](https://github.com/c940a2e) by renovate ([#20503](https://github.com/truecharts/charts/issues/20503))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

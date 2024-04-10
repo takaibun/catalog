@@ -45,11 +45,13 @@ title: Changelog
 - update container image homeassistant/home-assistant to v2024.3.1[@9dade93](https://github.com/9dade93) by renovate ([#19313](https://github.com/truecharts/charts/issues/19313))
 
 
-## [home-assistant-24.10.3](https://github.com/truecharts/charts/compare/home-assistant-24.7.0...home-assistant-24.10.3) (2024-04-10)
+## [home-assistant-24.10.4](https://github.com/truecharts/charts/compare/home-assistant-24.7.0...home-assistant-24.10.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image homeassistant/home-assistant to v2024.4.1[@36cdb5f](https://github.com/36cdb5f) by renovate ([#20285](https://github.com/truecharts/charts/issues/20285))
-
-- update container image homeassistant/home-assistant to v2024.4.0[@2060bcd](https://github.com/2060bcd) by renovate ([#20209](https://github.com/truecharts/charts/issues/20209))

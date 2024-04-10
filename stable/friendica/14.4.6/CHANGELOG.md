@@ -93,7 +93,7 @@ title: Changelog
 - update container image friendica to 2023.12[@95a7d8e](https://github.com/95a7d8e) by renovate ([#19227](https://github.com/truecharts/charts/issues/19227))
 
 
-## [friendica-14.4.5](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.5) (2024-04-10)
+## [friendica-14.4.6](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.6) (2024-04-10)
 
 ### Chore
 

@@ -51,11 +51,13 @@ title: Changelog
 - add prototype to force reset passwords on init
 
 
-## [mariadb-13.9.6](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.6) (2024-04-10)
+## [mariadb-13.9.7](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.7) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 ## [mariadb-13.9.6](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.6) (2024-04-10)
 
 ### Chore
-
-

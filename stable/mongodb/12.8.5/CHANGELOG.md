@@ -45,11 +45,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [mongodb-12.8.4](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.4) (2024-04-10)
+## [mongodb-12.8.5](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.5) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image bitnami/mongodb to 7.0.8[@e16aa4a](https://github.com/e16aa4a) by renovate ([#20273](https://github.com/truecharts/charts/issues/20273))
-
-- update container image bitnami/mongodb to v7.0.8[@52eeae9](https://github.com/52eeae9) by renovate ([#20249](https://github.com/truecharts/charts/issues/20249))

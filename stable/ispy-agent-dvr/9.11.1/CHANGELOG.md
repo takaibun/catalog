@@ -51,11 +51,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ispy-agent-dvr-9.11.0](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.0) (2024-04-10)
+## [ispy-agent-dvr-9.11.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.1) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image doitandbedone/ispyagentdvr to v5.4.0.0[@270c4f4](https://github.com/270c4f4) by renovate ([#20532](https://github.com/truecharts/charts/issues/20532))
 
@@ -92,8 +94,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ispy-agent-dvr-9.10.3](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.10.3) (2024-04-10)
+## [ispy-agent-dvr-9.11.0](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.0) (2024-04-10)
 
 ### Chore
-
-

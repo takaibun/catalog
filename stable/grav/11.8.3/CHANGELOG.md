@@ -47,11 +47,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/grav to 1.7.44[@874195e](https://github.com/874195e) by renovate ([#19352](https://github.com/truecharts/charts/issues/19352))
 
 
-## [grav-11.8.2](https://github.com/truecharts/charts/compare/grav-11.6.0...grav-11.8.2) (2024-04-10)
+## [grav-11.8.3](https://github.com/truecharts/charts/compare/grav-11.6.0...grav-11.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image ghcr.io/linuxserver/grav to 1.7.45[@6559469](https://github.com/6559469) by renovate ([#20329](https://github.com/truecharts/charts/issues/20329))
