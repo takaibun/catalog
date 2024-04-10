@@ -93,7 +93,7 @@ title: Changelog
 - update ignored by renovate (patch) ([#19333](https://github.com/truecharts/charts/issues/19333))
 
 
-## [wisemapping-0.2.2](https://github.com/truecharts/charts/compare/wisemapping-0.1.2...wisemapping-0.2.2) (2024-04-10)
+## [wisemapping-0.2.3](https://github.com/truecharts/charts/compare/wisemapping-0.1.2...wisemapping-0.2.3) (2024-04-10)
 
 ### Chore
 

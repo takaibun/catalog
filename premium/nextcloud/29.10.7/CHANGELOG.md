@@ -87,14 +87,14 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.10.6](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.6) (2024-04-10)
+## [nextcloud-29.10.7](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.7) (2024-04-10)
 
 ### Chore
 
 
 
+- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
+
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))

@@ -1,10 +1,14 @@
 
 
-## [yourls-5.8.3](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.3) (2024-04-10)
+## [yourls-5.8.5](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.5) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image yourls to latest[@f361065](https://github.com/f361065) by renovate ([#20559](https://github.com/truecharts/charts/issues/20559))
+
+- update container image yourls to latest[@cf1b1aa](https://github.com/cf1b1aa) by renovate ([#20549](https://github.com/truecharts/charts/issues/20549))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
