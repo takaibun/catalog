@@ -46,25 +46,15 @@ securityContext:
   container:
     readOnlyRootFilesystem: false
     runAsGroup: 0
-secret:
-  credentials:
-    enabled: true
-    data:
-      mariadb-password: '{{ ( .Values.password | default "empty" ) }}'
-      mariadb-root-password: '{{ ( .Values.rootPassword | default "empty" ) }}'
 persistence:
   data:
     enabled: true
     mountPath: "/bitnami/mariadb"
 mariadbUsername: "test"
 mariadbDatabase: "test"
-rootPassword: "testroot"
-# -- Secret or password
-# One of these options is required, unless used as a dependency for another TrueCharts chart.
-password: "placeholderpass"
-existingSecret: ""
+## DEVNOTE: These password defaults always need to match common
+rootPassword: "PLACEHOLDERROOTPASSWORD"
+password: "PLACEHOLDERPASSWORD"
 portal:
   open:
     enabled: false
-manifestManager:
-  enabled: false
