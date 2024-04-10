@@ -6,6 +6,8 @@
 
 
 
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+
 - update container image adminer to latest[@ceca91a](https://github.com/ceca91a) by renovate ([#20518](https://github.com/truecharts/charts/issues/20518))
 
 - update container image adminer to latest[@5385e9d](https://github.com/5385e9d) by renovate ([#20507](https://github.com/truecharts/charts/issues/20507))
