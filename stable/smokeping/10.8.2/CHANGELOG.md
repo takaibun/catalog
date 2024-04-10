@@ -8,19 +8,19 @@ title: Changelog
 **Important:**
 
 
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-10)
+## [smokeping-10.8.2](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-10.8.2) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@c940a2e](https://github.com/c940a2e) by renovate ([#20503](https://github.com/truecharts/charts/issues/20503))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/onedr0p/qbittorrent to v4.6.4[@85f1852](https://github.com/85f1852) by renovate ([#19763](https://github.com/truecharts/charts/issues/19763))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@dfac5ca](https://github.com/dfac5ca) by renovate ([#20161](https://github.com/truecharts/charts/issues/20161))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -28,16 +28,22 @@ title: Changelog
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@d7283c4](https://github.com/d7283c4) by renovate ([#19686](https://github.com/truecharts/charts/issues/19686))
+
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
+
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@4245daf](https://github.com/4245daf) by renovate ([#19648](https://github.com/truecharts/charts/issues/19648))
+
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@9c49278](https://github.com/9c49278) by renovate ([#19519](https://github.com/truecharts/charts/issues/19519))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@a1ac286](https://github.com/a1ac286) by renovate ([#19247](https://github.com/truecharts/charts/issues/19247))
 
 
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-10)
+## [smokeping-10.8.1](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-10.8.1) (2024-04-09)
 
 ### Chore
 
@@ -45,11 +51,9 @@ title: Changelog
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
-
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/onedr0p/qbittorrent to v4.6.4[@85f1852](https://github.com/85f1852) by renovate ([#19763](https://github.com/truecharts/charts/issues/19763))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@dfac5ca](https://github.com/dfac5ca) by renovate ([#20161](https://github.com/truecharts/charts/issues/20161))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -57,16 +61,22 @@ title: Changelog
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@d7283c4](https://github.com/d7283c4) by renovate ([#19686](https://github.com/truecharts/charts/issues/19686))
+
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
+
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@4245daf](https://github.com/4245daf) by renovate ([#19648](https://github.com/truecharts/charts/issues/19648))
+
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@9c49278](https://github.com/9c49278) by renovate ([#19519](https://github.com/truecharts/charts/issues/19519))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@a1ac286](https://github.com/a1ac286) by renovate ([#19247](https://github.com/truecharts/charts/issues/19247))
 
 
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-10)
+## [smokeping-10.8.1](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-10.8.1) (2024-04-09)
 
 ### Chore
 
@@ -74,11 +84,9 @@ title: Changelog
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
-
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/onedr0p/qbittorrent to v4.6.4[@85f1852](https://github.com/85f1852) by renovate ([#19763](https://github.com/truecharts/charts/issues/19763))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@dfac5ca](https://github.com/dfac5ca) by renovate ([#20161](https://github.com/truecharts/charts/issues/20161))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -86,15 +94,6 @@ title: Changelog
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@d7283c4](https://github.com/d7283c4) by renovate ([#19686](https://github.com/truecharts/charts/issues/19686))
+
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
-
-
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-09)
-
-### Chore

@@ -82,7 +82,7 @@ title: Changelog
 - update container image nginx to 1.25.4[@6db391d](https://github.com/6db391d) by renovate ([#19277](https://github.com/truecharts/charts/issues/19277))
 
 
-## [vikunja-13.10.4](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.4) (2024-04-09)
+## [vikunja-13.10.4](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.4) (2024-04-10)
 
 ### Chore
 

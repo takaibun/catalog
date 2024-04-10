@@ -8,19 +8,23 @@ title: Changelog
 **Important:**
 
 
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-10)
+## [mongodb-12.8.3](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.3) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image bitnami/mongodb to 7.0.8[@3163c38](https://github.com/3163c38) by renovate ([#20500](https://github.com/truecharts/charts/issues/20500))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/onedr0p/qbittorrent to v4.6.4[@85f1852](https://github.com/85f1852) by renovate ([#19763](https://github.com/truecharts/charts/issues/19763))
+- update container image bitnami/mongodb to 7.0.8[@e16aa4a](https://github.com/e16aa4a) by renovate ([#20273](https://github.com/truecharts/charts/issues/20273))
+
+- update container image bitnami/mongodb to v7.0.8[@52eeae9](https://github.com/52eeae9) by renovate ([#20249](https://github.com/truecharts/charts/issues/20249))
+
+- update container image bitnami/mongodb to 7.0.7[@7982093](https://github.com/7982093) by renovate ([#20059](https://github.com/truecharts/charts/issues/20059))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -30,14 +34,14 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image bitnami/mongodb to v7.0.7[@b731d29](https://github.com/b731d29) by renovate ([#19486](https://github.com/truecharts/charts/issues/19486))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
-
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-10)
+## [mongodb-12.8.2](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.2) (2024-04-09)
 
 ### Chore
 
@@ -45,11 +49,13 @@ title: Changelog
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
-
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/onedr0p/qbittorrent to v4.6.4[@85f1852](https://github.com/85f1852) by renovate ([#19763](https://github.com/truecharts/charts/issues/19763))
+- update container image bitnami/mongodb to 7.0.8[@e16aa4a](https://github.com/e16aa4a) by renovate ([#20273](https://github.com/truecharts/charts/issues/20273))
+
+- update container image bitnami/mongodb to v7.0.8[@52eeae9](https://github.com/52eeae9) by renovate ([#20249](https://github.com/truecharts/charts/issues/20249))
+
+- update container image bitnami/mongodb to 7.0.7[@7982093](https://github.com/7982093) by renovate ([#20059](https://github.com/truecharts/charts/issues/20059))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -59,14 +65,14 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image bitnami/mongodb to v7.0.7[@b731d29](https://github.com/b731d29) by renovate ([#19486](https://github.com/truecharts/charts/issues/19486))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
 
-
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-10)
+## [mongodb-12.8.2](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.2) (2024-04-09)
 
 ### Chore
 
@@ -74,11 +80,13 @@ title: Changelog
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.4[@cb8a7df](https://github.com/cb8a7df) by renovate ([#20426](https://github.com/truecharts/charts/issues/20426))
-
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/onedr0p/qbittorrent to v4.6.4[@85f1852](https://github.com/85f1852) by renovate ([#19763](https://github.com/truecharts/charts/issues/19763))
+- update container image bitnami/mongodb to 7.0.8[@e16aa4a](https://github.com/e16aa4a) by renovate ([#20273](https://github.com/truecharts/charts/issues/20273))
+
+- update container image bitnami/mongodb to v7.0.8[@52eeae9](https://github.com/52eeae9) by renovate ([#20249](https://github.com/truecharts/charts/issues/20249))
+
+- update container image bitnami/mongodb to 7.0.7[@7982093](https://github.com/7982093) by renovate ([#20059](https://github.com/truecharts/charts/issues/20059))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -88,13 +96,4 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-- update container image ghcr.io/onedr0p/qbittorrent to 4.6.3[@f2895e6](https://github.com/f2895e6) by renovate ([#19256](https://github.com/truecharts/charts/issues/19256))
-
-
-## [qbittorrent-19.8.2](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.2) (2024-04-09)
-
-### Chore
+- update container image bitnami/mongodb to v7.0.7[@b731d29](https://github.com/b731d29) by renovate ([#19486](https://github.com/truecharts/charts/issues/19486))
