@@ -62,11 +62,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [mediainfo-9.9.1](https://github.com/truecharts/charts/compare/mediainfo-9.6.0...mediainfo-9.9.1) (2024-04-09)
+## [mediainfo-9.9.2](https://github.com/truecharts/charts/compare/mediainfo-9.6.0...mediainfo-9.9.2) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image jlesage/mediainfo to v24.04.1[@50e2e26](https://github.com/50e2e26) by renovate ([#20131](https://github.com/truecharts/charts/issues/20131))

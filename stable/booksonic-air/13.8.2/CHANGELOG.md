@@ -78,11 +78,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/booksonic-air to 2201.1.0[@2d7b056](https://github.com/2d7b056) by renovate ([#19230](https://github.com/truecharts/charts/issues/19230))
 
 
-## [booksonic-air-13.8.1](https://github.com/truecharts/charts/compare/booksonic-air-13.6.0...booksonic-air-13.8.1) (2024-04-09)
+## [booksonic-air-13.8.2](https://github.com/truecharts/charts/compare/booksonic-air-13.6.0...booksonic-air-13.8.2) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/linuxserver/booksonic-air to 2201.1.0[@91e39d9](https://github.com/91e39d9) by renovate ([#19872](https://github.com/truecharts/charts/issues/19872))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))

@@ -78,11 +78,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/openvscode-server to 1.87.0[@42dff8d](https://github.com/42dff8d) by renovate ([#19242](https://github.com/truecharts/charts/issues/19242))
 
 
-## [openvscode-server-9.9.1](https://github.com/truecharts/charts/compare/openvscode-server-9.7.0...openvscode-server-9.9.1) (2024-04-09)
+## [openvscode-server-9.9.2](https://github.com/truecharts/charts/compare/openvscode-server-9.7.0...openvscode-server-9.9.2) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/linuxserver/openvscode-server to 1.87.1[@c48a09e](https://github.com/c48a09e) by renovate ([#19993](https://github.com/truecharts/charts/issues/19993))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))

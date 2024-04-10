@@ -70,11 +70,15 @@ title: Changelog
 - update container image chronograf to latest[@ac8f8cc](https://github.com/ac8f8cc) by renovate ([#19218](https://github.com/truecharts/charts/issues/19218))
 
 
-## [chronograf-5.8.2](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.2) (2024-04-10)
+## [chronograf-5.8.3](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+
+- update container image chronograf to latest[@e429b94](https://github.com/e429b94) by renovate ([#20519](https://github.com/truecharts/charts/issues/20519))
 
 - update container image chronograf to latest[@40e60ec](https://github.com/40e60ec) by renovate ([#20508](https://github.com/truecharts/charts/issues/20508))
 
@@ -93,8 +97,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-- update container image chronograf to latest[@ac8f8cc](https://github.com/ac8f8cc) by renovate ([#19218](https://github.com/truecharts/charts/issues/19218))
-
-
-## [chronograf-5.8.2](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.2) (2024-04-10)
