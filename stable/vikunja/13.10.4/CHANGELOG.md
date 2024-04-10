@@ -45,7 +45,7 @@ title: Changelog
 - update container image nginx to 1.25.4[@6db391d](https://github.com/6db391d) by renovate ([#19277](https://github.com/truecharts/charts/issues/19277))
 
 
-## [vikunja-13.10.4](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.4) (2024-04-09)
+## [vikunja-13.10.4](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.4) (2024-04-10)
 
 ### Chore
 
@@ -82,11 +82,13 @@ title: Changelog
 - update container image nginx to 1.25.4[@6db391d](https://github.com/6db391d) by renovate ([#19277](https://github.com/truecharts/charts/issues/19277))
 
 
-## [vikunja-13.10.3](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.3) (2024-04-09)
+## [vikunja-13.10.4](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.4) (2024-04-09)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

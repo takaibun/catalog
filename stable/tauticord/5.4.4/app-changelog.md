@@ -1,10 +1,14 @@
 
 
-## [tauticord-5.4.2](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-5.4.2) (2024-04-09)
+## [tauticord-5.4.4](https://github.com/truecharts/charts/compare/tauticord-4.1.0...tauticord-5.4.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image ghcr.io/nwithan8/tauticord to v5.3.4[@465861d](https://github.com/465861d) by renovate ([#20506](https://github.com/truecharts/charts/issues/20506))
+
+- update container image ghcr.io/nwithan8/tauticord to v5.3.3[@f258e8d](https://github.com/f258e8d) by renovate ([#20484](https://github.com/truecharts/charts/issues/20484))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
