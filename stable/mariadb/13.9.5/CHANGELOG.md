@@ -47,7 +47,7 @@ title: Changelog
 - add prototype to force reset passwords on init
 
 
-## [mariadb-13.9.4](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.4) (2024-04-10)
+## [mariadb-13.9.5](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.5) (2024-04-10)
 
 ### Chore
 
@@ -79,6 +79,12 @@ title: Changelog
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+### Fix
+
+
+
+- add prototype to force reset passwords on init
+
 
 ## [mariadb-13.9.4](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.4) (2024-04-10)
 
@@ -91,9 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image bitnami/mariadb to 11.3.2[@a4fcb09](https://github.com/a4fcb09) by renovate ([#20159](https://github.com/truecharts/charts/issues/20159))
-
-- update container image bitnami/mariadb to v11.3.2[@3e94959](https://github.com/3e94959) by renovate ([#20140](https://github.com/truecharts/charts/issues/20140))
-
-- update container image bitnami/mariadb to 11.2.3[@a4f923b](https://github.com/a4f923b) by renovate ([#20113](https://github.com/truecharts/charts/issues/20113))
-
-- update container image bitnami/mariadb to 11.2.3[@6192a35](https://github.com/6192a35) by renovate ([#20057](https://github.com/truecharts/charts/issues/20057))

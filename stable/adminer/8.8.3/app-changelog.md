@@ -1,10 +1,14 @@
 
 
-## [adminer-8.8.1](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.1) (2024-04-09)
+## [adminer-8.8.3](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image adminer to latest[@ceca91a](https://github.com/ceca91a) by renovate ([#20518](https://github.com/truecharts/charts/issues/20518))
+
+- update container image adminer to latest[@5385e9d](https://github.com/5385e9d) by renovate ([#20507](https://github.com/truecharts/charts/issues/20507))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
