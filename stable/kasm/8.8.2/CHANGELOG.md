@@ -89,12 +89,12 @@ title: Changelog
 - update container image kasmweb/workspaces to v1.15.1[@1b13b4f](https://github.com/1b13b4f) by renovate ([#19316](https://github.com/truecharts/charts/issues/19316))
 
 
-## [kasm-8.8.1](https://github.com/truecharts/charts/compare/kasm-8.6.0...kasm-8.8.1) (2024-04-09)
+## [kasm-8.8.2](https://github.com/truecharts/charts/compare/kasm-8.6.0...kasm-8.8.2) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))

@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [portainer-8.10.1](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.10.1) (2024-04-09)
+## [portainer-8.10.2](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-8.10.2) (2024-04-10)
 
 ### Chore

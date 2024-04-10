@@ -95,6 +95,6 @@ title: Changelog
 - update container image codetheweb/muse to v2.7.0[@961fce6](https://github.com/961fce6) by renovate ([#19335](https://github.com/truecharts/charts/issues/19335))
 
 
-## [muse-5.10.1](https://github.com/truecharts/charts/compare/muse-5.7.0...muse-5.10.1) (2024-04-09)
+## [muse-5.10.2](https://github.com/truecharts/charts/compare/muse-5.7.0...muse-5.10.2) (2024-04-10)
 
 ### Chore

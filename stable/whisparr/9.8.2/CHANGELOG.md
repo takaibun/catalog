@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [whisparr-9.8.1](https://github.com/truecharts/charts/compare/whisparr-9.6.0...whisparr-9.8.1) (2024-04-10)
+## [whisparr-9.8.2](https://github.com/truecharts/charts/compare/whisparr-9.6.0...whisparr-9.8.2) (2024-04-10)
 
 ### Chore
