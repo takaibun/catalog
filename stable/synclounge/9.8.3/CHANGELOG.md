@@ -92,8 +92,8 @@ title: Changelog
 
 
 
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
 - update container image ghcr.io/linuxserver/synclounge to 5.2.26[@da8c039](https://github.com/da8c039) by renovate ([#20470](https://github.com/truecharts/charts/issues/20470))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))

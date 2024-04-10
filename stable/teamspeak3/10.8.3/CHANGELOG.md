@@ -66,11 +66,13 @@ title: Changelog
 - update container image teamspeak to 3.13.7[@b5bdec5](https://github.com/b5bdec5) by renovate ([#19291](https://github.com/truecharts/charts/issues/19291))
 
 
-## [teamspeak3-10.8.2](https://github.com/truecharts/charts/compare/teamspeak3-10.6.0...teamspeak3-10.8.2) (2024-04-10)
+## [teamspeak3-10.8.3](https://github.com/truecharts/charts/compare/teamspeak3-10.6.0...teamspeak3-10.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [teamspeak3-10.8.2](https://github.com/truecharts/charts/compare/teamspeak3-10.6.0...teamspeak3-10.8.2) (2024-04-10)
 
 ### Chore
-

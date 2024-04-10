@@ -66,11 +66,13 @@ title: Changelog
 - update helm chart cloudnative-pg to 0.20.2 by renovate ([#19332](https://github.com/truecharts/charts/issues/19332))
 
 
-## [cloudnative-pg-6.9.2](https://github.com/truecharts/charts/compare/cloudnative-pg-6.7.0...cloudnative-pg-6.9.2) (2024-04-10)
+## [cloudnative-pg-6.9.3](https://github.com/truecharts/charts/compare/cloudnative-pg-6.7.0...cloudnative-pg-6.9.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [cloudnative-pg-6.9.2](https://github.com/truecharts/charts/compare/cloudnative-pg-6.7.0...cloudnative-pg-6.9.2) (2024-04-10)
 
 ### Chore
-

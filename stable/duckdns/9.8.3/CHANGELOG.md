@@ -78,11 +78,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [duckdns-9.8.2](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-9.8.2) (2024-04-10)
+## [duckdns-9.8.3](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-9.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/linuxserver/duckdns to latest[@4c0bb87](https://github.com/4c0bb87) by renovate ([#20077](https://github.com/truecharts/charts/issues/20077))
 
 - update container image ghcr.io/linuxserver/duckdns to latest[@682e675](https://github.com/682e675) by renovate ([#19757](https://github.com/truecharts/charts/issues/19757))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

@@ -89,12 +89,12 @@ title: Changelog
 - update container image quay.io/pussthecatorg/rimgo to latest[@760f7c7](https://github.com/760f7c7) by renovate ([#19280](https://github.com/truecharts/charts/issues/19280))
 
 
-## [rimgo-6.8.4](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.8.4) (2024-04-10)
+## [rimgo-6.8.5](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.8.5) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image quay.io/pussthecatorg/rimgo to latest[@3e0318d](https://github.com/3e0318d) by renovate ([#20546](https://github.com/truecharts/charts/issues/20546))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))

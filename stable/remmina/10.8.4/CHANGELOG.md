@@ -47,11 +47,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/remmina to 1.4.2[@434b2fc](https://github.com/434b2fc) by renovate ([#19243](https://github.com/truecharts/charts/issues/19243))
 
 
-## [remmina-10.8.3](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.3) (2024-04-10)
+## [remmina-10.8.4](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/remmina to 1.4.2[@5b5fb84](https://github.com/5b5fb84) by renovate ([#20543](https://github.com/truecharts/charts/issues/20543))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -84,16 +86,14 @@ title: Changelog
 - update container image ghcr.io/linuxserver/remmina to 1.4.2[@434b2fc](https://github.com/434b2fc) by renovate ([#19243](https://github.com/truecharts/charts/issues/19243))
 
 
-## [remmina-10.8.2](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.2) (2024-04-10)
+## [remmina-10.8.3](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.3) (2024-04-10)
 
 ### Chore
 
 
 
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image ghcr.io/linuxserver/remmina to 1.4.2[@ff9a558](https://github.com/ff9a558) by renovate ([#20331](https://github.com/truecharts/charts/issues/20331))

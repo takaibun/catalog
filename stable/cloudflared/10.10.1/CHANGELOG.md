@@ -70,11 +70,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cloudflared-10.10.0](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.0) (2024-04-10)
+## [cloudflared-10.10.1](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.1) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image cloudflare/cloudflared to v2024.4.0[@f2a8f34](https://github.com/f2a8f34) by renovate ([#20537](https://github.com/truecharts/charts/issues/20537))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image cloudflare/cloudflared to v2024.3.0[@8acfc9e](https://github.com/8acfc9e) by renovate ([#19547](https://github.com/truecharts/charts/issues/19547))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

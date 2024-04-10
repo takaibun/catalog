@@ -66,11 +66,13 @@ title: Changelog
 - update container image accetto/ubuntu-vnc-xfce-opengl-g3 to latest[@d00b5ab](https://github.com/d00b5ab) by renovate ([#19215](https://github.com/truecharts/charts/issues/19215))
 
 
-## [opengl-desktop-g3-5.8.2](https://github.com/truecharts/charts/compare/opengl-desktop-g3-5.6.0...opengl-desktop-g3-5.8.2) (2024-04-10)
+## [opengl-desktop-g3-5.8.3](https://github.com/truecharts/charts/compare/opengl-desktop-g3-5.6.0...opengl-desktop-g3-5.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [opengl-desktop-g3-5.8.2](https://github.com/truecharts/charts/compare/opengl-desktop-g3-5.6.0...opengl-desktop-g3-5.8.2) (2024-04-10)
 
 ### Chore
-

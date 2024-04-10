@@ -82,11 +82,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [calibre-web-18.8.2](https://github.com/truecharts/charts/compare/calibre-web-18.6.0...calibre-web-18.8.2) (2024-04-10)
+## [calibre-web-18.8.3](https://github.com/truecharts/charts/compare/calibre-web-18.6.0...calibre-web-18.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image linuxserver/calibre-web to version-0.6.21[@584366b](https://github.com/584366b) by renovate ([#20386](https://github.com/truecharts/charts/issues/20386))
-
-- update container image linuxserver/calibre-web to version-0.6.21[@182a82b](https://github.com/182a82b) by renovate ([#20351](https://github.com/truecharts/charts/issues/20351))

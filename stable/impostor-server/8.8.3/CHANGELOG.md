@@ -78,11 +78,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [impostor-server-8.8.2](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.8.2) (2024-04-10)
+## [impostor-server-8.8.3](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-8.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image aeonlucid/impostor to v1.9.1[@dfb57d0](https://github.com/dfb57d0) by renovate ([#20194](https://github.com/truecharts/charts/issues/20194))
 
 - update container image aeonlucid/impostor to nightly[@1dafaf6](https://github.com/1dafaf6) by renovate ([#20087](https://github.com/truecharts/charts/issues/20087))
-
-- update container image aeonlucid/impostor to nightly[@b89da34](https://github.com/b89da34) by renovate ([#20002](https://github.com/truecharts/charts/issues/20002))

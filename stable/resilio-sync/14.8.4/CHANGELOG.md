@@ -78,11 +78,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/resilio-sync to 2.7.3[@1dd0e67](https://github.com/1dd0e67) by renovate ([#19244](https://github.com/truecharts/charts/issues/19244))
 
 
-## [resilio-sync-14.8.3](https://github.com/truecharts/charts/compare/resilio-sync-14.6.0...resilio-sync-14.8.3) (2024-04-10)
+## [resilio-sync-14.8.4](https://github.com/truecharts/charts/compare/resilio-sync-14.6.0...resilio-sync-14.8.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image ghcr.io/linuxserver/resilio-sync to 2.7.3[@71eb11a](https://github.com/71eb11a) by renovate ([#19798](https://github.com/truecharts/charts/issues/19798))
