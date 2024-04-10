@@ -1,6 +1,6 @@
 
 
-## [mariadb-13.9.3](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.3) (2024-04-10)
+## [mariadb-13.9.5](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.5) (2024-04-10)
 
 ### Chore
 
@@ -31,3 +31,9 @@
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+### Fix
+
+
+
+- add prototype to force reset passwords on init
