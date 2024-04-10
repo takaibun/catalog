@@ -90,10 +90,10 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [van-dam-4.10.6](https://github.com/truecharts/charts/compare/van-dam-4.6.0...van-dam-4.10.6) (2024-04-10)
+## [van-dam-4.10.7](https://github.com/truecharts/charts/compare/van-dam-4.6.0...van-dam-4.10.7) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
