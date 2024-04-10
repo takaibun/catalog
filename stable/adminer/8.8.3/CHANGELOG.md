@@ -45,6 +45,8 @@ title: Changelog
 
 
 
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+
 - update container image adminer to latest[@ceca91a](https://github.com/ceca91a) by renovate ([#20518](https://github.com/truecharts/charts/issues/20518))
 
 - update container image adminer to latest[@5385e9d](https://github.com/5385e9d) by renovate ([#20507](https://github.com/truecharts/charts/issues/20507))
@@ -68,11 +70,13 @@ title: Changelog
 - update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
 
 
-## [adminer-8.8.2](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.2) (2024-04-10)
+## [adminer-8.8.3](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image adminer to latest[@ceca91a](https://github.com/ceca91a) by renovate ([#20518](https://github.com/truecharts/charts/issues/20518))
 
 - update container image adminer to latest[@5385e9d](https://github.com/5385e9d) by renovate ([#20507](https://github.com/truecharts/charts/issues/20507))
 
@@ -93,8 +97,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
-
-
-## [adminer-8.8.2](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.2) (2024-04-10)
-
-### Chore

@@ -75,11 +75,15 @@ title: Changelog
 - Fix Missing ENV for Mail functionality ([#19767](https://github.com/truecharts/charts/issues/19767))
 
 
-## [wekan-14.18.2](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.18.2) (2024-04-09)
+## [wekan-14.18.3](https://github.com/truecharts/charts/compare/wekan-14.10.0...wekan-14.18.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image mongodb to v12.8.3[@26e698d](https://github.com/26e698d) by renovate ([#20516](https://github.com/truecharts/charts/issues/20516))
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image mongodb to v12.8.2[@ea28b28](https://github.com/ea28b28) by renovate ([#20496](https://github.com/truecharts/charts/issues/20496))
 
@@ -94,7 +98,3 @@ title: Changelog
 - update container image mongodb to v12.7.8[@567a54c](https://github.com/567a54c) by renovate ([#20261](https://github.com/truecharts/charts/issues/20261))
 
 - update container image wekanteam/wekan to v7.42[@770951a](https://github.com/770951a) by renovate ([#20170](https://github.com/truecharts/charts/issues/20170))
-
-- update container image mongodb to v12.7.7[@a2a85de](https://github.com/a2a85de) by renovate ([#20085](https://github.com/truecharts/charts/issues/20085))
-
-- update container image mongodb to v12.7.6[@698674f](https://github.com/698674f) by renovate ([#20013](https://github.com/truecharts/charts/issues/20013))

@@ -53,11 +53,13 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [fireflyiii-25.10.4](https://github.com/truecharts/charts/compare/fireflyiii-25.6.0...fireflyiii-25.10.4) (2024-04-09)
+## [fireflyiii-25.10.5](https://github.com/truecharts/charts/compare/fireflyiii-25.6.0...fireflyiii-25.10.5) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
-
-## [fireflyiii-25.10.4](https://github.com/truecharts/charts/compare/fireflyiii-25.6.0...fireflyiii-25.10.4) (2024-04-09)

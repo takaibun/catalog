@@ -45,11 +45,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/readarr-develop to 0.3.19.2437[@7db08fb](https://github.com/7db08fb) by renovate ([#19258](https://github.com/truecharts/charts/issues/19258))
 
 
-## [readarr-21.6.2](https://github.com/truecharts/charts/compare/readarr-21.4.0...readarr-21.6.2) (2024-04-10)
+## [readarr-21.6.3](https://github.com/truecharts/charts/compare/readarr-21.4.0...readarr-21.6.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/onedr0p/exportarr to v2.0.1[@727e7bc](https://github.com/727e7bc) by renovate ([#20284](https://github.com/truecharts/charts/issues/20284))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

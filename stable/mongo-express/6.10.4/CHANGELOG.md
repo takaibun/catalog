@@ -43,11 +43,15 @@ title: Changelog
 - update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
 
 
-## [mongo-express-6.10.3](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.3) (2024-04-10)
+## [mongo-express-6.10.4](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image mongodb to v12.8.3[@26e698d](https://github.com/26e698d) by renovate ([#20516](https://github.com/truecharts/charts/issues/20516))
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image mongodb to v12.8.2[@ea28b28](https://github.com/ea28b28) by renovate ([#20496](https://github.com/truecharts/charts/issues/20496))
 
@@ -93,7 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))

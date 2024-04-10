@@ -77,19 +77,19 @@ title: Changelog
 - add default blocklist, default whitelist, default group and enable customised prefetcher
 
 
-## [blocky-14.8.4](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.4) (2024-04-09)
+## [blocky-14.8.5](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.5) (2024-04-10)
 
 ### Chore
 
 
 
-- remove non-functional blocklist
+- release lower blocky default lookup timeouts
+
+- bump blocky to apply whitelist/blacklist changes
 
 - update and annotate default DNS servers
 
 - bump to release updated default DNS servers
-
-- release lower blocky default lookup timeouts
 
 - bump blocky
 
@@ -97,4 +97,4 @@ title: Changelog
 
 - update values.yaml to reflect default blacklist/whitelist changes
 
-- bump blocky to apply whitelist/blacklist changes
+- remove non-functional blocklist

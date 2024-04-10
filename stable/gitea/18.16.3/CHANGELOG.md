@@ -67,11 +67,13 @@ title: Changelog
 - update container image memcached to v12.6.4[@23b2892](https://github.com/23b2892) by renovate ([#19319](https://github.com/truecharts/charts/issues/19319))
 
 
-## [gitea-18.16.2](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-18.16.2) (2024-04-09)
+## [gitea-18.16.3](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-18.16.3) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image memcached to v12.9.1[@7f662e0](https://github.com/7f662e0) by renovate ([#20495](https://github.com/truecharts/charts/issues/20495))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image memcached to v12.8.4[@feb7bcc](https://github.com/feb7bcc) by renovate ([#19765](https://github.com/truecharts/charts/issues/19765))
 
 - update container image gitea/gitea to v1.21.10[@01ec404](https://github.com/01ec404) by renovate ([#19810](https://github.com/truecharts/charts/issues/19810))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))

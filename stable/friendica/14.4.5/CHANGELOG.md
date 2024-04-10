@@ -91,10 +91,10 @@ title: Changelog
 - update container image friendica to 2023.12[@95a7d8e](https://github.com/95a7d8e) by renovate ([#19227](https://github.com/truecharts/charts/issues/19227))
 
 
-## [friendica-14.4.4](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.4) (2024-04-10)
+## [friendica-14.4.5](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.5) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image friendica to 2024.03[@c824f39](https://github.com/c824f39) by renovate ([#20464](https://github.com/truecharts/charts/issues/20464))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
