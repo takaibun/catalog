@@ -92,7 +92,7 @@ title: Changelog
 - update ignored updates to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#20000](https://github.com/truecharts/charts/issues/20000))
 
 
-## [peppermint-0.1.3]peppermint-0.1.3 (2024-04-10)
+## [peppermint-0.1.4]peppermint-0.1.4 (2024-04-10)
 
 ### Chore
 

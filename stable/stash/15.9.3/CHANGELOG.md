@@ -95,6 +95,6 @@ title: Changelog
 - update container image stashapp/stash to v0.25.1[@6b8814b](https://github.com/6b8814b) by renovate ([#19328](https://github.com/truecharts/charts/issues/19328))
 
 
-## [stash-15.9.2](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.9.2) (2024-04-10)
+## [stash-15.9.3](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.9.3) (2024-04-10)
 
 ### Chore

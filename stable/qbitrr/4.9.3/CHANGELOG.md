@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [qbitrr-4.9.2](https://github.com/truecharts/charts/compare/qbitrr-4.7.0...qbitrr-4.9.2) (2024-04-10)
+## [qbitrr-4.9.3](https://github.com/truecharts/charts/compare/qbitrr-4.7.0...qbitrr-4.9.3) (2024-04-10)
 
 ### Chore

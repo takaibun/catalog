@@ -95,6 +95,6 @@ title: Changelog
 - update container image to 20-jammy-lite-v0.97.0 ([#20122](https://github.com/truecharts/charts/issues/20122))
 
 
-## [scrypted-4.9.2](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.9.2) (2024-04-10)
+## [scrypted-4.9.3](https://github.com/truecharts/charts/compare/scrypted-4.6.0...scrypted-4.9.3) (2024-04-10)
 
 ### Chore

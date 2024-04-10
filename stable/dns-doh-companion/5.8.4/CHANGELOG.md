@@ -43,11 +43,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [dns-doh-companion-5.8.3](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.8.3) (2024-04-10)
+## [dns-doh-companion-5.8.4](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.8.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image testdasi/simple-dns-doh to latest[@86ada09](https://github.com/86ada09) by renovate ([#20547](https://github.com/truecharts/charts/issues/20547))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

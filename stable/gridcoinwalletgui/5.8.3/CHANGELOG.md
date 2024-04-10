@@ -95,6 +95,6 @@ title: Changelog
 - update container image sublivion/gridcoinwalletgui to latest[@2b38f4a](https://github.com/2b38f4a) by renovate ([#19287](https://github.com/truecharts/charts/issues/19287))
 
 
-## [gridcoinwalletgui-5.8.2](https://github.com/truecharts/charts/compare/gridcoinwalletgui-5.6.0...gridcoinwalletgui-5.8.2) (2024-04-10)
+## [gridcoinwalletgui-5.8.3](https://github.com/truecharts/charts/compare/gridcoinwalletgui-5.6.0...gridcoinwalletgui-5.8.3) (2024-04-10)
 
 ### Chore

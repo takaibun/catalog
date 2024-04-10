@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [miniflux-14.8.2](https://github.com/truecharts/charts/compare/miniflux-14.6.0...miniflux-14.8.2) (2024-04-10)
+## [miniflux-14.8.3](https://github.com/truecharts/charts/compare/miniflux-14.6.0...miniflux-14.8.3) (2024-04-10)
 
 ### Chore
