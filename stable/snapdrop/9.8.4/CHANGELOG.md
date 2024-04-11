@@ -8,33 +8,27 @@ title: Changelog
 **Important:**
 
 
-## [rdtclient-4.8.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.6) (2024-04-11)
+## [snapdrop-9.8.4](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.8.4) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.72[@27b5693](https://github.com/27b5693) by renovate ([#20590](https://github.com/truecharts/charts/issues/20590))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.70[@af66012](https://github.com/af66012) by renovate ([#20581](https://github.com/truecharts/charts/issues/20581))
+- update container image linuxserver/snapdrop to latest[@bb8eebd](https://github.com/bb8eebd) by renovate ([#20596](https://github.com/truecharts/charts/issues/20596))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.69[@dc06c39](https://github.com/dc06c39) by renovate ([#20515](https://github.com/truecharts/charts/issues/20515))
-
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.66[@c693300](https://github.com/c693300) by renovate ([#20483](https://github.com/truecharts/charts/issues/20483))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.65[@65d7754](https://github.com/65d7754) by renovate ([#20364](https://github.com/truecharts/charts/issues/20364))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
+- update container image linuxserver/snapdrop to latest[@53661a1](https://github.com/53661a1) by renovate ([#20224](https://github.com/truecharts/charts/issues/20224))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image linuxserver/snapdrop to latest[@1b8fbfa](https://github.com/1b8fbfa) by renovate ([#19908](https://github.com/truecharts/charts/issues/19908))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -42,38 +36,34 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image linuxserver/snapdrop to latest[@e552b6f](https://github.com/e552b6f) by renovate ([#19588](https://github.com/truecharts/charts/issues/19588))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image linuxserver/snapdrop to latest[@9cd65cd](https://github.com/9cd65cd) by renovate ([#19268](https://github.com/truecharts/charts/issues/19268))
 
-## [rdtclient-4.8.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.6) (2024-04-11)
+
+## [snapdrop-9.8.3](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.8.3) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.72[@27b5693](https://github.com/27b5693) by renovate ([#20590](https://github.com/truecharts/charts/issues/20590))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.70[@af66012](https://github.com/af66012) by renovate ([#20581](https://github.com/truecharts/charts/issues/20581))
-
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.69[@dc06c39](https://github.com/dc06c39) by renovate ([#20515](https://github.com/truecharts/charts/issues/20515))
-
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.66[@c693300](https://github.com/c693300) by renovate ([#20483](https://github.com/truecharts/charts/issues/20483))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.65[@65d7754](https://github.com/65d7754) by renovate ([#20364](https://github.com/truecharts/charts/issues/20364))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.64[@ff440bd](https://github.com/ff440bd) by renovate ([#20343](https://github.com/truecharts/charts/issues/20343))
+- update container image linuxserver/snapdrop to latest[@53661a1](https://github.com/53661a1) by renovate ([#20224](https://github.com/truecharts/charts/issues/20224))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image linuxserver/snapdrop to latest[@1b8fbfa](https://github.com/1b8fbfa) by renovate ([#19908](https://github.com/truecharts/charts/issues/19908))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -81,19 +71,29 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
+- update container image linuxserver/snapdrop to latest[@e552b6f](https://github.com/e552b6f) by renovate ([#19588](https://github.com/truecharts/charts/issues/19588))
+
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image linuxserver/snapdrop to latest[@9cd65cd](https://github.com/9cd65cd) by renovate ([#19268](https://github.com/truecharts/charts/issues/19268))
 
-## [rdtclient-4.8.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.6) (2024-04-11)
+
+## [snapdrop-9.8.3](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.8.3) (2024-04-10)
 
 ### Chore
 
 
 
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.72[@27b5693](https://github.com/27b5693) by renovate ([#20590](https://github.com/truecharts/charts/issues/20590))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.70[@af66012](https://github.com/af66012) by renovate ([#20581](https://github.com/truecharts/charts/issues/20581))
-
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+
+- update container image linuxserver/snapdrop to latest[@53661a1](https://github.com/53661a1) by renovate ([#20224](https://github.com/truecharts/charts/issues/20224))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

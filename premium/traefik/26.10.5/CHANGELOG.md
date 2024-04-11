@@ -8,23 +8,17 @@ title: Changelog
 **Important:**
 
 
-## [yourls-5.8.7](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.7) (2024-04-11)
+## [traefik-26.10.5](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.5) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image yourls to latest[@0a00dda](https://github.com/0a00dda) by renovate ([#20589](https://github.com/truecharts/charts/issues/20589))
+- update container image tccr.io/tccr/traefik to v2.11.1[@7fa4527](https://github.com/7fa4527) by renovate ([#20591](https://github.com/truecharts/charts/issues/20591))
 
-- update container image yourls to latest[@14692e2](https://github.com/14692e2) by renovate ([#20580](https://github.com/truecharts/charts/issues/20580))
-
-- update container image yourls to latest[@f361065](https://github.com/f361065) by renovate ([#20559](https://github.com/truecharts/charts/issues/20559))
-
-- update container image yourls to latest[@cf1b1aa](https://github.com/cf1b1aa) by renovate ([#20549](https://github.com/truecharts/charts/issues/20549))
+- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
-
-- update container image yourls to latest[@9dd4ab3](https://github.com/9dd4ab3) by renovate ([#20476](https://github.com/truecharts/charts/issues/20476))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -42,32 +36,36 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
-- update container image yourls to latest[@fb07cca](https://github.com/fb07cca) by renovate ([#19403](https://github.com/truecharts/charts/issues/19403))
+- update container image tccr.io/tccr/traefik to v2.11.0[@543615f](https://github.com/543615f) by renovate ([#19402](https://github.com/truecharts/charts/issues/19402))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image yourls to latest[@6b88ffa](https://github.com/6b88ffa) by renovate ([#19359](https://github.com/truecharts/charts/issues/19359))
+- update container image tccr.io/tccr/traefik to v2.11.0[@64a9b5e](https://github.com/64a9b5e) by renovate ([#19290](https://github.com/truecharts/charts/issues/19290))
 
-- update container image yourls to latest[@ab635e5](https://github.com/ab635e5) by renovate ([#19295](https://github.com/truecharts/charts/issues/19295))
+### Feat
 
 
-## [yourls-5.8.7](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.7) (2024-04-11)
+
+- Add Crowdsec Bouncer Questions for SCALE ([#19565](https://github.com/truecharts/charts/issues/19565))
+
+### Fix
+
+
+
+- Update traefik how to URL ([#20029](https://github.com/truecharts/charts/issues/20029))
+
+- Fix ECDSA certs with TLS 1.2 ([#19377](https://github.com/truecharts/charts/issues/19377))
+
+
+## [traefik-26.10.4](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.4) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image yourls to latest[@0a00dda](https://github.com/0a00dda) by renovate ([#20589](https://github.com/truecharts/charts/issues/20589))
-
-- update container image yourls to latest[@14692e2](https://github.com/14692e2) by renovate ([#20580](https://github.com/truecharts/charts/issues/20580))
-
-- update container image yourls to latest[@f361065](https://github.com/f361065) by renovate ([#20559](https://github.com/truecharts/charts/issues/20559))
-
-- update container image yourls to latest[@cf1b1aa](https://github.com/cf1b1aa) by renovate ([#20549](https://github.com/truecharts/charts/issues/20549))
+- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
-
-- update container image yourls to latest[@9dd4ab3](https://github.com/9dd4ab3) by renovate ([#20476](https://github.com/truecharts/charts/issues/20476))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -85,15 +83,17 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
-- update container image yourls to latest[@fb07cca](https://github.com/fb07cca) by renovate ([#19403](https://github.com/truecharts/charts/issues/19403))
+- update container image tccr.io/tccr/traefik to v2.11.0[@543615f](https://github.com/543615f) by renovate ([#19402](https://github.com/truecharts/charts/issues/19402))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image yourls to latest[@6b88ffa](https://github.com/6b88ffa) by renovate ([#19359](https://github.com/truecharts/charts/issues/19359))
+- update container image tccr.io/tccr/traefik to v2.11.0[@64a9b5e](https://github.com/64a9b5e) by renovate ([#19290](https://github.com/truecharts/charts/issues/19290))
 
-- update container image yourls to latest[@ab635e5](https://github.com/ab635e5) by renovate ([#19295](https://github.com/truecharts/charts/issues/19295))
+### Feat
 
 
-## [yourls-5.8.7](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.7) (2024-04-11)
 
-### Chore
+- Add Crowdsec Bouncer Questions for SCALE ([#19565](https://github.com/truecharts/charts/issues/19565))
+
+### Fix
+
