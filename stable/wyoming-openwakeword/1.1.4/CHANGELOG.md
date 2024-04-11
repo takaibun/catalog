@@ -92,7 +92,7 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 
-## [wyoming-openwakeword-1.1.3](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.3) (2024-04-10)
+## [wyoming-openwakeword-1.1.4](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.4) (2024-04-11)
 
 ### Chore
 

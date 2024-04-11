@@ -63,11 +63,13 @@ title: Changelog
 - update container image ghcr.io/authelia/authelia to v4.38.2[@a1a2d1b](https://github.com/a1a2d1b) by renovate ([#19338](https://github.com/truecharts/charts/issues/19338))
 
 
-## [authelia-23.11.8](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.11.8) (2024-04-11)
+## [authelia-23.11.9](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.11.9) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
