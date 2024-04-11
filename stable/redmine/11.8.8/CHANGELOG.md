@@ -8,29 +8,27 @@ title: Changelog
 **Important:**
 
 
-## [youtubedl-material-10.10.7](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-10.10.7) (2024-04-11)
+## [redmine-11.8.8](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.8) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image mongodb to v12.8.6[@205f693](https://github.com/205f693) by renovate ([#20565](https://github.com/truecharts/charts/issues/20565))
+- update container image redmine to 5.1.2[@59f616b](https://github.com/59f616b) by renovate ([#20618](https://github.com/truecharts/charts/issues/20618))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image mongodb to v12.8.4[@73711d8](https://github.com/73711d8) by renovate ([#20554](https://github.com/truecharts/charts/issues/20554))
+- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
+
+- update container image redmine to 5.1.2[@d10de45](https://github.com/d10de45) by renovate ([#20558](https://github.com/truecharts/charts/issues/20558))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image mongodb to v12.8.3[@26e698d](https://github.com/26e698d) by renovate ([#20516](https://github.com/truecharts/charts/issues/20516))
-
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image mongodb to v12.8.2[@ea28b28](https://github.com/ea28b28) by renovate ([#20496](https://github.com/truecharts/charts/issues/20496))
+- update container image redmine to 5.1.2[@edabb7c](https://github.com/edabb7c) by renovate ([#20473](https://github.com/truecharts/charts/issues/20473))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -44,34 +42,32 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
+- update container image redmine to 5.1.2[@7ce83c5](https://github.com/7ce83c5) by renovate ([#19423](https://github.com/truecharts/charts/issues/19423))
+
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
+- update container image redmine to 5.1.2[@7bba7e9](https://github.com/7bba7e9) by renovate ([#19281](https://github.com/truecharts/charts/issues/19281))
 
 
-## [youtubedl-material-10.10.7](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-10.10.7) (2024-04-11)
+## [redmine-11.8.7](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.7) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image mongodb to v12.8.6[@205f693](https://github.com/205f693) by renovate ([#20565](https://github.com/truecharts/charts/issues/20565))
-
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image mongodb to v12.8.4[@73711d8](https://github.com/73711d8) by renovate ([#20554](https://github.com/truecharts/charts/issues/20554))
+- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
+
+- update container image redmine to 5.1.2[@d10de45](https://github.com/d10de45) by renovate ([#20558](https://github.com/truecharts/charts/issues/20558))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image mongodb to v12.8.3[@26e698d](https://github.com/26e698d) by renovate ([#20516](https://github.com/truecharts/charts/issues/20516))
-
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image mongodb to v12.8.2[@ea28b28](https://github.com/ea28b28) by renovate ([#20496](https://github.com/truecharts/charts/issues/20496))
+- update container image redmine to 5.1.2[@edabb7c](https://github.com/edabb7c) by renovate ([#20473](https://github.com/truecharts/charts/issues/20473))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -85,15 +81,19 @@ title: Changelog
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
+- update container image redmine to 5.1.2[@7ce83c5](https://github.com/7ce83c5) by renovate ([#19423](https://github.com/truecharts/charts/issues/19423))
+
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
+- update container image redmine to 5.1.2[@7bba7e9](https://github.com/7bba7e9) by renovate ([#19281](https://github.com/truecharts/charts/issues/19281))
 
 
-## [youtubedl-material-10.10.7](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-10.10.7) (2024-04-11)
+## [redmine-11.8.7](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.7) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image mongodb to v12.8.6[@205f693](https://github.com/205f693) by renovate ([#20565](https://github.com/truecharts/charts/issues/20565))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
+- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
