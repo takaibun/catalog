@@ -43,11 +43,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [webgrabplus-9.8.4](https://github.com/truecharts/charts/compare/webgrabplus-9.6.0...webgrabplus-9.8.4) (2024-04-11)
+## [webgrabplus-9.8.5](https://github.com/truecharts/charts/compare/webgrabplus-9.6.0...webgrabplus-9.8.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/webgrabplus to 5.1.4[@c507804](https://github.com/c507804) by renovate ([#20604](https://github.com/truecharts/charts/issues/20604))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image ghcr.io/linuxserver/webgrabplus to 5.1.4[@37c65c3](https://github.com/37c65c3) by renovate ([#19907](https://github.com/truecharts/charts/issues/19907))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

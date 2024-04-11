@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [kdenlive-vnc-5.8.3](https://github.com/truecharts/charts/compare/kdenlive-vnc-5.6.0...kdenlive-vnc-5.8.3) (2024-04-10)
+## [kdenlive-vnc-5.8.4](https://github.com/truecharts/charts/compare/kdenlive-vnc-5.6.0...kdenlive-vnc-5.8.4) (2024-04-11)
 
 ### Chore

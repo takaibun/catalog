@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [headphones-11.8.3](https://github.com/truecharts/charts/compare/headphones-11.6.0...headphones-11.8.3) (2024-04-10)
+## [headphones-11.8.4](https://github.com/truecharts/charts/compare/headphones-11.6.0...headphones-11.8.4) (2024-04-11)
 
 ### Chore

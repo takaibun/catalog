@@ -95,6 +95,6 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [venstar2mqtt-5.8.3](https://github.com/truecharts/charts/compare/venstar2mqtt-5.6.0...venstar2mqtt-5.8.3) (2024-04-10)
+## [venstar2mqtt-5.8.4](https://github.com/truecharts/charts/compare/venstar2mqtt-5.6.0...venstar2mqtt-5.8.4) (2024-04-11)
 
 ### Chore
