@@ -51,7 +51,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [ispy-agent-dvr-9.11.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.1) (2024-04-10)
+## [ispy-agent-dvr-9.11.1](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.1) (2024-04-11)
 
 ### Chore
 

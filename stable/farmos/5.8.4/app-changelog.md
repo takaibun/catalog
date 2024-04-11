@@ -1,10 +1,14 @@
 
 
-## [farmos-5.8.2](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.2) (2024-04-10)
+## [farmos-5.8.4](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image farmos/farmos to latest[@46145fc](https://github.com/46145fc) by renovate ([#20570](https://github.com/truecharts/charts/issues/20570))
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 

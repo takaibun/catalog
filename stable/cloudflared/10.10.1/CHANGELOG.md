@@ -39,7 +39,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [cloudflared-10.10.1](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.1) (2024-04-10)
+## [cloudflared-10.10.1](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.1) (2024-04-11)
 
 ### Chore
 

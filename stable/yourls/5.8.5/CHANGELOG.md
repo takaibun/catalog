@@ -47,7 +47,7 @@ title: Changelog
 - update container image yourls to latest[@ab635e5](https://github.com/ab635e5) by renovate ([#19295](https://github.com/truecharts/charts/issues/19295))
 
 
-## [yourls-5.8.5](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.5) (2024-04-10)
+## [yourls-5.8.5](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.5) (2024-04-11)
 
 ### Chore
 
