@@ -82,11 +82,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/radarr to 5.3.6.8612[@431f4d8](https://github.com/431f4d8) by renovate ([#19257](https://github.com/truecharts/charts/issues/19257))
 
 
-## [radarr-21.6.4](https://github.com/truecharts/charts/compare/radarr-21.4.0...radarr-21.6.4) (2024-04-11)
+## [radarr-21.6.5](https://github.com/truecharts/charts/compare/radarr-21.4.0...radarr-21.6.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image ghcr.io/onedr0p/radarr to 5.3.6.8612[@4dcf3bb](https://github.com/4dcf3bb) by renovate ([#20427](https://github.com/truecharts/charts/issues/20427))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))

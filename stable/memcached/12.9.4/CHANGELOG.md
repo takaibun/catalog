@@ -78,11 +78,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [memcached-12.9.3](https://github.com/truecharts/charts/compare/memcached-12.7.0...memcached-12.9.3) (2024-04-11)
+## [memcached-12.9.4](https://github.com/truecharts/charts/compare/memcached-12.7.0...memcached-12.9.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image bitnami/memcached to 1.6.26[@af1fced](https://github.com/af1fced) by renovate ([#20046](https://github.com/truecharts/charts/issues/20046))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image bitnami/memcached to v1.6.26[@ef3d59f](https://github.com/ef3d59f) by renovate ([#19887](https://github.com/truecharts/charts/issues/19887))

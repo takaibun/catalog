@@ -74,11 +74,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [gokapi-5.8.3](https://github.com/truecharts/charts/compare/gokapi-5.6.0...gokapi-5.8.3) (2024-04-10)
+## [gokapi-5.8.4](https://github.com/truecharts/charts/compare/gokapi-5.6.0...gokapi-5.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image f0rc3/gokapi to v1.8.1[@333cd14](https://github.com/333cd14) by renovate ([#19837](https://github.com/truecharts/charts/issues/19837))
 
 - update container image f0rc3/gokapi to v[@33b1779](https://github.com/33b1779) by renovate ([#19826](https://github.com/truecharts/charts/issues/19826))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))

@@ -94,6 +94,6 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [onlyoffice-document-server-17.10.7](https://github.com/truecharts/charts/compare/onlyoffice-document-server-17.6.0...onlyoffice-document-server-17.10.7) (2024-04-10)
+## [onlyoffice-document-server-17.10.8](https://github.com/truecharts/charts/compare/onlyoffice-document-server-17.6.0...onlyoffice-document-server-17.10.8) (2024-04-11)
 
 ### Chore

@@ -70,11 +70,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [farmos-5.8.4](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.4) (2024-04-11)
+## [farmos-5.8.5](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image farmos/farmos to latest[@46145fc](https://github.com/46145fc) by renovate ([#20570](https://github.com/truecharts/charts/issues/20570))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

@@ -86,14 +86,14 @@ title: Changelog
 - update container image ghcr.io/linuxserver/boinc to latest[@5521676](https://github.com/5521676) by renovate ([#19229](https://github.com/truecharts/charts/issues/19229))
 
 
-## [boinc-9.8.3](https://github.com/truecharts/charts/compare/boinc-9.6.0...boinc-9.8.3) (2024-04-11)
+## [boinc-9.8.4](https://github.com/truecharts/charts/compare/boinc-9.6.0...boinc-9.8.4) (2024-04-11)
 
 ### Chore
 
 
 
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image ghcr.io/linuxserver/boinc to latest[@5415968](https://github.com/5415968) by renovate ([#20468](https://github.com/truecharts/charts/issues/20468))
-
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))

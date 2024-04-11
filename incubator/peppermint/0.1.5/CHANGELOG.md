@@ -77,11 +77,13 @@ title: Changelog
 - update ignored updates to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#20000](https://github.com/truecharts/charts/issues/20000))
 
 
-## [peppermint-0.1.4]peppermint-0.1.4 (2024-04-10)
+## [peppermint-0.1.5]peppermint-0.1.5 (2024-04-11)
 
 ### Chore
 
 
+
+- update ignored updates to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20602](https://github.com/truecharts/charts/issues/20602))
 
 - update ignored updates to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20536](https://github.com/truecharts/charts/issues/20536))
 
@@ -96,4 +98,3 @@ title: Changelog
 - update ignored updates to v20.2.12[@944bc78](https://github.com/944bc78) by renovate ([#20094](https://github.com/truecharts/charts/issues/20094))
 
 - update ignored updates to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#20000](https://github.com/truecharts/charts/issues/20000))
-

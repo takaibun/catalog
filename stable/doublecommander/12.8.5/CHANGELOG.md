@@ -86,14 +86,14 @@ title: Changelog
 - update container image ghcr.io/linuxserver/doublecommander to latest[@908d49e](https://github.com/908d49e) by renovate ([#19234](https://github.com/truecharts/charts/issues/19234))
 
 
-## [doublecommander-12.8.4](https://github.com/truecharts/charts/compare/doublecommander-12.6.0...doublecommander-12.8.4) (2024-04-11)
+## [doublecommander-12.8.5](https://github.com/truecharts/charts/compare/doublecommander-12.6.0...doublecommander-12.8.5) (2024-04-11)
 
 ### Chore
 
 
 
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image ghcr.io/linuxserver/doublecommander to latest[@1324670](https://github.com/1324670) by renovate ([#20571](https://github.com/truecharts/charts/issues/20571))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
-
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))

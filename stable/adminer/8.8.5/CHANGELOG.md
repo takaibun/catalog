@@ -78,11 +78,13 @@ title: Changelog
 - update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
 
 
-## [adminer-8.8.4](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.4) (2024-04-11)
+## [adminer-8.8.5](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
