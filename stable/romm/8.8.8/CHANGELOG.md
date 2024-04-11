@@ -91,10 +91,10 @@ title: Changelog
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 
-## [romm-8.8.7](https://github.com/truecharts/charts/compare/romm-7.11.0...romm-8.8.7) (2024-04-10)
+## [romm-8.8.8](https://github.com/truecharts/charts/compare/romm-7.11.0...romm-8.8.8) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))

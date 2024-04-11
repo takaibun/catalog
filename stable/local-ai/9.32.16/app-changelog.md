@@ -1,10 +1,14 @@
 
 
-## [local-ai-9.32.10](https://github.com/truecharts/charts/compare/local-ai-9.12.0...local-ai-9.32.10) (2024-04-11)
+## [local-ai-9.32.16](https://github.com/truecharts/charts/compare/local-ai-9.12.0...local-ai-9.32.16) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image docker.io/localai/localai to v2.12.4 by renovate ([#20607](https://github.com/truecharts/charts/issues/20607))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image docker.io/localai/localai to v2.12.3[@4fd29a0](https://github.com/4fd29a0) by renovate ([#20540](https://github.com/truecharts/charts/issues/20540))
 

@@ -43,11 +43,13 @@ title: Changelog
 - update container image docker.io/odoo to 17.0[@7523a05](https://github.com/7523a05) by renovate ([#19224](https://github.com/truecharts/charts/issues/19224))
 
 
-## [odoo-17.8.3](https://github.com/truecharts/charts/compare/odoo-17.6.0...odoo-17.8.3) (2024-04-10)
+## [odoo-17.8.4](https://github.com/truecharts/charts/compare/odoo-17.6.0...odoo-17.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image docker.io/odoo to 17.0[@4e748f0](https://github.com/4e748f0) by renovate ([#19795](https://github.com/truecharts/charts/issues/19795))

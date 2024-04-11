@@ -43,11 +43,13 @@ title: Changelog
 - update container image ghcr.io/onedr0p/plex to v1.40.1.8227-c0dd5a73e[@4ca8db0](https://github.com/4ca8db0) by renovate ([#19308](https://github.com/truecharts/charts/issues/19308))
 
 
-## [plex-17.8.5](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-17.8.5) (2024-04-10)
+## [plex-17.8.6](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-17.8.6) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

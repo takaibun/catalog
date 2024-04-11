@@ -43,11 +43,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/znc to 1.9.0[@bdd8345](https://github.com/bdd8345) by renovate ([#19250](https://github.com/truecharts/charts/issues/19250))
 
 
-## [znc-9.9.3](https://github.com/truecharts/charts/compare/znc-9.7.0...znc-9.9.3) (2024-04-10)
+## [znc-9.9.4](https://github.com/truecharts/charts/compare/znc-9.7.0...znc-9.9.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image ghcr.io/linuxserver/znc to 1.9.0[@6002596](https://github.com/6002596) by renovate ([#19832](https://github.com/truecharts/charts/issues/19832))

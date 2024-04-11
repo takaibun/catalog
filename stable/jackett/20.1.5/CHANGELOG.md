@@ -89,12 +89,12 @@ title: Changelog
 
 
 
-- update container image ghcr.io/geek-cookbook/jackett to v0.21.2253[@a6b0a31](https://github.com/a6b0a31) by renovate ([#20092](https://github.com/truecharts/charts/issues/20092))
+- update container image ghcr.io/geek-cookbook/jackett to v0.21.2258[@ebe5eb4](https://github.com/ebe5eb4) by renovate ([#20137](https://github.com/truecharts/charts/issues/20137))
+
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2335[@4cd6407](https://github.com/4cd6407) by renovate ([#20529](https://github.com/truecharts/charts/issues/20529))
 
-- update container image ghcr.io/geek-cookbook/jackett to v0.21.2232[@ff9df95](https://github.com/ff9df95) by renovate ([#20040](https://github.com/truecharts/charts/issues/20040))
-
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))

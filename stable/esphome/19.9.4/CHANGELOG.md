@@ -43,11 +43,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [esphome-19.9.3](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-19.9.3) (2024-04-10)
+## [esphome-19.9.4](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-19.9.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image esphome/esphome to v2024.3.1[@15d2372](https://github.com/15d2372) by renovate ([#19862](https://github.com/truecharts/charts/issues/19862))

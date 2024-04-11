@@ -47,13 +47,15 @@ title: Changelog
 - BREAKING CHANGE (on scale) use zfs backend instead of localpath on scale ([#19548](https://github.com/truecharts/charts/issues/19548))
 
 
-## [openebs-4.1.3](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.1.3) (2024-04-10)
+## [openebs-4.1.4](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.1.4) (2024-04-11)
 
 ### Chore
 
 
 
 - ensure release is pushed
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))

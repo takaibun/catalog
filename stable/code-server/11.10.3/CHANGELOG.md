@@ -41,11 +41,13 @@ title: Changelog
 - update container image docker.io/codercom/code-server to v4.22.1[@62e1d25](https://github.com/62e1d25) by renovate ([#19301](https://github.com/truecharts/charts/issues/19301))
 
 
-## [code-server-11.10.2](https://github.com/truecharts/charts/compare/code-server-11.7.0...code-server-11.10.2) (2024-04-10)
+## [code-server-11.10.3](https://github.com/truecharts/charts/compare/code-server-11.7.0...code-server-11.10.3) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))

@@ -45,11 +45,13 @@ title: Changelog
 - update container image docker.io/alpine/socat to 1.8.0.0[@2e782d6](https://github.com/2e782d6) by renovate ([#19222](https://github.com/truecharts/charts/issues/19222))
 
 
-## [jellyfin-18.8.3](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.8.3) (2024-04-10)
+## [jellyfin-18.8.4](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image docker.io/alpine/socat to 1.8.0.0[@6fe6184](https://github.com/6fe6184) by renovate ([#20307](https://github.com/truecharts/charts/issues/20307))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

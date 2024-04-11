@@ -43,11 +43,13 @@ title: Changelog
 - update container image dtjs48jkt/twonkyserver to latest[@fe69332](https://github.com/fe69332) by renovate ([#19225](https://github.com/truecharts/charts/issues/19225))
 
 
-## [twonky-server-5.8.3](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.3) (2024-04-10)
+## [twonky-server-5.8.4](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image dtjs48jkt/twonkyserver to latest[@7f3e0de](https://github.com/7f3e0de) by renovate ([#19933](https://github.com/truecharts/charts/issues/19933))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
-
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))

@@ -45,11 +45,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/mysql-workbench to 8.0.36[@70f624e](https://github.com/70f624e) by renovate ([#19241](https://github.com/truecharts/charts/issues/19241))
 
 
-## [mysql-workbench-9.8.3](https://github.com/truecharts/charts/compare/mysql-workbench-9.6.0...mysql-workbench-9.8.3) (2024-04-10)
+## [mysql-workbench-9.8.4](https://github.com/truecharts/charts/compare/mysql-workbench-9.6.0...mysql-workbench-9.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/mysql-workbench to 8.0.36[@a8f59dc](https://github.com/a8f59dc) by renovate ([#20319](https://github.com/truecharts/charts/issues/20319))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))

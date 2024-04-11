@@ -61,6 +61,8 @@ title: Changelog
 
 
 
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image doitandbedone/ispyagentdvr to v5.4.1.0[@ce6dc90](https://github.com/ce6dc90) by renovate ([#20600](https://github.com/truecharts/charts/issues/20600))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
@@ -96,5 +98,3 @@ title: Changelog
 - update container image doitandbedone/ispyagentdvr to v5.3.3.0[@9fa7784](https://github.com/9fa7784) by renovate ([#19592](https://github.com/truecharts/charts/issues/19592))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

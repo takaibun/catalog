@@ -45,11 +45,13 @@ title: Changelog
 - update container image ghcr.io/linuxserver/rsnapshot to 1.4.5[@049c089](https://github.com/049c089) by renovate ([#19245](https://github.com/truecharts/charts/issues/19245))
 
 
-## [rsnapshot-9.8.4](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.8.4) (2024-04-11)
+## [rsnapshot-9.8.5](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.8.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image ghcr.io/linuxserver/rsnapshot to 1.4.5[@1a6887f](https://github.com/1a6887f) by renovate ([#20583](https://github.com/truecharts/charts/issues/20583))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image ghcr.io/linuxserver/rsnapshot to 1.4.5[@abc27e7](https://github.com/abc27e7) by renovate ([#20211](https://github.com/truecharts/charts/issues/20211))

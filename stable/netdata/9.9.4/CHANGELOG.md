@@ -43,11 +43,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [netdata-9.9.3](https://github.com/truecharts/charts/compare/netdata-9.6.0...netdata-9.9.3) (2024-04-10)
+## [netdata-9.9.4](https://github.com/truecharts/charts/compare/netdata-9.6.0...netdata-9.9.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image netdata/netdata to v1.45.1[@fb23c1e](https://github.com/fb23c1e) by renovate ([#19877](https://github.com/truecharts/charts/issues/19877))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

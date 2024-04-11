@@ -39,11 +39,13 @@ title: Changelog
 - update container image discordgsm/discord-game-server-monitor to v2.17.0[@9363802](https://github.com/9363802) by renovate ([#19336](https://github.com/truecharts/charts/issues/19336))
 
 
-## [discordgsm-7.9.3](https://github.com/truecharts/charts/compare/discordgsm-7.6.0...discordgsm-7.9.3) (2024-04-10)
+## [discordgsm-7.9.4](https://github.com/truecharts/charts/compare/discordgsm-7.6.0...discordgsm-7.9.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image discordgsm/discord-game-server-monitor to v2.17.0[@9363802](https://github.com/9363802) by renovate ([#19336](https://github.com/truecharts/charts/issues/19336))
-
-
-## [discordgsm-7.9.3](https://github.com/truecharts/charts/compare/discordgsm-7.6.0...discordgsm-7.9.3) (2024-04-10)

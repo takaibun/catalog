@@ -41,11 +41,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [webp-server-5.8.4](https://github.com/truecharts/charts/compare/webp-server-5.6.0...webp-server-5.8.4) (2024-04-11)
+## [webp-server-5.8.5](https://github.com/truecharts/charts/compare/webp-server-5.6.0...webp-server-5.8.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image webpsh/webps to latest[@50612c0](https://github.com/50612c0) by renovate ([#20548](https://github.com/truecharts/charts/issues/20548))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image webpsh/webps to latest[@5f3ece2](https://github.com/5f3ece2) by renovate ([#19633](https://github.com/truecharts/charts/issues/19633))

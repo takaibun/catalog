@@ -58,11 +58,13 @@ title: Changelog
 - update ignored by renovate (patch) ([#19333](https://github.com/truecharts/charts/issues/19333))
 
 
-## [semaphore-1.2.3](https://github.com/truecharts/charts/compare/semaphore-1.1.2...semaphore-1.2.3) (2024-04-10)
+## [semaphore-1.2.4](https://github.com/truecharts/charts/compare/semaphore-1.1.2...semaphore-1.2.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update ignored updates to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20602](https://github.com/truecharts/charts/issues/20602))
 
 - update ignored updates to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20536](https://github.com/truecharts/charts/issues/20536))
 
@@ -96,5 +98,3 @@ title: Changelog
 - lock file maintenance ignored by renovate ([#20393](https://github.com/truecharts/charts/issues/20393))
 
 - update ignored by renovate (patch) ([#19878](https://github.com/truecharts/charts/issues/19878))
-
-- update ignored updates to v2.9.58[@501b0fa](https://github.com/501b0fa) by renovate ([#19755](https://github.com/truecharts/charts/issues/19755))

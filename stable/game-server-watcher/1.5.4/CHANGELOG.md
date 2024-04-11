@@ -41,11 +41,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [game-server-watcher-1.5.3](https://github.com/truecharts/charts/compare/game-server-watcher-1.3.0...game-server-watcher-1.5.3) (2024-04-10)
+## [game-server-watcher-1.5.4](https://github.com/truecharts/charts/compare/game-server-watcher-1.3.0...game-server-watcher-1.5.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image ghcr.io/a-sync/game-server-watcher to v3.0.8[@e9be3a1](https://github.com/e9be3a1) by renovate ([#19691](https://github.com/truecharts/charts/issues/19691))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
-
-- update container image ghcr.io/a-sync/game-server-watcher to v3.0.5[@61d4e0e](https://github.com/61d4e0e) by renovate ([#19674](https://github.com/truecharts/charts/issues/19674))
