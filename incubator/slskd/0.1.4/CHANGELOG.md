@@ -31,11 +31,13 @@ title: Changelog
 - Add slskd (Soulseek daemon) to incubator ([#19918](https://github.com/truecharts/charts/issues/19918))
 
 
-## [slskd-0.1.3]slskd-0.1.3 (2024-04-10)
+## [slskd-0.1.4]slskd-0.1.4 (2024-04-11)
 
 ### Chore
 
 
+
+- update ignored updates to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20602](https://github.com/truecharts/charts/issues/20602))
 
 - update ignored updates to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20536](https://github.com/truecharts/charts/issues/20536))
 
@@ -95,5 +97,3 @@ title: Changelog
 
 
 ## [slskd-0.1.3]slskd-0.1.3 (2024-04-10)
-
-### Chore

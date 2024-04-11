@@ -27,11 +27,13 @@ title: Changelog
 - update ignored updates to v20.2.13[@62d5260](https://github.com/62d5260) by renovate ([#20356](https://github.com/truecharts/charts/issues/20356))
 
 
-## [flashpaper-1.1.3](https://github.com/truecharts/charts/compare/flashpaper-5.0.14...flashpaper-1.1.3) (2024-04-10)
+## [flashpaper-1.1.4](https://github.com/truecharts/charts/compare/flashpaper-5.0.14...flashpaper-1.1.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update ignored updates to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20602](https://github.com/truecharts/charts/issues/20602))
 
 - update ignored updates to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20536](https://github.com/truecharts/charts/issues/20536))
 
@@ -96,5 +98,3 @@ title: Changelog
 
 
 ## [flashpaper-1.1.3](https://github.com/truecharts/charts/compare/flashpaper-5.0.14...flashpaper-1.1.3) (2024-04-10)
-
-### Chore

@@ -14,6 +14,8 @@ title: Changelog
 
 
 
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image diygod/rsshub to latest[@33b97fa](https://github.com/33b97fa) by renovate ([#20594](https://github.com/truecharts/charts/issues/20594))
 
 - update container image diygod/rsshub to latest[@cab1b41](https://github.com/cab1b41) by renovate ([#20533](https://github.com/truecharts/charts/issues/20533))
@@ -95,5 +97,3 @@ title: Changelog
 - update container image diygod/rsshub to latest[@ed33916](https://github.com/ed33916) by renovate ([#20003](https://github.com/truecharts/charts/issues/20003))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image diygod/rsshub to latest[@2085093](https://github.com/2085093) by renovate ([#19990](https://github.com/truecharts/charts/issues/19990))

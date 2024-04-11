@@ -6,6 +6,8 @@
 
 
 
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image lmscommunity/logitechmediaserver to stable[@42fddd5](https://github.com/42fddd5) by renovate ([#20597](https://github.com/truecharts/charts/issues/20597))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))

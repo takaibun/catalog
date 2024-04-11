@@ -6,6 +6,8 @@
 
 
 
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image tccr.io/tccr/traefik to v2.11.1[@7fa4527](https://github.com/7fa4527) by renovate ([#20591](https://github.com/truecharts/charts/issues/20591))
 
 - update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
