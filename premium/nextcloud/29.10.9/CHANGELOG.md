@@ -91,10 +91,10 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.10.8](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.8) (2024-04-11)
+## [nextcloud-29.10.9](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.9) (2024-04-11)
 
 ### Chore
 
 
 
-- update container image tccr.io/tccr/nextcloud-fpm to v28.0.4[@4ccfa12](https://github.com/4ccfa12) by renovate ([#20475](https://github.com/truecharts/charts/issues/20475))
+- update container image tccr.io/tccr/nextcloud-fpm to v28.0.4[@c5919db](https://github.com/c5919db) by renovate ([#20587](https://github.com/truecharts/charts/issues/20587))

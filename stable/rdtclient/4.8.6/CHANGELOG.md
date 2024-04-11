@@ -47,11 +47,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [rdtclient-4.8.5](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.5) (2024-04-11)
+## [rdtclient-4.8.6](https://github.com/truecharts/charts/compare/rdtclient-4.6.0...rdtclient-4.8.6) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image ghcr.io/rogerfar/rdtclient to v2.0.72[@27b5693](https://github.com/27b5693) by renovate ([#20590](https://github.com/truecharts/charts/issues/20590))
 
 - update container image ghcr.io/rogerfar/rdtclient to v2.0.70[@af66012](https://github.com/af66012) by renovate ([#20581](https://github.com/truecharts/charts/issues/20581))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image ghcr.io/rogerfar/rdtclient to v2.0.69[@dc06c39](https://github.com/dc06c39) by renovate ([#20515](https://github.com/truecharts/charts/issues/20515))

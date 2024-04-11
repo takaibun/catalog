@@ -55,11 +55,13 @@ title: Changelog
 - Fix ECDSA certs with TLS 1.2 ([#19377](https://github.com/truecharts/charts/issues/19377))
 
 
-## [traefik-26.10.3](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.3) (2024-04-10)
+## [traefik-26.10.4](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -96,5 +98,3 @@ title: Changelog
 
 
 - Update traefik how to URL ([#20029](https://github.com/truecharts/charts/issues/20029))
-
-- Fix ECDSA certs with TLS 1.2 ([#19377](https://github.com/truecharts/charts/issues/19377))
