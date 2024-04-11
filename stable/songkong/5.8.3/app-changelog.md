@@ -1,6 +1,6 @@
 
 
-## [songkong-5.8.3](https://github.com/truecharts/charts/compare/songkong-5.6.0...songkong-5.8.3) (2024-04-10)
+## [songkong-5.8.3](https://github.com/truecharts/charts/compare/songkong-5.6.0...songkong-5.8.3) (2024-04-11)
 
 ### Chore
 

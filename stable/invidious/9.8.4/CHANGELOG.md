@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [invidious-9.8.4](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.8.4) (2024-04-10)
+## [invidious-9.8.4](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-9.8.4) (2024-04-11)
 
 ### Chore
 

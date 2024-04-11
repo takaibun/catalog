@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [metabase-3.9.4](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.9.4) (2024-04-10)
+## [metabase-3.9.4](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.9.4) (2024-04-11)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [mstream-10.8.3](https://github.com/truecharts/charts/compare/mstream-10.6.0...mstream-10.8.3) (2024-04-10)
+## [mstream-10.8.3](https://github.com/truecharts/charts/compare/mstream-10.6.0...mstream-10.8.3) (2024-04-11)
 
 ### Chore
 

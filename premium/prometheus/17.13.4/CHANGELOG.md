@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [prometheus-17.13.4](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.13.4) (2024-04-10)
+## [prometheus-17.13.4](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.13.4) (2024-04-11)
 
 ### Chore
 
@@ -55,11 +55,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [prometheus-17.13.3](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.13.3) (2024-04-10)
+## [prometheus-17.13.4](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-17.13.4) (2024-04-10)
 
 ### Chore
 
 
+
+- update container image bitnami/prometheus to v2.51.2[@2b3a2a7](https://github.com/2b3a2a7) by renovate ([#20560](https://github.com/truecharts/charts/issues/20560))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image bitnami/prometheus to v2.51.0[@d6ebf11](https://github.com/d6ebf11) by renovate ([#19514](https://github.com/truecharts/charts/issues/19514))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))

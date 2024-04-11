@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [memcached-12.9.3](https://github.com/truecharts/charts/compare/memcached-12.7.0...memcached-12.9.3) (2024-04-10)
+## [memcached-12.9.3](https://github.com/truecharts/charts/compare/memcached-12.7.0...memcached-12.9.3) (2024-04-11)
 
 ### Chore
 

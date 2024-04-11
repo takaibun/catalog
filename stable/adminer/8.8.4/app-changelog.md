@@ -1,6 +1,6 @@
 
 
-## [adminer-8.8.4](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.4) (2024-04-10)
+## [adminer-8.8.4](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-8.8.4) (2024-04-11)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [mariadb-13.9.7](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.7) (2024-04-10)
+## [mariadb-13.9.7](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.7) (2024-04-11)
 
 ### Chore
 

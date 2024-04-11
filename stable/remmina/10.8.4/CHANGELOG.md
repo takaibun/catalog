@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [remmina-10.8.4](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.4) (2024-04-10)
+## [remmina-10.8.4](https://github.com/truecharts/charts/compare/remmina-10.6.0...remmina-10.8.4) (2024-04-11)
 
 ### Chore
 

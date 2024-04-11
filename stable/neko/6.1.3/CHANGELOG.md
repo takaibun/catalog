@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [neko-6.1.3](https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.1.3) (2024-04-10)
+## [neko-6.1.3](https://github.com/truecharts/charts/compare/neko-5.6.0...neko-6.1.3) (2024-04-11)
 
 ### Chore
 

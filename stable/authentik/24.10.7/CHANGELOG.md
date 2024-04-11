@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [authentik-24.10.7](https://github.com/truecharts/charts/compare/authentik-24.6.0...authentik-24.10.7) (2024-04-10)
+## [authentik-24.10.7](https://github.com/truecharts/charts/compare/authentik-24.6.0...authentik-24.10.7) (2024-04-11)
 
 ### Chore
 

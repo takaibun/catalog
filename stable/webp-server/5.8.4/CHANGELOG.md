@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [webp-server-5.8.4](https://github.com/truecharts/charts/compare/webp-server-5.6.0...webp-server-5.8.4) (2024-04-10)
+## [webp-server-5.8.4](https://github.com/truecharts/charts/compare/webp-server-5.6.0...webp-server-5.8.4) (2024-04-11)
 
 ### Chore
 

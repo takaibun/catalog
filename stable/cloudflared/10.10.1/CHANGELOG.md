@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [cloudflared-10.10.1](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.1) (2024-04-10)
+## [cloudflared-10.10.1](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.1) (2024-04-11)
 
 ### Chore
 

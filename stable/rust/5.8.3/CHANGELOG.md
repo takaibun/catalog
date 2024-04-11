@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rust-5.8.3](https://github.com/truecharts/charts/compare/rust-5.6.0...rust-5.8.3) (2024-04-10)
+## [rust-5.8.3](https://github.com/truecharts/charts/compare/rust-5.6.0...rust-5.8.3) (2024-04-11)
 
 ### Chore
 

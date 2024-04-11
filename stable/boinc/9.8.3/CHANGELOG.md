@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [boinc-9.8.3](https://github.com/truecharts/charts/compare/boinc-9.6.0...boinc-9.8.3) (2024-04-10)
+## [boinc-9.8.3](https://github.com/truecharts/charts/compare/boinc-9.6.0...boinc-9.8.3) (2024-04-11)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [wordpress-7.15.7](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.15.7) (2024-04-10)
+## [wordpress-7.15.7](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.15.7) (2024-04-11)
 
 ### Chore
 

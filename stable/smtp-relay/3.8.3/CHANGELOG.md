@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [smtp-relay-3.8.3](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.8.3) (2024-04-10)
+## [smtp-relay-3.8.3](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-3.8.3) (2024-04-11)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [bazarr-19.6.4](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.4) (2024-04-10)
+## [bazarr-19.6.4](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.4) (2024-04-11)
 
 ### Chore
 

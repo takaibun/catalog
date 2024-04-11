@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [chronograf-5.8.4](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.4) (2024-04-10)
+## [chronograf-5.8.4](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.4) (2024-04-11)
 
 ### Chore
 
