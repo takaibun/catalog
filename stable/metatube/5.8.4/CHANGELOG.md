@@ -66,11 +66,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [metatube-5.8.3](https://github.com/truecharts/charts/compare/metatube-5.6.0...metatube-5.8.3) (2024-04-10)
+## [metatube-5.8.4](https://github.com/truecharts/charts/compare/metatube-5.6.0...metatube-5.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image jvt038/metatube to latest[@e704d2b](https://github.com/e704d2b) by renovate ([#20574](https://github.com/truecharts/charts/issues/20574))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -96,4 +98,3 @@ title: Changelog
 ## [metatube-5.8.3](https://github.com/truecharts/charts/compare/metatube-5.6.0...metatube-5.8.3) (2024-04-10)
 
 ### Chore
-

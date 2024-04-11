@@ -78,11 +78,13 @@ title: Changelog
 - update container image phasecorex/red-discordbot to full[@2ecaf40](https://github.com/2ecaf40) by renovate ([#19278](https://github.com/truecharts/charts/issues/19278))
 
 
-## [red-discordbot-5.8.3](https://github.com/truecharts/charts/compare/red-discordbot-5.6.0...red-discordbot-5.8.3) (2024-04-10)
+## [red-discordbot-5.8.4](https://github.com/truecharts/charts/compare/red-discordbot-5.6.0...red-discordbot-5.8.4) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image phasecorex/red-discordbot to full[@6cd4447](https://github.com/6cd4447) by renovate ([#20577](https://github.com/truecharts/charts/issues/20577))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image phasecorex/red-discordbot to full[@9606fe6](https://github.com/9606fe6) by renovate ([#20247](https://github.com/truecharts/charts/issues/20247))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

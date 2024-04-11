@@ -82,11 +82,13 @@ title: Changelog
 - update container image redmine to 5.1.2[@7bba7e9](https://github.com/7bba7e9) by renovate ([#19281](https://github.com/truecharts/charts/issues/19281))
 
 
-## [redmine-11.8.5](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.5) (2024-04-11)
+## [redmine-11.8.6](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.6) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
 
 - update container image redmine to 5.1.2[@d10de45](https://github.com/d10de45) by renovate ([#20558](https://github.com/truecharts/charts/issues/20558))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image redmine to 5.1.2[@edabb7c](https://github.com/edabb7c) by renovate ([#20473](https://github.com/truecharts/charts/issues/20473))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
