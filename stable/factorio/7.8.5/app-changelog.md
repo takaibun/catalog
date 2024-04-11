@@ -1,10 +1,14 @@
 
 
-## [factorio-7.8.3](https://github.com/truecharts/charts/compare/factorio-7.6.0...factorio-7.8.3) (2024-04-10)
+## [factorio-7.8.5](https://github.com/truecharts/charts/compare/factorio-7.6.0...factorio-7.8.5) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image factoriotools/factorio to stable[@e2e42bb](https://github.com/e2e42bb) by renovate ([#20612](https://github.com/truecharts/charts/issues/20612))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
