@@ -82,7 +82,7 @@ title: Changelog
 - update container image metabase/metabase to v0.49.0[@102b6a4](https://github.com/102b6a4) by renovate ([#19346](https://github.com/truecharts/charts/issues/19346))
 
 
-## [metabase-3.9.4](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.9.4) (2024-04-10)
+## [metabase-3.9.4](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-3.9.4) (2024-04-11)
 
 ### Chore
 
