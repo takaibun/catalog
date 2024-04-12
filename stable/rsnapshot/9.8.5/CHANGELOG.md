@@ -45,7 +45,7 @@ title: Changelog
 - update container image ghcr.io/linuxserver/rsnapshot to 1.4.5[@049c089](https://github.com/049c089) by renovate ([#19245](https://github.com/truecharts/charts/issues/19245))
 
 
-## [rsnapshot-9.8.5](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.8.5) (2024-04-11)
+## [rsnapshot-9.8.5](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.8.5) (2024-04-12)
 
 ### Chore
 

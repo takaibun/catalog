@@ -47,7 +47,7 @@ title: Changelog
 - update container image lscr.io/linuxserver/blender to latest[@f5275d6](https://github.com/f5275d6) by renovate ([#19270](https://github.com/truecharts/charts/issues/19270))
 
 
-## [blender-5.8.5](https://github.com/truecharts/charts/compare/blender-5.6.0...blender-5.8.5) (2024-04-11)
+## [blender-5.8.5](https://github.com/truecharts/charts/compare/blender-5.6.0...blender-5.8.5) (2024-04-12)
 
 ### Chore
 
@@ -86,14 +86,14 @@ title: Changelog
 - update container image lscr.io/linuxserver/blender to latest[@f5275d6](https://github.com/f5275d6) by renovate ([#19270](https://github.com/truecharts/charts/issues/19270))
 
 
-## [blender-5.8.4](https://github.com/truecharts/charts/compare/blender-5.6.0...blender-5.8.4) (2024-04-11)
+## [blender-5.8.5](https://github.com/truecharts/charts/compare/blender-5.6.0...blender-5.8.5) (2024-04-11)
 
 ### Chore
 
 
 
+- update container image lscr.io/linuxserver/blender to latest[@37fb7f3](https://github.com/37fb7f3) by renovate ([#20615](https://github.com/truecharts/charts/issues/20615))
+
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
-
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))

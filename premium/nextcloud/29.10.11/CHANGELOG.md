@@ -95,6 +95,6 @@ title: Changelog
 - fix gpu allocation ([#19409](https://github.com/truecharts/charts/issues/19409))
 
 
-## [nextcloud-29.10.11](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.11) (2024-04-11)
+## [nextcloud-29.10.11](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-29.10.11) (2024-04-12)
 
 ### Chore

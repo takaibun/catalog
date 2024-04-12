@@ -47,7 +47,7 @@ title: Changelog
 - Enable grafana folders ([#20461](https://github.com/truecharts/charts/issues/20461))
 
 
-## [grafana-14.10.5](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-14.10.5) (2024-04-11)
+## [grafana-14.10.5](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-14.10.5) (2024-04-12)
 
 ### Chore
 
@@ -86,14 +86,14 @@ title: Changelog
 - Enable grafana folders ([#20461](https://github.com/truecharts/charts/issues/20461))
 
 
-## [grafana-14.10.4](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-14.10.4) (2024-04-11)
+## [grafana-14.10.5](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-14.10.5) (2024-04-11)
 
 ### Chore
 
 
 
+- update container image grafana/grafana to v10.4.2[@7d5faae](https://github.com/7d5faae) by renovate ([#20620](https://github.com/truecharts/charts/issues/20620))
+
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
-
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
