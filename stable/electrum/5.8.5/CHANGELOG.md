@@ -70,11 +70,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [electrum-5.8.4](https://github.com/truecharts/charts/compare/electrum-5.6.0...electrum-5.8.4) (2024-04-11)
+## [electrum-5.8.5](https://github.com/truecharts/charts/compare/electrum-5.6.0...electrum-5.8.5) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image ich777/electrum to latest[@e4ff3a3](https://github.com/e4ff3a3) by renovate ([#20649](https://github.com/truecharts/charts/issues/20649))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
