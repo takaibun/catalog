@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [friendica-14.4.10](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.10) (2024-04-11)
+## [friendica-14.4.10](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-14.4.10) (2024-04-12)
 
 ### Chore
 

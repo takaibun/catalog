@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [nexus-oss-5.10.5](https://github.com/truecharts/charts/compare/nexus-oss-5.7.0...nexus-oss-5.10.5) (2024-04-11)
+## [nexus-oss-5.10.5](https://github.com/truecharts/charts/compare/nexus-oss-5.7.0...nexus-oss-5.10.5) (2024-04-12)
 
 ### Chore
 

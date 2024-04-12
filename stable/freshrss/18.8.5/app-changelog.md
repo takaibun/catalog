@@ -1,6 +1,6 @@
 
 
-## [freshrss-18.8.5](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-18.8.5) (2024-04-11)
+## [freshrss-18.8.5](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-18.8.5) (2024-04-12)
 
 ### Chore
 

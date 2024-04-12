@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [vikunja-13.10.12](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.12) (2024-04-11)
+## [vikunja-13.10.12](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-13.10.12) (2024-04-12)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [minetest-8.8.5](https://github.com/truecharts/charts/compare/minetest-8.6.0...minetest-8.8.5) (2024-04-11)
+## [minetest-8.8.5](https://github.com/truecharts/charts/compare/minetest-8.6.0...minetest-8.8.5) (2024-04-12)
 
 ### Chore
 

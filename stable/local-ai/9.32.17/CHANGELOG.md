@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [local-ai-9.32.17](https://github.com/truecharts/charts/compare/local-ai-9.12.0...local-ai-9.32.17) (2024-04-11)
+## [local-ai-9.32.17](https://github.com/truecharts/charts/compare/local-ai-9.12.0...local-ai-9.32.17) (2024-04-12)
 
 ### Chore
 
@@ -65,11 +65,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [local-ai-9.32.16](https://github.com/truecharts/charts/compare/local-ai-9.12.0...local-ai-9.32.16) (2024-04-11)
+## [local-ai-9.32.17](https://github.com/truecharts/charts/compare/local-ai-9.12.0...local-ai-9.32.17) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image docker.io/localai/localai to v2.12.4[@861cffd](https://github.com/861cffd) by renovate ([#20619](https://github.com/truecharts/charts/issues/20619))
 
 - update container image docker.io/localai/localai to v2.12.4 by renovate ([#20607](https://github.com/truecharts/charts/issues/20607))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image docker.io/localai/localai to v2.11.0[@30e7580](https://github.com/30e7580) by renovate ([#19857](https://github.com/truecharts/charts/issues/19857))
-
-- update container image docker.io/localai/localai to v2.11.0[@8f708d1](https://github.com/8f708d1) by renovate ([#19852](https://github.com/truecharts/charts/issues/19852))

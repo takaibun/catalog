@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [snapdrop-9.8.4](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.8.4) (2024-04-11)
+## [snapdrop-9.8.4](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-9.8.4) (2024-04-12)
 
 ### Chore
 

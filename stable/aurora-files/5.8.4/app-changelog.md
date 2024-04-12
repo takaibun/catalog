@@ -1,6 +1,6 @@
 
 
-## [aurora-files-5.8.4](https://github.com/truecharts/charts/compare/aurora-files-5.6.0...aurora-files-5.8.4) (2024-04-11)
+## [aurora-files-5.8.4](https://github.com/truecharts/charts/compare/aurora-files-5.6.0...aurora-files-5.8.4) (2024-04-12)
 
 ### Chore
 

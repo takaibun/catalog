@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [farmos-5.8.5](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.5) (2024-04-11)
+## [farmos-5.8.5](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.5) (2024-04-12)
 
 ### Chore
 

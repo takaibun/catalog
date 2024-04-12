@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [monica-12.15.9](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-12.15.9) (2024-04-11)
+## [monica-12.15.9](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-12.15.9) (2024-04-12)
 
 ### Chore
 
@@ -81,11 +81,13 @@ title: Changelog
 - update container image monica to 4.0.0[@807b737](https://github.com/807b737) by renovate ([#19276](https://github.com/truecharts/charts/issues/19276))
 
 
-## [monica-12.15.8](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-12.15.8) (2024-04-11)
+## [monica-12.15.9](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-12.15.9) (2024-04-11)
 
 ### Chore
 
 
+
+- update container image monica to 4.0.0[@8259aa2](https://github.com/8259aa2) by renovate ([#20471](https://github.com/truecharts/charts/issues/20471))
 
 - update container image mariadb to v13.9.8[@ab62124](https://github.com/ab62124) by renovate ([#20563](https://github.com/truecharts/charts/issues/20563))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
