@@ -39,11 +39,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [krusader-5.8.4](https://github.com/truecharts/charts/compare/krusader-5.6.0...krusader-5.8.4) (2024-04-11)
+## [krusader-5.8.5](https://github.com/truecharts/charts/compare/krusader-5.6.0...krusader-5.8.5) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image ich777/krusader to latest[@174030f](https://github.com/174030f) by renovate ([#20651](https://github.com/truecharts/charts/issues/20651))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-
-## [krusader-5.8.4](https://github.com/truecharts/charts/compare/krusader-5.6.0...krusader-5.8.4) (2024-04-11)

@@ -87,14 +87,14 @@ title: Changelog
 - update container image ghcr.io/linuxserver/fleet to 2.3.3[@5b82faa](https://github.com/5b82faa) by renovate ([#19236](https://github.com/truecharts/charts/issues/19236))
 
 
-## [fleet-12.15.8](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-12.15.8) (2024-04-11)
+## [fleet-12.15.9](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-12.15.9) (2024-04-12)
 
 ### Chore
 
 
 
+- update container image ghcr.io/linuxserver/fleet to 2.3.3[@7b78aab](https://github.com/7b78aab) by renovate ([#20647](https://github.com/truecharts/charts/issues/20647))
+
 - update container image mariadb to v13.9.8[@ab62124](https://github.com/ab62124) by renovate ([#20563](https://github.com/truecharts/charts/issues/20563))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
-
-- update container image mariadb to v13.9.6[@04feaf4](https://github.com/04feaf4) by renovate ([#20551](https://github.com/truecharts/charts/issues/20551))
