@@ -8,15 +8,19 @@ title: Changelog
 **Important:**
 
 
-## [mylar-13.9.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.5) (2024-04-12)
+## [traefik-26.10.6](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.6) (2024-04-12)
 
 ### Chore
 
 
 
-- update container image linuxserver/mylar3 to version-v0.8.0[@0295044](https://github.com/0295044) by renovate ([#20634](https://github.com/truecharts/charts/issues/20634))
+- update container image tccr.io/tccr/traefik to v2.11.1[@dc1591e](https://github.com/dc1591e) by renovate ([#20656](https://github.com/truecharts/charts/issues/20656))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
+- update container image tccr.io/tccr/traefik to v2.11.1[@7fa4527](https://github.com/7fa4527) by renovate ([#20591](https://github.com/truecharts/charts/issues/20591))
+
+- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -26,11 +30,7 @@ title: Changelog
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image linuxserver/mylar3 to version-v0.8.0[@01830b5](https://github.com/01830b5) by renovate ([#20256](https://github.com/truecharts/charts/issues/20256))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image linuxserver/mylar3 to version-v0.8.0[@41075ba](https://github.com/41075ba) by renovate ([#19941](https://github.com/truecharts/charts/issues/19941))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -38,24 +38,40 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image linuxserver/mylar3 to version-v0.8.0[@04a2a43](https://github.com/04a2a43) by renovate ([#19621](https://github.com/truecharts/charts/issues/19621))
-
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+
+- update container image tccr.io/tccr/traefik to v2.11.0[@543615f](https://github.com/543615f) by renovate ([#19402](https://github.com/truecharts/charts/issues/19402))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image linuxserver/mylar3 to vversion-v0.8.0[@1913dcb](https://github.com/1913dcb) by renovate ([#19345](https://github.com/truecharts/charts/issues/19345))
+- update container image tccr.io/tccr/traefik to v2.11.0[@64a9b5e](https://github.com/64a9b5e) by renovate ([#19290](https://github.com/truecharts/charts/issues/19290))
+
+### Feat
 
 
-## [mylar-13.9.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.5) (2024-04-12)
+
+- Add Crowdsec Bouncer Questions for SCALE ([#19565](https://github.com/truecharts/charts/issues/19565))
+
+### Fix
+
+
+
+- Update traefik how to URL ([#20029](https://github.com/truecharts/charts/issues/20029))
+
+- Fix ECDSA certs with TLS 1.2 ([#19377](https://github.com/truecharts/charts/issues/19377))
+
+
+## [traefik-26.10.5](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.5) (2024-04-12)
 
 ### Chore
 
 
 
-- update container image linuxserver/mylar3 to version-v0.8.0[@0295044](https://github.com/0295044) by renovate ([#20634](https://github.com/truecharts/charts/issues/20634))
-
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
+- update container image tccr.io/tccr/traefik to v2.11.1[@7fa4527](https://github.com/7fa4527) by renovate ([#20591](https://github.com/truecharts/charts/issues/20591))
+
+- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -65,11 +81,7 @@ title: Changelog
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image linuxserver/mylar3 to version-v0.8.0[@01830b5](https://github.com/01830b5) by renovate ([#20256](https://github.com/truecharts/charts/issues/20256))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
-
-- update container image linuxserver/mylar3 to version-v0.8.0[@41075ba](https://github.com/41075ba) by renovate ([#19941](https://github.com/truecharts/charts/issues/19941))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -77,23 +89,12 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image linuxserver/mylar3 to version-v0.8.0[@04a2a43](https://github.com/04a2a43) by renovate ([#19621](https://github.com/truecharts/charts/issues/19621))
-
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+
+- update container image tccr.io/tccr/traefik to v2.11.0[@543615f](https://github.com/543615f) by renovate ([#19402](https://github.com/truecharts/charts/issues/19402))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image linuxserver/mylar3 to vversion-v0.8.0[@1913dcb](https://github.com/1913dcb) by renovate ([#19345](https://github.com/truecharts/charts/issues/19345))
+- update container image tccr.io/tccr/traefik to v2.11.0[@64a9b5e](https://github.com/64a9b5e) by renovate ([#19290](https://github.com/truecharts/charts/issues/19290))
 
-
-## [mylar-13.9.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.5) (2024-04-12)
-
-### Chore
-
-
-
-- update container image linuxserver/mylar3 to version-v0.8.0[@0295044](https://github.com/0295044) by renovate ([#20634](https://github.com/truecharts/charts/issues/20634))
-
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
-
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+### Feat
