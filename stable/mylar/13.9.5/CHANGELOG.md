@@ -47,11 +47,13 @@ title: Changelog
 - update container image linuxserver/mylar3 to vversion-v0.8.0[@1913dcb](https://github.com/1913dcb) by renovate ([#19345](https://github.com/truecharts/charts/issues/19345))
 
 
-## [mylar-13.9.4](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.4) (2024-04-11)
+## [mylar-13.9.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.5) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image linuxserver/mylar3 to version-v0.8.0[@0295044](https://github.com/0295044) by renovate ([#20634](https://github.com/truecharts/charts/issues/20634))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
