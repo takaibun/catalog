@@ -8,13 +8,13 @@ title: Changelog
 **Important:**
 
 
-## [twonky-server-5.8.5](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.5) (2024-04-12)
+## [mylar-13.9.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.5) (2024-04-12)
 
 ### Chore
 
 
 
-- update container image dtjs48jkt/twonkyserver to latest[@cc07591](https://github.com/cc07591) by renovate ([#20627](https://github.com/truecharts/charts/issues/20627))
+- update container image linuxserver/mylar3 to version-v0.8.0[@0295044](https://github.com/0295044) by renovate ([#20634](https://github.com/truecharts/charts/issues/20634))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -26,9 +26,11 @@ title: Changelog
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
+- update container image linuxserver/mylar3 to version-v0.8.0[@01830b5](https://github.com/01830b5) by renovate ([#20256](https://github.com/truecharts/charts/issues/20256))
+
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image dtjs48jkt/twonkyserver to latest[@7f3e0de](https://github.com/7f3e0de) by renovate ([#19933](https://github.com/truecharts/charts/issues/19933))
+- update container image linuxserver/mylar3 to version-v0.8.0[@41075ba](https://github.com/41075ba) by renovate ([#19941](https://github.com/truecharts/charts/issues/19941))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -36,22 +38,20 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image dtjs48jkt/twonkyserver to latest[@e0bf0a7](https://github.com/e0bf0a7) by renovate ([#19612](https://github.com/truecharts/charts/issues/19612))
+- update container image linuxserver/mylar3 to version-v0.8.0[@04a2a43](https://github.com/04a2a43) by renovate ([#19621](https://github.com/truecharts/charts/issues/19621))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image dtjs48jkt/twonkyserver to latest[@fe69332](https://github.com/fe69332) by renovate ([#19225](https://github.com/truecharts/charts/issues/19225))
+- update container image linuxserver/mylar3 to vversion-v0.8.0[@1913dcb](https://github.com/1913dcb) by renovate ([#19345](https://github.com/truecharts/charts/issues/19345))
 
 
-## [twonky-server-5.8.5](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.5) (2024-04-12)
+## [mylar-13.9.4](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.4) (2024-04-11)
 
 ### Chore
 
 
-
-- update container image dtjs48jkt/twonkyserver to latest[@cc07591](https://github.com/cc07591) by renovate ([#20627](https://github.com/truecharts/charts/issues/20627))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -63,9 +63,11 @@ title: Changelog
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
+- update container image linuxserver/mylar3 to version-v0.8.0[@01830b5](https://github.com/01830b5) by renovate ([#20256](https://github.com/truecharts/charts/issues/20256))
+
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image dtjs48jkt/twonkyserver to latest[@7f3e0de](https://github.com/7f3e0de) by renovate ([#19933](https://github.com/truecharts/charts/issues/19933))
+- update container image linuxserver/mylar3 to version-v0.8.0[@41075ba](https://github.com/41075ba) by renovate ([#19941](https://github.com/truecharts/charts/issues/19941))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -73,22 +75,20 @@ title: Changelog
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image dtjs48jkt/twonkyserver to latest[@e0bf0a7](https://github.com/e0bf0a7) by renovate ([#19612](https://github.com/truecharts/charts/issues/19612))
+- update container image linuxserver/mylar3 to version-v0.8.0[@04a2a43](https://github.com/04a2a43) by renovate ([#19621](https://github.com/truecharts/charts/issues/19621))
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image dtjs48jkt/twonkyserver to latest[@fe69332](https://github.com/fe69332) by renovate ([#19225](https://github.com/truecharts/charts/issues/19225))
+- update container image linuxserver/mylar3 to vversion-v0.8.0[@1913dcb](https://github.com/1913dcb) by renovate ([#19345](https://github.com/truecharts/charts/issues/19345))
 
 
-## [twonky-server-5.8.5](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-5.8.5) (2024-04-12)
+## [mylar-13.9.4](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-13.9.4) (2024-04-11)
 
 ### Chore
 
 
-
-- update container image dtjs48jkt/twonkyserver to latest[@cc07591](https://github.com/cc07591) by renovate ([#20627](https://github.com/truecharts/charts/issues/20627))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
