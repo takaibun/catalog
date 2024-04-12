@@ -1,10 +1,14 @@
 
 
-## [prusaslicer-novnc-8.8.3](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-8.8.3) (2024-04-10)
+## [prusaslicer-novnc-8.8.5](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-8.8.5) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image mikeah/prusaslicer-novnc to latest[@3c72eb5](https://github.com/3c72eb5) by renovate ([#20636](https://github.com/truecharts/charts/issues/20636))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 

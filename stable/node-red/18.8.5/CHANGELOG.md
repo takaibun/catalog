@@ -43,11 +43,13 @@ title: Changelog
 - update container image docker.io/nodered/node-red to v3.1.7[@b3bee63](https://github.com/b3bee63) by renovate ([#19302](https://github.com/truecharts/charts/issues/19302))
 
 
-## [node-red-18.8.4](https://github.com/truecharts/charts/compare/node-red-18.6.0...node-red-18.8.4) (2024-04-11)
+## [node-red-18.8.5](https://github.com/truecharts/charts/compare/node-red-18.6.0...node-red-18.8.5) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image docker.io/nodered/node-red to v3.1.9[@df827e6](https://github.com/df827e6) by renovate ([#20630](https://github.com/truecharts/charts/issues/20630))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image docker.io/nodered/node-red to v3.1.8[@c2990ca](https://github.com/c2990ca) by renovate ([#19926](https://github.com/truecharts/charts/issues/19926))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

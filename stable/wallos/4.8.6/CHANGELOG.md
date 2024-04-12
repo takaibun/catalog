@@ -63,11 +63,13 @@ title: Changelog
 - update container image docker.io/bellamy/wallos to latest[@79393ca](https://github.com/79393ca) by renovate ([#19223](https://github.com/truecharts/charts/issues/19223))
 
 
-## [wallos-4.8.5](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-4.8.5) (2024-04-11)
+## [wallos-4.8.6](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-4.8.6) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image docker.io/bellamy/wallos to latest[@8234633](https://github.com/8234633) by renovate ([#20625](https://github.com/truecharts/charts/issues/20625))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image docker.io/bellamy/wallos to latest[@9424a2b](https://github.com/9424a2b) by renovate ([#19768](https://github.com/truecharts/charts/issues/19768))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
-
-- update container image docker.io/bellamy/wallos to latest[@bcd6e21](https://github.com/bcd6e21) by renovate ([#19738](https://github.com/truecharts/charts/issues/19738))
