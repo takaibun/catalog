@@ -1,10 +1,14 @@
 
 
-## [searxng-7.8.8](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.8.8) (2024-04-13)
+## [searxng-7.8.10](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.8.10) (2024-04-13)
 
 ### Chore
 
 
+
+- update container image searxng/searxng to latest[@390e6ff](https://github.com/390e6ff) by renovate ([#20709](https://github.com/truecharts/charts/issues/20709))
+
+- update container image searxng/searxng to latest[@145fc61](https://github.com/145fc61) by renovate ([#20699](https://github.com/truecharts/charts/issues/20699))
 
 - update container image searxng/searxng to latest[@7b49637](https://github.com/7b49637) by renovate ([#20667](https://github.com/truecharts/charts/issues/20667))
 
