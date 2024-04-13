@@ -1,10 +1,14 @@
 
 
-## [jellyfin-18.8.3](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.8.3) (2024-04-10)
+## [jellyfin-18.8.5](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-18.8.5) (2024-04-13)
 
 ### Chore
 
 
+
+- update container image docker.io/alpine/socat to 1.8.0.0[@5aef82a](https://github.com/5aef82a) by renovate ([#20692](https://github.com/truecharts/charts/issues/20692))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
