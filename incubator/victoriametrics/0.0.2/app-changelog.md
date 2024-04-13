@@ -1,6 +1,6 @@
 
 
-## [victoriametrics-0.0.2]victoriametrics-0.0.2 (2024-04-09)
+## [victoriametrics-0.0.2]victoriametrics-0.0.2 (2024-04-13)
 
 ### Chore
 
