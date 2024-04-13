@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [openvscode-server-9.10.0](https://github.com/truecharts/charts/compare/openvscode-server-9.7.0...openvscode-server-9.10.0) (2024-04-12)
+## [openvscode-server-9.10.0](https://github.com/truecharts/charts/compare/openvscode-server-9.7.0...openvscode-server-9.10.0) (2024-04-13)
 
 ### Chore
 

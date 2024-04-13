@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [docker-6.1.7](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.1.7) (2024-04-12)
+## [docker-6.1.7](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.1.7) (2024-04-13)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [webtop-9.8.25](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.25) (2024-04-12)
+## [webtop-9.8.25](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.25) (2024-04-13)
 
 ### Chore
 
@@ -63,11 +63,13 @@ title: Changelog
 - update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
 
 
-## [webtop-9.8.22](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.22) (2024-04-11)
+## [webtop-9.8.25](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.25) (2024-04-12)
 
 ### Chore
 
 
+
+- update webtop by renovate ([#20670](https://github.com/truecharts/charts/issues/20670))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image lscr.io/linuxserver/webtop to fedora-mate[@db62ad9](https://github.com/db62ad9) by renovate ([#19833](https://github.com/truecharts/charts/issues/19833))
-
-- update webtop by renovate ([#19809](https://github.com/truecharts/charts/issues/19809))

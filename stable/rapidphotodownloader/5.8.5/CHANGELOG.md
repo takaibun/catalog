@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [rapidphotodownloader-5.8.5](https://github.com/truecharts/charts/compare/rapidphotodownloader-5.6.0...rapidphotodownloader-5.8.5) (2024-04-12)
+## [rapidphotodownloader-5.8.5](https://github.com/truecharts/charts/compare/rapidphotodownloader-5.6.0...rapidphotodownloader-5.8.5) (2024-04-13)
 
 ### Chore
 

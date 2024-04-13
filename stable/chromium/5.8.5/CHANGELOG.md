@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [chromium-5.8.5](https://github.com/truecharts/charts/compare/chromium-5.6.0...chromium-5.8.5) (2024-04-12)
+## [chromium-5.8.5](https://github.com/truecharts/charts/compare/chromium-5.6.0...chromium-5.8.5) (2024-04-13)
 
 ### Chore
 

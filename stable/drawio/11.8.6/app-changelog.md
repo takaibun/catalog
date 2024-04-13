@@ -1,6 +1,6 @@
 
 
-## [drawio-11.8.6](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.6) (2024-04-12)
+## [drawio-11.8.6](https://github.com/truecharts/charts/compare/drawio-11.4.0...drawio-11.8.6) (2024-04-13)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [borg-server-4.9.5](https://github.com/truecharts/charts/compare/borg-server-4.6.0...borg-server-4.9.5) (2024-04-12)
+## [borg-server-4.9.5](https://github.com/truecharts/charts/compare/borg-server-4.6.0...borg-server-4.9.5) (2024-04-13)
 
 ### Chore
 

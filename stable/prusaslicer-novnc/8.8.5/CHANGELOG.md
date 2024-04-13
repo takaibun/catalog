@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [prusaslicer-novnc-8.8.5](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-8.8.5) (2024-04-12)
+## [prusaslicer-novnc-8.8.5](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-8.8.5) (2024-04-13)
 
 ### Chore
 

@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [metube-12.10.4](https://github.com/truecharts/charts/compare/metube-12.7.0...metube-12.10.4) (2024-04-12)
+## [metube-12.10.4](https://github.com/truecharts/charts/compare/metube-12.7.0...metube-12.10.4) (2024-04-13)
 
 ### Chore
 

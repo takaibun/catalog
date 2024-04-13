@@ -1,6 +1,6 @@
 
 
-## [thunderbird-5.8.5](https://github.com/truecharts/charts/compare/thunderbird-5.6.0...thunderbird-5.8.5) (2024-04-12)
+## [thunderbird-5.8.5](https://github.com/truecharts/charts/compare/thunderbird-5.6.0...thunderbird-5.8.5) (2024-04-13)
 
 ### Chore
 

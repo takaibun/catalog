@@ -1,6 +1,6 @@
 
 
-## [authentik-24.10.9](https://github.com/truecharts/charts/compare/authentik-24.6.0...authentik-24.10.9) (2024-04-12)
+## [authentik-24.10.9](https://github.com/truecharts/charts/compare/authentik-24.6.0...authentik-24.10.9) (2024-04-13)
 
 ### Chore
 

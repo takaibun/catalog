@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [electrum-5.8.5](https://github.com/truecharts/charts/compare/electrum-5.6.0...electrum-5.8.5) (2024-04-12)
+## [electrum-5.8.5](https://github.com/truecharts/charts/compare/electrum-5.6.0...electrum-5.8.5) (2024-04-13)
 
 ### Chore
 

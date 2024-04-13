@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [yourls-5.8.10](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.10) (2024-04-12)
+## [yourls-5.8.10](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.10) (2024-04-13)
 
 ### Chore
 

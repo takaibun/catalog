@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [grafana-14.10.5](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-14.10.5) (2024-04-12)
+## [grafana-14.10.5](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-14.10.5) (2024-04-13)
 
 ### Chore
 

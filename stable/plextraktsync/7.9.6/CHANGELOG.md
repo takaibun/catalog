@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [plextraktsync-7.9.6](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-7.9.6) (2024-04-12)
+## [plextraktsync-7.9.6](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-7.9.6) (2024-04-13)
 
 ### Chore
 

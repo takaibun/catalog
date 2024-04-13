@@ -8,7 +8,7 @@ title: Changelog
 **Important:**
 
 
-## [traefik-26.10.7](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.7) (2024-04-12)
+## [traefik-26.10.7](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.7) (2024-04-13)
 
 ### Chore
 
@@ -63,11 +63,13 @@ title: Changelog
 - Fix ECDSA certs with TLS 1.2 ([#19377](https://github.com/truecharts/charts/issues/19377))
 
 
-## [traefik-26.10.6](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.6) (2024-04-12)
+## [traefik-26.10.7](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-26.10.7) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image tccr.io/tccr/traefik to v2.11.1[@d1ac4b6](https://github.com/d1ac4b6) by renovate ([#20668](https://github.com/truecharts/charts/issues/20668))
 
 - update container image tccr.io/tccr/traefik to v2.11.1[@dc1591e](https://github.com/dc1591e) by renovate ([#20656](https://github.com/truecharts/charts/issues/20656))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image tccr.io/tccr/traefik to v2.11.0[@543615f](https://github.com/543615f) by renovate ([#19402](https://github.com/truecharts/charts/issues/19402))
-
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
