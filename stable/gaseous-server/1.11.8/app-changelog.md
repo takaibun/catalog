@@ -1,12 +1,14 @@
 
 
-## [gaseous-server-1.11.8](https://github.com/truecharts/charts/compare/gaseous-server-1.5.0...gaseous-server-1.11.8) (2024-04-11)
+## [gaseous-server-1.11.8](https://github.com/truecharts/charts/compare/gaseous-server-1.5.0...gaseous-server-1.11.8) (2024-04-13)
 
 ### Chore
 
 
 
-- update container image mariadb to v13.9.8[@ab62124](https://github.com/ab62124) by renovate ([#20563](https://github.com/truecharts/charts/issues/20563))
+- update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
+
+- update container image mariadb to v13.6.0[@da7a483](https://github.com/da7a483) by renovate ([#19362](https://github.com/truecharts/charts/issues/19362))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -16,7 +18,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
+- update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
 
 - update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
 
@@ -32,11 +34,11 @@
 
 - update container image mariadb to v13.8.0[@3e48b89](https://github.com/3e48b89) by renovate ([#20156](https://github.com/truecharts/charts/issues/20156))
 
-- update container image mariadb to v13.7.8[@604f0b6](https://github.com/604f0b6) by renovate ([#20129](https://github.com/truecharts/charts/issues/20129))
+- update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
-- update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
+- update container image mariadb to v13.9.8[@ab62124](https://github.com/ab62124) by renovate ([#20563](https://github.com/truecharts/charts/issues/20563))
 
-- update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
+- update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -62,8 +64,8 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19390](https://github.com/truecharts/charts/issues/19390))
 
-- update container image mariadb to v13.6.0[@da7a483](https://github.com/da7a483) by renovate ([#19362](https://github.com/truecharts/charts/issues/19362))
+- update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
+- fix few more ([#20721](https://github.com/truecharts/charts/issues/20721))

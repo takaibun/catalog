@@ -21,3 +21,5 @@
 - update ignored updates to v20.2.12[@944bc78](https://github.com/944bc78) by renovate ([#20094](https://github.com/truecharts/charts/issues/20094))
 
 - update ignored updates to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#20000](https://github.com/truecharts/charts/issues/20000))
+
+- fix few more ([#20721](https://github.com/truecharts/charts/issues/20721))
