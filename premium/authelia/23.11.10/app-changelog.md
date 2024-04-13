@@ -6,11 +6,13 @@
 
 
 
-- update container image ghcr.io/authelia/authelia to 4.38.7[@69faa8e](https://github.com/69faa8e) by renovate ([#20678](https://github.com/truecharts/charts/issues/20678))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image ghcr.io/authelia/authelia to v4.38.7[@1bfa720](https://github.com/1bfa720) by renovate ([#20039](https://github.com/truecharts/charts/issues/20039))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
 
@@ -28,11 +30,11 @@
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image ghcr.io/authelia/authelia to v4.38.2[@a1a2d1b](https://github.com/a1a2d1b) by renovate ([#19338](https://github.com/truecharts/charts/issues/19338))
 
-- update container image ghcr.io/authelia/authelia to v4.38.7[@1bfa720](https://github.com/1bfa720) by renovate ([#20039](https://github.com/truecharts/charts/issues/20039))
+- update container image ghcr.io/authelia/authelia to 4.38.7[@69faa8e](https://github.com/69faa8e) by renovate ([#20678](https://github.com/truecharts/charts/issues/20678))
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -54,4 +56,4 @@
 
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
-- update container image ghcr.io/authelia/authelia to v4.38.2[@a1a2d1b](https://github.com/a1a2d1b) by renovate ([#19338](https://github.com/truecharts/charts/issues/19338))
+- make links relative
