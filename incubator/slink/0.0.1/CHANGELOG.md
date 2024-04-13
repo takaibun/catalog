@@ -1,0 +1,17 @@
+---
+title: Changelog
+---
+
+
+*for the complete changelog, please refer to the website*
+
+**Important:**
+
+
+## [slink-0.0.1]slink-0.0.1 (2024-04-13)
+
+### Add
+
+
+
+- add slink to incubator ([#20674](https://github.com/truecharts/charts/issues/20674))

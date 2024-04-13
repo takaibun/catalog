@@ -65,11 +65,13 @@ title: Changelog
 - update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
 
 
-## [webtop-9.8.25](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.25) (2024-04-13)
+## [webtop-9.8.28](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.28) (2024-04-13)
 
 ### Chore
 
 
+
+- update webtop by renovate ([#20688](https://github.com/truecharts/charts/issues/20688))
 
 - update webtop by renovate ([#20670](https://github.com/truecharts/charts/issues/20670))
 
@@ -96,5 +98,3 @@ title: Changelog
 - update webtop by renovate ([#19974](https://github.com/truecharts/charts/issues/19974))
 
 - update webtop by renovate ([#19961](https://github.com/truecharts/charts/issues/19961))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))

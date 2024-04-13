@@ -39,11 +39,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [kavita-9.8.4](https://github.com/truecharts/charts/compare/kavita-9.6.0...kavita-9.8.4) (2024-04-11)
+## [kavita-9.8.5](https://github.com/truecharts/charts/compare/kavita-9.6.0...kavita-9.8.5) (2024-04-13)
 
 ### Chore
 
 
+
+- update container image jvmilazz0/kavita to v[@ccb9c2c](https://github.com/ccb9c2c) by renovate ([#20682](https://github.com/truecharts/charts/issues/20682))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,6 +97,3 @@ title: Changelog
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
-
-
-## [kavita-9.8.4](https://github.com/truecharts/charts/compare/kavita-9.6.0...kavita-9.8.4) (2024-04-11)
