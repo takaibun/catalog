@@ -74,7 +74,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [metube-12.10.4](https://github.com/truecharts/charts/compare/metube-12.7.0...metube-12.10.4) (2024-04-12)
+## [metube-12.10.4](https://github.com/truecharts/charts/compare/metube-12.7.0...metube-12.10.4) (2024-04-13)
 
 ### Chore
 

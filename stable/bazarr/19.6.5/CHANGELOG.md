@@ -82,7 +82,7 @@ title: Changelog
 - update container image ghcr.io/onedr0p/bazarr to 1.4.2[@07af48c](https://github.com/07af48c) by renovate ([#19253](https://github.com/truecharts/charts/issues/19253))
 
 
-## [bazarr-19.6.5](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.5) (2024-04-12)
+## [bazarr-19.6.5](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-19.6.5) (2024-04-13)
 
 ### Chore
 
