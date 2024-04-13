@@ -69,7 +69,7 @@ title: Changelog
 - expose ml image type
 
 
-## [immich-14.12.9](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.12.9) (2024-04-11)
+## [immich-14.12.9](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-14.12.9) (2024-04-13)
 
 ### Chore
 

@@ -63,7 +63,7 @@ title: Changelog
 - update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
 
 
-## [webtop-9.8.25](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.25) (2024-04-12)
+## [webtop-9.8.25](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.25) (2024-04-13)
 
 ### Chore
 

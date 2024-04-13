@@ -45,7 +45,7 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [zwavejs2mqtt-19.9.5](https://github.com/truecharts/charts/compare/zwavejs2mqtt-19.6.0...zwavejs2mqtt-19.9.5) (2024-04-12)
+## [zwavejs2mqtt-19.9.5](https://github.com/truecharts/charts/compare/zwavejs2mqtt-19.6.0...zwavejs2mqtt-19.9.5) (2024-04-13)
 
 ### Chore
 
@@ -82,11 +82,13 @@ title: Changelog
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 
-## [zwavejs2mqtt-19.9.4](https://github.com/truecharts/charts/compare/zwavejs2mqtt-19.6.0...zwavejs2mqtt-19.9.4) (2024-04-11)
+## [zwavejs2mqtt-19.9.5](https://github.com/truecharts/charts/compare/zwavejs2mqtt-19.6.0...zwavejs2mqtt-19.9.5) (2024-04-12)
 
 ### Chore
 
 
+
+- update container image zwavejs/zwave-js-ui to v9.10.3[@f04f906](https://github.com/f04f906) by renovate ([#20673](https://github.com/truecharts/charts/issues/20673))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -95,5 +97,3 @@ title: Changelog
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
