@@ -1,10 +1,14 @@
 
 
-## [grav-11.8.3](https://github.com/truecharts/charts/compare/grav-11.6.0...grav-11.8.3) (2024-04-10)
+## [grav-11.8.5](https://github.com/truecharts/charts/compare/grav-11.6.0...grav-11.8.5) (2024-04-13)
 
 ### Chore
 
 
+
+- update container image ghcr.io/linuxserver/grav to 1.7.45[@c3640a5](https://github.com/c3640a5) by renovate ([#20713](https://github.com/truecharts/charts/issues/20713))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
