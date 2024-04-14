@@ -1,6 +1,6 @@
 
 
-## [authelia-23.11.10](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.11.10) (2024-04-13)
+## [authelia-23.12.1](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.12.1) (2024-04-14)
 
 ### Chore
 
@@ -57,3 +57,15 @@
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
 - make links relative
+
+### Feat
+
+
+
+- add pkce for oidc ([#20306](https://github.com/truecharts/charts/issues/20306))
+
+### Fix
+
+
+
+- fix pkce ([#20738](https://github.com/truecharts/charts/issues/20738))
