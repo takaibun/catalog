@@ -1,10 +1,14 @@
 
 
-## [rdesktop-8.8.5](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-8.8.5) (2024-04-11)
+## [rdesktop-8.8.17](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-8.8.17) (2024-04-14)
 
 ### Chore
 
 
+
+- update rdesktop by renovate ([#20734](https://github.com/truecharts/charts/issues/20734))
+
+- update rdesktop by renovate ([#20669](https://github.com/truecharts/charts/issues/20669))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
