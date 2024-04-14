@@ -1,10 +1,12 @@
 
 
-## [wyoming-whisper-5.1.3](https://github.com/truecharts/charts/compare/wyoming-whisper-4.6.0...wyoming-whisper-5.1.3) (2024-04-10)
+## [wyoming-whisper-5.2.0](https://github.com/truecharts/charts/compare/wyoming-whisper-4.6.0...wyoming-whisper-5.2.0) (2024-04-14)
 
 ### Chore
 
 
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -25,3 +27,9 @@
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+### Feat
+
+
+
+- Update whisper config ([#20623](https://github.com/truecharts/charts/issues/20623))
