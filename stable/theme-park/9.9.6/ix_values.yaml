@@ -1,0 +1,17 @@
+image:
+  repository: ghcr.io/onedr0p/theme-park
+  pullPolicy: IfNotPresent
+  tag: 1.16@sha256:4d02fb6033c1d186a5881d321337832ca40dfd55f126c438c4a3d50485c92c1e
+service:
+  main:
+    ports:
+      main:
+        port: 10244
+        targetPort: 8080
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+portal:
+  open:
+    enabled: true
