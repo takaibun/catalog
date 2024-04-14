@@ -1,6 +1,6 @@
 
 
-## [redmine-11.8.10](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.10) (2024-04-13)
+## [redmine-11.8.10](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.10) (2024-04-14)
 
 ### Chore
 

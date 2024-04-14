@@ -1,6 +1,6 @@
 
 
-## [piwigo-12.16.9](https://github.com/truecharts/charts/compare/piwigo-12.10.0...piwigo-12.16.9) (2024-04-13)
+## [piwigo-12.16.9](https://github.com/truecharts/charts/compare/piwigo-12.10.0...piwigo-12.16.9) (2024-04-14)
 
 ### Chore
 

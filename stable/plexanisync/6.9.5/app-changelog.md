@@ -1,6 +1,6 @@
 
 
-## [plexanisync-6.9.5](https://github.com/truecharts/charts/compare/plexanisync-6.7.0...plexanisync-6.9.5) (2024-04-13)
+## [plexanisync-6.9.5](https://github.com/truecharts/charts/compare/plexanisync-6.7.0...plexanisync-6.9.5) (2024-04-14)
 
 ### Chore
 

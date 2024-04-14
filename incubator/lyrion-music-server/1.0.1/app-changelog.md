@@ -1,6 +1,6 @@
 
 
-## [lyrion-music-server-1.0.1]lyrion-music-server-1.0.1 (2024-04-13)
+## [lyrion-music-server-1.0.1]lyrion-music-server-1.0.1 (2024-04-14)
 
 ### Chore
 

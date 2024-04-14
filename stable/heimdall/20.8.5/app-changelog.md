@@ -1,6 +1,6 @@
 
 
-## [heimdall-20.8.5](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.8.5) (2024-04-13)
+## [heimdall-20.8.5](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-20.8.5) (2024-04-14)
 
 ### Chore
 

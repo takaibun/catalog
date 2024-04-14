@@ -1,6 +1,6 @@
 
 
-## [authelia-23.12.0](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.12.0) (2024-04-13)
+## [authelia-23.12.0](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.12.0) (2024-04-14)
 
 ### Chore
 
