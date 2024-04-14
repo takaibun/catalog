@@ -1,6 +1,6 @@
 
 
-## [traefik-forward-auth-3.8.4](https://github.com/truecharts/charts/compare/traefik-forward-auth-3.6.0...traefik-forward-auth-3.8.4) (2024-04-13)
+## [traefik-forward-auth-3.8.4](https://github.com/truecharts/charts/compare/traefik-forward-auth-3.6.0...traefik-forward-auth-3.8.4) (2024-04-14)
 
 ### Chore
 
@@ -27,3 +27,5 @@
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- Fix broken links for Starlight ([#20737](https://github.com/truecharts/charts/issues/20737))
