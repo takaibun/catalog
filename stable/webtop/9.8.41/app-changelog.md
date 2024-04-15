@@ -1,10 +1,14 @@
 
 
-## [webtop-9.8.28](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.28) (2024-04-14)
+## [webtop-9.8.41](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.41) (2024-04-15)
 
 ### Chore
 
 
+
+- update webtop by renovate ([#20789](https://github.com/truecharts/charts/issues/20789))
+
+- update webtop by renovate ([#20735](https://github.com/truecharts/charts/issues/20735))
 
 - update webtop by renovate ([#20688](https://github.com/truecharts/charts/issues/20688))
 
