@@ -1,6 +1,6 @@
 
 
-## [authelia-23.12.1](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.12.1) (2024-04-14)
+## [authelia-23.13.1](https://github.com/truecharts/charts/compare/authelia-23.6.0...authelia-23.13.1) (2024-04-15)
 
 ### Chore
 
@@ -64,10 +64,14 @@
 
 
 
+- add client authentication method for oidc ([#20756](https://github.com/truecharts/charts/issues/20756))
+
 - add pkce for oidc ([#20306](https://github.com/truecharts/charts/issues/20306))
 
 ### Fix
 
 
+
+- token_endpoint_auth_method is a string ([#20790](https://github.com/truecharts/charts/issues/20790))
 
 - fix pkce ([#20738](https://github.com/truecharts/charts/issues/20738))
