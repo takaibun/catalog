@@ -1,6 +1,6 @@
 
 
-## [linkding-9.13.0](https://github.com/truecharts/charts/compare/linkding-9.6.0...linkding-9.13.0) (2024-04-14)
+## [linkding-9.13.0](https://github.com/truecharts/charts/compare/linkding-9.6.0...linkding-9.13.0) (2024-04-15)
 
 ### Chore
 

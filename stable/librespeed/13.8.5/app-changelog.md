@@ -1,6 +1,6 @@
 
 
-## [librespeed-13.8.5](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.8.5) (2024-04-14)
+## [librespeed-13.8.5](https://github.com/truecharts/charts/compare/librespeed-13.6.0...librespeed-13.8.5) (2024-04-15)
 
 ### Chore
 
