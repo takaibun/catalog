@@ -1,12 +1,16 @@
 
 
-## [wordpress-7.15.11](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.15.11) (2024-04-16)
+## [wordpress-7.15.13](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.15.13) (2024-04-16)
 
 ### Chore
 
 
 
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- bump charts to ensure new icons are released
+
+- update container image bitnami/wordpress to 6.4.3[@9252246](https://github.com/9252246) by renovate ([#20047](https://github.com/truecharts/charts/issues/20047))
+
+- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image bitnami/wordpress to 6.5.2[@62cca44](https://github.com/62cca44) by renovate ([#20569](https://github.com/truecharts/charts/issues/20569))
 
@@ -48,17 +52,17 @@
 
 - update container image bitnami/wordpress to 6.4.3[@1f42946](https://github.com/1f42946) by renovate ([#20114](https://github.com/truecharts/charts/issues/20114))
 
-- update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image bitnami/wordpress to 6.4.3[@9252246](https://github.com/9252246) by renovate ([#20047](https://github.com/truecharts/charts/issues/20047))
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
+- update container image mariadb to v13.7.5[@665bc08](https://github.com/665bc08) by renovate ([#19868](https://github.com/truecharts/charts/issues/19868))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image bitnami/wordpress to 6.4.3[@0f61b09](https://github.com/0f61b09) by renovate ([#19931](https://github.com/truecharts/charts/issues/19931))
 
-- update container image mariadb to v13.7.5[@665bc08](https://github.com/665bc08) by renovate ([#19868](https://github.com/truecharts/charts/issues/19868))
+- update container image mariadb to v13.7.6[@f3b4b04](https://github.com/f3b4b04) by renovate ([#20011](https://github.com/truecharts/charts/issues/20011))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -86,7 +90,7 @@
 
 - update container image mariadb to v13.7.1[@dfd144d](https://github.com/dfd144d) by renovate ([#19441](https://github.com/truecharts/charts/issues/19441))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+- update container image bitnami/wordpress to 6.5.2[@4023e4b](https://github.com/4023e4b) by renovate ([#20852](https://github.com/truecharts/charts/issues/20852))
 
 - update container image mariadb to v13.7.0[@dec1ae1](https://github.com/dec1ae1) by renovate ([#19393](https://github.com/truecharts/charts/issues/19393))
 
@@ -94,6 +98,6 @@
 
 - update container image mariadb to v13.6.0[@da7a483](https://github.com/da7a483) by renovate ([#19362](https://github.com/truecharts/charts/issues/19362))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image mariadb to v13.7.7[@7900c32](https://github.com/7900c32) by renovate ([#20084](https://github.com/truecharts/charts/issues/20084))
 
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
