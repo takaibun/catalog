@@ -1,6 +1,6 @@
 
 
-## [plausible-10.17.10](https://github.com/truecharts/charts/compare/plausible-10.11.0...plausible-10.17.10) (2024-04-16)
+## [plausible-10.17.12](https://github.com/truecharts/charts/compare/plausible-10.11.0...plausible-10.17.12) (2024-04-16)
 
 ### Chore
 
@@ -8,11 +8,15 @@
 
 - bump charts to ensure new icons are released
 
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- update container image clickhouse to v12.9.2[@8ddfdfb](https://github.com/8ddfdfb) by renovate ([#20195](https://github.com/truecharts/charts/issues/20195))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
+- update container image clickhouse to v12.9.1[@3f15dba](https://github.com/3f15dba) by renovate ([#20009](https://github.com/truecharts/charts/issues/20009))
 
 - update container image clickhouse to v12.10.4[@31b970d](https://github.com/31b970d) by renovate ([#20606](https://github.com/truecharts/charts/issues/20606))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image clickhouse to v12.10.3[@c1e0f00](https://github.com/c1e0f00) by renovate ([#20561](https://github.com/truecharts/charts/issues/20561))
 
@@ -26,17 +30,17 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image clickhouse to v12.10.0[@cf87535](https://github.com/cf87535) by renovate ([#20413](https://github.com/truecharts/charts/issues/20413))
+- update container image clickhouse to v12.9.0[@8ff7c83](https://github.com/8ff7c83) by renovate ([#19891](https://github.com/truecharts/charts/issues/19891))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image clickhouse to v12.9.2[@8ddfdfb](https://github.com/8ddfdfb) by renovate ([#20195](https://github.com/truecharts/charts/issues/20195))
+- update container image clickhouse to v12.10.6[@2686e9a](https://github.com/2686e9a) by renovate ([#20874](https://github.com/truecharts/charts/issues/20874))
 
-- update container image clickhouse to v12.9.1[@3f15dba](https://github.com/3f15dba) by renovate ([#20009](https://github.com/truecharts/charts/issues/20009))
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image clickhouse to v12.10.5[@4495dc6](https://github.com/4495dc6) by renovate ([#20864](https://github.com/truecharts/charts/issues/20864))
 
-- update container image clickhouse to v12.9.0[@8ff7c83](https://github.com/8ff7c83) by renovate ([#19891](https://github.com/truecharts/charts/issues/19891))
+- update container image clickhouse to v12.10.0[@cf87535](https://github.com/cf87535) by renovate ([#20413](https://github.com/truecharts/charts/issues/20413))
 
 - update container image clickhouse to v12.8.4[@092e612](https://github.com/092e612) by renovate ([#19762](https://github.com/truecharts/charts/issues/19762))
 
