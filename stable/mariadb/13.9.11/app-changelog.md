@@ -1,10 +1,12 @@
 
 
-## [mariadb-13.9.9](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.9) (2024-04-16)
+## [mariadb-13.9.11](https://github.com/truecharts/charts/compare/mariadb-13.6.0...mariadb-13.9.11) (2024-04-17)
 
 ### Chore
 
 
+
+- bump charts to ensure new icons are released
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -43,5 +45,7 @@
 ### Fix
 
 
+
+- fix scale gui password reference
 
 - add prototype to force reset passwords on init
