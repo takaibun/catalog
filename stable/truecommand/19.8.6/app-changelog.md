@@ -1,6 +1,6 @@
 
 
-## [truecommand-19.8.6](https://github.com/truecharts/charts/compare/truecommand-19.6.0...truecommand-19.8.6) (2024-04-16)
+## [truecommand-19.8.6](https://github.com/truecharts/charts/compare/truecommand-19.6.0...truecommand-19.8.6) (2024-04-17)
 
 ### Chore
 

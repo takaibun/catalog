@@ -1,6 +1,6 @@
 
 
-## [endlessh-9.8.6](https://github.com/truecharts/charts/compare/endlessh-9.6.0...endlessh-9.8.6) (2024-04-16)
+## [endlessh-9.8.6](https://github.com/truecharts/charts/compare/endlessh-9.6.0...endlessh-9.8.6) (2024-04-17)
 
 ### Chore
 

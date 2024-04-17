@@ -1,6 +1,6 @@
 
 
-## [tasmobackup-6.8.6](https://github.com/truecharts/charts/compare/tasmobackup-6.6.0...tasmobackup-6.8.6) (2024-04-16)
+## [tasmobackup-6.8.6](https://github.com/truecharts/charts/compare/tasmobackup-6.6.0...tasmobackup-6.8.6) (2024-04-17)
 
 ### Chore
 

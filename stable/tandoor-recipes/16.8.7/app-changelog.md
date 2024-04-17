@@ -1,6 +1,6 @@
 
 
-## [tandoor-recipes-16.8.7](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.7) (2024-04-16)
+## [tandoor-recipes-16.8.7](https://github.com/truecharts/charts/compare/tandoor-recipes-16.6.0...tandoor-recipes-16.8.7) (2024-04-17)
 
 ### Chore
 

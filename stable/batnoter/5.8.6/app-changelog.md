@@ -1,6 +1,6 @@
 
 
-## [batnoter-5.8.6](https://github.com/truecharts/charts/compare/batnoter-5.6.0...batnoter-5.8.6) (2024-04-16)
+## [batnoter-5.8.6](https://github.com/truecharts/charts/compare/batnoter-5.6.0...batnoter-5.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [cssource-5.8.6](https://github.com/truecharts/charts/compare/cssource-5.6.0...cssource-5.8.6) (2024-04-16)
+## [cssource-5.8.6](https://github.com/truecharts/charts/compare/cssource-5.6.0...cssource-5.8.6) (2024-04-17)
 
 ### Chore
 

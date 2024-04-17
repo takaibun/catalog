@@ -1,6 +1,6 @@
 
 
-## [nightscout-5.8.6](https://github.com/truecharts/charts/compare/nightscout-5.6.0...nightscout-5.8.6) (2024-04-16)
+## [nightscout-5.8.6](https://github.com/truecharts/charts/compare/nightscout-5.6.0...nightscout-5.8.6) (2024-04-17)
 
 ### Chore
 

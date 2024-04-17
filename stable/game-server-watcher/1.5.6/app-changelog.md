@@ -1,6 +1,6 @@
 
 
-## [game-server-watcher-1.5.6](https://github.com/truecharts/charts/compare/game-server-watcher-1.3.0...game-server-watcher-1.5.6) (2024-04-16)
+## [game-server-watcher-1.5.6](https://github.com/truecharts/charts/compare/game-server-watcher-1.3.0...game-server-watcher-1.5.6) (2024-04-17)
 
 ### Chore
 

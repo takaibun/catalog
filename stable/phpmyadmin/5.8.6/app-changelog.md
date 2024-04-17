@@ -1,6 +1,6 @@
 
 
-## [phpmyadmin-5.8.6](https://github.com/truecharts/charts/compare/phpmyadmin-5.6.0...phpmyadmin-5.8.6) (2024-04-16)
+## [phpmyadmin-5.8.6](https://github.com/truecharts/charts/compare/phpmyadmin-5.6.0...phpmyadmin-5.8.6) (2024-04-17)
 
 ### Chore
 

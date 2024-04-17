@@ -1,6 +1,6 @@
 
 
-## [gaseous-server-1.11.11](https://github.com/truecharts/charts/compare/gaseous-server-1.5.0...gaseous-server-1.11.11) (2024-04-16)
+## [gaseous-server-1.11.11](https://github.com/truecharts/charts/compare/gaseous-server-1.5.0...gaseous-server-1.11.11) (2024-04-17)
 
 ### Chore
 

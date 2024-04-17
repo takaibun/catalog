@@ -1,6 +1,6 @@
 
 
-## [headphones-11.8.6](https://github.com/truecharts/charts/compare/headphones-11.6.0...headphones-11.8.6) (2024-04-16)
+## [headphones-11.8.6](https://github.com/truecharts/charts/compare/headphones-11.6.0...headphones-11.8.6) (2024-04-17)
 
 ### Chore
 

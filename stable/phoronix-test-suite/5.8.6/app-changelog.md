@@ -1,6 +1,6 @@
 
 
-## [phoronix-test-suite-5.8.6](https://github.com/truecharts/charts/compare/phoronix-test-suite-5.6.0...phoronix-test-suite-5.8.6) (2024-04-16)
+## [phoronix-test-suite-5.8.6](https://github.com/truecharts/charts/compare/phoronix-test-suite-5.6.0...phoronix-test-suite-5.8.6) (2024-04-17)
 
 ### Chore
 

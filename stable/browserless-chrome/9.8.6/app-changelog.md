@@ -1,6 +1,6 @@
 
 
-## [browserless-chrome-9.8.6](https://github.com/truecharts/charts/compare/browserless-chrome-9.6.0...browserless-chrome-9.8.6) (2024-04-16)
+## [browserless-chrome-9.8.6](https://github.com/truecharts/charts/compare/browserless-chrome-9.6.0...browserless-chrome-9.8.6) (2024-04-17)
 
 ### Chore
 

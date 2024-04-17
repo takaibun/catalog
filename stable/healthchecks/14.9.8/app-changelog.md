@@ -1,6 +1,6 @@
 
 
-## [healthchecks-14.9.8](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.9.8) (2024-04-16)
+## [healthchecks-14.9.8](https://github.com/truecharts/charts/compare/healthchecks-14.6.0...healthchecks-14.9.8) (2024-04-17)
 
 ### Chore
 

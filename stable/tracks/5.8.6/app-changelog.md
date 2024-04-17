@@ -1,6 +1,6 @@
 
 
-## [tracks-5.8.6](https://github.com/truecharts/charts/compare/tracks-5.6.0...tracks-5.8.6) (2024-04-16)
+## [tracks-5.8.6](https://github.com/truecharts/charts/compare/tracks-5.6.0...tracks-5.8.6) (2024-04-17)
 
 ### Chore
 

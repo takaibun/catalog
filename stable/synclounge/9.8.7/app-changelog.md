@@ -1,6 +1,6 @@
 
 
-## [synclounge-9.8.7](https://github.com/truecharts/charts/compare/synclounge-9.6.0...synclounge-9.8.7) (2024-04-16)
+## [synclounge-9.8.7](https://github.com/truecharts/charts/compare/synclounge-9.6.0...synclounge-9.8.7) (2024-04-17)
 
 ### Chore
 

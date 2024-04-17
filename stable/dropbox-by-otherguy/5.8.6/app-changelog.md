@@ -1,6 +1,6 @@
 
 
-## [dropbox-by-otherguy-5.8.6](https://github.com/truecharts/charts/compare/dropbox-by-otherguy-5.6.0...dropbox-by-otherguy-5.8.6) (2024-04-16)
+## [dropbox-by-otherguy-5.8.6](https://github.com/truecharts/charts/compare/dropbox-by-otherguy-5.6.0...dropbox-by-otherguy-5.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [dns-doh-companion-5.8.7](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.8.7) (2024-04-16)
+## [dns-doh-companion-5.8.7](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-5.8.7) (2024-04-17)
 
 ### Chore
 

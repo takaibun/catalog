@@ -1,6 +1,6 @@
 
 
-## [apt-cacher-ng-8.8.6](https://github.com/truecharts/charts/compare/apt-cacher-ng-8.6.0...apt-cacher-ng-8.8.6) (2024-04-16)
+## [apt-cacher-ng-8.8.6](https://github.com/truecharts/charts/compare/apt-cacher-ng-8.6.0...apt-cacher-ng-8.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [cs2-3.8.6](https://github.com/truecharts/charts/compare/cs2-3.6.0...cs2-3.8.6) (2024-04-16)
+## [cs2-3.8.6](https://github.com/truecharts/charts/compare/cs2-3.6.0...cs2-3.8.6) (2024-04-17)
 
 ### Chore
 

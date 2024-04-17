@@ -1,6 +1,6 @@
 
 
-## [s3backup-5.8.6](https://github.com/truecharts/charts/compare/s3backup-5.6.0...s3backup-5.8.6) (2024-04-16)
+## [s3backup-5.8.6](https://github.com/truecharts/charts/compare/s3backup-5.6.0...s3backup-5.8.6) (2024-04-17)
 
 ### Chore
 

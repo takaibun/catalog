@@ -1,6 +1,6 @@
 
 
-## [nvidia-gpu-exporter-2.8.6](https://github.com/truecharts/charts/compare/nvidia-gpu-exporter-2.6.0...nvidia-gpu-exporter-2.8.6) (2024-04-16)
+## [nvidia-gpu-exporter-2.8.6](https://github.com/truecharts/charts/compare/nvidia-gpu-exporter-2.6.0...nvidia-gpu-exporter-2.8.6) (2024-04-17)
 
 ### Chore
 

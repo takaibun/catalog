@@ -1,6 +1,6 @@
 
 
-## [prpdf-5.8.6](https://github.com/truecharts/charts/compare/prpdf-5.6.0...prpdf-5.8.6) (2024-04-16)
+## [prpdf-5.8.6](https://github.com/truecharts/charts/compare/prpdf-5.6.0...prpdf-5.8.6) (2024-04-17)
 
 ### Chore
 

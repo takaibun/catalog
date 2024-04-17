@@ -1,6 +1,6 @@
 
 
-## [nocodb-13.11.11](https://github.com/truecharts/charts/compare/nocodb-13.6.0...nocodb-13.11.11) (2024-04-16)
+## [nocodb-13.11.11](https://github.com/truecharts/charts/compare/nocodb-13.6.0...nocodb-13.11.11) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [syncthing-18.8.7](https://github.com/truecharts/charts/compare/syncthing-18.6.0...syncthing-18.8.7) (2024-04-16)
+## [syncthing-18.8.7](https://github.com/truecharts/charts/compare/syncthing-18.6.0...syncthing-18.8.7) (2024-04-17)
 
 ### Chore
 

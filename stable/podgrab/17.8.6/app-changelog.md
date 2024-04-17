@@ -1,6 +1,6 @@
 
 
-## [podgrab-17.8.6](https://github.com/truecharts/charts/compare/podgrab-17.6.0...podgrab-17.8.6) (2024-04-16)
+## [podgrab-17.8.6](https://github.com/truecharts/charts/compare/podgrab-17.6.0...podgrab-17.8.6) (2024-04-17)
 
 ### Chore
 

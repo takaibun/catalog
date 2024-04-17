@@ -1,6 +1,6 @@
 
 
-## [notifiarr-4.8.6](https://github.com/truecharts/charts/compare/notifiarr-4.6.0...notifiarr-4.8.6) (2024-04-16)
+## [notifiarr-4.8.6](https://github.com/truecharts/charts/compare/notifiarr-4.6.0...notifiarr-4.8.6) (2024-04-17)
 
 ### Chore
 

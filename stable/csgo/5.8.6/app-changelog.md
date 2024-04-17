@@ -1,6 +1,6 @@
 
 
-## [csgo-5.8.6](https://github.com/truecharts/charts/compare/csgo-5.6.0...csgo-5.8.6) (2024-04-16)
+## [csgo-5.8.6](https://github.com/truecharts/charts/compare/csgo-5.6.0...csgo-5.8.6) (2024-04-17)
 
 ### Chore
 

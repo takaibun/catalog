@@ -1,6 +1,6 @@
 
 
-## [gravity-3.8.6](https://github.com/truecharts/charts/compare/gravity-3.6.0...gravity-3.8.6) (2024-04-16)
+## [gravity-3.8.6](https://github.com/truecharts/charts/compare/gravity-3.6.0...gravity-3.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [crypto-exchanges-gateway-5.8.6](https://github.com/truecharts/charts/compare/crypto-exchanges-gateway-5.6.0...crypto-exchanges-gateway-5.8.6) (2024-04-16)
+## [crypto-exchanges-gateway-5.8.6](https://github.com/truecharts/charts/compare/crypto-exchanges-gateway-5.6.0...crypto-exchanges-gateway-5.8.6) (2024-04-17)
 
 ### Chore
 

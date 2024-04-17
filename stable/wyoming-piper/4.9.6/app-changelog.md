@@ -1,6 +1,6 @@
 
 
-## [wyoming-piper-4.9.6](https://github.com/truecharts/charts/compare/wyoming-piper-4.7.0...wyoming-piper-4.9.6) (2024-04-16)
+## [wyoming-piper-4.9.6](https://github.com/truecharts/charts/compare/wyoming-piper-4.7.0...wyoming-piper-4.9.6) (2024-04-17)
 
 ### Chore
 

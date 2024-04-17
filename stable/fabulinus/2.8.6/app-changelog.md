@@ -1,6 +1,6 @@
 
 
-## [fabulinus-2.8.6](https://github.com/truecharts/charts/compare/fabulinus-2.6.0...fabulinus-2.8.6) (2024-04-16)
+## [fabulinus-2.8.6](https://github.com/truecharts/charts/compare/fabulinus-2.6.0...fabulinus-2.8.6) (2024-04-17)
 
 ### Chore
 

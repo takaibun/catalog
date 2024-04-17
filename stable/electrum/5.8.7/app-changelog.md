@@ -1,6 +1,6 @@
 
 
-## [electrum-5.8.7](https://github.com/truecharts/charts/compare/electrum-5.6.0...electrum-5.8.7) (2024-04-16)
+## [electrum-5.8.7](https://github.com/truecharts/charts/compare/electrum-5.6.0...electrum-5.8.7) (2024-04-17)
 
 ### Chore
 

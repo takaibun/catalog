@@ -1,6 +1,6 @@
 
 
-## [atuin-2.5.8](https://github.com/truecharts/charts/compare/atuin-2.1.2...atuin-2.5.8) (2024-04-16)
+## [atuin-2.5.8](https://github.com/truecharts/charts/compare/atuin-2.1.2...atuin-2.5.8) (2024-04-17)
 
 ### Chore
 

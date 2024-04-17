@@ -1,6 +1,6 @@
 
 
-## [cryptofolio-12.8.6](https://github.com/truecharts/charts/compare/cryptofolio-12.6.0...cryptofolio-12.8.6) (2024-04-16)
+## [cryptofolio-12.8.6](https://github.com/truecharts/charts/compare/cryptofolio-12.6.0...cryptofolio-12.8.6) (2024-04-17)
 
 ### Chore
 

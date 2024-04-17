@@ -1,6 +1,6 @@
 
 
-## [photo-stream-5.8.6](https://github.com/truecharts/charts/compare/photo-stream-5.6.0...photo-stream-5.8.6) (2024-04-16)
+## [photo-stream-5.8.6](https://github.com/truecharts/charts/compare/photo-stream-5.6.0...photo-stream-5.8.6) (2024-04-17)
 
 ### Chore
 

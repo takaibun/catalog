@@ -1,6 +1,6 @@
 
 
-## [citadel-forgedwithfire-5.8.6](https://github.com/truecharts/charts/compare/citadel-forgedwithfire-5.6.0...citadel-forgedwithfire-5.8.6) (2024-04-16)
+## [citadel-forgedwithfire-5.8.6](https://github.com/truecharts/charts/compare/citadel-forgedwithfire-5.6.0...citadel-forgedwithfire-5.8.6) (2024-04-17)
 
 ### Chore
 

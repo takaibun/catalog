@@ -1,6 +1,6 @@
 
 
-## [amule-7.8.6](https://github.com/truecharts/charts/compare/amule-7.6.0...amule-7.8.6) (2024-04-16)
+## [amule-7.8.6](https://github.com/truecharts/charts/compare/amule-7.6.0...amule-7.8.6) (2024-04-17)
 
 ### Chore
 

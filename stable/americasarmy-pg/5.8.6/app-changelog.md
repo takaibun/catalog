@@ -1,6 +1,6 @@
 
 
-## [americasarmy-pg-5.8.6](https://github.com/truecharts/charts/compare/americasarmy-pg-5.6.0...americasarmy-pg-5.8.6) (2024-04-16)
+## [americasarmy-pg-5.8.6](https://github.com/truecharts/charts/compare/americasarmy-pg-5.6.0...americasarmy-pg-5.8.6) (2024-04-17)
 
 ### Chore
 

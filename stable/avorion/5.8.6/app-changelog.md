@@ -1,6 +1,6 @@
 
 
-## [avorion-5.8.6](https://github.com/truecharts/charts/compare/avorion-5.6.0...avorion-5.8.6) (2024-04-16)
+## [avorion-5.8.6](https://github.com/truecharts/charts/compare/avorion-5.6.0...avorion-5.8.6) (2024-04-17)
 
 ### Chore
 

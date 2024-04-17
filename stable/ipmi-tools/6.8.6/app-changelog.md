@@ -1,6 +1,6 @@
 
 
-## [ipmi-tools-6.8.6](https://github.com/truecharts/charts/compare/ipmi-tools-6.6.0...ipmi-tools-6.8.6) (2024-04-16)
+## [ipmi-tools-6.8.6](https://github.com/truecharts/charts/compare/ipmi-tools-6.6.0...ipmi-tools-6.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [dontstarvetogether-5.8.6](https://github.com/truecharts/charts/compare/dontstarvetogether-5.6.0...dontstarvetogether-5.8.6) (2024-04-16)
+## [dontstarvetogether-5.8.6](https://github.com/truecharts/charts/compare/dontstarvetogether-5.6.0...dontstarvetogether-5.8.6) (2024-04-17)
 
 ### Chore
 

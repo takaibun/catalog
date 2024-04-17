@@ -1,6 +1,6 @@
 
 
-## [anki-sync-server-6.8.6](https://github.com/truecharts/charts/compare/anki-sync-server-6.6.0...anki-sync-server-6.8.6) (2024-04-16)
+## [anki-sync-server-6.8.6](https://github.com/truecharts/charts/compare/anki-sync-server-6.6.0...anki-sync-server-6.8.6) (2024-04-17)
 
 ### Chore
 

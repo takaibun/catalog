@@ -1,6 +1,6 @@
 
 
-## [dizquetv-14.8.6](https://github.com/truecharts/charts/compare/dizquetv-14.6.0...dizquetv-14.8.6) (2024-04-16)
+## [dizquetv-14.8.6](https://github.com/truecharts/charts/compare/dizquetv-14.6.0...dizquetv-14.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [obsidian-6.1.6](https://github.com/truecharts/charts/compare/obsidian-5.6.0...obsidian-6.1.6) (2024-04-16)
+## [obsidian-6.1.6](https://github.com/truecharts/charts/compare/obsidian-5.6.0...obsidian-6.1.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [crafty-4-7.9.6](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.9.6) (2024-04-16)
+## [crafty-4-7.9.6](https://github.com/truecharts/charts/compare/crafty-4-7.7.0...crafty-4-7.9.6) (2024-04-17)
 
 ### Chore
 

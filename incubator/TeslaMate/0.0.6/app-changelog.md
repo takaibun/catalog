@@ -1,6 +1,6 @@
 
 
-## [teslamate-0.0.6]teslamate-0.0.6 (2024-04-16)
+## [teslamate-0.0.6]teslamate-0.0.6 (2024-04-17)
 
 ### Chore
 

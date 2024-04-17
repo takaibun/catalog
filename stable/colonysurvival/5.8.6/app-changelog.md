@@ -1,6 +1,6 @@
 
 
-## [colonysurvival-5.8.6](https://github.com/truecharts/charts/compare/colonysurvival-5.6.0...colonysurvival-5.8.6) (2024-04-16)
+## [colonysurvival-5.8.6](https://github.com/truecharts/charts/compare/colonysurvival-5.6.0...colonysurvival-5.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [home-assistant-24.10.8](https://github.com/truecharts/charts/compare/home-assistant-24.7.0...home-assistant-24.10.8) (2024-04-16)
+## [home-assistant-24.10.8](https://github.com/truecharts/charts/compare/home-assistant-24.7.0...home-assistant-24.10.8) (2024-04-17)
 
 ### Chore
 

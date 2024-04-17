@@ -1,6 +1,6 @@
 
 
-## [androiddebugbridge-5.8.6](https://github.com/truecharts/charts/compare/androiddebugbridge-5.6.0...androiddebugbridge-5.8.6) (2024-04-16)
+## [androiddebugbridge-5.8.6](https://github.com/truecharts/charts/compare/androiddebugbridge-5.6.0...androiddebugbridge-5.8.6) (2024-04-17)
 
 ### Chore
 

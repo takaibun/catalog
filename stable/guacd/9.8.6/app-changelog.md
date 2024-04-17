@@ -1,6 +1,6 @@
 
 
-## [guacd-9.8.6](https://github.com/truecharts/charts/compare/guacd-9.6.0...guacd-9.8.6) (2024-04-16)
+## [guacd-9.8.6](https://github.com/truecharts/charts/compare/guacd-9.6.0...guacd-9.8.6) (2024-04-17)
 
 ### Chore
 

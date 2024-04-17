@@ -1,6 +1,6 @@
 
 
-## [notarius-5.8.6](https://github.com/truecharts/charts/compare/notarius-5.6.0...notarius-5.8.6) (2024-04-16)
+## [notarius-5.8.6](https://github.com/truecharts/charts/compare/notarius-5.6.0...notarius-5.8.6) (2024-04-17)
 
 ### Chore
 

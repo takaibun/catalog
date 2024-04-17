@@ -1,6 +1,6 @@
 
 
-## [pavlovvr-5.8.6](https://github.com/truecharts/charts/compare/pavlovvr-5.6.0...pavlovvr-5.8.6) (2024-04-16)
+## [pavlovvr-5.8.6](https://github.com/truecharts/charts/compare/pavlovvr-5.6.0...pavlovvr-5.8.6) (2024-04-17)
 
 ### Chore
 

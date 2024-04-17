@@ -1,6 +1,6 @@
 
 
-## [etesync-9.10.11](https://github.com/truecharts/charts/compare/etesync-9.6.0...etesync-9.10.11) (2024-04-16)
+## [etesync-9.10.11](https://github.com/truecharts/charts/compare/etesync-9.6.0...etesync-9.10.11) (2024-04-17)
 
 ### Chore
 

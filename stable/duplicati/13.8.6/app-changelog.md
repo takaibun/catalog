@@ -1,6 +1,6 @@
 
 
-## [duplicati-13.8.6](https://github.com/truecharts/charts/compare/duplicati-13.6.0...duplicati-13.8.6) (2024-04-16)
+## [duplicati-13.8.6](https://github.com/truecharts/charts/compare/duplicati-13.6.0...duplicati-13.8.6) (2024-04-17)
 
 ### Chore
 

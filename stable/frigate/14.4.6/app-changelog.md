@@ -1,6 +1,6 @@
 
 
-## [frigate-14.4.6](https://github.com/truecharts/charts/compare/frigate-14.2.0...frigate-14.4.6) (2024-04-16)
+## [frigate-14.4.6](https://github.com/truecharts/charts/compare/frigate-14.2.0...frigate-14.4.6) (2024-04-17)
 
 ### Chore
 

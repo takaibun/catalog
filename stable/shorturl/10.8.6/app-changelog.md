@@ -1,6 +1,6 @@
 
 
-## [shorturl-10.8.6](https://github.com/truecharts/charts/compare/shorturl-10.6.0...shorturl-10.8.6) (2024-04-16)
+## [shorturl-10.8.6](https://github.com/truecharts/charts/compare/shorturl-10.6.0...shorturl-10.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [rss-to-telegram-5.8.6](https://github.com/truecharts/charts/compare/rss-to-telegram-5.6.0...rss-to-telegram-5.8.6) (2024-04-16)
+## [rss-to-telegram-5.8.6](https://github.com/truecharts/charts/compare/rss-to-telegram-5.6.0...rss-to-telegram-5.8.6) (2024-04-17)
 
 ### Chore
 

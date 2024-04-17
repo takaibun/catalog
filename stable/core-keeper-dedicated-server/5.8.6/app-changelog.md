@@ -1,6 +1,6 @@
 
 
-## [core-keeper-dedicated-server-5.8.6](https://github.com/truecharts/charts/compare/core-keeper-dedicated-server-5.6.0...core-keeper-dedicated-server-5.8.6) (2024-04-16)
+## [core-keeper-dedicated-server-5.8.6](https://github.com/truecharts/charts/compare/core-keeper-dedicated-server-5.6.0...core-keeper-dedicated-server-5.8.6) (2024-04-17)
 
 ### Chore
 

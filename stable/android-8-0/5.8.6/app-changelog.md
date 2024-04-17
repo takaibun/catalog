@@ -1,6 +1,6 @@
 
 
-## [android-8-0-5.8.6](https://github.com/truecharts/charts/compare/android-8-0-5.6.0...android-8-0-5.8.6) (2024-04-16)
+## [android-8-0-5.8.6](https://github.com/truecharts/charts/compare/android-8-0-5.6.0...android-8-0-5.8.6) (2024-04-17)
 
 ### Chore
 

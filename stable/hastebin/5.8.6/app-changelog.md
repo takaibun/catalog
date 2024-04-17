@@ -1,6 +1,6 @@
 
 
-## [hastebin-5.8.6](https://github.com/truecharts/charts/compare/hastebin-5.6.0...hastebin-5.8.6) (2024-04-16)
+## [hastebin-5.8.6](https://github.com/truecharts/charts/compare/hastebin-5.6.0...hastebin-5.8.6) (2024-04-17)
 
 ### Chore
 

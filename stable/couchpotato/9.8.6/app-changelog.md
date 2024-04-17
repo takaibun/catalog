@@ -1,6 +1,6 @@
 
 
-## [couchpotato-9.8.6](https://github.com/truecharts/charts/compare/couchpotato-9.6.0...couchpotato-9.8.6) (2024-04-16)
+## [couchpotato-9.8.6](https://github.com/truecharts/charts/compare/couchpotato-9.6.0...couchpotato-9.8.6) (2024-04-17)
 
 ### Chore
 

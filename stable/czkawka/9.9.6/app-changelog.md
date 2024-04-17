@@ -1,6 +1,6 @@
 
 
-## [czkawka-9.9.6](https://github.com/truecharts/charts/compare/czkawka-9.6.0...czkawka-9.9.6) (2024-04-16)
+## [czkawka-9.9.6](https://github.com/truecharts/charts/compare/czkawka-9.6.0...czkawka-9.9.6) (2024-04-17)
 
 ### Chore
 

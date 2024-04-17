@@ -1,6 +1,6 @@
 
 
-## [v-rising-5.8.6](https://github.com/truecharts/charts/compare/v-rising-5.6.0...v-rising-5.8.6) (2024-04-16)
+## [v-rising-5.8.6](https://github.com/truecharts/charts/compare/v-rising-5.6.0...v-rising-5.8.6) (2024-04-17)
 
 ### Chore
 

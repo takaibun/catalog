@@ -1,6 +1,6 @@
 
 
-## [sabnzbd-19.6.8](https://github.com/truecharts/charts/compare/sabnzbd-19.4.0...sabnzbd-19.6.8) (2024-04-16)
+## [sabnzbd-19.6.8](https://github.com/truecharts/charts/compare/sabnzbd-19.4.0...sabnzbd-19.6.8) (2024-04-17)
 
 ### Chore
 

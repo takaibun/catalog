@@ -1,6 +1,6 @@
 
 
-## [etherpad-16.8.6](https://github.com/truecharts/charts/compare/etherpad-16.6.0...etherpad-16.8.6) (2024-04-16)
+## [etherpad-16.8.6](https://github.com/truecharts/charts/compare/etherpad-16.6.0...etherpad-16.8.6) (2024-04-17)
 
 ### Chore
 

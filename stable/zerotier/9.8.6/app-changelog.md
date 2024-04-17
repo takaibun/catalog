@@ -1,6 +1,6 @@
 
 
-## [zerotier-9.8.6](https://github.com/truecharts/charts/compare/zerotier-9.6.0...zerotier-9.8.6) (2024-04-16)
+## [zerotier-9.8.6](https://github.com/truecharts/charts/compare/zerotier-9.6.0...zerotier-9.8.6) (2024-04-17)
 
 ### Chore
 

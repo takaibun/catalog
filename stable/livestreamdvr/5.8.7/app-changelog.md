@@ -1,6 +1,6 @@
 
 
-## [livestreamdvr-5.8.7](https://github.com/truecharts/charts/compare/livestreamdvr-5.6.0...livestreamdvr-5.8.7) (2024-04-16)
+## [livestreamdvr-5.8.7](https://github.com/truecharts/charts/compare/livestreamdvr-5.6.0...livestreamdvr-5.8.7) (2024-04-17)
 
 ### Chore
 

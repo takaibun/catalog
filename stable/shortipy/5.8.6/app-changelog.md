@@ -1,6 +1,6 @@
 
 
-## [shortipy-5.8.6](https://github.com/truecharts/charts/compare/shortipy-5.6.0...shortipy-5.8.6) (2024-04-16)
+## [shortipy-5.8.6](https://github.com/truecharts/charts/compare/shortipy-5.6.0...shortipy-5.8.6) (2024-04-17)
 
 ### Chore
 

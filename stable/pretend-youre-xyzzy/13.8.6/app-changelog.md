@@ -1,6 +1,6 @@
 
 
-## [pretend-youre-xyzzy-13.8.6](https://github.com/truecharts/charts/compare/pretend-youre-xyzzy-13.6.0...pretend-youre-xyzzy-13.8.6) (2024-04-16)
+## [pretend-youre-xyzzy-13.8.6](https://github.com/truecharts/charts/compare/pretend-youre-xyzzy-13.6.0...pretend-youre-xyzzy-13.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [doublecommander-12.8.7](https://github.com/truecharts/charts/compare/doublecommander-12.6.0...doublecommander-12.8.7) (2024-04-16)
+## [doublecommander-12.8.7](https://github.com/truecharts/charts/compare/doublecommander-12.6.0...doublecommander-12.8.7) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [z80pack-5.8.6](https://github.com/truecharts/charts/compare/z80pack-5.6.0...z80pack-5.8.6) (2024-04-16)
+## [z80pack-5.8.6](https://github.com/truecharts/charts/compare/z80pack-5.6.0...z80pack-5.8.6) (2024-04-17)
 
 ### Chore
 

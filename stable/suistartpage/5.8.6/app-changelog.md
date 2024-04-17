@@ -1,6 +1,6 @@
 
 
-## [suistartpage-5.8.6](https://github.com/truecharts/charts/compare/suistartpage-5.6.0...suistartpage-5.8.6) (2024-04-16)
+## [suistartpage-5.8.6](https://github.com/truecharts/charts/compare/suistartpage-5.6.0...suistartpage-5.8.6) (2024-04-17)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [quickshare-5.8.6](https://github.com/truecharts/charts/compare/quickshare-5.6.0...quickshare-5.8.6) (2024-04-16)
+## [quickshare-5.8.6](https://github.com/truecharts/charts/compare/quickshare-5.6.0...quickshare-5.8.6) (2024-04-17)
 
 ### Chore
 

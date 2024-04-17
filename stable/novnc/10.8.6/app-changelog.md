@@ -1,6 +1,6 @@
 
 
-## [novnc-10.8.6](https://github.com/truecharts/charts/compare/novnc-10.6.0...novnc-10.8.6) (2024-04-16)
+## [novnc-10.8.6](https://github.com/truecharts/charts/compare/novnc-10.6.0...novnc-10.8.6) (2024-04-17)
 
 ### Chore
 

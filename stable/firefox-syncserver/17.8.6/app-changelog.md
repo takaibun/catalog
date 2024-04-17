@@ -1,6 +1,6 @@
 
 
-## [firefox-syncserver-17.8.6](https://github.com/truecharts/charts/compare/firefox-syncserver-17.6.0...firefox-syncserver-17.8.6) (2024-04-16)
+## [firefox-syncserver-17.8.6](https://github.com/truecharts/charts/compare/firefox-syncserver-17.6.0...firefox-syncserver-17.8.6) (2024-04-17)
 
 ### Chore
 

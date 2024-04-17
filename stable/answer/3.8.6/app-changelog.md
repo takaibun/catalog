@@ -1,6 +1,6 @@
 
 
-## [answer-3.8.6](https://github.com/truecharts/charts/compare/answer-3.6.0...answer-3.8.6) (2024-04-16)
+## [answer-3.8.6](https://github.com/truecharts/charts/compare/answer-3.6.0...answer-3.8.6) (2024-04-17)
 
 ### Chore
 

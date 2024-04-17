@@ -1,6 +1,6 @@
 
 
-## [calibre-14.9.6](https://github.com/truecharts/charts/compare/calibre-14.7.0...calibre-14.9.6) (2024-04-16)
+## [calibre-14.9.6](https://github.com/truecharts/charts/compare/calibre-14.7.0...calibre-14.9.6) (2024-04-17)
 
 ### Chore
 

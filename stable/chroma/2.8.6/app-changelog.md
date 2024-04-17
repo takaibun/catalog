@@ -1,6 +1,6 @@
 
 
-## [chroma-2.8.6](https://github.com/truecharts/charts/compare/chroma-2.6.0...chroma-2.8.6) (2024-04-16)
+## [chroma-2.8.6](https://github.com/truecharts/charts/compare/chroma-2.6.0...chroma-2.8.6) (2024-04-17)
 
 ### Chore
 

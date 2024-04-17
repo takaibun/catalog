@@ -1,6 +1,6 @@
 
 
-## [wizarr-6.8.6](https://github.com/truecharts/charts/compare/wizarr-6.6.0...wizarr-6.8.6) (2024-04-16)
+## [wizarr-6.8.6](https://github.com/truecharts/charts/compare/wizarr-6.6.0...wizarr-6.8.6) (2024-04-17)
 
 ### Chore
 

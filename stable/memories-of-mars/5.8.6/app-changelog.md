@@ -1,6 +1,6 @@
 
 
-## [memories-of-mars-5.8.6](https://github.com/truecharts/charts/compare/memories-of-mars-5.6.0...memories-of-mars-5.8.6) (2024-04-16)
+## [memories-of-mars-5.8.6](https://github.com/truecharts/charts/compare/memories-of-mars-5.6.0...memories-of-mars-5.8.6) (2024-04-17)
 
 ### Chore
 

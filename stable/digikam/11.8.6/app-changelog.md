@@ -1,6 +1,6 @@
 
 
-## [digikam-11.8.6](https://github.com/truecharts/charts/compare/digikam-11.6.0...digikam-11.8.6) (2024-04-16)
+## [digikam-11.8.6](https://github.com/truecharts/charts/compare/digikam-11.6.0...digikam-11.8.6) (2024-04-17)
 
 ### Chore
 

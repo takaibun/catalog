@@ -1,6 +1,6 @@
 
 
-## [mongo-express-6.10.10](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.10) (2024-04-16)
+## [mongo-express-6.10.10](https://github.com/truecharts/charts/compare/mongo-express-6.7.0...mongo-express-6.10.10) (2024-04-17)
 
 ### Chore
 

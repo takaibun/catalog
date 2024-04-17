@@ -1,6 +1,6 @@
 
 
-## [docker-6.1.9](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.1.9) (2024-04-16)
+## [docker-6.1.9](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-6.1.9) (2024-04-17)
 
 ### Chore
 

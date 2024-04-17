@@ -1,6 +1,6 @@
 
 
-## [cloudcommander-5.8.6](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.8.6) (2024-04-16)
+## [cloudcommander-5.8.6](https://github.com/truecharts/charts/compare/cloudcommander-5.6.0...cloudcommander-5.8.6) (2024-04-17)
 
 ### Chore
 

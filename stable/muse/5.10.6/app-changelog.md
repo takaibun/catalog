@@ -1,6 +1,6 @@
 
 
-## [muse-5.10.6](https://github.com/truecharts/charts/compare/muse-5.7.0...muse-5.10.6) (2024-04-16)
+## [muse-5.10.6](https://github.com/truecharts/charts/compare/muse-5.7.0...muse-5.10.6) (2024-04-17)
 
 ### Chore
 

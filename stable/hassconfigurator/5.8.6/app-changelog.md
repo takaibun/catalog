@@ -1,6 +1,6 @@
 
 
-## [hassconfigurator-5.8.6](https://github.com/truecharts/charts/compare/hassconfigurator-5.6.0...hassconfigurator-5.8.6) (2024-04-16)
+## [hassconfigurator-5.8.6](https://github.com/truecharts/charts/compare/hassconfigurator-5.6.0...hassconfigurator-5.8.6) (2024-04-17)
 
 ### Chore
 
