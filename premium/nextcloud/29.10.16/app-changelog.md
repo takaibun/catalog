@@ -96,6 +96,12 @@
 
 - update migration guide ([#19966](https://github.com/truecharts/charts/issues/19966))
 
+### Feat
+
+
+
+- support database migration
+
 ### Fix
 
 
