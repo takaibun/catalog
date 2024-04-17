@@ -1,10 +1,12 @@
 
 
-## [metallb-config-6.8.5](https://github.com/truecharts/charts/compare/metallb-config-6.6.0...metallb-config-6.8.5) (2024-04-16)
+## [metallb-config-6.8.7](https://github.com/truecharts/charts/compare/metallb-config-6.6.0...metallb-config-6.8.7) (2024-04-17)
 
 ### Chore
 
 
+
+- bump charts to ensure new icons are released
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -29,3 +31,9 @@
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+### Fix
+
+
+
+- allow explicit setting metallb namespace as a temporary hotfix
