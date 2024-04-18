@@ -1,12 +1,16 @@
 
 
-## [libremdb-7.10.36](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-7.10.36) (2024-04-16)
+## [libremdb-7.10.38](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-7.10.38) (2024-04-18)
 
 ### Chore
 
 
 
 - bump charts to ensure new icons are released
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@d8f6fb8](https://github.com/d8f6fb8) by renovate ([#20925](https://github.com/truecharts/charts/issues/20925))
+
+- update container image redis to v13.3.8[@7640d5a](https://github.com/7640d5a) by renovate ([#20870](https://github.com/truecharts/charts/issues/20870))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@1043c11](https://github.com/1043c11) by renovate ([#20863](https://github.com/truecharts/charts/issues/20863))
 
