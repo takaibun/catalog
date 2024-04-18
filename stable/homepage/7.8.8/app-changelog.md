@@ -1,6 +1,6 @@
 
 
-## [homepage-7.8.8](https://github.com/truecharts/charts/compare/homepage-7.6.0...homepage-7.8.8) (2024-04-17)
+## [homepage-7.8.8](https://github.com/truecharts/charts/compare/homepage-7.6.0...homepage-7.8.8) (2024-04-18)
 
 ### Chore
 

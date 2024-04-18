@@ -1,6 +1,6 @@
 
 
-## [qbittorrent-19.8.8](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.8) (2024-04-17)
+## [qbittorrent-19.8.8](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-19.8.8) (2024-04-18)
 
 ### Chore
 
