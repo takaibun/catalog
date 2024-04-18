@@ -1,12 +1,16 @@
 
 
-## [rsshub-12.10.28](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.10.28) (2024-04-17)
+## [rsshub-12.10.30](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.10.30) (2024-04-18)
 
 ### Chore
 
 
 
 - bump charts to ensure new icons are released
+
+- update container image diygod/rsshub to latest[@57e4327](https://github.com/57e4327) by renovate ([#20937](https://github.com/truecharts/charts/issues/20937))
+
+- update container image diygod/rsshub to latest[@e37b0fb](https://github.com/e37b0fb) by renovate ([#20884](https://github.com/truecharts/charts/issues/20884))
 
 - update container image redis to v13.3.8[@7640d5a](https://github.com/7640d5a) by renovate ([#20870](https://github.com/truecharts/charts/issues/20870))
 
