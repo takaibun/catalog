@@ -1,12 +1,16 @@
 
 
-## [webtop-9.8.62](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.62) (2024-04-17)
+## [webtop-9.8.68](https://github.com/truecharts/charts/compare/webtop-9.6.0...webtop-9.8.68) (2024-04-19)
 
 ### Chore
 
 
 
 - bump charts to ensure new icons are released
+
+- update container image lscr.io/linuxserver/webtop to arch-kde[@9f64fa2](https://github.com/9f64fa2) by renovate ([#20299](https://github.com/truecharts/charts/issues/20299))
+
+- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -16,7 +20,7 @@
 
 - update webtop by renovate ([#20789](https://github.com/truecharts/charts/issues/20789))
 
-- update webtop by renovate ([#20735](https://github.com/truecharts/charts/issues/20735))
+- update webtop by renovate ([#20281](https://github.com/truecharts/charts/issues/20281))
 
 - update webtop by renovate ([#20688](https://github.com/truecharts/charts/issues/20688))
 
@@ -32,11 +36,11 @@
 
 - update webtop by renovate ([#20477](https://github.com/truecharts/charts/issues/20477))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
 
-- update container image lscr.io/linuxserver/webtop to arch-kde[@9f64fa2](https://github.com/9f64fa2) by renovate ([#20299](https://github.com/truecharts/charts/issues/20299))
+- update container image lscr.io/linuxserver/webtop to latest[@ff44b65](https://github.com/ff44b65) by renovate ([#20896](https://github.com/truecharts/charts/issues/20896))
 
-- update webtop by renovate ([#20281](https://github.com/truecharts/charts/issues/20281))
+- update webtop by renovate ([#20735](https://github.com/truecharts/charts/issues/20735))
 
 - update webtop by renovate ([#20128](https://github.com/truecharts/charts/issues/20128))
 
@@ -62,8 +66,8 @@
 
 - update webtop by renovate ([#19496](https://github.com/truecharts/charts/issues/19496))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+- update webtop by renovate ([#21011](https://github.com/truecharts/charts/issues/21011))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update webtop by renovate ([#19296](https://github.com/truecharts/charts/issues/19296))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
