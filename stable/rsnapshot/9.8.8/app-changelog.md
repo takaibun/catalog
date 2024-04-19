@@ -1,6 +1,6 @@
 
 
-## [rsnapshot-9.8.8](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.8.8) (2024-04-18)
+## [rsnapshot-9.8.8](https://github.com/truecharts/charts/compare/rsnapshot-9.6.0...rsnapshot-9.8.8) (2024-04-19)
 
 ### Chore
 

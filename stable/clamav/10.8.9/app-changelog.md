@@ -1,6 +1,6 @@
 
 
-## [clamav-10.8.9](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.8.9) (2024-04-18)
+## [clamav-10.8.9](https://github.com/truecharts/charts/compare/clamav-10.6.0...clamav-10.8.9) (2024-04-19)
 
 ### Chore
 

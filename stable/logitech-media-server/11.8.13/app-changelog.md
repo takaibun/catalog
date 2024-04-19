@@ -1,6 +1,6 @@
 
 
-## [logitech-media-server-11.8.13](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-11.8.13) (2024-04-18)
+## [logitech-media-server-11.8.13](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-11.8.13) (2024-04-19)
 
 ### Chore
 

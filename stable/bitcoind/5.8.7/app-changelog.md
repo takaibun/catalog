@@ -1,6 +1,6 @@
 
 
-## [bitcoind-5.8.7](https://github.com/truecharts/charts/compare/bitcoind-5.6.0...bitcoind-5.8.7) (2024-04-18)
+## [bitcoind-5.8.7](https://github.com/truecharts/charts/compare/bitcoind-5.6.0...bitcoind-5.8.7) (2024-04-19)
 
 ### Chore
 
