@@ -26,7 +26,7 @@ dependencies:
 deprecated: false
 description: Cert-Manager is a kubernetes-aware certificate manager
 home: https://truecharts.org/charts/system/cert-manager
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.png
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/cert-manager.webp
 keywords:
   - cert-manager
   - certificates
@@ -43,4 +43,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/system/cert-manager
   - https://github.com/truecharts/containers/tree/master/apps/scratch
 type: application
-version: 4.8.5
+version: 4.8.7
