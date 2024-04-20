@@ -1,6 +1,6 @@
 
 
-## [newyearcountdownclock-5.8.7](https://github.com/truecharts/charts/compare/newyearcountdownclock-5.6.0...newyearcountdownclock-5.8.7) (2024-04-19)
+## [newyearcountdownclock-5.8.7](https://github.com/truecharts/charts/compare/newyearcountdownclock-5.6.0...newyearcountdownclock-5.8.7) (2024-04-20)
 
 ### Chore
 

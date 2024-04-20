@@ -1,6 +1,6 @@
 
 
-## [fleet-12.15.13](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-12.15.13) (2024-04-19)
+## [fleet-12.15.13](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-12.15.13) (2024-04-20)
 
 ### Chore
 

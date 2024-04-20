@@ -1,6 +1,6 @@
 
 
-## [zwavejs2mqtt-19.10.0](https://github.com/truecharts/charts/compare/zwavejs2mqtt-19.6.0...zwavejs2mqtt-19.10.0) (2024-04-19)
+## [zwavejs2mqtt-19.10.0](https://github.com/truecharts/charts/compare/zwavejs2mqtt-19.6.0...zwavejs2mqtt-19.10.0) (2024-04-20)
 
 ### Chore
 

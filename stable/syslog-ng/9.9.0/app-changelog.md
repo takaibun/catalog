@@ -1,6 +1,6 @@
 
 
-## [syslog-ng-9.9.0](https://github.com/truecharts/charts/compare/syslog-ng-9.6.0...syslog-ng-9.9.0) (2024-04-19)
+## [syslog-ng-9.9.0](https://github.com/truecharts/charts/compare/syslog-ng-9.6.0...syslog-ng-9.9.0) (2024-04-20)
 
 ### Chore
 
