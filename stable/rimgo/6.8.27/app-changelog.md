@@ -1,12 +1,16 @@
 
 
-## [rimgo-6.8.25](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.8.25) (2024-04-20)
+## [rimgo-6.8.27](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.8.27) (2024-04-20)
 
 ### Chore
 
 
 
 - bump charts to ensure new icons are released
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@20601f3](https://github.com/20601f3) by renovate ([#21041](https://github.com/truecharts/charts/issues/21041))
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@e20c7a6](https://github.com/e20c7a6) by renovate ([#21029](https://github.com/truecharts/charts/issues/21029))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@b82b52e](https://github.com/b82b52e) by renovate ([#20999](https://github.com/truecharts/charts/issues/20999))
 
