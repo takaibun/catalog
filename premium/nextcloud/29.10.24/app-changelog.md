@@ -112,6 +112,8 @@
 
 
 
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))
+
 - update migration guide ([#19966](https://github.com/truecharts/charts/issues/19966))
 
 ### Feat

@@ -47,3 +47,9 @@
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/onedr0p/sonarr to 4.0.3.1413[@4284def](https://github.com/4284def) by renovate ([#20430](https://github.com/truecharts/charts/issues/20430))
+
+### Docs
+
+
+
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))

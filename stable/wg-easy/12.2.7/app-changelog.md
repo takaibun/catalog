@@ -40,6 +40,12 @@
 
 - make links relative
 
+### Docs
+
+
+
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))
+
 ### Fix
 
 

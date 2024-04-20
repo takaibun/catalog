@@ -35,3 +35,9 @@
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image discordgsm/discord-game-server-monitor to v2.17.0[@9363802](https://github.com/9363802) by renovate ([#19336](https://github.com/truecharts/charts/issues/19336))
+
+### Docs
+
+
+
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))

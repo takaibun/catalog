@@ -76,6 +76,8 @@
 
 - update setup guide ([#19658](https://github.com/truecharts/charts/issues/19658))
 
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))
+
 ### Feat
 
 

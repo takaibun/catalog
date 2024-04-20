@@ -72,6 +72,12 @@
 
 - Fix broken links for Starlight ([#20737](https://github.com/truecharts/charts/issues/20737))
 
+### Docs
+
+
+
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))
+
 ### Feat
 
 
