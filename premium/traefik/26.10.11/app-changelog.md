@@ -8,13 +8,15 @@
 
 - bump charts to ensure new icons are released
 
-- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
+- update docs links
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image tccr.io/tccr/traefik to v2.11.2[@4890e4e](https://github.com/4890e4e) by renovate ([#20703](https://github.com/truecharts/charts/issues/20703))
 
@@ -26,7 +28,7 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image tccr.io/tccr/traefik to v[@065a731](https://github.com/065a731) by renovate ([#20588](https://github.com/truecharts/charts/issues/20588))
 
 - update container image tccr.io/tccr/traefik to v2.11.0[@64a9b5e](https://github.com/64a9b5e) by renovate ([#19290](https://github.com/truecharts/charts/issues/19290))
 
