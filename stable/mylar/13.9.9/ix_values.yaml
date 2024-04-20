@@ -1,0 +1,25 @@
+image:
+  repository: linuxserver/mylar3
+  tag: version-v0.8.0@sha256:72a080da5efc9edeb41d529edd56e484d446c8c335d05945c2376520d67b8945
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 8090
+        targetPort: 8090
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0

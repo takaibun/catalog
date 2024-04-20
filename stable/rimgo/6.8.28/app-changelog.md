@@ -8,6 +8,8 @@
 
 - bump charts to ensure new icons are released
 
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
 - update container image quay.io/pussthecatorg/rimgo to latest[@548f416](https://github.com/548f416) by renovate ([#21053](https://github.com/truecharts/charts/issues/21053))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@20601f3](https://github.com/20601f3) by renovate ([#21041](https://github.com/truecharts/charts/issues/21041))

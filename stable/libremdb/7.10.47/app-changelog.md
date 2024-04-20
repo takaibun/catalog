@@ -8,6 +8,10 @@
 
 - bump charts to ensure new icons are released
 
+- update container image redis to v13.3.10[@b88a427](https://github.com/b88a427) by renovate ([#20914](https://github.com/truecharts/charts/issues/20914))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
 - update container image quay.io/pussthecatorg/libremdb to latest[@208c180](https://github.com/208c180) by renovate ([#21052](https://github.com/truecharts/charts/issues/21052))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@939f376](https://github.com/939f376) by renovate ([#21040](https://github.com/truecharts/charts/issues/21040))
