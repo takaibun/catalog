@@ -1,6 +1,6 @@
 
 
-## [blocky-14.8.11](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.11) (2024-04-19)
+## [blocky-14.8.11](https://github.com/truecharts/charts/compare/blocky-14.4.0...blocky-14.8.11) (2024-04-20)
 
 ### Chore
 
