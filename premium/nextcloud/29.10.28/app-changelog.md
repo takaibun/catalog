@@ -124,6 +124,8 @@
 
 - fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))
 
+- update guide with new features ([#21120](https://github.com/truecharts/charts/issues/21120))
+
 - restore guide images ([#21090](https://github.com/truecharts/charts/issues/21090))
 
 - update migration guide ([#19966](https://github.com/truecharts/charts/issues/19966))
