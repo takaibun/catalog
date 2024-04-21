@@ -1,6 +1,6 @@
 
 
-## [lancache-monolithic-8.8.7](https://github.com/truecharts/charts/compare/lancache-monolithic-8.6.0...lancache-monolithic-8.8.7) (2024-04-20)
+## [lancache-monolithic-8.8.7](https://github.com/truecharts/charts/compare/lancache-monolithic-8.6.0...lancache-monolithic-8.8.7) (2024-04-21)
 
 ### Chore
 

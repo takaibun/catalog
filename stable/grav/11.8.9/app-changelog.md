@@ -1,6 +1,6 @@
 
 
-## [grav-11.8.9](https://github.com/truecharts/charts/compare/grav-11.6.0...grav-11.8.9) (2024-04-20)
+## [grav-11.8.9](https://github.com/truecharts/charts/compare/grav-11.6.0...grav-11.8.9) (2024-04-21)
 
 ### Chore
 

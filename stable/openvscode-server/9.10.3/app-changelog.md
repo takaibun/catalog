@@ -1,6 +1,6 @@
 
 
-## [openvscode-server-9.10.3](https://github.com/truecharts/charts/compare/openvscode-server-9.7.0...openvscode-server-9.10.3) (2024-04-20)
+## [openvscode-server-9.10.3](https://github.com/truecharts/charts/compare/openvscode-server-9.7.0...openvscode-server-9.10.3) (2024-04-21)
 
 ### Chore
 
