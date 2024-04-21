@@ -6,6 +6,12 @@
 
 
 
+- rework SCALE catagories/groups to match helm and remove deprecated charts ([#21111](https://github.com/truecharts/charts/issues/21111))
+
+### Chore
+
+
+
 - bump charts to ensure new icons are released
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@d8bbf4e](https://github.com/d8bbf4e) by renovate ([#21115](https://github.com/truecharts/charts/issues/21115))
