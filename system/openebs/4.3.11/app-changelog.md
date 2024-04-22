@@ -67,3 +67,9 @@
 - BREAKING CHANGE make it an umbrella chart with multiple upstream dependencies ([#19813](https://github.com/truecharts/charts/issues/19813))
 
 - BREAKING CHANGE (on scale) use zfs backend instead of localpath on scale ([#19548](https://github.com/truecharts/charts/issues/19548))
+
+### Fix
+
+
+
+- replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))
