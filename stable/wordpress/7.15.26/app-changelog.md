@@ -1,6 +1,6 @@
 
 
-## [wordpress-7.15.24](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.15.24) (2024-04-22)
+## [wordpress-7.15.26](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-7.15.26) (2024-04-22)
 
 ### Chore
 
@@ -15,6 +15,8 @@
 - bump everything to regenerate readme's and site index
 
 - bump charts to ensure new icons are released
+
+- update container image bitnami/wordpress to 6.5.2[@3733dc5](https://github.com/3733dc5) by renovate ([#21173](https://github.com/truecharts/charts/issues/21173))
 
 - update container image mariadb to v13.9.17[@411cb7e](https://github.com/411cb7e) by renovate ([#21132](https://github.com/truecharts/charts/issues/21132))
 
@@ -127,3 +129,9 @@
 
 
 - rework SCALE catagories/groups to match helm and remove deprecated charts ([#21111](https://github.com/truecharts/charts/issues/21111))
+
+### Fix
+
+
+
+- replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))
