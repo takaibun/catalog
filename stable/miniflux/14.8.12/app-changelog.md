@@ -1,6 +1,6 @@
 
 
-## [miniflux-14.8.12](https://github.com/truecharts/charts/compare/miniflux-14.6.0...miniflux-14.8.12) (2024-04-21)
+## [miniflux-14.8.12](https://github.com/truecharts/charts/compare/miniflux-14.6.0...miniflux-14.8.12) (2024-04-22)
 
 ### Chore
 

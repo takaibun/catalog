@@ -1,6 +1,6 @@
 
 
-## [minecraft-bedrock-8.8.12](https://github.com/truecharts/charts/compare/minecraft-bedrock-8.6.0...minecraft-bedrock-8.8.12) (2024-04-21)
+## [minecraft-bedrock-8.8.12](https://github.com/truecharts/charts/compare/minecraft-bedrock-8.6.0...minecraft-bedrock-8.8.12) (2024-04-22)
 
 ### Chore
 

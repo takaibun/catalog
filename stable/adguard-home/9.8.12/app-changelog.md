@@ -1,6 +1,6 @@
 
 
-## [adguard-home-9.8.12](https://github.com/truecharts/charts/compare/adguard-home-9.6.0...adguard-home-9.8.12) (2024-04-21)
+## [adguard-home-9.8.12](https://github.com/truecharts/charts/compare/adguard-home-9.6.0...adguard-home-9.8.12) (2024-04-22)
 
 ### Chore
 

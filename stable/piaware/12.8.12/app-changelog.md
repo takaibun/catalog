@@ -1,6 +1,6 @@
 
 
-## [piaware-12.8.12](https://github.com/truecharts/charts/compare/piaware-12.6.0...piaware-12.8.12) (2024-04-21)
+## [piaware-12.8.12](https://github.com/truecharts/charts/compare/piaware-12.6.0...piaware-12.8.12) (2024-04-22)
 
 ### Chore
 

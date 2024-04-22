@@ -1,6 +1,6 @@
 
 
-## [kubernetes-reflector-4.8.13](https://github.com/truecharts/charts/compare/kubernetes-reflector-4.6.0...kubernetes-reflector-4.8.13) (2024-04-21)
+## [kubernetes-reflector-4.8.13](https://github.com/truecharts/charts/compare/kubernetes-reflector-4.6.0...kubernetes-reflector-4.8.13) (2024-04-22)
 
 ### Chore
 

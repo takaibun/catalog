@@ -1,6 +1,6 @@
 
 
-## [littlelink-13.8.13](https://github.com/truecharts/charts/compare/littlelink-13.6.0...littlelink-13.8.13) (2024-04-21)
+## [littlelink-13.8.13](https://github.com/truecharts/charts/compare/littlelink-13.6.0...littlelink-13.8.13) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [babybuddy-16.9.10](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.9.10) (2024-04-21)
+## [babybuddy-16.9.10](https://github.com/truecharts/charts/compare/babybuddy-16.6.0...babybuddy-16.9.10) (2024-04-22)
 
 ### Chore
 

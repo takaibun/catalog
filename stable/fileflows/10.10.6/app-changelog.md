@@ -1,6 +1,6 @@
 
 
-## [fileflows-10.10.6](https://github.com/truecharts/charts/compare/fileflows-10.7.0...fileflows-10.10.6) (2024-04-21)
+## [fileflows-10.10.6](https://github.com/truecharts/charts/compare/fileflows-10.7.0...fileflows-10.10.6) (2024-04-22)
 
 ### Chore
 

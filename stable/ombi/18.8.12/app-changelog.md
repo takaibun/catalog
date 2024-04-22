@@ -1,6 +1,6 @@
 
 
-## [ombi-18.8.12](https://github.com/truecharts/charts/compare/ombi-18.6.0...ombi-18.8.12) (2024-04-21)
+## [ombi-18.8.12](https://github.com/truecharts/charts/compare/ombi-18.6.0...ombi-18.8.12) (2024-04-22)
 
 ### Chore
 

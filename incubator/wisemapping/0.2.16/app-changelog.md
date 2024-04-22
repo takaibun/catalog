@@ -1,6 +1,6 @@
 
 
-## [wisemapping-0.2.16](https://github.com/truecharts/charts/compare/wisemapping-0.1.2...wisemapping-0.2.16) (2024-04-21)
+## [wisemapping-0.2.16](https://github.com/truecharts/charts/compare/wisemapping-0.1.2...wisemapping-0.2.16) (2024-04-22)
 
 ### Chore
 

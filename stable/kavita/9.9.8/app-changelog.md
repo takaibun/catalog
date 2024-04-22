@@ -1,6 +1,6 @@
 
 
-## [kavita-9.9.8](https://github.com/truecharts/charts/compare/kavita-9.6.0...kavita-9.9.8) (2024-04-21)
+## [kavita-9.9.8](https://github.com/truecharts/charts/compare/kavita-9.6.0...kavita-9.9.8) (2024-04-22)
 
 ### Chore
 

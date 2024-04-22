@@ -1,6 +1,6 @@
 
 
-## [lldap-5.8.12](https://github.com/truecharts/charts/compare/lldap-5.6.0...lldap-5.8.12) (2024-04-21)
+## [lldap-5.8.12](https://github.com/truecharts/charts/compare/lldap-5.6.0...lldap-5.8.12) (2024-04-22)
 
 ### Chore
 

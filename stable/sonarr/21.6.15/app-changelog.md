@@ -1,6 +1,6 @@
 
 
-## [sonarr-21.6.15](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.6.15) (2024-04-21)
+## [sonarr-21.6.15](https://github.com/truecharts/charts/compare/sonarr-21.4.0...sonarr-21.6.15) (2024-04-22)
 
 ### Chore
 

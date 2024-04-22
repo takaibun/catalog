@@ -1,6 +1,6 @@
 
 
-## [matomo-13.15.18](https://github.com/truecharts/charts/compare/matomo-13.9.0...matomo-13.15.18) (2024-04-21)
+## [matomo-13.15.18](https://github.com/truecharts/charts/compare/matomo-13.9.0...matomo-13.15.18) (2024-04-22)
 
 ### Chore
 

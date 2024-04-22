@@ -1,6 +1,6 @@
 
 
-## [stationeers-5.8.12](https://github.com/truecharts/charts/compare/stationeers-5.6.0...stationeers-5.8.12) (2024-04-21)
+## [stationeers-5.8.12](https://github.com/truecharts/charts/compare/stationeers-5.6.0...stationeers-5.8.12) (2024-04-22)
 
 ### Chore
 

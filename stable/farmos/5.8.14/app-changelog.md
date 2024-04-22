@@ -1,6 +1,6 @@
 
 
-## [farmos-5.8.14](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.14) (2024-04-21)
+## [farmos-5.8.14](https://github.com/truecharts/charts/compare/farmos-5.6.0...farmos-5.8.14) (2024-04-22)
 
 ### Chore
 

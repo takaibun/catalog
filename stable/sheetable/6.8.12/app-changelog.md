@@ -1,6 +1,6 @@
 
 
-## [sheetable-6.8.12](https://github.com/truecharts/charts/compare/sheetable-6.6.0...sheetable-6.8.12) (2024-04-21)
+## [sheetable-6.8.12](https://github.com/truecharts/charts/compare/sheetable-6.6.0...sheetable-6.8.12) (2024-04-22)
 
 ### Chore
 

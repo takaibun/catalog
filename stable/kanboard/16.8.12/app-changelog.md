@@ -1,6 +1,6 @@
 
 
-## [kanboard-16.8.12](https://github.com/truecharts/charts/compare/kanboard-16.6.0...kanboard-16.8.12) (2024-04-21)
+## [kanboard-16.8.12](https://github.com/truecharts/charts/compare/kanboard-16.6.0...kanboard-16.8.12) (2024-04-22)
 
 ### Chore
 

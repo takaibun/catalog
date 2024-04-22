@@ -1,6 +1,6 @@
 
 
-## [static-web-server-4.9.12](https://github.com/truecharts/charts/compare/static-web-server-4.7.0...static-web-server-4.9.12) (2024-04-21)
+## [static-web-server-4.9.12](https://github.com/truecharts/charts/compare/static-web-server-4.7.0...static-web-server-4.9.12) (2024-04-22)
 
 ### Chore
 

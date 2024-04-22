@@ -1,6 +1,6 @@
 
 
-## [tanoshi-5.8.12](https://github.com/truecharts/charts/compare/tanoshi-5.6.0...tanoshi-5.8.12) (2024-04-21)
+## [tanoshi-5.8.12](https://github.com/truecharts/charts/compare/tanoshi-5.6.0...tanoshi-5.8.12) (2024-04-22)
 
 ### Chore
 

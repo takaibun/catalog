@@ -1,6 +1,6 @@
 
 
-## [virt-manager-5.8.12](https://github.com/truecharts/charts/compare/virt-manager-5.6.0...virt-manager-5.8.12) (2024-04-21)
+## [virt-manager-5.8.12](https://github.com/truecharts/charts/compare/virt-manager-5.6.0...virt-manager-5.8.12) (2024-04-22)
 
 ### Chore
 

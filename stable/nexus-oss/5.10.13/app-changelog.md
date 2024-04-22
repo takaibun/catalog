@@ -1,6 +1,6 @@
 
 
-## [nexus-oss-5.10.13](https://github.com/truecharts/charts/compare/nexus-oss-5.7.0...nexus-oss-5.10.13) (2024-04-21)
+## [nexus-oss-5.10.13](https://github.com/truecharts/charts/compare/nexus-oss-5.7.0...nexus-oss-5.10.13) (2024-04-22)
 
 ### Chore
 

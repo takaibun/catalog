@@ -1,6 +1,6 @@
 
 
-## [linkwarden-4.9.14](https://github.com/truecharts/charts/compare/linkwarden-4.7.0...linkwarden-4.9.14) (2024-04-21)
+## [linkwarden-4.9.14](https://github.com/truecharts/charts/compare/linkwarden-4.7.0...linkwarden-4.9.14) (2024-04-22)
 
 ### Chore
 

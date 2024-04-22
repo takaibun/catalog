@@ -1,6 +1,6 @@
 
 
-## [hetzner-ddns-5.8.12](https://github.com/truecharts/charts/compare/hetzner-ddns-5.6.0...hetzner-ddns-5.8.12) (2024-04-21)
+## [hetzner-ddns-5.8.12](https://github.com/truecharts/charts/compare/hetzner-ddns-5.6.0...hetzner-ddns-5.8.12) (2024-04-22)
 
 ### Chore
 

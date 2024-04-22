@@ -1,6 +1,6 @@
 
 
-## [survivethenights-5.8.12](https://github.com/truecharts/charts/compare/survivethenights-5.6.0...survivethenights-5.8.12) (2024-04-21)
+## [survivethenights-5.8.12](https://github.com/truecharts/charts/compare/survivethenights-5.6.0...survivethenights-5.8.12) (2024-04-22)
 
 ### Chore
 

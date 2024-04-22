@@ -1,6 +1,6 @@
 
 
-## [fireflyiii-25.10.18](https://github.com/truecharts/charts/compare/fireflyiii-25.6.0...fireflyiii-25.10.18) (2024-04-21)
+## [fireflyiii-25.10.18](https://github.com/truecharts/charts/compare/fireflyiii-25.6.0...fireflyiii-25.10.18) (2024-04-22)
 
 ### Chore
 

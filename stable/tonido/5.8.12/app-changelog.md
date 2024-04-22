@@ -1,6 +1,6 @@
 
 
-## [tonido-5.8.12](https://github.com/truecharts/charts/compare/tonido-5.6.0...tonido-5.8.12) (2024-04-21)
+## [tonido-5.8.12](https://github.com/truecharts/charts/compare/tonido-5.6.0...tonido-5.8.12) (2024-04-22)
 
 ### Chore
 

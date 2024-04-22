@@ -1,6 +1,6 @@
 
 
-## [openra-5.8.12](https://github.com/truecharts/charts/compare/openra-5.6.0...openra-5.8.12) (2024-04-21)
+## [openra-5.8.12](https://github.com/truecharts/charts/compare/openra-5.6.0...openra-5.8.12) (2024-04-22)
 
 ### Chore
 

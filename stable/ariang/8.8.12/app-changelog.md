@@ -1,6 +1,6 @@
 
 
-## [ariang-8.8.12](https://github.com/truecharts/charts/compare/ariang-8.6.0...ariang-8.8.12) (2024-04-21)
+## [ariang-8.8.12](https://github.com/truecharts/charts/compare/ariang-8.6.0...ariang-8.8.12) (2024-04-22)
 
 ### Chore
 

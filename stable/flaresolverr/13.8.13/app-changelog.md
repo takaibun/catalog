@@ -1,6 +1,6 @@
 
 
-## [flaresolverr-13.8.13](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.13) (2024-04-21)
+## [flaresolverr-13.8.13](https://github.com/truecharts/charts/compare/flaresolverr-13.6.0...flaresolverr-13.8.13) (2024-04-22)
 
 ### Chore
 

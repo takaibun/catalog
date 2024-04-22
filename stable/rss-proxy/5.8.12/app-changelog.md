@@ -1,6 +1,6 @@
 
 
-## [rss-proxy-5.8.12](https://github.com/truecharts/charts/compare/rss-proxy-5.6.0...rss-proxy-5.8.12) (2024-04-21)
+## [rss-proxy-5.8.12](https://github.com/truecharts/charts/compare/rss-proxy-5.6.0...rss-proxy-5.8.12) (2024-04-22)
 
 ### Chore
 

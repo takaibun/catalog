@@ -1,6 +1,6 @@
 
 
-## [goaccess-5.8.12](https://github.com/truecharts/charts/compare/goaccess-5.6.0...goaccess-5.8.12) (2024-04-21)
+## [goaccess-5.8.12](https://github.com/truecharts/charts/compare/goaccess-5.6.0...goaccess-5.8.12) (2024-04-22)
 
 ### Chore
 

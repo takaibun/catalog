@@ -1,6 +1,6 @@
 
 
-## [servas-4.16.18](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.16.18) (2024-04-21)
+## [servas-4.16.18](https://github.com/truecharts/charts/compare/servas-4.9.0...servas-4.16.18) (2024-04-22)
 
 ### Chore
 

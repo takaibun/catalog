@@ -1,6 +1,6 @@
 
 
-## [dashmachine-5.8.12](https://github.com/truecharts/charts/compare/dashmachine-5.6.0...dashmachine-5.8.12) (2024-04-21)
+## [dashmachine-5.8.12](https://github.com/truecharts/charts/compare/dashmachine-5.6.0...dashmachine-5.8.12) (2024-04-22)
 
 ### Chore
 

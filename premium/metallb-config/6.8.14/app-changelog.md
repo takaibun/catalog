@@ -1,6 +1,6 @@
 
 
-## [metallb-config-6.8.14](https://github.com/truecharts/charts/compare/metallb-config-6.6.0...metallb-config-6.8.14) (2024-04-21)
+## [metallb-config-6.8.14](https://github.com/truecharts/charts/compare/metallb-config-6.6.0...metallb-config-6.8.14) (2024-04-22)
 
 ### Chore
 

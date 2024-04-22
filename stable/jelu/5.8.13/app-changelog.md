@@ -1,6 +1,6 @@
 
 
-## [jelu-5.8.13](https://github.com/truecharts/charts/compare/jelu-5.6.0...jelu-5.8.13) (2024-04-21)
+## [jelu-5.8.13](https://github.com/truecharts/charts/compare/jelu-5.6.0...jelu-5.8.13) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [znc-9.9.14](https://github.com/truecharts/charts/compare/znc-9.7.0...znc-9.9.14) (2024-04-21)
+## [znc-9.9.14](https://github.com/truecharts/charts/compare/znc-9.7.0...znc-9.9.14) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [tagspaces-3.8.12](https://github.com/truecharts/charts/compare/tagspaces-3.6.0...tagspaces-3.8.12) (2024-04-21)
+## [tagspaces-3.8.12](https://github.com/truecharts/charts/compare/tagspaces-3.6.0...tagspaces-3.8.12) (2024-04-22)
 
 ### Chore
 

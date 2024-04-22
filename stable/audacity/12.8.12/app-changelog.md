@@ -1,6 +1,6 @@
 
 
-## [audacity-12.8.12](https://github.com/truecharts/charts/compare/audacity-12.6.0...audacity-12.8.12) (2024-04-21)
+## [audacity-12.8.12](https://github.com/truecharts/charts/compare/audacity-12.6.0...audacity-12.8.12) (2024-04-22)
 
 ### Chore
 

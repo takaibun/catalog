@@ -1,6 +1,6 @@
 
 
-## [metatube-5.8.13](https://github.com/truecharts/charts/compare/metatube-5.6.0...metatube-5.8.13) (2024-04-21)
+## [metatube-5.8.13](https://github.com/truecharts/charts/compare/metatube-5.6.0...metatube-5.8.13) (2024-04-22)
 
 ### Chore
 

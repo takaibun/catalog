@@ -1,6 +1,6 @@
 
 
-## [weblate-13.10.18](https://github.com/truecharts/charts/compare/weblate-13.6.0...weblate-13.10.18) (2024-04-21)
+## [weblate-13.10.18](https://github.com/truecharts/charts/compare/weblate-13.6.0...weblate-13.10.18) (2024-04-22)
 
 ### Chore
 

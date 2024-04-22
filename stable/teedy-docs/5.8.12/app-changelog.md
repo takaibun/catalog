@@ -1,6 +1,6 @@
 
 
-## [teedy-docs-5.8.12](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.8.12) (2024-04-21)
+## [teedy-docs-5.8.12](https://github.com/truecharts/charts/compare/teedy-docs-5.6.0...teedy-docs-5.8.12) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [readarr-21.6.16](https://github.com/truecharts/charts/compare/readarr-21.4.0...readarr-21.6.16) (2024-04-21)
+## [readarr-21.6.16](https://github.com/truecharts/charts/compare/readarr-21.4.0...readarr-21.6.16) (2024-04-22)
 
 ### Chore
 

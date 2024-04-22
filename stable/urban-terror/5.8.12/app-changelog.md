@@ -1,6 +1,6 @@
 
 
-## [urban-terror-5.8.12](https://github.com/truecharts/charts/compare/urban-terror-5.6.0...urban-terror-5.8.12) (2024-04-21)
+## [urban-terror-5.8.12](https://github.com/truecharts/charts/compare/urban-terror-5.6.0...urban-terror-5.8.12) (2024-04-22)
 
 ### Chore
 

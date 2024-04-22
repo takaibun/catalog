@@ -1,6 +1,6 @@
 
 
-## [import-ics-5.8.12](https://github.com/truecharts/charts/compare/import-ics-5.6.0...import-ics-5.8.12) (2024-04-21)
+## [import-ics-5.8.12](https://github.com/truecharts/charts/compare/import-ics-5.6.0...import-ics-5.8.12) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [fileshelter-6.9.12](https://github.com/truecharts/charts/compare/fileshelter-6.7.0...fileshelter-6.9.12) (2024-04-21)
+## [fileshelter-6.9.12](https://github.com/truecharts/charts/compare/fileshelter-6.7.0...fileshelter-6.9.12) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [necesse-5.8.12](https://github.com/truecharts/charts/compare/necesse-5.6.0...necesse-5.8.12) (2024-04-21)
+## [necesse-5.8.12](https://github.com/truecharts/charts/compare/necesse-5.6.0...necesse-5.8.12) (2024-04-22)
 
 ### Chore
 

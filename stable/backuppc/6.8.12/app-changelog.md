@@ -1,6 +1,6 @@
 
 
-## [backuppc-6.8.12](https://github.com/truecharts/charts/compare/backuppc-6.6.0...backuppc-6.8.12) (2024-04-21)
+## [backuppc-6.8.12](https://github.com/truecharts/charts/compare/backuppc-6.6.0...backuppc-6.8.12) (2024-04-22)
 
 ### Chore
 

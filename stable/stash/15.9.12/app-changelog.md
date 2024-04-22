@@ -1,6 +1,6 @@
 
 
-## [stash-15.9.12](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.9.12) (2024-04-21)
+## [stash-15.9.12](https://github.com/truecharts/charts/compare/stash-15.7.0...stash-15.9.12) (2024-04-22)
 
 ### Chore
 

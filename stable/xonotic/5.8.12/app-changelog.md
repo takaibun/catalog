@@ -1,6 +1,6 @@
 
 
-## [xonotic-5.8.12](https://github.com/truecharts/charts/compare/xonotic-5.6.0...xonotic-5.8.12) (2024-04-21)
+## [xonotic-5.8.12](https://github.com/truecharts/charts/compare/xonotic-5.6.0...xonotic-5.8.12) (2024-04-22)
 
 ### Chore
 

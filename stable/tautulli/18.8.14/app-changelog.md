@@ -1,6 +1,6 @@
 
 
-## [tautulli-18.8.14](https://github.com/truecharts/charts/compare/tautulli-18.6.0...tautulli-18.8.14) (2024-04-21)
+## [tautulli-18.8.14](https://github.com/truecharts/charts/compare/tautulli-18.6.0...tautulli-18.8.14) (2024-04-22)
 
 ### Chore
 

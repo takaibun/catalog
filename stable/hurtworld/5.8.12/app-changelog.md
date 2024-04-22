@@ -1,6 +1,6 @@
 
 
-## [hurtworld-5.8.12](https://github.com/truecharts/charts/compare/hurtworld-5.6.0...hurtworld-5.8.12) (2024-04-21)
+## [hurtworld-5.8.12](https://github.com/truecharts/charts/compare/hurtworld-5.6.0...hurtworld-5.8.12) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [bitcoin-node-5.8.12](https://github.com/truecharts/charts/compare/bitcoin-node-5.6.0...bitcoin-node-5.8.12) (2024-04-21)
+## [bitcoin-node-5.8.12](https://github.com/truecharts/charts/compare/bitcoin-node-5.6.0...bitcoin-node-5.8.12) (2024-04-22)
 
 ### Chore
 

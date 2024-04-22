@@ -1,6 +1,6 @@
 
 
-## [auto-yt-dl-5.8.12](https://github.com/truecharts/charts/compare/auto-yt-dl-5.6.0...auto-yt-dl-5.8.12) (2024-04-21)
+## [auto-yt-dl-5.8.12](https://github.com/truecharts/charts/compare/auto-yt-dl-5.6.0...auto-yt-dl-5.8.12) (2024-04-22)
 
 ### Chore
 

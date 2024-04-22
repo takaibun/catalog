@@ -1,6 +1,6 @@
 
 
-## [thelounge-13.8.14](https://github.com/truecharts/charts/compare/thelounge-13.6.0...thelounge-13.8.14) (2024-04-21)
+## [thelounge-13.8.14](https://github.com/truecharts/charts/compare/thelounge-13.6.0...thelounge-13.8.14) (2024-04-22)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [code-server-11.10.12](https://github.com/truecharts/charts/compare/code-server-11.7.0...code-server-11.10.12) (2024-04-21)
+## [code-server-11.10.12](https://github.com/truecharts/charts/compare/code-server-11.7.0...code-server-11.10.12) (2024-04-22)
 
 ### Chore
 

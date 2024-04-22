@@ -1,6 +1,6 @@
 
 
-## [ersatztv-3.8.12](https://github.com/truecharts/charts/compare/ersatztv-3.6.0...ersatztv-3.8.12) (2024-04-21)
+## [ersatztv-3.8.12](https://github.com/truecharts/charts/compare/ersatztv-3.6.0...ersatztv-3.8.12) (2024-04-22)
 
 ### Chore
 

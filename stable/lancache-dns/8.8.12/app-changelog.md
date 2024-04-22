@@ -1,6 +1,6 @@
 
 
-## [lancache-dns-8.8.12](https://github.com/truecharts/charts/compare/lancache-dns-8.6.0...lancache-dns-8.8.12) (2024-04-21)
+## [lancache-dns-8.8.12](https://github.com/truecharts/charts/compare/lancache-dns-8.6.0...lancache-dns-8.8.12) (2024-04-22)
 
 ### Chore
 

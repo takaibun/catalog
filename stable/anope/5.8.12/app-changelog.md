@@ -1,6 +1,6 @@
 
 
-## [anope-5.8.12](https://github.com/truecharts/charts/compare/anope-5.6.0...anope-5.8.12) (2024-04-21)
+## [anope-5.8.12](https://github.com/truecharts/charts/compare/anope-5.6.0...anope-5.8.12) (2024-04-22)
 
 ### Chore
 

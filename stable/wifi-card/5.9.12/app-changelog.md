@@ -1,6 +1,6 @@
 
 
-## [wifi-card-5.9.12](https://github.com/truecharts/charts/compare/wifi-card-5.6.0...wifi-card-5.9.12) (2024-04-21)
+## [wifi-card-5.9.12](https://github.com/truecharts/charts/compare/wifi-card-5.6.0...wifi-card-5.9.12) (2024-04-22)
 
 ### Chore
 

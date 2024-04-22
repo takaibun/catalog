@@ -1,6 +1,6 @@
 
 
-## [photoshow-10.8.12](https://github.com/truecharts/charts/compare/photoshow-10.6.0...photoshow-10.8.12) (2024-04-21)
+## [photoshow-10.8.12](https://github.com/truecharts/charts/compare/photoshow-10.6.0...photoshow-10.8.12) (2024-04-22)
 
 ### Chore
 

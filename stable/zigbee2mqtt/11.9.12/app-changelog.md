@@ -1,6 +1,6 @@
 
 
-## [zigbee2mqtt-11.9.12](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.9.12) (2024-04-21)
+## [zigbee2mqtt-11.9.12](https://github.com/truecharts/charts/compare/zigbee2mqtt-11.7.0...zigbee2mqtt-11.9.12) (2024-04-22)
 
 ### Chore
 

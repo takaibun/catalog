@@ -1,6 +1,6 @@
 
 
-## [debian-apt-mirror-5.8.12](https://github.com/truecharts/charts/compare/debian-apt-mirror-5.6.0...debian-apt-mirror-5.8.12) (2024-04-21)
+## [debian-apt-mirror-5.8.12](https://github.com/truecharts/charts/compare/debian-apt-mirror-5.6.0...debian-apt-mirror-5.8.12) (2024-04-22)
 
 ### Chore
 

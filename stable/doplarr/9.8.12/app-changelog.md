@@ -1,6 +1,6 @@
 
 
-## [doplarr-9.8.12](https://github.com/truecharts/charts/compare/doplarr-9.6.0...doplarr-9.8.12) (2024-04-21)
+## [doplarr-9.8.12](https://github.com/truecharts/charts/compare/doplarr-9.6.0...doplarr-9.8.12) (2024-04-22)
 
 ### Chore
 

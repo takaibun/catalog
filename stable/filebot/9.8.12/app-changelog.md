@@ -1,6 +1,6 @@
 
 
-## [filebot-9.8.12](https://github.com/truecharts/charts/compare/filebot-9.6.0...filebot-9.8.12) (2024-04-21)
+## [filebot-9.8.12](https://github.com/truecharts/charts/compare/filebot-9.6.0...filebot-9.8.12) (2024-04-22)
 
 ### Chore
 

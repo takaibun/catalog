@@ -1,6 +1,6 @@
 
 
-## [audiobookshelf-9.8.12](https://github.com/truecharts/charts/compare/audiobookshelf-9.6.0...audiobookshelf-9.8.12) (2024-04-21)
+## [audiobookshelf-9.8.12](https://github.com/truecharts/charts/compare/audiobookshelf-9.6.0...audiobookshelf-9.8.12) (2024-04-22)
 
 ### Chore
 

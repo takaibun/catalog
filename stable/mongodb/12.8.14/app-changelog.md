@@ -1,6 +1,6 @@
 
 
-## [mongodb-12.8.14](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.14) (2024-04-21)
+## [mongodb-12.8.14](https://github.com/truecharts/charts/compare/mongodb-12.6.0...mongodb-12.8.14) (2024-04-22)
 
 ### Chore
 

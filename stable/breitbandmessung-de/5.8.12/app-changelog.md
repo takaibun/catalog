@@ -1,6 +1,6 @@
 
 
-## [breitbandmessung-de-5.8.12](https://github.com/truecharts/charts/compare/breitbandmessung-de-5.6.0...breitbandmessung-de-5.8.12) (2024-04-21)
+## [breitbandmessung-de-5.8.12](https://github.com/truecharts/charts/compare/breitbandmessung-de-5.6.0...breitbandmessung-de-5.8.12) (2024-04-22)
 
 ### Chore
 

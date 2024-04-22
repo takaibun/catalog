@@ -1,6 +1,6 @@
 
 
-## [hyperion-ng-13.8.12](https://github.com/truecharts/charts/compare/hyperion-ng-13.6.0...hyperion-ng-13.8.12) (2024-04-21)
+## [hyperion-ng-13.8.12](https://github.com/truecharts/charts/compare/hyperion-ng-13.6.0...hyperion-ng-13.8.12) (2024-04-22)
 
 ### Chore
 

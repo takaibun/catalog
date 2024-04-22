@@ -1,6 +1,6 @@
 
 
-## [sickgear-11.8.12](https://github.com/truecharts/charts/compare/sickgear-11.6.0...sickgear-11.8.12) (2024-04-21)
+## [sickgear-11.8.12](https://github.com/truecharts/charts/compare/sickgear-11.6.0...sickgear-11.8.12) (2024-04-22)
 
 ### Chore
 

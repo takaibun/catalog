@@ -1,6 +1,6 @@
 
 
-## [bitcoinwalletgui-5.8.12](https://github.com/truecharts/charts/compare/bitcoinwalletgui-5.6.0...bitcoinwalletgui-5.8.12) (2024-04-21)
+## [bitcoinwalletgui-5.8.12](https://github.com/truecharts/charts/compare/bitcoinwalletgui-5.6.0...bitcoinwalletgui-5.8.12) (2024-04-22)
 
 ### Chore
 

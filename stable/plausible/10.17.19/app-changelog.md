@@ -1,6 +1,6 @@
 
 
-## [plausible-10.17.19](https://github.com/truecharts/charts/compare/plausible-10.11.0...plausible-10.17.19) (2024-04-21)
+## [plausible-10.17.19](https://github.com/truecharts/charts/compare/plausible-10.11.0...plausible-10.17.19) (2024-04-22)
 
 ### Chore
 

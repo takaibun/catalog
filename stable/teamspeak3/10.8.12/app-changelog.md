@@ -1,6 +1,6 @@
 
 
-## [teamspeak3-10.8.12](https://github.com/truecharts/charts/compare/teamspeak3-10.6.0...teamspeak3-10.8.12) (2024-04-21)
+## [teamspeak3-10.8.12](https://github.com/truecharts/charts/compare/teamspeak3-10.6.0...teamspeak3-10.8.12) (2024-04-22)
 
 ### Chore
 

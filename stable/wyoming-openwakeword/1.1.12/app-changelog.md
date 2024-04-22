@@ -1,6 +1,6 @@
 
 
-## [wyoming-openwakeword-1.1.12](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.12) (2024-04-21)
+## [wyoming-openwakeword-1.1.12](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-1.1.12) (2024-04-22)
 
 ### Chore
 

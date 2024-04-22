@@ -1,6 +1,6 @@
 
 
-## [arksurvivalevolved-7.8.12](https://github.com/truecharts/charts/compare/arksurvivalevolved-7.6.0...arksurvivalevolved-7.8.12) (2024-04-21)
+## [arksurvivalevolved-7.8.12](https://github.com/truecharts/charts/compare/arksurvivalevolved-7.6.0...arksurvivalevolved-7.8.12) (2024-04-22)
 
 ### Chore
 

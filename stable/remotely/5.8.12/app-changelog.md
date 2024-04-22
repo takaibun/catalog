@@ -1,6 +1,6 @@
 
 
-## [remotely-5.8.12](https://github.com/truecharts/charts/compare/remotely-5.6.0...remotely-5.8.12) (2024-04-21)
+## [remotely-5.8.12](https://github.com/truecharts/charts/compare/remotely-5.6.0...remotely-5.8.12) (2024-04-22)
 
 ### Chore
 

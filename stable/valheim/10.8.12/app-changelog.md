@@ -1,6 +1,6 @@
 
 
-## [valheim-10.8.12](https://github.com/truecharts/charts/compare/valheim-10.6.0...valheim-10.8.12) (2024-04-21)
+## [valheim-10.8.12](https://github.com/truecharts/charts/compare/valheim-10.6.0...valheim-10.8.12) (2024-04-22)
 
 ### Chore
 

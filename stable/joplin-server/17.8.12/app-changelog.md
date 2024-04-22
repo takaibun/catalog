@@ -1,6 +1,6 @@
 
 
-## [joplin-server-17.8.12](https://github.com/truecharts/charts/compare/joplin-server-17.6.0...joplin-server-17.8.12) (2024-04-21)
+## [joplin-server-17.8.12](https://github.com/truecharts/charts/compare/joplin-server-17.6.0...joplin-server-17.8.12) (2024-04-22)
 
 ### Chore
 

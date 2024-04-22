@@ -1,6 +1,6 @@
 
 
-## [xteve-13.8.12](https://github.com/truecharts/charts/compare/xteve-13.6.0...xteve-13.8.12) (2024-04-21)
+## [xteve-13.8.12](https://github.com/truecharts/charts/compare/xteve-13.6.0...xteve-13.8.12) (2024-04-22)
 
 ### Chore
 

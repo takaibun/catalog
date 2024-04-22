@@ -1,6 +1,6 @@
 
 
-## [wireguard-8.8.12](https://github.com/truecharts/charts/compare/wireguard-8.6.0...wireguard-8.8.12) (2024-04-21)
+## [wireguard-8.8.12](https://github.com/truecharts/charts/compare/wireguard-8.6.0...wireguard-8.8.12) (2024-04-22)
 
 ### Chore
 

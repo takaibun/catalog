@@ -1,6 +1,6 @@
 
 
-## [sinusbot-5.8.12](https://github.com/truecharts/charts/compare/sinusbot-5.6.0...sinusbot-5.8.12) (2024-04-21)
+## [sinusbot-5.8.12](https://github.com/truecharts/charts/compare/sinusbot-5.6.0...sinusbot-5.8.12) (2024-04-22)
 
 ### Chore
 

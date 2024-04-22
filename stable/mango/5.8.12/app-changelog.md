@@ -1,6 +1,6 @@
 
 
-## [mango-5.8.12](https://github.com/truecharts/charts/compare/mango-5.6.0...mango-5.8.12) (2024-04-21)
+## [mango-5.8.12](https://github.com/truecharts/charts/compare/mango-5.6.0...mango-5.8.12) (2024-04-22)
 
 ### Chore
 

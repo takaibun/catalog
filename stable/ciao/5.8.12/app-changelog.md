@@ -1,6 +1,6 @@
 
 
-## [ciao-5.8.12](https://github.com/truecharts/charts/compare/ciao-5.6.0...ciao-5.8.12) (2024-04-21)
+## [ciao-5.8.12](https://github.com/truecharts/charts/compare/ciao-5.6.0...ciao-5.8.12) (2024-04-22)
 
 ### Chore
 

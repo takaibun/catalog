@@ -1,6 +1,6 @@
 
 
-## [tsn-ranksystem-1.5.19](https://github.com/truecharts/charts/compare/tsn-ranksystem-0.0.1...tsn-ranksystem-1.5.19) (2024-04-21)
+## [tsn-ranksystem-1.5.19](https://github.com/truecharts/charts/compare/tsn-ranksystem-0.0.1...tsn-ranksystem-1.5.19) (2024-04-22)
 
 ### Chore
 

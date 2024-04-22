@@ -1,6 +1,6 @@
 
 
-## [arma3exilemod-5.8.12](https://github.com/truecharts/charts/compare/arma3exilemod-5.6.0...arma3exilemod-5.8.12) (2024-04-21)
+## [arma3exilemod-5.8.12](https://github.com/truecharts/charts/compare/arma3exilemod-5.6.0...arma3exilemod-5.8.12) (2024-04-22)
 
 ### Chore
 

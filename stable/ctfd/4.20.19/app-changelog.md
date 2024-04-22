@@ -1,6 +1,6 @@
 
 
-## [ctfd-4.20.19](https://github.com/truecharts/charts/compare/ctfd-4.12.0...ctfd-4.20.19) (2024-04-21)
+## [ctfd-4.20.19](https://github.com/truecharts/charts/compare/ctfd-4.12.0...ctfd-4.20.19) (2024-04-22)
 
 ### Chore
 

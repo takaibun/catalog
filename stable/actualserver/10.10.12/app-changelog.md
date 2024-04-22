@@ -1,6 +1,6 @@
 
 
-## [actualserver-10.10.12](https://github.com/truecharts/charts/compare/actualserver-10.7.0...actualserver-10.10.12) (2024-04-21)
+## [actualserver-10.10.12](https://github.com/truecharts/charts/compare/actualserver-10.7.0...actualserver-10.10.12) (2024-04-22)
 
 ### Chore
 

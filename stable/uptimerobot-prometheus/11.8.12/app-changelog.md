@@ -1,6 +1,6 @@
 
 
-## [uptimerobot-prometheus-11.8.12](https://github.com/truecharts/charts/compare/uptimerobot-prometheus-11.6.0...uptimerobot-prometheus-11.8.12) (2024-04-21)
+## [uptimerobot-prometheus-11.8.12](https://github.com/truecharts/charts/compare/uptimerobot-prometheus-11.6.0...uptimerobot-prometheus-11.8.12) (2024-04-22)
 
 ### Chore
 

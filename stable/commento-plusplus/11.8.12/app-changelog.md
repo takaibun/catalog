@@ -1,6 +1,6 @@
 
 
-## [commento-plusplus-11.8.12](https://github.com/truecharts/charts/compare/commento-plusplus-11.6.0...commento-plusplus-11.8.12) (2024-04-21)
+## [commento-plusplus-11.8.12](https://github.com/truecharts/charts/compare/commento-plusplus-11.6.0...commento-plusplus-11.8.12) (2024-04-22)
 
 ### Chore
 

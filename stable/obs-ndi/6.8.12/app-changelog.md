@@ -1,6 +1,6 @@
 
 
-## [obs-ndi-6.8.12](https://github.com/truecharts/charts/compare/obs-ndi-6.6.0...obs-ndi-6.8.12) (2024-04-21)
+## [obs-ndi-6.8.12](https://github.com/truecharts/charts/compare/obs-ndi-6.6.0...obs-ndi-6.8.12) (2024-04-22)
 
 ### Chore
 
