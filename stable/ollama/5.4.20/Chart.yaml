@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Network-Web
+  truecharts.org/category: AI
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: latest
+appVersion: 0.1.32
 dependencies:
   - name: common
     version: 20.3.11
@@ -17,20 +17,23 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Alternative Imgur front-end
-home: https://truecharts.org/charts/stable/rimgo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
+description: Get up and running with large language models locally.
+home: https://truecharts.org/charts/stable/ollama
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp
 keywords:
-  - rimgo
-  - Network-Web
+  - ollama
+  - language-models
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rimgo
+name: ollama
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
-  - https://quay.io/pussthecatorg/rimgo
+  - https://github.com/ollama/ollama
+  - https://github.com/open-webui/open-webui
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
+  - https://hub.docker.com/r/ollama/ollama
+  - https://ghcr.io/open-webui/open-webui
 type: application
-version: 6.8.34
+version: 5.4.20

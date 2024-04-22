@@ -1,10 +1,12 @@
 
 
-## [rsshub-12.10.40](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.10.40) (2024-04-21)
+## [rsshub-12.10.42](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-12.10.42) (2024-04-22)
 
 ### Chore
 
 
+
+- bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
@@ -13,6 +15,8 @@
 - bump everything to regenerate readme's and site index
 
 - bump charts to ensure new icons are released
+
+- update container image diygod/rsshub to latest[@fa4c120](https://github.com/fa4c120) by renovate ([#21124](https://github.com/truecharts/charts/issues/21124))
 
 - update container image diygod/rsshub to latest[@6d1338f](https://github.com/6d1338f) by renovate ([#21091](https://github.com/truecharts/charts/issues/21091))
 

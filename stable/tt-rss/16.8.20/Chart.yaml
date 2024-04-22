@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: games
+  truecharts.org/category: rss
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 1.9.1
+appVersion: latest
 dependencies:
   - name: common
     version: 20.3.11
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A private Among Us server
-home: https://truecharts.org/charts/stable/impostor-server
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/impostor-server.webp
+description: Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator.
+home: https://truecharts.org/charts/stable/tt-rss
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tt-rss.webp
 keywords:
-  - impostor-server
+  - tt-rss
+  - rss
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: impostor-server
+name: tt-rss
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/impostor-server
-  - https://hub.docker.com/r/aeonlucid/impostor
+  - https://git.tt-rss.org/fox/tt-rss
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tt-rss
+  - https://hub.docker.com/r/cthulhoo/ttrss-fpm-pgsql-static
+  - https://hub.docker.com/r/cthulhoo/ttrss-web-nginx
 type: application
-version: 8.8.11
+version: 16.8.20

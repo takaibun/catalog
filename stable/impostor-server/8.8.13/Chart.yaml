@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: AI
+  truecharts.org/category: games
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 0.1.32
+appVersion: 1.9.1
 dependencies:
   - name: common
     version: 20.3.11
@@ -17,23 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Get up and running with large language models locally.
-home: https://truecharts.org/charts/stable/ollama
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp
+description: A private Among Us server
+home: https://truecharts.org/charts/stable/impostor-server
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/impostor-server.webp
 keywords:
-  - ollama
-  - language-models
+  - impostor-server
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ollama
+name: impostor-server
 sources:
-  - https://github.com/ollama/ollama
-  - https://github.com/open-webui/open-webui
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
-  - https://ghcr.io/open-webui/open-webui
-  - https://hub.docker.com/r/ollama/ollama
+  - https://github.com/truecharts/charts/tree/master/charts/stable/impostor-server
+  - https://hub.docker.com/r/aeonlucid/impostor
 type: application
-version: 5.4.18
+version: 8.8.13
