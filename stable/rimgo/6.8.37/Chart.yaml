@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: rss
+  truecharts.org/category: Network-Web
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
@@ -17,22 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator.
-home: https://truecharts.org/charts/stable/tt-rss
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/tt-rss.webp
+description: Alternative Imgur front-end
+home: https://truecharts.org/charts/stable/rimgo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
 keywords:
-  - tt-rss
-  - rss
-kubeVersion: ">=1.24.0-0"
+  - rimgo
+  - Network-Web
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: tt-rss
+name: rimgo
 sources:
-  - https://git.tt-rss.org/fox/tt-rss
-  - https://github.com/truecharts/charts/tree/master/charts/stable/tt-rss
-  - https://hub.docker.com/r/cthulhoo/ttrss-fpm-pgsql-static
-  - https://hub.docker.com/r/cthulhoo/ttrss-web-nginx
+  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
+  - https://quay.io/pussthecatorg/rimgo
 type: application
-version: 16.8.18
+version: 6.8.37

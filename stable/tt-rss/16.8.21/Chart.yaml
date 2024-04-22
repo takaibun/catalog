@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: incubator
+  truecharts.org/category: rss
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Duckdns is a free service which will point a DNS (sub domains of duckdns.org) to an IP of your choice.
-home: https://truecharts.org/charts/stable/duckdns
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/duckdns.webp
+description: Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator.
+home: https://truecharts.org/charts/stable/tt-rss
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tt-rss.webp
 keywords:
-  - duckdns
+  - tt-rss
+  - rss
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: duckdns
+name: tt-rss
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/duckdns
-  - https://ghcr.io/linuxserver/duckdns
+  - https://git.tt-rss.org/fox/tt-rss
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tt-rss
+  - https://hub.docker.com/r/cthulhoo/ttrss-fpm-pgsql-static
+  - https://hub.docker.com/r/cthulhoo/ttrss-web-nginx
 type: application
-version: 9.8.12
+version: 16.8.21
