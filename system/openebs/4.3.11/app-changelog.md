@@ -1,6 +1,6 @@
 
 
-## [openebs-4.3.9](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.9) (2024-04-21)
+## [openebs-4.3.11](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.11) (2024-04-22)
 
 ### Chore
 
@@ -8,15 +8,17 @@
 
 - bump charts to ensure new icons are released
 
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
 - bump charts to release new docs to fix broken links
 
 - bump everything to regenerate readme's and site index
 
 - ensure release is pushed
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
-- update helm general minor by renovate ([#20849](https://github.com/truecharts/charts/issues/20849))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -26,9 +28,9 @@
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update ignored updates to v20.3.10[@c2f262c](https://github.com/c2f262c) by renovate ([#21034](https://github.com/truecharts/charts/issues/21034))
+- update helm general minor by renovate ([#20849](https://github.com/truecharts/charts/issues/20849))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update ignored updates to v20.3.10[@c2f262c](https://github.com/c2f262c) by renovate ([#21034](https://github.com/truecharts/charts/issues/21034))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
