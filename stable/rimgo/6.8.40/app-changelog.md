@@ -1,6 +1,6 @@
 
 
-## [rimgo-6.8.38](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.8.38) (2024-04-22)
+## [rimgo-6.8.40](https://github.com/truecharts/charts/compare/rimgo-6.6.0...rimgo-6.8.40) (2024-04-23)
 
 ### Chore
 
@@ -15,6 +15,10 @@
 - bump everything to regenerate readme's and site index
 
 - bump charts to ensure new icons are released
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@3e0318d](https://github.com/3e0318d) by renovate ([#20546](https://github.com/truecharts/charts/issues/20546))
+
+- update container image quay.io/pussthecatorg/rimgo to latest[@e6d1be8](https://github.com/e6d1be8) by renovate ([#20973](https://github.com/truecharts/charts/issues/20973))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@f2c5a2b](https://github.com/f2c5a2b) by renovate ([#21151](https://github.com/truecharts/charts/issues/21151))
 
@@ -38,7 +42,7 @@
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@b7a27cc](https://github.com/b7a27cc) by renovate ([#20985](https://github.com/truecharts/charts/issues/20985))
 
-- update container image quay.io/pussthecatorg/rimgo to latest[@e6d1be8](https://github.com/e6d1be8) by renovate ([#20973](https://github.com/truecharts/charts/issues/20973))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@a43a1fc](https://github.com/a43a1fc) by renovate ([#20957](https://github.com/truecharts/charts/issues/20957))
 
@@ -60,7 +64,7 @@
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@a051bae](https://github.com/a051bae) by renovate ([#20754](https://github.com/truecharts/charts/issues/20754))
 
-- update container image quay.io/pussthecatorg/rimgo to latest[@8baf906](https://github.com/8baf906) by renovate ([#20745](https://github.com/truecharts/charts/issues/20745))
+- update container image quay.io/pussthecatorg/rimgo to latest[@95b51e2](https://github.com/95b51e2) by renovate ([#20511](https://github.com/truecharts/charts/issues/20511))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@05e22be](https://github.com/05e22be) by renovate ([#20697](https://github.com/truecharts/charts/issues/20697))
 
@@ -74,13 +78,13 @@
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@d1b92be](https://github.com/d1b92be) by renovate ([#20578](https://github.com/truecharts/charts/issues/20578))
 
-- update container image quay.io/pussthecatorg/rimgo to latest[@3e0318d](https://github.com/3e0318d) by renovate ([#20546](https://github.com/truecharts/charts/issues/20546))
+- update container image quay.io/pussthecatorg/rimgo to latest[@890f202](https://github.com/890f202) by renovate ([#21188](https://github.com/truecharts/charts/issues/21188))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image quay.io/pussthecatorg/rimgo to latest[@b9cc1b7](https://github.com/b9cc1b7) by renovate ([#20260](https://github.com/truecharts/charts/issues/20260))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image quay.io/pussthecatorg/rimgo to latest[@24c69d5](https://github.com/24c69d5) by renovate ([#21166](https://github.com/truecharts/charts/issues/21166))
 
-- update container image quay.io/pussthecatorg/rimgo to latest[@95b51e2](https://github.com/95b51e2) by renovate ([#20511](https://github.com/truecharts/charts/issues/20511))
+- update container image quay.io/pussthecatorg/rimgo to latest[@8baf906](https://github.com/8baf906) by renovate ([#20745](https://github.com/truecharts/charts/issues/20745))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@5fc093e](https://github.com/5fc093e) by renovate ([#20399](https://github.com/truecharts/charts/issues/20399))
 
@@ -92,7 +96,7 @@
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@87e561b](https://github.com/87e561b) by renovate ([#20311](https://github.com/truecharts/charts/issues/20311))
 
-- update container image quay.io/pussthecatorg/rimgo to latest[@b9cc1b7](https://github.com/b9cc1b7) by renovate ([#20260](https://github.com/truecharts/charts/issues/20260))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image quay.io/pussthecatorg/rimgo to latest[@8a64166](https://github.com/8a64166) by renovate ([#20215](https://github.com/truecharts/charts/issues/20215))
 
