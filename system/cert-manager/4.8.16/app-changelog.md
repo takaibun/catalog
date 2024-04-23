@@ -1,6 +1,6 @@
 
 
-## [cert-manager-4.8.16](https://github.com/truecharts/charts/compare/cert-manager-4.6.0...cert-manager-4.8.16) (2024-04-22)
+## [cert-manager-4.8.16](https://github.com/truecharts/charts/compare/cert-manager-4.6.0...cert-manager-4.8.16) (2024-04-23)
 
 ### Chore
 

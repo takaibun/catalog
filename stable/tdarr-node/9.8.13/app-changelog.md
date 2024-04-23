@@ -1,6 +1,6 @@
 
 
-## [tdarr-node-9.8.13](https://github.com/truecharts/charts/compare/tdarr-node-9.6.0...tdarr-node-9.8.13) (2024-04-22)
+## [tdarr-node-9.8.13](https://github.com/truecharts/charts/compare/tdarr-node-9.6.0...tdarr-node-9.8.13) (2024-04-23)
 
 ### Chore
 

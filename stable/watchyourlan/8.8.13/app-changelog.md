@@ -1,6 +1,6 @@
 
 
-## [watchyourlan-8.8.13](https://github.com/truecharts/charts/compare/watchyourlan-8.6.0...watchyourlan-8.8.13) (2024-04-22)
+## [watchyourlan-8.8.13](https://github.com/truecharts/charts/compare/watchyourlan-8.6.0...watchyourlan-8.8.13) (2024-04-23)
 
 ### Chore
 

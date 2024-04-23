@@ -1,6 +1,6 @@
 
 
-## [dispatch-5.8.13](https://github.com/truecharts/charts/compare/dispatch-5.6.0...dispatch-5.8.13) (2024-04-22)
+## [dispatch-5.8.13](https://github.com/truecharts/charts/compare/dispatch-5.6.0...dispatch-5.8.13) (2024-04-23)
 
 ### Chore
 

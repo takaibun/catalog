@@ -1,6 +1,6 @@
 
 
-## [mindustry-5.8.13](https://github.com/truecharts/charts/compare/mindustry-5.6.0...mindustry-5.8.13) (2024-04-22)
+## [mindustry-5.8.13](https://github.com/truecharts/charts/compare/mindustry-5.6.0...mindustry-5.8.13) (2024-04-23)
 
 ### Chore
 

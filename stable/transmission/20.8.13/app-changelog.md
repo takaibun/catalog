@@ -1,6 +1,6 @@
 
 
-## [transmission-20.8.13](https://github.com/truecharts/charts/compare/transmission-20.6.0...transmission-20.8.13) (2024-04-22)
+## [transmission-20.8.13](https://github.com/truecharts/charts/compare/transmission-20.6.0...transmission-20.8.13) (2024-04-23)
 
 ### Chore
 

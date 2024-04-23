@@ -1,6 +1,6 @@
 
 
-## [hasty-paste-6.10.19](https://github.com/truecharts/charts/compare/hasty-paste-6.6.0...hasty-paste-6.10.19) (2024-04-22)
+## [hasty-paste-6.10.19](https://github.com/truecharts/charts/compare/hasty-paste-6.6.0...hasty-paste-6.10.19) (2024-04-23)
 
 ### Chore
 

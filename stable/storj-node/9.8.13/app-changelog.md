@@ -1,6 +1,6 @@
 
 
-## [storj-node-9.8.13](https://github.com/truecharts/charts/compare/storj-node-9.6.0...storj-node-9.8.13) (2024-04-22)
+## [storj-node-9.8.13](https://github.com/truecharts/charts/compare/storj-node-9.6.0...storj-node-9.8.13) (2024-04-23)
 
 ### Chore
 

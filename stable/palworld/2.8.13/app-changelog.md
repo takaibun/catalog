@@ -1,6 +1,6 @@
 
 
-## [palworld-2.8.13](https://github.com/truecharts/charts/compare/palworld-2.6.0...palworld-2.8.13) (2024-04-22)
+## [palworld-2.8.13](https://github.com/truecharts/charts/compare/palworld-2.6.0...palworld-2.8.13) (2024-04-23)
 
 ### Chore
 

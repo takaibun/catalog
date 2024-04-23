@@ -1,6 +1,6 @@
 
 
-## [domoticz-10.8.13](https://github.com/truecharts/charts/compare/domoticz-10.6.0...domoticz-10.8.13) (2024-04-22)
+## [domoticz-10.8.13](https://github.com/truecharts/charts/compare/domoticz-10.6.0...domoticz-10.8.13) (2024-04-23)
 
 ### Chore
 

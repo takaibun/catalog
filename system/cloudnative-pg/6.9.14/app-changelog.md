@@ -1,6 +1,6 @@
 
 
-## [cloudnative-pg-6.9.14](https://github.com/truecharts/charts/compare/cloudnative-pg-6.7.0...cloudnative-pg-6.9.14) (2024-04-22)
+## [cloudnative-pg-6.9.14](https://github.com/truecharts/charts/compare/cloudnative-pg-6.7.0...cloudnative-pg-6.9.14) (2024-04-23)
 
 ### Chore
 

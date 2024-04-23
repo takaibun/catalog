@@ -1,6 +1,6 @@
 
 
-## [baserow-12.11.19](https://github.com/truecharts/charts/compare/baserow-12.7.0...baserow-12.11.19) (2024-04-22)
+## [baserow-12.11.19](https://github.com/truecharts/charts/compare/baserow-12.7.0...baserow-12.11.19) (2024-04-23)
 
 ### Chore
 

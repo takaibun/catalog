@@ -1,6 +1,6 @@
 
 
-## [left4dead-5.8.13](https://github.com/truecharts/charts/compare/left4dead-5.6.0...left4dead-5.8.13) (2024-04-22)
+## [left4dead-5.8.13](https://github.com/truecharts/charts/compare/left4dead-5.6.0...left4dead-5.8.13) (2024-04-23)
 
 ### Chore
 

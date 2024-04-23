@@ -1,6 +1,6 @@
 
 
-## [shoko-server-9.8.13](https://github.com/truecharts/charts/compare/shoko-server-9.6.0...shoko-server-9.8.13) (2024-04-22)
+## [shoko-server-9.8.13](https://github.com/truecharts/charts/compare/shoko-server-9.6.0...shoko-server-9.8.13) (2024-04-23)
 
 ### Chore
 

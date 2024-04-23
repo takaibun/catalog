@@ -1,6 +1,6 @@
 
 
-## [seafile-5.15.21](https://github.com/truecharts/charts/compare/seafile-5.9.0...seafile-5.15.21) (2024-04-22)
+## [seafile-5.15.21](https://github.com/truecharts/charts/compare/seafile-5.9.0...seafile-5.15.21) (2024-04-23)
 
 ### Chore
 

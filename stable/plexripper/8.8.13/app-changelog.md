@@ -1,6 +1,6 @@
 
 
-## [plexripper-8.8.13](https://github.com/truecharts/charts/compare/plexripper-8.6.0...plexripper-8.8.13) (2024-04-22)
+## [plexripper-8.8.13](https://github.com/truecharts/charts/compare/plexripper-8.6.0...plexripper-8.8.13) (2024-04-23)
 
 ### Chore
 

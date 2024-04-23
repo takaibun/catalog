@@ -1,6 +1,6 @@
 
 
-## [ntfy-9.10.13](https://github.com/truecharts/charts/compare/ntfy-9.7.0...ntfy-9.10.13) (2024-04-22)
+## [ntfy-9.10.13](https://github.com/truecharts/charts/compare/ntfy-9.7.0...ntfy-9.10.13) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [webp-server-5.8.15](https://github.com/truecharts/charts/compare/webp-server-5.6.0...webp-server-5.8.15) (2024-04-22)
+## [webp-server-5.8.15](https://github.com/truecharts/charts/compare/webp-server-5.6.0...webp-server-5.8.15) (2024-04-23)
 
 ### Chore
 

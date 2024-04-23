@@ -1,6 +1,6 @@
 
 
-## [namecheap-ddns-5.8.13](https://github.com/truecharts/charts/compare/namecheap-ddns-5.6.0...namecheap-ddns-5.8.13) (2024-04-22)
+## [namecheap-ddns-5.8.13](https://github.com/truecharts/charts/compare/namecheap-ddns-5.6.0...namecheap-ddns-5.8.13) (2024-04-23)
 
 ### Chore
 

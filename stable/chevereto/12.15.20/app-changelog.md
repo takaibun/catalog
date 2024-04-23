@@ -1,6 +1,6 @@
 
 
-## [chevereto-12.15.20](https://github.com/truecharts/charts/compare/chevereto-12.9.0...chevereto-12.15.20) (2024-04-22)
+## [chevereto-12.15.20](https://github.com/truecharts/charts/compare/chevereto-12.9.0...chevereto-12.15.20) (2024-04-23)
 
 ### Chore
 

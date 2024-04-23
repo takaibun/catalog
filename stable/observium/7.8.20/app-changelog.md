@@ -1,6 +1,6 @@
 
 
-## [observium-7.8.20](https://github.com/truecharts/charts/compare/observium-7.2.0...observium-7.8.20) (2024-04-22)
+## [observium-7.8.20](https://github.com/truecharts/charts/compare/observium-7.2.0...observium-7.8.20) (2024-04-23)
 
 ### Chore
 

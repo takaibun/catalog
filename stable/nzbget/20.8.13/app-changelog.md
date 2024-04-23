@@ -1,6 +1,6 @@
 
 
-## [nzbget-20.8.13](https://github.com/truecharts/charts/compare/nzbget-20.6.0...nzbget-20.8.13) (2024-04-22)
+## [nzbget-20.8.13](https://github.com/truecharts/charts/compare/nzbget-20.6.0...nzbget-20.8.13) (2024-04-23)
 
 ### Chore
 

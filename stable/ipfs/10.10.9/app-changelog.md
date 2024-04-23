@@ -1,6 +1,6 @@
 
 
-## [ipfs-10.10.9](https://github.com/truecharts/charts/compare/ipfs-10.7.0...ipfs-10.10.9) (2024-04-22)
+## [ipfs-10.10.9](https://github.com/truecharts/charts/compare/ipfs-10.7.0...ipfs-10.10.9) (2024-04-23)
 
 ### Chore
 

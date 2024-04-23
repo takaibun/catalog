@@ -1,6 +1,6 @@
 
 
-## [cloudflared-10.10.11](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.11) (2024-04-22)
+## [cloudflared-10.10.11](https://github.com/truecharts/charts/compare/cloudflared-10.6.0...cloudflared-10.10.11) (2024-04-23)
 
 ### Chore
 

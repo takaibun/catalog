@@ -1,6 +1,6 @@
 
 
-## [komga-13.9.7](https://github.com/truecharts/charts/compare/komga-13.6.0...komga-13.9.7) (2024-04-22)
+## [komga-13.9.7](https://github.com/truecharts/charts/compare/komga-13.6.0...komga-13.9.7) (2024-04-23)
 
 ### Chore
 

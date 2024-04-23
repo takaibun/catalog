@@ -1,6 +1,6 @@
 
 
-## [ddclient-9.8.16](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.16) (2024-04-22)
+## [ddclient-9.8.16](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-9.8.16) (2024-04-23)
 
 ### Chore
 

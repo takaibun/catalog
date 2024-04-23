@@ -1,6 +1,6 @@
 
 
-## [beets-11.8.15](https://github.com/truecharts/charts/compare/beets-11.6.0...beets-11.8.15) (2024-04-22)
+## [beets-11.8.15](https://github.com/truecharts/charts/compare/beets-11.6.0...beets-11.8.15) (2024-04-23)
 
 ### Chore
 

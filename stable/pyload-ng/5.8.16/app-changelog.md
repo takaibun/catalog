@@ -1,6 +1,6 @@
 
 
-## [pyload-ng-5.8.16](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.8.16) (2024-04-22)
+## [pyload-ng-5.8.16](https://github.com/truecharts/charts/compare/pyload-ng-5.6.0...pyload-ng-5.8.16) (2024-04-23)
 
 ### Chore
 

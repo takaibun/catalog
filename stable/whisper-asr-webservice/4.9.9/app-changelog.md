@@ -1,6 +1,6 @@
 
 
-## [whisper-asr-webservice-4.9.9](https://github.com/truecharts/charts/compare/whisper-asr-webservice-4.6.0...whisper-asr-webservice-4.9.9) (2024-04-22)
+## [whisper-asr-webservice-4.9.9](https://github.com/truecharts/charts/compare/whisper-asr-webservice-4.6.0...whisper-asr-webservice-4.9.9) (2024-04-23)
 
 ### Chore
 

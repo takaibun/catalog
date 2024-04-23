@@ -1,6 +1,6 @@
 
 
-## [libreddit-8.8.13](https://github.com/truecharts/charts/compare/libreddit-8.6.0...libreddit-8.8.13) (2024-04-22)
+## [libreddit-8.8.13](https://github.com/truecharts/charts/compare/libreddit-8.6.0...libreddit-8.8.13) (2024-04-23)
 
 ### Chore
 

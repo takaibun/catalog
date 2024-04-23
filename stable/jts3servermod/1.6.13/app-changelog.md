@@ -1,6 +1,6 @@
 
 
-## [jts3servermod-1.6.13](https://github.com/truecharts/charts/compare/jts3servermod-1.4.0...jts3servermod-1.6.13) (2024-04-22)
+## [jts3servermod-1.6.13](https://github.com/truecharts/charts/compare/jts3servermod-1.4.0...jts3servermod-1.6.13) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [dayofdefeatsource-5.8.13](https://github.com/truecharts/charts/compare/dayofdefeatsource-5.6.0...dayofdefeatsource-5.8.13) (2024-04-22)
+## [dayofdefeatsource-5.8.13](https://github.com/truecharts/charts/compare/dayofdefeatsource-5.6.0...dayofdefeatsource-5.8.13) (2024-04-23)
 
 ### Chore
 

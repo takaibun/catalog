@@ -1,6 +1,6 @@
 
 
-## [tsmuxer-9.8.13](https://github.com/truecharts/charts/compare/tsmuxer-9.6.0...tsmuxer-9.8.13) (2024-04-22)
+## [tsmuxer-9.8.13](https://github.com/truecharts/charts/compare/tsmuxer-9.6.0...tsmuxer-9.8.13) (2024-04-23)
 
 ### Chore
 

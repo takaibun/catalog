@@ -1,6 +1,6 @@
 
 
-## [hexchat-5.8.14](https://github.com/truecharts/charts/compare/hexchat-5.6.0...hexchat-5.8.14) (2024-04-22)
+## [hexchat-5.8.14](https://github.com/truecharts/charts/compare/hexchat-5.6.0...hexchat-5.8.14) (2024-04-23)
 
 ### Chore
 

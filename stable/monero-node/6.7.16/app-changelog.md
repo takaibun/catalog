@@ -1,6 +1,6 @@
 
 
-## [monero-node-6.7.16](https://github.com/truecharts/charts/compare/monero-node-6.5.0...monero-node-6.7.16) (2024-04-22)
+## [monero-node-6.7.16](https://github.com/truecharts/charts/compare/monero-node-6.5.0...monero-node-6.7.16) (2024-04-23)
 
 ### Chore
 

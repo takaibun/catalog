@@ -1,6 +1,6 @@
 
 
-## [spotweb-12.8.13](https://github.com/truecharts/charts/compare/spotweb-12.6.0...spotweb-12.8.13) (2024-04-22)
+## [spotweb-12.8.13](https://github.com/truecharts/charts/compare/spotweb-12.6.0...spotweb-12.8.13) (2024-04-23)
 
 ### Chore
 

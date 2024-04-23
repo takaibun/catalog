@@ -1,6 +1,6 @@
 
 
-## [linkwallet-5.8.13](https://github.com/truecharts/charts/compare/linkwallet-5.6.0...linkwallet-5.8.13) (2024-04-22)
+## [linkwallet-5.8.13](https://github.com/truecharts/charts/compare/linkwallet-5.6.0...linkwallet-5.8.13) (2024-04-23)
 
 ### Chore
 

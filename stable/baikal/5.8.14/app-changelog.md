@@ -1,6 +1,6 @@
 
 
-## [baikal-5.8.14](https://github.com/truecharts/charts/compare/baikal-5.6.0...baikal-5.8.14) (2024-04-22)
+## [baikal-5.8.14](https://github.com/truecharts/charts/compare/baikal-5.6.0...baikal-5.8.14) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [mc-router-4.8.14](https://github.com/truecharts/charts/compare/mc-router-4.6.0...mc-router-4.8.14) (2024-04-22)
+## [mc-router-4.8.14](https://github.com/truecharts/charts/compare/mc-router-4.6.0...mc-router-4.8.14) (2024-04-23)
 
 ### Chore
 

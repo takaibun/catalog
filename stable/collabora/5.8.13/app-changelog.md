@@ -1,6 +1,6 @@
 
 
-## [collabora-5.8.13](https://github.com/truecharts/charts/compare/collabora-5.6.0...collabora-5.8.13) (2024-04-22)
+## [collabora-5.8.13](https://github.com/truecharts/charts/compare/collabora-5.6.0...collabora-5.8.13) (2024-04-23)
 
 ### Chore
 

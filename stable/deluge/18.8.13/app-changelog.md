@@ -1,6 +1,6 @@
 
 
-## [deluge-18.8.13](https://github.com/truecharts/charts/compare/deluge-18.6.0...deluge-18.8.13) (2024-04-22)
+## [deluge-18.8.13](https://github.com/truecharts/charts/compare/deluge-18.6.0...deluge-18.8.13) (2024-04-23)
 
 ### Chore
 

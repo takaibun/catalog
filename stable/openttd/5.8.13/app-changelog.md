@@ -1,6 +1,6 @@
 
 
-## [openttd-5.8.13](https://github.com/truecharts/charts/compare/openttd-5.6.0...openttd-5.8.13) (2024-04-22)
+## [openttd-5.8.13](https://github.com/truecharts/charts/compare/openttd-5.6.0...openttd-5.8.13) (2024-04-23)
 
 ### Chore
 

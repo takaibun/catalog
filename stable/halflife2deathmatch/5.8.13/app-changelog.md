@@ -1,6 +1,6 @@
 
 
-## [halflife2deathmatch-5.8.13](https://github.com/truecharts/charts/compare/halflife2deathmatch-5.6.0...halflife2deathmatch-5.8.13) (2024-04-22)
+## [halflife2deathmatch-5.8.13](https://github.com/truecharts/charts/compare/halflife2deathmatch-5.6.0...halflife2deathmatch-5.8.13) (2024-04-23)
 
 ### Chore
 

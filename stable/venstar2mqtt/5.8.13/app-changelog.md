@@ -1,6 +1,6 @@
 
 
-## [venstar2mqtt-5.8.13](https://github.com/truecharts/charts/compare/venstar2mqtt-5.6.0...venstar2mqtt-5.8.13) (2024-04-22)
+## [venstar2mqtt-5.8.13](https://github.com/truecharts/charts/compare/venstar2mqtt-5.6.0...venstar2mqtt-5.8.13) (2024-04-23)
 
 ### Chore
 

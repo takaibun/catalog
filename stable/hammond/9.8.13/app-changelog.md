@@ -1,6 +1,6 @@
 
 
-## [hammond-9.8.13](https://github.com/truecharts/charts/compare/hammond-9.6.0...hammond-9.8.13) (2024-04-22)
+## [hammond-9.8.13](https://github.com/truecharts/charts/compare/hammond-9.6.0...hammond-9.8.13) (2024-04-23)
 
 ### Chore
 

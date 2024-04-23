@@ -1,6 +1,6 @@
 
 
-## [timetagger-6.6.13](https://github.com/truecharts/charts/compare/timetagger-6.4.0...timetagger-6.6.13) (2024-04-22)
+## [timetagger-6.6.13](https://github.com/truecharts/charts/compare/timetagger-6.4.0...timetagger-6.6.13) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [custom-app-12.8.13](https://github.com/truecharts/charts/compare/custom-app-12.6.0...custom-app-12.8.13) (2024-04-22)
+## [custom-app-12.8.13](https://github.com/truecharts/charts/compare/custom-app-12.6.0...custom-app-12.8.13) (2024-04-23)
 
 ### Chore
 

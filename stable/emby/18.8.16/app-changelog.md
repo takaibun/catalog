@@ -1,6 +1,6 @@
 
 
-## [emby-18.8.16](https://github.com/truecharts/charts/compare/emby-18.6.0...emby-18.8.16) (2024-04-22)
+## [emby-18.8.16](https://github.com/truecharts/charts/compare/emby-18.6.0...emby-18.8.16) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [makemkv-10.8.13](https://github.com/truecharts/charts/compare/makemkv-10.6.0...makemkv-10.8.13) (2024-04-22)
+## [makemkv-10.8.13](https://github.com/truecharts/charts/compare/makemkv-10.6.0...makemkv-10.8.13) (2024-04-23)
 
 ### Chore
 

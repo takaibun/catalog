@@ -1,6 +1,6 @@
 
 
-## [googlephotossync-6.1.13](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.1.13) (2024-04-22)
+## [googlephotossync-6.1.13](https://github.com/truecharts/charts/compare/googlephotossync-5.6.0...googlephotossync-6.1.13) (2024-04-23)
 
 ### Chore
 

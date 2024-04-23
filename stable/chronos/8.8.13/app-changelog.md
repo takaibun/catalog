@@ -1,6 +1,6 @@
 
 
-## [chronos-8.8.13](https://github.com/truecharts/charts/compare/chronos-8.6.0...chronos-8.8.13) (2024-04-22)
+## [chronos-8.8.13](https://github.com/truecharts/charts/compare/chronos-8.6.0...chronos-8.8.13) (2024-04-23)
 
 ### Chore
 

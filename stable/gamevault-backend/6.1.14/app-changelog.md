@@ -1,6 +1,6 @@
 
 
-## [gamevault-backend-6.1.14](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.1.14) (2024-04-22)
+## [gamevault-backend-6.1.14](https://github.com/truecharts/charts/compare/gamevault-backend-5.6.0...gamevault-backend-6.1.14) (2024-04-23)
 
 ### Chore
 

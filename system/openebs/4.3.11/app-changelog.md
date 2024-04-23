@@ -1,6 +1,6 @@
 
 
-## [openebs-4.3.11](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.11) (2024-04-22)
+## [openebs-4.3.11](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.11) (2024-04-23)
 
 ### Chore
 

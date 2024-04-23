@@ -1,6 +1,6 @@
 
 
-## [twofauth-1.6.13](https://github.com/truecharts/charts/compare/twofauth-1.3.0...twofauth-1.6.13) (2024-04-22)
+## [twofauth-1.6.13](https://github.com/truecharts/charts/compare/twofauth-1.3.0...twofauth-1.6.13) (2024-04-23)
 
 ### Chore
 

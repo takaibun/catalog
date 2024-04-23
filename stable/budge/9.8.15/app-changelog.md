@@ -1,6 +1,6 @@
 
 
-## [budge-9.8.15](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.8.15) (2024-04-22)
+## [budge-9.8.15](https://github.com/truecharts/charts/compare/budge-9.6.0...budge-9.8.15) (2024-04-23)
 
 ### Chore
 

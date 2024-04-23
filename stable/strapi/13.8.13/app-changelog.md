@@ -1,6 +1,6 @@
 
 
-## [strapi-13.8.13](https://github.com/truecharts/charts/compare/strapi-13.6.0...strapi-13.8.13) (2024-04-22)
+## [strapi-13.8.13](https://github.com/truecharts/charts/compare/strapi-13.6.0...strapi-13.8.13) (2024-04-23)
 
 ### Chore
 

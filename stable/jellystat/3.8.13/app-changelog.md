@@ -1,6 +1,6 @@
 
 
-## [jellystat-3.8.13](https://github.com/truecharts/charts/compare/jellystat-3.6.0...jellystat-3.8.13) (2024-04-22)
+## [jellystat-3.8.13](https://github.com/truecharts/charts/compare/jellystat-3.6.0...jellystat-3.8.13) (2024-04-23)
 
 ### Chore
 

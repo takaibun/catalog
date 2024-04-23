@@ -1,6 +1,6 @@
 
 
-## [haste-server-13.8.13](https://github.com/truecharts/charts/compare/haste-server-13.6.0...haste-server-13.8.13) (2024-04-22)
+## [haste-server-13.8.13](https://github.com/truecharts/charts/compare/haste-server-13.6.0...haste-server-13.8.13) (2024-04-23)
 
 ### Chore
 

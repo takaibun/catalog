@@ -1,6 +1,6 @@
 
 
-## [factorio-7.8.15](https://github.com/truecharts/charts/compare/factorio-7.6.0...factorio-7.8.15) (2024-04-22)
+## [factorio-7.8.15](https://github.com/truecharts/charts/compare/factorio-7.6.0...factorio-7.8.15) (2024-04-23)
 
 ### Chore
 

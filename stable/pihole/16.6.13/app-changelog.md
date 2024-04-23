@@ -1,6 +1,6 @@
 
 
-## [pihole-16.6.13](https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.6.13) (2024-04-22)
+## [pihole-16.6.13](https://github.com/truecharts/charts/compare/pihole-16.3.0...pihole-16.6.13) (2024-04-23)
 
 ### Chore
 

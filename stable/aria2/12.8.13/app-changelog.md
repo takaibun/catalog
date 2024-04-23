@@ -1,6 +1,6 @@
 
 
-## [aria2-12.8.13](https://github.com/truecharts/charts/compare/aria2-12.6.0...aria2-12.8.13) (2024-04-22)
+## [aria2-12.8.13](https://github.com/truecharts/charts/compare/aria2-12.6.0...aria2-12.8.13) (2024-04-23)
 
 ### Chore
 

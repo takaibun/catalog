@@ -1,6 +1,6 @@
 
 
-## [plex-utills-8.8.13](https://github.com/truecharts/charts/compare/plex-utills-8.6.0...plex-utills-8.8.13) (2024-04-22)
+## [plex-utills-8.8.13](https://github.com/truecharts/charts/compare/plex-utills-8.6.0...plex-utills-8.8.13) (2024-04-23)
 
 ### Chore
 

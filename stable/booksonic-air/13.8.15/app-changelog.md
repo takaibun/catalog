@@ -1,6 +1,6 @@
 
 
-## [booksonic-air-13.8.15](https://github.com/truecharts/charts/compare/booksonic-air-13.6.0...booksonic-air-13.8.15) (2024-04-22)
+## [booksonic-air-13.8.15](https://github.com/truecharts/charts/compare/booksonic-air-13.6.0...booksonic-air-13.8.15) (2024-04-23)
 
 ### Chore
 

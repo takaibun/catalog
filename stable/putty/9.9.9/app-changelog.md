@@ -1,6 +1,6 @@
 
 
-## [putty-9.9.9](https://github.com/truecharts/charts/compare/putty-9.6.0...putty-9.9.9) (2024-04-22)
+## [putty-9.9.9](https://github.com/truecharts/charts/compare/putty-9.6.0...putty-9.9.9) (2024-04-23)
 
 ### Chore
 

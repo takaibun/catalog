@@ -1,6 +1,6 @@
 
 
-## [alist-9.11.13](https://github.com/truecharts/charts/compare/alist-9.8.0...alist-9.11.13) (2024-04-22)
+## [alist-9.11.13](https://github.com/truecharts/charts/compare/alist-9.8.0...alist-9.11.13) (2024-04-23)
 
 ### Chore
 

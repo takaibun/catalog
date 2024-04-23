@@ -1,6 +1,6 @@
 
 
-## [qbitmanage-8.9.15](https://github.com/truecharts/charts/compare/qbitmanage-8.6.0...qbitmanage-8.9.15) (2024-04-22)
+## [qbitmanage-8.9.15](https://github.com/truecharts/charts/compare/qbitmanage-8.6.0...qbitmanage-8.9.15) (2024-04-23)
 
 ### Chore
 

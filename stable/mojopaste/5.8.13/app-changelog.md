@@ -1,6 +1,6 @@
 
 
-## [mojopaste-5.8.13](https://github.com/truecharts/charts/compare/mojopaste-5.6.0...mojopaste-5.8.13) (2024-04-22)
+## [mojopaste-5.8.13](https://github.com/truecharts/charts/compare/mojopaste-5.6.0...mojopaste-5.8.13) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [filebrowser-9.9.13](https://github.com/truecharts/charts/compare/filebrowser-9.6.0...filebrowser-9.9.13) (2024-04-22)
+## [filebrowser-9.9.13](https://github.com/truecharts/charts/compare/filebrowser-9.6.0...filebrowser-9.9.13) (2024-04-23)
 
 ### Chore
 

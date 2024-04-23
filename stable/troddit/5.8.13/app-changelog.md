@@ -1,6 +1,6 @@
 
 
-## [troddit-5.8.13](https://github.com/truecharts/charts/compare/troddit-5.6.0...troddit-5.8.13) (2024-04-22)
+## [troddit-5.8.13](https://github.com/truecharts/charts/compare/troddit-5.6.0...troddit-5.8.13) (2024-04-23)
 
 ### Chore
 

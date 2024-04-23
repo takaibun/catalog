@@ -1,6 +1,6 @@
 
 
-## [monica-12.15.22](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-12.15.22) (2024-04-22)
+## [monica-12.15.22](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-12.15.22) (2024-04-23)
 
 ### Chore
 

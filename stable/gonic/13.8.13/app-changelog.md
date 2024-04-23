@@ -1,6 +1,6 @@
 
 
-## [gonic-13.8.13](https://github.com/truecharts/charts/compare/gonic-13.6.0...gonic-13.8.13) (2024-04-22)
+## [gonic-13.8.13](https://github.com/truecharts/charts/compare/gonic-13.6.0...gonic-13.8.13) (2024-04-23)
 
 ### Chore
 

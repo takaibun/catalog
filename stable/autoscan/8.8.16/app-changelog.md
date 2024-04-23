@@ -1,6 +1,6 @@
 
 
-## [autoscan-8.8.16](https://github.com/truecharts/charts/compare/autoscan-8.6.0...autoscan-8.8.16) (2024-04-22)
+## [autoscan-8.8.16](https://github.com/truecharts/charts/compare/autoscan-8.6.0...autoscan-8.8.16) (2024-04-23)
 
 ### Chore
 

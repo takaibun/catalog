@@ -1,6 +1,6 @@
 
 
-## [cura-novnc-8.8.13](https://github.com/truecharts/charts/compare/cura-novnc-8.6.0...cura-novnc-8.8.13) (2024-04-22)
+## [cura-novnc-8.8.13](https://github.com/truecharts/charts/compare/cura-novnc-8.6.0...cura-novnc-8.8.13) (2024-04-23)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [ser2sock-13.8.13](https://github.com/truecharts/charts/compare/ser2sock-13.6.0...ser2sock-13.8.13) (2024-04-22)
+## [ser2sock-13.8.13](https://github.com/truecharts/charts/compare/ser2sock-13.6.0...ser2sock-13.8.13) (2024-04-23)
 
 ### Chore
 

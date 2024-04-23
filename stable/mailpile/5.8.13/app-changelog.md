@@ -1,6 +1,6 @@
 
 
-## [mailpile-5.8.13](https://github.com/truecharts/charts/compare/mailpile-5.6.0...mailpile-5.8.13) (2024-04-22)
+## [mailpile-5.8.13](https://github.com/truecharts/charts/compare/mailpile-5.6.0...mailpile-5.8.13) (2024-04-23)
 
 ### Chore
 

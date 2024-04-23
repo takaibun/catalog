@@ -1,6 +1,6 @@
 
 
-## [ferdi-server-11.8.13](https://github.com/truecharts/charts/compare/ferdi-server-11.6.0...ferdi-server-11.8.13) (2024-04-22)
+## [ferdi-server-11.8.13](https://github.com/truecharts/charts/compare/ferdi-server-11.6.0...ferdi-server-11.8.13) (2024-04-23)
 
 ### Chore
 

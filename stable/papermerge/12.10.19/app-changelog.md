@@ -1,6 +1,6 @@
 
 
-## [papermerge-12.10.19](https://github.com/truecharts/charts/compare/papermerge-12.6.0...papermerge-12.10.19) (2024-04-22)
+## [papermerge-12.10.19](https://github.com/truecharts/charts/compare/papermerge-12.6.0...papermerge-12.10.19) (2024-04-23)
 
 ### Chore
 

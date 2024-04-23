@@ -1,6 +1,6 @@
 
 
-## [nitter-6.10.19](https://github.com/truecharts/charts/compare/nitter-6.6.0...nitter-6.10.19) (2024-04-22)
+## [nitter-6.10.19](https://github.com/truecharts/charts/compare/nitter-6.6.0...nitter-6.10.19) (2024-04-23)
 
 ### Chore
 

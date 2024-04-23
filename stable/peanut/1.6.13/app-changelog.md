@@ -1,6 +1,6 @@
 
 
-## [peanut-1.6.13](https://github.com/truecharts/charts/compare/peanut-1.4.0...peanut-1.6.13) (2024-04-22)
+## [peanut-1.6.13](https://github.com/truecharts/charts/compare/peanut-1.4.0...peanut-1.6.13) (2024-04-23)
 
 ### Chore
 

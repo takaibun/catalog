@@ -1,6 +1,6 @@
 
 
-## [autobrr-8.11.7](https://github.com/truecharts/charts/compare/autobrr-8.7.0...autobrr-8.11.7) (2024-04-22)
+## [autobrr-8.11.7](https://github.com/truecharts/charts/compare/autobrr-8.7.0...autobrr-8.11.7) (2024-04-23)
 
 ### Chore
 

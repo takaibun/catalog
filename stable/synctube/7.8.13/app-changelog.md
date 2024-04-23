@@ -1,6 +1,6 @@
 
 
-## [synctube-7.8.13](https://github.com/truecharts/charts/compare/synctube-7.6.0...synctube-7.8.13) (2024-04-22)
+## [synctube-7.8.13](https://github.com/truecharts/charts/compare/synctube-7.6.0...synctube-7.8.13) (2024-04-23)
 
 ### Chore
 

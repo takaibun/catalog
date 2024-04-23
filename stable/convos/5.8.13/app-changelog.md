@@ -1,6 +1,6 @@
 
 
-## [convos-5.8.13](https://github.com/truecharts/charts/compare/convos-5.6.0...convos-5.8.13) (2024-04-22)
+## [convos-5.8.13](https://github.com/truecharts/charts/compare/convos-5.6.0...convos-5.8.13) (2024-04-23)
 
 ### Chore
 

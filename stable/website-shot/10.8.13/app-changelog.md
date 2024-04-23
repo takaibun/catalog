@@ -1,6 +1,6 @@
 
 
-## [website-shot-10.8.13](https://github.com/truecharts/charts/compare/website-shot-10.6.0...website-shot-10.8.13) (2024-04-22)
+## [website-shot-10.8.13](https://github.com/truecharts/charts/compare/website-shot-10.6.0...website-shot-10.8.13) (2024-04-23)
 
 ### Chore
 
