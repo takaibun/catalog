@@ -1,6 +1,6 @@
 
 
-## [openebs-4.3.10](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.10) (2024-04-22)
+## [openebs-4.3.12](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.12) (2024-04-24)
 
 ### Chore
 
@@ -64,6 +64,14 @@
 
 
 
+- poolname input validation ([#21277](https://github.com/truecharts/charts/issues/21277))
+
 - BREAKING CHANGE make it an umbrella chart with multiple upstream dependencies ([#19813](https://github.com/truecharts/charts/issues/19813))
 
 - BREAKING CHANGE (on scale) use zfs backend instead of localpath on scale ([#19548](https://github.com/truecharts/charts/issues/19548))
+
+### Fix
+
+
+
+- replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))
