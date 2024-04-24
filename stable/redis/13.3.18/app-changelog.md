@@ -60,6 +60,8 @@
 
 
 
+- incorrect password reference in SCALE GUI
+
 - fix typo
 
 - replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))
