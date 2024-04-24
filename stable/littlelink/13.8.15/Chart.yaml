@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: AI
+  truecharts.org/category: social
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
-home: https://truecharts.org/charts/stable/anything-llm
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
+description: Easy platform to combine all your social links
+home: https://truecharts.org/charts/stable/littlelink
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/littlelink.webp
 keywords:
-  - anything-llm
-  - ai
+  - littlelink
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: anything-llm
+name: littlelink
 sources:
-  - https://github.com/Mintplex-Labs/anything-llm
-  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
-  - https://ghcr.io/mintplex-labs/anything-llm
+  - https://github.com/sethcottle/littlelink
+  - https://github.com/techno-tim/littlelink-server
+  - https://github.com/truecharts/charts/tree/master/charts/stable/littlelink
+  - https://ghcr.io/techno-tim/littlelink-server
 type: application
-version: 1.5.26
+version: 13.8.15

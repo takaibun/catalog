@@ -3,7 +3,7 @@ groups:
     description: |
       Configured the images to be used for the Chart.
       It's wise to use "digest pinned" tags and to avoid using "latest".
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/#images
 
@@ -11,19 +11,19 @@ groups:
   - name: General
     description: |
       For TrueNAS SCALE We've grouped a number of settings here, that all effact how apps run in general.
-      
+
       Checkout the following documentation for more information:
         - https://truecharts.org/common/global/
         - https://truecharts.org/common/#tz
         - https://truecharts.org/common/podoptions/
-        - Image Pull Secrets 
+        - Image Pull Secrets
 
 
   - name: Workload
     description: |
       These settings configure how the actual Pods and containers are running.
       Generally, on SCALE, we only expose a limited subset of these settings for the primary workload and container.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/workload/
       - https://truecharts.org/common/container/
@@ -33,16 +33,16 @@ groups:
     description: |
        Every application has different values that may be required to run or have multiple options that the user may choose to enable or disable to change the behavior of the application.
        Most options should have a Tooltip (Circled Question Mark) to further describe said option.
-       
+
        To find more information, lookup your chart-specific documentation in the Charts List: https://truecharts.org/charts/description-list/
 
   - name: Services
     description: |
-      Service and Networking options for any applications are contained here. 
-      Some applications may have complicated networking setups with multiple options or some may have no options here at all. 
-      
+      Service and Networking options for any applications are contained here.
+      Some applications may have complicated networking setups with multiple options or some may have no options here at all.
+
       Options here include the service and port configurations for the application, and more may be enabled or changed under the Advanced Settings and Show Expert Config boxes.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/service/
 
@@ -50,15 +50,15 @@ groups:
     description: |
       Contains advanced networking options that are not actively supported by the TrueCharts team.
       Currently only contains scaleExternalInterfaces.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/scaleexternalinterface/
 
   - name: Persistence
     description: |
-      Many applications will have certain options for storage to be configurable by the user, the main two being PVC and hostpath but may include other types. 
+      Many applications will have certain options for storage to be configurable by the user, the main two being PVC and hostpath but may include other types.
       This storage is called Persistence since it is not deleted upon restart or upgrade of an application.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/persistence/
       - https://truecharts.org/scale/guides/nfs-share/
@@ -67,21 +67,21 @@ groups:
 
   - name: Ingress
     description: |
-      Ingress (more commonly known as Reverse Proxy) settings can be configured here. This is how Kubernetes connects your Applications in containers to FQDNs (fully qualified domain names). 
+      Ingress (more commonly known as Reverse Proxy) settings can be configured here. This is how Kubernetes connects your Applications in containers to FQDNs (fully qualified domain names).
       If you choose to enable this you must have a "Ingress Provider" aka "Reverse Proxy" installed (We highly advice Traefik: https://truecharts.org/charts/premium/traefik/)
       It also requiresa DNS service to actually resolve the DNS name of the FQDN specified.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/ingress/
 
 
   - name: SecurityContext
     description: |
-      The security settings for each application and/or permissions that each application may have for the files/directories created. 
-      Each application will come with predefined permissions but users may want to change certain setting depending on their usage or capabilities. 
-      
+      The security settings for each application and/or permissions that each application may have for the files/directories created.
+      Each application will come with predefined permissions but users may want to change certain setting depending on their usage or capabilities.
+
       Unless necessary users are advised to keep this section mostly to defaults.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/securitycontext/
 
@@ -90,9 +90,9 @@ groups:
     description: |
       Resources limits that have been defined by each application are in this section.
       Most will have a specific default that some users may want to change based on their specific hardware or needs.
-      
+
       This also contains the options to mount GPUs or, more precisely, "request" GPU's to be mounted.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/resources/
 
@@ -100,7 +100,7 @@ groups:
     description: |
       These are special "mountpoints" that can be used to mount miscelanious USB and PCI devices using special hostPath mounts.
       For clearity we've decided to seperate this from persistence on SCALE.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/persistence/device/
       - https://truecharts.org/scale/guides/pci-passthrough/
@@ -111,24 +111,24 @@ groups:
   - name: StorageClass
     description: |
       StorageClasses define where to storage Storage.
-      
+
       Checkout the following documentation for more information:
 
   - name: Metrics
     description: |
       Contains options to configure Prometheus metrics for the application.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/metrics/
 
 
   - name: Addons
     description: |
-      Addons that are supplied by the TrueCharts team to add additional capabilities for users to use on top of the application’s defaults. 
-      Things included here are VPN addons, Codeserver for editing files inside the application’s container, Netshoot for network troubelshooting, etc. 
-      
+      Addons that are supplied by the TrueCharts team to add additional capabilities for users to use on top of the application’s defaults.
+      Things included here are VPN addons, Codeserver for editing files inside the application’s container, Netshoot for network troubelshooting, etc.
+
       Generally not required for use but may be necessary or usefull at times for specific applications.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/addons/
       - https://truecharts.org/scale/guides/vpn-setup/
@@ -142,7 +142,7 @@ groups:
   - name: Postgresql
     description: |
       For Postgresql we use "CloudNative-PG" as a backend, which has to be installed first.
-      
+
       Checkout the following documentation for more information:
       - https://truecharts.org/common/cnpg/
       - https://truecharts.org/scale/guides/sql-export/
@@ -157,7 +157,7 @@ groups:
     description: |
       We added this section to make everyone aware that OpenSource isn't always easy.
       It doesn't keep existing without signficant ongoing support, so please consider supporting TrueCharts and other OpenSource projects.
-      
+
       Before installing, be sure you've followed the https://truecharts.org/scale/guides/getting-started/
       We would also advice going over our https://truecharts.org/scale/guides/scale-intro/
       and many of the other documentation pages...
@@ -290,25 +290,328 @@ questions:
                                               schema:
                                                 type: string
 
-  - variable: redmine
+  - variable: littlelink
+    label: ""
     group: "App Configuration"
-    label: "Redmine Configuration"
     schema:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: plugins_migrate
-          label: "Plugins Migrate"
-          description: "Set to true and the migrate script will be automatically run on every container start"
+        - variable: meta_title
+          label: "meta title"
           schema:
-            type: boolean
-            default: true
-        - variable: no_db_migrate
-          label: "No DB Migrate"
-          description: "Set to true and the migrate script will NOT automatically run on container start."
+            type: string
+            default: ""
+        - variable: meta_description
+          label: "meta description"
           schema:
-            type: boolean
-            default: false
+            type: string
+            default: ""
+        - variable: meta_author
+          label: "meta_author"
+          schema:
+            type: string
+            default: ""
+        - variable: lang
+          label: "lang"
+          schema:
+            type: string
+            default: ""
+        - variable: meta_index_status
+          label: "meta_index_status"
+          schema:
+            type: string
+            default: ""
+        - variable: ga_tracking_id
+          label: "ga_tracking_id"
+          schema:
+            type: string
+            default: ""
+        - variable: theme
+          label: "theme"
+          schema:
+            type: string
+            default: ""
+        - variable: favicon_url
+          label: "favicon_url"
+          schema:
+            type: string
+            default: ""
+        - variable: avatar_url
+          label: "avatar_url"
+          schema:
+            type: string
+            default: ""
+        - variable: avatar_2x_url
+          label: "avatar_2x_url"
+          schema:
+            type: string
+            default: ""
+        - variable: avatar_alt
+          label: "avatar_alt"
+          schema:
+            type: string
+            default: ""
+        - variable: name
+          label: "name"
+          schema:
+            type: string
+            default: ""
+        - variable: bio
+          label: "bio"
+          schema:
+            type: string
+            default: ""
+        - variable: github
+          label: "github"
+          schema:
+            type: string
+            default: ""
+        - variable: twitter
+          label: "twitter"
+          schema:
+            type: string
+            default: ""
+        - variable: instagram
+          label: "instagram"
+          schema:
+            type: string
+            default: ""
+        - variable: youtube
+          label: "youtube"
+          schema:
+            type: string
+            default: ""
+        - variable: twitch
+          label: "twitch"
+          schema:
+            type: string
+            default: ""
+        - variable: discord
+          label: "discord"
+          schema:
+            type: string
+            default: ""
+        - variable: tiktok
+          label: "tiktok"
+          schema:
+            type: string
+            default: ""
+        - variable: kit
+          label: "kit"
+          schema:
+            type: string
+            default: ""
+        - variable: facebook
+          label: "facebook"
+          schema:
+            type: string
+            default: ""
+        - variable: facebook_messenger
+          label: "facebook_messenger"
+          schema:
+            type: string
+            default: ""
+        - variable: linked_in
+          label: "linked_in"
+          schema:
+            type: string
+            default: ""
+        - variable: product_hunt
+          label: "product_hunt"
+          schema:
+            type: string
+            default: ""
+        - variable: snapchat
+          label: "snapchat"
+          schema:
+            type: string
+            default: ""
+        - variable: spotify
+          label: "spotify"
+          schema:
+            type: string
+            default: ""
+        - variable: reddit
+          label: "reddit"
+          schema:
+            type: string
+            default: ""
+        - variable: medium
+          label: "medium"
+          schema:
+            type: string
+            default: ""
+        - variable: pinterest
+          label: "pinterest"
+          schema:
+            type: string
+            default: ""
+        - variable: email
+          label: "email"
+          schema:
+            type: string
+            default: ""
+        - variable: email_text
+          label: "email_text"
+          schema:
+            type: string
+            default: ""
+        - variable: email_alt
+          label: "email_alt"
+          schema:
+            type: string
+            default: ""
+        - variable: email_alt_text
+          label: "email_alt_text"
+          schema:
+            type: string
+            default: ""
+        - variable: sound_cloud
+          label: "sound_cloud"
+          schema:
+            type: string
+            default: ""
+        - variable: figma
+          label: "figma"
+          schema:
+            type: string
+            default: ""
+        - variable: telegram
+          label: "telegram"
+          schema:
+            type: string
+            default: ""
+        - variable: tumblr
+          label: "tumblr"
+          schema:
+            type: string
+            default: ""
+        - variable: steam
+          label: "steam"
+          schema:
+            type: string
+            default: ""
+        - variable: vimeo
+          label: "vimeo"
+          schema:
+            type: string
+            default: ""
+        - variable: wordpress
+          label: "wordpressp"
+          schema:
+            type: string
+            default: ""
+        - variable: goodreads
+          label: "goodreads"
+          schema:
+            type: string
+            default: ""
+        - variable: skoob
+          label: "skoob"
+          schema:
+            type: string
+            default: ""
+        - variable: letterboxd
+          label: "letterboxd"
+          schema:
+            type: string
+            default: ""
+        - variable: mastodon
+          label: "mastodon"
+          schema:
+            type: string
+            default: ""
+        - variable: micro_blog
+          label: "micro_blog"
+          schema:
+            type: string
+            default: ""
+        - variable: whatsapp
+          label: "whatsapp"
+          schema:
+            type: string
+            default: ""
+        - variable: strava
+          label: "strava"
+          schema:
+            type: string
+            default: ""
+        - variable: buymeacoffee
+          label: "buymeacoffee"
+          schema:
+            type: string
+            default: ""
+        - variable: gitlab
+          label: "gitlab"
+          schema:
+            type: string
+            default: ""
+        - variable: patreon
+          label: "patreon"
+          schema:
+            type: string
+            default: ""
+        - variable: devto
+          label: "devto"
+          schema:
+            type: string
+            default: ""
+        - variable: umami_website_id
+          label: "umami_website_id"
+          schema:
+            type: string
+            default: ""
+        - variable: umami_app_url
+          label: "umami_app_url"
+          schema:
+            type: string
+            default: ""
+        - variable: paypal
+          label: "paypal"
+          schema:
+            type: string
+            default: ""
+        - variable: slack
+          label: "slack"
+          schema:
+            type: string
+            default: ""
+        - variable: lastfm
+          label: "lastfm"
+          schema:
+            type: string
+            default: ""
+        - variable: untappd
+          label: "untappd"
+          schema:
+            type: string
+            default: ""
+        - variable: stackoverflow
+          label: "stackoverflow"
+          schema:
+            type: string
+            default: ""
+        - variable: gitea
+          label: "gitea"
+          schema:
+            type: string
+            default: ""
+        - variable: polywork
+          label: "polywork"
+          schema:
+            type: string
+            default: ""
+        - variable: signal
+          label: "signal"
+          schema:
+            type: string
+            default: ""
+        - variable: footer
+          label: "footer"
+          schema:
+            type: string
+            default: ""
   - variable: TZ
     label: Timezone
     group: "General"
@@ -496,8 +799,86 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10171
+                              default: 10040
                               required: true
+  - variable: scaleExternalInterface
+    description: 'Add External Interfaces (Experimental, might change or be removed without further notice)'
+    label: Add external Interfaces (Experimental)
+    group: Networking
+    schema:
+      type: list
+      items:
+        - variable: interfaceConfiguration
+          description: Interface Configuration
+          label: Interface Configuration
+          schema:
+            additional_attrs: true
+            type: dict
+            $ref:
+              - "normalize/interfaceConfiguration"
+            attrs:
+              - variable: hostInterface
+                description: Please Specify Host Interface
+                label: Host Interface
+                schema:
+                  type: string
+                  required: true
+                  $ref:
+                    - "definitions/interface"
+              - variable: ipam
+                description: Define how IP Address will be managed
+                label: IP Address Management
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  required: true
+                  attrs:
+                    - variable: type
+                      description: Specify type for IPAM
+                      label: IPAM Type
+                      schema:
+                        type: string
+                        required: true
+                        enum:
+                          - value: dhcp
+                            description: Use DHCP
+                          - value: static
+                            description: Use Static IP
+                    - variable: staticIPConfigurations
+                      label: Static IP Addresses
+                      schema:
+                        type: list
+                        show_if: [["type", "=", "static"]]
+                        items:
+                          - variable: staticIP
+                            label: Static IP
+                            schema:
+                              type: ipaddr
+                              cidr: true
+                    - variable: staticRoutes
+                      label: Static Routes
+                      schema:
+                        type: list
+                        show_if: [["type", "=", "static"]]
+                        items:
+                          - variable: staticRouteConfiguration
+                            label: Static Route Configuration
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: destination
+                                  label: Destination
+                                  schema:
+                                    type: ipaddr
+                                    cidr: true
+                                    required: true
+                                - variable: gateway
+                                  label: Gateway
+                                  schema:
+                                    type: ipaddr
+                                    cidr: false
+                                    required: true
 
 
   - variable: serviceList
@@ -634,289 +1015,6 @@ questions:
                             schema:
                               type: int
                               required: true
-
-  - variable: persistence
-    label: Integrated Persistent Storage
-    description: Integrated Persistent Storage
-    group: Persistence
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-
-        - variable: data
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-                    - value: iscsi
-                      description: iSCSI Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: iscsi
-                label: iSCSI Options
-                schema:
-                  show_if: [["type", "=", "iscsi"]]
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: targetPortal
-                      label: targetPortal
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: iqn
-                      label: iqn
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: lun
-                      label: lun
-                      schema:
-                        type: int
-                        default: 0
-                    - variable: authSession
-                      label: authSession
-                      schema:
-                        type: dict
-                        additional_attrs: true
-                        attrs:
-                          - variable: username
-                            label: username
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: password
-                            label: password
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: usernameInitiator
-                            label: usernameInitiator
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: passwordInitiator
-                            label: passwordInitiator
-                            schema:
-                              type: string
-                              default: ""
-                    - variable: authDiscovery
-                      label: authDiscovery
-                      schema:
-                        type: dict
-                        additional_attrs: true
-                        attrs:
-                          - variable: username
-                            label: username
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: password
-                            label: password
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: usernameInitiator
-                            label: usernameInitiator
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: passwordInitiator
-                            label: passwordInitiator
-                            schema:
-                              type: string
-                              default: ""
-
-              - variable: autoPermissions
-                label: Automatic Permissions Configuration
-                description: Automatically set permissions
-                schema:
-                  show_if: [["type", "!=", "pvc"]]
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: enabled
-                      label: enabled
-                      schema:
-                        type: boolean
-                        default: false
-                        show_subquestions_if: true
-                        subquestions:
-                          - variable: chown
-                            label: Run CHOWN
-                            description: |
-                              It will run CHOWN on the path with the given fsGroup
-                            schema:
-                              type: boolean
-                              default: false
-                          - variable: chmod
-                            label: Run CHMOD
-                            description: |
-                              It will run CHMOD on the path with the given value</br>
-                              Format should be 3 digits, e.g. 770
-                            schema:
-                              type: string
-                              valid_chars: '[0-9]{3}'
-                              default: ""
-                          - variable: recursive
-                            label: Recursive
-                            description: |
-                              It will run CHOWN and CHMOD recursively
-                            schema:
-                              type: boolean
-                              default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-              - variable: storageClass
-                label: 'storageClass (Advanced)'
-                description: 'sets the storageClass to something other than iX default. Only for advanced usecases!'
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: ""
-              - variable: static
-                label: 'Static Fixed PVC Bindings (Experimental)'
-                description: Link a PVC to a specific storage location
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: mode
-                      label: mode
-                      description: |
-                        disabled: use normal dynamic PVCs
-                        smb: connect to an SMB share
-                        nfs: connect to an NFS share
-                      schema:
-                        type: string
-                        default: "disabled"
-                        enum:
-                          - value: disabled
-                            description: disabled
-                          - value: smb
-                            description: smb
-                          - value: nfs
-                            description: nfs
-                    - variable: server
-                      label: Server
-                      description: server to connect to
-                      schema:
-                        type: string
-                        show_if: [["mode", "!=", "disabled"]]
-                        default: "myserver"
-                    - variable: share
-                      label: Share
-                      description: share to connect to
-                      schema:
-                        type: string
-                        show_if: [["mode", "!=", "disabled"]]
-                        default: "/myshare"
-                    - variable: user
-                      label: User
-                      description: connecting user
-                      schema:
-                        type: string
-                        show_if: [["mode", "=", "smb"]]
-                        default: "myuser"
-                    - variable: domain
-                      label: Domain
-                      description: user domain
-                      schema:
-                        type: string
-                        show_if: [["mode", "=", "smb"]]
-                        default: ""
-                    - variable: password
-                      label: Password
-                      description: connecting password
-                      schema:
-                        type: string
-                        show_if: [["mode", "=", "smb"]]
-                        default: ""
-              - variable: volumeSnapshots
-                label: 'Volume Snapshots (Experimental)'
-                description: Add an entry to the list to force creation of a volumeSnapshot of this PVC
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: list
-                  default: []
-                  items:
-                    - variable: volumeSnapshotEntry
-                      label: Custom volumeSnapshot
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: name
-                            label: Name
-                            description: 'WARNING: renaming this, means deletion of the snapshot with the old name!'
-                            schema:
-                              type: string
-                              default: "mysnapshot"
-                              required: true
-                          - variable: volumeSnapshotClassName
-                            label: 'volumeSnapshot Class Name (Advanced)'
-                            description: For use with PVCs using a non-default storageClass
-                            schema:
-                              type: string
-                              default: ""
 
   - variable: persistenceList
     label: Additional App Storage
@@ -1760,13 +1858,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 999
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID this App of the user running the application"
                 schema:
                   type: int
-                  default: 999
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -1834,7 +1932,7 @@ questions:
                 description: "The group that should own ALL storage."
                 schema:
                   type: int
-                  default: 999
+                  default: 568
   - variable: resources
     group: Resources
     label: "Resource Limits"
@@ -1941,448 +2039,6 @@ questions:
                 schema:
                   type: string
                   default: "/dev/ttyACM0"
-
-  - variable: cnpg
-    group: Postgresql
-    label: "CloudNative-PG (CNPG)"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: main
-          label: "Main Postgresql Database"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: hibernate
-                label: Hibernate
-                description: "enable to safely hibernate and shutdown the postgresql cluster"
-                schema:
-                  type: boolean
-                  default: false
-              - variable: mode
-                label: Mode
-                description: 'Cluster mode of operation. Available modes: standalone - default mode. Creates new or updates an existing CNPG cluster. recovery - Same as standalone but creates a cluster from a backup, object store or via pg_basebackup replica - Creates a replica cluster from an existing CNPG cluster. # TODO.'
-                schema:
-                  type: string
-                  default: "standalone"
-                  enum:
-                    - value: standalone
-                      description: standalone
-                    - value: replica
-                      description: replica
-                    - value: recovery
-                      description: recovery
-              - variable: pgVersion
-                label: Postgres Version
-                description: "Set the Postgresql version used"
-                schema:
-                  type: int
-                  default: 16
-                  required: true
-              - variable: password
-                label: Password
-                description: "Set the password for the database-user"
-                schema:
-                  type: string
-                  default: "PLACEHOLDERPASSWORD"
-                  required: true
-              - variable: cluster
-                label: "Cluster Settings"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: instances
-                      label: Instances
-                      schema:
-                        type: int
-                        default: 1
-                    - variable: singleNode
-                      label: singleNode
-                      schema:
-                        type: boolean
-                        default: true
-                        hidden: true
-                    - variable: storage
-                      label: "Storage"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: size
-                            label: Size
-                            schema:
-                              type: string
-                              default: "256Gi"
-                    - variable: walStorage
-                      label: "WAL Storage"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: size
-                            label: Size
-                            schema:
-                              type: string
-                              default: "256Gi"
-              - variable: monitoring
-                label: "Monitoring Settings"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: enablePodMonitor
-                      label: "enablePodMonitor"
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: disableDefaultQueries
-                      label: "disableDefaultQueries"
-                      schema:
-                        type: boolean
-                        default: false
-              - variable: pooler
-                label: "Pooler Settings"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: enabled
-                      label: Enabled
-                      schema:
-                        type: boolean
-                        default: false
-                    - variable: instances
-                      label: Instances
-                      schema:
-                        type: int
-                        show_if: [["enabled", "=", true]]
-                        default: 1
-                    - variable: createRO
-                      label: "Create ReadOnly Instance"
-                      schema:
-                        type: boolean
-                        show_if: [["enabled", "=", true]]
-                        default: false
-              - variable: backups
-                label: "Backup Settings (Experimental)"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: enabled
-                      label: "enabled"
-                      schema:
-                        type: boolean
-                        default: false
-                    - variable: serverName
-                      label: "serverName"
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: revision
-                      label: "revision"
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: endpointURL
-                      label: "endpointURL"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: ""
-                    - variable: destinationPath
-                      label: "destinationPath"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: ""
-                    - variable: retentionPolicy
-                      label: "retentionPolicy"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: "30d"
-                    - variable: provider
-                      label: "provider"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: "s3"
-                        enum:
-                         - value: s3
-                           description: S3
-                         - value: azure
-                           description: Azure
-                         - value: google
-                           description: Google
-                    - variable: s3
-                      label: "s3"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        show_if: [["provider", "=", "s3"]]
-                        attrs:
-                          - variable: region
-                            label: "region"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: bucket
-                            label: "bucket"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: path
-                            label: "path"
-                            schema:
-                              type: string
-                              default: "/"
-                          - variable: accessKey
-                            label: "accessKey"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: secretKey
-                            label: "secretKey"
-                            schema:
-                              type: string
-                              default: ""
-                    - variable: azure
-                      label: "azure (EXTREMELY EXPERIMENTAL)"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        show_if: [["provider", "=", "azure"]]
-                        attrs:
-                          - variable: path
-                            label: "path"
-                            schema:
-                              type: string
-                              default: "/"
-                          - variable: connectionString
-                            label: "connectionString"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: storageAccount
-                            label: "storageAccount"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: storageKey
-                            label: "storageKey"
-                            schema:
-                              type: string
-                              show_if: [["enabled", "=", true]]
-                              default: ""
-                          - variable: storageSasToken
-                            label: "storageSasToken"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: containerName
-                            label: "containerName"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: serviceName
-                            label: "serviceName"
-                            schema:
-                              type: string
-                              default: "blob"
-                          - variable: inheritFromAzureAD
-                            label: "inheritFromAzureAD"
-                            schema:
-                              type: boolean
-                              default: false
-                    - variable: google
-                      label: "google (EXTREMELY EXPERIMENTAL)"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        show_if: [["provider", "=", "google"]]
-                        attrs:
-                          - variable: path
-                            label: "path"
-                            schema:
-                              type: string
-                              default: "/"
-                          - variable: bucket
-                            label: "bucket"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: gkeEnvironment
-                            label: "gkeEnvironment"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: applicationCredentials
-                            label: "applicationCredentials"
-                            schema:
-                              type: string
-                              default: ""
-              - variable: recovery
-                label: "Recovery Settings (Experimental)"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: enabled
-                      label: "enabled"
-                      schema:
-                        type: boolean
-                        default: false
-                    - variable: serverName
-                      label: "serverName"
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: revision
-                      label: "revision"
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: endpointURL
-                      label: "endpointURL"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: ""
-                    - variable: method
-                      label: "method"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: "object_store"
-                    - variable: backupName
-                      label: "backupName"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: ""
-                    - variable: provider
-                      label: "provider"
-                      schema:
-                        type: string
-                        show_if: [["enabled", "=", true]]
-                        default: "s3"
-                        enum:
-                         - value: s3
-                           description: S3
-                         - value: azure
-                           description: Azure
-                         - value: google
-                           description: Google
-                    - variable: s3
-                      label: "s3"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        show_if: [["provider", "=", "s3"]]
-                        attrs:
-                          - variable: region
-                            label: "region"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: bucket
-                            label: "bucket"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: path
-                            label: "path"
-                            schema:
-                              type: string
-                              default: "/"
-                          - variable: accessKey
-                            label: "accessKey"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: secretKey
-                            label: "secretKey"
-                            schema:
-                              type: string
-                              default: ""
-                    - variable: azure
-                      label: "azure (EXTREMELY EXPERIMENTAL)"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        show_if: [["provider", "=", "azure"]]
-                        attrs:
-                          - variable: path
-                            label: "path"
-                            schema:
-                              type: string
-                              default: "/"
-                          - variable: connectionString
-                            label: "connectionString"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: storageAccount
-                            label: "storageAccount"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: storageKey
-                            label: "storageKey"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: storageSasToken
-                            label: "storageSasToken"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: containerName
-                            label: "containerName"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: serviceName
-                            label: "serviceName"
-                            schema:
-                              type: string
-                              default: "blob"
-                          - variable: inheritFromAzureAD
-                            label: "inheritFromAzureAD"
-                            schema:
-                              type: boolean
-                              default: false
-                    - variable: google
-                      label: "google (EXTREMELY EXPERIMENTAL)"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        show_if: [["provider", "=", "google"]]
-                        attrs:
-                          - variable: path
-                            label: "path"
-                            schema:
-                              type: string
-                              default: "/"
-                          - variable: bucket
-                            label: "bucket"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: gkeEnvironment
-                            label: "gkeEnvironment"
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: applicationCredentials
-                            label: "applicationCredentials"
-                            schema:
-                              type: string
-                              default: ""
 
 #  - variable: horizontalPodAutoscaler
 #    group: Experimental

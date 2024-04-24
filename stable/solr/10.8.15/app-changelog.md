@@ -1,6 +1,6 @@
 
 
-## [solr-10.8.13](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.8.13) (2024-04-22)
+## [solr-10.8.15](https://github.com/truecharts/charts/compare/solr-10.6.0...solr-10.8.15) (2024-04-24)
 
 ### Chore
 
@@ -8,33 +8,35 @@
 
 - bump charts to ensure new icons are released
 
+- bump everything to release new doc pages
+
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump charts to release new docs to fix broken links
 
 - bump everything to regenerate readme's and site index
 
-- bump everything to release new doc pages
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image bitnami/solr to 9.5.0[@084bb6c](https://github.com/084bb6c) by renovate ([#20291](https://github.com/truecharts/charts/issues/20291))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image bitnami/solr to 9.5.0[@62a5437](https://github.com/62a5437) by renovate ([#20568](https://github.com/truecharts/charts/issues/20568))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image bitnami/solr to 9.5.0[@62a5437](https://github.com/62a5437) by renovate ([#20568](https://github.com/truecharts/charts/issues/20568))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image bitnami/solr to 9.5.0[@4bd186b](https://github.com/4bd186b) by renovate ([#21236](https://github.com/truecharts/charts/issues/21236))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image bitnami/solr to 9.5.0[@084bb6c](https://github.com/084bb6c) by renovate ([#20291](https://github.com/truecharts/charts/issues/20291))
 
 - update container image bitnami/solr to 9.5.0[@f1b568f](https://github.com/f1b568f) by renovate ([#20062](https://github.com/truecharts/charts/issues/20062))
 
@@ -61,5 +63,7 @@
 ### Fix
 
 
+
+- replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))
 
 - clear out some solr settings

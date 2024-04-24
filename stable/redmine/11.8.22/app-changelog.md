@@ -1,6 +1,6 @@
 
 
-## [redmine-11.8.20](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.20) (2024-04-22)
+## [redmine-11.8.22](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-11.8.22) (2024-04-24)
 
 ### Chore
 
@@ -8,17 +8,19 @@
 
 - bump charts to ensure new icons are released
 
+- bump everything to release new doc pages
+
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump charts to release new docs to fix broken links
 
 - bump everything to regenerate readme's and site index
 
-- bump everything to release new doc pages
+- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
 
-- update container image redmine to 5.1.2[@d10de45](https://github.com/d10de45) by renovate ([#20558](https://github.com/truecharts/charts/issues/20558))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -32,13 +34,13 @@
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
+- update container image redmine to 5.1.2[@0037d07](https://github.com/0037d07) by renovate ([#21242](https://github.com/truecharts/charts/issues/21242))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
-
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image redmine to 5.1.2[@d10de45](https://github.com/d10de45) by renovate ([#20558](https://github.com/truecharts/charts/issues/20558))
 
 - update container image redmine to 5.1.2[@b146163](https://github.com/b146163) by renovate ([#20974](https://github.com/truecharts/charts/issues/20974))
+
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image redmine to 5.1.2[@edabb7c](https://github.com/edabb7c) by renovate ([#20473](https://github.com/truecharts/charts/issues/20473))
 
@@ -67,3 +69,9 @@
 
 
 - rework SCALE catagories/groups to match helm and remove deprecated charts ([#21111](https://github.com/truecharts/charts/issues/21111))
+
+### Fix
+
+
+
+- replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))

@@ -1,6 +1,6 @@
 
 
-## [home-assistant-24.10.14](https://github.com/truecharts/charts/compare/home-assistant-24.7.0...home-assistant-24.10.14) (2024-04-22)
+## [home-assistant-24.10.16](https://github.com/truecharts/charts/compare/home-assistant-24.7.0...home-assistant-24.10.16) (2024-04-24)
 
 ### Chore
 
@@ -8,17 +8,19 @@
 
 - bump charts to ensure new icons are released
 
+- bump everything to release new doc pages
+
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump charts to release new docs to fix broken links
 
 - bump everything to regenerate readme's and site index
 
-- bump everything to release new doc pages
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image homeassistant/home-assistant to v2024.4.2[@8d107df](https://github.com/8d107df) by renovate ([#20441](https://github.com/truecharts/charts/issues/20441))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image homeassistant/home-assistant to v2024.4.1[@36cdb5f](https://github.com/36cdb5f) by renovate ([#20285](https://github.com/truecharts/charts/issues/20285))
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image homeassistant/home-assistant to v2024.4.3[@4f86df6](https://github.com/4f86df6) by renovate ([#20661](https://github.com/truecharts/charts/issues/20661))
 
@@ -28,13 +30,13 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image homeassistant/home-assistant to v2024.4.4[@73b70d3](https://github.com/73b70d3) by renovate ([#21243](https://github.com/truecharts/charts/issues/21243))
+
+- update container image homeassistant/home-assistant to v2024.4.2[@8d107df](https://github.com/8d107df) by renovate ([#20441](https://github.com/truecharts/charts/issues/20441))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
-
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- update container image homeassistant/home-assistant to v2024.4.1[@36cdb5f](https://github.com/36cdb5f) by renovate ([#20285](https://github.com/truecharts/charts/issues/20285))
 
 - update container image homeassistant/home-assistant to v2024.4.0[@2060bcd](https://github.com/2060bcd) by renovate ([#20209](https://github.com/truecharts/charts/issues/20209))
 
@@ -59,3 +61,9 @@
 
 
 - rework SCALE catagories/groups to match helm and remove deprecated charts ([#21111](https://github.com/truecharts/charts/issues/21111))
+
+### Fix
+
+
+
+- replace serviceexpert with externalinterfaces/networking-group in the SCALE GUI ([#21154](https://github.com/truecharts/charts/issues/21154))
