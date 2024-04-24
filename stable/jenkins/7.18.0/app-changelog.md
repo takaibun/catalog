@@ -1,6 +1,6 @@
 
 
-## [jenkins-7.18.0](https://github.com/truecharts/charts/compare/jenkins-7.9.0...jenkins-7.18.0) (2024-04-23)
+## [jenkins-7.18.0](https://github.com/truecharts/charts/compare/jenkins-7.9.0...jenkins-7.18.0) (2024-04-24)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [esphome-19.10.8](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-19.10.8) (2024-04-23)
+## [esphome-19.10.8](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-19.10.8) (2024-04-24)
 
 ### Chore
 
