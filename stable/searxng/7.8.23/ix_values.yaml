@@ -1,0 +1,45 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: searxng/searxng
+  tag: latest@sha256:2c3d5af70d7c3c8b1acd83b7ddec53d1fb2ac3e46c8737a18df9c5c218161aa6
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BIND_ADDRESS: '{{ printf "0.0.0.0:%v" .Values.service.main.ports.main.port }}'
+            INSTANCE_NAME: SearXng
+            BASE_URL: ""
+          probes:
+            liveness:
+              path: /healthz
+              port: "{{ .Values.service.main.ports.main.port }}"
+            readiness:
+              path: /healthz
+              port: "{{ .Values.service.main.ports.main.port }}"
+            startup:
+              type: tcp
+              port: "{{ .Values.service.main.ports.main.port }}"
+securityContext:
+  container:
+    runAsGroup: 0
+    runAsUser: 0
+    capabilities:
+      disableS6Caps: true
+      add:
+        - SETUID
+        - SETGID
+service:
+  main:
+    ports:
+      main:
+        port: 8080
+        protocol: http
+persistence:
+  config:
+    enabled: true
+    mountPath: /etc/searxng
+portal:
+  open:
+    enabled: true
