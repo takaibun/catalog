@@ -1,36 +1,40 @@
 
 
-## [chronograf-5.8.14](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.14) (2024-04-23)
+## [chronograf-5.8.16](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-5.8.16) (2024-04-24)
 
 ### Chore
 
 
 
+- bump everything to regenerate readme's and site index
+
 - bump charts to ensure new icons are released
+
+- bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
-- bump everything to release new doc pages
-
-- update container image chronograf to latest[@e429b94](https://github.com/e429b94) by renovate ([#20519](https://github.com/truecharts/charts/issues/20519))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
+- update container image chronograf to latest[@8c2b753](https://github.com/8c2b753) by renovate ([#21249](https://github.com/truecharts/charts/issues/21249))
+
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image chronograf to latest[@82e596f](https://github.com/82e596f) by renovate ([#21260](https://github.com/truecharts/charts/issues/21260))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image chronograf to latest[@e429b94](https://github.com/e429b94) by renovate ([#20519](https://github.com/truecharts/charts/issues/20519))
 
 - update container image chronograf to latest[@40e60ec](https://github.com/40e60ec) by renovate ([#20508](https://github.com/truecharts/charts/issues/20508))
 
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
