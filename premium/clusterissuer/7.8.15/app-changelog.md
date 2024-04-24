@@ -1,6 +1,6 @@
 
 
-## [clusterissuer-7.8.15](https://github.com/truecharts/charts/compare/clusterissuer-7.6.0...clusterissuer-7.8.15) (2024-04-23)
+## [clusterissuer-7.8.15](https://github.com/truecharts/charts/compare/clusterissuer-7.6.0...clusterissuer-7.8.15) (2024-04-24)
 
 ### Chore
 

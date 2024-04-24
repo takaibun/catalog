@@ -1,6 +1,6 @@
 
 
-## [jellyseerr-9.9.10](https://github.com/truecharts/charts/compare/jellyseerr-9.6.0...jellyseerr-9.9.10) (2024-04-23)
+## [jellyseerr-9.9.10](https://github.com/truecharts/charts/compare/jellyseerr-9.6.0...jellyseerr-9.9.10) (2024-04-24)
 
 ### Chore
 

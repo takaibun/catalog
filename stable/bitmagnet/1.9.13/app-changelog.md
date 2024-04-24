@@ -1,6 +1,6 @@
 
 
-## [bitmagnet-1.9.13](https://github.com/truecharts/charts/compare/bitmagnet-1.7.0...bitmagnet-1.9.13) (2024-04-23)
+## [bitmagnet-1.9.13](https://github.com/truecharts/charts/compare/bitmagnet-1.7.0...bitmagnet-1.9.13) (2024-04-24)
 
 ### Chore
 

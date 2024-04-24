@@ -1,6 +1,6 @@
 
 
-## [organizr-18.8.13](https://github.com/truecharts/charts/compare/organizr-18.6.0...organizr-18.8.13) (2024-04-23)
+## [organizr-18.8.13](https://github.com/truecharts/charts/compare/organizr-18.6.0...organizr-18.8.13) (2024-04-24)
 
 ### Chore
 
