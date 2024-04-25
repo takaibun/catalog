@@ -1,6 +1,6 @@
 
 
-## [openebs-4.3.11](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.3.11) (2024-04-23)
+## [openebs-4.4.1](https://github.com/truecharts/charts/compare/openebs-3.6.0...openebs-4.4.1) (2024-04-25)
 
 ### Chore
 
@@ -63,6 +63,8 @@
 ### Feat
 
 
+
+- poolname input validation ([#21277](https://github.com/truecharts/charts/issues/21277))
 
 - BREAKING CHANGE make it an umbrella chart with multiple upstream dependencies ([#19813](https://github.com/truecharts/charts/issues/19813))
 
