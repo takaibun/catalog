@@ -1,6 +1,6 @@
 
 
-## [airsonic-advanced-13.9.14](https://github.com/truecharts/charts/compare/airsonic-advanced-13.7.0...airsonic-advanced-13.9.14) (2024-04-24)
+## [airsonic-advanced-13.9.14](https://github.com/truecharts/charts/compare/airsonic-advanced-13.7.0...airsonic-advanced-13.9.14) (2024-04-25)
 
 ### Chore
 

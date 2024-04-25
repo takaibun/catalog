@@ -1,6 +1,6 @@
 
 
-## [yourls-5.8.23](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.23) (2024-04-24)
+## [yourls-5.8.23](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-5.8.23) (2024-04-25)
 
 ### Chore
 

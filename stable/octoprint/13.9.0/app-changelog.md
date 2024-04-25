@@ -1,6 +1,6 @@
 
 
-## [octoprint-13.9.0](https://github.com/truecharts/charts/compare/octoprint-13.6.0...octoprint-13.9.0) (2024-04-24)
+## [octoprint-13.9.0](https://github.com/truecharts/charts/compare/octoprint-13.6.0...octoprint-13.9.0) (2024-04-25)
 
 ### Chore
 
