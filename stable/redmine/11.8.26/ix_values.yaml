@@ -1,7 +1,7 @@
 image:
   repository: redmine
   pullPolicy: IfNotPresent
-  tag: 5.1.2@sha256:1e0140c0a208074cc8cc4a0ef40f70ec8d4dd8a7aa84f835728b9a2b1933a891
+  tag: 5.1.2@sha256:1eebf4c98f362e005cb20589e10a498a070a9a31f223c80c491a1577a8a82188
 redmine:
   plugins_migrate: true
   no_db_migrate: false
