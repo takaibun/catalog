@@ -1,6 +1,6 @@
 
 
-## [rflood-5.8.21](https://github.com/truecharts/charts/compare/rflood-5.6.0...rflood-5.8.21) (2024-04-25)
+## [rflood-5.8.21](https://github.com/truecharts/charts/compare/rflood-5.6.0...rflood-5.8.21) (2024-04-26)
 
 ### Chore
 

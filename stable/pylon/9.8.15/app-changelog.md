@@ -1,6 +1,6 @@
 
 
-## [pylon-9.8.15](https://github.com/truecharts/charts/compare/pylon-9.6.0...pylon-9.8.15) (2024-04-25)
+## [pylon-9.8.15](https://github.com/truecharts/charts/compare/pylon-9.6.0...pylon-9.8.15) (2024-04-26)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [wikijs-15.8.14](https://github.com/truecharts/charts/compare/wikijs-15.6.0...wikijs-15.8.14) (2024-04-25)
+## [wikijs-15.8.14](https://github.com/truecharts/charts/compare/wikijs-15.6.0...wikijs-15.8.14) (2024-04-26)
 
 ### Chore
 

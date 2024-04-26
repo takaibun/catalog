@@ -1,6 +1,6 @@
 
 
-## [slash-4.8.15](https://github.com/truecharts/charts/compare/slash-4.6.0...slash-4.8.15) (2024-04-25)
+## [slash-4.8.15](https://github.com/truecharts/charts/compare/slash-4.6.0...slash-4.8.15) (2024-04-26)
 
 ### Chore
 

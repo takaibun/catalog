@@ -1,6 +1,6 @@
 
 
-## [rstudio-6.9.0](https://github.com/truecharts/charts/compare/rstudio-6.6.0...rstudio-6.9.0) (2024-04-25)
+## [rstudio-6.9.0](https://github.com/truecharts/charts/compare/rstudio-6.6.0...rstudio-6.9.0) (2024-04-26)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [lazylibrarian-18.8.18](https://github.com/truecharts/charts/compare/lazylibrarian-18.6.0...lazylibrarian-18.8.18) (2024-04-25)
+## [lazylibrarian-18.8.18](https://github.com/truecharts/charts/compare/lazylibrarian-18.6.0...lazylibrarian-18.8.18) (2024-04-26)
 
 ### Chore
 
