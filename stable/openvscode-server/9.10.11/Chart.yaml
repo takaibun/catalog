@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.0
   min_scale_version: 23.10.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Network-Web
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: latest
+appVersion: 1.88.0
 dependencies:
   - name: common
     version: 20.3.12
@@ -17,20 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Alternative Imgur front-end
-home: https://truecharts.org/charts/stable/rimgo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
+description: Openvscode-server provides a version of VS Code that runs a server on a remote machine.
+home: https://truecharts.org/charts/stable/openvscode-server
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/openvscode-server.webp
 keywords:
-  - rimgo
-  - Network-Web
+  - openvscode-server
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rimgo
+name: openvscode-server
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
-  - https://quay.io/pussthecatorg/rimgo
+  - https://github.com/truecharts/charts/tree/master/charts/stable/openvscode-server
+  - https://ghcr.io/linuxserver/openvscode-server
 type: application
-version: 6.8.54
+version: 9.10.11
