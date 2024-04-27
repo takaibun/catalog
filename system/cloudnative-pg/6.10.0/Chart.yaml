@@ -10,14 +10,14 @@ apiVersion: v2
 appVersion: latest
 dependencies:
   - name: common
-    version: 20.3.11
+    version: 20.3.12
     repository: oci://tccr.io/truecharts
     condition: ""
     alias: ""
     tags: []
     import-values: []
   - name: cloudnative-pg
-    version: 0.21.0
+    version: 0.20.2
     repository: https://cloudnative-pg.github.io/charts
     condition: ""
     alias: cloudnative-pg
