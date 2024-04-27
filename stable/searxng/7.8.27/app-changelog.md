@@ -1,12 +1,12 @@
 
 
-## [searxng-7.8.25](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.8.25) (2024-04-26)
+## [searxng-7.8.27](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.8.27) (2024-04-27)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
@@ -14,13 +14,17 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image searxng/searxng to latest[@bcf17ba](https://github.com/bcf17ba) by renovate ([#21379](https://github.com/truecharts/charts/issues/21379))
+
+- update container image searxng/searxng to latest[@51034d5](https://github.com/51034d5) by renovate ([#21382](https://github.com/truecharts/charts/issues/21382))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image searxng/searxng to latest[@719d465](https://github.com/719d465) by renovate ([#21116](https://github.com/truecharts/charts/issues/21116))
 
@@ -32,7 +36,7 @@
 
 - update container image searxng/searxng to latest[@90ae3f0](https://github.com/90ae3f0) by renovate ([#20944](https://github.com/truecharts/charts/issues/20944))
 
-- update container image searxng/searxng to latest[@51034d5](https://github.com/51034d5) by renovate ([#21382](https://github.com/truecharts/charts/issues/21382))
+- update container image searxng/searxng to latest[@72f3dab](https://github.com/72f3dab) by renovate ([#21411](https://github.com/truecharts/charts/issues/21411))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -42,15 +46,15 @@
 
 - update container image searxng/searxng to latest[@7b49637](https://github.com/7b49637) by renovate ([#20667](https://github.com/truecharts/charts/issues/20667))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image searxng/searxng to latest[@fda9b23](https://github.com/fda9b23) by renovate ([#21429](https://github.com/truecharts/charts/issues/21429))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image searxng/searxng to latest[@2c3d5af](https://github.com/2c3d5af) by renovate ([#21286](https://github.com/truecharts/charts/issues/21286))
 
 - update container image searxng/searxng to latest[@0527e28](https://github.com/0527e28) by renovate ([#20512](https://github.com/truecharts/charts/issues/20512))
 
-- update container image searxng/searxng to latest[@2c3d5af](https://github.com/2c3d5af) by renovate ([#21286](https://github.com/truecharts/charts/issues/21286))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image searxng/searxng to latest[@a469625](https://github.com/a469625) by renovate ([#20408](https://github.com/truecharts/charts/issues/20408))
 
