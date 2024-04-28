@@ -1,6 +1,6 @@
 
 
-## [ispy-agent-dvr-9.11.17](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.17) (2024-04-26)
+## [ispy-agent-dvr-9.11.17](https://github.com/truecharts/charts/compare/ispy-agent-dvr-9.8.0...ispy-agent-dvr-9.11.17) (2024-04-28)
 
 ### Chore
 

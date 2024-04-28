@@ -1,6 +1,6 @@
 
 
-## [searxng-7.8.27](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.8.27) (2024-04-27)
+## [searxng-7.8.27](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-7.8.27) (2024-04-28)
 
 ### Chore
 

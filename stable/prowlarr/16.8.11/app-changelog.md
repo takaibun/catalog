@@ -1,6 +1,6 @@
 
 
-## [prowlarr-16.8.11](https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.8.11) (2024-04-26)
+## [prowlarr-16.8.11](https://github.com/truecharts/charts/compare/prowlarr-16.4.0...prowlarr-16.8.11) (2024-04-28)
 
 ### Chore
 

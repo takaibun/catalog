@@ -1,6 +1,6 @@
 
 
-## [semaphore-1.2.19](https://github.com/truecharts/charts/compare/semaphore-1.1.2...semaphore-1.2.19) (2024-04-26)
+## [semaphore-1.2.19](https://github.com/truecharts/charts/compare/semaphore-1.1.2...semaphore-1.2.19) (2024-04-28)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [shiori-16.9.16](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.9.16) (2024-04-27)
+## [shiori-16.9.16](https://github.com/truecharts/charts/compare/shiori-16.6.0...shiori-16.9.16) (2024-04-28)
 
 ### Chore
 

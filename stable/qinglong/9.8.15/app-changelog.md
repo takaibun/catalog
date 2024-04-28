@@ -1,6 +1,6 @@
 
 
-## [qinglong-9.8.15](https://github.com/truecharts/charts/compare/qinglong-9.6.0...qinglong-9.8.15) (2024-04-27)
+## [qinglong-9.8.15](https://github.com/truecharts/charts/compare/qinglong-9.6.0...qinglong-9.8.15) (2024-04-28)
 
 ### Chore
 
