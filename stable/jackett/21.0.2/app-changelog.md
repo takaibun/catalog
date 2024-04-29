@@ -1,6 +1,6 @@
 
 
-## [jackett-21.0.0](https://github.com/truecharts/charts/compare/jackett-19.6.0...jackett-21.0.0) (2024-04-29)
+## [jackett-21.0.2](https://github.com/truecharts/charts/compare/jackett-19.6.0...jackett-21.0.2) (2024-04-29)
 
 ### Chore
 
@@ -125,6 +125,8 @@
 ### Fix
 
 
+
+- adapt for common cnpg/volsync pathing changes ([#21445](https://github.com/truecharts/charts/issues/21445))
 
 - Update severely outdated container again ([#19677](https://github.com/truecharts/charts/issues/19677))
 
