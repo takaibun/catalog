@@ -254,6 +254,7 @@ questions:
                   type: string
                   default: "MYSECRETPASSPHRASE"
                   required: true
+
   - variable: operator
     group: App Configuration
     label: Operator Configuration
@@ -326,7 +327,7 @@ questions:
                       description: "Server for ACME, for example: letsencrypt"
                       schema:
                         type: string
-                        default: 'Letsencrypt-Production'
+                        default: 'https://acme-v02.api.letsencrypt.org/directory'
                         enum:
                           - value: 'https://acme-v02.api.letsencrypt.org/directory'
                             description: Letsencrypt-Production

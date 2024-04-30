@@ -1,10 +1,12 @@
 
 
-## [clusterissuer-8.0.2](https://github.com/truecharts/charts/compare/clusterissuer-7.6.0...clusterissuer-8.0.2) (2024-04-29)
+## [clusterissuer-8.0.4](https://github.com/truecharts/charts/compare/clusterissuer-7.6.0...clusterissuer-8.0.4) (2024-04-30)
 
 ### Chore
 
 
+
+- bump common
 
 - bump everything to release new doc pages
 
@@ -20,9 +22,9 @@
 
 - apply hotfix
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -36,7 +38,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -77,6 +79,8 @@
 - fixup all chart volsync/credentials settings
 
 - adapt for common cnpg/volsync pathing changes ([#21445](https://github.com/truecharts/charts/issues/21445))
+
+- fix default issuer ([#21446](https://github.com/truecharts/charts/issues/21446))
 
 - Allow entering explicit cert-manager namespace for now
 
