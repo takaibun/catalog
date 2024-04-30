@@ -1,6 +1,6 @@
 
 
-## [shlink-15.0.3](https://github.com/truecharts/charts/compare/shlink-14.4.0...shlink-15.0.3) (2024-04-29)
+## [shlink-15.0.3](https://github.com/truecharts/charts/compare/shlink-14.4.0...shlink-15.0.3) (2024-04-30)
 
 ### Chore
 

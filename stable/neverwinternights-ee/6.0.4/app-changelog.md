@@ -1,6 +1,6 @@
 
 
-## [neverwinternights-ee-6.0.4](https://github.com/truecharts/charts/compare/neverwinternights-ee-5.6.0...neverwinternights-ee-6.0.4) (2024-04-29)
+## [neverwinternights-ee-6.0.4](https://github.com/truecharts/charts/compare/neverwinternights-ee-5.6.0...neverwinternights-ee-6.0.4) (2024-04-30)
 
 ### Chore
 

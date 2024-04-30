@@ -1,6 +1,6 @@
 
 
-## [pastey-7.0.4](https://github.com/truecharts/charts/compare/pastey-6.6.0...pastey-7.0.4) (2024-04-29)
+## [pastey-7.0.4](https://github.com/truecharts/charts/compare/pastey-6.6.0...pastey-7.0.4) (2024-04-30)
 
 ### Chore
 

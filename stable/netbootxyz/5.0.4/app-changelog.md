@@ -1,6 +1,6 @@
 
 
-## [netbootxyz-5.0.4](https://github.com/truecharts/charts/compare/netbootxyz-4.6.0...netbootxyz-5.0.4) (2024-04-29)
+## [netbootxyz-5.0.4](https://github.com/truecharts/charts/compare/netbootxyz-4.6.0...netbootxyz-5.0.4) (2024-04-30)
 
 ### Chore
 

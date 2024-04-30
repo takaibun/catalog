@@ -1,6 +1,6 @@
 
 
-## [kdenlive-vnc-6.0.4](https://github.com/truecharts/charts/compare/kdenlive-vnc-5.6.0...kdenlive-vnc-6.0.4) (2024-04-29)
+## [kdenlive-vnc-6.0.4](https://github.com/truecharts/charts/compare/kdenlive-vnc-5.6.0...kdenlive-vnc-6.0.4) (2024-04-30)
 
 ### Chore
 

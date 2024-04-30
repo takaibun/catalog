@@ -1,6 +1,6 @@
 
 
-## [cstrike1-6-6.0.4](https://github.com/truecharts/charts/compare/cstrike1-6-5.6.0...cstrike1-6-6.0.4) (2024-04-29)
+## [cstrike1-6-6.0.4](https://github.com/truecharts/charts/compare/cstrike1-6-5.6.0...cstrike1-6-6.0.4) (2024-04-30)
 
 ### Chore
 

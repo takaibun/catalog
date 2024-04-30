@@ -1,6 +1,6 @@
 
 
-## [sqlitebrowser-11.0.3](https://github.com/truecharts/charts/compare/sqlitebrowser-10.6.0...sqlitebrowser-11.0.3) (2024-04-29)
+## [sqlitebrowser-11.0.3](https://github.com/truecharts/charts/compare/sqlitebrowser-10.6.0...sqlitebrowser-11.0.3) (2024-04-30)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [kerio-connect-6.0.4](https://github.com/truecharts/charts/compare/kerio-connect-5.6.0...kerio-connect-6.0.4) (2024-04-29)
+## [kerio-connect-6.0.4](https://github.com/truecharts/charts/compare/kerio-connect-5.6.0...kerio-connect-6.0.4) (2024-04-30)
 
 ### Chore
 

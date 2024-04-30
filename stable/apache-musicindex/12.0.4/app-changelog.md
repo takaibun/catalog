@@ -1,6 +1,6 @@
 
 
-## [apache-musicindex-12.0.4](https://github.com/truecharts/charts/compare/apache-musicindex-11.6.0...apache-musicindex-12.0.4) (2024-04-29)
+## [apache-musicindex-12.0.4](https://github.com/truecharts/charts/compare/apache-musicindex-11.6.0...apache-musicindex-12.0.4) (2024-04-30)
 
 ### Chore
 

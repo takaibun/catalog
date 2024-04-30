@@ -1,6 +1,6 @@
 
 
-## [recyclarr-10.0.3](https://github.com/truecharts/charts/compare/recyclarr-9.6.0...recyclarr-10.0.3) (2024-04-29)
+## [recyclarr-10.0.3](https://github.com/truecharts/charts/compare/recyclarr-9.6.0...recyclarr-10.0.3) (2024-04-30)
 
 ### Chore
 

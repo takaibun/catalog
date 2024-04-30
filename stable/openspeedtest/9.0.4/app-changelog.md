@@ -1,6 +1,6 @@
 
 
-## [openspeedtest-9.0.4](https://github.com/truecharts/charts/compare/openspeedtest-8.6.0...openspeedtest-9.0.4) (2024-04-29)
+## [openspeedtest-9.0.4](https://github.com/truecharts/charts/compare/openspeedtest-8.6.0...openspeedtest-9.0.4) (2024-04-30)
 
 ### Chore
 

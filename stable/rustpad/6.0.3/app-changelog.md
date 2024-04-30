@@ -1,6 +1,6 @@
 
 
-## [rustpad-6.0.3](https://github.com/truecharts/charts/compare/rustpad-5.6.0...rustpad-6.0.3) (2024-04-29)
+## [rustpad-6.0.3](https://github.com/truecharts/charts/compare/rustpad-5.6.0...rustpad-6.0.3) (2024-04-30)
 
 ### Chore
 

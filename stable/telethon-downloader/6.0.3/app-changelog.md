@@ -1,6 +1,6 @@
 
 
-## [telethon-downloader-6.0.3](https://github.com/truecharts/charts/compare/telethon-downloader-5.6.0...telethon-downloader-6.0.3) (2024-04-29)
+## [telethon-downloader-6.0.3](https://github.com/truecharts/charts/compare/telethon-downloader-5.6.0...telethon-downloader-6.0.3) (2024-04-30)
 
 ### Chore
 

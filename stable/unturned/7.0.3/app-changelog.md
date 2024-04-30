@@ -1,6 +1,6 @@
 
 
-## [unturned-7.0.3](https://github.com/truecharts/charts/compare/unturned-6.6.0...unturned-7.0.3) (2024-04-29)
+## [unturned-7.0.3](https://github.com/truecharts/charts/compare/unturned-6.6.0...unturned-7.0.3) (2024-04-30)
 
 ### Chore
 

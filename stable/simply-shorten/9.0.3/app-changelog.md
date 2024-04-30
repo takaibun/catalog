@@ -1,6 +1,6 @@
 
 
-## [simply-shorten-9.0.3](https://github.com/truecharts/charts/compare/simply-shorten-8.6.0...simply-shorten-9.0.3) (2024-04-29)
+## [simply-shorten-9.0.3](https://github.com/truecharts/charts/compare/simply-shorten-8.6.0...simply-shorten-9.0.3) (2024-04-30)
 
 ### Chore
 

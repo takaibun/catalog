@@ -1,6 +1,6 @@
 
 
-## [ztcuui-aio-9.0.3](https://github.com/truecharts/charts/compare/ztcuui-aio-8.6.0...ztcuui-aio-9.0.3) (2024-04-29)
+## [ztcuui-aio-9.0.3](https://github.com/truecharts/charts/compare/ztcuui-aio-8.6.0...ztcuui-aio-9.0.3) (2024-04-30)
 
 ### Chore
 

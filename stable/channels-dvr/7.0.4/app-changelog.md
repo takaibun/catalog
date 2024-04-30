@@ -1,6 +1,6 @@
 
 
-## [channels-dvr-7.0.4](https://github.com/truecharts/charts/compare/channels-dvr-6.6.0...channels-dvr-7.0.4) (2024-04-29)
+## [channels-dvr-7.0.4](https://github.com/truecharts/charts/compare/channels-dvr-6.6.0...channels-dvr-7.0.4) (2024-04-30)
 
 ### Chore
 

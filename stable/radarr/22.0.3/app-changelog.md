@@ -1,6 +1,6 @@
 
 
-## [radarr-22.0.3](https://github.com/truecharts/charts/compare/radarr-21.4.0...radarr-22.0.3) (2024-04-29)
+## [radarr-22.0.3](https://github.com/truecharts/charts/compare/radarr-21.4.0...radarr-22.0.3) (2024-04-30)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [mediagoblin-6.0.4](https://github.com/truecharts/charts/compare/mediagoblin-5.6.0...mediagoblin-6.0.4) (2024-04-29)
+## [mediagoblin-6.0.4](https://github.com/truecharts/charts/compare/mediagoblin-5.6.0...mediagoblin-6.0.4) (2024-04-30)
 
 ### Chore
 

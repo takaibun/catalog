@@ -1,6 +1,6 @@
 
 
-## [github-backup-6.0.3](https://github.com/truecharts/charts/compare/github-backup-5.6.0...github-backup-6.0.3) (2024-04-29)
+## [github-backup-6.0.3](https://github.com/truecharts/charts/compare/github-backup-5.6.0...github-backup-6.0.3) (2024-04-30)
 
 ### Chore
 

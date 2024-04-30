@@ -1,6 +1,6 @@
 
 
-## [minecraft-java-9.0.4](https://github.com/truecharts/charts/compare/minecraft-java-8.6.0...minecraft-java-9.0.4) (2024-04-29)
+## [minecraft-java-9.0.4](https://github.com/truecharts/charts/compare/minecraft-java-8.6.0...minecraft-java-9.0.4) (2024-04-30)
 
 ### Chore
 

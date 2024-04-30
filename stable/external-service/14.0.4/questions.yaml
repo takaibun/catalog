@@ -263,6 +263,7 @@ questions:
                   type: string
                   default: "MYSECRETPASSPHRASE"
                   required: true
+
   - variable: service
     group: Services
     label: Configure Service(s)

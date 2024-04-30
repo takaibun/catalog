@@ -1,6 +1,6 @@
 
 
-## [double-take-11.0.4](https://github.com/truecharts/charts/compare/double-take-10.6.0...double-take-11.0.4) (2024-04-29)
+## [double-take-11.0.4](https://github.com/truecharts/charts/compare/double-take-10.6.0...double-take-11.0.4) (2024-04-30)
 
 ### Chore
 

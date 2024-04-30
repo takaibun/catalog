@@ -1,6 +1,6 @@
 
 
-## [redm-6.0.3](https://github.com/truecharts/charts/compare/redm-5.6.0...redm-6.0.3) (2024-04-29)
+## [redm-6.0.3](https://github.com/truecharts/charts/compare/redm-5.6.0...redm-6.0.3) (2024-04-30)
 
 ### Chore
 

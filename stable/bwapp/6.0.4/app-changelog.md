@@ -1,6 +1,6 @@
 
 
-## [bwapp-6.0.4](https://github.com/truecharts/charts/compare/bwapp-5.6.0...bwapp-6.0.4) (2024-04-29)
+## [bwapp-6.0.4](https://github.com/truecharts/charts/compare/bwapp-5.6.0...bwapp-6.0.4) (2024-04-30)
 
 ### Chore
 

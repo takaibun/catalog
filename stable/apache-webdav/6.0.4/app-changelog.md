@@ -1,6 +1,6 @@
 
 
-## [apache-webdav-6.0.4](https://github.com/truecharts/charts/compare/apache-webdav-5.6.0...apache-webdav-6.0.4) (2024-04-29)
+## [apache-webdav-6.0.4](https://github.com/truecharts/charts/compare/apache-webdav-5.6.0...apache-webdav-6.0.4) (2024-04-30)
 
 ### Chore
 

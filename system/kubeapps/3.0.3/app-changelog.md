@@ -1,6 +1,6 @@
 
 
-## [kubeapps-3.0.3](https://github.com/truecharts/charts/compare/kubeapps-2.8.0...kubeapps-3.0.3) (2024-04-29)
+## [kubeapps-3.0.3](https://github.com/truecharts/charts/compare/kubeapps-2.8.0...kubeapps-3.0.3) (2024-04-30)
 
 ### Chore
 

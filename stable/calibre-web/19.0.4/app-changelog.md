@@ -1,6 +1,6 @@
 
 
-## [calibre-web-19.0.4](https://github.com/truecharts/charts/compare/calibre-web-18.6.0...calibre-web-19.0.4) (2024-04-29)
+## [calibre-web-19.0.4](https://github.com/truecharts/charts/compare/calibre-web-18.6.0...calibre-web-19.0.4) (2024-04-30)
 
 ### Chore
 

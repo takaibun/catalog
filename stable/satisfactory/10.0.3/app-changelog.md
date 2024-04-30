@@ -1,6 +1,6 @@
 
 
-## [satisfactory-10.0.3](https://github.com/truecharts/charts/compare/satisfactory-9.6.0...satisfactory-10.0.3) (2024-04-29)
+## [satisfactory-10.0.3](https://github.com/truecharts/charts/compare/satisfactory-9.6.0...satisfactory-10.0.3) (2024-04-30)
 
 ### Chore
 

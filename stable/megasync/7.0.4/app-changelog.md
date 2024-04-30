@@ -1,6 +1,6 @@
 
 
-## [megasync-7.0.4](https://github.com/truecharts/charts/compare/megasync-6.6.0...megasync-7.0.4) (2024-04-29)
+## [megasync-7.0.4](https://github.com/truecharts/charts/compare/megasync-6.6.0...megasync-7.0.4) (2024-04-30)
 
 ### Chore
 

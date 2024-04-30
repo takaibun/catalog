@@ -1,6 +1,6 @@
 
 
-## [jmzhomeproxy-6.0.3](https://github.com/truecharts/charts/compare/jmzhomeproxy-5.6.0...jmzhomeproxy-6.0.3) (2024-04-29)
+## [jmzhomeproxy-6.0.3](https://github.com/truecharts/charts/compare/jmzhomeproxy-5.6.0...jmzhomeproxy-6.0.3) (2024-04-30)
 
 ### Chore
 

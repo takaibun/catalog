@@ -1,6 +1,6 @@
 
 
-## [boinc-10.0.4](https://github.com/truecharts/charts/compare/boinc-9.6.0...boinc-10.0.4) (2024-04-29)
+## [boinc-10.0.4](https://github.com/truecharts/charts/compare/boinc-9.6.0...boinc-10.0.4) (2024-04-30)
 
 ### Chore
 

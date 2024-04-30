@@ -1,6 +1,6 @@
 
 
-## [shaarli-6.0.3](https://github.com/truecharts/charts/compare/shaarli-5.6.0...shaarli-6.0.3) (2024-04-29)
+## [shaarli-6.0.3](https://github.com/truecharts/charts/compare/shaarli-5.6.0...shaarli-6.0.3) (2024-04-30)
 
 ### Chore
 

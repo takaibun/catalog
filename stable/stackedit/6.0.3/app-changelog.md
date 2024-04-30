@@ -1,6 +1,6 @@
 
 
-## [stackedit-6.0.3](https://github.com/truecharts/charts/compare/stackedit-5.6.0...stackedit-6.0.3) (2024-04-29)
+## [stackedit-6.0.3](https://github.com/truecharts/charts/compare/stackedit-5.6.0...stackedit-6.0.3) (2024-04-30)
 
 ### Chore
 

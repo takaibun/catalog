@@ -1,6 +1,6 @@
 
 
-## [s3sync-6.0.3](https://github.com/truecharts/charts/compare/s3sync-5.6.0...s3sync-6.0.3) (2024-04-29)
+## [s3sync-6.0.3](https://github.com/truecharts/charts/compare/s3sync-5.6.0...s3sync-6.0.3) (2024-04-30)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [speedtest-exporter-11.0.3](https://github.com/truecharts/charts/compare/speedtest-exporter-10.7.0...speedtest-exporter-11.0.3) (2024-04-29)
+## [speedtest-exporter-11.0.3](https://github.com/truecharts/charts/compare/speedtest-exporter-10.7.0...speedtest-exporter-11.0.3) (2024-04-30)
 
 ### Chore
 

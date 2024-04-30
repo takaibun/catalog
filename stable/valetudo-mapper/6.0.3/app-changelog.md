@@ -1,6 +1,6 @@
 
 
-## [valetudo-mapper-6.0.3](https://github.com/truecharts/charts/compare/valetudo-mapper-5.6.0...valetudo-mapper-6.0.3) (2024-04-29)
+## [valetudo-mapper-6.0.3](https://github.com/truecharts/charts/compare/valetudo-mapper-5.6.0...valetudo-mapper-6.0.3) (2024-04-30)
 
 ### Chore
 

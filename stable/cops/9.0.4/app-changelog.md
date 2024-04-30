@@ -1,6 +1,6 @@
 
 
-## [cops-9.0.4](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-9.0.4) (2024-04-29)
+## [cops-9.0.4](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-9.0.4) (2024-04-30)
 
 ### Chore
 

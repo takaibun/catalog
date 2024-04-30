@@ -1,6 +1,6 @@
 
 
-## [twonky-server-6.0.3](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-6.0.3) (2024-04-29)
+## [twonky-server-6.0.3](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-6.0.3) (2024-04-30)
 
 ### Chore
 

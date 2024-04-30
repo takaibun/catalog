@@ -1,6 +1,6 @@
 
 
-## [pgadmin-16.0.4](https://github.com/truecharts/charts/compare/pgadmin-15.7.0...pgadmin-16.0.4) (2024-04-29)
+## [pgadmin-16.0.4](https://github.com/truecharts/charts/compare/pgadmin-15.7.0...pgadmin-16.0.4) (2024-04-30)
 
 ### Chore
 

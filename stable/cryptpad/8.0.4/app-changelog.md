@@ -1,6 +1,6 @@
 
 
-## [cryptpad-8.0.4](https://github.com/truecharts/charts/compare/cryptpad-7.6.0...cryptpad-8.0.4) (2024-04-29)
+## [cryptpad-8.0.4](https://github.com/truecharts/charts/compare/cryptpad-7.6.0...cryptpad-8.0.4) (2024-04-30)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [slack-invite-6.0.3](https://github.com/truecharts/charts/compare/slack-invite-5.6.0...slack-invite-6.0.3) (2024-04-29)
+## [slack-invite-6.0.3](https://github.com/truecharts/charts/compare/slack-invite-5.6.0...slack-invite-6.0.3) (2024-04-30)
 
 ### Chore
 

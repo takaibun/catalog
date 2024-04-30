@@ -1,6 +1,6 @@
 
 
-## [glauth-6.0.3](https://github.com/truecharts/charts/compare/glauth-5.6.0...glauth-6.0.3) (2024-04-29)
+## [glauth-6.0.3](https://github.com/truecharts/charts/compare/glauth-5.6.0...glauth-6.0.3) (2024-04-30)
 
 ### Chore
 

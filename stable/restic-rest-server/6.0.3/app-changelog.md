@@ -1,6 +1,6 @@
 
 
-## [restic-rest-server-6.0.3](https://github.com/truecharts/charts/compare/restic-rest-server-5.6.0...restic-rest-server-6.0.3) (2024-04-29)
+## [restic-rest-server-6.0.3](https://github.com/truecharts/charts/compare/restic-rest-server-5.6.0...restic-rest-server-6.0.3) (2024-04-30)
 
 ### Chore
 

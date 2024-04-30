@@ -1,6 +1,6 @@
 
 
-## [emulatorjs-10.0.4](https://github.com/truecharts/charts/compare/emulatorjs-9.6.0...emulatorjs-10.0.4) (2024-04-29)
+## [emulatorjs-10.0.4](https://github.com/truecharts/charts/compare/emulatorjs-9.6.0...emulatorjs-10.0.4) (2024-04-30)
 
 ### Chore
 

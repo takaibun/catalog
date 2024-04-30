@@ -1,6 +1,6 @@
 
 
-## [vocechat-server-4.0.3](https://github.com/truecharts/charts/compare/vocechat-server-3.6.0...vocechat-server-4.0.3) (2024-04-29)
+## [vocechat-server-4.0.3](https://github.com/truecharts/charts/compare/vocechat-server-3.6.0...vocechat-server-4.0.3) (2024-04-30)
 
 ### Chore
 

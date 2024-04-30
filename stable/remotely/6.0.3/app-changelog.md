@@ -1,6 +1,6 @@
 
 
-## [remotely-6.0.3](https://github.com/truecharts/charts/compare/remotely-5.6.0...remotely-6.0.3) (2024-04-29)
+## [remotely-6.0.3](https://github.com/truecharts/charts/compare/remotely-5.6.0...remotely-6.0.3) (2024-04-30)
 
 ### Chore
 

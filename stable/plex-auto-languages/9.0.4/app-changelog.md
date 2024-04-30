@@ -1,6 +1,6 @@
 
 
-## [plex-auto-languages-9.0.4](https://github.com/truecharts/charts/compare/plex-auto-languages-8.6.0...plex-auto-languages-9.0.4) (2024-04-29)
+## [plex-auto-languages-9.0.4](https://github.com/truecharts/charts/compare/plex-auto-languages-8.6.0...plex-auto-languages-9.0.4) (2024-04-30)
 
 ### Chore
 

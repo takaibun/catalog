@@ -1,6 +1,6 @@
 
 
-## [flame-6.0.3](https://github.com/truecharts/charts/compare/flame-5.6.0...flame-6.0.3) (2024-04-29)
+## [flame-6.0.3](https://github.com/truecharts/charts/compare/flame-5.6.0...flame-6.0.3) (2024-04-30)
 
 ### Chore
 

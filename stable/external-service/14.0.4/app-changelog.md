@@ -1,6 +1,6 @@
 
 
-## [external-service-14.0.4](https://github.com/truecharts/charts/compare/external-service-13.6.0...external-service-14.0.4) (2024-04-29)
+## [external-service-14.0.4](https://github.com/truecharts/charts/compare/external-service-13.6.0...external-service-14.0.4) (2024-04-30)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [bitcoinunlimited-6.0.4](https://github.com/truecharts/charts/compare/bitcoinunlimited-5.6.0...bitcoinunlimited-6.0.4) (2024-04-29)
+## [bitcoinunlimited-6.0.4](https://github.com/truecharts/charts/compare/bitcoinunlimited-5.6.0...bitcoinunlimited-6.0.4) (2024-04-30)
 
 ### Chore
 

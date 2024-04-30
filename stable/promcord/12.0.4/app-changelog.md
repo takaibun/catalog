@@ -1,6 +1,6 @@
 
 
-## [promcord-12.0.4](https://github.com/truecharts/charts/compare/promcord-11.6.0...promcord-12.0.4) (2024-04-29)
+## [promcord-12.0.4](https://github.com/truecharts/charts/compare/promcord-11.6.0...promcord-12.0.4) (2024-04-30)
 
 ### Chore
 

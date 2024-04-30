@@ -1,6 +1,6 @@
 
 
-## [nosqlclient-6.0.4](https://github.com/truecharts/charts/compare/nosqlclient-5.6.0...nosqlclient-6.0.4) (2024-04-29)
+## [nosqlclient-6.0.4](https://github.com/truecharts/charts/compare/nosqlclient-5.6.0...nosqlclient-6.0.4) (2024-04-30)
 
 ### Chore
 

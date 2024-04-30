@@ -1,6 +1,6 @@
 
 
-## [soft-serve-7.0.3](https://github.com/truecharts/charts/compare/soft-serve-6.6.0...soft-serve-7.0.3) (2024-04-29)
+## [soft-serve-7.0.3](https://github.com/truecharts/charts/compare/soft-serve-6.6.0...soft-serve-7.0.3) (2024-04-30)
 
 ### Chore
 

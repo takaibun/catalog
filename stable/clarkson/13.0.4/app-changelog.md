@@ -1,6 +1,6 @@
 
 
-## [clarkson-13.0.4](https://github.com/truecharts/charts/compare/clarkson-12.9.0...clarkson-13.0.4) (2024-04-29)
+## [clarkson-13.0.4](https://github.com/truecharts/charts/compare/clarkson-12.9.0...clarkson-13.0.4) (2024-04-30)
 
 ### Chore
 

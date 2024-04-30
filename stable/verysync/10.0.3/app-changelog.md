@@ -1,6 +1,6 @@
 
 
-## [verysync-10.0.3](https://github.com/truecharts/charts/compare/verysync-9.6.0...verysync-10.0.3) (2024-04-29)
+## [verysync-10.0.3](https://github.com/truecharts/charts/compare/verysync-9.6.0...verysync-10.0.3) (2024-04-30)
 
 ### Chore
 

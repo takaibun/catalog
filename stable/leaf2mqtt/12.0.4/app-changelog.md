@@ -1,6 +1,6 @@
 
 
-## [leaf2mqtt-12.0.4](https://github.com/truecharts/charts/compare/leaf2mqtt-11.6.0...leaf2mqtt-12.0.4) (2024-04-29)
+## [leaf2mqtt-12.0.4](https://github.com/truecharts/charts/compare/leaf2mqtt-11.6.0...leaf2mqtt-12.0.4) (2024-04-30)
 
 ### Chore
 

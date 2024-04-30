@@ -1,6 +1,6 @@
 
 
-## [rcon-webadmin-9.0.3](https://github.com/truecharts/charts/compare/rcon-webadmin-8.6.0...rcon-webadmin-9.0.3) (2024-04-29)
+## [rcon-webadmin-9.0.3](https://github.com/truecharts/charts/compare/rcon-webadmin-8.6.0...rcon-webadmin-9.0.3) (2024-04-30)
 
 ### Chore
 

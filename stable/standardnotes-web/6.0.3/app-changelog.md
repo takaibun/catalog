@@ -1,6 +1,6 @@
 
 
-## [standardnotes-web-6.0.3](https://github.com/truecharts/charts/compare/standardnotes-web-5.6.0...standardnotes-web-6.0.3) (2024-04-29)
+## [standardnotes-web-6.0.3](https://github.com/truecharts/charts/compare/standardnotes-web-5.6.0...standardnotes-web-6.0.3) (2024-04-30)
 
 ### Chore
 

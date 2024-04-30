@@ -1,6 +1,6 @@
 
 
-## [terraria-tshock-7.0.3](https://github.com/truecharts/charts/compare/terraria-tshock-6.6.0...terraria-tshock-7.0.3) (2024-04-29)
+## [terraria-tshock-7.0.3](https://github.com/truecharts/charts/compare/terraria-tshock-6.6.0...terraria-tshock-7.0.3) (2024-04-30)
 
 ### Chore
 

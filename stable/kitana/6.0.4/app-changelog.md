@@ -1,6 +1,6 @@
 
 
-## [kitana-6.0.4](https://github.com/truecharts/charts/compare/kitana-5.6.0...kitana-6.0.4) (2024-04-29)
+## [kitana-6.0.4](https://github.com/truecharts/charts/compare/kitana-5.6.0...kitana-6.0.4) (2024-04-30)
 
 ### Chore
 

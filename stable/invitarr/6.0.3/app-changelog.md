@@ -1,6 +1,6 @@
 
 
-## [invitarr-6.0.3](https://github.com/truecharts/charts/compare/invitarr-5.6.0...invitarr-6.0.3) (2024-04-29)
+## [invitarr-6.0.3](https://github.com/truecharts/charts/compare/invitarr-5.6.0...invitarr-6.0.3) (2024-04-30)
 
 ### Chore
 

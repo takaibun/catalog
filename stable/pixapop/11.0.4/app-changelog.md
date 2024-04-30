@@ -1,6 +1,6 @@
 
 
-## [pixapop-11.0.4](https://github.com/truecharts/charts/compare/pixapop-10.6.0...pixapop-11.0.4) (2024-04-29)
+## [pixapop-11.0.4](https://github.com/truecharts/charts/compare/pixapop-10.6.0...pixapop-11.0.4) (2024-04-30)
 
 ### Chore
 

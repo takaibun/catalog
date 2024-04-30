@@ -1,6 +1,6 @@
 
 
-## [automatic-ripping-machine-4.0.4](https://github.com/truecharts/charts/compare/automatic-ripping-machine-3.6.0...automatic-ripping-machine-4.0.4) (2024-04-29)
+## [automatic-ripping-machine-4.0.4](https://github.com/truecharts/charts/compare/automatic-ripping-machine-3.6.0...automatic-ripping-machine-4.0.4) (2024-04-30)
 
 ### Chore
 

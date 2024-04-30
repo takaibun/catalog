@@ -1,6 +1,6 @@
 
 
-## [codeproject-ai-server-3.0.4](https://github.com/truecharts/charts/compare/codeproject-ai-server-2.6.0...codeproject-ai-server-3.0.4) (2024-04-29)
+## [codeproject-ai-server-3.0.4](https://github.com/truecharts/charts/compare/codeproject-ai-server-2.6.0...codeproject-ai-server-3.0.4) (2024-04-30)
 
 ### Chore
 

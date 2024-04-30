@@ -1,6 +1,6 @@
 
 
-## [godaddy-ddns-6.0.3](https://github.com/truecharts/charts/compare/godaddy-ddns-5.6.0...godaddy-ddns-6.0.3) (2024-04-29)
+## [godaddy-ddns-6.0.3](https://github.com/truecharts/charts/compare/godaddy-ddns-5.6.0...godaddy-ddns-6.0.3) (2024-04-30)
 
 ### Chore
 

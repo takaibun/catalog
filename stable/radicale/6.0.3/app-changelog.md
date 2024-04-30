@@ -1,6 +1,6 @@
 
 
-## [radicale-6.0.3](https://github.com/truecharts/charts/compare/radicale-5.6.0...radicale-6.0.3) (2024-04-29)
+## [radicale-6.0.3](https://github.com/truecharts/charts/compare/radicale-5.6.0...radicale-6.0.3) (2024-04-30)
 
 ### Chore
 

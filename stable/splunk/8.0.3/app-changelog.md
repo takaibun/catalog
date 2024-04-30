@@ -1,6 +1,6 @@
 
 
-## [splunk-8.0.3](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-8.0.3) (2024-04-29)
+## [splunk-8.0.3](https://github.com/truecharts/charts/compare/splunk-7.6.0...splunk-8.0.3) (2024-04-30)
 
 ### Chore
 

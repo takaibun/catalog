@@ -254,6 +254,7 @@ questions:
                   type: string
                   default: "MYSECRETPASSPHRASE"
                   required: true
+
   - variable: operator
     group: App Configuration
     label: Operator Configuration

@@ -1,6 +1,6 @@
 
 
-## [traefik-forward-auth-4.0.3](https://github.com/truecharts/charts/compare/traefik-forward-auth-3.6.0...traefik-forward-auth-4.0.3) (2024-04-29)
+## [traefik-forward-auth-4.0.3](https://github.com/truecharts/charts/compare/traefik-forward-auth-3.6.0...traefik-forward-auth-4.0.3) (2024-04-30)
 
 ### Chore
 

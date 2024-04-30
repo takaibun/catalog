@@ -1,6 +1,6 @@
 
 
-## [traefik-27.0.4](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-27.0.4) (2024-04-29)
+## [traefik-27.0.4](https://github.com/truecharts/charts/compare/traefik-26.8.0...traefik-27.0.4) (2024-04-30)
 
 ### Chore
 

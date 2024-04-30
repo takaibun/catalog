@@ -1,6 +1,6 @@
 
 
-## [hexo-blog-6.0.3](https://github.com/truecharts/charts/compare/hexo-blog-5.6.0...hexo-blog-6.0.3) (2024-04-29)
+## [hexo-blog-6.0.3](https://github.com/truecharts/charts/compare/hexo-blog-5.6.0...hexo-blog-6.0.3) (2024-04-30)
 
 ### Chore
 

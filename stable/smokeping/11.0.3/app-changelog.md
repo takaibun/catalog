@@ -1,6 +1,6 @@
 
 
-## [smokeping-11.0.3](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-11.0.3) (2024-04-29)
+## [smokeping-11.0.3](https://github.com/truecharts/charts/compare/smokeping-10.6.0...smokeping-11.0.3) (2024-04-30)
 
 ### Chore
 

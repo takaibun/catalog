@@ -1,6 +1,6 @@
 
 
-## [van-dam-5.0.3](https://github.com/truecharts/charts/compare/van-dam-4.6.0...van-dam-5.0.3) (2024-04-29)
+## [van-dam-5.0.3](https://github.com/truecharts/charts/compare/van-dam-4.6.0...van-dam-5.0.3) (2024-04-30)
 
 ### Chore
 

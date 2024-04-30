@@ -1,6 +1,6 @@
 
 
-## [fmd2-wine-6.0.3](https://github.com/truecharts/charts/compare/fmd2-wine-5.6.0...fmd2-wine-6.0.3) (2024-04-29)
+## [fmd2-wine-6.0.3](https://github.com/truecharts/charts/compare/fmd2-wine-5.6.0...fmd2-wine-6.0.3) (2024-04-30)
 
 ### Chore
 

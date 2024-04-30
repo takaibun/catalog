@@ -1,6 +1,6 @@
 
 
-## [sia-daemon-6.0.3](https://github.com/truecharts/charts/compare/sia-daemon-5.6.0...sia-daemon-6.0.3) (2024-04-29)
+## [sia-daemon-6.0.3](https://github.com/truecharts/charts/compare/sia-daemon-5.6.0...sia-daemon-6.0.3) (2024-04-30)
 
 ### Chore
 

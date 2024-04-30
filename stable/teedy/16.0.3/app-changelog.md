@@ -1,6 +1,6 @@
 
 
-## [teedy-16.0.3](https://github.com/truecharts/charts/compare/teedy-15.6.0...teedy-16.0.3) (2024-04-29)
+## [teedy-16.0.3](https://github.com/truecharts/charts/compare/teedy-15.6.0...teedy-16.0.3) (2024-04-30)
 
 ### Chore
 

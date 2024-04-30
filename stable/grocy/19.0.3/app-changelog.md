@@ -1,6 +1,6 @@
 
 
-## [grocy-19.0.3](https://github.com/truecharts/charts/compare/grocy-18.6.0...grocy-19.0.3) (2024-04-29)
+## [grocy-19.0.3](https://github.com/truecharts/charts/compare/grocy-18.6.0...grocy-19.0.3) (2024-04-30)
 
 ### Chore
 

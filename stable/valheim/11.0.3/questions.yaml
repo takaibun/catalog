@@ -262,6 +262,7 @@ questions:
                   type: string
                   default: "MYSECRETPASSPHRASE"
                   required: true
+
   - variable: workload
     group: "Workload"
     label: ""

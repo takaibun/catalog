@@ -1,6 +1,6 @@
 
 
-## [tvhproxy-6.0.3](https://github.com/truecharts/charts/compare/tvhproxy-5.6.0...tvhproxy-6.0.3) (2024-04-29)
+## [tvhproxy-6.0.3](https://github.com/truecharts/charts/compare/tvhproxy-5.6.0...tvhproxy-6.0.3) (2024-04-30)
 
 ### Chore
 

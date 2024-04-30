@@ -1,6 +1,6 @@
 
 
-## [openbooks-5.0.4](https://github.com/truecharts/charts/compare/openbooks-4.6.0...openbooks-5.0.4) (2024-04-29)
+## [openbooks-5.0.4](https://github.com/truecharts/charts/compare/openbooks-4.6.0...openbooks-5.0.4) (2024-04-30)
 
 ### Chore
 

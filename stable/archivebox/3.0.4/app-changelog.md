@@ -1,6 +1,6 @@
 
 
-## [archivebox-3.0.4](https://github.com/truecharts/charts/compare/archivebox-1.1.2...archivebox-3.0.4) (2024-04-29)
+## [archivebox-3.0.4](https://github.com/truecharts/charts/compare/archivebox-1.1.2...archivebox-3.0.4) (2024-04-30)
 
 ### Chore
 

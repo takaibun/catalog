@@ -1,6 +1,6 @@
 
 
-## [sourcegraph-6.0.3](https://github.com/truecharts/charts/compare/sourcegraph-5.6.0...sourcegraph-6.0.3) (2024-04-29)
+## [sourcegraph-6.0.3](https://github.com/truecharts/charts/compare/sourcegraph-5.6.0...sourcegraph-6.0.3) (2024-04-30)
 
 ### Chore
 

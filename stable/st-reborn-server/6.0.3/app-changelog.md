@@ -1,6 +1,6 @@
 
 
-## [st-reborn-server-6.0.3](https://github.com/truecharts/charts/compare/st-reborn-server-5.6.0...st-reborn-server-6.0.3) (2024-04-29)
+## [st-reborn-server-6.0.3](https://github.com/truecharts/charts/compare/st-reborn-server-5.6.0...st-reborn-server-6.0.3) (2024-04-30)
 
 ### Chore
 

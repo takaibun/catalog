@@ -1,6 +1,6 @@
 
 
-## [send-6.0.3](https://github.com/truecharts/charts/compare/send-5.6.0...send-6.0.3) (2024-04-29)
+## [send-6.0.3](https://github.com/truecharts/charts/compare/send-5.6.0...send-6.0.3) (2024-04-30)
 
 ### Chore
 

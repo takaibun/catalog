@@ -1,6 +1,6 @@
 
 
-## [theforest-6.0.3](https://github.com/truecharts/charts/compare/theforest-5.6.0...theforest-6.0.3) (2024-04-29)
+## [theforest-6.0.3](https://github.com/truecharts/charts/compare/theforest-5.6.0...theforest-6.0.3) (2024-04-30)
 
 ### Chore
 
