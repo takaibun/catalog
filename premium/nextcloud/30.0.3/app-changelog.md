@@ -1,6 +1,6 @@
 
 
-## [nextcloud-30.0.3](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-30.0.3) (2024-04-30)
+## [nextcloud-30.0.3](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-30.0.3) (2024-05-01)
 
 ### Chore
 
