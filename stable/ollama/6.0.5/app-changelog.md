@@ -116,6 +116,12 @@
 
 
 
+- Add header auth option to ollama  ([#21395](https://github.com/truecharts/charts/issues/21395))
+
+### Feat
+
+
+
 - Add VolSync support and move CNPG backup credentials on SCALE ([#21443](https://github.com/truecharts/charts/issues/21443))
 
 ### Fix
