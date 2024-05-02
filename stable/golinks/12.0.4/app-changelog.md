@@ -1,6 +1,6 @@
 
 
-## [golinks-12.0.4](https://github.com/truecharts/charts/compare/golinks-11.6.0...golinks-12.0.4) (2024-05-01)
+## [golinks-12.0.4](https://github.com/truecharts/charts/compare/golinks-11.6.0...golinks-12.0.4) (2024-05-02)
 
 ### Chore
 

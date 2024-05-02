@@ -1,6 +1,6 @@
 
 
-## [ethercalc-6.0.5](https://github.com/truecharts/charts/compare/ethercalc-5.6.0...ethercalc-6.0.5) (2024-05-01)
+## [ethercalc-6.0.5](https://github.com/truecharts/charts/compare/ethercalc-5.6.0...ethercalc-6.0.5) (2024-05-02)
 
 ### Chore
 

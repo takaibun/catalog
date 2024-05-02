@@ -1,6 +1,6 @@
 
 
-## [stun-turn-server-7.0.4](https://github.com/truecharts/charts/compare/stun-turn-server-6.6.0...stun-turn-server-7.0.4) (2024-05-01)
+## [stun-turn-server-7.0.4](https://github.com/truecharts/charts/compare/stun-turn-server-6.6.0...stun-turn-server-7.0.4) (2024-05-02)
 
 ### Chore
 

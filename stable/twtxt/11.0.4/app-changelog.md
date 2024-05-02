@@ -1,6 +1,6 @@
 
 
-## [twtxt-11.0.4](https://github.com/truecharts/charts/compare/twtxt-10.6.0...twtxt-11.0.4) (2024-05-01)
+## [twtxt-11.0.4](https://github.com/truecharts/charts/compare/twtxt-10.6.0...twtxt-11.0.4) (2024-05-02)
 
 ### Chore
 

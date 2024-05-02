@@ -1,6 +1,6 @@
 
 
-## [xmrig-7.0.4](https://github.com/truecharts/charts/compare/xmrig-6.6.0...xmrig-7.0.4) (2024-05-01)
+## [xmrig-7.0.4](https://github.com/truecharts/charts/compare/xmrig-6.6.0...xmrig-7.0.4) (2024-05-02)
 
 ### Chore
 

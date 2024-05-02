@@ -1,6 +1,6 @@
 
 
-## [alienswarm-6.0.5](https://github.com/truecharts/charts/compare/alienswarm-5.6.0...alienswarm-6.0.5) (2024-05-01)
+## [alienswarm-6.0.5](https://github.com/truecharts/charts/compare/alienswarm-5.6.0...alienswarm-6.0.5) (2024-05-02)
 
 ### Chore
 

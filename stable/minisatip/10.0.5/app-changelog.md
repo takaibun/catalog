@@ -1,6 +1,6 @@
 
 
-## [minisatip-10.0.5](https://github.com/truecharts/charts/compare/minisatip-9.6.0...minisatip-10.0.5) (2024-05-01)
+## [minisatip-10.0.5](https://github.com/truecharts/charts/compare/minisatip-9.6.0...minisatip-10.0.5) (2024-05-02)
 
 ### Chore
 

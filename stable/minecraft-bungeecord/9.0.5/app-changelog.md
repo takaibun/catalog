@@ -1,6 +1,6 @@
 
 
-## [minecraft-bungeecord-9.0.5](https://github.com/truecharts/charts/compare/minecraft-bungeecord-8.6.0...minecraft-bungeecord-9.0.5) (2024-05-01)
+## [minecraft-bungeecord-9.0.5](https://github.com/truecharts/charts/compare/minecraft-bungeecord-8.6.0...minecraft-bungeecord-9.0.5) (2024-05-02)
 
 ### Chore
 

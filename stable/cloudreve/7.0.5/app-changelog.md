@@ -1,6 +1,6 @@
 
 
-## [cloudreve-7.0.5](https://github.com/truecharts/charts/compare/cloudreve-6.6.0...cloudreve-7.0.5) (2024-05-01)
+## [cloudreve-7.0.5](https://github.com/truecharts/charts/compare/cloudreve-6.6.0...cloudreve-7.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [quiz-game-6.0.4](https://github.com/truecharts/charts/compare/quiz-game-5.6.0...quiz-game-6.0.4) (2024-05-01)
+## [quiz-game-6.0.4](https://github.com/truecharts/charts/compare/quiz-game-5.6.0...quiz-game-6.0.4) (2024-05-02)
 
 ### Chore
 

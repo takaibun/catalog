@@ -1,6 +1,6 @@
 
 
-## [photostructure-8.0.5](https://github.com/truecharts/charts/compare/photostructure-7.6.0...photostructure-8.0.5) (2024-05-01)
+## [photostructure-8.0.5](https://github.com/truecharts/charts/compare/photostructure-7.6.0...photostructure-8.0.5) (2024-05-02)
 
 ### Chore
 

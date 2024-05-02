@@ -1,6 +1,6 @@
 
 
-## [owncast-14.0.5](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-14.0.5) (2024-05-01)
+## [owncast-14.0.5](https://github.com/truecharts/charts/compare/owncast-13.6.0...owncast-14.0.5) (2024-05-02)
 
 ### Chore
 

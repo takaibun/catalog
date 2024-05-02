@@ -1,6 +1,6 @@
 
 
-## [zoneminder-6.0.4](https://github.com/truecharts/charts/compare/zoneminder-5.6.0...zoneminder-6.0.4) (2024-05-01)
+## [zoneminder-6.0.4](https://github.com/truecharts/charts/compare/zoneminder-5.6.0...zoneminder-6.0.4) (2024-05-02)
 
 ### Chore
 

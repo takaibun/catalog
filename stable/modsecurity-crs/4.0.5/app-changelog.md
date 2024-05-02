@@ -1,6 +1,6 @@
 
 
-## [modsecurity-crs-4.0.5](https://github.com/truecharts/charts/compare/modsecurity-crs-3.6.0...modsecurity-crs-4.0.5) (2024-05-01)
+## [modsecurity-crs-4.0.5](https://github.com/truecharts/charts/compare/modsecurity-crs-3.6.0...modsecurity-crs-4.0.5) (2024-05-02)
 
 ### Chore
 

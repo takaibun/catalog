@@ -1,6 +1,6 @@
 
 
-## [traccar-17.0.4](https://github.com/truecharts/charts/compare/traccar-15.6.0...traccar-17.0.4) (2024-05-01)
+## [traccar-17.0.4](https://github.com/truecharts/charts/compare/traccar-15.6.0...traccar-17.0.4) (2024-05-02)
 
 ### Chore
 

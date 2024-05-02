@@ -1,6 +1,6 @@
 
 
-## [fsm-6.0.4](https://github.com/truecharts/charts/compare/fsm-5.6.0...fsm-6.0.4) (2024-05-01)
+## [fsm-6.0.4](https://github.com/truecharts/charts/compare/fsm-5.6.0...fsm-6.0.4) (2024-05-02)
 
 ### Chore
 

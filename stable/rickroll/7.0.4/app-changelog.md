@@ -1,6 +1,6 @@
 
 
-## [rickroll-7.0.4](https://github.com/truecharts/charts/compare/rickroll-6.6.0...rickroll-7.0.4) (2024-05-01)
+## [rickroll-7.0.4](https://github.com/truecharts/charts/compare/rickroll-6.6.0...rickroll-7.0.4) (2024-05-02)
 
 ### Chore
 

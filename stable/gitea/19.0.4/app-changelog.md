@@ -1,6 +1,6 @@
 
 
-## [gitea-19.0.4](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-19.0.4) (2024-05-01)
+## [gitea-19.0.4](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-19.0.4) (2024-05-02)
 
 ### Chore
 

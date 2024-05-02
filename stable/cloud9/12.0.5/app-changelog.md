@@ -1,6 +1,6 @@
 
 
-## [cloud9-12.0.5](https://github.com/truecharts/charts/compare/cloud9-11.6.0...cloud9-12.0.5) (2024-05-01)
+## [cloud9-12.0.5](https://github.com/truecharts/charts/compare/cloud9-11.6.0...cloud9-12.0.5) (2024-05-02)
 
 ### Chore
 

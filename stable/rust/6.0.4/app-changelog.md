@@ -1,6 +1,6 @@
 
 
-## [rust-6.0.4](https://github.com/truecharts/charts/compare/rust-5.6.0...rust-6.0.4) (2024-05-01)
+## [rust-6.0.4](https://github.com/truecharts/charts/compare/rust-5.6.0...rust-6.0.4) (2024-05-02)
 
 ### Chore
 

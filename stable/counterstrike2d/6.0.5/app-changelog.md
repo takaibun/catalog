@@ -1,6 +1,6 @@
 
 
-## [counterstrike2d-6.0.5](https://github.com/truecharts/charts/compare/counterstrike2d-5.6.0...counterstrike2d-6.0.5) (2024-05-01)
+## [counterstrike2d-6.0.5](https://github.com/truecharts/charts/compare/counterstrike2d-5.6.0...counterstrike2d-6.0.5) (2024-05-02)
 
 ### Chore
 

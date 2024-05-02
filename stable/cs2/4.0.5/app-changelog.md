@@ -1,6 +1,6 @@
 
 
-## [cs2-4.0.5](https://github.com/truecharts/charts/compare/cs2-3.6.0...cs2-4.0.5) (2024-05-01)
+## [cs2-4.0.5](https://github.com/truecharts/charts/compare/cs2-3.6.0...cs2-4.0.5) (2024-05-02)
 
 ### Chore
 

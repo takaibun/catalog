@@ -1,6 +1,6 @@
 
 
-## [guide2go-6.0.4](https://github.com/truecharts/charts/compare/guide2go-5.6.0...guide2go-6.0.4) (2024-05-01)
+## [guide2go-6.0.4](https://github.com/truecharts/charts/compare/guide2go-5.6.0...guide2go-6.0.4) (2024-05-02)
 
 ### Chore
 

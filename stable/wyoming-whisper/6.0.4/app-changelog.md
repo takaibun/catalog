@@ -1,6 +1,6 @@
 
 
-## [wyoming-whisper-6.0.4](https://github.com/truecharts/charts/compare/wyoming-whisper-4.6.0...wyoming-whisper-6.0.4) (2024-05-01)
+## [wyoming-whisper-6.0.4](https://github.com/truecharts/charts/compare/wyoming-whisper-4.6.0...wyoming-whisper-6.0.4) (2024-05-02)
 
 ### Chore
 

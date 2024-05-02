@@ -1,6 +1,6 @@
 
 
-## [youtransfer-8.0.4](https://github.com/truecharts/charts/compare/youtransfer-7.6.0...youtransfer-8.0.4) (2024-05-01)
+## [youtransfer-8.0.4](https://github.com/truecharts/charts/compare/youtransfer-7.6.0...youtransfer-8.0.4) (2024-05-02)
 
 ### Chore
 

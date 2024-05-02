@@ -1,6 +1,6 @@
 
 
-## [craftopia-6.0.5](https://github.com/truecharts/charts/compare/craftopia-5.6.0...craftopia-6.0.5) (2024-05-01)
+## [craftopia-6.0.5](https://github.com/truecharts/charts/compare/craftopia-5.6.0...craftopia-6.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [lanraragi-10.0.5](https://github.com/truecharts/charts/compare/lanraragi-9.6.0...lanraragi-10.0.5) (2024-05-01)
+## [lanraragi-10.0.5](https://github.com/truecharts/charts/compare/lanraragi-9.6.0...lanraragi-10.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [maintainerr-3.0.5](https://github.com/truecharts/charts/compare/maintainerr-2.6.0...maintainerr-3.0.5) (2024-05-01)
+## [maintainerr-3.0.5](https://github.com/truecharts/charts/compare/maintainerr-2.6.0...maintainerr-3.0.5) (2024-05-02)
 
 ### Chore
 

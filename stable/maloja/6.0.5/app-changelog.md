@@ -1,6 +1,6 @@
 
 
-## [maloja-6.0.5](https://github.com/truecharts/charts/compare/maloja-5.6.0...maloja-6.0.5) (2024-05-01)
+## [maloja-6.0.5](https://github.com/truecharts/charts/compare/maloja-5.6.0...maloja-6.0.5) (2024-05-02)
 
 ### Chore
 

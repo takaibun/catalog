@@ -1,6 +1,6 @@
 
 
-## [alienswarm-reactivedrop-6.0.5](https://github.com/truecharts/charts/compare/alienswarm-reactivedrop-5.6.0...alienswarm-reactivedrop-6.0.5) (2024-05-01)
+## [alienswarm-reactivedrop-6.0.5](https://github.com/truecharts/charts/compare/alienswarm-reactivedrop-5.6.0...alienswarm-reactivedrop-6.0.5) (2024-05-02)
 
 ### Chore
 

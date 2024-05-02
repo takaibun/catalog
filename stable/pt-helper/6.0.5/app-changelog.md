@@ -1,6 +1,6 @@
 
 
-## [pt-helper-6.0.5](https://github.com/truecharts/charts/compare/pt-helper-5.6.0...pt-helper-6.0.5) (2024-05-01)
+## [pt-helper-6.0.5](https://github.com/truecharts/charts/compare/pt-helper-5.6.0...pt-helper-6.0.5) (2024-05-02)
 
 ### Chore
 

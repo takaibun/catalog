@@ -1,6 +1,6 @@
 
 
-## [goaccess-npm-logs-6.0.4](https://github.com/truecharts/charts/compare/goaccess-npm-logs-5.6.0...goaccess-npm-logs-6.0.4) (2024-05-01)
+## [goaccess-npm-logs-6.0.4](https://github.com/truecharts/charts/compare/goaccess-npm-logs-5.6.0...goaccess-npm-logs-6.0.4) (2024-05-02)
 
 ### Chore
 

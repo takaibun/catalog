@@ -1,6 +1,6 @@
 
 
-## [root-6.0.4](https://github.com/truecharts/charts/compare/root-5.6.0...root-6.0.4) (2024-05-01)
+## [root-6.0.4](https://github.com/truecharts/charts/compare/root-5.6.0...root-6.0.4) (2024-05-02)
 
 ### Chore
 

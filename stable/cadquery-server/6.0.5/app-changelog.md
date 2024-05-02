@@ -1,6 +1,6 @@
 
 
-## [cadquery-server-6.0.5](https://github.com/truecharts/charts/compare/cadquery-server-5.6.0...cadquery-server-6.0.5) (2024-05-01)
+## [cadquery-server-6.0.5](https://github.com/truecharts/charts/compare/cadquery-server-5.6.0...cadquery-server-6.0.5) (2024-05-02)
 
 ### Chore
 

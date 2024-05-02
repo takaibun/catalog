@@ -1,6 +1,6 @@
 
 
-## [youtubedl-material-11.0.4](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-11.0.4) (2024-05-01)
+## [youtubedl-material-11.0.4](https://github.com/truecharts/charts/compare/youtubedl-material-10.7.0...youtubedl-material-11.0.4) (2024-05-02)
 
 ### Chore
 

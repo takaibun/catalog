@@ -1,6 +1,6 @@
 
 
-## [appdaemon-17.0.5](https://github.com/truecharts/charts/compare/appdaemon-16.6.0...appdaemon-17.0.5) (2024-05-01)
+## [appdaemon-17.0.5](https://github.com/truecharts/charts/compare/appdaemon-16.6.0...appdaemon-17.0.5) (2024-05-02)
 
 ### Chore
 

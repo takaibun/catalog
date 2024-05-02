@@ -1,6 +1,6 @@
 
 
-## [media-roller-6.0.5](https://github.com/truecharts/charts/compare/media-roller-5.6.0...media-roller-6.0.5) (2024-05-01)
+## [media-roller-6.0.5](https://github.com/truecharts/charts/compare/media-roller-5.6.0...media-roller-6.0.5) (2024-05-02)
 
 ### Chore
 

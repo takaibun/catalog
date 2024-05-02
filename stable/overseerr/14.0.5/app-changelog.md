@@ -1,6 +1,6 @@
 
 
-## [overseerr-14.0.5](https://github.com/truecharts/charts/compare/overseerr-13.6.0...overseerr-14.0.5) (2024-05-01)
+## [overseerr-14.0.5](https://github.com/truecharts/charts/compare/overseerr-13.6.0...overseerr-14.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [qflood-6.0.4](https://github.com/truecharts/charts/compare/qflood-5.6.0...qflood-6.0.4) (2024-05-01)
+## [qflood-6.0.4](https://github.com/truecharts/charts/compare/qflood-5.6.0...qflood-6.0.4) (2024-05-02)
 
 ### Chore
 

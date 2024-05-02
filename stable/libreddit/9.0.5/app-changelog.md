@@ -1,6 +1,6 @@
 
 
-## [libreddit-9.0.5](https://github.com/truecharts/charts/compare/libreddit-8.6.0...libreddit-9.0.5) (2024-05-01)
+## [libreddit-9.0.5](https://github.com/truecharts/charts/compare/libreddit-8.6.0...libreddit-9.0.5) (2024-05-02)
 
 ### Chore
 

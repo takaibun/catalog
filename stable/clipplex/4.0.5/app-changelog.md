@@ -1,6 +1,6 @@
 
 
-## [clipplex-4.0.5](https://github.com/truecharts/charts/compare/clipplex-3.6.0...clipplex-4.0.5) (2024-05-01)
+## [clipplex-4.0.5](https://github.com/truecharts/charts/compare/clipplex-3.6.0...clipplex-4.0.5) (2024-05-02)
 
 ### Chore
 

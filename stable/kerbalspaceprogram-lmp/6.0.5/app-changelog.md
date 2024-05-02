@@ -1,6 +1,6 @@
 
 
-## [kerbalspaceprogram-lmp-6.0.5](https://github.com/truecharts/charts/compare/kerbalspaceprogram-lmp-5.6.0...kerbalspaceprogram-lmp-6.0.5) (2024-05-01)
+## [kerbalspaceprogram-lmp-6.0.5](https://github.com/truecharts/charts/compare/kerbalspaceprogram-lmp-5.6.0...kerbalspaceprogram-lmp-6.0.5) (2024-05-02)
 
 ### Chore
 

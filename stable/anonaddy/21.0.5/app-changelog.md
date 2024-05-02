@@ -1,6 +1,6 @@
 
 
-## [anonaddy-21.0.5](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-21.0.5) (2024-05-01)
+## [anonaddy-21.0.5](https://github.com/truecharts/charts/compare/anonaddy-20.11.0...anonaddy-21.0.5) (2024-05-02)
 
 ### Chore
 

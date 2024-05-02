@@ -1,6 +1,6 @@
 
 
-## [genea-6.0.4](https://github.com/truecharts/charts/compare/genea-5.6.0...genea-6.0.4) (2024-05-01)
+## [genea-6.0.4](https://github.com/truecharts/charts/compare/genea-5.6.0...genea-6.0.4) (2024-05-02)
 
 ### Chore
 

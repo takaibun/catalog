@@ -1,6 +1,6 @@
 
 
-## [rss-bridge-11.0.4](https://github.com/truecharts/charts/compare/rss-bridge-10.6.0...rss-bridge-11.0.4) (2024-05-01)
+## [rss-bridge-11.0.4](https://github.com/truecharts/charts/compare/rss-bridge-10.6.0...rss-bridge-11.0.4) (2024-05-02)
 
 ### Chore
 

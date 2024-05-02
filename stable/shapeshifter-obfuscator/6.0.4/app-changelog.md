@@ -1,6 +1,6 @@
 
 
-## [shapeshifter-obfuscator-6.0.4](https://github.com/truecharts/charts/compare/shapeshifter-obfuscator-5.6.0...shapeshifter-obfuscator-6.0.4) (2024-05-01)
+## [shapeshifter-obfuscator-6.0.4](https://github.com/truecharts/charts/compare/shapeshifter-obfuscator-5.6.0...shapeshifter-obfuscator-6.0.4) (2024-05-02)
 
 ### Chore
 

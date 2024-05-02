@@ -1,6 +1,6 @@
 
 
-## [kdenlive-6.0.5](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-6.0.5) (2024-05-01)
+## [kdenlive-6.0.5](https://github.com/truecharts/charts/compare/kdenlive-5.6.0...kdenlive-6.0.5) (2024-05-02)
 
 ### Chore
 

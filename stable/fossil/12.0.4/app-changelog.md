@@ -1,6 +1,6 @@
 
 
-## [fossil-12.0.4](https://github.com/truecharts/charts/compare/fossil-11.6.0...fossil-12.0.4) (2024-05-01)
+## [fossil-12.0.4](https://github.com/truecharts/charts/compare/fossil-11.6.0...fossil-12.0.4) (2024-05-02)
 
 ### Chore
 

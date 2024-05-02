@@ -1,6 +1,6 @@
 
 
-## [outline-13.0.5](https://github.com/truecharts/charts/compare/outline-12.6.0...outline-13.0.5) (2024-05-01)
+## [outline-13.0.5](https://github.com/truecharts/charts/compare/outline-12.6.0...outline-13.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [daysofwar-6.0.5](https://github.com/truecharts/charts/compare/daysofwar-5.6.0...daysofwar-6.0.5) (2024-05-01)
+## [daysofwar-6.0.5](https://github.com/truecharts/charts/compare/daysofwar-5.6.0...daysofwar-6.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [tsmuxer-10.0.4](https://github.com/truecharts/charts/compare/tsmuxer-9.6.0...tsmuxer-10.0.4) (2024-05-01)
+## [tsmuxer-10.0.4](https://github.com/truecharts/charts/compare/tsmuxer-9.6.0...tsmuxer-10.0.4) (2024-05-02)
 
 ### Chore
 

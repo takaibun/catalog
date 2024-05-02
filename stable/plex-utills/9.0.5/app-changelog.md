@@ -1,6 +1,6 @@
 
 
-## [plex-utills-9.0.5](https://github.com/truecharts/charts/compare/plex-utills-8.6.0...plex-utills-9.0.5) (2024-05-01)
+## [plex-utills-9.0.5](https://github.com/truecharts/charts/compare/plex-utills-8.6.0...plex-utills-9.0.5) (2024-05-02)
 
 ### Chore
 

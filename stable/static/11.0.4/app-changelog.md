@@ -1,6 +1,6 @@
 
 
-## [static-11.0.4](https://github.com/truecharts/charts/compare/static-10.6.0...static-11.0.4) (2024-05-01)
+## [static-11.0.4](https://github.com/truecharts/charts/compare/static-10.6.0...static-11.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [docker-hub-rss-6.0.5](https://github.com/truecharts/charts/compare/docker-hub-rss-5.6.0...docker-hub-rss-6.0.5) (2024-05-01)
+## [docker-hub-rss-6.0.5](https://github.com/truecharts/charts/compare/docker-hub-rss-5.6.0...docker-hub-rss-6.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [meshcentral-16.0.5](https://github.com/truecharts/charts/compare/meshcentral-15.6.0...meshcentral-16.0.5) (2024-05-01)
+## [meshcentral-16.0.5](https://github.com/truecharts/charts/compare/meshcentral-15.6.0...meshcentral-16.0.5) (2024-05-02)
 
 ### Chore
 

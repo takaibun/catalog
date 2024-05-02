@@ -1,6 +1,6 @@
 
 
-## [ddns-updater-10.0.5](https://github.com/truecharts/charts/compare/ddns-updater-9.6.0...ddns-updater-10.0.5) (2024-05-01)
+## [ddns-updater-10.0.5](https://github.com/truecharts/charts/compare/ddns-updater-9.6.0...ddns-updater-10.0.5) (2024-05-02)
 
 ### Chore
 

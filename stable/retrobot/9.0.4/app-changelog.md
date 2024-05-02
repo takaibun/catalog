@@ -1,6 +1,6 @@
 
 
-## [retrobot-9.0.4](https://github.com/truecharts/charts/compare/retrobot-8.6.0...retrobot-9.0.4) (2024-05-01)
+## [retrobot-9.0.4](https://github.com/truecharts/charts/compare/retrobot-8.6.0...retrobot-9.0.4) (2024-05-02)
 
 ### Chore
 

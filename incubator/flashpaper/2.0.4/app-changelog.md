@@ -1,6 +1,6 @@
 
 
-## [flashpaper-2.0.4](https://github.com/truecharts/charts/compare/flashpaper-5.0.14...flashpaper-2.0.4) (2024-05-01)
+## [flashpaper-2.0.4](https://github.com/truecharts/charts/compare/flashpaper-5.0.14...flashpaper-2.0.4) (2024-05-02)
 
 ### Chore
 

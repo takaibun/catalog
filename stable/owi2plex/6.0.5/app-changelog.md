@@ -1,6 +1,6 @@
 
 
-## [owi2plex-6.0.5](https://github.com/truecharts/charts/compare/owi2plex-5.6.0...owi2plex-6.0.5) (2024-05-01)
+## [owi2plex-6.0.5](https://github.com/truecharts/charts/compare/owi2plex-5.6.0...owi2plex-6.0.5) (2024-05-02)
 
 ### Chore
 

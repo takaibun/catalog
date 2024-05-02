@@ -1,6 +1,6 @@
 
 
-## [gaps-19.0.4](https://github.com/truecharts/charts/compare/gaps-18.6.0...gaps-19.0.4) (2024-05-01)
+## [gaps-19.0.4](https://github.com/truecharts/charts/compare/gaps-18.6.0...gaps-19.0.4) (2024-05-02)
 
 ### Chore
 

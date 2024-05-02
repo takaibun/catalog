@@ -1,6 +1,6 @@
 
 
-## [sonsoftheforest-4.0.4](https://github.com/truecharts/charts/compare/sonsoftheforest-3.6.0...sonsoftheforest-4.0.4) (2024-05-01)
+## [sonsoftheforest-4.0.4](https://github.com/truecharts/charts/compare/sonsoftheforest-3.6.0...sonsoftheforest-4.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [krusader-6.0.5](https://github.com/truecharts/charts/compare/krusader-5.6.0...krusader-6.0.5) (2024-05-01)
+## [krusader-6.0.5](https://github.com/truecharts/charts/compare/krusader-5.6.0...krusader-6.0.5) (2024-05-02)
 
 ### Chore
 

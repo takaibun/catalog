@@ -1,6 +1,6 @@
 
 
-## [deluge-19.0.5](https://github.com/truecharts/charts/compare/deluge-18.6.0...deluge-19.0.5) (2024-05-01)
+## [deluge-19.0.5](https://github.com/truecharts/charts/compare/deluge-18.6.0...deluge-19.0.5) (2024-05-02)
 
 ### Chore
 

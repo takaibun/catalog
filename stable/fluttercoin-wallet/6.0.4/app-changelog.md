@@ -1,6 +1,6 @@
 
 
-## [fluttercoin-wallet-6.0.4](https://github.com/truecharts/charts/compare/fluttercoin-wallet-5.6.0...fluttercoin-wallet-6.0.4) (2024-05-01)
+## [fluttercoin-wallet-6.0.4](https://github.com/truecharts/charts/compare/fluttercoin-wallet-5.6.0...fluttercoin-wallet-6.0.4) (2024-05-02)
 
 ### Chore
 

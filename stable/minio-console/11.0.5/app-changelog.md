@@ -1,6 +1,6 @@
 
 
-## [minio-console-11.0.5](https://github.com/truecharts/charts/compare/minio-console-10.6.0...minio-console-11.0.5) (2024-05-01)
+## [minio-console-11.0.5](https://github.com/truecharts/charts/compare/minio-console-10.6.0...minio-console-11.0.5) (2024-05-02)
 
 ### Chore
 

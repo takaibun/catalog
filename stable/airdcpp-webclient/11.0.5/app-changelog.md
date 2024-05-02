@@ -1,6 +1,6 @@
 
 
-## [airdcpp-webclient-11.0.5](https://github.com/truecharts/charts/compare/airdcpp-webclient-10.6.0...airdcpp-webclient-11.0.5) (2024-05-01)
+## [airdcpp-webclient-11.0.5](https://github.com/truecharts/charts/compare/airdcpp-webclient-10.6.0...airdcpp-webclient-11.0.5) (2024-05-02)
 
 ### Chore
 

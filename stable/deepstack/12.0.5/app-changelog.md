@@ -1,6 +1,6 @@
 
 
-## [deepstack-12.0.5](https://github.com/truecharts/charts/compare/deepstack-11.6.0...deepstack-12.0.5) (2024-05-01)
+## [deepstack-12.0.5](https://github.com/truecharts/charts/compare/deepstack-11.6.0...deepstack-12.0.5) (2024-05-02)
 
 ### Chore
 

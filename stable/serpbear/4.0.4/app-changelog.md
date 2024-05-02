@@ -1,6 +1,6 @@
 
 
-## [serpbear-4.0.4](https://github.com/truecharts/charts/compare/serpbear-3.6.0...serpbear-4.0.4) (2024-05-01)
+## [serpbear-4.0.4](https://github.com/truecharts/charts/compare/serpbear-3.6.0...serpbear-4.0.4) (2024-05-02)
 
 ### Chore
 

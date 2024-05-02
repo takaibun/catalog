@@ -1,6 +1,6 @@
 
 
-## [freeradius-14.0.4](https://github.com/truecharts/charts/compare/freeradius-13.6.0...freeradius-14.0.4) (2024-05-01)
+## [freeradius-14.0.4](https://github.com/truecharts/charts/compare/freeradius-13.6.0...freeradius-14.0.4) (2024-05-02)
 
 ### Chore
 

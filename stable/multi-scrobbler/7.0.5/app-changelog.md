@@ -1,6 +1,6 @@
 
 
-## [multi-scrobbler-7.0.5](https://github.com/truecharts/charts/compare/multi-scrobbler-6.6.0...multi-scrobbler-7.0.5) (2024-05-01)
+## [multi-scrobbler-7.0.5](https://github.com/truecharts/charts/compare/multi-scrobbler-6.6.0...multi-scrobbler-7.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [romm-9.0.4](https://github.com/truecharts/charts/compare/romm-7.11.0...romm-9.0.4) (2024-05-01)
+## [romm-9.0.4](https://github.com/truecharts/charts/compare/romm-7.11.0...romm-9.0.4) (2024-05-02)
 
 ### Chore
 

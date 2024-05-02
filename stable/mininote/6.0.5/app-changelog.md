@@ -1,6 +1,6 @@
 
 
-## [mininote-6.0.5](https://github.com/truecharts/charts/compare/mininote-5.6.0...mininote-6.0.5) (2024-05-01)
+## [mininote-6.0.5](https://github.com/truecharts/charts/compare/mininote-5.6.0...mininote-6.0.5) (2024-05-02)
 
 ### Chore
 

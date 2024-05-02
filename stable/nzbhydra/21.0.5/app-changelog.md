@@ -1,6 +1,6 @@
 
 
-## [nzbhydra-21.0.5](https://github.com/truecharts/charts/compare/nzbhydra-19.6.0...nzbhydra-21.0.5) (2024-05-01)
+## [nzbhydra-21.0.5](https://github.com/truecharts/charts/compare/nzbhydra-19.6.0...nzbhydra-21.0.5) (2024-05-02)
 
 ### Chore
 

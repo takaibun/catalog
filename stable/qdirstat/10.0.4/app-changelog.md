@@ -1,6 +1,6 @@
 
 
-## [qdirstat-10.0.4](https://github.com/truecharts/charts/compare/qdirstat-9.6.0...qdirstat-10.0.4) (2024-05-01)
+## [qdirstat-10.0.4](https://github.com/truecharts/charts/compare/qdirstat-9.6.0...qdirstat-10.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [snippet-box-8.0.4](https://github.com/truecharts/charts/compare/snippet-box-7.6.0...snippet-box-8.0.4) (2024-05-01)
+## [snippet-box-8.0.4](https://github.com/truecharts/charts/compare/snippet-box-7.6.0...snippet-box-8.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [dayz-6.0.5](https://github.com/truecharts/charts/compare/dayz-5.6.0...dayz-6.0.5) (2024-05-01)
+## [dayz-6.0.5](https://github.com/truecharts/charts/compare/dayz-5.6.0...dayz-6.0.5) (2024-05-02)
 
 ### Chore
 

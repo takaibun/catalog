@@ -1,6 +1,6 @@
 
 
-## [jdownloader2-17.0.4](https://github.com/truecharts/charts/compare/jdownloader2-16.6.0...jdownloader2-17.0.4) (2024-05-01)
+## [jdownloader2-17.0.4](https://github.com/truecharts/charts/compare/jdownloader2-16.6.0...jdownloader2-17.0.4) (2024-05-02)
 
 ### Chore
 

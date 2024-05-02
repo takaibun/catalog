@@ -1,6 +1,6 @@
 
 
-## [radarrsync-6.0.4](https://github.com/truecharts/charts/compare/radarrsync-5.6.0...radarrsync-6.0.4) (2024-05-01)
+## [radarrsync-6.0.4](https://github.com/truecharts/charts/compare/radarrsync-5.6.0...radarrsync-6.0.4) (2024-05-02)
 
 ### Chore
 

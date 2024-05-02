@@ -1,6 +1,6 @@
 
 
-## [pyload-14.0.4](https://github.com/truecharts/charts/compare/pyload-13.6.0...pyload-14.0.4) (2024-05-01)
+## [pyload-14.0.4](https://github.com/truecharts/charts/compare/pyload-13.6.0...pyload-14.0.4) (2024-05-02)
 
 ### Chore
 

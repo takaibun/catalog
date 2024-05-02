@@ -1,6 +1,6 @@
 
 
-## [post-recording-6.0.5](https://github.com/truecharts/charts/compare/post-recording-5.6.0...post-recording-6.0.5) (2024-05-01)
+## [post-recording-6.0.5](https://github.com/truecharts/charts/compare/post-recording-5.6.0...post-recording-6.0.5) (2024-05-02)
 
 ### Chore
 

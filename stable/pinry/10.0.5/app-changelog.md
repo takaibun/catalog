@@ -1,6 +1,6 @@
 
 
-## [pinry-10.0.5](https://github.com/truecharts/charts/compare/pinry-9.6.0...pinry-10.0.5) (2024-05-01)
+## [pinry-10.0.5](https://github.com/truecharts/charts/compare/pinry-9.6.0...pinry-10.0.5) (2024-05-02)
 
 ### Chore
 

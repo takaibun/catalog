@@ -1,6 +1,6 @@
 
 
-## [hedgedoc-13.0.4](https://github.com/truecharts/charts/compare/hedgedoc-12.6.0...hedgedoc-13.0.4) (2024-05-01)
+## [hedgedoc-13.0.4](https://github.com/truecharts/charts/compare/hedgedoc-12.6.0...hedgedoc-13.0.4) (2024-05-02)
 
 ### Chore
 

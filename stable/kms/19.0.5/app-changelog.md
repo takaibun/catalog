@@ -1,6 +1,6 @@
 
 
-## [kms-19.0.5](https://github.com/truecharts/charts/compare/kms-18.6.0...kms-19.0.5) (2024-05-01)
+## [kms-19.0.5](https://github.com/truecharts/charts/compare/kms-18.6.0...kms-19.0.5) (2024-05-02)
 
 ### Chore
 

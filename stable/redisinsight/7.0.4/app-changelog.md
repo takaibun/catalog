@@ -1,6 +1,6 @@
 
 
-## [redisinsight-7.0.4](https://github.com/truecharts/charts/compare/redisinsight-6.6.0...redisinsight-7.0.4) (2024-05-01)
+## [redisinsight-7.0.4](https://github.com/truecharts/charts/compare/redisinsight-6.6.0...redisinsight-7.0.4) (2024-05-02)
 
 ### Chore
 

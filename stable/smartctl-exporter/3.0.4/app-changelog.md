@@ -1,6 +1,6 @@
 
 
-## [smartctl-exporter-3.0.4](https://github.com/truecharts/charts/compare/smartctl-exporter-2.8.0...smartctl-exporter-3.0.4) (2024-05-01)
+## [smartctl-exporter-3.0.4](https://github.com/truecharts/charts/compare/smartctl-exporter-2.8.0...smartctl-exporter-3.0.4) (2024-05-02)
 
 ### Chore
 

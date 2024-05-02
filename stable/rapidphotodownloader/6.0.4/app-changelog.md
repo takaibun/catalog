@@ -1,6 +1,6 @@
 
 
-## [rapidphotodownloader-6.0.4](https://github.com/truecharts/charts/compare/rapidphotodownloader-5.6.0...rapidphotodownloader-6.0.4) (2024-05-01)
+## [rapidphotodownloader-6.0.4](https://github.com/truecharts/charts/compare/rapidphotodownloader-5.6.0...rapidphotodownloader-6.0.4) (2024-05-02)
 
 ### Chore
 

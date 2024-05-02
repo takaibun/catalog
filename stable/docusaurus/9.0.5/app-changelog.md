@@ -1,6 +1,6 @@
 
 
-## [docusaurus-9.0.5](https://github.com/truecharts/charts/compare/docusaurus-8.6.0...docusaurus-9.0.5) (2024-05-01)
+## [docusaurus-9.0.5](https://github.com/truecharts/charts/compare/docusaurus-8.6.0...docusaurus-9.0.5) (2024-05-02)
 
 ### Chore
 

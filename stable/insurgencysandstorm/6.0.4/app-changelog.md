@@ -1,6 +1,6 @@
 
 
-## [insurgencysandstorm-6.0.4](https://github.com/truecharts/charts/compare/insurgencysandstorm-5.6.0...insurgencysandstorm-6.0.4) (2024-05-01)
+## [insurgencysandstorm-6.0.4](https://github.com/truecharts/charts/compare/insurgencysandstorm-5.6.0...insurgencysandstorm-6.0.4) (2024-05-02)
 
 ### Chore
 

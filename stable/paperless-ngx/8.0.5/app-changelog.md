@@ -1,6 +1,6 @@
 
 
-## [paperless-ngx-8.0.5](https://github.com/truecharts/charts/compare/paperless-ngx-7.7.0...paperless-ngx-8.0.5) (2024-05-01)
+## [paperless-ngx-8.0.5](https://github.com/truecharts/charts/compare/paperless-ngx-7.7.0...paperless-ngx-8.0.5) (2024-05-02)
 
 ### Chore
 

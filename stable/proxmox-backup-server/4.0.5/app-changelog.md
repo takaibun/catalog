@@ -1,6 +1,6 @@
 
 
-## [proxmox-backup-server-4.0.5](https://github.com/truecharts/charts/compare/proxmox-backup-server-3.6.0...proxmox-backup-server-4.0.5) (2024-05-01)
+## [proxmox-backup-server-4.0.5](https://github.com/truecharts/charts/compare/proxmox-backup-server-3.6.0...proxmox-backup-server-4.0.5) (2024-05-02)
 
 ### Chore
 

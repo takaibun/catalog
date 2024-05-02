@@ -1,6 +1,6 @@
 
 
-## [onlinecheckyourserver-6.0.5](https://github.com/truecharts/charts/compare/onlinecheckyourserver-5.6.0...onlinecheckyourserver-6.0.5) (2024-05-01)
+## [onlinecheckyourserver-6.0.5](https://github.com/truecharts/charts/compare/onlinecheckyourserver-5.6.0...onlinecheckyourserver-6.0.5) (2024-05-02)
 
 ### Chore
 

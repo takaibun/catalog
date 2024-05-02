@@ -1,6 +1,6 @@
 
 
-## [homelablabelmaker-9.0.4](https://github.com/truecharts/charts/compare/homelablabelmaker-8.6.0...homelablabelmaker-9.0.4) (2024-05-01)
+## [homelablabelmaker-9.0.4](https://github.com/truecharts/charts/compare/homelablabelmaker-8.6.0...homelablabelmaker-9.0.4) (2024-05-02)
 
 ### Chore
 

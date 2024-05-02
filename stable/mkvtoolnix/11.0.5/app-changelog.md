@@ -1,6 +1,6 @@
 
 
-## [mkvtoolnix-11.0.5](https://github.com/truecharts/charts/compare/mkvtoolnix-10.6.0...mkvtoolnix-11.0.5) (2024-05-01)
+## [mkvtoolnix-11.0.5](https://github.com/truecharts/charts/compare/mkvtoolnix-10.6.0...mkvtoolnix-11.0.5) (2024-05-02)
 
 ### Chore
 

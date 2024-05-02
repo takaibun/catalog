@@ -1,6 +1,6 @@
 
 
-## [lama-cleaner-7.0.5](https://github.com/truecharts/charts/compare/lama-cleaner-6.6.0...lama-cleaner-7.0.5) (2024-05-01)
+## [lama-cleaner-7.0.5](https://github.com/truecharts/charts/compare/lama-cleaner-6.6.0...lama-cleaner-7.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [photoprism-22.0.5](https://github.com/truecharts/charts/compare/photoprism-20.9.0...photoprism-22.0.5) (2024-05-01)
+## [photoprism-22.0.5](https://github.com/truecharts/charts/compare/photoprism-20.9.0...photoprism-22.0.5) (2024-05-02)
 
 ### Chore
 

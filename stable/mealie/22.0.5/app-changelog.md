@@ -1,6 +1,6 @@
 
 
-## [mealie-22.0.5](https://github.com/truecharts/charts/compare/mealie-21.7.0...mealie-22.0.5) (2024-05-01)
+## [mealie-22.0.5](https://github.com/truecharts/charts/compare/mealie-21.7.0...mealie-22.0.5) (2024-05-02)
 
 ### Chore
 

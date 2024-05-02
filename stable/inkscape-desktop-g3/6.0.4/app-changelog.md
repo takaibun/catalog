@@ -1,6 +1,6 @@
 
 
-## [inkscape-desktop-g3-6.0.4](https://github.com/truecharts/charts/compare/inkscape-desktop-g3-5.6.0...inkscape-desktop-g3-6.0.4) (2024-05-01)
+## [inkscape-desktop-g3-6.0.4](https://github.com/truecharts/charts/compare/inkscape-desktop-g3-5.6.0...inkscape-desktop-g3-6.0.4) (2024-05-02)
 
 ### Chore
 

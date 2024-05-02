@@ -1,6 +1,6 @@
 
 
-## [pasta-9.0.5](https://github.com/truecharts/charts/compare/pasta-8.6.0...pasta-9.0.5) (2024-05-01)
+## [pasta-9.0.5](https://github.com/truecharts/charts/compare/pasta-8.6.0...pasta-9.0.5) (2024-05-02)
 
 ### Chore
 

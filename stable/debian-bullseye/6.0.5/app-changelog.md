@@ -1,6 +1,6 @@
 
 
-## [debian-bullseye-6.0.5](https://github.com/truecharts/charts/compare/debian-bullseye-5.6.0...debian-bullseye-6.0.5) (2024-05-01)
+## [debian-bullseye-6.0.5](https://github.com/truecharts/charts/compare/debian-bullseye-5.6.0...debian-bullseye-6.0.5) (2024-05-02)
 
 ### Chore
 

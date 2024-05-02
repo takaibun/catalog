@@ -1,6 +1,6 @@
 
 
-## [archiveteam-warrior-6.0.5](https://github.com/truecharts/charts/compare/archiveteam-warrior-5.6.0...archiveteam-warrior-6.0.5) (2024-05-01)
+## [archiveteam-warrior-6.0.5](https://github.com/truecharts/charts/compare/archiveteam-warrior-5.6.0...archiveteam-warrior-6.0.5) (2024-05-02)
 
 ### Chore
 

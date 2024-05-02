@@ -1,6 +1,6 @@
 
 
-## [plex-playlist-sync-4.0.5](https://github.com/truecharts/charts/compare/plex-playlist-sync-3.6.0...plex-playlist-sync-4.0.5) (2024-05-01)
+## [plex-playlist-sync-4.0.5](https://github.com/truecharts/charts/compare/plex-playlist-sync-3.6.0...plex-playlist-sync-4.0.5) (2024-05-02)
 
 ### Chore
 

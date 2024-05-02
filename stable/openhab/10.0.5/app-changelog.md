@@ -1,6 +1,6 @@
 
 
-## [openhab-10.0.5](https://github.com/truecharts/charts/compare/openhab-9.6.0...openhab-10.0.5) (2024-05-01)
+## [openhab-10.0.5](https://github.com/truecharts/charts/compare/openhab-9.6.0...openhab-10.0.5) (2024-05-02)
 
 ### Chore
 

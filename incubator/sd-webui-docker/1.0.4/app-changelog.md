@@ -1,6 +1,6 @@
 
 
-## [sd-webui-1.0.4](https://github.com/truecharts/charts/compare/sd-webui-0.0.4...sd-webui-1.0.4) (2024-05-01)
+## [sd-webui-1.0.4](https://github.com/truecharts/charts/compare/sd-webui-0.0.4...sd-webui-1.0.4) (2024-05-02)
 
 ### Chore
 

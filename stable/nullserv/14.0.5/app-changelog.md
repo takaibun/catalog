@@ -1,6 +1,6 @@
 
 
-## [nullserv-14.0.5](https://github.com/truecharts/charts/compare/nullserv-13.6.0...nullserv-14.0.5) (2024-05-01)
+## [nullserv-14.0.5](https://github.com/truecharts/charts/compare/nullserv-13.6.0...nullserv-14.0.5) (2024-05-02)
 
 ### Chore
 

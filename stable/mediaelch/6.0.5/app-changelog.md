@@ -1,6 +1,6 @@
 
 
-## [mediaelch-6.0.5](https://github.com/truecharts/charts/compare/mediaelch-5.6.0...mediaelch-6.0.5) (2024-05-01)
+## [mediaelch-6.0.5](https://github.com/truecharts/charts/compare/mediaelch-5.6.0...mediaelch-6.0.5) (2024-05-02)
 
 ### Chore
 

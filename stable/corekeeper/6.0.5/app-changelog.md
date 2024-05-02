@@ -1,6 +1,6 @@
 
 
-## [corekeeper-6.0.5](https://github.com/truecharts/charts/compare/corekeeper-5.6.0...corekeeper-6.0.5) (2024-05-01)
+## [corekeeper-6.0.5](https://github.com/truecharts/charts/compare/corekeeper-5.6.0...corekeeper-6.0.5) (2024-05-02)
 
 ### Chore
 

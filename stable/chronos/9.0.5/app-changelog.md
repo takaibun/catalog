@@ -1,6 +1,6 @@
 
 
-## [chronos-9.0.5](https://github.com/truecharts/charts/compare/chronos-8.6.0...chronos-9.0.5) (2024-05-01)
+## [chronos-9.0.5](https://github.com/truecharts/charts/compare/chronos-8.6.0...chronos-9.0.5) (2024-05-02)
 
 ### Chore
 

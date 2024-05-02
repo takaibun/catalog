@@ -1,6 +1,6 @@
 
 
-## [htpcmanager-10.0.4](https://github.com/truecharts/charts/compare/htpcmanager-9.6.0...htpcmanager-10.0.4) (2024-05-01)
+## [htpcmanager-10.0.4](https://github.com/truecharts/charts/compare/htpcmanager-9.6.0...htpcmanager-10.0.4) (2024-05-02)
 
 ### Chore
 

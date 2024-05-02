@@ -1,6 +1,6 @@
 
 
-## [traggo-7.0.4](https://github.com/truecharts/charts/compare/traggo-6.7.0...traggo-7.0.4) (2024-05-01)
+## [traggo-7.0.4](https://github.com/truecharts/charts/compare/traggo-6.7.0...traggo-7.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [flextv-6.0.4](https://github.com/truecharts/charts/compare/flextv-5.6.0...flextv-6.0.4) (2024-05-01)
+## [flextv-6.0.4](https://github.com/truecharts/charts/compare/flextv-5.6.0...flextv-6.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [dashdot-9.0.5](https://github.com/truecharts/charts/compare/dashdot-8.6.0...dashdot-9.0.5) (2024-05-01)
+## [dashdot-9.0.5](https://github.com/truecharts/charts/compare/dashdot-8.6.0...dashdot-9.0.5) (2024-05-02)
 
 ### Chore
 

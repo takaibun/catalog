@@ -1,6 +1,6 @@
 
 
-## [oscam-14.0.5](https://github.com/truecharts/charts/compare/oscam-13.6.0...oscam-14.0.5) (2024-05-01)
+## [oscam-14.0.5](https://github.com/truecharts/charts/compare/oscam-13.6.0...oscam-14.0.5) (2024-05-02)
 
 ### Chore
 

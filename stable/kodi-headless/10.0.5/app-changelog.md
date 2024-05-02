@@ -1,6 +1,6 @@
 
 
-## [kodi-headless-10.0.5](https://github.com/truecharts/charts/compare/kodi-headless-9.6.0...kodi-headless-10.0.5) (2024-05-01)
+## [kodi-headless-10.0.5](https://github.com/truecharts/charts/compare/kodi-headless-9.6.0...kodi-headless-10.0.5) (2024-05-02)
 
 ### Chore
 

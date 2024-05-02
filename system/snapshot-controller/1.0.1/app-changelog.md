@@ -1,6 +1,6 @@
 
 
-## [snapshot-controller-1.0.1]snapshot-controller-1.0.1 (2024-05-01)
+## [snapshot-controller-1.0.1]snapshot-controller-1.0.1 (2024-05-02)
 
 ### Chore
 

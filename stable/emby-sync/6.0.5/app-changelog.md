@@ -1,6 +1,6 @@
 
 
-## [emby-sync-6.0.5](https://github.com/truecharts/charts/compare/emby-sync-5.6.0...emby-sync-6.0.5) (2024-05-01)
+## [emby-sync-6.0.5](https://github.com/truecharts/charts/compare/emby-sync-5.6.0...emby-sync-6.0.5) (2024-05-02)
 
 ### Chore
 

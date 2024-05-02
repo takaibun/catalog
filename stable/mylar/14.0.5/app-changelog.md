@@ -1,6 +1,6 @@
 
 
-## [mylar-14.0.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-14.0.5) (2024-05-01)
+## [mylar-14.0.5](https://github.com/truecharts/charts/compare/mylar-13.6.0...mylar-14.0.5) (2024-05-02)
 
 ### Chore
 

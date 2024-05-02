@@ -1,6 +1,6 @@
 
 
-## [mattermost-13.0.5](https://github.com/truecharts/charts/compare/mattermost-12.7.0...mattermost-13.0.5) (2024-05-01)
+## [mattermost-13.0.5](https://github.com/truecharts/charts/compare/mattermost-12.7.0...mattermost-13.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [ring-mqtt-9.0.4](https://github.com/truecharts/charts/compare/ring-mqtt-8.6.0...ring-mqtt-9.0.4) (2024-05-01)
+## [ring-mqtt-9.0.4](https://github.com/truecharts/charts/compare/ring-mqtt-8.6.0...ring-mqtt-9.0.4) (2024-05-02)
 
 ### Chore
 

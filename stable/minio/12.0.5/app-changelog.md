@@ -1,6 +1,6 @@
 
 
-## [minio-12.0.5](https://github.com/truecharts/charts/compare/minio-11.7.0...minio-12.0.5) (2024-05-01)
+## [minio-12.0.5](https://github.com/truecharts/charts/compare/minio-11.7.0...minio-12.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [ollama-6.0.5](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-6.0.5) (2024-05-01)
+## [ollama-6.0.5](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-6.0.5) (2024-05-02)
 
 ### Chore
 

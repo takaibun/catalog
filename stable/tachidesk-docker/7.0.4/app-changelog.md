@@ -1,6 +1,6 @@
 
 
-## [tachidesk-docker-7.0.4](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-7.0.4) (2024-05-01)
+## [tachidesk-docker-7.0.4](https://github.com/truecharts/charts/compare/tachidesk-docker-6.6.0...tachidesk-docker-7.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [llalon-github-backup-6.0.5](https://github.com/truecharts/charts/compare/llalon-github-backup-5.6.0...llalon-github-backup-6.0.5) (2024-05-01)
+## [llalon-github-backup-6.0.5](https://github.com/truecharts/charts/compare/llalon-github-backup-5.6.0...llalon-github-backup-6.0.5) (2024-05-02)
 
 ### Chore
 

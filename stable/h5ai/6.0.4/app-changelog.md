@@ -1,6 +1,6 @@
 
 
-## [h5ai-6.0.4](https://github.com/truecharts/charts/compare/h5ai-5.6.0...h5ai-6.0.4) (2024-05-01)
+## [h5ai-6.0.4](https://github.com/truecharts/charts/compare/h5ai-5.6.0...h5ai-6.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [quassel-web-10.0.4](https://github.com/truecharts/charts/compare/quassel-web-9.6.0...quassel-web-10.0.4) (2024-05-01)
+## [quassel-web-10.0.4](https://github.com/truecharts/charts/compare/quassel-web-9.6.0...quassel-web-10.0.4) (2024-05-02)
 
 ### Chore
 

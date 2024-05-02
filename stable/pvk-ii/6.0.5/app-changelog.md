@@ -1,6 +1,6 @@
 
 
-## [pvk-ii-6.0.5](https://github.com/truecharts/charts/compare/pvk-ii-5.6.0...pvk-ii-6.0.5) (2024-05-01)
+## [pvk-ii-6.0.5](https://github.com/truecharts/charts/compare/pvk-ii-5.6.0...pvk-ii-6.0.5) (2024-05-02)
 
 ### Chore
 

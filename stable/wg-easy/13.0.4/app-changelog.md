@@ -1,6 +1,6 @@
 
 
-## [wg-easy-13.0.4](https://github.com/truecharts/charts/compare/wg-easy-11.6.0...wg-easy-13.0.4) (2024-05-01)
+## [wg-easy-13.0.4](https://github.com/truecharts/charts/compare/wg-easy-11.6.0...wg-easy-13.0.4) (2024-05-02)
 
 ### Chore
 

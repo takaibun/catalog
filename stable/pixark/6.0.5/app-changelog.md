@@ -1,6 +1,6 @@
 
 
-## [pixark-6.0.5](https://github.com/truecharts/charts/compare/pixark-5.6.0...pixark-6.0.5) (2024-05-01)
+## [pixark-6.0.5](https://github.com/truecharts/charts/compare/pixark-5.6.0...pixark-6.0.5) (2024-05-02)
 
 ### Chore
 

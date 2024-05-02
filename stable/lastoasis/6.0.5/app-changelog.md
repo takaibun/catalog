@@ -1,6 +1,6 @@
 
 
-## [lastoasis-6.0.5](https://github.com/truecharts/charts/compare/lastoasis-5.6.0...lastoasis-6.0.5) (2024-05-01)
+## [lastoasis-6.0.5](https://github.com/truecharts/charts/compare/lastoasis-5.6.0...lastoasis-6.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [metube-13.0.5](https://github.com/truecharts/charts/compare/metube-12.7.0...metube-13.0.5) (2024-05-01)
+## [metube-13.0.5](https://github.com/truecharts/charts/compare/metube-12.7.0...metube-13.0.5) (2024-05-02)
 
 ### Chore
 

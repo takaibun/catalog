@@ -1,6 +1,6 @@
 
 
-## [blog-12.0.5](https://github.com/truecharts/charts/compare/blog-11.6.0...blog-12.0.5) (2024-05-01)
+## [blog-12.0.5](https://github.com/truecharts/charts/compare/blog-11.6.0...blog-12.0.5) (2024-05-02)
 
 ### Chore
 

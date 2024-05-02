@@ -1,6 +1,6 @@
 
 
-## [gpodder-6.0.4](https://github.com/truecharts/charts/compare/gpodder-5.6.0...gpodder-6.0.4) (2024-05-01)
+## [gpodder-6.0.4](https://github.com/truecharts/charts/compare/gpodder-5.6.0...gpodder-6.0.4) (2024-05-02)
 
 ### Chore
 

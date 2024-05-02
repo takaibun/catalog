@@ -1,6 +1,6 @@
 
 
-## [external-ip-6.0.5](https://github.com/truecharts/charts/compare/external-ip-5.6.0...external-ip-6.0.5) (2024-05-01)
+## [external-ip-6.0.5](https://github.com/truecharts/charts/compare/external-ip-5.6.0...external-ip-6.0.5) (2024-05-02)
 
 ### Chore
 

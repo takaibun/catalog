@@ -1,6 +1,6 @@
 
 
-## [fastcom-mqtt-6.0.5](https://github.com/truecharts/charts/compare/fastcom-mqtt-5.6.0...fastcom-mqtt-6.0.5) (2024-05-01)
+## [fastcom-mqtt-6.0.5](https://github.com/truecharts/charts/compare/fastcom-mqtt-5.6.0...fastcom-mqtt-6.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [automatic-music-downloader-10.0.5](https://github.com/truecharts/charts/compare/automatic-music-downloader-9.6.0...automatic-music-downloader-10.0.5) (2024-05-01)
+## [automatic-music-downloader-10.0.5](https://github.com/truecharts/charts/compare/automatic-music-downloader-9.6.0...automatic-music-downloader-10.0.5) (2024-05-02)
 
 ### Chore
 

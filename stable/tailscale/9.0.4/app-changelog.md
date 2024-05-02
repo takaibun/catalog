@@ -1,6 +1,6 @@
 
 
-## [tailscale-9.0.4](https://github.com/truecharts/charts/compare/tailscale-8.7.0...tailscale-9.0.4) (2024-05-01)
+## [tailscale-9.0.4](https://github.com/truecharts/charts/compare/tailscale-8.7.0...tailscale-9.0.4) (2024-05-02)
 
 ### Chore
 

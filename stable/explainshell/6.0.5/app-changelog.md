@@ -1,6 +1,6 @@
 
 
-## [explainshell-6.0.5](https://github.com/truecharts/charts/compare/explainshell-5.6.0...explainshell-6.0.5) (2024-05-01)
+## [explainshell-6.0.5](https://github.com/truecharts/charts/compare/explainshell-5.6.0...explainshell-6.0.5) (2024-05-02)
 
 ### Chore
 

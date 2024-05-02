@@ -1,6 +1,6 @@
 
 
-## [vlmcsd-kms-server-6.0.4](https://github.com/truecharts/charts/compare/vlmcsd-kms-server-5.6.0...vlmcsd-kms-server-6.0.4) (2024-05-01)
+## [vlmcsd-kms-server-6.0.4](https://github.com/truecharts/charts/compare/vlmcsd-kms-server-5.6.0...vlmcsd-kms-server-6.0.4) (2024-05-02)
 
 ### Chore
 

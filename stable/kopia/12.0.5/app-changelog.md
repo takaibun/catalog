@@ -1,6 +1,6 @@
 
 
-## [kopia-12.0.5](https://github.com/truecharts/charts/compare/kopia-11.6.0...kopia-12.0.5) (2024-05-01)
+## [kopia-12.0.5](https://github.com/truecharts/charts/compare/kopia-11.6.0...kopia-12.0.5) (2024-05-02)
 
 ### Chore
 

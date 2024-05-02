@@ -1,6 +1,6 @@
 
 
-## [lingva-6.0.5](https://github.com/truecharts/charts/compare/lingva-5.6.0...lingva-6.0.5) (2024-05-01)
+## [lingva-6.0.5](https://github.com/truecharts/charts/compare/lingva-5.6.0...lingva-6.0.5) (2024-05-02)
 
 ### Chore
 

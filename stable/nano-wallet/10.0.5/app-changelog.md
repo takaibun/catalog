@@ -1,6 +1,6 @@
 
 
-## [nano-wallet-10.0.5](https://github.com/truecharts/charts/compare/nano-wallet-9.6.0...nano-wallet-10.0.5) (2024-05-01)
+## [nano-wallet-10.0.5](https://github.com/truecharts/charts/compare/nano-wallet-9.6.0...nano-wallet-10.0.5) (2024-05-02)
 
 ### Chore
 

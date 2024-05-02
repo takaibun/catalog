@@ -1,6 +1,6 @@
 
 
-## [vintage-story-6.0.4](https://github.com/truecharts/charts/compare/vintage-story-5.6.0...vintage-story-6.0.4) (2024-05-01)
+## [vintage-story-6.0.4](https://github.com/truecharts/charts/compare/vintage-story-5.6.0...vintage-story-6.0.4) (2024-05-02)
 
 ### Chore
 

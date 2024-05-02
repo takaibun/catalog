@@ -1,6 +1,6 @@
 
 
-## [onlyoffice-document-server-18.0.5](https://github.com/truecharts/charts/compare/onlyoffice-document-server-17.6.0...onlyoffice-document-server-18.0.5) (2024-05-01)
+## [onlyoffice-document-server-18.0.5](https://github.com/truecharts/charts/compare/onlyoffice-document-server-17.6.0...onlyoffice-document-server-18.0.5) (2024-05-02)
 
 ### Chore
 

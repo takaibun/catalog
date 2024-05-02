@@ -1,6 +1,6 @@
 
 
-## [acestream-7.0.5](https://github.com/truecharts/charts/compare/acestream-6.6.0...acestream-7.0.5) (2024-05-01)
+## [acestream-7.0.5](https://github.com/truecharts/charts/compare/acestream-6.6.0...acestream-7.0.5) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [amcrest2mqtt-12.0.5](https://github.com/truecharts/charts/compare/amcrest2mqtt-11.6.0...amcrest2mqtt-12.0.5) (2024-05-01)
+## [amcrest2mqtt-12.0.5](https://github.com/truecharts/charts/compare/amcrest2mqtt-11.6.0...amcrest2mqtt-12.0.5) (2024-05-02)
 
 ### Chore
 

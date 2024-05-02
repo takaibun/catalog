@@ -1,6 +1,6 @@
 
 
-## [invidious-10.0.4](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-10.0.4) (2024-05-01)
+## [invidious-10.0.4](https://github.com/truecharts/charts/compare/invidious-9.6.0...invidious-10.0.4) (2024-05-02)
 
 ### Chore
 

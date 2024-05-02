@@ -1,6 +1,6 @@
 
 
-## [firezone-4.0.4](https://github.com/truecharts/charts/compare/firezone-3.6.0...firezone-4.0.4) (2024-05-01)
+## [firezone-4.0.4](https://github.com/truecharts/charts/compare/firezone-3.6.0...firezone-4.0.4) (2024-05-02)
 
 ### Chore
 

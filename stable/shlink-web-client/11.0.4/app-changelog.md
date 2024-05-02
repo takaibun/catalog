@@ -1,6 +1,6 @@
 
 
-## [shlink-web-client-11.0.4](https://github.com/truecharts/charts/compare/shlink-web-client-10.6.0...shlink-web-client-11.0.4) (2024-05-01)
+## [shlink-web-client-11.0.4](https://github.com/truecharts/charts/compare/shlink-web-client-10.6.0...shlink-web-client-11.0.4) (2024-05-02)
 
 ### Chore
 

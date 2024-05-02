@@ -1,6 +1,6 @@
 
 
-## [homebridge-8.0.4](https://github.com/truecharts/charts/compare/homebridge-7.6.0...homebridge-8.0.4) (2024-05-01)
+## [homebridge-8.0.4](https://github.com/truecharts/charts/compare/homebridge-7.6.0...homebridge-8.0.4) (2024-05-02)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [seedsync-8.0.4](https://github.com/truecharts/charts/compare/seedsync-7.6.0...seedsync-8.0.4) (2024-05-01)
+## [seedsync-8.0.4](https://github.com/truecharts/charts/compare/seedsync-7.6.0...seedsync-8.0.4) (2024-05-02)
 
 ### Chore
 

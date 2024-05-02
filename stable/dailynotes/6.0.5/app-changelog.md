@@ -1,6 +1,6 @@
 
 
-## [dailynotes-6.0.5](https://github.com/truecharts/charts/compare/dailynotes-5.6.0...dailynotes-6.0.5) (2024-05-01)
+## [dailynotes-6.0.5](https://github.com/truecharts/charts/compare/dailynotes-5.6.0...dailynotes-6.0.5) (2024-05-02)
 
 ### Chore
 

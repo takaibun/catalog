@@ -1,6 +1,6 @@
 
 
-## [fivem-6.0.4](https://github.com/truecharts/charts/compare/fivem-5.6.0...fivem-6.0.4) (2024-05-01)
+## [fivem-6.0.4](https://github.com/truecharts/charts/compare/fivem-5.6.0...fivem-6.0.4) (2024-05-02)
 
 ### Chore
 
