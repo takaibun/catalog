@@ -7,10 +7,10 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 1.21.0
+appVersion: 2.0.1
 dependencies:
   - name: common
-    version: 22.0.3
+    version: 23.0.0
     repository: oci://tccr.io/truecharts
     condition: ""
     alias: ""
@@ -18,19 +18,19 @@ dependencies:
     import-values: []
 deprecated: false
 description: Python script to update metadata and automatically build collections.
-home: https://truecharts.org/charts/stable/plex-meta-manager
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/plex-meta-manager.webp
+home: https://truecharts.org/charts/stable/kometa
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/kometa.webp
 keywords:
-  - plex-meta-manager
-kubeVersion: ">=1.24.0-0"
+  - kometa
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: plex-meta-manager
+name: kometa
 sources:
-  - https://github.com/meisnate12/Plex-Meta-Manager
-  - https://github.com/truecharts/charts/tree/master/charts/stable/plex-meta-manager
-  - https://hub.docker.com/r/meisnate12/plex-meta-manager
+  - https://github.com/kometa-team/kometa
+  - https://github.com/truecharts/charts/tree/master/charts/stable/kometa
+  - https://hub.docker.com/r/kometateam/kometa
 type: application
-version: 7.0.4
+version: 2.0.2
