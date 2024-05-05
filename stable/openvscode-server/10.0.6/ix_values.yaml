@@ -1,0 +1,29 @@
+image:
+  repository: ghcr.io/linuxserver/openvscode-server
+  pullPolicy: IfNotPresent
+  tag: 1.88.1@sha256:734bca8c28683fe352166edf8609d6a8644693446dca5191a390dfa109d227ef
+# secretEnv:
+#   CONNECTION_TOKEN: "somerandomstring"
+#   CONNECTION_SECRET: ""
+#   SUDO_PASSWORD: ""
+service:
+  main:
+    ports:
+      main:
+        targetPort: 3000
+        port: 10135
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
