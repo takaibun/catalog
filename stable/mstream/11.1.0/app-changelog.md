@@ -1,36 +1,40 @@
 
 
-## [mstream-11.0.5](https://github.com/truecharts/charts/compare/mstream-10.6.0...mstream-11.0.5) (2024-05-02)
+## [mstream-11.1.0](https://github.com/truecharts/charts/compare/mstream-10.6.0...mstream-11.1.0) (2024-05-05)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
-
-- bump common
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump charts to ensure new icons are released
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump common
+
+- bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
+
+- bump everything to release new doc pages
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/linuxserver/mstream to 5.11.4[@edfbc91](https://github.com/edfbc91) by renovate ([#21263](https://github.com/truecharts/charts/issues/21263))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image ghcr.io/linuxserver/mstream to 5.11.4[@81ba27a](https://github.com/81ba27a) by renovate ([#21503](https://github.com/truecharts/charts/issues/21503))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/mstream to v5.12.1[@af95cff](https://github.com/af95cff) by renovate ([#21655](https://github.com/truecharts/charts/issues/21655))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -38,7 +42,7 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image ghcr.io/linuxserver/mstream to 5.11.4[@edfbc91](https://github.com/edfbc91) by renovate ([#21263](https://github.com/truecharts/charts/issues/21263))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 

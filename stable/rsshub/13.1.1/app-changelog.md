@@ -1,12 +1,12 @@
 
 
-## [rsshub-13.0.5](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-13.0.5) (2024-05-05)
+## [rsshub-13.1.1](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-13.1.1) (2024-05-05)
 
 ### Chore
 
 
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump common
 
@@ -16,13 +16,15 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
-- update container image diygod/rsshub to latest[@878f718](https://github.com/878f718) by renovate ([#20358](https://github.com/truecharts/charts/issues/20358))
+- bump charts to ensure new icons are released
+
+- update container image diygod/rsshub to latest[@8e6479b](https://github.com/8e6479b) by renovate ([#20382](https://github.com/truecharts/charts/issues/20382))
 
 - update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image diygod/rsshub to latest[@6626eb2](https://github.com/6626eb2) by renovate ([#21366](https://github.com/truecharts/charts/issues/21366))
 
@@ -38,11 +40,13 @@
 
 - update container image diygod/rsshub to latest[@7bc4bb3](https://github.com/7bc4bb3) by renovate ([#21217](https://github.com/truecharts/charts/issues/21217))
 
+- update container image diygod/rsshub to latest[@0cccc81](https://github.com/0cccc81) by renovate ([#21482](https://github.com/truecharts/charts/issues/21482))
+
 - update container image diygod/rsshub to latest[@37528f9](https://github.com/37528f9) by renovate ([#21203](https://github.com/truecharts/charts/issues/21203))
 
 - update container image diygod/rsshub to latest[@c3c3882](https://github.com/c3c3882) by renovate ([#21156](https://github.com/truecharts/charts/issues/21156))
 
-- update container image diygod/rsshub to latest[@755e389](https://github.com/755e389) by renovate ([#20276](https://github.com/truecharts/charts/issues/20276))
+- update container image diygod/rsshub to latest[@fa4c120](https://github.com/fa4c120) by renovate ([#21124](https://github.com/truecharts/charts/issues/21124))
 
 - update container image diygod/rsshub to latest[@6d1338f](https://github.com/6d1338f) by renovate ([#21091](https://github.com/truecharts/charts/issues/21091))
 
@@ -64,7 +68,7 @@
 
 - update container image diygod/rsshub to latest[@4a0425e](https://github.com/4a0425e) by renovate ([#20855](https://github.com/truecharts/charts/issues/20855))
 
-- update container image diygod/rsshub to latest[@dd5b433](https://github.com/dd5b433) by renovate ([#21397](https://github.com/truecharts/charts/issues/21397))
+- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
 
 - update container image diygod/rsshub to latest[@0ad373f](https://github.com/0ad373f) by renovate ([#20843](https://github.com/truecharts/charts/issues/20843))
 
@@ -84,7 +88,7 @@
 
 - update container image diygod/rsshub to latest[@16f0a4d](https://github.com/16f0a4d) by renovate ([#20749](https://github.com/truecharts/charts/issues/20749))
 
-- update container image diygod/rsshub to latest[@a39d347](https://github.com/a39d347) by renovate ([#20318](https://github.com/truecharts/charts/issues/20318))
+- update container image diygod/rsshub to latest[@9c358c7](https://github.com/9c358c7) by renovate ([#20727](https://github.com/truecharts/charts/issues/20727))
 
 - update container image diygod/rsshub to latest[@c6f783f](https://github.com/c6f783f) by renovate ([#20691](https://github.com/truecharts/charts/issues/20691))
 
@@ -120,7 +124,7 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image diygod/rsshub to latest[@f5ae879](https://github.com/f5ae879) by renovate ([#20292](https://github.com/truecharts/charts/issues/20292))
+- update container image diygod/rsshub to latest[@314f4bb](https://github.com/314f4bb) by renovate ([#20327](https://github.com/truecharts/charts/issues/20327))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
@@ -130,21 +134,21 @@
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image diygod/rsshub to latest[@8e6479b](https://github.com/8e6479b) by renovate ([#20382](https://github.com/truecharts/charts/issues/20382))
+- update container image diygod/rsshub to latest[@0971375](https://github.com/0971375) by renovate ([#21652](https://github.com/truecharts/charts/issues/21652))
 
 - update container image diygod/rsshub to latest[@7e62c5e](https://github.com/7e62c5e) by renovate ([#20370](https://github.com/truecharts/charts/issues/20370))
 
-- update container image diygod/rsshub to latest[@0cccc81](https://github.com/0cccc81) by renovate ([#21482](https://github.com/truecharts/charts/issues/21482))
+- update container image diygod/rsshub to latest[@878f718](https://github.com/878f718) by renovate ([#20358](https://github.com/truecharts/charts/issues/20358))
 
-- update container image diygod/rsshub to latest[@25786d5](https://github.com/25786d5) by renovate ([#20336](https://github.com/truecharts/charts/issues/20336))
+- update container image diygod/rsshub to latest[@0f51cb5](https://github.com/0f51cb5) by renovate ([#19746](https://github.com/truecharts/charts/issues/19746))
 
-- update container image diygod/rsshub to latest[@314f4bb](https://github.com/314f4bb) by renovate ([#20327](https://github.com/truecharts/charts/issues/20327))
+- update container image diygod/rsshub to latest[@a39d347](https://github.com/a39d347) by renovate ([#20318](https://github.com/truecharts/charts/issues/20318))
 
-- update container image diygod/rsshub to latest[@9c358c7](https://github.com/9c358c7) by renovate ([#20727](https://github.com/truecharts/charts/issues/20727))
+- update container image diygod/rsshub to latest[@dd5b433](https://github.com/dd5b433) by renovate ([#21397](https://github.com/truecharts/charts/issues/21397))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image diygod/rsshub to latest[@f5ae879](https://github.com/f5ae879) by renovate ([#20292](https://github.com/truecharts/charts/issues/20292))
 
-- update container image diygod/rsshub to latest[@fa4c120](https://github.com/fa4c120) by renovate ([#21124](https://github.com/truecharts/charts/issues/21124))
+- update container image diygod/rsshub to latest[@755e389](https://github.com/755e389) by renovate ([#20276](https://github.com/truecharts/charts/issues/20276))
 
 - update container image diygod/rsshub to latest[@2248d68](https://github.com/2248d68) by renovate ([#20266](https://github.com/truecharts/charts/issues/20266))
 
@@ -204,7 +208,7 @@
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
-- update container image diygod/rsshub to latest[@0f51cb5](https://github.com/0f51cb5) by renovate ([#19746](https://github.com/truecharts/charts/issues/19746))
+- update container image diygod/rsshub to latest[@25786d5](https://github.com/25786d5) by renovate ([#20336](https://github.com/truecharts/charts/issues/20336))
 
 - update container image diygod/rsshub to latest[@d4feacf](https://github.com/d4feacf) by renovate ([#19737](https://github.com/truecharts/charts/issues/19737))
 
