@@ -1,32 +1,36 @@
 
 
-## [firefox-desktop-g3-6.0.4](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-6.0.4) (2024-04-30)
+## [firefox-desktop-g3-6.0.6](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-6.0.6) (2024-05-05)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
 - bump charts to ensure new icons are released
 
+- bump everything to regenerate readme's and site index
+
 - bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
-
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@09bdf46](https://github.com/09bdf46) by renovate ([#20265](https://github.com/truecharts/charts/issues/20265))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@c2e07ef](https://github.com/c2e07ef) by renovate ([#21339](https://github.com/truecharts/charts/issues/21339))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@cb5a761](https://github.com/cb5a761) by renovate ([#21468](https://github.com/truecharts/charts/issues/21468))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -34,9 +38,9 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@c2e07ef](https://github.com/c2e07ef) by renovate ([#21339](https://github.com/truecharts/charts/issues/21339))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image accetto/ubuntu-vnc-xfce-firefox-g3 to latest[@09bdf46](https://github.com/09bdf46) by renovate ([#20265](https://github.com/truecharts/charts/issues/20265))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
