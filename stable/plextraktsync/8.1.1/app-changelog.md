@@ -1,28 +1,32 @@
 
 
-## [plextraktsync-8.0.5](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-8.0.5) (2024-05-02)
+## [plextraktsync-8.1.1](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-8.1.1) (2024-05-05)
 
 ### Chore
 
 
 
+- bump charts to release new docs to fix broken links
+
 - bump charts to ensure new icons are released
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to regenerate readme's and site index
 
 - bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
+- update container image ghcr.io/taxel/plextraktsync to v0.29.13[@eea376d](https://github.com/eea376d) by renovate ([#20562](https://github.com/truecharts/charts/issues/20562))
 
-- bump everything to regenerate readme's and site index
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image ghcr.io/taxel/plextraktsync to v0.29.11[@4cf5336](https://github.com/4cf5336) by renovate ([#20010](https://github.com/truecharts/charts/issues/20010))
+- update container image ghcr.io/taxel/plextraktsync to v0.30.2[@05cbbd3](https://github.com/05cbbd3) by renovate ([#21620](https://github.com/truecharts/charts/issues/21620))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -30,19 +34,19 @@
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image ghcr.io/taxel/plextraktsync to v0.29.13[@eea376d](https://github.com/eea376d) by renovate ([#20562](https://github.com/truecharts/charts/issues/20562))
+- update container image ghcr.io/taxel/plextraktsync to v0.30.3[@990d8f7](https://github.com/990d8f7) by renovate ([#21658](https://github.com/truecharts/charts/issues/21658))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image ghcr.io/taxel/plextraktsync to v0.29.12[@f6068d1](https://github.com/f6068d1) by renovate ([#20021](https://github.com/truecharts/charts/issues/20021))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image ghcr.io/taxel/plextraktsync to v0.29.11[@4cf5336](https://github.com/4cf5336) by renovate ([#20010](https://github.com/truecharts/charts/issues/20010))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
