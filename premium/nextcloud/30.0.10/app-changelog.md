@@ -1,40 +1,44 @@
 
 
-## [nextcloud-30.0.7](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-30.0.7) (2024-05-05)
+## [nextcloud-30.0.10](https://github.com/truecharts/charts/compare/nextcloud-29.6.0...nextcloud-30.0.10) (2024-05-05)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
-
-- bump common
-
 - bump everything to release new doc pages
-
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump charts to release new docs to fix broken links
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
 
 - update docs links
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- bump everything to regenerate readme's and site index
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
+- bump charts to release new docs to fix broken links
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
+
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+
+- update container image clamav/clamav to 1.3.1[@0f66a32](https://github.com/0f66a32) by renovate ([#21146](https://github.com/truecharts/charts/issues/21146))
+
+- update container image nginxinc/nginx-unprivileged to 1.25.5[@7296e8e](https://github.com/7296e8e) by renovate ([#21149](https://github.com/truecharts/charts/issues/21149))
+
+- update container image tccr.io/tccr/nextcloud-fpm to v[@09a4ab0](https://github.com/09a4ab0) by renovate ([#21306](https://github.com/truecharts/charts/issues/21306))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image nginxinc/nginx-unprivileged to v1.26.0[@4099c02](https://github.com/4099c02) by renovate ([#21318](https://github.com/truecharts/charts/issues/21318))
 
-- update container image nginxinc/nginx-unprivileged to v[@1fc4731](https://github.com/1fc4731) by renovate ([#21311](https://github.com/truecharts/charts/issues/21311))
+- update container image tccr.io/tccr/nextcloud-fpm to v29.0.0[@65f0b68](https://github.com/65f0b68) by renovate ([#21336](https://github.com/truecharts/charts/issues/21336))
 
-- update container image clamav/clamav to 1.3.1[@0f66a32](https://github.com/0f66a32) by renovate ([#21146](https://github.com/truecharts/charts/issues/21146))
-
-- update container image nginxinc/nginx-unprivileged to 1.25.5[@7296e8e](https://github.com/7296e8e) by renovate ([#21149](https://github.com/truecharts/charts/issues/21149))
+- update container image collabora/code to v24.04.1.4.1[@524fc47](https://github.com/524fc47) by renovate ([#21213](https://github.com/truecharts/charts/issues/21213))
 
 - update container image redis to v13.3.11[@778c5c5](https://github.com/778c5c5) by renovate ([#21070](https://github.com/truecharts/charts/issues/21070))
 
@@ -52,7 +56,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image tccr.io/tccr/nextcloud-fpm to v29.0.0[@65f0b68](https://github.com/65f0b68) by renovate ([#21336](https://github.com/truecharts/charts/issues/21336))
+- update container image nginxinc/nginx-unprivileged to 1.26.0[@b1dab22](https://github.com/b1dab22) by renovate ([#21546](https://github.com/truecharts/charts/issues/21546))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -68,9 +72,9 @@
 
 - update container image tccr.io/tccr/nextcloud-fpm to v28.0.4[@3905997](https://github.com/3905997) by renovate ([#20639](https://github.com/truecharts/charts/issues/20639))
 
-- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
+- update container image tccr.io/tccr/nextcloud-fpm to v29.0.0[@56e45cf](https://github.com/56e45cf) by renovate ([#21554](https://github.com/truecharts/charts/issues/21554))
 
-- update container image collabora/code to v24.04.1.4.1[@524fc47](https://github.com/524fc47) by renovate ([#21213](https://github.com/truecharts/charts/issues/21213))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image tccr.io/tccr/nextcloud-fpm to v28.0.4[@c5919db](https://github.com/c5919db) by renovate ([#20587](https://github.com/truecharts/charts/issues/20587))
 
@@ -80,7 +84,7 @@
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image tccr.io/tccr/nextcloud-fpm to v[@09a4ab0](https://github.com/09a4ab0) by renovate ([#21306](https://github.com/truecharts/charts/issues/21306))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
@@ -104,7 +108,7 @@
 
 - update container image tccr.io/tccr/nextcloud-fpm to v28.0.4[@98f9b1f](https://github.com/98f9b1f) by renovate ([#19986](https://github.com/truecharts/charts/issues/19986))
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image nginxinc/nginx-unprivileged to v[@1fc4731](https://github.com/1fc4731) by renovate ([#21311](https://github.com/truecharts/charts/issues/21311))
 
 - update container image tccr.io/tccr/nextcloud-fpm to v[@78a98b1](https://github.com/78a98b1) by renovate ([#19985](https://github.com/truecharts/charts/issues/19985))
 
