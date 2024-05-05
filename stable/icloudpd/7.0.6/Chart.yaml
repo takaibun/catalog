@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: emulator
+  truecharts.org/category: Backup
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 1.8.8
+appVersion: 1.0.807
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,19 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Emulatorjs - In browser web based emulation portable to nearly any device for many retro consoles.
-home: https://truecharts.org/charts/stable/emulatorjs
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/emulatorjs.webp
+description: iCloudPD, syncs photos from iDevices to a single directory on TrueNAS.
+home: https://truecharts.org/charts/stable/icloudpd
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/icloudpd.webp
 keywords:
-  - emulatorjs
-kubeVersion: ">=1.24.0-0"
+  - icloudpd
+  - Backup
+  - Cloud
+  - Downloaders
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: emulatorjs
+name: icloudpd
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/emulatorjs
-  - https://ghcr.io/linuxserver/emulatorjs
+  - https://github.com/truecharts/charts/tree/master/charts/stable/icloudpd
+  - https://hub.docker.com/r/boredazfcuk/icloudpd
 type: application
-version: 10.0.5
+version: 7.0.6
