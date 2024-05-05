@@ -1,28 +1,38 @@
 
 
-## [libremdb-8.0.6](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-8.0.6) (2024-05-05)
+## [libremdb-8.1.1](https://github.com/truecharts/charts/compare/libremdb-7.6.0...libremdb-8.1.1) (2024-05-05)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to regenerate readme's and site index
 
 - bump common
 
-- bump charts to ensure new icons are released
-
-- bump everything to regenerate readme's and site index
-
-- bump charts to release new docs to fix broken links
+- bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@beef7b7](https://github.com/beef7b7) by renovate ([#20352](https://github.com/truecharts/charts/issues/20352))
+- bump charts to release new docs to fix broken links
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump charts to ensure new icons are released
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@6410edb](https://github.com/6410edb) by renovate ([#20376](https://github.com/truecharts/charts/issues/20376))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@2f1462b](https://github.com/2f1462b) by renovate ([#20070](https://github.com/truecharts/charts/issues/20070))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@fc9dd81](https://github.com/fc9dd81) by renovate ([#21408](https://github.com/truecharts/charts/issues/21408))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@cab8eef](https://github.com/cab8eef) by renovate ([#21380](https://github.com/truecharts/charts/issues/21380))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@661b49d](https://github.com/661b49d) by renovate ([#21377](https://github.com/truecharts/charts/issues/21377))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@f95b7eb](https://github.com/f95b7eb) by renovate ([#20342](https://github.com/truecharts/charts/issues/20342))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@f259927](https://github.com/f259927) by renovate ([#21349](https://github.com/truecharts/charts/issues/21349))
 
@@ -46,19 +56,13 @@
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@9efde74](https://github.com/9efde74) by renovate ([#21187](https://github.com/truecharts/charts/issues/21187))
 
+- update container image quay.io/pussthecatorg/libremdb to latest[@85ee089](https://github.com/85ee089) by renovate ([#21548](https://github.com/truecharts/charts/issues/21548))
+
 - update container image quay.io/pussthecatorg/libremdb to latest[@47f0bae](https://github.com/47f0bae) by renovate ([#21165](https://github.com/truecharts/charts/issues/21165))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@afc7e72](https://github.com/afc7e72) by renovate ([#21150](https://github.com/truecharts/charts/issues/21150))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@8aa912a](https://github.com/8aa912a) by renovate ([#21128](https://github.com/truecharts/charts/issues/21128))
-
-- update container image quay.io/pussthecatorg/libremdb to latest[@0c1786c](https://github.com/0c1786c) by renovate ([#20300](https://github.com/truecharts/charts/issues/20300))
-
-- update container image quay.io/pussthecatorg/libremdb to latest[@cab8eef](https://github.com/cab8eef) by renovate ([#21380](https://github.com/truecharts/charts/issues/21380))
-
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
-
-- update container image quay.io/pussthecatorg/libremdb to latest[@fc9dd81](https://github.com/fc9dd81) by renovate ([#21408](https://github.com/truecharts/charts/issues/21408))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@7f29220](https://github.com/7f29220) by renovate ([#21114](https://github.com/truecharts/charts/issues/21114))
 
@@ -98,7 +102,7 @@
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@1043c11](https://github.com/1043c11) by renovate ([#20863](https://github.com/truecharts/charts/issues/20863))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@f90b742](https://github.com/f90b742) by renovate ([#21427](https://github.com/truecharts/charts/issues/21427))
+- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -168,7 +172,7 @@
 
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@0ccf5bd](https://github.com/0ccf5bd) by renovate ([#20321](https://github.com/truecharts/charts/issues/20321))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
@@ -186,21 +190,21 @@
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@02684e0](https://github.com/02684e0) by renovate ([#20388](https://github.com/truecharts/charts/issues/20388))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@6410edb](https://github.com/6410edb) by renovate ([#20376](https://github.com/truecharts/charts/issues/20376))
+- update container image quay.io/pussthecatorg/libremdb to latest[@f15d3cf](https://github.com/f15d3cf) by renovate ([#21647](https://github.com/truecharts/charts/issues/21647))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@0ed386d](https://github.com/0ed386d) by renovate ([#20362](https://github.com/truecharts/charts/issues/20362))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@85ee089](https://github.com/85ee089) by renovate ([#21548](https://github.com/truecharts/charts/issues/21548))
-
-- update container image quay.io/pussthecatorg/libremdb to latest[@f95b7eb](https://github.com/f95b7eb) by renovate ([#20342](https://github.com/truecharts/charts/issues/20342))
-
-- update container image quay.io/pussthecatorg/libremdb to latest[@05bda0f](https://github.com/05bda0f) by renovate ([#20333](https://github.com/truecharts/charts/issues/20333))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image quay.io/pussthecatorg/libremdb to latest[@beef7b7](https://github.com/beef7b7) by renovate ([#20352](https://github.com/truecharts/charts/issues/20352))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@2ba2bbd](https://github.com/2ba2bbd) by renovate ([#21360](https://github.com/truecharts/charts/issues/21360))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@661b49d](https://github.com/661b49d) by renovate ([#21377](https://github.com/truecharts/charts/issues/21377))
+- update container image quay.io/pussthecatorg/libremdb to latest[@f90b742](https://github.com/f90b742) by renovate ([#21427](https://github.com/truecharts/charts/issues/21427))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@766d9b4](https://github.com/766d9b4) by renovate ([#19835](https://github.com/truecharts/charts/issues/19835))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@6d901b5](https://github.com/6d901b5) by renovate ([#20310](https://github.com/truecharts/charts/issues/20310))
+
+- update container image quay.io/pussthecatorg/libremdb to latest[@0c1786c](https://github.com/0c1786c) by renovate ([#20300](https://github.com/truecharts/charts/issues/20300))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@506e2dd](https://github.com/506e2dd) by renovate ([#20279](https://github.com/truecharts/charts/issues/20279))
 
@@ -238,7 +242,7 @@
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@d61a4ee](https://github.com/d61a4ee) by renovate ([#20081](https://github.com/truecharts/charts/issues/20081))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@6d901b5](https://github.com/6d901b5) by renovate ([#20310](https://github.com/truecharts/charts/issues/20310))
+- update container image quay.io/pussthecatorg/libremdb to latest[@05bda0f](https://github.com/05bda0f) by renovate ([#20333](https://github.com/truecharts/charts/issues/20333))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@961bae2](https://github.com/961bae2) by renovate ([#20052](https://github.com/truecharts/charts/issues/20052))
 
@@ -284,7 +288,7 @@
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@e9f7c64](https://github.com/e9f7c64) by renovate ([#19847](https://github.com/truecharts/charts/issues/19847))
 
-- update container image quay.io/pussthecatorg/libremdb to latest[@766d9b4](https://github.com/766d9b4) by renovate ([#19835](https://github.com/truecharts/charts/issues/19835))
+- update container image quay.io/pussthecatorg/libremdb to latest[@0ccf5bd](https://github.com/0ccf5bd) by renovate ([#20321](https://github.com/truecharts/charts/issues/20321))
 
 - update container image quay.io/pussthecatorg/libremdb to latest[@c157715](https://github.com/c157715) by renovate ([#19815](https://github.com/truecharts/charts/issues/19815))
 
