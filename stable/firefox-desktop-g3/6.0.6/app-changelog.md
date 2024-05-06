@@ -1,6 +1,6 @@
 
 
-## [firefox-desktop-g3-6.0.6](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-6.0.6) (2024-05-05)
+## [firefox-desktop-g3-6.0.6](https://github.com/truecharts/charts/compare/firefox-desktop-g3-5.6.0...firefox-desktop-g3-6.0.6) (2024-05-06)
 
 ### Chore
 

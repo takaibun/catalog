@@ -1,6 +1,6 @@
 
 
-## [mysql-workbench-10.0.6](https://github.com/truecharts/charts/compare/mysql-workbench-9.6.0...mysql-workbench-10.0.6) (2024-05-05)
+## [mysql-workbench-10.0.6](https://github.com/truecharts/charts/compare/mysql-workbench-9.6.0...mysql-workbench-10.0.6) (2024-05-06)
 
 ### Chore
 

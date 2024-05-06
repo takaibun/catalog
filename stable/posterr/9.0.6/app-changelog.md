@@ -1,6 +1,6 @@
 
 
-## [posterr-9.0.6](https://github.com/truecharts/charts/compare/posterr-8.6.0...posterr-9.0.6) (2024-05-05)
+## [posterr-9.0.6](https://github.com/truecharts/charts/compare/posterr-8.6.0...posterr-9.0.6) (2024-05-06)
 
 ### Chore
 

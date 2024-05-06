@@ -1,6 +1,6 @@
 
 
-## [reg-14.0.5](https://github.com/truecharts/charts/compare/reg-13.6.0...reg-14.0.5) (2024-05-05)
+## [reg-14.0.5](https://github.com/truecharts/charts/compare/reg-13.6.0...reg-14.0.5) (2024-05-06)
 
 ### Chore
 

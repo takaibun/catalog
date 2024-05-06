@@ -1,6 +1,6 @@
 
 
-## [n8n-14.2.0](https://github.com/truecharts/charts/compare/n8n-13.8.0...n8n-14.2.0) (2024-05-05)
+## [n8n-14.2.0](https://github.com/truecharts/charts/compare/n8n-13.8.0...n8n-14.2.0) (2024-05-06)
 
 ### Chore
 

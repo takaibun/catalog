@@ -1,6 +1,6 @@
 
 
-## [impostor-server-9.0.5](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-9.0.5) (2024-05-05)
+## [impostor-server-9.0.5](https://github.com/truecharts/charts/compare/impostor-server-8.6.0...impostor-server-9.0.5) (2024-05-06)
 
 ### Chore
 

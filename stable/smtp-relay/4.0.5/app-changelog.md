@@ -1,6 +1,6 @@
 
 
-## [smtp-relay-4.0.5](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-4.0.5) (2024-05-05)
+## [smtp-relay-4.0.5](https://github.com/truecharts/charts/compare/smtp-relay-3.6.0...smtp-relay-4.0.5) (2024-05-06)
 
 ### Chore
 

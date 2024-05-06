@@ -1,6 +1,6 @@
 
 
-## [dockerregistry-6.0.6](https://github.com/truecharts/charts/compare/dockerregistry-5.6.0...dockerregistry-6.0.6) (2024-05-05)
+## [dockerregistry-6.0.6](https://github.com/truecharts/charts/compare/dockerregistry-5.6.0...dockerregistry-6.0.6) (2024-05-06)
 
 ### Chore
 

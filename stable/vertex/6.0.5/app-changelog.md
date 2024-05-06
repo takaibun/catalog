@@ -1,6 +1,6 @@
 
 
-## [vertex-6.0.5](https://github.com/truecharts/charts/compare/vertex-5.6.0...vertex-6.0.5) (2024-05-05)
+## [vertex-6.0.5](https://github.com/truecharts/charts/compare/vertex-5.6.0...vertex-6.0.5) (2024-05-06)
 
 ### Chore
 

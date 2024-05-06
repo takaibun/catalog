@@ -1,6 +1,6 @@
 
 
-## [mosquitto-15.0.6](https://github.com/truecharts/charts/compare/mosquitto-14.6.0...mosquitto-15.0.6) (2024-05-05)
+## [mosquitto-15.0.6](https://github.com/truecharts/charts/compare/mosquitto-14.6.0...mosquitto-15.0.6) (2024-05-06)
 
 ### Chore
 

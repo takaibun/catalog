@@ -1,6 +1,6 @@
 
 
-## [odoo-18.0.6](https://github.com/truecharts/charts/compare/odoo-17.6.0...odoo-18.0.6) (2024-05-05)
+## [odoo-18.0.6](https://github.com/truecharts/charts/compare/odoo-17.6.0...odoo-18.0.6) (2024-05-06)
 
 ### Chore
 

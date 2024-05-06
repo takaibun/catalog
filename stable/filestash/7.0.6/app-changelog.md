@@ -1,6 +1,6 @@
 
 
-## [filestash-7.0.6](https://github.com/truecharts/charts/compare/filestash-6.6.0...filestash-7.0.6) (2024-05-05)
+## [filestash-7.0.6](https://github.com/truecharts/charts/compare/filestash-6.6.0...filestash-7.0.6) (2024-05-06)
 
 ### Chore
 

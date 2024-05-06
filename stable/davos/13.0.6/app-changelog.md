@@ -1,6 +1,6 @@
 
 
-## [davos-13.0.6](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-13.0.6) (2024-05-05)
+## [davos-13.0.6](https://github.com/truecharts/charts/compare/davos-12.6.0...davos-13.0.6) (2024-05-06)
 
 ### Chore
 

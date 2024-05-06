@@ -1,6 +1,6 @@
 
 
-## [snapdrop-10.0.5](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-10.0.5) (2024-05-05)
+## [snapdrop-10.0.5](https://github.com/truecharts/charts/compare/snapdrop-9.6.0...snapdrop-10.0.5) (2024-05-06)
 
 ### Chore
 

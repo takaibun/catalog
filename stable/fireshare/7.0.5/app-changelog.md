@@ -1,6 +1,6 @@
 
 
-## [fireshare-7.0.5](https://github.com/truecharts/charts/compare/fireshare-6.7.0...fireshare-7.0.5) (2024-05-05)
+## [fireshare-7.0.5](https://github.com/truecharts/charts/compare/fireshare-6.7.0...fireshare-7.0.5) (2024-05-06)
 
 ### Chore
 
