@@ -12,6 +12,8 @@
 
 - update container image archivebox/archivebox to latest[@8f51a6d](https://github.com/8f51a6d) by renovate ([#21470](https://github.com/truecharts/charts/issues/21470))
 
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
+
 ### Feat
 
 

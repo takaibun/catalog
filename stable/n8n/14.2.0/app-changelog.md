@@ -12,21 +12,23 @@
 
 - bump everything to regenerate readme's and site index
 
+- bump charts to release new docs to fix broken links
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to release new docs to fix broken links
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image n8nio/n8n to v1.39.1[@c715698](https://github.com/c715698) by renovate ([#21353](https://github.com/truecharts/charts/issues/21353))
+
+- update container image n8nio/n8n to v1.40.0[@d970ae1](https://github.com/d970ae1) by renovate ([#21629](https://github.com/truecharts/charts/issues/21629))
 
 - update container image redis to v13.3.11[@778c5c5](https://github.com/778c5c5) by renovate ([#21070](https://github.com/truecharts/charts/issues/21070))
 
@@ -38,7 +40,7 @@
 
 - update container image n8nio/n8n to v1.37.2[@8a8f648](https://github.com/8a8f648) by renovate ([#20912](https://github.com/truecharts/charts/issues/20912))
 
-- update container image n8nio/n8n to v1.40.0[@d970ae1](https://github.com/d970ae1) by renovate ([#21629](https://github.com/truecharts/charts/issues/21629))
+- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -50,17 +52,17 @@
 
 - update container image n8nio/n8n to v1.37.0[@3fc8238](https://github.com/3fc8238) by renovate ([#20556](https://github.com/truecharts/charts/issues/20556))
 
-- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
+- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image n8nio/n8n to v1.32.2[@166ea81](https://github.com/166ea81) by renovate ([#19322](https://github.com/truecharts/charts/issues/19322))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
-- update container image n8nio/n8n to v1.39.0[@54f226f](https://github.com/54f226f) by renovate ([#21291](https://github.com/truecharts/charts/issues/21291))
+- update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image n8nio/n8n to v1.39.0[@54f226f](https://github.com/54f226f) by renovate ([#21291](https://github.com/truecharts/charts/issues/21291))
 
 - update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
@@ -98,7 +100,7 @@
 
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
-- update container image n8nio/n8n to v1.32.2[@166ea81](https://github.com/166ea81) by renovate ([#19322](https://github.com/truecharts/charts/issues/19322))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

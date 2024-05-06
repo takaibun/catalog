@@ -6,43 +6,45 @@
 
 
 
-- bump charts to release new docs to fix broken links
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
-
 - bump everything to regenerate readme's and site index
+
+- bump charts to release new docs to fix broken links
 
 - bump everything to release new doc pages
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@f3635f7](https://github.com/f3635f7) by renovate ([#21513](https://github.com/truecharts/charts/issues/21513))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image ghcr.io/linuxserver/smokeping to 2.8.2[@52b2b3b](https://github.com/52b2b3b) by renovate ([#20730](https://github.com/truecharts/charts/issues/20730))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@a1ac286](https://github.com/a1ac286) by renovate ([#19247](https://github.com/truecharts/charts/issues/19247))
 
-- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@f3635f7](https://github.com/f3635f7) by renovate ([#21513](https://github.com/truecharts/charts/issues/21513))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image ghcr.io/linuxserver/smokeping to 2.8.2[@c940a2e](https://github.com/c940a2e) by renovate ([#20503](https://github.com/truecharts/charts/issues/20503))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
 - update container image ghcr.io/linuxserver/smokeping to 2.8.2[@9e0e579](https://github.com/9e0e579) by renovate ([#21237](https://github.com/truecharts/charts/issues/21237))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/smokeping to 2.8.2[@dfac5ca](https://github.com/dfac5ca) by renovate ([#20161](https://github.com/truecharts/charts/issues/20161))
 
@@ -64,7 +66,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/linuxserver/smokeping to 2.8.2[@a1ac286](https://github.com/a1ac286) by renovate ([#19247](https://github.com/truecharts/charts/issues/19247))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

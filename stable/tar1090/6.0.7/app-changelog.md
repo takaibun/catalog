@@ -6,7 +6,7 @@
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
 
 - bump common
 
@@ -14,17 +14,17 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image mikenye/tar1090 to latest[@e9cf481](https://github.com/e9cf481) by renovate ([#21545](https://github.com/truecharts/charts/issues/21545))
 
 - update container image mikenye/tar1090 to latest[@85c7cab](https://github.com/85c7cab) by renovate ([#21347](https://github.com/truecharts/charts/issues/21347))
 
@@ -62,7 +62,7 @@
 
 - update container image mikenye/tar1090 to latest[@ed32650](https://github.com/ed32650) by renovate ([#20435](https://github.com/truecharts/charts/issues/20435))
 
-- update container image mikenye/tar1090 to latest[@e9cf481](https://github.com/e9cf481) by renovate ([#21545](https://github.com/truecharts/charts/issues/21545))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image mikenye/tar1090 to latest[@0cf6287](https://github.com/0cf6287) by renovate ([#20374](https://github.com/truecharts/charts/issues/20374))
 
@@ -105,6 +105,8 @@
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image mikenye/tar1090 to latest[@a1075a0](https://github.com/a1075a0) by renovate ([#19275](https://github.com/truecharts/charts/issues/19275))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

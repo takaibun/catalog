@@ -1,6 +1,6 @@
 
 
-## [custom-app-13.0.4](https://github.com/truecharts/charts/compare/custom-app-12.6.0...custom-app-13.0.4) (2024-05-02)
+## [custom-app-13.0.4](https://github.com/truecharts/charts/compare/custom-app-12.6.0...custom-app-13.0.4) (2024-05-06)
 
 ### Chore
 
@@ -19,6 +19,8 @@
 - bump everything to regenerate readme's and site index
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

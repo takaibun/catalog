@@ -6,7 +6,7 @@
 
 
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump common
 
@@ -16,23 +16,23 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump charts to ensure new icons are released
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@f2c33e8](https://github.com/f2c33e8) by renovate ([#20504](https://github.com/truecharts/charts/issues/20504))
 
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@0020021](https://github.com/0020021) by renovate ([#21221](https://github.com/truecharts/charts/issues/21221))
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@6120e50](https://github.com/6120e50) by renovate ([#21238](https://github.com/truecharts/charts/issues/21238))
 
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@8b37cc5](https://github.com/8b37cc5) by renovate ([#21372](https://github.com/truecharts/charts/issues/21372))
-
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@3df28ef](https://github.com/3df28ef) by renovate ([#21359](https://github.com/truecharts/charts/issues/21359))
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@1a2c9c8](https://github.com/1a2c9c8) by renovate ([#20384](https://github.com/truecharts/charts/issues/20384))
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@686512f](https://github.com/686512f) by renovate ([#21344](https://github.com/truecharts/charts/issues/21344))
 
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@6120e50](https://github.com/6120e50) by renovate ([#21238](https://github.com/truecharts/charts/issues/21238))
-
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@e8ffbb6](https://github.com/e8ffbb6) by renovate ([#20340](https://github.com/truecharts/charts/issues/20340))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@0020021](https://github.com/0020021) by renovate ([#21221](https://github.com/truecharts/charts/issues/21221))
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@ab43c8c](https://github.com/ab43c8c) by renovate ([#21186](https://github.com/truecharts/charts/issues/21186))
 
@@ -58,7 +58,7 @@
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@8e90b12](https://github.com/8e90b12) by renovate ([#20761](https://github.com/truecharts/charts/issues/20761))
 
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@02e1074](https://github.com/02e1074) by renovate ([#20296](https://github.com/truecharts/charts/issues/20296))
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@06ec0b6](https://github.com/06ec0b6) by renovate ([#20681](https://github.com/truecharts/charts/issues/20681))
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@3c5dee4](https://github.com/3c5dee4) by renovate ([#20633](https://github.com/truecharts/charts/issues/20633))
 
@@ -68,7 +68,7 @@
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@02e1074](https://github.com/02e1074) by renovate ([#20296](https://github.com/truecharts/charts/issues/20296))
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@ec278d9](https://github.com/ec278d9) by renovate ([#21521](https://github.com/truecharts/charts/issues/21521))
 
@@ -76,11 +76,11 @@
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@1a2c9c8](https://github.com/1a2c9c8) by renovate ([#20384](https://github.com/truecharts/charts/issues/20384))
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@3df28ef](https://github.com/3df28ef) by renovate ([#21359](https://github.com/truecharts/charts/issues/21359))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/mintplex-labs/anything-llm to latest[@8b37cc5](https://github.com/8b37cc5) by renovate ([#21372](https://github.com/truecharts/charts/issues/21372))
 
-- update container image ghcr.io/mintplex-labs/anything-llm to latest[@06ec0b6](https://github.com/06ec0b6) by renovate ([#20681](https://github.com/truecharts/charts/issues/20681))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@94edb23](https://github.com/94edb23) by renovate ([#20277](https://github.com/truecharts/charts/issues/20277))
 
@@ -133,6 +133,8 @@
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/mintplex-labs/anything-llm to latest[@673cc34](https://github.com/673cc34) by renovate ([#19252](https://github.com/truecharts/charts/issues/19252))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

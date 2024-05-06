@@ -1,12 +1,12 @@
 
 
-## [fleet-13.1.0](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-13.1.0) (2024-05-05)
+## [fleet-13.1.0](https://github.com/truecharts/charts/compare/fleet-12.9.0...fleet-13.1.0) (2024-05-06)
 
 ### Chore
 
 
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump common
 
@@ -16,15 +16,15 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
-- update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
+- bump charts to ensure new icons are released
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/fleet to 2.3.3[@5e2b90d](https://github.com/5e2b90d) by renovate ([#20268](https://github.com/truecharts/charts/issues/20268))
+
+- update container image ghcr.io/linuxserver/fleet to 2.3.3[@5b74e36](https://github.com/5b74e36) by renovate ([#21386](https://github.com/truecharts/charts/issues/21386))
 
 - update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
 
@@ -58,19 +58,19 @@
 
 - update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
 
-- update container image mariadb to v14.0.6[@e327d57](https://github.com/e327d57) by renovate ([#21640](https://github.com/truecharts/charts/issues/21640))
+- update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
+- update container image mariadb to v14.0.6[@e327d57](https://github.com/e327d57) by renovate ([#21640](https://github.com/truecharts/charts/issues/21640))
 
 - update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
-- update container image ghcr.io/linuxserver/fleet to 2.3.3[@5b74e36](https://github.com/5b74e36) by renovate ([#21386](https://github.com/truecharts/charts/issues/21386))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image mariadb to v13.8.1[@2f26ade](https://github.com/2f26ade) by renovate ([#20313](https://github.com/truecharts/charts/issues/20313))
 
-- update container image ghcr.io/linuxserver/fleet to 2.3.3[@5e2b90d](https://github.com/5e2b90d) by renovate ([#20268](https://github.com/truecharts/charts/issues/20268))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image mariadb to v13.8.0[@3e48b89](https://github.com/3e48b89) by renovate ([#20156](https://github.com/truecharts/charts/issues/20156))
 
@@ -115,6 +115,8 @@
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 - update container image ghcr.io/linuxserver/fleet to 2.3.3[@5b82faa](https://github.com/5b82faa) by renovate ([#19236](https://github.com/truecharts/charts/issues/19236))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

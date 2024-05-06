@@ -6,43 +6,45 @@
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@8301315](https://github.com/8301315) by renovate ([#20421](https://github.com/truecharts/charts/issues/20421))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@4de7d45](https://github.com/4de7d45) by renovate ([#21023](https://github.com/truecharts/charts/issues/21023))
 
 - update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@22e3fc5](https://github.com/22e3fc5) by renovate ([#20890](https://github.com/truecharts/charts/issues/20890))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@236fe0e](https://github.com/236fe0e) by renovate ([#21517](https://github.com/truecharts/charts/issues/21517))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@4291fa5](https://github.com/4291fa5) by renovate ([#19249](https://github.com/truecharts/charts/issues/19249))
 
-- update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@236fe0e](https://github.com/236fe0e) by renovate ([#21517](https://github.com/truecharts/charts/issues/21517))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@8301315](https://github.com/8301315) by renovate ([#20421](https://github.com/truecharts/charts/issues/20421))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@72e0f08](https://github.com/72e0f08) by renovate ([#20162](https://github.com/truecharts/charts/issues/20162))
 
@@ -64,7 +66,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/linuxserver/ubooquity to 2.1.2[@4291fa5](https://github.com/4291fa5) by renovate ([#19249](https://github.com/truecharts/charts/issues/19249))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

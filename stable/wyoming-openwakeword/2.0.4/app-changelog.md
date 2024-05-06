@@ -1,32 +1,32 @@
 
 
-## [wyoming-openwakeword-2.0.4](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-2.0.4) (2024-05-02)
+## [wyoming-openwakeword-2.0.4](https://github.com/truecharts/charts/compare/wyoming-openwakeword-0.1.2...wyoming-openwakeword-2.0.4) (2024-05-06)
 
 ### Chore
 
 
 
-- bump charts to ensure new icons are released
-
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to regenerate readme's and site index
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
+- bump common
+
+- bump charts to ensure new icons are released
+
 - bump everything to release new doc pages
 
-- bump common
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -39,6 +39,8 @@
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

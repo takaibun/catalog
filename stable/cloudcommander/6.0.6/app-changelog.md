@@ -6,27 +6,29 @@
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image coderaiser/cloudcmd to latest[@faf36ba](https://github.com/faf36ba) by renovate ([#19958](https://github.com/truecharts/charts/issues/19958))
 
-- update container image coderaiser/cloudcmd to latest[@70fea30](https://github.com/70fea30) by renovate ([#19949](https://github.com/truecharts/charts/issues/19949))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image coderaiser/cloudcmd to latest[@2c05c4f](https://github.com/2c05c4f) by renovate ([#20883](https://github.com/truecharts/charts/issues/20883))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image coderaiser/cloudcmd to latest[@05cb23c](https://github.com/05cb23c) by renovate ([#21668](https://github.com/truecharts/charts/issues/21668))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -36,17 +38,17 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image coderaiser/cloudcmd to latest[@2b5301f](https://github.com/2b5301f) by renovate ([#19219](https://github.com/truecharts/charts/issues/19219))
 
-- update container image coderaiser/cloudcmd to latest[@05cb23c](https://github.com/05cb23c) by renovate ([#21668](https://github.com/truecharts/charts/issues/21668))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image coderaiser/cloudcmd to latest[@13cc226](https://github.com/13cc226) by renovate ([#20177](https://github.com/truecharts/charts/issues/20177))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image coderaiser/cloudcmd to latest[@faf36ba](https://github.com/faf36ba) by renovate ([#19958](https://github.com/truecharts/charts/issues/19958))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image coderaiser/cloudcmd to latest[@70fea30](https://github.com/70fea30) by renovate ([#19949](https://github.com/truecharts/charts/issues/19949))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -72,7 +74,7 @@
 
 - update container image coderaiser/cloudcmd to latest[@3188455](https://github.com/3188455) by renovate ([#19350](https://github.com/truecharts/charts/issues/19350))
 
-- update container image coderaiser/cloudcmd to latest[@2b5301f](https://github.com/2b5301f) by renovate ([#19219](https://github.com/truecharts/charts/issues/19219))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

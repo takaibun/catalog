@@ -10,19 +10,19 @@
 
 - bump charts to ensure new icons are released
 
+- bump everything to regenerate readme's and site index
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
-
-- bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- update container image ghcr.io/linuxserver/lazylibrarian to latest[@393b864](https://github.com/393b864) by renovate ([#20729](https://github.com/truecharts/charts/issues/20729))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image ghcr.io/linuxserver/lazylibrarian to latest[@f9eacb3](https://github.com/f9eacb3) by renovate ([#20522](https://github.com/truecharts/charts/issues/20522))
 
 - update container image ghcr.io/linuxserver/lazylibrarian to latest[@02b7d7b](https://github.com/02b7d7b) by renovate ([#21342](https://github.com/truecharts/charts/issues/21342))
 
@@ -30,25 +30,27 @@
 
 - update container image ghcr.io/linuxserver/lazylibrarian to latest[@c093e47](https://github.com/c093e47) by renovate ([#21401](https://github.com/truecharts/charts/issues/21401))
 
+- update container image ghcr.io/linuxserver/lazylibrarian to latest[@3e7c8f1](https://github.com/3e7c8f1) by renovate ([#21500](https://github.com/truecharts/charts/issues/21500))
+
 - update container image ghcr.io/linuxserver/lazylibrarian to latest[@8f8e5c8](https://github.com/8f8e5c8) by renovate ([#21092](https://github.com/truecharts/charts/issues/21092))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image ghcr.io/linuxserver/lazylibrarian to latest[@8a468a8](https://github.com/8a468a8) by renovate ([#20966](https://github.com/truecharts/charts/issues/20966))
 
-- update container image ghcr.io/linuxserver/lazylibrarian to latest[@3e7c8f1](https://github.com/3e7c8f1) by renovate ([#21500](https://github.com/truecharts/charts/issues/21500))
-
 - update container image ghcr.io/linuxserver/lazylibrarian to latest[@473beb1](https://github.com/473beb1) by renovate ([#21672](https://github.com/truecharts/charts/issues/21672))
 
-- update container image ghcr.io/linuxserver/lazylibrarian to latest[@393b864](https://github.com/393b864) by renovate ([#20729](https://github.com/truecharts/charts/issues/20729))
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image ghcr.io/linuxserver/lazylibrarian to latest[@90d296d](https://github.com/90d296d) by renovate ([#21162](https://github.com/truecharts/charts/issues/21162))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image ghcr.io/linuxserver/lazylibrarian to latest[@f9eacb3](https://github.com/f9eacb3) by renovate ([#20522](https://github.com/truecharts/charts/issues/20522))
+- update container image ghcr.io/linuxserver/lazylibrarian to latest[@90d296d](https://github.com/90d296d) by renovate ([#21162](https://github.com/truecharts/charts/issues/21162))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -74,7 +76,7 @@
 
 - update container image ghcr.io/linuxserver/lazylibrarian to latest[@4d7743b](https://github.com/4d7743b) by renovate ([#19383](https://github.com/truecharts/charts/issues/19383))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

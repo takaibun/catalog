@@ -1,36 +1,38 @@
 
 
-## [dns-doh-companion-6.0.5](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-6.0.5) (2024-05-02)
+## [dns-doh-companion-6.0.5](https://github.com/truecharts/charts/compare/dns-doh-companion-5.6.0...dns-doh-companion-6.0.5) (2024-05-06)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
-
-- bump common
+- bump charts to release new docs to fix broken links
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
+- bump common
+
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image testdasi/simple-dns-doh to latest[@86ada09](https://github.com/86ada09) by renovate ([#20547](https://github.com/truecharts/charts/issues/20547))
+- update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image testdasi/simple-dns-doh to latest[@651e96c](https://github.com/651e96c) by renovate ([#21224](https://github.com/truecharts/charts/issues/21224))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image testdasi/simple-dns-doh to latest[@86ada09](https://github.com/86ada09) by renovate ([#20547](https://github.com/truecharts/charts/issues/20547))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -38,13 +40,13 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image testdasi/simple-dns-doh to latest[@5e1d672](https://github.com/5e1d672) by renovate ([#20106](https://github.com/truecharts/charts/issues/20106))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image testdasi/simple-dns-doh to latest[@9f65869](https://github.com/9f65869) by renovate ([#19924](https://github.com/truecharts/charts/issues/19924))
+- update container image testdasi/simple-dns-doh to latest[@651e96c](https://github.com/651e96c) by renovate ([#21224](https://github.com/truecharts/charts/issues/21224))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -56,7 +58,7 @@
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

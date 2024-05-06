@@ -1,12 +1,12 @@
 
 
-## [humhub-8.2.0](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-8.2.0) (2024-05-05)
+## [humhub-8.2.0](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-8.2.0) (2024-05-06)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
 
 - bump common
 
@@ -14,19 +14,19 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
-- update container image mariadb to v13.9.20[@1767fe3](https://github.com/1767fe3) by renovate ([#21389](https://github.com/truecharts/charts/issues/21389))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
+- update container image mariadb to v13.9.20[@1767fe3](https://github.com/1767fe3) by renovate ([#21389](https://github.com/truecharts/charts/issues/21389))
 
 - update container image mariadb to v13.9.18[@c5a61ea](https://github.com/c5a61ea) by renovate ([#21200](https://github.com/truecharts/charts/issues/21200))
 
@@ -74,7 +74,7 @@
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -125,6 +125,8 @@
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

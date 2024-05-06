@@ -1,16 +1,16 @@
 
 
-## [yourls-6.0.4](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-6.0.4) (2024-05-02)
+## [yourls-6.0.4](https://github.com/truecharts/charts/compare/yourls-5.6.0...yourls-6.0.4) (2024-05-06)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump common
+- bump everything to release new doc pages
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -18,13 +18,15 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image yourls to latest[@0a00dda](https://github.com/0a00dda) by renovate ([#20589](https://github.com/truecharts/charts/issues/20589))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image yourls to latest[@cf1b1aa](https://github.com/cf1b1aa) by renovate ([#20549](https://github.com/truecharts/charts/issues/20549))
 
 - update container image yourls to latest[@1da0857](https://github.com/1da0857) by renovate ([#21287](https://github.com/truecharts/charts/issues/21287))
+
+- update container image yourls to latest[@895cb7e](https://github.com/895cb7e) by renovate ([#21307](https://github.com/truecharts/charts/issues/21307))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
@@ -32,7 +34,7 @@
 
 - update container image yourls to latest[@fff2fd2](https://github.com/fff2fd2) by renovate ([#21030](https://github.com/truecharts/charts/issues/21030))
 
-- update container image yourls to latest[@895cb7e](https://github.com/895cb7e) by renovate ([#21307](https://github.com/truecharts/charts/issues/21307))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -40,17 +42,17 @@
 
 - update container image yourls to latest[@9b2ee2c](https://github.com/9b2ee2c) by renovate ([#20629](https://github.com/truecharts/charts/issues/20629))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image yourls to latest[@ab635e5](https://github.com/ab635e5) by renovate ([#19295](https://github.com/truecharts/charts/issues/19295))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image yourls to latest[@0a00dda](https://github.com/0a00dda) by renovate ([#20589](https://github.com/truecharts/charts/issues/20589))
 
 - update container image yourls to latest[@14692e2](https://github.com/14692e2) by renovate ([#20580](https://github.com/truecharts/charts/issues/20580))
 
 - update container image yourls to latest[@f361065](https://github.com/f361065) by renovate ([#20559](https://github.com/truecharts/charts/issues/20559))
 
-- update container image yourls to latest[@cf1b1aa](https://github.com/cf1b1aa) by renovate ([#20549](https://github.com/truecharts/charts/issues/20549))
-
 - update container image yourls to latest[@7a76385](https://github.com/7a76385) by renovate ([#21268](https://github.com/truecharts/charts/issues/21268))
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image yourls to latest[@9dd4ab3](https://github.com/9dd4ab3) by renovate ([#20476](https://github.com/truecharts/charts/issues/20476))
 
@@ -76,7 +78,7 @@
 
 - update container image yourls to latest[@6b88ffa](https://github.com/6b88ffa) by renovate ([#19359](https://github.com/truecharts/charts/issues/19359))
 
-- update container image yourls to latest[@ab635e5](https://github.com/ab635e5) by renovate ([#19295](https://github.com/truecharts/charts/issues/19295))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

@@ -1,12 +1,12 @@
 
 
-## [gitea-19.1.0](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-19.1.0) (2024-05-05)
+## [gitea-19.1.0](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-19.1.0) (2024-05-06)
 
 ### Chore
 
 
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump common
 
@@ -16,9 +16,9 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump charts to ensure new icons are released
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -105,6 +105,8 @@
 - update container image gitea/gitea to v1.21.8[@e7ee046](https://github.com/e7ee046) by renovate ([#19311](https://github.com/truecharts/charts/issues/19311))
 
 - update container image memcached to v12.6.4[@23b2892](https://github.com/23b2892) by renovate ([#19319](https://github.com/truecharts/charts/issues/19319))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

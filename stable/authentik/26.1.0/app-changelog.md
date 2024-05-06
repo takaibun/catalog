@@ -6,27 +6,29 @@
 
 
 
-- bump charts to release new docs to fix broken links
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
-
 - update docs links
 
 - bump everything to regenerate readme's and site index
 
+- bump charts to release new docs to fix broken links
+
 - bump everything to release new doc pages
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- update container image ghcr.io/maxmind/geoipupdate to v7.0.1[@80c5759](https://github.com/80c5759) by renovate ([#20457](https://github.com/truecharts/charts/issues/20457))
 
-- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
-
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update authentik to v2024.4.1[@6640ffc](https://github.com/6640ffc) by renovate (patch) ([#21415](https://github.com/truecharts/charts/issues/21415))
 
 - update container image redis to v13.3.11[@778c5c5](https://github.com/778c5c5) by renovate ([#21070](https://github.com/truecharts/charts/issues/21070))
 
@@ -34,15 +36,15 @@
 
 - update authentik to v2024.2.3[@848759f](https://github.com/848759f) by renovate (patch) ([#20901](https://github.com/truecharts/charts/issues/20901))
 
-- update authentik to v2024.4.1[@6640ffc](https://github.com/6640ffc) by renovate (patch) ([#21415](https://github.com/truecharts/charts/issues/21415))
+- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
 
-- update container image ghcr.io/maxmind/geoipupdate to v7.0.1[@80c5759](https://github.com/80c5759) by renovate ([#20457](https://github.com/truecharts/charts/issues/20457))
-
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
 
@@ -50,7 +52,7 @@
 
 - update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update authentik to v2024.4.0[@085f236](https://github.com/085f236) by renovate (minor) ([#21290](https://github.com/truecharts/charts/issues/21290))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -60,13 +62,13 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
+- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update authentik to v2024.4.0[@085f236](https://github.com/085f236) by renovate (minor) ([#21290](https://github.com/truecharts/charts/issues/21290))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -76,9 +78,9 @@
 
 - update container image redis to v13.2.2[@0ea5f1a](https://github.com/0ea5f1a) by renovate ([#19365](https://github.com/truecharts/charts/issues/19365))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
-
 - make links relative
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 - Fix broken links for Starlight ([#20737](https://github.com/truecharts/charts/issues/20737))
 

@@ -12,6 +12,8 @@
 
 - update ignored by renovate (patch) ([#21597](https://github.com/truecharts/charts/issues/21597))
 
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
+
 ### Feat
 
 

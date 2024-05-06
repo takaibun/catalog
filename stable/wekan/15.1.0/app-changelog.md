@@ -6,23 +6,25 @@
 
 
 
-- bump charts to release new docs to fix broken links
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
-
 - bump everything to regenerate readme's and site index
+
+- bump charts to release new docs to fix broken links
 
 - bump everything to release new doc pages
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))
+- update container image mongodb to v12.7.8[@567a54c](https://github.com/567a54c) by renovate ([#20261](https://github.com/truecharts/charts/issues/20261))
 
-- update container image wekanteam/wekan to v7.42[@770951a](https://github.com/770951a) by renovate ([#20170](https://github.com/truecharts/charts/issues/20170))
+- update container image wekanteam/wekan to v7.44[@6401940](https://github.com/6401940) by renovate ([#21391](https://github.com/truecharts/charts/issues/21391))
 
 - update container image mongodb to v12.8.8[@2414635](https://github.com/2414635) by renovate ([#20869](https://github.com/truecharts/charts/issues/20869))
 
@@ -30,7 +32,7 @@
 
 - update container image wekanteam/wekan to v7.43[@9db9f54](https://github.com/9db9f54) by renovate ([#20934](https://github.com/truecharts/charts/issues/20934))
 
-- update container image wekanteam/wekan to v7.44[@6401940](https://github.com/6401940) by renovate ([#21391](https://github.com/truecharts/charts/issues/21391))
+- update container image wekanteam/wekan to v7.45[@461deec](https://github.com/461deec) by renovate ([#21692](https://github.com/truecharts/charts/issues/21692))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -48,17 +50,17 @@
 
 - update container image mongodb to v12.8.2[@ea28b28](https://github.com/ea28b28) by renovate ([#20496](https://github.com/truecharts/charts/issues/20496))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
 
-- update container image wekanteam/wekan to v7.45[@461deec](https://github.com/461deec) by renovate ([#21692](https://github.com/truecharts/charts/issues/21692))
+- update container image mongodb to v12.8.0[@a9c8425](https://github.com/a9c8425) by renovate ([#19428](https://github.com/truecharts/charts/issues/19428))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image mongodb to v12.7.9[@2512c16](https://github.com/2512c16) by renovate ([#20305](https://github.com/truecharts/charts/issues/20305))
 
-- update container image mongodb to v12.7.8[@567a54c](https://github.com/567a54c) by renovate ([#20261](https://github.com/truecharts/charts/issues/20261))
-
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image wekanteam/wekan to v7.42[@770951a](https://github.com/770951a) by renovate ([#20170](https://github.com/truecharts/charts/issues/20170))
 
 - update container image mongodb to v12.7.7[@a2a85de](https://github.com/a2a85de) by renovate ([#20085](https://github.com/truecharts/charts/issues/20085))
 
@@ -94,7 +96,7 @@
 
 - update container image wekanteam/wekan to v7.39[@dd6c527](https://github.com/dd6c527) by renovate ([#19366](https://github.com/truecharts/charts/issues/19366))
 
-- update container image mongodb to v12.5.4[@82d3dea](https://github.com/82d3dea) by renovate ([#19321](https://github.com/truecharts/charts/issues/19321))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

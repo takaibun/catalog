@@ -6,43 +6,45 @@
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump everything to release new doc pages
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
-- update container image ghcr.io/linuxserver/grocy to 4.2.0[@12c6c0e](https://github.com/12c6c0e) by renovate ([#20360](https://github.com/truecharts/charts/issues/20360))
+- update container image ghcr.io/linuxserver/grocy to 4.2.0[@cfc57a5](https://github.com/cfc57a5) by renovate ([#21112](https://github.com/truecharts/charts/issues/21112))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/grocy to 4.2.0[@5b57f17](https://github.com/5b57f17) by renovate ([#21499](https://github.com/truecharts/charts/issues/21499))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image ghcr.io/linuxserver/grocy to 4.2.0[@0b8e4db](https://github.com/0b8e4db) by renovate ([#20751](https://github.com/truecharts/charts/issues/20751))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image ghcr.io/linuxserver/grocy to v4.2.0[@fa48490](https://github.com/fa48490) by renovate ([#19341](https://github.com/truecharts/charts/issues/19341))
 
-- update container image ghcr.io/linuxserver/grocy to 4.2.0[@5b57f17](https://github.com/5b57f17) by renovate ([#21499](https://github.com/truecharts/charts/issues/21499))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image ghcr.io/linuxserver/grocy to 4.2.0[@cfc57a5](https://github.com/cfc57a5) by renovate ([#21112](https://github.com/truecharts/charts/issues/21112))
+- update container image ghcr.io/linuxserver/grocy to 4.2.0[@12c6c0e](https://github.com/12c6c0e) by renovate ([#20360](https://github.com/truecharts/charts/issues/20360))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -60,7 +62,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image ghcr.io/linuxserver/grocy to v4.2.0[@fa48490](https://github.com/fa48490) by renovate ([#19341](https://github.com/truecharts/charts/issues/19341))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

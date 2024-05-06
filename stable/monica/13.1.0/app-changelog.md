@@ -1,12 +1,12 @@
 
 
-## [monica-13.1.0](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-13.1.0) (2024-05-05)
+## [monica-13.1.0](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-13.1.0) (2024-05-06)
 
 ### Chore
 
 
 
-- bump charts to ensure new icons are released
+- bump everything to regenerate readme's and site index
 
 - bump common
 
@@ -16,17 +16,17 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to regenerate readme's and site index
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump charts to ensure new icons are released
 
 - update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
 
 - update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
-- update container image monica to 4.0.0[@f5d1b08](https://github.com/f5d1b08) by renovate ([#21300](https://github.com/truecharts/charts/issues/21300))
-
 - update container image monica to 4.0.0[@70c14b8](https://github.com/70c14b8) by renovate ([#21265](https://github.com/truecharts/charts/issues/21265))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
 
@@ -66,7 +66,7 @@
 
 - update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image monica to 4.0.0[@f5d1b08](https://github.com/f5d1b08) by renovate ([#21300](https://github.com/truecharts/charts/issues/21300))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -111,6 +111,8 @@
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
 
 - update container image monica to 4.0.0[@807b737](https://github.com/807b737) by renovate ([#19276](https://github.com/truecharts/charts/issues/19276))
+
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

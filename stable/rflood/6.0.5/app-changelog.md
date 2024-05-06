@@ -8,11 +8,11 @@
 
 - bump everything to release new doc pages
 
+- bump charts to ensure new icons are released
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
-
-- bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
@@ -20,11 +20,11 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image ghcr.io/hotio/rflood to latest[@eefe637](https://github.com/eefe637) by renovate ([#21048](https://github.com/truecharts/charts/issues/21048))
+- update container image ghcr.io/hotio/rflood to latest[@5a7148c](https://github.com/5a7148c) by renovate ([#20995](https://github.com/truecharts/charts/issues/20995))
 
-- update container image ghcr.io/hotio/rflood to latest[@ef2655c](https://github.com/ef2655c) by renovate ([#20750](https://github.com/truecharts/charts/issues/20750))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image ghcr.io/hotio/rflood to latest[@9630b77](https://github.com/9630b77) by renovate ([#21207](https://github.com/truecharts/charts/issues/21207))
+- update container image ghcr.io/hotio/rflood to latest[@ab18eb4](https://github.com/ab18eb4) by renovate ([#21160](https://github.com/truecharts/charts/issues/21160))
 
 - update container image ghcr.io/hotio/rflood to latest[@1bbfbe5](https://github.com/1bbfbe5) by renovate ([#21323](https://github.com/truecharts/charts/issues/21323))
 
@@ -32,23 +32,25 @@
 
 - update container image ghcr.io/hotio/rflood to latest[@41e7782](https://github.com/41e7782) by renovate ([#21370](https://github.com/truecharts/charts/issues/21370))
 
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
 - update container image ghcr.io/hotio/rflood to latest[@c311804](https://github.com/c311804) by renovate ([#21101](https://github.com/truecharts/charts/issues/21101))
 
 - update container image ghcr.io/hotio/rflood to latest[@5726abe](https://github.com/5726abe) by renovate ([#21063](https://github.com/truecharts/charts/issues/21063))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
+- update container image ghcr.io/hotio/rflood to latest[@eefe637](https://github.com/eefe637) by renovate ([#21048](https://github.com/truecharts/charts/issues/21048))
+
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
 - update container image ghcr.io/hotio/rflood to latest[@8e47ec9](https://github.com/8e47ec9) by renovate ([#21486](https://github.com/truecharts/charts/issues/21486))
-
-- update container image ghcr.io/hotio/rflood to latest[@5a7148c](https://github.com/5a7148c) by renovate ([#20995](https://github.com/truecharts/charts/issues/20995))
-
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image ghcr.io/hotio/rflood to latest[@ab18eb4](https://github.com/ab18eb4) by renovate ([#21160](https://github.com/truecharts/charts/issues/21160))
+- update container image ghcr.io/hotio/rflood to latest[@ef2655c](https://github.com/ef2655c) by renovate ([#20750](https://github.com/truecharts/charts/issues/20750))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image ghcr.io/hotio/rflood to latest[@9630b77](https://github.com/9630b77) by renovate ([#21207](https://github.com/truecharts/charts/issues/21207))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -74,7 +76,7 @@
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

@@ -6,7 +6,7 @@
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
 
 - bump common
 
@@ -14,19 +14,19 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2335[@4cd6407](https://github.com/4cd6407) by renovate ([#20529](https://github.com/truecharts/charts/issues/20529))
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2324[@884c5f3](https://github.com/884c5f3) by renovate ([#20409](https://github.com/truecharts/charts/issues/20409))
 
-- update container image ghcr.io/geek-cookbook/jackett to v0.21.2485[@bb57ff0](https://github.com/bb57ff0) by renovate ([#21430](https://github.com/truecharts/charts/issues/21430))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image ghcr.io/geek-cookbook/jackett to v0.21.2476[@1d6b753](https://github.com/1d6b753) by renovate ([#21331](https://github.com/truecharts/charts/issues/21331))
+- update container image ghcr.io/geek-cookbook/jackett to v0.21.2485[@bb57ff0](https://github.com/bb57ff0) by renovate ([#21430](https://github.com/truecharts/charts/issues/21430))
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2446[@f3a20ec](https://github.com/f3a20ec) by renovate ([#21269](https://github.com/truecharts/charts/issues/21269))
 
@@ -70,7 +70,7 @@
 
 - update container image ghcr.io/geek-cookbook/jackett to v0.21.2329[@848d1a1](https://github.com/848d1a1) by renovate ([#20481](https://github.com/truecharts/charts/issues/20481))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/geek-cookbook/jackett to v0.21.2476[@1d6b753](https://github.com/1d6b753) by renovate ([#21331](https://github.com/truecharts/charts/issues/21331))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -112,9 +112,11 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 - *BREAKING CHANGES* switch image to geek-cookbook ([#19700](https://github.com/truecharts/charts/issues/19700))
 

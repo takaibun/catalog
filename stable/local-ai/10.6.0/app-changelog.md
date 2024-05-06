@@ -6,27 +6,29 @@
 
 
 
-- bump charts to release new docs to fix broken links
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump charts to ensure new icons are released
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to ensure new icons are released
-
 - bump everything to regenerate readme's and site index
+
+- bump charts to release new docs to fix broken links
 
 - bump everything to release new doc pages
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image docker.io/localai/localai to v2.12.1 by renovate ([#20490](https://github.com/truecharts/charts/issues/20490))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image docker.io/localai/localai to v2.13.0 by renovate ([#21421](https://github.com/truecharts/charts/issues/21421))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image docker.io/localai/localai to v2.13.0 by renovate ([#21421](https://github.com/truecharts/charts/issues/21421))
+- update container image docker.io/localai/localai to v2.14.0 by renovate ([#21605](https://github.com/truecharts/charts/issues/21605))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -40,17 +42,17 @@
 
 - update container image docker.io/localai/localai to v2.12.3[@4fd29a0](https://github.com/4fd29a0) by renovate ([#20540](https://github.com/truecharts/charts/issues/20540))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image docker.io/localai/localai to v2.14.0 by renovate ([#21605](https://github.com/truecharts/charts/issues/21605))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image docker.io/localai/localai to v2.12.3 by renovate ([#20528](https://github.com/truecharts/charts/issues/20528))
 
 - update container image docker.io/localai/localai to v2.12.1[@9000b79](https://github.com/9000b79) by renovate ([#20493](https://github.com/truecharts/charts/issues/20493))
 
-- update container image docker.io/localai/localai to v2.12.1 by renovate ([#20490](https://github.com/truecharts/charts/issues/20490))
-
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -80,7 +82,7 @@
 
 - update container image docker.io/localai/localai to v2.10.0 by renovate ([#19375](https://github.com/truecharts/charts/issues/19375))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

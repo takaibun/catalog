@@ -1,6 +1,6 @@
 
 
-## [redmine-12.0.4](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-12.0.4) (2024-05-02)
+## [redmine-12.0.4](https://github.com/truecharts/charts/compare/redmine-11.6.0...redmine-12.0.4) (2024-05-06)
 
 ### Chore
 
@@ -8,9 +8,9 @@
 
 - bump everything to release new doc pages
 
-- bump common
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -20,11 +20,11 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image redmine to 5.1.2[@743d867](https://github.com/743d867) by renovate ([#20698](https://github.com/truecharts/charts/issues/20698))
+- update container image redmine to 5.1.2[@6fe9dea](https://github.com/6fe9dea) by renovate ([#20775](https://github.com/truecharts/charts/issues/20775))
 
-- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image redmine to 5.1.2[@f3d8f5f](https://github.com/f3d8f5f) by renovate ([#21253](https://github.com/truecharts/charts/issues/21253))
+- update container image redmine to 5.1.2[@0037d07](https://github.com/0037d07) by renovate ([#21242](https://github.com/truecharts/charts/issues/21242))
 
 - update container image redmine to 5.1.2[@1e0140c](https://github.com/1e0140c) by renovate ([#21305](https://github.com/truecharts/charts/issues/21305))
 
@@ -32,25 +32,27 @@
 
 - update container image redmine to 5.1.2[@1eebf4c](https://github.com/1eebf4c) by renovate ([#21351](https://github.com/truecharts/charts/issues/21351))
 
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image redmine to 5.1.2[@b146163](https://github.com/b146163) by renovate ([#20974](https://github.com/truecharts/charts/issues/20974))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image redmine to 5.1.2[@2c0094b](https://github.com/2c0094b) by renovate ([#21410](https://github.com/truecharts/charts/issues/21410))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image redmine to 5.1.2[@6fe9dea](https://github.com/6fe9dea) by renovate ([#20775](https://github.com/truecharts/charts/issues/20775))
+- update container image redmine to 5.1.2[@7bba7e9](https://github.com/7bba7e9) by renovate ([#19281](https://github.com/truecharts/charts/issues/19281))
 
-- update container image redmine to 5.1.2[@2c0094b](https://github.com/2c0094b) by renovate ([#21410](https://github.com/truecharts/charts/issues/21410))
+- update container image redmine to 5.1.2[@743d867](https://github.com/743d867) by renovate ([#20698](https://github.com/truecharts/charts/issues/20698))
 
 - update container image redmine to 5.1.2[@00cba7d](https://github.com/00cba7d) by renovate ([#20666](https://github.com/truecharts/charts/issues/20666))
 
 - update container image redmine to 5.1.2[@59f616b](https://github.com/59f616b) by renovate ([#20618](https://github.com/truecharts/charts/issues/20618))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image redmine to 5.1.2[@f3d8f5f](https://github.com/f3d8f5f) by renovate ([#21253](https://github.com/truecharts/charts/issues/21253))
 
-- update container image redmine to 5.1.2[@0037d07](https://github.com/0037d07) by renovate ([#21242](https://github.com/truecharts/charts/issues/21242))
+- update container image redmine to 5.1.2[@7c2690c](https://github.com/7c2690c) by renovate ([#20579](https://github.com/truecharts/charts/issues/20579))
 
 - update container image redmine to 5.1.2[@d10de45](https://github.com/d10de45) by renovate ([#20558](https://github.com/truecharts/charts/issues/20558))
 
@@ -78,7 +80,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image redmine to 5.1.2[@7bba7e9](https://github.com/7bba7e9) by renovate ([#19281](https://github.com/truecharts/charts/issues/19281))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 
