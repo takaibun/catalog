@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Productivity
+  truecharts.org/category: ai
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 4.4.0
+appVersion: 1.7.1
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Integrated development environment for R, a programming language for statistical computing and graphics.
-home: https://truecharts.org/charts/stable/rstudio
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rstudio.webp
+description: Drag & drop UI to build your customized LLM flow.
+home: https://truecharts.org/charts/stable/flowise
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/flowise.webp
 keywords:
-  - rstudio
-  - Productivity
-kubeVersion: ">=1.24.0-0"
+  - flowise
+  - ai
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rstudio
+name: flowise
 sources:
-  - https://github.com/rocker-org/rocker-versioned2
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rstudio
-  - https://hub.docker.com/r/rocker/rstudio
+  - https://github.com/FlowiseAI/Flowise
+  - https://github.com/truecharts/charts/tree/master/charts/stable/flowise
+  - https://hub.docker.com/r/flowiseai/flowise
 type: application
-version: 7.0.4
+version: 5.1.0
