@@ -1,16 +1,12 @@
 
 
-## [rdesktop-9.0.28](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-9.0.28) (2024-05-06)
+## [rdesktop-9.0.39](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-9.0.39) (2024-05-07)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
@@ -18,19 +14,29 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- bump common
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
+- update container image lscr.io/linuxserver/rdesktop to fedora-openbox[@852aa96](https://github.com/852aa96) by renovate ([#20396](https://github.com/truecharts/charts/issues/20396))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update rdesktop by renovate ([#21413](https://github.com/truecharts/charts/issues/21413))
+
+- update rdesktop by renovate ([#21560](https://github.com/truecharts/charts/issues/21560))
+
+- update rdesktop by renovate ([#21680](https://github.com/truecharts/charts/issues/21680))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update rdesktop by renovate ([#21010](https://github.com/truecharts/charts/issues/21010))
 
-- update rdesktop by renovate ([#21413](https://github.com/truecharts/charts/issues/21413))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -40,17 +46,17 @@
 
 - update rdesktop by renovate ([#20669](https://github.com/truecharts/charts/issues/20669))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update rdesktop by renovate ([#21712](https://github.com/truecharts/charts/issues/21712))
 
-- update rdesktop by renovate ([#21560](https://github.com/truecharts/charts/issues/21560))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image lscr.io/linuxserver/rdesktop to fedora-openbox[@852aa96](https://github.com/852aa96) by renovate ([#20396](https://github.com/truecharts/charts/issues/20396))
-
 - update rdesktop by renovate ([#21143](https://github.com/truecharts/charts/issues/21143))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update rdesktop by renovate ([#20389](https://github.com/truecharts/charts/issues/20389))
 
@@ -80,7 +86,7 @@
 
 - update rdesktop by renovate ([#19387](https://github.com/truecharts/charts/issues/19387))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 
