@@ -1,6 +1,6 @@
 
 
-## [grafana-image-renderer-6.0.5](https://github.com/truecharts/charts/compare/grafana-image-renderer-5.6.0...grafana-image-renderer-6.0.5) (2024-05-06)
+## [grafana-image-renderer-6.0.5](https://github.com/truecharts/charts/compare/grafana-image-renderer-5.6.0...grafana-image-renderer-6.0.5) (2024-05-07)
 
 ### Chore
 
