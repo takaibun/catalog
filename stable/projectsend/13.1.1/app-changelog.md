@@ -1,6 +1,6 @@
 
 
-## [projectsend-13.1.1](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-13.1.1) (2024-05-07)
+## [projectsend-13.1.1](https://github.com/truecharts/charts/compare/projectsend-12.9.0...projectsend-13.1.1) (2024-05-08)
 
 ### Chore
 

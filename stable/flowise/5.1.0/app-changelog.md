@@ -1,6 +1,6 @@
 
 
-## [flowise-5.1.0](https://github.com/truecharts/charts/compare/flowise-4.7.0...flowise-5.1.0) (2024-05-07)
+## [flowise-5.1.0](https://github.com/truecharts/charts/compare/flowise-4.7.0...flowise-5.1.0) (2024-05-08)
 
 ### Chore
 
