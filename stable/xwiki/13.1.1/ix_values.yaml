@@ -1,6 +1,6 @@
 image:
   repository: xwiki
-  tag: 16.2.0-postgres-tomcat@sha256:975fd9cf27bb024a1a9a2bec9ec7126a251dfab1df4e93e38bb70521ac327e40
+  tag: 16.3.0-postgres-tomcat@sha256:ff089b925465a6f58df2dae3f7e1bbd93fa8b4ed59b821787ff86daf1f1085e2
   pullPolicy: IfNotPresent
 service:
   main:

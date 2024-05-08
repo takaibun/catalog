@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: productivity
+  truecharts.org/category: AI
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 16.2.0
+appVersion: latest
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,21 +17,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: XWiki is a free wiki software platform written in Java with a design emphasis on extensibility
-home: https://truecharts.org/charts/stable/xwiki
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/xwiki.webp
+description: Open-source ChatGPT experience for LLMs, embedders, and vector databases.
+home: https://truecharts.org/charts/stable/anything-llm
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/anything-llm.webp
 keywords:
-  - xwiki
-  - wiki
-kubeVersion: ">=1.24.0-0"
+  - anything-llm
+  - ai
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: xwiki
+name: anything-llm
 sources:
-  - https://github.com/xwiki/xwiki-docker
-  - https://github.com/truecharts/charts/tree/master/charts/stable/xwiki
-  - https://hub.docker.com/_/xwiki
+  - https://github.com/Mintplex-Labs/anything-llm
+  - https://github.com/truecharts/charts/tree/master/charts/stable/anything-llm
+  - https://ghcr.io/mintplex-labs/anything-llm
 type: application
-version: 13.0.4
+version: 2.0.8
