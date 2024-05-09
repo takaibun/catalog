@@ -1,6 +1,6 @@
 
 
-## [ubooquity-11.0.6](https://github.com/truecharts/charts/compare/ubooquity-10.6.0...ubooquity-11.0.6) (2024-05-08)
+## [ubooquity-11.0.6](https://github.com/truecharts/charts/compare/ubooquity-10.6.0...ubooquity-11.0.6) (2024-05-09)
 
 ### Chore
 

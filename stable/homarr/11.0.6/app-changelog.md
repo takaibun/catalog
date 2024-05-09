@@ -1,6 +1,6 @@
 
 
-## [homarr-11.0.6](https://github.com/truecharts/charts/compare/homarr-10.6.0...homarr-11.0.6) (2024-05-08)
+## [homarr-11.0.6](https://github.com/truecharts/charts/compare/homarr-10.6.0...homarr-11.0.6) (2024-05-09)
 
 ### Chore
 

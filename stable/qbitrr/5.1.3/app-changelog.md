@@ -1,6 +1,6 @@
 
 
-## [qbitrr-5.1.3](https://github.com/truecharts/charts/compare/qbitrr-4.7.0...qbitrr-5.1.3) (2024-05-08)
+## [qbitrr-5.1.3](https://github.com/truecharts/charts/compare/qbitrr-4.7.0...qbitrr-5.1.3) (2024-05-09)
 
 ### Chore
 

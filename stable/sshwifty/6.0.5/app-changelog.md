@@ -1,6 +1,6 @@
 
 
-## [sshwifty-6.0.5](https://github.com/truecharts/charts/compare/sshwifty-5.6.0...sshwifty-6.0.5) (2024-05-08)
+## [sshwifty-6.0.5](https://github.com/truecharts/charts/compare/sshwifty-5.6.0...sshwifty-6.0.5) (2024-05-09)
 
 ### Chore
 
