@@ -1,12 +1,12 @@
 
 
-## [prometheus-18.1.2](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-18.1.2) (2024-05-09)
+## [prometheus-18.2.1](https://github.com/truecharts/charts/compare/prometheus-17.10.0...prometheus-18.2.1) (2024-05-09)
 
 ### Chore
 
 
 
-- bump common
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
 
@@ -18,31 +18,35 @@
 
 - bump everything to release new doc pages
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump common
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
+- update container image bitnami/prometheus to 2.51.2[@7326dfc](https://github.com/7326dfc) by renovate ([#21478](https://github.com/truecharts/charts/issues/21478))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
 - update container image bitnami/prometheus to 2.51.2[@025852a](https://github.com/025852a) by renovate ([#21234](https://github.com/truecharts/charts/issues/21234))
 
 - update container image bitnami/alertmanager to 0.27.0[@4698b7d](https://github.com/4698b7d) by renovate ([#21214](https://github.com/truecharts/charts/issues/21214))
-
-- update container image bitnami/alertmanager to 0.27.0[@b81c92c](https://github.com/b81c92c) by renovate ([#21472](https://github.com/truecharts/charts/issues/21472))
-
-- update container image bitnami/prometheus to 2.51.2[@7326dfc](https://github.com/7326dfc) by renovate ([#21478](https://github.com/truecharts/charts/issues/21478))
 
 - update container image quay.io/thanos/thanos to v0.35.0[@fa1d287](https://github.com/fa1d287) by renovate ([#21661](https://github.com/truecharts/charts/issues/21661))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image bitnami/alertmanager to 0.27.0[@69daa81](https://github.com/69daa81) by renovate ([#21750](https://github.com/truecharts/charts/issues/21750))
+
+- update container image bitnami/prometheus to 2.51.2[@efb98bc](https://github.com/efb98bc) by renovate ([#21758](https://github.com/truecharts/charts/issues/21758))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image bitnami/alertmanager to 0.27.0[@69daa81](https://github.com/69daa81) by renovate ([#21750](https://github.com/truecharts/charts/issues/21750))
+- update container image bitnami/prometheus to v2.52.0[@9420cf6](https://github.com/9420cf6) by renovate ([#21809](https://github.com/truecharts/charts/issues/21809))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image bitnami/prometheus to 2.51.2[@efb98bc](https://github.com/efb98bc) by renovate ([#21758](https://github.com/truecharts/charts/issues/21758))
+- update container image bitnami/alertmanager to 0.27.0[@be756c5](https://github.com/be756c5) by renovate ([#21812](https://github.com/truecharts/charts/issues/21812))
 
 - update container image bitnami/prometheus to v2.51.2[@2b3a2a7](https://github.com/2b3a2a7) by renovate ([#20560](https://github.com/truecharts/charts/issues/20560))
 
@@ -50,7 +54,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image bitnami/alertmanager to 0.27.0[@b81c92c](https://github.com/b81c92c) by renovate ([#21472](https://github.com/truecharts/charts/issues/21472))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
