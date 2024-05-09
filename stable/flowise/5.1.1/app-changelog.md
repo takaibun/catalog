@@ -1,48 +1,52 @@
 
 
-## [flowise-5.0.5](https://github.com/truecharts/charts/compare/flowise-4.7.0...flowise-5.0.5) (2024-05-06)
+## [flowise-5.1.1](https://github.com/truecharts/charts/compare/flowise-4.7.0...flowise-5.1.1) (2024-05-09)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
 
 - bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- bump common
 
-- update container image flowiseai/flowise to v1.6.4[@54b4614](https://github.com/54b4614) by renovate ([#20480](https://github.com/truecharts/charts/issues/20480))
-
-- update container image flowiseai/flowise to v1.6.6[@0454223](https://github.com/0454223) by renovate ([#21362](https://github.com/truecharts/charts/issues/21362))
-
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
-
-- update container image flowiseai/flowise to 1.6.6[@76dad55](https://github.com/76dad55) by renovate ([#21485](https://github.com/truecharts/charts/issues/21485))
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image flowiseai/flowise to v1.6.5[@452d8ac](https://github.com/452d8ac) by renovate ([#20700](https://github.com/truecharts/charts/issues/20700))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+
+- update container image flowiseai/flowise to v1.6.6[@0454223](https://github.com/0454223) by renovate ([#21362](https://github.com/truecharts/charts/issues/21362))
+
+- update container image flowiseai/flowise to 1.6.6[@76dad55](https://github.com/76dad55) by renovate ([#21485](https://github.com/truecharts/charts/issues/21485))
 
 - update container image flowiseai/flowise to v1.6.1[@bfa1116](https://github.com/bfa1116) by renovate ([#19303](https://github.com/truecharts/charts/issues/19303))
 
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image flowiseai/flowise to v1.7.1[@cc93692](https://github.com/cc93692) by renovate ([#21723](https://github.com/truecharts/charts/issues/21723))
+
+- update container image flowiseai/flowise to v1.7.2[@8e38870](https://github.com/8e38870) by renovate ([#21834](https://github.com/truecharts/charts/issues/21834))
+
+- update container image flowiseai/flowise to v1.6.5[@452d8ac](https://github.com/452d8ac) by renovate ([#20700](https://github.com/truecharts/charts/issues/20700))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image flowiseai/flowise to v1.6.4[@54b4614](https://github.com/54b4614) by renovate ([#20480](https://github.com/truecharts/charts/issues/20480))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
