@@ -1,6 +1,6 @@
 
 
-## [wallos-5.0.6](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-5.0.6) (2024-05-07)
+## [wallos-5.0.8](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-5.0.8) (2024-05-09)
 
 ### Chore
 
@@ -12,21 +12,25 @@
 
 - bump everything to regenerate readme's and site index
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image docker.io/bellamy/wallos to latest[@d27a6bd](https://github.com/d27a6bd) by renovate ([#20502](https://github.com/truecharts/charts/issues/20502))
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
-- update container image docker.io/bellamy/wallos to latest[@75793e7](https://github.com/75793e7) by renovate ([#20202](https://github.com/truecharts/charts/issues/20202))
+- bump common
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image docker.io/bellamy/wallos to latest[@620fc04](https://github.com/620fc04) by renovate ([#21400](https://github.com/truecharts/charts/issues/21400))
 
 - update container image docker.io/bellamy/wallos to latest[@6d7b2a9](https://github.com/6d7b2a9) by renovate ([#21669](https://github.com/truecharts/charts/issues/21669))
+
+- update container image docker.io/bellamy/wallos to latest[@79393ca](https://github.com/79393ca) by renovate ([#19223](https://github.com/truecharts/charts/issues/19223))
+
+- update container image docker.io/bellamy/wallos to latest[@c963613](https://github.com/c963613) by renovate ([#21695](https://github.com/truecharts/charts/issues/21695))
 
 - update container image docker.io/bellamy/wallos to latest[@58c8de9](https://github.com/58c8de9) by renovate ([#21074](https://github.com/truecharts/charts/issues/21074))
 
@@ -34,7 +38,7 @@
 
 - update container image docker.io/bellamy/wallos to latest[@440847e](https://github.com/440847e) by renovate ([#21005](https://github.com/truecharts/charts/issues/21005))
 
-- update container image docker.io/bellamy/wallos to latest[@79393ca](https://github.com/79393ca) by renovate ([#19223](https://github.com/truecharts/charts/issues/19223))
+- update container image docker.io/bellamy/wallos to latest[@4633127](https://github.com/4633127) by renovate ([#21725](https://github.com/truecharts/charts/issues/21725))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -42,19 +46,19 @@
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image docker.io/bellamy/wallos to latest[@99279c8](https://github.com/99279c8) by renovate ([#21795](https://github.com/truecharts/charts/issues/21795))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image docker.io/bellamy/wallos to latest[@c963613](https://github.com/c963613) by renovate ([#21695](https://github.com/truecharts/charts/issues/21695))
+- update container image docker.io/bellamy/wallos to latest[@d27a6bd](https://github.com/d27a6bd) by renovate ([#20502](https://github.com/truecharts/charts/issues/20502))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image docker.io/bellamy/wallos to latest[@5517aac](https://github.com/5517aac) by renovate ([#20371](https://github.com/truecharts/charts/issues/20371))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image docker.io/bellamy/wallos to latest[@75793e7](https://github.com/75793e7) by renovate ([#20202](https://github.com/truecharts/charts/issues/20202))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 

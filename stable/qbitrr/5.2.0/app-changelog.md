@@ -1,44 +1,48 @@
 
 
-## [qbitrr-5.1.2](https://github.com/truecharts/charts/compare/qbitrr-4.7.0...qbitrr-5.1.2) (2024-05-08)
+## [qbitrr-5.2.0](https://github.com/truecharts/charts/compare/qbitrr-4.7.0...qbitrr-5.2.0) (2024-05-09)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
+- bump charts to release new docs to fix broken links
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to release new docs to fix broken links
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- bump everything to release new doc pages
-
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image feramance/qbitrr to v4.5.7[@c242717](https://github.com/c242717) by renovate ([#21608](https://github.com/truecharts/charts/issues/21608))
-
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image feramance/qbitrr to v4.5.8[@56df881](https://github.com/56df881) by renovate ([#21729](https://github.com/truecharts/charts/issues/21729))
 
 - update container image feramance/qbitrr to v4.5.12[@555f118](https://github.com/555f118) by renovate ([#21776](https://github.com/truecharts/charts/issues/21776))
 
+- update container image feramance/qbitrr to v4.6.0[@4630d30](https://github.com/4630d30) by renovate ([#21790](https://github.com/truecharts/charts/issues/21790))
+
+- update container image feramance/qbitrr to v4.5.13[@c4c6810](https://github.com/c4c6810) by renovate ([#21788](https://github.com/truecharts/charts/issues/21788))
+
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
