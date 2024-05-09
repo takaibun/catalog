@@ -1,12 +1,12 @@
 
 
-## [gitea-19.1.0](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-19.1.0) (2024-05-06)
+## [gitea-19.1.2](https://github.com/truecharts/charts/compare/gitea-18.11.0...gitea-19.1.2) (2024-05-09)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
+- bump charts to release new docs to fix broken links
 
 - bump common
 
@@ -14,17 +14,21 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump charts to release new docs to fix broken links
-
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image memcached to v12.9.14[@93b1cd1](https://github.com/93b1cd1) by renovate ([#21256](https://github.com/truecharts/charts/issues/21256))
+
+- update container image memcached to v12.9.15[@95b3699](https://github.com/95b3699) by renovate ([#21390](https://github.com/truecharts/charts/issues/21390))
+
+- update container image memcached to v13.0.6[@b00034a](https://github.com/b00034a) by renovate ([#21641](https://github.com/truecharts/charts/issues/21641))
 
 - update container image memcached to v12.9.13[@46c2688](https://github.com/46c2688) by renovate ([#21181](https://github.com/truecharts/charts/issues/21181))
 
@@ -38,7 +42,7 @@
 
 - update container image memcached to v12.9.5[@f4d8dbe](https://github.com/f4d8dbe) by renovate ([#20867](https://github.com/truecharts/charts/issues/20867))
 
-- update container image memcached to v12.9.15[@95b3699](https://github.com/95b3699) by renovate ([#21390](https://github.com/truecharts/charts/issues/21390))
+- update container image memcached to v13.0.7[@e2ad53d](https://github.com/e2ad53d) by renovate ([#21704](https://github.com/truecharts/charts/issues/21704))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -54,7 +58,7 @@
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image memcached to v13.0.6[@b00034a](https://github.com/b00034a) by renovate ([#21641](https://github.com/truecharts/charts/issues/21641))
+- update container image memcached to v13.0.8[@88eba09](https://github.com/88eba09) by renovate ([#21799](https://github.com/truecharts/charts/issues/21799))
 
 - update container image memcached to v12.9.1[@7f662e0](https://github.com/7f662e0) by renovate ([#20495](https://github.com/truecharts/charts/issues/20495))
 
