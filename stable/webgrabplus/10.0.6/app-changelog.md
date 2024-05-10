@@ -1,6 +1,6 @@
 
 
-## [webgrabplus-10.0.6](https://github.com/truecharts/charts/compare/webgrabplus-9.6.0...webgrabplus-10.0.6) (2024-05-09)
+## [webgrabplus-10.0.6](https://github.com/truecharts/charts/compare/webgrabplus-9.6.0...webgrabplus-10.0.6) (2024-05-10)
 
 ### Chore
 

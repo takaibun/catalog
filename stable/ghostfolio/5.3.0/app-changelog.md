@@ -1,6 +1,6 @@
 
 
-## [ghostfolio-5.3.0](https://github.com/truecharts/charts/compare/ghostfolio-4.9.0...ghostfolio-5.3.0) (2024-05-09)
+## [ghostfolio-5.3.0](https://github.com/truecharts/charts/compare/ghostfolio-4.9.0...ghostfolio-5.3.0) (2024-05-10)
 
 ### Chore
 

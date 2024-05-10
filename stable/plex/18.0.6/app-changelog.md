@@ -1,6 +1,6 @@
 
 
-## [plex-18.0.6](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-18.0.6) (2024-05-09)
+## [plex-18.0.6](https://github.com/truecharts/charts/compare/plex-17.6.0...plex-18.0.6) (2024-05-10)
 
 ### Chore
 
