@@ -1,30 +1,36 @@
 
 
-## [docker-7.0.5](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-7.0.5) (2024-05-02)
+## [docker-7.0.7](https://github.com/truecharts/charts/compare/docker-5.6.0...docker-7.0.7) (2024-05-10)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump common
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image docker to v26.0.1[@4b6df28](https://github.com/4b6df28) by renovate ([#20641](https://github.com/truecharts/charts/issues/20641))
 
-- update container image docker to 26.0.0-dind[@557204d](https://github.com/557204d) by renovate ([#20124](https://github.com/truecharts/charts/issues/20124))
+- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
 - update container image docker to 26.1.0-dind[@308c63f](https://github.com/308c63f) by renovate ([#21355](https://github.com/truecharts/charts/issues/21355))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image docker to 26.1.0-dind[@66183ea](https://github.com/66183ea) by renovate ([#21398](https://github.com/truecharts/charts/issues/21398))
+
+- update container image docker to v26.1.1[@56e2c52](https://github.com/56e2c52) by renovate ([#21564](https://github.com/truecharts/charts/issues/21564))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
@@ -32,7 +38,7 @@
 
 - update container image docker to 26.0.1-dind[@12b3a58](https://github.com/12b3a58) by renovate ([#20964](https://github.com/truecharts/charts/issues/20964))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image docker to 25.0.4-dind[@93529df](https://github.com/93529df) by renovate ([#19221](https://github.com/truecharts/charts/issues/19221))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -40,13 +46,13 @@
 
 - update container image docker to 26.0.1-dind[@9fc71aa](https://github.com/9fc71aa) by renovate ([#20646](https://github.com/truecharts/charts/issues/20646))
 
-- update container image docker to v26.0.1[@4b6df28](https://github.com/4b6df28) by renovate ([#20641](https://github.com/truecharts/charts/issues/20641))
+- update container image docker to v26.1.2[@c890c32](https://github.com/c890c32) by renovate ([#21854](https://github.com/truecharts/charts/issues/21854))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image docker to 26.1.0-dind[@66183ea](https://github.com/66183ea) by renovate ([#21398](https://github.com/truecharts/charts/issues/21398))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -54,7 +60,7 @@
 
 - update container image docker to 26.0.0-dind[@7ff986c](https://github.com/7ff986c) by renovate ([#20133](https://github.com/truecharts/charts/issues/20133))
 
-- update container image docker to v26.1.0[@b297701](https://github.com/b297701) by renovate ([#21257](https://github.com/truecharts/charts/issues/21257))
+- update container image docker to 26.0.0-dind[@557204d](https://github.com/557204d) by renovate ([#20124](https://github.com/truecharts/charts/issues/20124))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
@@ -64,7 +70,7 @@
 
 - update container image docker to 26.0.0-dind[@70b8a6b](https://github.com/70b8a6b) by renovate ([#19794](https://github.com/truecharts/charts/issues/19794))
 
-- update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
+- update container image docker to v26.1.0[@b297701](https://github.com/b297701) by renovate ([#21257](https://github.com/truecharts/charts/issues/21257))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
@@ -84,7 +90,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image docker to 25.0.4-dind[@93529df](https://github.com/93529df) by renovate ([#19221](https://github.com/truecharts/charts/issues/19221))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

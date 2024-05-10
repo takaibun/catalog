@@ -1,42 +1,44 @@
 
 
-## [dashy-8.0.7](https://github.com/truecharts/charts/compare/dashy-6.6.0...dashy-8.0.7) (2024-05-06)
+## [minio-12.1.2](https://github.com/truecharts/charts/compare/minio-11.7.0...minio-12.1.2) (2024-05-10)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
+- bump charts to release new docs to fix broken links
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to release new docs to fix broken links
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump everything to release new doc pages
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+- update container image minio/minio to vrelease.2024-05-01t01-11-10z[@f95dc4f](https://github.com/f95dc4f) by renovate ([#20323](https://github.com/truecharts/charts/issues/20323))
 
-- update container image lissy93/dashy to v[@0f045ff](https://github.com/0f045ff) by renovate ([#21538](https://github.com/truecharts/charts/issues/21538))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image lissy93/dashy to v3.0.1[@509ed71](https://github.com/509ed71) by renovate ([#21583](https://github.com/truecharts/charts/issues/21583))
+- update container image minio/minio to vrelease.2024-05-07t06-41-25z[@7274c26](https://github.com/7274c26) by renovate ([#21744](https://github.com/truecharts/charts/issues/21744))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image minio/minio to vrelease.2024-05-10t01-41-38z[@420663b](https://github.com/420663b) by renovate ([#21855](https://github.com/truecharts/charts/issues/21855))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -44,9 +46,7 @@
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image lissy93/dashy to 2.1.2[@3826f73](https://github.com/3826f73) by renovate ([#19865](https://github.com/truecharts/charts/issues/19865))
-
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
@@ -61,6 +61,12 @@
 
 
 - rework SCALE catagories/groups to match helm and remove deprecated charts ([#21111](https://github.com/truecharts/charts/issues/21111))
+
+### Docs
+
+
+
+- fix asides ([#21073](https://github.com/truecharts/charts/issues/21073))
 
 ### Feat
 
