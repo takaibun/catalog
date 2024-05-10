@@ -1,6 +1,6 @@
 
 
-## [dokuwiki-12.0.7](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-12.0.7) (2024-05-09)
+## [dokuwiki-12.0.9](https://github.com/truecharts/charts/compare/dokuwiki-11.2.0...dokuwiki-12.0.9) (2024-05-10)
 
 ### Chore
 
@@ -12,13 +12,13 @@
 
 - bump everything to regenerate readme's and site index
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -28,13 +28,17 @@
 
 - update container image bitnami/dokuwiki to 20240206.1.0[@3291503](https://github.com/3291503) by renovate ([#21473](https://github.com/truecharts/charts/issues/21473))
 
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image bitnami/dokuwiki to 20240206.1.0[@2d152b0](https://github.com/2d152b0) by renovate ([#21781](https://github.com/truecharts/charts/issues/21781))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image bitnami/dokuwiki to 20240206.1.0[@8247f77](https://github.com/8247f77) by renovate ([#21825](https://github.com/truecharts/charts/issues/21825))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image bitnami/dokuwiki to 20240206.1.0[@2d152b0](https://github.com/2d152b0) by renovate ([#21781](https://github.com/truecharts/charts/issues/21781))
+- update container image bitnami/dokuwiki to 20240206.1.0[@1e1bb2a](https://github.com/1e1bb2a) by renovate ([#21857](https://github.com/truecharts/charts/issues/21857))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
