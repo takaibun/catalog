@@ -1,6 +1,6 @@
 image:
   repository: lissy93/dashy
-  tag: 3.0.0@sha256:0f045ffca53b019112db3619be8330a1c1229cdc8e108100d23463fc2813d2ca
+  tag: 3.0.1@sha256:83f3d2e73c7fe546e570a5d0bfb8332635402503563deca1ceb74ff78c5f53e1
   pullPolicy: IfNotPresent
 securityContext:
   container:

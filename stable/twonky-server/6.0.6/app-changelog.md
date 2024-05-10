@@ -1,36 +1,42 @@
 
 
-## [twonky-server-6.0.4](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-6.0.4) (2024-05-02)
+## [twonky-server-6.0.6](https://github.com/truecharts/charts/compare/twonky-server-5.6.0...twonky-server-6.0.6) (2024-05-10)
 
 ### Chore
 
 
 
-- bump everything to regenerate readme's and site index
-
-- bump common
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
-- bump everything to release new doc pages
+- bump everything to regenerate readme's and site index
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
 
 - bump charts to release new docs to fix broken links
 
-- update container image dtjs48jkt/twonkyserver to latest[@cc07591](https://github.com/cc07591) by renovate ([#20627](https://github.com/truecharts/charts/issues/20627))
-
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
-
-- update container image dtjs48jkt/twonkyserver to latest[@938633e](https://github.com/938633e) by renovate ([#20965](https://github.com/truecharts/charts/issues/20965))
-
-- update container image dtjs48jkt/twonkyserver to latest[@42ace75](https://github.com/42ace75) by renovate ([#21357](https://github.com/truecharts/charts/issues/21357))
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
+- update container image dtjs48jkt/twonkyserver to latest[@759dc3e](https://github.com/759dc3e) by renovate ([#21484](https://github.com/truecharts/charts/issues/21484))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image dtjs48jkt/twonkyserver to latest[@938633e](https://github.com/938633e) by renovate ([#20965](https://github.com/truecharts/charts/issues/20965))
+
+- update container image dtjs48jkt/twonkyserver to latest[@fe69332](https://github.com/fe69332) by renovate ([#19225](https://github.com/truecharts/charts/issues/19225))
+
+- update container image dtjs48jkt/twonkyserver to latest[@1d311aa](https://github.com/1d311aa) by renovate ([#21838](https://github.com/truecharts/charts/issues/21838))
+
+- update container image dtjs48jkt/twonkyserver to latest[@cc07591](https://github.com/cc07591) by renovate ([#20627](https://github.com/truecharts/charts/issues/20627))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -38,7 +44,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -46,7 +52,7 @@
 
 - update container image dtjs48jkt/twonkyserver to latest[@7f3e0de](https://github.com/7f3e0de) by renovate ([#19933](https://github.com/truecharts/charts/issues/19933))
 
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+- update container image dtjs48jkt/twonkyserver to latest[@42ace75](https://github.com/42ace75) by renovate ([#21357](https://github.com/truecharts/charts/issues/21357))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
@@ -58,7 +64,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image dtjs48jkt/twonkyserver to latest[@fe69332](https://github.com/fe69332) by renovate ([#19225](https://github.com/truecharts/charts/issues/19225))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

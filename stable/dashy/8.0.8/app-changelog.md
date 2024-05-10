@@ -1,36 +1,40 @@
 
 
-## [icloudpd-7.0.6](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-7.0.6) (2024-05-06)
+## [dashy-8.0.8](https://github.com/truecharts/charts/compare/dashy-6.6.0...dashy-8.0.8) (2024-05-10)
 
 ### Chore
 
 
 
-- bump charts to release new docs to fix broken links
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
+
+- bump charts to release new docs to fix broken links
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump everything to regenerate readme's and site index
-
-- bump everything to release new doc pages
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image lissy93/dashy to 2.1.2[@3826f73](https://github.com/3826f73) by renovate ([#19865](https://github.com/truecharts/charts/issues/19865))
+
+- update container image lissy93/dashy to v[@0f045ff](https://github.com/0f045ff) by renovate ([#21538](https://github.com/truecharts/charts/issues/21538))
+
+- update container image lissy93/dashy to v3.0.1[@509ed71](https://github.com/509ed71) by renovate ([#21583](https://github.com/truecharts/charts/issues/21583))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image boredazfcuk/icloudpd to v1.0.802[@6382f9e](https://github.com/6382f9e) by renovate ([#21644](https://github.com/truecharts/charts/issues/21644))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image boredazfcuk/icloudpd to v1.0.807[@8e8f12b](https://github.com/8e8f12b) by renovate ([#21650](https://github.com/truecharts/charts/issues/21650))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -38,15 +42,11 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
-
-- update container image boredazfcuk/icloudpd to v1.0.733[@266005e](https://github.com/266005e) by renovate ([#20302](https://github.com/truecharts/charts/issues/20302))
-
-- update container image boredazfcuk/icloudpd to v1.0.731[@f289b78](https://github.com/f289b78) by renovate ([#20053](https://github.com/truecharts/charts/issues/20053))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image boredazfcuk/icloudpd to v1.0.730[@08227d1](https://github.com/08227d1) by renovate ([#19888](https://github.com/truecharts/charts/issues/19888))
+- update container image lissy93/dashy to 3.0.1[@83f3d2e](https://github.com/83f3d2e) by renovate ([#21839](https://github.com/truecharts/charts/issues/21839))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
@@ -56,7 +56,7 @@
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 

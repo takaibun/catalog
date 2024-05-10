@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Network-Web
+  truecharts.org/category: dashboard
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: latest
+appVersion: 3.0.1
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,20 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Alternative Imgur front-end
-home: https://truecharts.org/charts/stable/rimgo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
+description: Dashy helps you organize your self-hosted services by making them accessible from a single place
+home: https://truecharts.org/charts/stable/dashy
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/dashy.webp
 keywords:
-  - rimgo
-  - Network-Web
-kubeVersion: ">=1.24.0-0"
+  - dashboard
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rimgo
+name: dashy
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
-  - https://quay.io/pussthecatorg/rimgo
+  - https://github.com/Lissy93/dashy
+  - https://github.com/truecharts/charts/tree/master/charts/stable/dashy
+  - https://hub.docker.com/r/lissy93/dashy
 type: application
-version: 7.0.10
+version: 8.0.8
