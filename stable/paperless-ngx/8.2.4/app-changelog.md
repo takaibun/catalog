@@ -1,12 +1,12 @@
 
 
-## [paperless-ngx-8.2.2](https://github.com/truecharts/charts/compare/paperless-ngx-7.7.0...paperless-ngx-8.2.2) (2024-05-08)
+## [paperless-ngx-8.2.4](https://github.com/truecharts/charts/compare/paperless-ngx-7.7.0...paperless-ngx-8.2.4) (2024-05-10)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
@@ -14,27 +14,31 @@
 
 - bump everything to regenerate readme's and site index
 
+- bump charts to release new docs to fix broken links
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
 
-- bump charts to release new docs to fix broken links
+- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
 
-- bump everything to release new doc pages
-
-- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
-
-- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
+- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
 
 - update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
 
 - update container image ghcr.io/paperless-ngx/paperless-ngx to v2.8.0[@cb2fffc](https://github.com/cb2fffc) by renovate ([#21715](https://github.com/truecharts/charts/issues/21715))
 
+- update container image ghcr.io/paperless-ngx/paperless-ngx to v2.8.1[@8cba0a9](https://github.com/8cba0a9) by renovate ([#21722](https://github.com/truecharts/charts/issues/21722))
+
+- update container image ghcr.io/paperless-ngx/paperless-ngx to 2.8.1[@24a7453](https://github.com/24a7453) by renovate ([#21727](https://github.com/truecharts/charts/issues/21727))
+
 - update container image redis to v13.3.11[@778c5c5](https://github.com/778c5c5) by renovate ([#21070](https://github.com/truecharts/charts/issues/21070))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image ghcr.io/paperless-ngx/paperless-ngx to v2.8.1[@8cba0a9](https://github.com/8cba0a9) by renovate ([#21722](https://github.com/truecharts/charts/issues/21722))
+- update container image ghcr.io/paperless-ngx/paperless-ngx to v2.8.2[@fe0bb42](https://github.com/fe0bb42) by renovate ([#21766](https://github.com/truecharts/charts/issues/21766))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -42,17 +46,17 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
+- update container image ghcr.io/paperless-ngx/paperless-ngx to v2.8.3[@a93abe7](https://github.com/a93abe7) by renovate ([#21843](https://github.com/truecharts/charts/issues/21843))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image ghcr.io/paperless-ngx/paperless-ngx to 2.8.1[@24a7453](https://github.com/24a7453) by renovate ([#21727](https://github.com/truecharts/charts/issues/21727))
+- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
@@ -72,7 +76,7 @@
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
