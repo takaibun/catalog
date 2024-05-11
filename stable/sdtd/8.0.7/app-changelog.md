@@ -1,12 +1,16 @@
 
 
-## [sdtd-8.0.5](https://github.com/truecharts/charts/compare/sdtd-7.6.0...sdtd-8.0.5) (2024-05-06)
+## [sdtd-8.0.7](https://github.com/truecharts/charts/compare/sdtd-7.6.0...sdtd-8.0.7) (2024-05-11)
 
 ### Chore
 
 
 
+- bump everything to release new doc pages
+
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
@@ -14,27 +18,27 @@
 
 - bump common
 
-- bump everything to regenerate readme's and site index
-
-- bump everything to release new doc pages
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
-
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
-
 - update container image ich777/steamcmd to 7dtd[@1275b17](https://github.com/1275b17) by renovate ([#21531](https://github.com/truecharts/charts/issues/21531))
+
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
+- update container image ich777/steamcmd to 7dtd[@5ed02d0](https://github.com/5ed02d0) by renovate ([#21896](https://github.com/truecharts/charts/issues/21896))
+
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ich777/steamcmd to 7dtd[@e0e4042](https://github.com/e0e4042) by renovate ([#21907](https://github.com/truecharts/charts/issues/21907))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
