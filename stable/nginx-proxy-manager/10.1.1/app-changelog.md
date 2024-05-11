@@ -1,6 +1,6 @@
 
 
-## [nginx-proxy-manager-10.1.1](https://github.com/truecharts/charts/compare/nginx-proxy-manager-9.9.0...nginx-proxy-manager-10.1.1) (2024-05-10)
+## [nginx-proxy-manager-10.1.1](https://github.com/truecharts/charts/compare/nginx-proxy-manager-9.9.0...nginx-proxy-manager-10.1.1) (2024-05-11)
 
 ### Chore
 

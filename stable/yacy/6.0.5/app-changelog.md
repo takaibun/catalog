@@ -1,6 +1,6 @@
 
 
-## [yacy-6.0.5](https://github.com/truecharts/charts/compare/yacy-5.6.0...yacy-6.0.5) (2024-05-10)
+## [yacy-6.0.5](https://github.com/truecharts/charts/compare/yacy-5.6.0...yacy-6.0.5) (2024-05-11)
 
 ### Chore
 

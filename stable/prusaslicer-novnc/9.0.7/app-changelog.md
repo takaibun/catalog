@@ -1,6 +1,6 @@
 
 
-## [prusaslicer-novnc-9.0.7](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-9.0.7) (2024-05-10)
+## [prusaslicer-novnc-9.0.7](https://github.com/truecharts/charts/compare/prusaslicer-novnc-8.6.0...prusaslicer-novnc-9.0.7) (2024-05-11)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [icloudpd-7.0.8](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-7.0.8) (2024-05-10)
+## [icloudpd-7.0.8](https://github.com/truecharts/charts/compare/icloudpd-6.6.0...icloudpd-7.0.8) (2024-05-11)
 
 ### Chore
 

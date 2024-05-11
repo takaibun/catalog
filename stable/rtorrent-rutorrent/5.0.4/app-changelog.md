@@ -1,6 +1,6 @@
 
 
-## [rtorrent-rutorrent-5.0.4](https://github.com/truecharts/charts/compare/rtorrent-rutorrent-4.6.0...rtorrent-rutorrent-5.0.4) (2024-05-06)
+## [rtorrent-rutorrent-5.0.4](https://github.com/truecharts/charts/compare/rtorrent-rutorrent-4.6.0...rtorrent-rutorrent-5.0.4) (2024-05-11)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [it-tools-6.0.0](https://github.com/truecharts/charts/compare/it-tools-4.6.0...it-tools-6.0.0) (2024-05-10)
+## [it-tools-6.0.0](https://github.com/truecharts/charts/compare/it-tools-4.6.0...it-tools-6.0.0) (2024-05-11)
 
 ### Chore
 

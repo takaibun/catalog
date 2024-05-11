@@ -1,6 +1,6 @@
 
 
-## [metabase-4.0.7](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-4.0.7) (2024-05-10)
+## [metabase-4.0.7](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-4.0.7) (2024-05-11)
 
 ### Chore
 

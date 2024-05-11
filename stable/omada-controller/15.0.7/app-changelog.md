@@ -1,6 +1,6 @@
 
 
-## [omada-controller-15.0.7](https://github.com/truecharts/charts/compare/omada-controller-14.6.0...omada-controller-15.0.7) (2024-05-10)
+## [omada-controller-15.0.7](https://github.com/truecharts/charts/compare/omada-controller-14.6.0...omada-controller-15.0.7) (2024-05-11)
 
 ### Chore
 
