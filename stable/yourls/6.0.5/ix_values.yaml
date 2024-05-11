@@ -1,0 +1,34 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: yourls
+  tag: latest@sha256:93c7d65b7def07e03f64a8c9015d4bf36f12e9801824fc8eb05e3205fa79391f
+persistence: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 80
+        protocol: tcp
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            YOURLS_DB_HOST: ""
+            YOURLS_DB_NAME: ""
+            YOURLS_DB_PASS: ""
+            YOURLS_HOURS_OFFSET: ""
+            YOURLS_PASS: ""
+            YOURLS_PRIVATE: ""
+            YOURLS_SITE: ""
+            YOURLS_USER: ""
