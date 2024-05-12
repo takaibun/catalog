@@ -1,10 +1,14 @@
 
 
-## [nzbhydra-21.0.5](https://github.com/truecharts/charts/compare/nzbhydra-19.6.0...nzbhydra-21.0.5) (2024-05-06)
+## [nzbhydra-21.1.1](https://github.com/truecharts/charts/compare/nzbhydra-19.6.0...nzbhydra-21.1.1) (2024-05-12)
 
 ### Chore
 
 
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
@@ -12,29 +16,29 @@
 
 - bump common
 
-- bump charts to ensure new icons are released
+- bump charts to release new docs to fix broken links
 
 - bump everything to release new doc pages
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump charts to release new docs to fix broken links
-
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
-
-- update container image ghcr.io/geek-cookbook/nzbhydra2 to v5.3.11[@d1d2dd0](https://github.com/d1d2dd0) by renovate ([#19692](https://github.com/truecharts/charts/issues/19692))
-
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
-
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image ghcr.io/geek-cookbook/nzbhydra2 to v6.2.0[@fe9a53d](https://github.com/fe9a53d) by renovate ([#21947](https://github.com/truecharts/charts/issues/21947))
+
+- update container image ghcr.io/geek-cookbook/nzbhydra2 to v6.2.1[@8b51c7b](https://github.com/8b51c7b) by renovate ([#21954](https://github.com/truecharts/charts/issues/21954))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -46,7 +50,7 @@
 
 - update container image common to v20.2.4[@f245f5c](https://github.com/f245f5c) by renovate ([#19731](https://github.com/truecharts/charts/issues/19731))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image ghcr.io/geek-cookbook/nzbhydra2 to v5.3.11[@d1d2dd0](https://github.com/d1d2dd0) by renovate ([#19692](https://github.com/truecharts/charts/issues/19692))
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
