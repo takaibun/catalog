@@ -1,7 +1,7 @@
 image:
   repository: ghcr.io/geek-cookbook/jackett
   pullPolicy: IfNotPresent
-  tag: 0.21.2574@sha256:2b603a32b99eff6dbd7249a063e507d13cf4d762ce8b36b8d57eabedb24184b9
+  tag: 0.21.2586@sha256:febb016129ac43c0f7915b3c149dbfa027223ea2fddc37d520d335064d9fc07f
 service:
   main:
     ports:
