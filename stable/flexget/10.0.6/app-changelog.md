@@ -1,6 +1,6 @@
 
 
-## [flexget-10.0.6](https://github.com/truecharts/charts/compare/flexget-9.6.0...flexget-10.0.6) (2024-05-11)
+## [flexget-10.0.6](https://github.com/truecharts/charts/compare/flexget-9.6.0...flexget-10.0.6) (2024-05-12)
 
 ### Chore
 

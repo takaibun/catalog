@@ -1,6 +1,6 @@
 
 
-## [universal-media-server-6.0.6](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-6.0.6) (2024-05-11)
+## [universal-media-server-6.0.6](https://github.com/truecharts/charts/compare/universal-media-server-5.6.0...universal-media-server-6.0.6) (2024-05-12)
 
 ### Chore
 

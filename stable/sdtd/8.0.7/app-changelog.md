@@ -1,6 +1,6 @@
 
 
-## [sdtd-8.0.7](https://github.com/truecharts/charts/compare/sdtd-7.6.0...sdtd-8.0.7) (2024-05-11)
+## [sdtd-8.0.7](https://github.com/truecharts/charts/compare/sdtd-7.6.0...sdtd-8.0.7) (2024-05-12)
 
 ### Chore
 
