@@ -1,6 +1,6 @@
 
 
-## [jellyfin-19.1.1](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-19.1.1) (2024-05-12)
+## [jellyfin-19.1.1](https://github.com/truecharts/charts/compare/jellyfin-18.6.0...jellyfin-19.1.1) (2024-05-13)
 
 ### Chore
 

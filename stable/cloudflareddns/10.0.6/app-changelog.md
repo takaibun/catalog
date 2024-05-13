@@ -1,6 +1,6 @@
 
 
-## [cloudflareddns-10.0.6](https://github.com/truecharts/charts/compare/cloudflareddns-9.6.0...cloudflareddns-10.0.6) (2024-05-12)
+## [cloudflareddns-10.0.6](https://github.com/truecharts/charts/compare/cloudflareddns-9.6.0...cloudflareddns-10.0.6) (2024-05-13)
 
 ### Chore
 
