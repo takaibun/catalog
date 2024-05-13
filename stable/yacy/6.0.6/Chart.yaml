@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Network-Web
+  truecharts.org/category: Tools-Utilities
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
@@ -17,20 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Alternative Imgur front-end
-home: https://truecharts.org/charts/stable/rimgo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/rimgo.webp
+description: YaCy decentralized search engine (https://yacy.net)
+home: https://truecharts.org/charts/stable/yacy
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/yacy.webp
 keywords:
-  - rimgo
+  - yacy
+  - Tools-Utilities
   - Network-Web
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: rimgo
+name: yacy
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/rimgo
-  - https://quay.io/pussthecatorg/rimgo
+  - https://yacy.net/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/yacy
+  - https://hub.docker.com/r/yacy/yacy_search_server
 type: application
-version: 7.0.15
+version: 6.0.6

@@ -1,12 +1,12 @@
 
 
-## [cops-9.0.8](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-9.0.8) (2024-05-08)
+## [cops-9.1.1](https://github.com/truecharts/charts/compare/cops-8.8.0...cops-9.1.1) (2024-05-13)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -14,31 +14,35 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump everything to release new doc pages
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image lscr.io/linuxserver/cops to 2.5.4[@1aa8447](https://github.com/1aa8447) by renovate ([#21141](https://github.com/truecharts/charts/issues/21141))
 
 - update container image lscr.io/linuxserver/cops to v[@22311ff](https://github.com/22311ff) by renovate ([#21540](https://github.com/truecharts/charts/issues/21540))
 
 - update container image lscr.io/linuxserver/cops to v2.5.6[@3502d16](https://github.com/3502d16) by renovate ([#21584](https://github.com/truecharts/charts/issues/21584))
 
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image lscr.io/linuxserver/cops to v[@acd3374](https://github.com/acd3374) by renovate ([#21739](https://github.com/truecharts/charts/issues/21739))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image lscr.io/linuxserver/cops to v2.6.1[@161d7b5](https://github.com/161d7b5) by renovate ([#21748](https://github.com/truecharts/charts/issues/21748))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image lscr.io/linuxserver/cops to 2.5.4[@afcb5e7](https://github.com/afcb5e7) by renovate ([#20785](https://github.com/truecharts/charts/issues/20785))
 
-- update container image lscr.io/linuxserver/cops to v[@acd3374](https://github.com/acd3374) by renovate ([#21739](https://github.com/truecharts/charts/issues/21739))
+- update container image lscr.io/linuxserver/cops to 2.6.1[@9b7b147](https://github.com/9b7b147) by renovate ([#21955](https://github.com/truecharts/charts/issues/21955))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -46,7 +50,7 @@
 
 - update container image lscr.io/linuxserver/cops to v2.5.4[@3c0e4cb](https://github.com/3c0e4cb) by renovate ([#20485](https://github.com/truecharts/charts/issues/20485))
 
-- update container image lscr.io/linuxserver/cops to 2.5.4[@1aa8447](https://github.com/1aa8447) by renovate ([#21141](https://github.com/truecharts/charts/issues/21141))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
