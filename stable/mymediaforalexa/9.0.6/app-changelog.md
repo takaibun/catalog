@@ -1,6 +1,6 @@
 
 
-## [mymediaforalexa-9.0.6](https://github.com/truecharts/charts/compare/mymediaforalexa-8.6.0...mymediaforalexa-9.0.6) (2024-05-13)
+## [mymediaforalexa-9.0.6](https://github.com/truecharts/charts/compare/mymediaforalexa-8.6.0...mymediaforalexa-9.0.6) (2024-05-14)
 
 ### Chore
 

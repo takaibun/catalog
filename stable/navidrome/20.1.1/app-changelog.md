@@ -1,6 +1,6 @@
 
 
-## [navidrome-20.1.1](https://github.com/truecharts/charts/compare/navidrome-19.6.0...navidrome-20.1.1) (2024-05-13)
+## [navidrome-20.1.1](https://github.com/truecharts/charts/compare/navidrome-19.6.0...navidrome-20.1.1) (2024-05-14)
 
 ### Chore
 
