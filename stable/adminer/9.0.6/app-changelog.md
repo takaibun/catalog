@@ -1,36 +1,42 @@
 
 
-## [adminer-9.0.4](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-9.0.4) (2024-04-30)
+## [adminer-9.0.6](https://github.com/truecharts/charts/compare/adminer-8.6.0...adminer-9.0.6) (2024-05-14)
 
 ### Chore
 
 
 
-- bump charts to release new docs to fix broken links
-
-- bump common
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
 - bump everything to regenerate readme's and site index
 
-- bump everything to release new doc pages
+- bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image adminer to latest[@5385e9d](https://github.com/5385e9d) by renovate ([#20507](https://github.com/truecharts/charts/issues/20507))
 
+- update container image adminer to latest[@4d06c61](https://github.com/4d06c61) by renovate ([#21259](https://github.com/truecharts/charts/issues/21259))
+
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image adminer to latest[@4d06c61](https://github.com/4d06c61) by renovate ([#21259](https://github.com/truecharts/charts/issues/21259))
+- update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image adminer to latest[@3b34652](https://github.com/3b34652) by renovate ([#22013](https://github.com/truecharts/charts/issues/22013))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -54,7 +60,7 @@
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
-- update container image adminer to latest[@b75eae8](https://github.com/b75eae8) by renovate ([#19216](https://github.com/truecharts/charts/issues/19216))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 
