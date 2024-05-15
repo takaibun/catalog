@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: MediaApp-Music
+  truecharts.org/category: media
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: latest
+appVersion: 7.10.0
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,20 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Official SongKong Chart repository, Identify your songs and add metadata and artwork automatically
-home: https://truecharts.org/charts/stable/songkong
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/songkong.webp
+description: Calibre is a powerful and easy to use e-book manager.
+home: https://truecharts.org/charts/stable/calibre
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/calibre.webp
 keywords:
-  - songkong
-  - MediaApp-Music
-kubeVersion: ">=1.24.0-0"
+  - calibre
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: songkong
+name: calibre
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/songkong
-  - https://hub.docker.com/r/songkong/songkong
+  - https://github.com/kovidgoyal/calibre/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/calibre
+  - https://ghcr.io/linuxserver/calibre
 type: application
-version: 6.0.4
+version: 15.1.2
