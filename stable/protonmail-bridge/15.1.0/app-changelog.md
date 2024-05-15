@@ -1,6 +1,6 @@
 
 
-## [protonmail-bridge-15.1.0](https://github.com/truecharts/charts/compare/protonmail-bridge-14.7.0...protonmail-bridge-15.1.0) (2024-05-14)
+## [protonmail-bridge-15.1.0](https://github.com/truecharts/charts/compare/protonmail-bridge-14.7.0...protonmail-bridge-15.1.0) (2024-05-15)
 
 ### Chore
 

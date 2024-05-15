@@ -1,6 +1,6 @@
 
 
-## [humhub-8.2.0](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-8.2.0) (2024-05-14)
+## [humhub-8.2.0](https://github.com/truecharts/charts/compare/humhub-7.11.0...humhub-8.2.0) (2024-05-15)
 
 ### Chore
 

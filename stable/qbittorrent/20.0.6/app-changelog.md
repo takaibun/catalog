@@ -1,6 +1,6 @@
 
 
-## [qbittorrent-20.0.6](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-20.0.6) (2024-05-14)
+## [qbittorrent-20.0.6](https://github.com/truecharts/charts/compare/qbittorrent-19.6.0...qbittorrent-20.0.6) (2024-05-15)
 
 ### Chore
 

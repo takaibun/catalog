@@ -1,6 +1,6 @@
 
 
-## [filezilla-12.0.8](https://github.com/truecharts/charts/compare/filezilla-11.6.0...filezilla-12.0.8) (2024-05-14)
+## [filezilla-12.0.8](https://github.com/truecharts/charts/compare/filezilla-11.6.0...filezilla-12.0.8) (2024-05-15)
 
 ### Chore
 

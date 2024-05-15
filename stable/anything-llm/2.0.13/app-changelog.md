@@ -1,6 +1,6 @@
 
 
-## [anything-llm-2.0.13](https://github.com/truecharts/charts/compare/anything-llm-1.3.0...anything-llm-2.0.13) (2024-05-14)
+## [anything-llm-2.0.13](https://github.com/truecharts/charts/compare/anything-llm-1.3.0...anything-llm-2.0.13) (2024-05-15)
 
 ### Chore
 

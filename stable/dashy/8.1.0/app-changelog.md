@@ -1,6 +1,6 @@
 
 
-## [dashy-8.1.0](https://github.com/truecharts/charts/compare/dashy-6.6.0...dashy-8.1.0) (2024-05-14)
+## [dashy-8.1.0](https://github.com/truecharts/charts/compare/dashy-6.6.0...dashy-8.1.0) (2024-05-15)
 
 ### Chore
 

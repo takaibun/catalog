@@ -1,6 +1,6 @@
 
 
-## [bookstack-14.2.2](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-14.2.2) (2024-05-14)
+## [bookstack-14.2.2](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-14.2.2) (2024-05-15)
 
 ### Chore
 

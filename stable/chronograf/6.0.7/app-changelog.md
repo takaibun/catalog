@@ -1,6 +1,6 @@
 
 
-## [chronograf-6.0.7](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-6.0.7) (2024-05-14)
+## [chronograf-6.0.7](https://github.com/truecharts/charts/compare/chronograf-5.6.0...chronograf-6.0.7) (2024-05-15)
 
 ### Chore
 

@@ -1,6 +1,6 @@
 
 
-## [kitchenowl-10.0.5](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-10.0.5) (2024-05-12)
+## [kitchenowl-10.0.5](https://github.com/truecharts/charts/compare/kitchenowl-9.6.0...kitchenowl-10.0.5) (2024-05-15)
 
 ### Chore
 

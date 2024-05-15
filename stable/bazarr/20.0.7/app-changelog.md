@@ -1,6 +1,6 @@
 
 
-## [bazarr-20.0.7](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-20.0.7) (2024-05-14)
+## [bazarr-20.0.7](https://github.com/truecharts/charts/compare/bazarr-19.4.0...bazarr-20.0.7) (2024-05-15)
 
 ### Chore
 
