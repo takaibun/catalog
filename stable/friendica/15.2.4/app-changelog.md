@@ -1,48 +1,48 @@
 
 
-## [monica-13.2.3](https://github.com/truecharts/charts/compare/monica-12.9.0...monica-13.2.3) (2024-05-15)
+## [friendica-15.2.4](https://github.com/truecharts/charts/compare/friendica-13.11.0...friendica-15.2.4) (2024-05-15)
 
 ### Chore
 
 
 
+- bump charts to release new docs to fix broken links
+
 - bump common
+
+- bump everything to release new doc pages
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
-- bump charts to release new docs to fix broken links
+- update container image friendica to 2024.03[@c824f39](https://github.com/c824f39) by renovate ([#20464](https://github.com/truecharts/charts/issues/20464))
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump everything to release new doc pages
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- update container image mariadb to v13.9.6[@04feaf4](https://github.com/04feaf4) by renovate ([#20551](https://github.com/truecharts/charts/issues/20551))
-
-- update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
-
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
-
-- update container image monica to 4.0.0[@f5d1b08](https://github.com/f5d1b08) by renovate ([#21300](https://github.com/truecharts/charts/issues/21300))
-
-- update container image monica to 4.0.0[@70c14b8](https://github.com/70c14b8) by renovate ([#21265](https://github.com/truecharts/charts/issues/21265))
-
-- update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
-
-- update container image mariadb to v13.9.18[@c5a61ea](https://github.com/c5a61ea) by renovate ([#21200](https://github.com/truecharts/charts/issues/21200))
-
-- update container image mariadb to v13.9.17[@411cb7e](https://github.com/411cb7e) by renovate ([#21132](https://github.com/truecharts/charts/issues/21132))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image mariadb to v14.0.6[@e327d57](https://github.com/e327d57) by renovate ([#21640](https://github.com/truecharts/charts/issues/21640))
 
-- update container image monica to 4.0.0[@807b737](https://github.com/807b737) by renovate ([#19276](https://github.com/truecharts/charts/issues/19276))
+- update container image mariadb to v13.9.20[@1767fe3](https://github.com/1767fe3) by renovate ([#21389](https://github.com/truecharts/charts/issues/21389))
 
-- update container image monica to v4.1.2[@a423631](https://github.com/a423631) by renovate ([#21791](https://github.com/truecharts/charts/issues/21791))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image monica to 4.1.2[@640e406](https://github.com/640e406) by renovate ([#21885](https://github.com/truecharts/charts/issues/21885))
+- update container image friendica to 2024.03[@601f027](https://github.com/601f027) by renovate ([#21280](https://github.com/truecharts/charts/issues/21280))
+
+- update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
+
+- update container image friendica to 2024.03[@7fb613f](https://github.com/7fb613f) by renovate ([#22025](https://github.com/truecharts/charts/issues/22025))
+
+- update container image friendica to 2024.03[@29be963](https://github.com/29be963) by renovate ([#22043](https://github.com/truecharts/charts/issues/22043))
+
+- update container image mariadb to v13.9.18[@c5a61ea](https://github.com/c5a61ea) by renovate ([#21200](https://github.com/truecharts/charts/issues/21200))
+
+- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
+
+- update container image redis to v13.3.11[@778c5c5](https://github.com/778c5c5) by renovate ([#21070](https://github.com/truecharts/charts/issues/21070))
 
 - update container image mariadb to v13.9.12[@83d9ee0](https://github.com/83d9ee0) by renovate ([#21067](https://github.com/truecharts/charts/issues/21067))
 
@@ -50,19 +50,23 @@
 
 - update container image mariadb to v13.9.11[@5682449](https://github.com/5682449) by renovate ([#20910](https://github.com/truecharts/charts/issues/20910))
 
-- update container image monica to 4.1.2[@b1d386c](https://github.com/b1d386c) by renovate ([#21898](https://github.com/truecharts/charts/issues/21898))
+- update container image friendica to 2024.03[@f29c896](https://github.com/f29c896) by renovate ([#22069](https://github.com/truecharts/charts/issues/22069))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image monica to 4.0.0[@894d866](https://github.com/894d866) by renovate ([#20685](https://github.com/truecharts/charts/issues/20685))
+- update container image friendica to 2024.03[@98488e1](https://github.com/98488e1) by renovate ([#20677](https://github.com/truecharts/charts/issues/20677))
 
-- update container image monica to 4.0.0[@8259aa2](https://github.com/8259aa2) by renovate ([#20471](https://github.com/truecharts/charts/issues/20471))
+- update container image friendica to 2024.03[@41af9ab](https://github.com/41af9ab) by renovate ([#20541](https://github.com/truecharts/charts/issues/20541))
+
+- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
 
 - update container image mariadb to v13.9.8[@ab62124](https://github.com/ab62124) by renovate ([#20563](https://github.com/truecharts/charts/issues/20563))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image monica to 4.1.2[@52dec6e](https://github.com/52dec6e) by renovate ([#22027](https://github.com/truecharts/charts/issues/22027))
+- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
+
+- update container image mariadb to v13.9.6[@04feaf4](https://github.com/04feaf4) by renovate ([#20551](https://github.com/truecharts/charts/issues/20551))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -70,11 +74,23 @@
 
 - update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
 
-- update container image mariadb to v13.9.20[@1767fe3](https://github.com/1767fe3) by renovate ([#21389](https://github.com/truecharts/charts/issues/21389))
+- update container image mariadb to v14.0.8[@b2dec75](https://github.com/b2dec75) by renovate ([#22035](https://github.com/truecharts/charts/issues/22035))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image redis to v13.3.4[@1cc03a1](https://github.com/1cc03a1) by renovate ([#20497](https://github.com/truecharts/charts/issues/20497))
+
+- update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
+
+- update container image redis to v13.0.5[@01c1933](https://github.com/01c1933) by renovate ([#19324](https://github.com/truecharts/charts/issues/19324))
+
+- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
+
+- update container image mariadb to v13.9.17[@411cb7e](https://github.com/411cb7e) by renovate ([#21132](https://github.com/truecharts/charts/issues/21132))
 
 - update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
+
+- update container image friendica to 2024.03[@93a0f0c](https://github.com/93a0f0c) by renovate ([#20462](https://github.com/truecharts/charts/issues/20462))
+
+- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
 - update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
@@ -102,7 +118,13 @@
 
 - update container image mariadb to v13.7.3[@8398c91](https://github.com/8398c91) by renovate ([#19693](https://github.com/truecharts/charts/issues/19693))
 
+- update container image friendica to v2024.03[@0cc133b](https://github.com/0cc133b) by renovate ([#19669](https://github.com/truecharts/charts/issues/19669))
+
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
+
+- update container image friendica to v[@85105b0](https://github.com/85105b0) by renovate ([#19662](https://github.com/truecharts/charts/issues/19662))
+
+- update container image redis to v13.2.2[@0ea5f1a](https://github.com/0ea5f1a) by renovate ([#19365](https://github.com/truecharts/charts/issues/19365))
 
 - update container image mariadb to v13.7.2[@5126463](https://github.com/5126463) by renovate ([#19560](https://github.com/truecharts/charts/issues/19560))
 
@@ -116,9 +138,13 @@
 
 - update container image mariadb to v13.6.0[@da7a483](https://github.com/da7a483) by renovate ([#19362](https://github.com/truecharts/charts/issues/19362))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image mariadb to v13.5.4[@f572f3a](https://github.com/f572f3a) by renovate ([#19318](https://github.com/truecharts/charts/issues/19318))
+
+- update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
+
+- update container image friendica to 2023.12[@95a7d8e](https://github.com/95a7d8e) by renovate ([#19227](https://github.com/truecharts/charts/issues/19227))
 
 - exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 

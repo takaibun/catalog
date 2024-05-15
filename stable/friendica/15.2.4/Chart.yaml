@@ -2,17 +2,24 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: productivity
+  truecharts.org/category: social
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 2.8.3
+appVersion: 2024.03.0
 dependencies:
   - name: common
     version: 23.0.0
     repository: oci://tccr.io/truecharts
     condition: ""
+    alias: ""
+    tags: []
+    import-values: []
+  - name: mariadb
+    version: 14.0.8
+    repository: oci://tccr.io/truecharts
+    condition: mariadb.enabled
     alias: ""
     tags: []
     import-values: []
@@ -24,24 +31,21 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Paperless-ngx is an application by Daniel Quinn and contributors that indexes your scanned documents.
-home: https://truecharts.org/charts/stable/paperless-ngx
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/paperless-ngx.webp
+description: Welcome to the free social web
+home: https://truecharts.org/charts/stable/friendica
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/friendica.webp
 keywords:
-  - paperless-ng
-  - paperless-ngx
-  - documents
-  - paper
+  - friend
+  - social
 kubeVersion: ">=1.24.0-0"
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: paperless-ngx
+name: friendica
 sources:
-  - https://github.com/paperless-ngx/paperless-ngx
-  - https://paperless-ngx.readthedocs.io/en/latest/
-  - https://github.com/truecharts/charts/tree/master/charts/stable/paperless-ngx
-  - https://ghcr.io/paperless-ngx/paperless-ngx
+  - https://friendi.ca/
+  - https://github.com/truecharts/charts/tree/master/charts/stable/friendica
+  - https://hub.docker.com/_/friendica
 type: application
-version: 8.2.4
+version: 15.2.4
