@@ -1,12 +1,12 @@
 
 
-## [immich-15.9.0](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-15.9.0) (2024-05-14)
+## [immich-15.13.4](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-15.13.4) (2024-05-15)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -14,19 +14,23 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
+- bump everything to release new doc pages
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
+
+- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
 
 - update immich to v1.103.1[@9f10100](https://github.com/9f10100) by renovate (minor) ([#21637](https://github.com/truecharts/charts/issues/21637))
 
 - update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
+
+- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19576](https://github.com/truecharts/charts/issues/19576))
+
+- update immich to v1.104.0[@6c83bfc](https://github.com/6c83bfc) by renovate (minor) ([#22011](https://github.com/truecharts/charts/issues/22011))
 
 - update immich to v1.102.3[@f38db5f](https://github.com/f38db5f) by renovate (patch) ([#21097](https://github.com/truecharts/charts/issues/21097))
 
@@ -38,7 +42,7 @@
 
 - update immich to v1.102.0[@5112e81](https://github.com/5112e81) by renovate (minor) ([#21036](https://github.com/truecharts/charts/issues/21036))
 
-- update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19576](https://github.com/truecharts/charts/issues/19576))
+- update immich to v1.105.0[@b5af59d](https://github.com/b5af59d) by renovate (minor) ([#22067](https://github.com/truecharts/charts/issues/22067))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -46,11 +50,11 @@
 
 - update container image common to v20.2.3[@06e462e](https://github.com/06e462e) by renovate ([#19673](https://github.com/truecharts/charts/issues/19673))
 
-- update immich to v1.104.0[@6c83bfc](https://github.com/6c83bfc) by renovate (minor) ([#22011](https://github.com/truecharts/charts/issues/22011))
+- update container image redis to v13.3.7[@8c9b71c](https://github.com/8c9b71c) by renovate ([#20566](https://github.com/truecharts/charts/issues/20566))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image redis to v13.3.5[@7f45c09](https://github.com/7f45c09) by renovate ([#20555](https://github.com/truecharts/charts/issues/20555))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -62,7 +66,7 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
+- update immich to v1.105.1[@7675497](https://github.com/7675497) by renovate (patch) ([#22076](https://github.com/truecharts/charts/issues/22076))
 
 - update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
@@ -70,7 +74,7 @@
 
 - update immich to v1.101.0[@969d6f2](https://github.com/969d6f2) by renovate (minor) ([#20264](https://github.com/truecharts/charts/issues/20264))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update immich to v1.100.0[@647bbab](https://github.com/647bbab) by renovate (minor) ([#19938](https://github.com/truecharts/charts/issues/19938))
 
