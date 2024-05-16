@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 0.21.2597
+appVersion: 2.18.02
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,23 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: API Support for your favorite torrent trackers.
-home: https://truecharts.org/charts/stable/jackett
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/jackett.webp
+description: Audio/Video library transcoding automation
+home: https://truecharts.org/charts/stable/tdarr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tdarr.webp
 keywords:
-  - jackett
-  - torrent
-  - usenet
-kubeVersion: ">=1.24.0-0"
+  - encode
+  - media
+  - tdarr
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: jackett
+name: tdarr
 sources:
-  - https://github.com/Jackett/Jackett
-  - https://github.com/geek-cookbook/containers/pkgs/container/jackett
-  - https://github.com/truecharts/charts/tree/master/charts/stable/jackett
-  - https://ghcr.io/geek-cookbook/jackett
+  - https://github.com/HaveAGitGat/Tdarr
+  - https://github.com/truecharts/charts/tree/master/charts/stable/tdarr
+  - https://hub.docker.com/r/haveagitgat/tdarr
 type: application
-version: 21.0.16
+version: 10.1.1

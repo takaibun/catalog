@@ -1,24 +1,24 @@
 
 
-## [metabase-4.0.7](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-4.0.7) (2024-05-11)
+## [metabase-4.0.9](https://github.com/truecharts/charts/compare/metabase-3.6.0...metabase-4.0.9) (2024-05-16)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
 
 - bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - update container image metabase/metabase to v0.49.5[@120f65c](https://github.com/120f65c) by renovate ([#20621](https://github.com/truecharts/charts/issues/20621))
 
@@ -26,15 +26,19 @@
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
+- update container image metabase/metabase to v0.49.8[@9553d3d](https://github.com/9553d3d) by renovate ([#21589](https://github.com/truecharts/charts/issues/21589))
+
+- update container image metabase/metabase to v0.49.9[@a8475c6](https://github.com/a8475c6) by renovate ([#21845](https://github.com/truecharts/charts/issues/21845))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image metabase/metabase to v0.49.6[@633996a](https://github.com/633996a) by renovate ([#20868](https://github.com/truecharts/charts/issues/20868))
 
-- update container image metabase/metabase to v0.49.8[@9553d3d](https://github.com/9553d3d) by renovate ([#21589](https://github.com/truecharts/charts/issues/21589))
+- update container image metabase/metabase to v0.49.10[@06b9be2](https://github.com/06b9be2) by renovate ([#22006](https://github.com/truecharts/charts/issues/22006))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image metabase/metabase to v0.49.9[@a8475c6](https://github.com/a8475c6) by renovate ([#21845](https://github.com/truecharts/charts/issues/21845))
+- update container image metabase/metabase to v0.49.11[@197da4b](https://github.com/197da4b) by renovate ([#22138](https://github.com/truecharts/charts/issues/22138))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 

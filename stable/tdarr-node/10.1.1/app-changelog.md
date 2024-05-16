@@ -1,10 +1,14 @@
 
 
-## [tdarr-10.0.4](https://github.com/truecharts/charts/compare/tdarr-9.6.0...tdarr-10.0.4) (2024-05-06)
+## [tdarr-node-10.1.1](https://github.com/truecharts/charts/compare/tdarr-node-9.6.0...tdarr-node-10.1.1) (2024-05-16)
 
 ### Chore
 
 
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
@@ -12,21 +16,21 @@
 
 - bump common
 
-- bump charts to ensure new icons are released
+- bump charts to release new docs to fix broken links
 
 - bump everything to release new doc pages
-
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
-
-- bump charts to release new docs to fix broken links
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
-
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image haveagitgat/tdarr_node to v2.18.01[@6784157](https://github.com/6784157) by renovate ([#22039](https://github.com/truecharts/charts/issues/22039))
+
+- update container image haveagitgat/tdarr_node to v2.18.02[@37b07e0](https://github.com/37b07e0) by renovate ([#22137](https://github.com/truecharts/charts/issues/22137))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -34,7 +38,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
