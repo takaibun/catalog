@@ -1,6 +1,6 @@
 
 
-## [romm-9.2.0](https://github.com/truecharts/charts/compare/romm-7.11.0...romm-9.2.0) (2024-05-06)
+## [romm-9.2.2](https://github.com/truecharts/charts/compare/romm-7.11.0...romm-9.2.2) (2024-05-16)
 
 ### Chore
 
@@ -20,13 +20,15 @@
 
 - bump everything to regenerate readme's and site index
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
 
-- update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
+- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
 
 - update container image mariadb to v13.9.20[@1767fe3](https://github.com/1767fe3) by renovate ([#21389](https://github.com/truecharts/charts/issues/21389))
+
+- update container image mariadb to v14.0.6[@e327d57](https://github.com/e327d57) by renovate ([#21640](https://github.com/truecharts/charts/issues/21640))
 
 - update container image mariadb to v13.9.18[@c5a61ea](https://github.com/c5a61ea) by renovate ([#21200](https://github.com/truecharts/charts/issues/21200))
 
@@ -40,7 +42,7 @@
 
 - update container image mariadb to v13.9.11[@5682449](https://github.com/5682449) by renovate ([#20910](https://github.com/truecharts/charts/issues/20910))
 
-- update container image mariadb to v14.0.6[@e327d57](https://github.com/e327d57) by renovate ([#21640](https://github.com/truecharts/charts/issues/21640))
+- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -64,17 +66,17 @@
 
 - update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
 
-- update container image redis to v13.3.2[@ce33ab3](https://github.com/ce33ab3) by renovate ([#20486](https://github.com/truecharts/charts/issues/20486))
+- update container image mariadb to v14.0.8[@b2dec75](https://github.com/b2dec75) by renovate ([#22091](https://github.com/truecharts/charts/issues/22091))
 
-- update container image redis to v14.0.5[@e61bae8](https://github.com/e61bae8) by renovate ([#21643](https://github.com/truecharts/charts/issues/21643))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image redis to v13.3.1[@9b53552](https://github.com/9b53552) by renovate ([#20455](https://github.com/truecharts/charts/issues/20455))
 
 - update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
-- update container image redis to v13.3.0[@66b03ae](https://github.com/66b03ae) by renovate ([#20417](https://github.com/truecharts/charts/issues/20417))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
+- update container image mariadb to v13.9.0[@fab3d5f](https://github.com/fab3d5f) by renovate ([#20415](https://github.com/truecharts/charts/issues/20415))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
@@ -137,6 +139,8 @@
 
 
 - Add VolSync support and move CNPG backup credentials on SCALE ([#21443](https://github.com/truecharts/charts/issues/21443))
+
+- Update Romm repository ([#22077](https://github.com/truecharts/charts/issues/22077))
 
 ### Fix
 
