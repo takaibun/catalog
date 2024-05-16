@@ -1,6 +1,6 @@
 
 
-## [searxng-8.0.12](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-8.0.12) (2024-05-15)
+## [searxng-8.0.14](https://github.com/truecharts/charts/compare/searxng-7.6.0...searxng-8.0.14) (2024-05-16)
 
 ### Chore
 
@@ -24,6 +24,10 @@
 
 - update container image searxng/searxng to latest[@145fc61](https://github.com/145fc61) by renovate ([#20699](https://github.com/truecharts/charts/issues/20699))
 
+- update container image searxng/searxng to latest[@f957237](https://github.com/f957237) by renovate ([#21861](https://github.com/truecharts/charts/issues/21861))
+
+- update container image searxng/searxng to latest[@d7632b7](https://github.com/d7632b7) by renovate ([#21832](https://github.com/truecharts/charts/issues/21832))
+
 - update container image searxng/searxng to latest[@1ffbd63](https://github.com/1ffbd63) by renovate ([#21742](https://github.com/truecharts/charts/issues/21742))
 
 - update container image searxng/searxng to latest[@7ba0a7d](https://github.com/7ba0a7d) by renovate ([#21653](https://github.com/truecharts/charts/issues/21653))
@@ -38,9 +42,9 @@
 
 - update container image searxng/searxng to latest[@51034d5](https://github.com/51034d5) by renovate ([#21382](https://github.com/truecharts/charts/issues/21382))
 
-- update container image searxng/searxng to latest[@f957237](https://github.com/f957237) by renovate ([#21861](https://github.com/truecharts/charts/issues/21861))
+- update container image searxng/searxng to latest[@c69f554](https://github.com/c69f554) by renovate ([#22082](https://github.com/truecharts/charts/issues/22082))
 
-- update container image searxng/searxng to latest[@0b67c68](https://github.com/0b67c68) by renovate ([#21953](https://github.com/truecharts/charts/issues/21953))
+- update container image searxng/searxng to latest[@5c4b2c0](https://github.com/5c4b2c0) by renovate ([#22089](https://github.com/truecharts/charts/issues/22089))
 
 - update container image searxng/searxng to latest[@bcf17ba](https://github.com/bcf17ba) by renovate ([#21379](https://github.com/truecharts/charts/issues/21379))
 
@@ -54,15 +58,15 @@
 
 - update container image searxng/searxng to latest[@84d890a](https://github.com/84d890a) by renovate ([#21000](https://github.com/truecharts/charts/issues/21000))
 
-- update container image searxng/searxng to latest[@c69f554](https://github.com/c69f554) by renovate ([#22082](https://github.com/truecharts/charts/issues/22082))
+- update container image searxng/searxng to latest[@f4b8a20](https://github.com/f4b8a20) by renovate ([#22101](https://github.com/truecharts/charts/issues/22101))
 
-- update container image searxng/searxng to latest[@5c4b2c0](https://github.com/5c4b2c0) by renovate ([#22089](https://github.com/truecharts/charts/issues/22089))
+- update container image searxng/searxng to latest[@6e41850](https://github.com/6e41850) by renovate ([#22124](https://github.com/truecharts/charts/issues/22124))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image searxng/searxng to latest[@390e6ff](https://github.com/390e6ff) by renovate ([#20709](https://github.com/truecharts/charts/issues/20709))
 
-- update container image searxng/searxng to latest[@d7632b7](https://github.com/d7632b7) by renovate ([#21832](https://github.com/truecharts/charts/issues/21832))
+- update container image searxng/searxng to latest[@0b67c68](https://github.com/0b67c68) by renovate ([#21953](https://github.com/truecharts/charts/issues/21953))
 
 - update container image searxng/searxng to latest[@7b49637](https://github.com/7b49637) by renovate ([#20667](https://github.com/truecharts/charts/issues/20667))
 
