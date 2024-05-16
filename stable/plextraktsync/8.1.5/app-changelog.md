@@ -1,12 +1,12 @@
 
 
-## [plextraktsync-8.1.3](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-8.1.3) (2024-05-11)
+## [plextraktsync-8.1.5](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-8.1.5) (2024-05-16)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
 
@@ -16,7 +16,7 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to release new doc pages
 
 - bump common
 
@@ -24,21 +24,25 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/taxel/plextraktsync to v0.30.2[@05cbbd3](https://github.com/05cbbd3) by renovate ([#21620](https://github.com/truecharts/charts/issues/21620))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image ghcr.io/taxel/plextraktsync to v0.30.3[@990d8f7](https://github.com/990d8f7) by renovate ([#21658](https://github.com/truecharts/charts/issues/21658))
 
 - update container image ghcr.io/taxel/plextraktsync to v0.30.4[@929c89f](https://github.com/929c89f) by renovate ([#21688](https://github.com/truecharts/charts/issues/21688))
 
+- update container image ghcr.io/taxel/plextraktsync to v0.29.7[@a2dc236](https://github.com/a2dc236) by renovate ([#19310](https://github.com/truecharts/charts/issues/19310))
+
+- update container image ghcr.io/taxel/plextraktsync to v0.30.5[@d5330cc](https://github.com/d5330cc) by renovate ([#21875](https://github.com/truecharts/charts/issues/21875))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image ghcr.io/taxel/plextraktsync to v0.29.7[@a2dc236](https://github.com/a2dc236) by renovate ([#19310](https://github.com/truecharts/charts/issues/19310))
+- update container image ghcr.io/taxel/plextraktsync to v0.30.6[@fec6cfa](https://github.com/fec6cfa) by renovate ([#21910](https://github.com/truecharts/charts/issues/21910))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image ghcr.io/taxel/plextraktsync to v0.29.14[@9468a03](https://github.com/9468a03) by renovate ([#20631](https://github.com/truecharts/charts/issues/20631))
 
-- update container image ghcr.io/taxel/plextraktsync to v0.30.5[@d5330cc](https://github.com/d5330cc) by renovate ([#21875](https://github.com/truecharts/charts/issues/21875))
+- update container image ghcr.io/taxel/plextraktsync to v0.30.7[@05b3fae](https://github.com/05b3fae) by renovate ([#22116](https://github.com/truecharts/charts/issues/22116))
 
 - update container image ghcr.io/taxel/plextraktsync to v0.29.13[@eea376d](https://github.com/eea376d) by renovate ([#20562](https://github.com/truecharts/charts/issues/20562))
 
@@ -46,7 +50,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/taxel/plextraktsync to v0.30.2[@05cbbd3](https://github.com/05cbbd3) by renovate ([#21620](https://github.com/truecharts/charts/issues/21620))
 
 - update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
