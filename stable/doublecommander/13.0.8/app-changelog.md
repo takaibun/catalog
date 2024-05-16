@@ -1,24 +1,24 @@
 
 
-## [doublecommander-13.0.6](https://github.com/truecharts/charts/compare/doublecommander-12.6.0...doublecommander-13.0.6) (2024-05-06)
+## [doublecommander-13.0.8](https://github.com/truecharts/charts/compare/doublecommander-12.6.0...doublecommander-13.0.8) (2024-05-16)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
 
 - bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -26,15 +26,19 @@
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
+- update container image ghcr.io/linuxserver/doublecommander to latest[@12b417c](https://github.com/12b417c) by renovate ([#21493](https://github.com/truecharts/charts/issues/21493))
+
+- update container image ghcr.io/linuxserver/doublecommander to latest[@908d49e](https://github.com/908d49e) by renovate ([#19234](https://github.com/truecharts/charts/issues/19234))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image ghcr.io/linuxserver/doublecommander to latest[@faeb321](https://github.com/faeb321) by renovate ([#20888](https://github.com/truecharts/charts/issues/20888))
 
-- update container image ghcr.io/linuxserver/doublecommander to latest[@12b417c](https://github.com/12b417c) by renovate ([#21493](https://github.com/truecharts/charts/issues/21493))
+- update container image ghcr.io/linuxserver/doublecommander to latest[@552ee89](https://github.com/552ee89) by renovate ([#21796](https://github.com/truecharts/charts/issues/21796))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image ghcr.io/linuxserver/doublecommander to latest[@908d49e](https://github.com/908d49e) by renovate ([#19234](https://github.com/truecharts/charts/issues/19234))
+- update container image ghcr.io/linuxserver/doublecommander to latest[@e9fb92c](https://github.com/e9fb92c) by renovate ([#22110](https://github.com/truecharts/charts/issues/22110))
 
 - update container image ghcr.io/linuxserver/doublecommander to latest[@1324670](https://github.com/1324670) by renovate ([#20571](https://github.com/truecharts/charts/issues/20571))
 

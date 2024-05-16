@@ -1,11 +1,11 @@
 image:
   repository: ollama/ollama
   pullPolicy: IfNotPresent
-  tag: 0.1.37@sha256:3a69f769184d5b9e96c664e287f18067ba11fd43f0d8a265c949eb04e0aaae4a
+  tag: 0.1.38@sha256:389df291daa29ccfd5a7bf9f17a5094cabc1c9af216ee7ccbeea994e7f9c0ca3
 rocmImage:
   repository: ollama/ollama
   pullPolicy: IfNotPresent
-  tag: 0.1.37-rocm@sha256:1670f9cc9b42a64749f85748644777bab2c1eef8ea765b92964456deadfeb451
+  tag: 0.1.38-rocm@sha256:e166266bc2882b07573d78b25b3dcdd7d1d35dd37a96dd50c7c031666e842a78
 uiImage:
   repository: ghcr.io/open-webui/open-webui
   pullPolicy: IfNotPresent
