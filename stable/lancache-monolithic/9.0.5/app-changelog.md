@@ -1,6 +1,6 @@
 
 
-## [lancache-monolithic-9.0.5](https://github.com/truecharts/charts/compare/lancache-monolithic-8.6.0...lancache-monolithic-9.0.5) (2024-05-15)
+## [lancache-monolithic-9.0.5](https://github.com/truecharts/charts/compare/lancache-monolithic-8.6.0...lancache-monolithic-9.0.5) (2024-05-16)
 
 ### Chore
 

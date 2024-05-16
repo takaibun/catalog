@@ -1,6 +1,6 @@
 
 
-## [grafana-15.1.1](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-15.1.1) (2024-05-15)
+## [grafana-15.1.1](https://github.com/truecharts/charts/compare/grafana-14.7.0...grafana-15.1.1) (2024-05-16)
 
 ### Chore
 

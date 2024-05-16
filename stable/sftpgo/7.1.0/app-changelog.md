@@ -1,6 +1,6 @@
 
 
-## [sftpgo-7.1.0](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-7.1.0) (2024-05-15)
+## [sftpgo-7.1.0](https://github.com/truecharts/charts/compare/sftpgo-6.6.0...sftpgo-7.1.0) (2024-05-16)
 
 ### Chore
 
