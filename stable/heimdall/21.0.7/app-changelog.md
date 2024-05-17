@@ -1,24 +1,24 @@
 
 
-## [heimdall-21.0.5](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-21.0.5) (2024-05-06)
+## [heimdall-21.0.7](https://github.com/truecharts/charts/compare/heimdall-20.6.0...heimdall-21.0.7) (2024-05-17)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
-
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
 
 - bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - update container image linuxserver/heimdall to v[@5d8bd74](https://github.com/5d8bd74) by renovate ([#20683](https://github.com/truecharts/charts/issues/20683))
 
@@ -26,15 +26,19 @@
 
 - update container image linuxserver/heimdall to v[@de39113](https://github.com/de39113) by renovate ([#21404](https://github.com/truecharts/charts/issues/21404))
 
+- update container image linuxserver/heimdall to v[@d4753c2](https://github.com/d4753c2) by renovate ([#21535](https://github.com/truecharts/charts/issues/21535))
+
+- update container image linuxserver/heimdall to v[@c4ff101](https://github.com/c4ff101) by renovate ([#19267](https://github.com/truecharts/charts/issues/19267))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image linuxserver/heimdall to v[@265319a](https://github.com/265319a) by renovate ([#21025](https://github.com/truecharts/charts/issues/21025))
 
-- update container image linuxserver/heimdall to v[@d4753c2](https://github.com/d4753c2) by renovate ([#21535](https://github.com/truecharts/charts/issues/21535))
+- update container image linuxserver/heimdall to v[@dfc482a](https://github.com/dfc482a) by renovate ([#21882](https://github.com/truecharts/charts/issues/21882))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image linuxserver/heimdall to v[@c4ff101](https://github.com/c4ff101) by renovate ([#19267](https://github.com/truecharts/charts/issues/19267))
+- update container image linuxserver/heimdall to v[@37b13df](https://github.com/37b13df) by renovate ([#22191](https://github.com/truecharts/charts/issues/22191))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
