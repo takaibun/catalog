@@ -1,6 +1,6 @@
 
 
-## [plextraktsync-8.1.6](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-8.1.6) (2024-05-16)
+## [plextraktsync-8.1.6](https://github.com/truecharts/charts/compare/plextraktsync-7.7.0...plextraktsync-8.1.6) (2024-05-17)
 
 ### Chore
 

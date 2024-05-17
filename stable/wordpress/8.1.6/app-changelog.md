@@ -1,6 +1,6 @@
 
 
-## [wordpress-8.1.6](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-8.1.6) (2024-05-16)
+## [wordpress-8.1.6](https://github.com/truecharts/charts/compare/wordpress-7.9.0...wordpress-8.1.6) (2024-05-17)
 
 ### Chore
 

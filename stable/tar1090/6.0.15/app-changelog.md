@@ -1,6 +1,6 @@
 
 
-## [tar1090-6.0.15](https://github.com/truecharts/charts/compare/tar1090-5.6.0...tar1090-6.0.15) (2024-05-16)
+## [tar1090-6.0.15](https://github.com/truecharts/charts/compare/tar1090-5.6.0...tar1090-6.0.15) (2024-05-17)
 
 ### Chore
 
