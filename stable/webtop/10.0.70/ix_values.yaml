@@ -1,0 +1,125 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: lscr.io/linuxserver/webtop
+  tag: latest@sha256:668ba0e4db1aea0a1338dfc1d1c211a38ffe4565ce299c30d8117328ac478a91
+ubuntuXFCEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: ubuntu-xfce@sha256:90631e941bad07c18b0da2e7c4998e69118bb7b323e810566b17c2a41a649569
+  pullPolicy: Always
+fedoraXFCEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: fedora-xfce@sha256:8154960fb4b7891b4be105d80ef6ce9c3b3026839ea243eea5c6988365121780
+  pullPolicy: Always
+archXFCEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: arch-xfce@sha256:c4517b4c3331fadc3ed6c4d500937f18fa8c31ab57f8a6cd17d2fd82fc97690a
+  pullPolicy: Always
+alpineKDEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: alpine-kde@sha256:4eb3075ac860687678b38a23237a1d59d712d05a310478bfee2ec6a50213805c
+  pullPolicy: Always
+ubuntuKDEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: ubuntu-kde@sha256:cf92d665d03dcb83d70056d19d2caa5098b28ac51458d9f7e0bd36584ffbee41
+  pullPolicy: Always
+fedoraKDEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: fedora-kde@sha256:52b59d5409a2bd224a04d8093b6a9111cc3bc93a4a77c6ff036cd9586d59f8cc
+  pullPolicy: Always
+archKDEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: arch-kde@sha256:bb685bec7ce01ed158e91e4bcbf38c0a691945ea4de254c8f8fb6b3222346e40
+  pullPolicy: Always
+alpineMATEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: alpine-mate@sha256:4994c408872226398d85537f4754eff3ef6fbc3e2a3cfbe4991b161e5f2a4034
+  pullPolicy: Always
+ubuntuMATEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: ubuntu-mate@sha256:2ba7c5fd9ccd6559b05777aabc736af64da735131ffe10457bee357f1ad3787a
+  pullPolicy: Always
+fedoraMATEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: fedora-mate@sha256:0f46c634d0cf8182eeaea0a4f08af6a37bd979f886302f2ed3240a73b183cdd6
+  pullPolicy: Always
+archMATEImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: arch-mate@sha256:a69f4cce1415770865a289cb4a6a7e429cb71bbbe089100e6a41efc1dad5e36d
+  pullPolicy: Always
+alpineI3Image:
+  repository: lscr.io/linuxserver/webtop
+  tag: alpine-i3@sha256:23cd4eb3a54fb713f8df1746a345180e2fd3a37ab01c3adc7bc058f8c280f452
+  pullPolicy: Always
+ubuntuI3Image:
+  repository: lscr.io/linuxserver/webtop
+  tag: ubuntu-i3@sha256:63b82d704d13d6861fa70f0f5709a1726b3213ef6f61195f1137b724944da598
+  pullPolicy: Always
+fedoraI3Image:
+  repository: lscr.io/linuxserver/webtop
+  tag: fedora-i3@sha256:0e891e503374d4456cf687582eea30afdb21874d048b72436b74f4409059add5
+  pullPolicy: Always
+archI3Image:
+  repository: lscr.io/linuxserver/webtop
+  tag: arch-i3@sha256:16f869ff754598162a3255c57c5f3572d2d9c7321410fac0eb5a7ae4434013fa
+  pullPolicy: Always
+alpineOpenBoxImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: alpine-openbox@sha256:bbec89fd3ee634169cd3e66e239da5955dc04ac7ba231124af18e8b7212482f9
+  pullPolicy: Always
+ubuntuOpenBoxImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: ubuntu-openbox@sha256:dc19f0e6bac8fefddc9e8ef8b8c9e981d0d5984672795aba331528a3a6197a37
+  pullPolicy: Always
+fedoraOpenBoxImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: fedora-openbox@sha256:ed202e49fd1471b22cc1a8d54cc78c942a47984ccc3a6bacecc85893d644fa4b
+  pullPolicy: Always
+archOpenBoxImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: arch-openbox@sha256:80d96cb0416eb6220fb9873219e0a54c657cd018bdb4cb7ba0acf18239b88a12
+  pullPolicy: Always
+alpineICEWMImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: alpine-icewm@sha256:77a701bf2eea2a6aca21c7db898fb7c6ea3f60473e3c5ffe6da7c2f38ca8b601
+  pullPolicy: Always
+ubuntuICEWMImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: ubuntu-icewm@sha256:33d7775db145235f15506d6c0f8506a5dfe958960e1610242b81b4198773012b
+  pullPolicy: Always
+fedoraICEWMImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: fedora-icewm@sha256:2008875ff4792b28ff4c79b501cd5a8e558e9b63f6954cc10b6082b408968e7d
+  pullPolicy: Always
+archICEWMImage:
+  repository: lscr.io/linuxserver/webtop
+  tag: arch-icewm@sha256:fb4c67cf72ea919d303da3f6d5d6479c3f2a4510ca30839408ce2094c7119151
+  pullPolicy: Always
+service:
+  main:
+    ports:
+      main:
+        port: 33000
+        protocol: http
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsGroup: 0
+    runAsUser: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          imageSelector: image
+          env:
+            KEYBOARD: "en-us-qwerty"
+            CUSTOM_PORT: "{{ .Values.service.main.ports.main.port }}"
+updated: true
