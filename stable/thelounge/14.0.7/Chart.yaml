@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Downloaders
+  truecharts.org/category: utilities
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 4.6.0
+appVersion: 4.4.3
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,22 +17,24 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: A simple script to monitor qBit and communicate with Radarr and Sonarr.
-home: https://truecharts.org/charts/stable/qbitrr
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/qbitrr.webp
+description: The Lounge, modern web IRC client designed for self-hosting
+home: https://truecharts.org/charts/stable/thelounge
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/thelounge.webp
 keywords:
-  - qbitrr
-  - Downloaders
-  - MediaApp-Other
-kubeVersion: ">=1.24.0-0"
+  - thelounge
+  - IRC
+  - The Lounge
+  - docker
+  - thelounge-docker
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: qbitrr
+name: thelounge
 sources:
-  - https://github.com/Feramance/Qbitrr
-  - https://github.com/truecharts/charts/tree/master/charts/stable/qbitrr
-  - https://hub.docker.com/r/feramance/qbitrr
+  - https://github.com/thelounge/thelounge
+  - https://github.com/truecharts/charts/tree/master/charts/stable/thelounge
+  - https://hub.docker.com/r/thelounge/thelounge
 type: application
-version: 5.2.0
+version: 14.0.7
