@@ -1,6 +1,6 @@
 
 
-## [steam-headless-4.0.6](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-4.0.6) (2024-05-09)
+## [steam-headless-4.0.8](https://github.com/truecharts/charts/compare/steam-headless-3.6.0...steam-headless-4.0.8) (2024-05-18)
 
 ### Chore
 
@@ -12,29 +12,33 @@
 
 - bump everything to regenerate readme's and site index
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image josh5/steam-headless to latest[@e1367b0](https://github.com/e1367b0) by renovate ([#19981](https://github.com/truecharts/charts/issues/19981))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
 - update container image josh5/steam-headless to latest[@ee9a5ae](https://github.com/ee9a5ae) by renovate ([#21403](https://github.com/truecharts/charts/issues/21403))
 
 - update container image josh5/steam-headless to latest[@2d562c9](https://github.com/2d562c9) by renovate ([#21533](https://github.com/truecharts/charts/issues/21533))
 
+- update container image josh5/steam-headless to latest[@6633416](https://github.com/6633416) by renovate ([#19266](https://github.com/truecharts/charts/issues/19266))
+
+- update container image josh5/steam-headless to latest[@c3f5614](https://github.com/c3f5614) by renovate ([#21760](https://github.com/truecharts/charts/issues/21760))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
 - update container image josh5/steam-headless to latest[@942a5b9](https://github.com/942a5b9) by renovate ([#21039](https://github.com/truecharts/charts/issues/21039))
 
-- update container image josh5/steam-headless to latest[@6633416](https://github.com/6633416) by renovate ([#19266](https://github.com/truecharts/charts/issues/19266))
+- update container image josh5/steam-headless to latest[@89d64ca](https://github.com/89d64ca) by renovate ([#21897](https://github.com/truecharts/charts/issues/21897))
 
-- update container image josh5/steam-headless to latest[@c3f5614](https://github.com/c3f5614) by renovate ([#21760](https://github.com/truecharts/charts/issues/21760))
+- update container image josh5/steam-headless to latest[@f2efa7c](https://github.com/f2efa7c) by renovate ([#22200](https://github.com/truecharts/charts/issues/22200))
 
 - update container image josh5/steam-headless to latest[@5ef3064](https://github.com/5ef3064) by renovate ([#20693](https://github.com/truecharts/charts/issues/20693))
 
@@ -42,7 +46,7 @@
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -52,7 +56,7 @@
 
 - update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image josh5/steam-headless to latest[@e1367b0](https://github.com/e1367b0) by renovate ([#19981](https://github.com/truecharts/charts/issues/19981))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
