@@ -1,6 +1,6 @@
 
 
-## [external-dns-5.0.6](https://github.com/truecharts/charts/compare/external-dns-4.6.0...external-dns-5.0.6) (2024-05-17)
+## [external-dns-5.0.6](https://github.com/truecharts/charts/compare/external-dns-4.6.0...external-dns-5.0.6) (2024-05-18)
 
 ### Chore
 
