@@ -1,6 +1,6 @@
 
 
-## [jackett-21.0.20](https://github.com/truecharts/charts/compare/jackett-19.6.0...jackett-21.0.20) (2024-05-18)
+## [jackett-21.0.20](https://github.com/truecharts/charts/compare/jackett-19.6.0...jackett-21.0.20) (2024-05-19)
 
 ### Chore
 

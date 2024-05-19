@@ -1,6 +1,6 @@
 
 
-## [xen-orchestra-9.2.0](https://github.com/truecharts/charts/compare/xen-orchestra-8.7.0...xen-orchestra-9.2.0) (2024-05-18)
+## [xen-orchestra-9.2.0](https://github.com/truecharts/charts/compare/xen-orchestra-8.7.0...xen-orchestra-9.2.0) (2024-05-19)
 
 ### Chore
 
