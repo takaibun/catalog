@@ -1,12 +1,16 @@
 
 
-## [posterr-9.0.6](https://github.com/truecharts/charts/compare/posterr-8.6.0...posterr-9.0.6) (2024-05-06)
+## [posterr-9.0.8](https://github.com/truecharts/charts/compare/posterr-8.6.0...posterr-9.0.8) (2024-05-19)
 
 ### Chore
 
 
 
+- bump everything to release new doc pages
+
 - bump charts to ensure new icons are released
+
+- bump everything to regenerate readme's and site index
 
 - bump charts to release new docs to fix broken links
 
@@ -14,27 +18,27 @@
 
 - bump common
 
-- bump everything to regenerate readme's and site index
-
-- bump everything to release new doc pages
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
-
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
-
 - update container image petersem/posterr to latest[@2b0f4ed](https://github.com/2b0f4ed) by renovate ([#21547](https://github.com/truecharts/charts/issues/21547))
+
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
+- update container image petersem/posterr to latest[@3e85bee](https://github.com/3e85bee) by renovate ([#22223](https://github.com/truecharts/charts/issues/22223))
+
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image common to v23.0.5[@c887440](https://github.com/c887440) by renovate ([#21765](https://github.com/truecharts/charts/issues/21765))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 

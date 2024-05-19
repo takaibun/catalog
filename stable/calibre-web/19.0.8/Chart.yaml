@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 0.0.9
+appVersion: 0.6.21
 dependencies:
   - name: common
     version: 23.0.0
@@ -17,22 +17,22 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Budge is an open source 'budgeting with envelopes' personal finance app.
-home: https://truecharts.org/charts/stable/budge
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/budge.webp
+description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database.
+home: https://truecharts.org/charts/stable/calibre-web
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/calibre-web.webp
 keywords:
-  - finance
-  - budge
-kubeVersion: ">=1.24.0-0"
+  - calibre-web
+  - calibre
+  - ebook
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: budge
+name: calibre-web
 sources:
-  - https://github.com/linuxserver/budge
-  - https://github.com/linuxserver/docker-BudgE
-  - https://github.com/truecharts/charts/tree/master/charts/stable/budge
-  - https://ghcr.io/linuxserver/budge
+  - https://github.com/janeczku/calibre-web
+  - https://github.com/truecharts/charts/tree/master/charts/stable/calibre-web
+  - https://hub.docker.com/r/linuxserver/calibre-web
 type: application
-version: 10.0.6
+version: 19.0.8
