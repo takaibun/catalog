@@ -1,6 +1,6 @@
 
 
-## [volsync-1.0.5]volsync-1.0.5 (2024-05-19)
+## [volsync-1.0.7]volsync-1.0.7 (2024-05-19)
 
 ### Chore
 
@@ -13,6 +13,8 @@
 - update ignored by renovate (patch) ([#21597](https://github.com/truecharts/charts/issues/21597))
 
 - exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
+
+- remove credentials option for volsync as it has not database or persistence
 
 ### Feat
 
