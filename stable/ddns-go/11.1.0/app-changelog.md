@@ -1,36 +1,42 @@
 
 
-## [ddns-go-11.0.4](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-11.0.4) (2024-04-30)
+## [ddns-go-11.1.0](https://github.com/truecharts/charts/compare/ddns-go-10.7.0...ddns-go-11.1.0) (2024-05-19)
 
 ### Chore
 
 
 
-- bump charts to release new docs to fix broken links
-
-- bump common
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
+
 - bump everything to regenerate readme's and site index
 
-- bump everything to release new doc pages
+- bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
 - update container image jeessy/ddns-go to v6.3.2[@2e7d5c4](https://github.com/2e7d5c4) by renovate ([#20442](https://github.com/truecharts/charts/issues/20442))
 
+- update container image jeessy/ddns-go to v6.3.3[@44d6d76](https://github.com/44d6d76) by renovate ([#21170](https://github.com/truecharts/charts/issues/21170))
+
+- update container image jeessy/ddns-go to v6.5.0[@6a59ec4](https://github.com/6a59ec4) by renovate ([#21422](https://github.com/truecharts/charts/issues/21422))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image jeessy/ddns-go to v6.3.3[@44d6d76](https://github.com/44d6d76) by renovate ([#21170](https://github.com/truecharts/charts/issues/21170))
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image jeessy/ddns-go to v6.6.0[@61154e6](https://github.com/61154e6) by renovate ([#22244](https://github.com/truecharts/charts/issues/22244))
 
-- update container image jeessy/ddns-go to v6.5.0[@6a59ec4](https://github.com/6a59ec4) by renovate ([#21422](https://github.com/truecharts/charts/issues/21422))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
@@ -56,7 +62,7 @@
 
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 
 ### Chore
 
