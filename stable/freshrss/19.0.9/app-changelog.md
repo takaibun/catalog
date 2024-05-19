@@ -1,12 +1,12 @@
 
 
-## [freshrss-19.0.7](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-19.0.7) (2024-05-13)
+## [freshrss-19.0.9](https://github.com/truecharts/charts/compare/freshrss-18.6.0...freshrss-19.0.9) (2024-05-19)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -14,27 +14,31 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump everything to release new doc pages
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
+- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/freshrss to 1.23.1[@549562f](https://github.com/549562f) by renovate ([#21125](https://github.com/truecharts/charts/issues/21125))
 
 - update container image ghcr.io/linuxserver/freshrss to 1.23.1[@5be640f](https://github.com/5be640f) by renovate ([#21497](https://github.com/truecharts/charts/issues/21497))
 
 - update container image ghcr.io/linuxserver/freshrss to 1.23.1[@bf0e8c7](https://github.com/bf0e8c7) by renovate ([#21649](https://github.com/truecharts/charts/issues/21649))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
-
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/linuxserver/freshrss to 1.23.1[@33753c9](https://github.com/33753c9) by renovate ([#21950](https://github.com/truecharts/charts/issues/21950))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
+- update container image ghcr.io/linuxserver/freshrss to 1.23.1[@e61727a](https://github.com/e61727a) by renovate ([#22248](https://github.com/truecharts/charts/issues/22248))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -42,7 +46,7 @@
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
@@ -52,7 +56,7 @@
 
 - update container image ghcr.io/linuxserver/freshrss to 1.23.1[@efbcc9d](https://github.com/efbcc9d) by renovate ([#20049](https://github.com/truecharts/charts/issues/20049))
 
-- update container image ghcr.io/linuxserver/freshrss to 1.23.1[@549562f](https://github.com/549562f) by renovate ([#21125](https://github.com/truecharts/charts/issues/21125))
+- update container image common to v20.2.10[@6f99c97](https://github.com/6f99c97) by renovate ([#19876](https://github.com/truecharts/charts/issues/19876))
 
 - update container image common to v20.2.9[@10fd6c5](https://github.com/10fd6c5) by renovate ([#19817](https://github.com/truecharts/charts/issues/19817))
 
