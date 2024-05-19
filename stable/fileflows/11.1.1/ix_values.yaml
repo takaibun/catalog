@@ -1,0 +1,50 @@
+image:
+  repository: revenz/fileflows
+  tag: 24.05@sha256:c41ff5b6b521fc541a2e0f3e92aa488670650f3779a1b6d798c7cee366ca1777
+  pullPolicy: IfNotPresent
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+    allowPrivilegeEscalation: true
+    privileged: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+              path: /
+            readiness:
+              type: http
+              path: /
+            startup:
+              type: http
+              path: /
+          env: {}
+service:
+  main:
+    ports:
+      main:
+        port: 10242
+        targetPort: 5000
+persistence:
+  data:
+    enabled: true
+    mountPath: /app/Data
+  logs:
+    enabled: true
+    mountPath: /app/Logs
+  temp:
+    enabled: true
+    mountPath: /temp
+  media:
+    enabled: true
+    mountPath: /media
+portal:
+  open:
+    enabled: true
