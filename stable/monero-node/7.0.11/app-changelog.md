@@ -1,12 +1,12 @@
 
 
-## [monero-node-7.0.9](https://github.com/truecharts/charts/compare/monero-node-6.5.0...monero-node-7.0.9) (2024-05-19)
+## [monero-node-7.0.11](https://github.com/truecharts/charts/compare/monero-node-6.5.0...monero-node-7.0.11) (2024-05-20)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
 
@@ -16,7 +16,7 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to release new doc pages
 
 - bump common
 
@@ -26,19 +26,23 @@
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@38cec95](https://github.com/38cec95) by renovate ([#21527](https://github.com/truecharts/charts/issues/21527))
+- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@d3d755e](https://github.com/d3d755e) by renovate ([#21176](https://github.com/truecharts/charts/issues/21176))
 
 - update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@1d6fa54](https://github.com/1d6fa54) by renovate ([#19309](https://github.com/truecharts/charts/issues/19309))
 
 - update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@3d3ae37](https://github.com/3d3ae37) by renovate ([#21697](https://github.com/truecharts/charts/issues/21697))
 
+- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@9f5de14](https://github.com/9f5de14) by renovate ([#21989](https://github.com/truecharts/charts/issues/21989))
+
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@9f5de14](https://github.com/9f5de14) by renovate ([#21989](https://github.com/truecharts/charts/issues/21989))
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@55354f0](https://github.com/55354f0) by renovate ([#22297](https://github.com/truecharts/charts/issues/22297))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -46,7 +50,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@d3d755e](https://github.com/d3d755e) by renovate ([#21176](https://github.com/truecharts/charts/issues/21176))
+- update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@38cec95](https://github.com/38cec95) by renovate ([#21527](https://github.com/truecharts/charts/issues/21527))
 
 - update container image ghcr.io/sethforprivacy/simple-monerod to v0.18.3.3[@f065d20](https://github.com/f065d20) by renovate ([#20433](https://github.com/truecharts/charts/issues/20433))
 
