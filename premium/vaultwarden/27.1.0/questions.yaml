@@ -319,6 +319,16 @@ questions:
                               type: dict
                               attrs:
 
+                                - variable: imageSelector
+                                  label: Select Image
+                                  schema:
+                                    type: string
+                                    default: image
+                                    enum:
+                                      - value: image
+                                        description: "Official Image"
+                                      - value: betaImage
+                                        description: "TimShel - SSO BETA Image"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
