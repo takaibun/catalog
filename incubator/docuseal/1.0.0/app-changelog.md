@@ -1,6 +1,6 @@
 
 
-## [docuseal-1.0.0]docuseal-1.0.0 (2024-05-19)
+## [docuseal-1.0.0]docuseal-1.0.0 (2024-05-20)
 
 ### Feat
 

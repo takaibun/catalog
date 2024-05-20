@@ -1,6 +1,6 @@
 
 
-## [immich-15.13.5](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-15.13.5) (2024-05-19)
+## [immich-15.13.5](https://github.com/truecharts/charts/compare/immich-13.0.1...immich-15.13.5) (2024-05-20)
 
 ### Chore
 
