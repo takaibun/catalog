@@ -1,6 +1,6 @@
 
 
-## [duckdns-10.0.7](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-10.0.7) (2024-05-14)
+## [duckdns-10.0.9](https://github.com/truecharts/charts/compare/duckdns-9.6.0...duckdns-10.0.9) (2024-05-20)
 
 ### Chore
 
@@ -12,13 +12,13 @@
 
 - bump everything to regenerate readme's and site index
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - bump charts to release new docs to fix broken links
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+
+- bump common
 
 - update container image ghcr.io/linuxserver/duckdns to latest[@33f7c70](https://github.com/33f7c70) by renovate ([#20791](https://github.com/truecharts/charts/issues/20791))
 
@@ -28,13 +28,17 @@
 
 - update container image ghcr.io/linuxserver/duckdns to latest[@e404c0e](https://github.com/e404c0e) by renovate ([#21671](https://github.com/truecharts/charts/issues/21671))
 
+- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image ghcr.io/linuxserver/duckdns to latest[@74a779f](https://github.com/74a779f) by renovate ([#21963](https://github.com/truecharts/charts/issues/21963))
+
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
-- update container image ghcr.io/linuxserver/duckdns to latest[@74a779f](https://github.com/74a779f) by renovate ([#21963](https://github.com/truecharts/charts/issues/21963))
+- update container image ghcr.io/linuxserver/duckdns to latest[@b4c89a7](https://github.com/b4c89a7) by renovate ([#22270](https://github.com/truecharts/charts/issues/22270))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 

@@ -1,6 +1,6 @@
 
 
-## [ollama-6.0.22](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-6.0.22) (2024-05-19)
+## [ollama-6.0.24](https://github.com/truecharts/charts/compare/ollama-5.1.1...ollama-6.0.24) (2024-05-20)
 
 ### Chore
 
@@ -22,9 +22,13 @@
 
 - update container image ghcr.io/open-webui/open-webui to latest[@3da4803](https://github.com/3da4803) by renovate ([#20893](https://github.com/truecharts/charts/issues/20893))
 
-- update container image ollama/ollama to 0.1.32-rocm[@ef33aab](https://github.com/ef33aab) by renovate ([#20813](https://github.com/truecharts/charts/issues/20813))
-
 - update container image ollama/ollama to v0.1.34 by renovate ([#21755](https://github.com/truecharts/charts/issues/21755))
+
+- update container image ollama/ollama to 0.1.32-rocm[@31c8bbf](https://github.com/31c8bbf) by renovate ([#20834](https://github.com/truecharts/charts/issues/20834))
+
+- update container image ghcr.io/open-webui/open-webui to latest[@ade2702](https://github.com/ade2702) by renovate ([#21798](https://github.com/truecharts/charts/issues/21798))
+
+- update container image ollama/ollama to 0.1.32-rocm[@ef33aab](https://github.com/ef33aab) by renovate ([#20813](https://github.com/truecharts/charts/issues/20813))
 
 - update container image ghcr.io/open-webui/open-webui to latest[@74b95a7](https://github.com/74b95a7) by renovate ([#19262](https://github.com/truecharts/charts/issues/19262))
 
@@ -32,9 +36,9 @@
 
 - update container image ghcr.io/open-webui/open-webui to latest[@ab62ecc](https://github.com/ab62ecc) by renovate ([#21526](https://github.com/truecharts/charts/issues/21526))
 
-- update container image ghcr.io/open-webui/open-webui to latest[@68bb67e](https://github.com/68bb67e) by renovate ([#21805](https://github.com/truecharts/charts/issues/21805))
+- update container image ollama/ollama to v0.1.36 by renovate ([#21911](https://github.com/truecharts/charts/issues/21911))
 
-- update container image ollama/ollama to v0.1.35 by renovate ([#21890](https://github.com/truecharts/charts/issues/21890))
+- update container image ollama/ollama to v0.1.37 by renovate ([#21929](https://github.com/truecharts/charts/issues/21929))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
@@ -48,13 +52,13 @@
 
 - update container image ghcr.io/open-webui/open-webui to latest[@48c7193](https://github.com/48c7193) by renovate ([#21126](https://github.com/truecharts/charts/issues/21126))
 
-- update container image ollama/ollama to v0.1.36 by renovate ([#21911](https://github.com/truecharts/charts/issues/21911))
-
-- update container image ollama/ollama to v0.1.37 by renovate ([#21929](https://github.com/truecharts/charts/issues/21929))
-
 - update container image ollama/ollama to v0.1.38 by renovate ([#22075](https://github.com/truecharts/charts/issues/22075))
 
 - update container image ollama/ollama to 0.1.38-rocm[@e166266](https://github.com/e166266) by renovate ([#22112](https://github.com/truecharts/charts/issues/22112))
+
+- update container image ollama/ollama to 0.1.38[@b2359a6](https://github.com/b2359a6) by renovate ([#22113](https://github.com/truecharts/charts/issues/22113))
+
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
 
 - update container image ghcr.io/open-webui/open-webui to latest[@9e612d9](https://github.com/9e612d9) by renovate ([#21104](https://github.com/truecharts/charts/issues/21104))
 
@@ -64,19 +68,19 @@
 
 - update container image ollama/ollama to 0.1.32[@c5018bf](https://github.com/c5018bf) by renovate ([#20898](https://github.com/truecharts/charts/issues/20898))
 
-- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+- update container image ollama/ollama to 0.1.32[@b7f5293](https://github.com/b7f5293) by renovate ([#20814](https://github.com/truecharts/charts/issues/20814))
 
-- update container image ollama/ollama to 0.1.38[@b2359a6](https://github.com/b2359a6) by renovate ([#22113](https://github.com/truecharts/charts/issues/22113))
+- update container image ghcr.io/open-webui/open-webui to latest[@571e1f1](https://github.com/571e1f1) by renovate ([#22260](https://github.com/truecharts/charts/issues/22260))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image ollama/ollama to 0.1.32[@c6b4516](https://github.com/c6b4516) by renovate ([#20835](https://github.com/truecharts/charts/issues/20835))
 
-- update container image ollama/ollama to 0.1.32-rocm[@31c8bbf](https://github.com/31c8bbf) by renovate ([#20834](https://github.com/truecharts/charts/issues/20834))
+- update container image ghcr.io/open-webui/open-webui to latest[@68bb67e](https://github.com/68bb67e) by renovate ([#21805](https://github.com/truecharts/charts/issues/21805))
 
-- update container image ghcr.io/open-webui/open-webui to latest[@ade2702](https://github.com/ade2702) by renovate ([#21798](https://github.com/truecharts/charts/issues/21798))
+- update container image ollama/ollama to v0.1.35 by renovate ([#21890](https://github.com/truecharts/charts/issues/21890))
 
-- update container image ollama/ollama to 0.1.32[@b7f5293](https://github.com/b7f5293) by renovate ([#20814](https://github.com/truecharts/charts/issues/20814))
+- update container image ghcr.io/open-webui/open-webui to latest[@3b6bff2](https://github.com/3b6bff2) by renovate ([#22271](https://github.com/truecharts/charts/issues/22271))
 
 - update container image ollama/ollama to v0.1.32 by renovate ([#20796](https://github.com/truecharts/charts/issues/20796))
 
