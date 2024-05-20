@@ -1,12 +1,12 @@
 
 
-## [rflood-6.0.7](https://github.com/truecharts/charts/compare/rflood-5.6.0...rflood-6.0.7) (2024-05-20)
+## [rflood-6.0.9](https://github.com/truecharts/charts/compare/rflood-5.6.0...rflood-6.0.9) (2024-05-20)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -14,15 +14,19 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump everything to release new doc pages
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
 
-- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
+- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+
+- update container image ghcr.io/hotio/rflood to latest[@41e7782](https://github.com/41e7782) by renovate ([#21370](https://github.com/truecharts/charts/issues/21370))
+
+- update container image ghcr.io/hotio/rflood to latest[@9d4954c](https://github.com/9d4954c) by renovate ([#21358](https://github.com/truecharts/charts/issues/21358))
 
 - update container image ghcr.io/hotio/rflood to latest[@1bbfbe5](https://github.com/1bbfbe5) by renovate ([#21323](https://github.com/truecharts/charts/issues/21323))
 
@@ -30,27 +34,27 @@
 
 - update container image ghcr.io/hotio/rflood to latest[@ab18eb4](https://github.com/ab18eb4) by renovate ([#21160](https://github.com/truecharts/charts/issues/21160))
 
-- update container image ghcr.io/hotio/rflood to latest[@41e7782](https://github.com/41e7782) by renovate ([#21370](https://github.com/truecharts/charts/issues/21370))
-
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
-
 - update container image ghcr.io/hotio/rflood to latest[@8e47ec9](https://github.com/8e47ec9) by renovate ([#21486](https://github.com/truecharts/charts/issues/21486))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image ghcr.io/hotio/rflood to latest[@d17c7ac](https://github.com/d17c7ac) by renovate ([#22235](https://github.com/truecharts/charts/issues/22235))
+
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
 
 - update container image ghcr.io/hotio/rflood to latest[@c311804](https://github.com/c311804) by renovate ([#21101](https://github.com/truecharts/charts/issues/21101))
 
 - update container image ghcr.io/hotio/rflood to latest[@5726abe](https://github.com/5726abe) by renovate ([#21063](https://github.com/truecharts/charts/issues/21063))
 
-- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+- update container image ghcr.io/hotio/rflood to latest[@e04c563](https://github.com/e04c563) by renovate ([#22282](https://github.com/truecharts/charts/issues/22282))
 
 - update container image ghcr.io/hotio/rflood to latest[@eefe637](https://github.com/eefe637) by renovate ([#21048](https://github.com/truecharts/charts/issues/21048))
 
 - update container image ghcr.io/hotio/rflood to latest[@5a7148c](https://github.com/5a7148c) by renovate ([#20995](https://github.com/truecharts/charts/issues/20995))
 
-- update container image ghcr.io/hotio/rflood to latest[@d17c7ac](https://github.com/d17c7ac) by renovate ([#22235](https://github.com/truecharts/charts/issues/22235))
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
 
-- update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image ghcr.io/hotio/rflood to latest[@ef2655c](https://github.com/ef2655c) by renovate ([#20750](https://github.com/truecharts/charts/issues/20750))
 
@@ -64,7 +68,7 @@
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image ghcr.io/hotio/rflood to latest[@9d4954c](https://github.com/9d4954c) by renovate ([#21358](https://github.com/truecharts/charts/issues/21358))
+- update container image common to v20.3.2[@0722ebb](https://github.com/0722ebb) by renovate ([#20334](https://github.com/truecharts/charts/issues/20334))
 
 - update container image ghcr.io/hotio/rflood to latest[@2b173a9](https://github.com/2b173a9) by renovate ([#20359](https://github.com/truecharts/charts/issues/20359))
 
