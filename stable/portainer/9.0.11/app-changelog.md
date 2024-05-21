@@ -1,24 +1,24 @@
 
 
-## [portainer-9.0.8](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-9.0.8) (2024-05-20)
+## [portainer-9.0.11](https://github.com/truecharts/charts/compare/portainer-8.6.0...portainer-9.0.11) (2024-05-21)
 
 ### Chore
 
 
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- bump everything to release new doc pages
 
 - bump charts to ensure new icons are released
 
 - bump everything to regenerate readme's and site index
 
+- bump charts to release new docs to fix broken links
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump common
-
-- bump charts to release new docs to fix broken links
-
-- bump everything to release new doc pages
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
@@ -26,11 +26,15 @@
 
 - update portainer to v2.20.2[@b41dfa2](https://github.com/b41dfa2) by renovate (patch) ([#21598](https://github.com/truecharts/charts/issues/21598))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
-
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
+
+- update portainer to v2.20.3[@f5277f6](https://github.com/f5277f6) by renovate (patch) ([#22312](https://github.com/truecharts/charts/issues/22312))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 

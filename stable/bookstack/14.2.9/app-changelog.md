@@ -1,6 +1,6 @@
 
 
-## [bookstack-14.2.7](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-14.2.7) (2024-05-20)
+## [bookstack-14.2.9](https://github.com/truecharts/charts/compare/bookstack-13.5.0...bookstack-14.2.9) (2024-05-21)
 
 ### Chore
 
@@ -20,9 +20,13 @@
 
 - bump everything to regenerate readme's and site index
 
-- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
+- update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
+
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
+- update container image mariadb to v14.0.8[@b2dec75](https://github.com/b2dec75) by renovate ([#22091](https://github.com/truecharts/charts/issues/22091))
 
 - update container image mariadb to v14.0.7[@2762546](https://github.com/2762546) by renovate ([#21993](https://github.com/truecharts/charts/issues/21993))
 
@@ -38,9 +42,9 @@
 
 - update container image mariadb to v13.9.19[@566472c](https://github.com/566472c) by renovate ([#21255](https://github.com/truecharts/charts/issues/21255))
 
-- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22254](https://github.com/truecharts/charts/issues/22254))
 
-- update container image mariadb to v14.0.9[@e0726e3](https://github.com/e0726e3) by renovate ([#22255](https://github.com/truecharts/charts/issues/22255))
+- update container image mariadb to v14.0.9[@e0726e3](https://github.com/e0726e3) by renovate ([#22278](https://github.com/truecharts/charts/issues/22278))
 
 - update container image mariadb to v13.9.18[@c5a61ea](https://github.com/c5a61ea) by renovate ([#21200](https://github.com/truecharts/charts/issues/21200))
 
@@ -52,25 +56,25 @@
 
 - update container image mariadb to v13.9.11[@5682449](https://github.com/5682449) by renovate ([#20910](https://github.com/truecharts/charts/issues/20910))
 
-- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22254](https://github.com/truecharts/charts/issues/22254))
+- update container image mariadb to v14.0.10[@e01061f](https://github.com/e01061f) by renovate ([#22290](https://github.com/truecharts/charts/issues/22290))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image mariadb to v13.9.8[@ab62124](https://github.com/ab62124) by renovate ([#20563](https://github.com/truecharts/charts/issues/20563))
 
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
+- update container image ghcr.io/linuxserver/bookstack to v24.05.20240520[@02623a4](https://github.com/02623a4) by renovate ([#22310](https://github.com/truecharts/charts/issues/22310))
 
 - update container image mariadb to v13.9.6[@04feaf4](https://github.com/04feaf4) by renovate ([#20551](https://github.com/truecharts/charts/issues/20551))
 
-- update container image mariadb to v14.0.9[@e0726e3](https://github.com/e0726e3) by renovate ([#22278](https://github.com/truecharts/charts/issues/22278))
+- update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image mariadb to v13.9.5[@8b3f2b4](https://github.com/8b3f2b4) by renovate ([#20530](https://github.com/truecharts/charts/issues/20530))
+- update container image mariadb to v14.0.9[@e0726e3](https://github.com/e0726e3) by renovate ([#22255](https://github.com/truecharts/charts/issues/22255))
 
 - update container image mariadb to v13.9.3[@e022205](https://github.com/e022205) by renovate ([#20494](https://github.com/truecharts/charts/issues/20494))
 
-- update container image mariadb to v14.0.8[@b2dec75](https://github.com/b2dec75) by renovate ([#22091](https://github.com/truecharts/charts/issues/22091))
+- update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
 - update container image mariadb to v13.9.1[@ff7f195](https://github.com/ff7f195) by renovate ([#20454](https://github.com/truecharts/charts/issues/20454))
 
