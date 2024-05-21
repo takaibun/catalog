@@ -1,6 +1,6 @@
 
 
-## [wallos-5.0.17](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-5.0.17) (2024-05-20)
+## [wallos-5.0.17](https://github.com/truecharts/charts/compare/wallos-4.6.0...wallos-5.0.17) (2024-05-21)
 
 ### Chore
 

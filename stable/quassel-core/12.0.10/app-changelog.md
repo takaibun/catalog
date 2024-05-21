@@ -1,6 +1,6 @@
 
 
-## [quassel-core-12.0.10](https://github.com/truecharts/charts/compare/quassel-core-11.6.0...quassel-core-12.0.10) (2024-05-20)
+## [quassel-core-12.0.10](https://github.com/truecharts/charts/compare/quassel-core-11.6.0...quassel-core-12.0.10) (2024-05-21)
 
 ### Chore
 

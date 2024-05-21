@@ -1,6 +1,6 @@
 
 
-## [vikunja-14.1.5](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-14.1.5) (2024-05-20)
+## [vikunja-14.1.5](https://github.com/truecharts/charts/compare/vikunja-13.6.0...vikunja-14.1.5) (2024-05-21)
 
 ### Chore
 

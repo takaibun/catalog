@@ -1,6 +1,6 @@
 
 
-## [redis-14.0.10](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-14.0.10) (2024-05-20)
+## [redis-14.0.10](https://github.com/truecharts/charts/compare/redis-13.1.0...redis-14.0.10) (2024-05-21)
 
 ### Chore
 

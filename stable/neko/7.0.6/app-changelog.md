@@ -1,6 +1,6 @@
 
 
-## [neko-7.0.6](https://github.com/truecharts/charts/compare/neko-5.6.0...neko-7.0.6) (2024-05-20)
+## [neko-7.0.6](https://github.com/truecharts/charts/compare/neko-5.6.0...neko-7.0.6) (2024-05-21)
 
 ### Chore
 

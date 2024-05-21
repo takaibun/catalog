@@ -1,6 +1,6 @@
 
 
-## [rsshub-13.1.27](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-13.1.27) (2024-05-20)
+## [rsshub-13.1.27](https://github.com/truecharts/charts/compare/rsshub-12.6.0...rsshub-13.1.27) (2024-05-21)
 
 ### Chore
 

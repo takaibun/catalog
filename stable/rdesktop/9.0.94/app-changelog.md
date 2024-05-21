@@ -1,6 +1,6 @@
 
 
-## [rdesktop-9.0.94](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-9.0.94) (2024-05-20)
+## [rdesktop-9.0.94](https://github.com/truecharts/charts/compare/rdesktop-8.6.0...rdesktop-9.0.94) (2024-05-21)
 
 ### Chore
 
