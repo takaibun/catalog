@@ -1,12 +1,12 @@
 
 
-## [ddclient-10.0.8](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-10.0.8) (2024-05-19)
+## [ddclient-10.0.10](https://github.com/truecharts/charts/compare/ddclient-9.6.0...ddclient-10.0.10) (2024-05-21)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -14,27 +14,31 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump everything to release new doc pages
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/ddclient to 3.11.2[@1c99a58](https://github.com/1c99a58) by renovate ([#21209](https://github.com/truecharts/charts/issues/21209))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image ghcr.io/linuxserver/ddclient to 3.11.2[@3cea62b](https://github.com/3cea62b) by renovate ([#21726](https://github.com/truecharts/charts/issues/21726))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
-
 - update container image ghcr.io/linuxserver/ddclient to 3.11.2[@f53de55](https://github.com/f53de55) by renovate ([#22026](https://github.com/truecharts/charts/issues/22026))
 
 - update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
+
+- update container image ghcr.io/linuxserver/ddclient to 3.11.2[@e61e476](https://github.com/e61e476) by renovate ([#22323](https://github.com/truecharts/charts/issues/22323))
 
 - update container image ghcr.io/linuxserver/ddclient to 3.11.2[@5d21212](https://github.com/5d21212) by renovate ([#20845](https://github.com/truecharts/charts/issues/20845))
 
@@ -42,7 +46,7 @@
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
-- update container image ghcr.io/linuxserver/ddclient to 3.11.2[@1c99a58](https://github.com/1c99a58) by renovate ([#21209](https://github.com/truecharts/charts/issues/21209))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
