@@ -1,10 +1,18 @@
 
 
-## [logitech-media-server-12.0.13](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-12.0.13) (2024-05-20)
+## [logitech-media-server-12.0.15](https://github.com/truecharts/charts/compare/logitech-media-server-11.6.0...logitech-media-server-12.0.15) (2024-05-21)
 
 ### Chore
 
 
+
+- bump charts to release new docs to fix broken links
+
+- bump common
+
+- bump everything to release new doc pages
+
+- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
 - bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
@@ -12,33 +20,27 @@
 
 - bump everything to regenerate readme's and site index
 
-- bump charts to release new docs to fix broken links
+- update container image lmscommunity/logitechmediaserver to stable[@89f082d](https://github.com/89f082d) by renovate ([#20694](https://github.com/truecharts/charts/issues/20694))
 
-- update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+- update container image lmscommunity/logitechmediaserver to stable[@42fddd5](https://github.com/42fddd5) by renovate ([#20597](https://github.com/truecharts/charts/issues/20597))
 
-- bump everything to release new doc pages
+- update container image lmscommunity/logitechmediaserver to stable[@a1561fb](https://github.com/a1561fb) by renovate ([#22121](https://github.com/truecharts/charts/issues/22121))
 
-- bump common
+- update container image lmscommunity/logitechmediaserver to stable[@7a4ab27](https://github.com/7a4ab27) by renovate ([#21964](https://github.com/truecharts/charts/issues/21964))
 
-- update container image lmscommunity/logitechmediaserver to stable[@d5c5241](https://github.com/d5c5241) by renovate ([#20742](https://github.com/truecharts/charts/issues/20742))
-
-- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
-
-- update container image lmscommunity/logitechmediaserver to stable[@6389750](https://github.com/6389750) by renovate ([#19269](https://github.com/truecharts/charts/issues/19269))
+- update container image lmscommunity/logitechmediaserver to stable[@148cb07](https://github.com/148cb07) by renovate ([#21819](https://github.com/truecharts/charts/issues/21819))
 
 - update container image lmscommunity/logitechmediaserver to stable[@3384aab](https://github.com/3384aab) by renovate ([#21806](https://github.com/truecharts/charts/issues/21806))
+
+- update container image lmscommunity/logitechmediaserver to stable[@4c71b5a](https://github.com/4c71b5a) by renovate ([#21675](https://github.com/truecharts/charts/issues/21675))
+
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
+- update container image lmscommunity/logitechmediaserver to stable[@d54e6e8](https://github.com/d54e6e8) by renovate ([#22261](https://github.com/truecharts/charts/issues/22261))
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image lmscommunity/logitechmediaserver to stable[@d1aabfd](https://github.com/d1aabfd) by renovate ([#21309](https://github.com/truecharts/charts/issues/21309))
-
-- update container image lmscommunity/logitechmediaserver to stable[@148cb07](https://github.com/148cb07) by renovate ([#21819](https://github.com/truecharts/charts/issues/21819))
-
-- update container image lmscommunity/logitechmediaserver to stable[@7a4ab27](https://github.com/7a4ab27) by renovate ([#21964](https://github.com/truecharts/charts/issues/21964))
-
-- update container image lmscommunity/logitechmediaserver to stable[@a1561fb](https://github.com/a1561fb) by renovate ([#22121](https://github.com/truecharts/charts/issues/22121))
-
-- update container image lmscommunity/logitechmediaserver to stable[@48b86ce](https://github.com/48b86ce) by renovate ([#22206](https://github.com/truecharts/charts/issues/22206))
 
 - update container image lmscommunity/logitechmediaserver to stable[@2f0d6a5](https://github.com/2f0d6a5) by renovate ([#21106](https://github.com/truecharts/charts/issues/21106))
 
@@ -48,23 +50,23 @@
 
 - update container image lmscommunity/logitechmediaserver to stable[@5a2636b](https://github.com/5a2636b) by renovate ([#20929](https://github.com/truecharts/charts/issues/20929))
 
-- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image lmscommunity/logitechmediaserver to stable[@c178fa3](https://github.com/c178fa3) by renovate ([#20803](https://github.com/truecharts/charts/issues/20803))
 
-- update container image lmscommunity/logitechmediaserver to stable[@d54e6e8](https://github.com/d54e6e8) by renovate ([#22261](https://github.com/truecharts/charts/issues/22261))
+- update container image lmscommunity/logitechmediaserver to stable[@d5c5241](https://github.com/d5c5241) by renovate ([#20742](https://github.com/truecharts/charts/issues/20742))
 
-- update container image lmscommunity/logitechmediaserver to stable[@89f082d](https://github.com/89f082d) by renovate ([#20694](https://github.com/truecharts/charts/issues/20694))
+- update container image lmscommunity/logitechmediaserver to stable[@ce1b1d5](https://github.com/ce1b1d5) by renovate ([#22315](https://github.com/truecharts/charts/issues/22315))
 
 - update container image lmscommunity/logitechmediaserver to stable[@37e99ff](https://github.com/37e99ff) by renovate ([#20635](https://github.com/truecharts/charts/issues/20635))
 
 - update container image lmscommunity/logitechmediaserver to stable[@b1242e9](https://github.com/b1242e9) by renovate ([#20605](https://github.com/truecharts/charts/issues/20605))
 
-- update container image lmscommunity/logitechmediaserver to stable[@4c71b5a](https://github.com/4c71b5a) by renovate ([#21675](https://github.com/truecharts/charts/issues/21675))
+- update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image lmscommunity/logitechmediaserver to stable[@42fddd5](https://github.com/42fddd5) by renovate ([#20597](https://github.com/truecharts/charts/issues/20597))
+- update container image lmscommunity/logitechmediaserver to stable[@48b86ce](https://github.com/48b86ce) by renovate ([#22206](https://github.com/truecharts/charts/issues/22206))
 
 - update container image common to v20.3.5[@aedd88a](https://github.com/aedd88a) by renovate ([#20535](https://github.com/truecharts/charts/issues/20535))
 
@@ -105,6 +107,8 @@
 - update container image common to v20.2.2[@f7d0b92](https://github.com/f7d0b92) by renovate ([#19432](https://github.com/truecharts/charts/issues/19432))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
+
+- update container image lmscommunity/logitechmediaserver to stable[@6389750](https://github.com/6389750) by renovate ([#19269](https://github.com/truecharts/charts/issues/19269))
 
 - exclude changelog from pagefind ([#21693](https://github.com/truecharts/charts/issues/21693))
 

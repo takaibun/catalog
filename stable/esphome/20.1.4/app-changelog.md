@@ -1,12 +1,12 @@
 
 
-## [esphome-20.1.2](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-20.1.2) (2024-05-20)
+## [esphome-20.1.4](https://github.com/truecharts/charts/compare/esphome-19.6.0...esphome-20.1.4) (2024-05-21)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - bump charts to ensure new icons are released
 
@@ -16,7 +16,7 @@
 
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
+- bump everything to release new doc pages
 
 - bump common
 
@@ -26,23 +26,27 @@
 
 - update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
-- update container image esphome/esphome to v2024.4.2[@57f95ce](https://github.com/57f95ce) by renovate ([#21566](https://github.com/truecharts/charts/issues/21566))
+- update container image esphome/esphome to v2024.4.1[@e208d1e](https://github.com/e208d1e) by renovate ([#21191](https://github.com/truecharts/charts/issues/21191))
 
 - update container image common to v20.2.0[@91ade87](https://github.com/91ade87) by renovate ([#19361](https://github.com/truecharts/charts/issues/19361))
 
 - update container image esphome/esphome to v2024.5.0[@917bf34](https://github.com/917bf34) by renovate ([#22093](https://github.com/truecharts/charts/issues/22093))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
 
 - update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
 
-- update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image esphome/esphome to v2024.5.2[@78cbbf3](https://github.com/78cbbf3) by renovate ([#22320](https://github.com/truecharts/charts/issues/22320))
+
+- update container image esphome/esphome to v2024.5.1[@a29fcd1](https://github.com/a29fcd1) by renovate ([#22287](https://github.com/truecharts/charts/issues/22287))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
-- update container image esphome/esphome to v2024.4.1[@e208d1e](https://github.com/e208d1e) by renovate ([#21191](https://github.com/truecharts/charts/issues/21191))
+- update container image esphome/esphome to v2024.4.2[@57f95ce](https://github.com/57f95ce) by renovate ([#21566](https://github.com/truecharts/charts/issues/21566))
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 

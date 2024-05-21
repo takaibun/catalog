@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: AI
+  truecharts.org/category: tools
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 0.1.38
+appVersion: 2024.5.2
 dependencies:
   - name: common
     version: 23.0.8
@@ -17,23 +17,20 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Get up and running with large language models locally.
-home: https://truecharts.org/charts/stable/ollama
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/ollama.webp
+description: ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
+home: https://truecharts.org/charts/stable/esphome
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/esphome.webp
 keywords:
-  - ollama
-  - language-models
+  - esphome
 kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: ollama
+name: esphome
 sources:
-  - https://github.com/ollama/ollama
-  - https://github.com/open-webui/open-webui
-  - https://github.com/truecharts/charts/tree/master/charts/stable/ollama
-  - https://hub.docker.com/r/ollama/ollama
-  - https://ghcr.io/open-webui/open-webui
+  - https://github.com/esphome/esphome
+  - https://github.com/truecharts/charts/tree/master/charts/stable/esphome
+  - https://hub.docker.com/r/esphome/esphome
 type: application
-version: 6.0.24
+version: 20.1.4

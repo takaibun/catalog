@@ -1,12 +1,12 @@
 
 
-## [foldingathome-10.0.7](https://github.com/truecharts/charts/compare/foldingathome-9.6.0...foldingathome-10.0.7) (2024-05-19)
+## [foldingathome-10.0.9](https://github.com/truecharts/charts/compare/foldingathome-9.6.0...foldingathome-10.0.9) (2024-05-21)
 
 ### Chore
 
 
 
-- bump everything to release new doc pages
+- bump common
 
 - bump charts to ensure new icons are released
 
@@ -14,27 +14,31 @@
 
 - bump charts to release new docs to fix broken links
 
-- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
-
-- bump common
-
 - update groups html ([#21121](https://github.com/truecharts/charts/issues/21121))
+
+- bump everything to release new doc pages
+
+- bump common to release improved checks on volsync and cnpg ([#21454](https://github.com/truecharts/charts/issues/21454))
 
 - update container image common to v20.3.7[@8cf9fc9](https://github.com/8cf9fc9) by renovate ([#20819](https://github.com/truecharts/charts/issues/20819))
 
 - update container image common to v20.3.3[@3876ba5](https://github.com/3876ba5) by renovate ([#20478](https://github.com/truecharts/charts/issues/20478))
 
-- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
+- update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@58cc184](https://github.com/58cc184) by renovate ([#21194](https://github.com/truecharts/charts/issues/21194))
 
 - update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@7317a02](https://github.com/7317a02) by renovate ([#21496](https://github.com/truecharts/charts/issues/21496))
 
 - update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@2613ff4](https://github.com/2613ff4) by renovate ([#19237](https://github.com/truecharts/charts/issues/19237))
 
-- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
-
 - update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@6008d7c](https://github.com/6008d7c) by renovate ([#21717](https://github.com/truecharts/charts/issues/21717))
 
 - update container image common to v23.0.7[@316d624](https://github.com/316d624) by renovate ([#22240](https://github.com/truecharts/charts/issues/22240))
+
+- update container image common to v20.3.11[@dae6129](https://github.com/dae6129) by renovate ([#20875](https://github.com/truecharts/charts/issues/20875))
+
+- update container image common to v23.0.8[@9e7419b](https://github.com/9e7419b) by renovate ([#22277](https://github.com/truecharts/charts/issues/22277))
+
+- update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@5cdc305](https://github.com/5cdc305) by renovate ([#22313](https://github.com/truecharts/charts/issues/22313))
 
 - update container image common to v20.3.6[@27edfed](https://github.com/27edfed) by renovate ([#20599](https://github.com/truecharts/charts/issues/20599))
 
@@ -42,7 +46,7 @@
 
 - update container image common to v20.3.4[@d7e1b23](https://github.com/d7e1b23) by renovate ([#20527](https://github.com/truecharts/charts/issues/20527))
 
-- update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@58cc184](https://github.com/58cc184) by renovate ([#21194](https://github.com/truecharts/charts/issues/21194))
+- update container image common to v20.3.12[@3303278](https://github.com/3303278) by renovate ([#21384](https://github.com/truecharts/charts/issues/21384))
 
 - update container image ghcr.io/linuxserver/foldingathome to 7.6.21[@6daaa80](https://github.com/6daaa80) by renovate ([#20463](https://github.com/truecharts/charts/issues/20463))
 
