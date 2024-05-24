@@ -34,7 +34,7 @@ jobs:
       - name: Merge staging into main
         shell: bash
         run: |
-          cd "/home/runner/work/catalog/catalog/"
+          cd "${PWD}"
           git config user.name "TrueCharts-Bot"
           git config user.email "bot@truecharts.org"
           git add catalog.json || echo "Adding catalog.json failed"
