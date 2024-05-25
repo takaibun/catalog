@@ -1,14 +1,17 @@
 image:
-  repository: ghcr.io/linuxserver/mysql-workbench
+  repository: ghcr.io/linuxserver/openvscode-server
   pullPolicy: IfNotPresent
-  tag: 8.0.36@sha256:2e4f0ad30a207259e7301053886aa8f01a7506a72e8166da82a2cc52b86c240e
+  tag: 1.89.1@sha256:217c0f0e9bf1f9c2b7448153d0af652b3f6cf257c465ee8075900b18acdb92a4
+# secretEnv:
+#   CONNECTION_TOKEN: "somerandomstring"
+#   CONNECTION_SECRET: ""
+#   SUDO_PASSWORD: ""
 service:
   main:
     ports:
       main:
         targetPort: 3000
-        protocol: http
-        port: 10134
+        port: 10135
 persistence:
   config:
     enabled: true
@@ -22,8 +25,5 @@ securityContext:
   container:
     runAsNonRoot: false
     readOnlyRootFilesystem: false
-    capabilities:
-      add:
-        - IPC_LOCK
     runAsUser: 0
     runAsGroup: 0
