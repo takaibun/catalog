@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 14.4.0
+appVersion: latest
 dependencies:
   - name: common
     version: 23.0.8
@@ -16,31 +16,31 @@ dependencies:
     alias: ""
     tags: []
     import-values: []
-  - name: mariadb
-    version: 14.0.9
+  - name: redis
+    version: 14.0.5
     repository: oci://tccr.io/truecharts
-    condition: mariadb.enabled
+    condition: redis.enabled
     alias: ""
     tags: []
     import-values: []
 deprecated: false
-description: A photo gallery software for the web.
-home: https://truecharts.org/charts/stable/piwigo
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/piwigo.webp
+description: A free & open source IMDb front-end.
+home: https://truecharts.org/charts/stable/libremdb
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/libremdb.webp
 keywords:
-  - piwigo
-  - gallery
-  - photo
-  - image
-kubeVersion: ">=1.24.0-0"
+  - libremdb
+  - media
+  - imdb
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: piwigo
+name: libremdb
 sources:
-  - https://github.com/linuxserver/docker-piwigo
-  - https://github.com/truecharts/charts/tree/master/charts/stable/piwigo
-  - https://ghcr.io/linuxserver/piwigo
+  - https://github.com/PussTheCat-org/docker-libremdb-quay
+  - https://github.com/zyachel/libremdb
+  - https://github.com/truecharts/charts/tree/master/charts/stable/libremdb
+  - https://quay.io/pussthecatorg/libremdb
 type: application
-version: 13.1.7
+version: 8.1.52

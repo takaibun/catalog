@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: boredazfcuk/icloudpd
-  tag: 1.0.819@sha256:413b6224dde038c9c3f503b1d1abe7b574dc2745467c53214bb254f6a7d3138a
+  tag: 1.0.826@sha256:40fc15d4fb83137a5523ddd1111fbee292c821a370ca1519982cfd4304dbd6a7
 
 securityContext:
   container:
