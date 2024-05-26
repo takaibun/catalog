@@ -38,12 +38,8 @@ jobs:
       - name: Commit Changes
         run: |
           git add .
-          git commit -m "Update max_scale_version to 24.10.1"
+          git commit -m "Update max_scale_version"
 
-      - name: Remove workflows from commit
-        run: |
-          git reset HEAD .github/workflows
-          git checkout .github/workflows
 
       # 6. 推送到目标仓库（需要Personal Access Token）
       - name: Push to Destination Repo
