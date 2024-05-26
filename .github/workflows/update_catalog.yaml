@@ -1,0 +1,46 @@
+name: Update YAML Files
+
+on:
+  schedule:
+    # 每小时运行一次
+    - cron: '0 * * * *'
+
+jobs:
+  update-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 检出源仓库代码
+      - name: Checkout Source Repo
+        uses: actions/checkout@v3
+        with:
+          repository: truecharts/catalog
+          ref: main
+
+      # 2. 设置Git配置
+      - name: Set Git Config
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      # 3. 安装所需的工具（如果有）
+      # 这里假设我们不需要额外安装工具直接用sed编辑文件
+
+      # 4. 修改所有yaml文件中的max_scale_version属性
+      - name: Modify YAML files
+        run: |
+          find . -type f -name "*.yaml" -exec sed -i 's/max_scale_version:.*/max_scale_version: 24.10.1/g' {} +
+
+      # 5. 添加、提交更改
+      - name: Commit Changes
+        run: |
+          git add .
+          git commit -m "Update max_scale_version to 24.10.1"
+
+      # 6. 推送到目标仓库（需要Personal Access Token）
+      - name: Push to Destination Repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          branch: main_new_version
+          force: true # 如果有冲突，强制覆盖
+          repository: takaibun/catalog
