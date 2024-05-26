@@ -27,9 +27,12 @@ jobs:
       # 这里假设我们不需要额外安装工具直接用sed编辑文件
 
       # 4. 修改所有yaml文件中的max_scale_version属性
-      - name: Modify YAML files
+      - name: Modify max scale version
+        env:
+          NEW_MAX_VERSION: "24.10.1" # 动态值可以通过GitHub Secrets设置
         run: |
-          find . -type f -name "*.yaml" -exec sed -i 's/max_scale_version:.*/max_scale_version: 24.10.1/g' {} +
+          git rm -rf .github
+          find . -name 'app_versions.json' -type f -exec sed -i "s/\"max_scale_version\": \".*\",/\"max_scale_version\": \"$NEW_MAX_VERSION\",/" {} \;
 
       # 5. 添加、提交更改
       - name: Commit Changes
