@@ -320,6 +320,12 @@ questions:
                                         description: Cublas Cuda 11
                                       - value: cublasCuda11FfmpegImage
                                         description: Cublas Cuda 11 FFmpeg
+                                      - value: allInOneCuda12Image
+                                        description: All-in-one Cuda 12
+                                      - value: allInOneCuda11Image
+                                        description: All-in-one Cuda 11
+                                      - value: allInOneCpuImage
+                                        description: All-in-one CPU
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
