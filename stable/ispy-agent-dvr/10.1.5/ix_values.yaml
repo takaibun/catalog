@@ -1,6 +1,6 @@
 image:
   repository: doitandbedone/ispyagentdvr
-  tag: 5.5.1.0@sha256:7d03afdbc5cff366d22c7b46b46f85ce63113fe92d6ae410e8b026befcb35447
+  tag: 5.5.3.0@sha256:1764b9475cbe48a8a43acd28210436efe9de2581ed02c68adf1955596904fc7b
   pullPolicy: IfNotPresent
 service:
   main:
