@@ -2,7 +2,7 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: monitoring
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
@@ -10,29 +10,26 @@ apiVersion: v2
 appVersion: latest
 dependencies:
   - name: common
-    version: 23.0.7
+    version: 23.0.8
     repository: oci://tccr.io/truecharts
     condition: ""
     alias: ""
     tags: []
     import-values: []
 deprecated: false
-description: webNUT (UPS network monitoring web ui).
-home: https://truecharts.org/charts/stable/webnut
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/webnut.webp
+description: BOINC is a platform for high-throughput computing on a large scale (thousands or millions of computers).
+home: https://truecharts.org/charts/stable/boinc
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/boinc.webp
 keywords:
-  - webnut
-  - ups
-  - monitoring
-kubeVersion: ">=1.24.0-0"
+  - boinc
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: webnut
+name: boinc
 sources:
-  - https://github.com/rshipp/webNUT
-  - https://github.com/truecharts/charts/tree/master/charts/stable/webnut
-  - https://hub.docker.com/r/edgd1er/webnut
+  - https://ghcr.io/linuxserver/boinc
+  - https://github.com/truecharts/charts/tree/master/charts/stable/boinc
 type: application
-version: 9.0.5
+version: 10.0.12
