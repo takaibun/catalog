@@ -2,12 +2,12 @@ annotations:
   max_scale_version: 24.04.1
   min_scale_version: 24.04.0
   truecharts.org/SCALE-support: "true"
-  truecharts.org/category: Productivity
+  truecharts.org/category: incubator
   truecharts.org/max_helm_version: "3.14"
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: latest
+appVersion: 3.11.2
 dependencies:
   - name: common
     version: 23.0.8
@@ -17,22 +17,19 @@ dependencies:
     tags: []
     import-values: []
 deprecated: false
-description: Meta search engine which aggregates results from more than 70 search services.
-home: https://truecharts.org/charts/stable/searxng
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/searxng.webp
+description: Ddclient is a Perl client used to update dynamic DNS entries for accounts on Dynamic DNS Network Service Provider.
+home: https://truecharts.org/charts/stable/ddclient
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ddclient.webp
 keywords:
-  - searxng
-  - Productivity
-  - Other
-kubeVersion: ">=1.24.0-0"
+  - ddclient
+kubeVersion: '>=1.24.0-0'
 maintainers:
   - name: TrueCharts
     email: info@truecharts.org
     url: https://truecharts.org
-name: searxng
+name: ddclient
 sources:
-  - https://github.com/searxng/searxng
-  - https://github.com/truecharts/charts/tree/master/charts/stable/searxng
-  - https://hub.docker.com/r/searxng/searxng
+  - https://ghcr.io/linuxserver/ddclient
+  - https://github.com/truecharts/charts/tree/master/charts/stable/ddclient
 type: application
-version: 8.0.18
+version: 10.0.11
