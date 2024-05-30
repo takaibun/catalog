@@ -15,9 +15,6 @@
         "version": "1.0.4",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.1",
-                "min_scale_version": "24.04.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "database",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -5293,9 +5290,6 @@
         "version": "1.0.3",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.1",
-                "min_scale_version": "24.04.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "database",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -10589,7 +10583,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "database",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
@@ -15534,7 +15527,6 @@
             "annotations": {
                 "max_scale_version": "24.04.0",
                 "min_scale_version": "23.10.0",
-                "truecharts.org/SCALE-support": "true",
                 "truecharts.org/category": "database",
                 "truecharts.org/max_helm_version": "3.14",
                 "truecharts.org/min_helm_version": "3.11",
