@@ -10563,7 +10563,7 @@
         "version": "13.8.15",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -15508,7 +15508,7 @@
         "version": "13.8.14",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -20454,7 +20454,7 @@
         "version": "12.3.0",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -25442,7 +25442,7 @@
         "version": "12.2.1",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",

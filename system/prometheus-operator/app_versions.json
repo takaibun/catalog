@@ -626,7 +626,7 @@
         "version": "6.10.15",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "operators",
                 "truecharts.org/max_helm_version": "3.14",
@@ -799,7 +799,7 @@
         "version": "6.10.14",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "operators",
                 "truecharts.org/max_helm_version": "3.14",

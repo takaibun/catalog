@@ -10749,7 +10749,7 @@
         "version": "21.7.11",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -15787,7 +15787,7 @@
         "version": "21.7.10",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -20825,7 +20825,7 @@
         "version": "20.2.1",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -25863,7 +25863,7 @@
         "version": "20.2.0",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -30902,7 +30902,7 @@
         "version": "19.4.0",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
@@ -35983,7 +35983,7 @@
         "version": "19.3.0",
         "chart_metadata": {
             "annotations": {
-                "max_scale_version": "24.04.0",
+                "max_scale_version": "24.10.1",
                 "min_scale_version": "23.10.0",
                 "truecharts.org/category": "media",
                 "truecharts.org/max_helm_version": "3.14",
