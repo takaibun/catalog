@@ -1,9 +1,9 @@
 name: Update Catalog
 
 on:
-  schedule:
-    # 每小时运行一次
-    - cron: '0 * * * *'
+  # schedule:
+  #   # 每小时运行一次
+  #   - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
