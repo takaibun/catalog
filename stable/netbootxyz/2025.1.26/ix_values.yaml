@@ -1,0 +1,57 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/netbootxyz/netbootxyz
+  tag: latest
+ingress:
+  assets:
+    targetSelector:
+      assets: assets
+persistence:
+  assets:
+    enabled: true
+    mountPath: /assets
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    capabilities:
+      add:
+      - SYS_CHROOT
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  assets:
+    enabled: true
+    ports:
+      assets:
+        enabled: true
+        port: 10613
+        protocol: http
+        targetPort: 80
+  main:
+    ports:
+      main:
+        port: 10612
+        protocol: http
+        targetPort: 3000
+  tftp:
+    enabled: true
+    ports:
+      tftp:
+        enabled: true
+        port: 69
+        protocol: udp
+        targetPort: 69
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MENU_VERSION: ''

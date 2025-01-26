@@ -1,0 +1,17 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: registry
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10096
+        targetPort: 8080

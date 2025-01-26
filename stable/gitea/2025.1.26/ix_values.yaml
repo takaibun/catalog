@@ -1,0 +1,102 @@
+admin:
+  email: gitea@local.domain
+  password: r8sA8CPHD9!bt6d
+  username: giteaadmin
+cnpg:
+  main:
+    database: gitea
+    enabled: true
+    user: gitea
+config:
+  ALLOWED_HOST_LIST: 127.0.0.1
+  APP_NAME: 'Gitea: Git with a cup of tea'
+  RUN_MODE: dev
+  nodeIP: 127.0.0.1
+customConfig: []
+image:
+  pullPolicy: IfNotPresent
+  repository: gitea/gitea
+  tag: latest
+ldap:
+  enabled: false
+memcached:
+  enabled: true
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: main
+    type: servicemonitor
+oauth:
+  enabled: false
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+    targetSelectAll: true
+  varlib:
+    enabled: true
+    mountPath: /var/lib/gitea
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    fsGroup: 1000
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        port: 10037
+        targetPort: 3000
+  ssh:
+    enabled: true
+    ports:
+      ssh:
+        enabled: true
+        port: 2222
+        targetPort: 2222
+signing:
+  enabled: true
+  gpgHome: /data/git/.gnupg
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: gitea-env
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp
+      initContainers:
+        1-init-directories:
+          command:
+          - /usr/sbin/init_directory_structure.sh
+          enabled: true
+          envFrom:
+          - configMapRef:
+              name: gitea-env
+          imageSelector: image
+          securityContext:
+            runAsNonRoot: false
+            runAsUser: 0
+          type: init
+        2-configure-gitea:
+          command:
+          - /usr/sbin/configure_gitea.sh
+          enabled: true
+          envFrom:
+          - configMapRef:
+              name: gitea-env
+          imageSelector: image
+          type: init

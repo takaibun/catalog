@@ -1,0 +1,133 @@
+backendImage:
+  pullPolicy: IfNotPresent
+  repository: tombursch/kitchenowl
+  tag: latest@sha256:fc1a89d02a6aca698f5e8fdaf6b18fb5fd10a49d68f29b87536e0e976da85aa2
+cnpg:
+  main:
+    database: kitchenowl
+    enabled: true
+    user: kitchenowl
+image:
+  pullPolicy: IfNotPresent
+  repository: tombursch/kitchenowl-web
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  backend:
+    enabled: true
+    ports:
+      backend:
+        enabled: true
+        port: 10247
+        protocol: http
+        targetPort: 5000
+        targetSelector: main
+    targetSelector: main
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 10246
+        protocol: http
+        targetPort: 80
+        targetSelector: frontend
+    targetSelector: frontend
+workload:
+  frontend:
+    enabled: true
+    podSpec:
+      containers:
+        frontend:
+          enabled: true
+          env:
+            BACK_URL: '{{ printf "%s-backend:%v" (include "tc.v1.common.lib.chart.names.fullname"
+              $) .Values.service.backend.ports.backend.port }}'
+          primary: true
+          probes:
+            liveness:
+              path: /
+              port: '{{ .Values.service.main.ports.main.targetPort }}'
+              type: http
+            readiness:
+              path: /
+              port: '{{ .Values.service.main.ports.main.targetPort }}'
+              type: http
+            startup:
+              port: '{{ .Values.service.main.ports.main.targetPort }}'
+              type: tcp
+    replicas: 1
+    strategy: RollingUpdate
+    type: Deployment
+  main:
+    enabled: true
+    podSpec:
+      containers:
+        main:
+          enabled: true
+          env:
+            APPLE_CLIENT_ID: ''
+            APPLE_CLIENT_SECRET: ''
+            DB_DRIVER: postgresql
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_NAME: '{{ .Values.cnpg.main.database }}'
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+            FRONT_URL: ''
+            GOOGLE_CLIENT_ID: ''
+            GOOGLE_CLIENT_SECRET: ''
+            JWT_SECRET_KEY:
+              secretKeyRef:
+                key: JWT_SECRET_KEY
+                name: kitchenowl-secrets
+            OIDC_CLIENT_ID: ''
+            OIDC_CLIENT_SECRET: ''
+            OIDC_ISSUER: ''
+            STORAGE_PATH: '{{ .Values.persistence.data.targetSelector.main.main.mountPath
+              }}'
+          imageSelector: backendImage
+          primary: true
+          probes:
+            liveness:
+              command:
+              - uwsgi_curl
+              - localhost:5000
+              - /api/health/8M4F88S8ooi4sMbLBfkkV7ctWwgibW6V
+              enabled: true
+              port: '{{ .Values.service.backend.ports.backend.targetPort }}'
+              type: exec
+            readiness:
+              command:
+              - uwsgi_curl
+              - localhost:5000
+              - /api/health/8M4F88S8ooi4sMbLBfkkV7ctWwgibW6V
+              enabled: true
+              port: '{{ .Values.service.backend.ports.backend.targetPort }}'
+              type: exec
+            startup:
+              enabled: true
+              port: '{{ .Values.service.backend.ports.backend.targetPort }}'
+              type: tcp
+    primary: true
+    type: Deployment

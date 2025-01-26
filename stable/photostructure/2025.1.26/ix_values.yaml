@@ -1,0 +1,40 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: photostructure/server
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /ps/config
+  library:
+    enabled: true
+    mountPath: /ps/library
+  logs:
+    enabled: true
+    mountPath: /ps/logs
+  tempscratchdisk:
+    enabled: true
+    mountPath: /ps/tmp
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 1787
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PS_HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'
+            PS_LOG_LEVEL: error

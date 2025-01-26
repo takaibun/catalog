@@ -1,0 +1,32 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tagspaces/tagspaces-lite-web
+  tag: latest
+persistence:
+  nginx:
+    enabled: true
+    mountPath: /var/cache/nginx
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 5000
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            KEY:
+              secretKeyRef:
+                key: KEY
+                name: tagspaces-secret

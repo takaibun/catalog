@@ -1,0 +1,49 @@
+cnpg:
+  main:
+    database: sheetable
+    enabled: true
+    user: sheetable
+image:
+  pullPolicy: IfNotPresent
+  repository: vallezw/sheetable
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/config
+portal:
+  open:
+    enabled: true
+secretEnv:
+  ADMIN_EMAIL: email@domain.com
+  ADMIN_PASSWORD: changeme
+service:
+  main:
+    ports:
+      main:
+        port: 10284
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            API_SECRET:
+              secretKeyRef:
+                key: API_SECRET
+                name: sheetable-secrets
+            CONFIG_PATH: /app/config/
+            DB_DRIVER: postgres
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_NAME: '{{ .Values.cnpg.main.database }}'
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_PORT: '5432'
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+            PORT: '{{ .Values.service.main.ports.main.port }}'

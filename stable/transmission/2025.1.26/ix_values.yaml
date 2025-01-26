@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/onedr0p/transmission
+  tag: rolling
+manifestManager:
+  enabled: false
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10109
+  torrent:
+    enabled: true
+    ports:
+      torrent:
+        enabled: true
+        port: 51414
+        protocol: tcp
+      torrentudp:
+        enabled: true
+        port: '{{ .Values.service.torrent.ports.torrent.port }}'
+        protocol: udp
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            TRANSMISSION__PEER_PORT: '{{ .Values.service.torrent.ports.torrent.port
+              }}'
+            TRANSMISSION__RPC_PORT: '{{ .Values.service.main.ports.main.port }}'
+            TRANSMISSION__RPC_URL: /transmission
+          probes:
+            liveness:
+              enabled: true
+              type: tcp
+            readiness:
+              enabled: true
+              type: tcp
+            startup:
+              enabled: true
+              type: tcp

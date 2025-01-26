@@ -1,0 +1,48 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: advplyr/audiobookshelf
+  tag: latest
+persistence:
+  audiobooks:
+    enabled: true
+    mountPath: /audiobooks
+  config:
+    enabled: true
+    mountPath: /config
+  metadata:
+    enabled: true
+    mountPath: /metadata
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10223
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            AUDIOBOOKSHELF_GID: '{{ .Values.securityContext.pod.fsGroup }}'
+            AUDIOBOOKSHELF_UID: '{{ .Values.securityContext.container.PUID }}'
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            TOKEN_SECRET:
+              secretKeyRef:
+                key: TOKEN_SECRET
+                name: secrets
+          probes:
+            liveness:
+              path: /ping
+            readiness:
+              path: /ping
+            startup:
+              path: /ping

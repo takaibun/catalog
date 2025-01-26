@@ -1,0 +1,65 @@
+cnpg:
+  main:
+    database: onlyoffice
+    enabled: true
+    user: onlyoffice
+image:
+  pullPolicy: IfNotPresent
+  repository: onlyoffice/documentserver
+  tag: latest
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10043
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_NAME: '{{ .Values.cnpg.main.database }}'
+            DB_PORT: 5432
+            DB_PWD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_TYPE: postgres
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+            JWT_ENABLED: true
+            JWT_SECRET: randomgeneratedstring
+            REDIS_SERVER_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_SERVER_PASS:
+              secretKeyRef:
+                expandObjectName: false
+                key: redis-password
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_SERVER_PORT: 6379
+            WOPI_ENABLED: true
+          probes:
+            liveness:
+              path: /healthcheck
+            readiness:
+              path: /healthcheck
+            startup:
+              path: /healthcheck

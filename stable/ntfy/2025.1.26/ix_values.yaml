@@ -1,0 +1,69 @@
+configmap:
+  ntfy:
+    data:
+      NTFY_ATTACHMENT_CACHE_DIR: '{{ ternary "/var/cache/ntfy/attachments" "" .Values.workload.main.podSpec.containers.main.env.ENABLE_ATTACHMENT_CACHE_DIR
+        }}'
+      NTFY_AUTH_FILE: '{{ ternary "/etc/ntfy/user.db" "" .Values.workload.main.podSpec.containers.main.env.ENABLE_AUTH_FILE
+        }}'
+      NTFY_CACHE_FILE: '{{ ternary "/var/cache/ntfy/cache.db" "" .Values.workload.main.podSpec.containers.main.env.ENABLE_CACHE_FILE
+        }}'
+      NTFY_FIREBASE_KEY_FILE: '{{ ternary "/etc/ntfy/firebase-key.json" "" .Values.workload.main.podSpec.containers.main.env.ENABLE_FIREBASE_FILE
+        }}'
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: binwiederhier/ntfy
+  tag: latest
+metrics:
+  main:
+    enabled: false
+    endpoints:
+    - path: /metrics
+      port: main
+    prometheusRule:
+      enabled: false
+      labels: {}
+      rules: []
+    type: servicemonitor
+persistence:
+  cache:
+    enabled: true
+    mountPath: /var/cache/ntfy
+  config:
+    enabled: true
+    mountPath: /etc/ntfy
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10222
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - serve
+          env:
+            ENABLE_ATTACHMENT_CACHE_DIR: false
+            ENABLE_AUTH_FILE: false
+            ENABLE_CACHE_FILE: false
+            ENABLE_FIREBASE_FILE: false
+            NTFY_BASE_URL: http://localhost:10222
+            NTFY_BEHIND_PROXY: false
+            NTFY_ENABLE_METRICS: '{{ .Values.metrics.main.enabled }}'
+            NTFY_LISTEN_HTTP: :{{ .Values.service.main.ports.main.port }}
+            NTFY_UPSTREAM_BASE_URL: https://ntfy.sh
+          envFrom:
+          - configMapRef:
+              name: ntfy
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

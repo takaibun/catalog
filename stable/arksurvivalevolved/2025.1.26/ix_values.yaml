@@ -1,0 +1,81 @@
+ark:
+  custom_map: ''
+  easy_game_extra_params:
+    crossplay: true
+    log: true
+    server: true
+  game_id: '376030'
+  game_params: []
+  game_params_extra: []
+  map: TheIsland
+  password: ''
+  rcon_enabled: true
+  server_name: ''
+  srv_admin_pass: '123456789'
+  srv_password: ''
+  username: ''
+  validate: false
+image:
+  pullPolicy: IfNotPresent
+  repository: ich777/steamcmd
+  tag: latest
+persistence:
+  serverfiles:
+    enabled: true
+    mountPath: /serverdata/serverfiles
+  steamcmd:
+    enabled: true
+    mountPath: /serverdata/steamcmd
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: true
+    ports:
+      game:
+        enabled: true
+        port: 7778
+        protocol: udp
+      main:
+        enabled: true
+        port: 7777
+        protocol: udp
+  query:
+    enabled: true
+    ports:
+      query:
+        enabled: true
+        port: 27015
+        protocol: udp
+  rcon:
+    enabled: true
+    ports:
+      rcon:
+        enabled: true
+        port: 27020
+        protocol: tcp
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: ark-secrets
+          probes:
+            liveness:
+              port: '{{ .Values.service.rcon.ports.rcon.port }}'
+              type: tcp
+            readiness:
+              port: '{{ .Values.service.rcon.ports.rcon.port }}'
+              type: tcp
+            startup:
+              port: '{{ .Values.service.rcon.ports.rcon.port }}'
+              type: tcp

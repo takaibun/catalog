@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: mtlynch/mediagoblin
+  tag: latest
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /var/lib/mediagoblin
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 6543
+        protocol: tcp
+        targetPort: 6543

@@ -1,0 +1,82 @@
+cnpg:
+  main:
+    database: etesync
+    enabled: true
+    user: etesync
+image:
+  pullPolicy: IfNotPresent
+  repository: victorrds/etesync
+  tag: latest
+persistence:
+  app:
+    enabled: true
+    mountPath: /data
+  secret:
+    enabled: true
+    mountPath: /data/secret.txt
+    objectName: etesync-secret
+    readOnly: true
+    subPath: secret.txt
+    type: secret
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 373
+    runAsUser: 373
+  pod:
+    fsGroup: 373
+service:
+  main:
+    ports:
+      main:
+        port: 10254
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ALLOWED_HOSTS: localhost
+            AUTO_SIGNUP: false
+            AUTO_UPDATE: true
+            DATABASE_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DATABASE_NAME: '{{ .Values.cnpg.main.database }}'
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_PORT: 5432
+            DATABASE_USER: '{{ .Values.cnpg.main.user }}'
+            DB_ENGINE: postgres
+            DEBUG: false
+            DEBUG_DJANGO: false
+            LANGUAGE_CODE: en-us
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            REDIS_URI:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REGEN_INI: true
+            SERVER: http
+            SHELL_DEBUG: false
+            SUPER_EMAIL: ''
+            SUPER_PASS: ''
+            SUPER_USER: admin
+            TIME_ZONE: '{{ .Values.TZ }}'
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

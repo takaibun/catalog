@@ -1,0 +1,45 @@
+cnpg:
+  main:
+    database: teedydb
+    enabled: true
+    user: teedyuser
+image:
+  pullPolicy: IfNotPresent
+  repository: sismics/docs
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10100
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_URL:
+              secretKeyRef:
+                key: jdbc
+                name: cnpg-main-urls
+            DATABASE_USER: '{{ .Values.cnpg.main.user }}'
+            DOCS_ADMIN_EMAIL_INIT: ''
+            DOCS_ADMIN_PASSWORD_INIT: ''
+            DOCS_BASE_URL: ''
+            DOCS_DEFAULT_LANGUAGE: eng
+            DOCS_SMTP_HOSTNAME: ''
+            DOCS_SMTP_PASSWORD: ''
+            DOCS_SMTP_PORT: 0
+            DOCS_SMTP_USERNAME: ''

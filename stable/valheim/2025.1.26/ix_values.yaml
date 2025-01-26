@@ -1,0 +1,80 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/lloesche/valheim-server
+  tag: latest
+ingress:
+  supervisor:
+    enabled: false
+    targetSelector:
+      supervisor: supervisor
+persistence:
+  backups:
+    enabled: true
+    mountPath: /backups
+  config:
+    enabled: true
+    mountPath: /config
+  varrun:
+    enabled: false
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9010
+  supervisor:
+    enabled: true
+    ports:
+      supervisor:
+        enabled: true
+        port: 9011
+  valheim:
+    enabled: true
+    ports:
+      valheim1:
+        enabled: true
+        port: 2456
+        protocol: udp
+      valheim2:
+        enabled: true
+        port: 2457
+        protocol: udp
+    type: LoadBalancer
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BACKUPS: true
+            BACKUPS_DIRECTORY: /backups
+            BACKUPS_INTERVAL: 43200
+            BACKUPS_MAX_AGE: 3
+            SERVER_NAME: My Server
+            SERVER_PASS: secret
+            SERVER_PORT: '{{ .Values.service.valheim.ports.valheim1.port }}'
+            SERVER_PUBLIC: true
+            STATUS_HTTP: true
+            STATUS_HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'
+            SUPERVISOR_HTTP: true
+            SUPERVISOR_HTTP_PASS: secret
+            SUPERVISOR_HTTP_PORT: '{{ .Values.service.supervisor.ports.supervisor.port
+              }}'
+            SUPERVISOR_HTTP_USER: admin
+            UPDATE_INTERVAL: 10800
+            WORLD_NAME: Dedicated
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

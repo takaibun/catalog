@@ -1,0 +1,41 @@
+annotations:
+  truecharts.org/category: finacial
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+- alias: ''
+  condition: redis.enabled
+  import-values: []
+  name: redis
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.5
+deprecated: false
+description: A free and open source personal finance manager
+home: https://truecharts.org/charts/stable/fireflyiii
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/fireflyiii.webp
+keywords:
+- fireflyiii
+- finacial
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: fireflyiii
+sources:
+- https://github.com/firefly-iii/firefly-iii/
+- https://github.com/truecharts/charts/tree/master/charts/stable/fireflyiii
+- https://hub.docker.com/r/fireflyiii/core
+type: application
+version: 2025.1.26

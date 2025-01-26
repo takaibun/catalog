@@ -1,0 +1,41 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: rhasspy/wyoming-whisper
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /.cache/huggingface/hub
+  config:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 10300
+        protocol: tcp
+        targetPort: 10300
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              port: 10300
+              type: tcp
+            readiness:
+              port: 10300
+              type: tcp
+            startup:
+              port: 10300
+              type: tcp
+wyoming_whisper:
+  beam_size: 1
+  initial_prompt: ''
+  language: en
+  model: tiny-int8

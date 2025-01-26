@@ -1,0 +1,61 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: kasmweb/workspaces
+  tag: latest
+kasm:
+  mountInput: false
+  mountUdev: false
+persistence:
+  data:
+    enabled: true
+    mountPath: /opt
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    fsGroup: 0
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  admin:
+    enabled: true
+    ports:
+      admin:
+        enabled: true
+        port: 10351
+        protocol: https
+        targetPort: 3000
+  main:
+    ports:
+      main:
+        port: 10350
+        protocol: https
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DOCKER_HUB_PASSWORD: ''
+            DOCKER_HUB_USERNAME: ''
+            KASM_PORT: '{{ .Values.service.main.ports.main.port }}'
+          probes:
+            liveness:
+              path: /
+              port: '{{ .Values.service.admin.ports.admin.targetPort }}'
+              type: https
+            readiness:
+              path: /
+              port: '{{ .Values.service.admin.ports.admin.targetPort }}'
+              type: https
+            startup:
+              path: /
+              port: '{{ .Values.service.admin.ports.admin.targetPort }}'
+              type: https

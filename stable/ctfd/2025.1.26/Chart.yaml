@@ -1,0 +1,48 @@
+annotations:
+  truecharts.org/category: learning
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+- alias: ''
+  condition: mariadb.enabled
+  import-values: []
+  name: mariadb
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.10
+- alias: ''
+  condition: redis.enabled
+  import-values: []
+  name: redis
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.5
+deprecated: false
+description: CTFd is a Capture The Flag framework focusing on ease of use and customizability.
+home: https://truecharts.org/charts/stable/ctfd
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/ctfd.webp
+keywords:
+- ctfd
+- learning
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: ctfd
+sources:
+- https://ghcr.io/ctfd/ctfd
+- https://github.com/CTFd/CTFd
+- https://github.com/truecharts/charts/tree/master/charts/stable/ctfd
+type: application
+version: 2025.1.26

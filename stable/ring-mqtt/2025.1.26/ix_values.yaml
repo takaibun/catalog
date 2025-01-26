@@ -1,0 +1,66 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tsightler/ring-mqtt
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+  ring-config:
+    enabled: true
+    objectName: ring-config
+    targetSelector:
+      main:
+        main:
+          mountPath: /data/config.json
+          readOnly: true
+          subPath: config.json
+    type: configmap
+portal:
+  open:
+    enabled: false
+ring:
+  disarm_code: ''
+  enable_cameras: true
+  enable_modes: false
+  enable_panic: false
+  hass_topic: homeassistant/status
+  livestream_pass: ''
+  livestream_user: ''
+  location_ids": []
+  mqtt_options: ''
+  mqtt_url: mqtt://localhost:1883
+  ring_topic: ring
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 55123
+        protocol: http
+        targetPort: 55123
+  rtsp:
+    enabled: true
+    ports:
+      rtsp:
+        enabled: true
+        port: 8554
+        protocol: tcp
+        targetPort: 8554
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

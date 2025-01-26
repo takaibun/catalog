@@ -1,0 +1,40 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/pmmp/pocketmine-mp
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+  plugins:
+    enabled: true
+    mountPath: /plugins
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 19132
+        protocol: udp
+        targetPort: 19132
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          stdin: true
+          tty: true

@@ -1,0 +1,56 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: bobokun/qbit_manage
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            QBT_CAT_UPDATE: false
+            QBT_CROSS_SEED: false
+            QBT_DIVIDER: '='
+            QBT_DRY_RUN: false
+            QBT_LOG_LEVEL: INFO
+            QBT_RECHECK: false
+            QBT_REM_ORPHANED: false
+            QBT_REM_UNREGISTERED: false
+            QBT_RUN: false
+            QBT_SCHEDULE: 30
+            QBT_SHARE_LIMITS: false
+            QBT_SKIP_CLEANUP: false
+            QBT_SKIP_QB_VERSION_CHECK: false
+            QBT_TAG_NOHARDLINKS: false
+            QBT_TAG_TRACKER_ERROR: false
+            QBT_TAG_UPDATE: false
+            QBT_WIDTH: 100
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

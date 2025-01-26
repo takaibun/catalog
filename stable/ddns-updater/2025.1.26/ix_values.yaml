@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: qmcgaw/ddns-updater
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /updater/data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10227
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BACKUP_PERIOD: '0'
+            CONFIG: ''
+            HTTP_TIMEOUT: 10s
+            IPV6_PREFIX: /128
+            LISTENING_ADDRESS: :{{ .Values.service.main.ports.main.port }}
+            LOG_CALLER: hidden
+            LOG_LEVEL: info
+            PERIOD: 5m
+            PUBLICIPV4_HTTP_PROVIDERS: all
+            PUBLICIPV6_HTTP_PROVIDERS: all
+            PUBLICIP_DNS_PROVIDERS: all
+            PUBLICIP_DNS_TIMEOUT: 3s
+            PUBLICIP_FETCHERS: all
+            PUBLICIP_HTTP_PROVIDERS: all
+            SHOUTRRR_ADDRESSES: ''
+            UPDATE_COOLDOWN_PERIOD: 5m
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

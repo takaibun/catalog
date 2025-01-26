@@ -1,0 +1,42 @@
+annotations:
+  truecharts.org/category: productivity
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+- alias: ''
+  condition: redis.enabled
+  import-values: []
+  name: redis
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.5
+deprecated: false
+description: The to-do app to organize your life.
+home: https://truecharts.org/charts/stable/vikunja
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.webp
+keywords:
+- vikunja
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: vikunja
+sources:
+- https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
+- https://hub.docker.com/_/nginx
+- https://hub.docker.com/r/vikunja/api
+- https://hub.docker.com/r/vikunja/frontend
+- https://vikunja.io/docs
+type: application
+version: 2025.1.26

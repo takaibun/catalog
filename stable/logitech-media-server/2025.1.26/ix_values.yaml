@@ -1,0 +1,51 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: lmscommunity/logitechmediaserver
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  cli:
+    enabled: true
+    ports:
+      cli:
+        enabled: true
+        port: 9090
+        targetPort: 9090
+  main:
+    ports:
+      main:
+        port: 9000
+  playertcp:
+    enabled: true
+    ports:
+      slimprototcp:
+        enabled: true
+        port: 3483
+        targetPort: 3483
+  playerudp:
+    enabled: true
+    ports:
+      slimprotoudp:
+        enabled: true
+        port: 3483
+        protocol: udp
+        targetPort: 3483
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'

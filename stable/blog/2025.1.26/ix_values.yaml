@@ -1,0 +1,62 @@
+cnpg:
+  main:
+    database: blog
+    enabled: true
+    user: blog
+image:
+  pullPolicy: IfNotPresent
+  repository: m1k1o/blog
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /var/www/html/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10111
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BLOG_DB_CONNECTION: postgres
+            BLOG_DB_NAME: '{{ .Values.cnpg.main.database }}'
+            BLOG_LANG: en
+            BLOG_NAME: Max Musermann
+            BLOG_NICK: username
+            BLOG_PASS: password
+            BLOG_POSTGRES_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            BLOG_POSTGRES_PASS:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            BLOG_POSTGRES_PORT: '5432'
+            BLOG_POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+            BLOG_TITLE: Blog
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

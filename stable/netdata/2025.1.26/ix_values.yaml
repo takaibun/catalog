@@ -1,0 +1,169 @@
+configmap:
+  configs:
+    data:
+      go-d-conf: "modules:\n  k8s_state: yes"
+      go-d-k8s-state-conf: "jobs:\n  - name: k8s_state\n    update_every: 1"
+      netdata-conf: "[global]\n  memory mode = dbengine\n  dbengine multihost disk\
+        \ space = 4096\n  page cache size = 64"
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: netdata/netdata
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /var/cache/netdata
+  config:
+    enabled: true
+    mountPath: /etc/netdata
+    targetSelectAll: true
+  dev:
+    enabled: true
+    hostPath: /dev
+    mountPath: /host/dev
+    readOnly: true
+    type: hostPath
+  go-d-configs:
+    enabled: true
+    mountPath: /etc/netdata/truecharts-defaults/.go.d.conf
+    objectName: configs
+    subPath: go-d-conf
+    targetSelectAll: true
+    type: configmap
+  go-d-k8s-state-configs:
+    enabled: true
+    mountPath: /etc/netdata/truecharts-defaults/go.d/.k8s_state.conf
+    objectName: configs
+    subPath: go-d-k8s-state-conf
+    targetSelectAll: true
+    type: configmap
+  group:
+    enabled: true
+    hostPath: /etc/group
+    mountPath: /host/etc/group
+    readOnly: true
+    type: hostPath
+  lib:
+    enabled: true
+    mountPath: /var/lib/netdata
+  netdata-configs:
+    enabled: true
+    mountPath: /etc/netdata/truecharts-defaults/.netdata.conf
+    objectName: configs
+    subPath: netdata-conf
+    targetSelectAll: true
+    type: configmap
+  os:
+    enabled: true
+    hostPath: /etc/os-release
+    mountPath: /host/etc/os-release
+    readOnly: true
+    type: hostPath
+  passwd:
+    enabled: true
+    hostPath: /etc/passwd
+    mountPath: /host/etc/passwd
+    readOnly: true
+    type: hostPath
+  proc:
+    enabled: true
+    hostPath: /proc
+    mountPath: /host/proc
+    readOnly: true
+    type: hostPath
+  sys:
+    enabled: true
+    hostPath: /sys
+    mountPath: /host/sys
+    readOnly: true
+    type: hostPath
+portal:
+  open:
+    enabled: true
+rbac:
+  main:
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - pods
+      - nodes
+      - nodes/metrics
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - ''
+      resources:
+      - namespaces
+      verbs:
+      - get
+securityContext:
+  container:
+    capabilities:
+      add:
+      - SYS_PTRACE
+    fsGroup: 201
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 19999
+        targetPort: 19999
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+workload:
+  main:
+    podSpec:
+      automountServiceAccountToken: true
+      containers:
+        main:
+          env:
+            MY_NODE_NAME:
+              fieldRef:
+                fieldPath: spec.nodeName
+            MY_POD_NAME:
+              fieldRef:
+                fieldPath: metadata.name
+            MY_POD_NAMESPACE:
+              fieldRef:
+                fieldPath: metadata.namespace
+            NETDATA_CLAIM_ROOMS: ''
+            NETDATA_CLAIM_TOKEN: ''
+            NETDATA_CLAIM_URL: ''
+          probes:
+            liveness:
+              path: /api/v1/info
+            readiness:
+              path: /api/v1/info
+            startup:
+              path: /api/v1/info
+      initContainers:
+        create-config:
+          args:
+          - "copy_config () {\n  local confSource=\"$1\"\n  local confTarget=\"$2\"\
+            \n  local dirTarget\n  dirTarget=\"$(dirname \"${confTarget}\")\"\n\n\
+            \  if [ ! -f \"$confTarget\" ]; then\n    if [ ! -d \"${dirTarget}\" ];\
+            \ then\n      mkdir -p \"$dirTarget\"\n    fi;\n    cp \"$confSource\"\
+            \ \"$confTarget\"\n    echo \"Content of $(basename \"${confTarget}\"\
+            )\"\n    cat \"$confTarget\"\n  else\n    echo \"Config $confTarget exists,\
+            \ skipping...\"\n  fi;\n}\nexport -f copy_config\n\ncopy_config \"/etc/netdata/truecharts-defaults/.netdata.conf\"\
+            \ \"/etc/netdata/netdata.conf\"\ncopy_config \"/etc/netdata/truecharts-defaults/.go.d.conf\"\
+            \ \"/etc/netdata/go.d.conf\"\ncopy_config \"/etc/netdata/truecharts-defaults/go.d/.k8s_state.conf\"\
+            \ \"/etc/netdata/go.d/k8s_state.conf\""
+          command:
+          - /bin/bash
+          - -c
+          enabled: true
+          imageSelector: image
+          type: init

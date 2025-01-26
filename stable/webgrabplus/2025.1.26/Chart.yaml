@@ -1,0 +1,32 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Webgrabplus is a multi-site incremental xmltv epg grabber.
+home: https://truecharts.org/charts/stable/webgrabplus
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/webgrabplus.webp
+keywords:
+- webgrabplus
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: webgrabplus
+sources:
+- https://ghcr.io/linuxserver/webgrabplus
+- https://github.com/truecharts/charts/tree/master/charts/stable/webgrabplus
+type: application
+version: 2025.1.26

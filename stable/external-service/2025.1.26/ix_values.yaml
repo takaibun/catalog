@@ -1,0 +1,29 @@
+global:
+  ignoreIsStopped: true
+image:
+  pullPolicy: IfNotPresent
+  repository: alpine
+  tag: latest
+ingress:
+  main:
+    annotations:
+      traefik.frontend.passHostHeader: 'false'
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    externalIP: 1.1.1.1
+    ports:
+      main:
+        port: 10003
+        protocol: https
+    type: ExternalIP
+    useSlice: false
+workload:
+  main:
+    enabled: false
+    podSpec:
+      containers:
+        main:
+          env: {}

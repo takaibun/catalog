@@ -1,0 +1,30 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: jkirkcaldy/plex-utills
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  logs:
+    enabled: true
+    mountPath: /logs
+  plexlibrary:
+    enabled: true
+    mountPath: /films
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10380
+        protocol: http
+        targetPort: 80

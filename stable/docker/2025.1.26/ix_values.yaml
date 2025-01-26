@@ -1,0 +1,56 @@
+hostNetwork: true
+image:
+  pullPolicy: IfNotPresent
+  repository: docker
+  tag: latest
+persistence:
+  docker-certs-ca:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    fsGroup: 0
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 2376
+        type: https
+    type: ClusterIP
+volumeClaimTemplates:
+  docker:
+    enabled: true
+    mountPath: /var/lib/docker
+  docker-certs-client:
+    enabled: true
+    mountPath: /certs/client
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DOCKER_TLS_CERTDIR: /certs
+          probes:
+            liveness:
+              initialDelaySeconds: 30
+              type: tcp
+            readiness:
+              initialDelaySeconds: 30
+              type: tcp
+            startup:
+              initialDelaySeconds: 30
+              type: tcp
+    replicas: 1
+    strategy: RollingUpdate
+    type: StatefulSet

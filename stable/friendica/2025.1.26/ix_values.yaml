@@ -1,0 +1,76 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: friendica
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: friendica
+  mariadbUsername: friendica
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /data
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10058
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            FRIENDICA_ADMIN_MAIL: my@domain.com
+            FRIENDICA_CONFIG_DIR: /config
+            FRIENDICA_DATA_DIR: /data
+            FRIENDICA_SITENAME: ''
+            FRIENDICA_TZ: '{{ .Values.TZ }}'
+            FRIENDICA_UPGRADE: false
+            FRIENDICA_URL: http://localhost:{{ .Values.service.main.ports.main.port
+              }}
+            MYSQL_DATABASE: '{{ .Values.mariadb.mariadbDatabase }}'
+            MYSQL_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            MYSQL_PASSWORD: '{{ .Values.mariadb.password }}'
+            MYSQL_PORT: 3306
+            MYSQL_USER: '{{ .Values.mariadb.mariadbUsername }}'
+            PHP_MEMORY_LIMIT: 512M
+            PHP_UPLOAD_LIMIT: 512M
+            REDIS_DB: 1
+            REDIS_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_PORT: 6379
+            REDIS_PW: '{{ .Values.redis.password }}'
+          probes:
+            liveness:
+              path: /ping
+            readiness:
+              path: /ping
+            startup:
+              path: /ping

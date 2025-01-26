@@ -1,0 +1,20 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/tccr/alpine
+  tag: latest
+manifestManager:
+  enabled: false
+operator:
+  register: true
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    enabled: false

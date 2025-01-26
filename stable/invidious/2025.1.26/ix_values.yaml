@@ -1,0 +1,176 @@
+cnpg:
+  main:
+    database: invidious
+    enabled: true
+    user: kemal
+image:
+  pullPolicy: IfNotPresent
+  repository: quay.io/invidious/invidious
+  tag: latest
+invidious:
+  background_jobs:
+    channel_refresh_interval: 30m
+    channel_threads: 1
+    decrypt_polling: false
+    feed_threads: 1
+    full_refresh: false
+  captcha:
+    captcha_api_url: https://api.anti-captcha.com
+    captcha_key: ''
+  default_user_preferences:
+    interface:
+      annotations: false
+      annotations_subscribed: false
+      comments: []
+      dark_mode: dark
+      default_home: Popular
+      feed_menu: []
+      max_results: 40
+      player_style: invidious
+      related_videos: true
+      thin_mode: false
+    internationalization:
+      captions: []
+      locale: en-US
+      region: US
+    miscellaneous:
+      automatic_instance_redirect: false
+      extend_desc: false
+      local: false
+      show_nick: true
+    subscription_feed:
+      latest_only: false
+      notifications_only: false
+      sort: published
+      unseen_only: false
+    video_playback_settings:
+      quality: hd720
+      quality_dash: auto
+      speed: 1.0
+      volume: 100
+      vr_mode: true
+    video_player_behavior:
+      autoplay: false
+      continue: false
+      continue_autoplay: true
+      listen: false
+      video_loop: false
+  features:
+    popular_enabled: true
+    statistics_enabled: false
+  jobs:
+    clear_expired_items:
+      enable: true
+    refresh_channels:
+      enable: true
+    refresh_feeds:
+      enable: true
+  logging:
+    log_level: Info
+    output: STDOUT
+  miscellaneous:
+    banner: ''
+    cache_annotations: false
+    dmca_content: []
+    playlist_length_limit: 500
+    use_pubsub_feeds: false
+  network:
+    inbound:
+      domain: ''
+      external_port: 10594
+      hsts: true
+      https_only: false
+    outbound:
+      cookies: []
+      disable_proxy: false
+      force_resolve: ipv4
+      pool_size: 100
+      use_quic: false
+  users_accounts:
+    admins: []
+    captcha_enabled: true
+    enable_user_notifications: true
+    login_enabled: true
+    registration_enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10594
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: invidious-secret
+          probes:
+            liveness:
+              type: http
+            readiness:
+              type: http
+            startup:
+              type: http
+      initContainers:
+        dbseed:
+          args:
+          - 'echo "Starting DB Seed..."
+
+            mkdir -p invidious && cd invidious
+
+
+            echo "Fetching seed files..."
+
+            git init && \
+
+            git remote add invidious https://github.com/iv-org/invidious.git && \
+
+            git fetch invidious && \
+
+            # Fetch config and docker dirs
+
+            git checkout invidious/master -- docker config
+
+
+            # Move config into docker dir
+
+            echo "Preparing directory structure..."
+
+            mv -fv config docker
+
+
+            echo "Performing the seed..."
+
+            cd docker
+
+            ./init-invidious-db.sh
+
+            '
+          command:
+          - sh
+          - -c
+          enabled: true
+          env:
+            PGPASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            PGPORT: '5432'
+            POSTGRES_DB:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+            POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+          imageSelector: postgresClientImage
+          type: install

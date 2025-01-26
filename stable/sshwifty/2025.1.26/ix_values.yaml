@@ -1,0 +1,43 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: niruix/sshwifty
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8182
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DialTimeout: 10
+            SSHWIFTY_HEARTBEATTIMEOUT: 20
+            SSHWIFTY_HOSTNAME: ''
+            SSHWIFTY_INITIALTIMEOUT: 3
+            SSHWIFTY_LISTENINTERFACE: 0.0.0.0
+            SSHWIFTY_LISTENPORT: '{{ .Values.service.main.ports.main.port }}'
+            SSHWIFTY_READDELAY: 10
+            SSHWIFTY_READTIMEOUT: 60
+            SSHWIFTY_SHAREDKEY: ''
+            SSHWIFTY_WRITEELAY: 10
+            SSHWIFTY_WRITETIMEOUT: 60
+          probes:
+            liveness:
+              path: /
+            readiness:
+              path: /
+            startup:
+              path: /

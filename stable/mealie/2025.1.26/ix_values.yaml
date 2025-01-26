@@ -1,0 +1,116 @@
+cnpg:
+  main:
+    database: mealie
+    enabled: true
+    user: mealie
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/mealie-recipes/mealie
+  tag: latest
+mealie:
+  api:
+    general:
+      allow_signup: true
+      base_url: ''
+      default_group: Home
+      token_time: 48
+    ldap:
+      admin_filter: ''
+      auth_enabled: false
+      base_dn: ''
+      enable_starttls: false
+      id_attribute: uid
+      mail_attribute: mail
+      name_attribute: name
+      query_bind: ''
+      query_password: ''
+      server_url: ''
+      tls_cacertfile: ''
+      tls_insecure: false
+      user_filter: ''
+    oidc:
+      admin_group: ''
+      auth_enabled: false
+      auto_redirect: false
+      client_id: ''
+      configuration_url: ''
+      provider_name: OAuth
+      remember_me: false
+      signup_enabled: true
+      user_group: ''
+    security:
+      max_login_attempts: 5
+      user_lockout_time: 24
+    smtp:
+      auth_strategy: TLS
+      from_email: ''
+      from_name: Mealie
+      host: ''
+      password: ''
+      port: 587
+      user: ''
+    webworkers:
+      max_workers: 1
+      web_concurrency: 1
+      workers_per_core: 1
+  frontend:
+    theme:
+      dark_accent: '#007A99'
+      dark_error: '#EF5350'
+      dark_info: '#1976D2'
+      dark_primary: '#E58325'
+      dark_secondary: '#973542'
+      dark_success: '#43A047'
+      dark_warning: '#FF6D00'
+      light_accent: '#007A99'
+      light_error: '#EF5350'
+      light_info: '#1976D2'
+      light_primary: '#E58325'
+      light_secondary: '#973542'
+      light_success: '#43A047'
+      light_warning: '#FF6D00'
+persistence:
+  data:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /app/data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10018
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: frontend
+          - secretRef:
+              name: api
+          probes:
+            liveness:
+              command:
+              - python
+              - /app/mealie/scripts/healthcheck.py
+              enabled: true
+              type: exec
+            readiness:
+              command:
+              - python
+              - /app/mealie/scripts/healthcheck.py
+              enabled: true
+              type: exec
+            startup:
+              command:
+              - python
+              - /app/mealie/scripts/healthcheck.py
+              enabled: true
+              type: exec

@@ -1,0 +1,57 @@
+fabulinus:
+  device: cpu
+  disable_batching: true
+  max_batch_size: 32
+  model: google/flan-t5-small
+  quant_type: int8
+gpuImage:
+  pullPolicy: IfNotPresent
+  repository: tytn/fabulinus
+  tag: latest-gpu@sha256:9a826a578ca4157fbe3c091eb78aa35dfca6675f9fae24dcb90495ba4d9715d1
+image:
+  pullPolicy: IfNotPresent
+  repository: tytn/fabulinus
+  tag: latest
+persistence:
+  models:
+    enabled: true
+    mountPath: /code/models
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10687
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            TAKEOFF_DEVICE: '{{ .Values.fabulinus.device }}'
+            TAKEOFF_DISABLE_BATCHING: '{{ .Values.fabulinus.disable_batching }}'
+            TAKEOFF_MAX_BATCH_SIZE: '{{ .Values.fabulinus.max_batch_size }}'
+            TAKEOFF_MODEL_NAME: '{{ .Values.fabulinus.model }}'
+            TAKEOFF_QUANT_TYPE: '{{ .Values.fabulinus.quant_type }}'
+          imageSelector: image
+          probes:
+            liveness:
+              enabled: true
+              path: /docs
+              type: http
+            readiness:
+              enabled: true
+              path: /docs
+              type: http
+            startup:
+              enabled: true
+              type: tcp

@@ -1,0 +1,63 @@
+cnpg:
+  main:
+    database: jfstat
+    enabled: true
+    user: jfstat
+image:
+  pullPolicy: IfNotPresent
+  repository: cyfershepard/jellystat
+  tag: latest
+persistence:
+  backup:
+    enabled: true
+    mountPath: /app/backend/backup-data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 10681
+        protocol: http
+        targetPort: 3000
+      ws:
+        enabled: true
+        port: 10682
+        protocol: tcp
+        targetPort: 3004
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            JWT_SECRET:
+              secretKeyRef:
+                key: JWT_SECRET
+                name: jellystat-secrets
+            POSTGRES_IP:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            POSTGRES_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            POSTGRES_PORT: 5432
+            POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+          probes:
+            liveness:
+              path: /
+            readiness:
+              path: /
+            startup:
+              path: /

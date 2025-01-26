@@ -1,0 +1,45 @@
+annotations:
+  truecharts.org/category: analytics
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+- alias: ''
+  condition: clickhouse.enabled
+  import-values: []
+  name: clickhouse
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 13.1.4
+deprecated: false
+description: Plausible is lightweight and open source web analytics. No cookies and
+  fully compliant with GDPR, CCPA and PECR.
+home: https://truecharts.org/charts/stable/plausible
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/plausible.webp
+keywords:
+- plausible
+- analytics
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: plausible
+sources:
+- https://github.com/plausible/analytics
+- https://github.com/plausible/hosting
+- https://github.com/truecharts/charts/tree/master/charts/stable/plausible
+- https://hub.docker.com/r/plausible/analytics
+- https://plausible.io/
+- https://plausible.io/docs/self-hosting
+type: application
+version: 2025.1.26

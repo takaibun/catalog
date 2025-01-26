@@ -1,0 +1,72 @@
+configmap:
+  deepstack:
+    data:
+      VISION-DETECTION: '{{ ternary "True" "False" .Values.deepstack.vision_detection
+        }}'
+      VISION-ENHANCE: '{{ ternary "True" "False" .Values.deepstack.vision_enhance
+        }}'
+      VISION-FACE: '{{ ternary "True" "False" .Values.deepstack.vision_face }}'
+      VISION-SCENE: '{{ ternary "True" "False" .Values.deepstack.vision_scene }}'
+    enabled: true
+deepstack:
+  vision_detection: true
+  vision_enhance: true
+  vision_face: true
+  vision_scene: true
+gpuImage:
+  pullPolicy: IfNotPresent
+  repository: deepquestai/deepstack
+  tag: cpu-2022.01.1@sha256:4320be73987468b3040b2ca63daf2d3935c4d469b53aa40efb6176858488b500
+image:
+  pullPolicy: IfNotPresent
+  repository: deepquestai/deepstack
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /datastore
+  modelstore:
+    enabled: true
+    mountPath: /modelstore/detection
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10049
+        protocol: http
+        targetPort: 5000
+updated: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN-KEY: ''
+            API-KEY: ''
+            MODE: High
+            MODELSTORE-DETECTION: '{{ .Values.persistence.modelstore.mountPath }}'
+            THREADCOUNT: 5
+          envFrom:
+          - configMapRef:
+              name: deepstack
+          imageSelector: image
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

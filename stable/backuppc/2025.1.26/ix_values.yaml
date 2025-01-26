@@ -1,0 +1,69 @@
+backuppc:
+  smtp:
+    auth: none
+    auto_from: false
+    domain: docker
+    host: postfix-relay
+    maildomain: local
+    pass: ''
+    port: 25
+    starttls: false
+    tls: false
+    tlscertcheck: false
+    user: ''
+image:
+  pullPolicy: IfNotPresent
+  repository: tiredofit/backuppc
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /data
+  logs:
+    enabled: true
+    mountPath: /logs
+  ssh:
+    enabled: true
+    mountPath: /.ssh
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8000
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CONFIG_PATH: '{{ .Values.persistence.config.mountPath }}'
+            DATA_PATH: '{{ .Values.persistence.data.mountPath }}'
+            GROUP_BACKUPPC: '{{ .Values.securityContext.pod.fsGroup }}'
+            LOG_PATH: '{{ .Values.persistence.logs.mountPath }}'
+            SMTP_AUTHENTICATION: '{{ .Values.backuppc.smtp.auth }}'
+            SMTP_AUTO_FROM: '{{ .Values.backuppc.smtp.auto_from }}'
+            SMTP_DOMAIN: '{{ .Values.backuppc.smtp.domain }}'
+            SMTP_HOST: '{{ .Values.backuppc.smtp.host }}'
+            SMTP_MAILDOMAIN: '{{ .Values.backuppc.smtp.maildomain }}'
+            SMTP_PASS: '{{ .Values.backuppc.smtp.pass }}'
+            SMTP_PORT: '{{ .Values.backuppc.smtp.port }}'
+            SMTP_STARTTLS: '{{ .Values.backuppc.smtp.starttls }}'
+            SMTP_TLS: '{{ .Values.backuppc.smtp.tls }}'
+            SMTP_TLSCERTCHECK: '{{ .Values.backuppc.smtp.tlscertcheck }}'
+            SMTP_USER: '{{ .Values.backuppc.smtp.user }}'
+            SSH_KEYS_PATH: '{{ .Values.persistence.ssh.mountPath }}'
+            USER_BACKUPPC: '{{ .Values.securityContext.container.PUID }}'

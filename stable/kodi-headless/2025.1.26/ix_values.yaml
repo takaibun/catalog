@@ -1,0 +1,52 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: linuxserver/kodi-headless
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config/.kodi
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  esall:
+    enabled: true
+    ports:
+      esall:
+        enabled: true
+        port: 9777
+        protocol: udp
+        targetPort: 9777
+  main:
+    ports:
+      main:
+        port: 10148
+        targetPort: 8080
+  websocket:
+    enabled: true
+    ports:
+      websocket:
+        enabled: true
+        port: 10152
+        targetPort: 9090
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

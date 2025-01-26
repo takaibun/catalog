@@ -1,0 +1,47 @@
+configmap:
+  dashboards:
+    data:
+      upDPI.json: '{{ .Files.Get "dashboards/DPI.json" | indent 8 }}'
+      upUAP.json: '{{ .Files.Get "dashboards/UAP.json" | indent 8 }}'
+      upUSG.json: '{{ .Files.Get "dashboards/USG.json" | indent 8 }}'
+      upUSW.json: '{{ .Files.Get "dashboards/USW.json" | indent 8 }}'
+      upclients.json: '{{ .Files.Get "dashboards/clients.json" | indent 8 }}'
+      upnetwork.json: '{{ .Files.Get "dashboards/network.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/unpoller/unpoller
+  tag: latest
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: main
+    prometheusRule:
+      enabled: false
+    type: servicemonitor
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 9130
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            UP_PROMETHEUS_DISABLE: false
+          probes:
+            liveness:
+              path: /
+            readiness:
+              path: /
+            startup:
+              path: /

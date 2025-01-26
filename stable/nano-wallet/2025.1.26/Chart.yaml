@@ -1,0 +1,33 @@
+annotations:
+  truecharts.org/category: incubator
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Nano-wallet is a digital payment protocol designed to be accessible and
+  lightweight.
+home: https://truecharts.org/charts/stable/nano-wallet
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/nano-wallet.webp
+keywords:
+- nano-wallet
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: nano-wallet
+sources:
+- https://ghcr.io/linuxserver/nano-wallet
+- https://github.com/truecharts/charts/tree/master/charts/stable/nano-wallet
+type: application
+version: 2025.1.26

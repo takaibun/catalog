@@ -1,0 +1,47 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: evanbuss/openbooks
+  tag: latest
+openbooks:
+  debug: true
+  log: true
+  no_browser_downloads: false
+  persist: false
+  search: search
+  server: irc.irchighway.net:6697
+  tls: true
+  user_name: truecharts
+persistence:
+  books:
+    enabled: true
+    mountPath: /books/books
+  logs:
+    enabled: true
+    mountPath: /books/logs
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 10608
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

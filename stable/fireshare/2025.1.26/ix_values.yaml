@@ -1,0 +1,41 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: shaneisrael/fireshare
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+  processeddata:
+    enabled: true
+    mountPath: /processed
+  videos:
+    enabled: true
+    mountPath: /videos
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10287
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_PASSWORD: changeme
+            MINUTES_BETWEEN_VIDEO_SCANS: 5
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: fireshare-secrets

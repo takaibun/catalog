@@ -1,0 +1,61 @@
+clickhouseDatabase: test
+clickhouseDefaultAccessManagement: 0
+clickhousePassword: ''
+clickhouseUsername: test
+existingSecret: ''
+image:
+  pullPolicy: IfNotPresent
+  repository: clickhouse/clickhouse-server
+  tag: latest
+includeCommon: true
+persistence:
+  data:
+    enabled: true
+    mountPath: /var/lib/clickhouse
+portal:
+  open:
+    enabled: false
+secret:
+  credentials:
+    data:
+      clickhouse-password: '{{ ( .Values.clickhousePassword | default "empty" ) }}'
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 8123
+        protocol: http
+        targetPort: 8123
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CLICKHOUSE_DB: '{{ .Values.clickhouseDatabase }}'
+            CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: '{{ .Values.clickhouseDefaultAccessManagement
+              }}'
+            CLICKHOUSE_PASSWORD:
+              secretKeyRef:
+                expandObjectName: '{{ if .Values.clickhousePassword }}true{{ else
+                  }}false{{ end }}'
+                key: clickhouse-password
+                name: '{{ if .Values.clickhousePassword }}credentials{{ else if .Values.existingSecret
+                  }}{{ .Values.existingSecret }}{{ else }}{{ printf "%s-%s" .Release.Name
+                  "clickhousecreds" }}{{ end }}'
+            CLICKHOUSE_USER: '{{ .Values.clickhouseUsername }}'
+          probes:
+            liveness:
+              path: /ping
+              type: http
+            readiness:
+              path: /ping
+              type: http
+            startup:
+              path: /ping
+              type: http
+    replicas: 1

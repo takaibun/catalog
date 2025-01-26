@@ -1,0 +1,33 @@
+annotations:
+  truecharts.org/category: games
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Minecraft Bedrock Dedicated Server
+home: https://truecharts.org/charts/stable/minecraft-bedrock
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/minecraft-bedrock.webp
+keywords:
+- minecraft
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: minecraft-bedrock
+sources:
+- https://github.com/itzg/docker-minecraft-server
+- https://github.com/truecharts/charts/tree/master/charts/stable/minecraft-bedrock
+- https://hub.docker.com/r/itzg/minecraft-bedrock-server
+type: application
+version: 2025.1.26

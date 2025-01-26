@@ -1,0 +1,34 @@
+certmanager:
+  dns01RecursiveNameservers: 1.1.1.1:53,1.0.0.1:53
+  dns01RecursiveNameserversOnly: false
+  enableCertificateOwnerRef: true
+  installCRDs: true
+  prometheus:
+    enabled: true
+    servicemonitor:
+      enabled: true
+configmap:
+  dashboard:
+    data:
+      cert-manager.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/tccr/scratch
+  tag: latest
+operator:
+  register: true
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    enabled: false

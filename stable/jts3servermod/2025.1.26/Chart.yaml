@@ -1,0 +1,37 @@
+annotations:
+  truecharts.org/category: productivity
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: JTS3ServerMod by Stefan1200
+home: https://truecharts.org/charts/stable/jts3servermod
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/jts3servermod.webp
+keywords:
+- teamspeak
+- jts3servermod
+- teamspeak-bot
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: jts3servermod
+sources:
+- https://ghcr.io/galexrt/jts3servermod
+- https://github.com/galexrt/container-jts3servermod
+- https://github.com/truecharts/charts/tree/master/charts/stable/jts3servermod
+- https://www.stefan1200.de/documentation/jts3servermod/readme.html
+- https://www.stefan1200.de/forum/index.php?PHPSESSID=r0m44032akt9jk7903ru9ejv2f&topic=2.0
+type: application
+version: 2025.1.26

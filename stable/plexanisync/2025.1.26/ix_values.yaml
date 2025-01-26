@@ -1,0 +1,63 @@
+custom_mappings: []
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/rickdb/plexanisync
+  tag: latest
+persistence:
+  settings:
+    defaultMode: '0600'
+    enabled: true
+    mountPath: /plexanisync/settings.ini
+    objectName: secret
+    readOnly: true
+    subPath: settings.ini
+    type: secret
+plexanisync:
+  anilist:
+    ani_token: ''
+    ani_username: ''
+    log_failed_matches: false
+    plex_ep_count_priority: false
+    skip_list_update: false
+  interval: 3600
+  plex:
+    anime_section: []
+    home_server_url: ''
+    home_user_sync: false
+    home_username: ''
+    myplex_server: ''
+    myplex_token: ''
+    myplex_user: ''
+    plex_auth_method: direct
+    plex_token: ''
+    plex_url: ''
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: config
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

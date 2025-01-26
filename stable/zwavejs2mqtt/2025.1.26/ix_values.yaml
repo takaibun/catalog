@@ -1,0 +1,39 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: zwavejs/zwave-js-ui
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /usr/src/app/store
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 8091
+        targetPort: 8091
+  ws:
+    enabled: true
+    ports:
+      ws:
+        enabled: true
+        port: 10046
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: true
+            readiness:
+              enabled: true
+            startup:
+              enabled: false

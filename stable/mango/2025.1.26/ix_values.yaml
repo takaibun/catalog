@@ -1,0 +1,26 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: hkalexling/mango
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /root/.config/mango
+  data:
+    enabled: true
+    mountPath: /root/mango
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9000
+        protocol: tcp
+        targetPort: 9000

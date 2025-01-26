@@ -1,0 +1,43 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/actualbudget/actual-server
+  tag: latest
+persistence:
+  server-files:
+    enabled: true
+    mountPath: /data/server-files
+  user-files:
+    enabled: true
+    mountPath: /data/user-files
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10293
+        protocol: http
+        targetPort: 5006
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

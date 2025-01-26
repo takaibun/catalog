@@ -1,0 +1,54 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/fleet
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: fleet
+  mariadbUsername: fleet
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10145
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            fleet_admin_authentication_type: DATABASE
+            fleet_database_password: '{{ .Values.mariadb.password }}'
+            fleet_database_url:
+              secretKeyRef:
+                expandObjectName: false
+                key: jdbc-mariadb
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            fleet_database_username: fleet
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

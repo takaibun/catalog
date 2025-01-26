@@ -1,0 +1,127 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: grafana/agent-operator
+  tag: latest
+kubeletService:
+  namespace: default
+  serviceName: kubelet
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: false
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - monitoring.grafana.com
+      resources:
+      - grafanaagents
+      - metricsinstances
+      - logsinstances
+      - podlogs
+      - integrations
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - monitoring.grafana.com
+      resources:
+      - grafanaagents/finalizers
+      - metricsinstances/finalizers
+      - logsinstances/finalizers
+      - podlogs/finalizers
+      - integrations/finalizers
+      verbs:
+      - get
+      - list
+      - watch
+      - update
+    - apiGroups:
+      - monitoring.coreos.com
+      resources:
+      - podmonitors
+      - probes
+      - servicemonitors
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - monitoring.coreos.com
+      resources:
+      - podmonitors/finalizers
+      - probes/finalizers
+      - servicemonitors/finalizers
+      verbs:
+      - get
+      - list
+      - watch
+      - update
+    - apiGroups:
+      - ''
+      resources:
+      - namespaces
+      - nodes
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - ''
+      resources:
+      - secrets
+      - services
+      - configmaps
+      - endpoints
+      verbs:
+      - get
+      - list
+      - watch
+      - create
+      - update
+      - patch
+      - delete
+    - apiGroups:
+      - apps
+      resources:
+      - statefulsets
+      - daemonsets
+      - deployments
+      verbs:
+      - get
+      - list
+      - watch
+      - create
+      - update
+      - patch
+      - delete
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - --kubelet-service={{ .Values.kubeletService.namespace }}/{{ .Values.kubeletService.serviceName
+            }}
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

@@ -1,0 +1,37 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: domoticz/domoticz
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/domoticz/userdata
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  comm1:
+    enabled: true
+    ports:
+      comm1:
+        enabled: true
+        port: 6144
+        targetPort: 6144
+  main:
+    ports:
+      main:
+        port: 10144
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            EXTRA_CMD_ARG: -userdata {{ .Values.persistence.config.mountPath }}
+            WWW_PORT: '{{ .Values.service.main.ports.main.port }}'

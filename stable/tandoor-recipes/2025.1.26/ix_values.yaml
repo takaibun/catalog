@@ -1,0 +1,62 @@
+cnpg:
+  main:
+    database: recipes
+    enabled: true
+    user: recipes
+image:
+  pullPolicy: IfNotPresent
+  repository: vabene1111/recipes
+  tag: latest
+persistence:
+  media:
+    enabled: true
+    mountPath: /opt/recipes/mediafiles
+  static:
+    enabled: true
+    mountPath: /opt/recipes/staticfiles
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10029
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ALLOWED_HOSTS: '*'
+            COMMENT_PREF_DEFAULT: 1
+            CSRF_TRUSTED_ORIGINS: ''
+            DB_ENGINE: django.db.backends.postgresql
+            DEBUG: 0
+            FRACTION_PREF_DEFAULT: 0
+            GUNICORN_MEDIA: 1
+            POSTGRES_DB: '{{ .Values.cnpg.main.database }}'
+            POSTGRES_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            POSTGRES_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            POSTGRES_PORT: 5432
+            POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: recipes-secrets
+            SHOPPING_MIN_AUTOSYNC_INTERVAL: 5
+            TANDOOR_PORT: '{{ .Values.service.main.ports.main.port }}'
+            TIMEZONE: '{{ .Values.TZ }}'

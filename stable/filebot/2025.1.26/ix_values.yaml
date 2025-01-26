@@ -1,0 +1,114 @@
+configmap:
+  filebot:
+    data:
+      AMC_ACTION: '{{ .Values.filebot.AMC_ACTION }}'
+      AMC_ANIME_FORMAT: '{{ .Values.filebot.AMC_ANIME_FORMAT }}'
+      AMC_ARTWORK: '{{ ternary "y" "n" .Values.filebot.AMC_ARTWORK }}'
+      AMC_CONFLICT: '{{ .Values.filebot.AMC_CONFLICT }}'
+      AMC_CUSTOM_OPTIONS: '{{ .Values.filebot.AMC_CUSTOM_OPTIONS }}'
+      AMC_INPUT_STABLE_TIME: '{{ .Values.filebot.AMC_INPUT_STABLE_TIME }}'
+      AMC_INSTALL_PKGS: '{{ .Values.filebot.AMC_INSTALL_PKGS }}'
+      AMC_INTERVAL: '{{ .Values.filebot.AMC_INTERVAL }}'
+      AMC_LANG: '{{ .Values.filebot.AMC_LANG }}'
+      AMC_MATCH_MODE: '{{ .Values.filebot.AMC_MATCH_MODE }}'
+      AMC_MOVIE_FORMAT: '{{ .Values.filebot.AMC_MOVIE_FORMAT }}'
+      AMC_MUSIC_FORMAT: '{{ .Values.filebot.AMC_MUSIC_FORMAT }}'
+      AMC_PROCESS_MUSIC: '{{ ternary "y" "n" .Values.filebot.AMC_PROCESS_MUSIC }}'
+      AMC_SERIES_FORMAT: '{{ .Values.filebot.AMC_SERIES_FORMAT }}'
+      AMC_SUBTITLE_LANG: '{{ .Values.filebot.AMC_SUBTITLE_LANG }}'
+      DISPLAY_HEIGHT: '{{ .Values.filebot.DISPLAY_HEIGHT }}'
+      DISPLAY_WIDTH: '{{ .Values.filebot.DISPLAY_WIDTH }}'
+      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.filebot.ENABLE_CJK_FONT }}'
+      FILEBOT_CUSTOM_OPTIONS: '{{ .Values.filebot.FILEBOT_CUSTOM_OPTIONS }}'
+      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.filebot.KEEP_APP_RUNNING }}'
+      OPENSUBTITLES_PASSWORD: '{{ .Values.filebot.OPENSUBTITLES_PASSWORD }}'
+      OPENSUBTITLES_USERNAME: '{{ .Values.filebot.OPENSUBTITLES_USERNAME }}'
+      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.filebot.SECURE_CONNECTION }}'
+      USE_FILEBOT_BETA: '{{ ternary "1" "0" .Values.filebot.USE_FILEBOT_BETA }}'
+    enabled: true
+filebot:
+  AMC_ACTION: test
+  AMC_ANIME_FORMAT: '{plex}'
+  AMC_ARTWORK: false
+  AMC_CONFLICT: auto
+  AMC_CUSTOM_OPTIONS: ''
+  AMC_INPUT_STABLE_TIME: 10
+  AMC_INSTALL_PKGS: ''
+  AMC_INTERVAL: 1800
+  AMC_LANG: English
+  AMC_MATCH_MODE: opportunistic
+  AMC_MOVIE_FORMAT: '{plex}'
+  AMC_MUSIC_FORMAT: '{plex}'
+  AMC_PROCESS_MUSIC: true
+  AMC_SERIES_FORMAT: '{plex}'
+  AMC_SUBTITLE_LANG: ''
+  DISPLAY_HEIGHT: 768
+  DISPLAY_WIDTH: 1280
+  ENABLE_CJK_FONT: false
+  FILEBOT_CUSTOM_OPTIONS: ''
+  KEEP_APP_RUNNING: false
+  OPENSUBTITLES_PASSWORD: ''
+  OPENSUBTITLES_USERNAME: ''
+  SECURE_CONNECTION: false
+  USE_FILEBOT_BETA: false
+image:
+  pullPolicy: IfNotPresent
+  repository: jlesage/filebot
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  output:
+    enabled: true
+    mountPath: /output
+  storage:
+    enabled: true
+    mountPath: /storage
+  watch:
+    enabled: true
+    mountPath: /watch
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10268
+        targetPort: 5800
+  vnc:
+    enabled: true
+    ports:
+      vnc:
+        enabled: true
+        port: 10269
+        targetPort: 5900
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            VNC_PASSWORD: ''
+          envFrom:
+          - configMapRef:
+              name: filebot
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp
+          securityContext:
+            capabilities:
+              add:
+              - NET_BIND_SERVICE
+              - KILL

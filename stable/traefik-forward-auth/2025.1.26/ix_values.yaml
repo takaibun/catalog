@@ -1,0 +1,56 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: thomseddon/traefik-forward-auth
+  tag: latest
+service:
+  main:
+    ports:
+      main:
+        port: 4181
+        targetPort: 4181
+tfaAppOptions:
+  logFormat: text
+  logLevel: warn
+  port: 4181
+  secret: something-random
+tfaAuthOptions:
+  authHost: null
+  defaultAction: auth
+  defaultProvider: google
+  domain: []
+  rules: []
+  urlPath: /_oauth
+  whitelist: []
+tfaCookieOptions:
+  cookieDomain: []
+  cookieName: _forward_auth
+  csrfCookieName: _forward_auth_csrf
+  insecureCookie: false
+  lifetime: 43200
+tfaGoogleOptions:
+  clientId: changeme
+  clientSecret: changeme
+  prompt: changeme
+tfaOauthOptions:
+  authUrl: changeme
+  clientId: changeme
+  clientSecret: changeme
+  resource: changeme
+  scopes: changeme
+  tokenStyle: header
+  tokenUrl: changeme
+  userUrl: changeme
+tfaOidcOptions:
+  clientId: changeme
+  clientSecret: changeme
+  issuerUrl: changeme
+  resource: changeme
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args: []
+          envFrom:
+          - secretRef:
+              name: tfa-secrets

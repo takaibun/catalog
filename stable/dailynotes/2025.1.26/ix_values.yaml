@@ -1,0 +1,30 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: m0ngr31/dailynotes
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5000
+        protocol: tcp
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PREVENT_SIGNUPS: ''

@@ -1,0 +1,45 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: dpage/pgadmin4
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /var/lib/pgadmin
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    fsGroup: 5050
+    readOnlyRootFilesystem: false
+    runAsGroup: 5050
+    runAsNonRoot: true
+    runAsUser: 5050
+service:
+  main:
+    ports:
+      main:
+        port: 10024
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PGADMIN_DEFAULT_EMAIL: replace@this.now
+            PGADMIN_DEFAULT_PASSWORD: changeme
+          probes:
+            liveness:
+              enabled: true
+              path: /misc/ping
+              type: http
+            readiness:
+              enabled: true
+              path: /misc/ping
+              type: http
+            startup:
+              enabled: true
+              path: /misc/ping
+              type: http

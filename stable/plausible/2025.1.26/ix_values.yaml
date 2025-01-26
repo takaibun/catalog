@@ -1,0 +1,112 @@
+clickhouse:
+  clickhouseDatabase: plausible
+  clickhouseUsername: plausible
+  enabled: true
+cnpg:
+  main:
+    database: plausible
+    enabled: true
+    user: plausible
+image:
+  pullPolicy: IfNotPresent
+  repository: plausible/analytics
+  tag: latest
+plausible:
+  db:
+    clickhouse_flush_interval_ms: 5000
+    clickhouse_max_buffer_size: 10000
+  email:
+    mailer_adapter: Bamboo.SMTPAdapter
+    mailer_email: hello@plausible.local
+    mailer_name: ''
+    mailgun_api_key: ''
+    mailgun_base_uri: ''
+    mailgun_domain: ''
+    mandrill_api_key: ''
+    postmark_api_key: ''
+    sendgrid_api_key: ''
+    smtp_host_address: localhost
+    smtp_host_port: 25
+    smtp_host_ssl_enabled: false
+    smtp_retries: 2
+    smtp_user_name: ''
+    smtp_user_password: ''
+  google:
+    client_id: ''
+    client_secret: ''
+  maxmind:
+    edition: GeoLite2-City
+    license_key: ''
+  server:
+    base_url: http://localhost:10277
+    disable_registration: 'true'
+    log_failed_login_attempts: false
+    log_level: warn
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10277
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+          envFrom:
+          - configMapRef:
+              name: plausible-config
+          - secretRef:
+              name: plausible-secret
+          probes:
+            liveness:
+              path: /api/health
+              type: http
+            readiness:
+              path: /api/health
+              type: http
+            startup:
+              type: tcp
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1000
+            runAsUser: 1000
+      initContainers:
+        db-create:
+          args:
+          - -c
+          - /entrypoint.sh db createdb && /entrypoint.sh db migrate
+          command: sh
+          enabled: true
+          envFrom:
+          - configMapRef:
+              name: plausible-config
+          - secretRef:
+              name: plausible-secret
+          imageSelector: image
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1000
+            runAsUser: 1000
+          type: install
+        db-migrate:
+          args:
+          - -c
+          - /entrypoint.sh db migrate
+          command: sh
+          enabled: true
+          envFrom:
+          - configMapRef:
+              name: plausible-config
+          - secretRef:
+              name: plausible-secret
+          imageSelector: image
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1000
+            runAsUser: 1000
+          type: upgrade

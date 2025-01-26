@@ -1,0 +1,25 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: thomst08/requestrr
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /root/config
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 4545
+        targetPort: 4545

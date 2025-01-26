@@ -1,0 +1,19 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: bndw/wifi-card
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8888
+        protocol: http
+        targetPort: 80

@@ -1,0 +1,28 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: b4bz/homer
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /www/assets
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        port: 10178
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            INIT_ASSETS: true

@@ -1,0 +1,36 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: FileBot is the ultimate tool for organizing and renaming your movies,
+  tv shows or anime, and music well as downloading subtitles and artwork. It's smart
+  and just works.
+home: https://truecharts.org/charts/stable/filebot
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/filebot.webp
+keywords:
+- media
+- filebot
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: filebot
+sources:
+- https://github.com/jlesage/docker-filebot
+- https://github.com/truecharts/charts/tree/master/charts/stable/filebot
+- https://hub.docker.com/r/jlesage/filebot
+type: application
+version: 2025.1.26

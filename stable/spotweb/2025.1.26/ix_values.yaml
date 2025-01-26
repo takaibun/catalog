@@ -1,0 +1,50 @@
+cnpg:
+  main:
+    database: spotweb
+    enabled: true
+    user: spotweb
+image:
+  pullPolicy: IfNotPresent
+  repository: jbaten/spotweb
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10050
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            DB_ENGINE: pdo_pgsql
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_PORT: '5432'
+            DB_SCHEMA: public
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+            SPOTWEB_FIRSTNAME: demo
+            SPOTWEB_LASTNAME: spotweb
+            SPOTWEB_MAIL: demo@spotweb.com
+            SPOTWEB_PASSWORD: changeme
+            SPOTWEB_RETRIEVE: 15min
+            SPOTWEB_SYSTEMTYPE: single
+            SPOTWEB_USERNAME: myawesomeuser

@@ -1,0 +1,37 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: dmanius/radarrsync-docker
+  tag: latest
+persistence: {}
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PROFILE_ID: ''
+            RADARR4K_KEY: ''
+            RADARR4K_URL: ''
+            RADARR_KEY: ''
+            RADARR_URL: ''
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

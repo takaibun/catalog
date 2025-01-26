@@ -1,0 +1,45 @@
+cnpg:
+  main:
+    database: xwiki
+    enabled: true
+    user: xwiki
+image:
+  pullPolicy: IfNotPresent
+  repository: xwiki
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /usr/local/xwiki
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10208
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+            JAVA_OPTS: ''

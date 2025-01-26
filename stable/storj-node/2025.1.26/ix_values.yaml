@@ -1,0 +1,53 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: storjlabs/storagenode
+  tag: latest
+persistence:
+  identity:
+    enabled: true
+    mountPath: /app/identity
+  storage:
+    enabled: true
+    mountPath: /app/config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  coretcp:
+    enabled: true
+    ports:
+      coretcp:
+        enabled: true
+        port: 28967
+        protocol: tcp
+        targetPort: 28967
+  coreudp:
+    enabled: true
+    ports:
+      coreudp:
+        enabled: true
+        port: 28967
+        protocol: udp
+        targetPort: 28967
+  main:
+    ports:
+      main:
+        port: 14002
+        targetPort: 14002
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADDRESS: ''
+            EMAIL: ''
+            SETUP: true
+            STORAGE: 500GB
+            WALLET: walletaddress

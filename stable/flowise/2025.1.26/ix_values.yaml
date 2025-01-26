@@ -1,0 +1,77 @@
+cnpg:
+  main:
+    database: flowise
+    enabled: true
+    user: flowise
+image:
+  pullPolicy: IfNotPresent
+  repository: flowiseai/flowise
+  tag: latest
+persistence:
+  api:
+    enabled: true
+    mountPath: /config/api
+  logs:
+    enabled: true
+    mountPath: /config/logs
+  secrets:
+    enabled: true
+    mountPath: /config/secrets
+  storage:
+    enabled: true
+    mountPath: /config/storage
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - flowise
+          - start
+          env:
+            APIKEY_PATH: '{{.Values.persistence.api.mountPath }}'
+            BLOB_STORAGE_PATH: '{{.Values.persistence.storage.mountPath }}'
+            CORS_ORIGINS: '*'
+            DATABASE_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DATABASE_NAME: '{{ .Values.cnpg.main.database }}'
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_PORT: 5432
+            DATABASE_SSL: false
+            DATABASE_TYPE: postgres
+            DATABASE_USER: '{{ .Values.cnpg.main.user }}'
+            DEBUG: true
+            EXECUTION_MODE: main
+            FLOWISE_FILE_SIZE_LIMIT: 50mb
+            FLOWISE_PASSWORD: 1234
+            FLOWISE_SECRETKEY_OVERWRITE:
+              secretKeyRef:
+                key: FLOWISE_SECRETKEY_OVERWRITE
+                name: flowise-secrets
+            FLOWISE_USERNAME: user
+            LANGCHAIN_TRACING_V2: false
+            LOG_LEVEL: debug
+            LOG_PATH: '{{.Values.persistence.logs.mountPath }}'
+            OVERRIDE_DATABASE: true
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            SECRETKEY_PATH: '{{.Values.persistence.secrets.mountPath }}'

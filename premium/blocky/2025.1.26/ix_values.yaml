@@ -1,0 +1,243 @@
+additionalBootstrapDns: []
+blocking:
+  blacklist: []
+  blockTTL: 6h
+  blockType: nxDomain
+  clientGroupsBlock:
+  - groups:
+    - default
+    name: default
+  downloadAttempts: 3
+  downloadCooldown: 5s
+  downloadTimeout: 60s
+  processingConcurrency: 8
+  refreshPeriod: 4h
+  startStrategy: fast
+  whitelist: []
+blocky:
+  enablePrometheus: true
+blockyConfig: {}
+bootstrapDns:
+  ips: []
+  upstream: ''
+caching:
+  cacheTimeNegative: 30m
+  maxItemsCount: 0
+  maxTime: 0
+  minTime: 15m
+  prefetchExpires: 12h
+  prefetchMaxItemsCount: 0
+  prefetchThreshold: 5
+  prefetching: true
+certFile: ''
+clientLookup:
+  clients: null
+  singleNameOrder: []
+  upstream: ''
+cnpg:
+  main:
+    database: blocky
+    enabled: true
+    user: blocky
+conditional:
+  mapping: []
+  rewrite: []
+configmap:
+  dashboard:
+    data:
+      blocky.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+      blockypostgres.json: '{{ .Files.Get "dashboardpsql.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+  datasource:
+    data:
+      datasourceblockypsql.yaml: "apiVersion: 1\ndatasources:\n- name: BlockyPostgres\n\
+        \  type: postgres\n  uid: blockypostgres\n  url: {{ printf \"%s.%s:5432\"\
+        \ (.Values.cnpg.main.creds.host | trimAll \"\\\"\") .Release.Namespace }}\n\
+        \  access: proxy\n  user: {{ .Values.cnpg.main.user }}\n  secureJsonData:\n\
+        \    password: {{ .Values.cnpg.main.creds.password | default \"na\" }}\n \
+        \ jsonData:\n    database: {{ .Values.cnpg.main.database }}\n    sslmode:\
+        \ 'disable' # disable/require/verify-ca/verify-full\n    maxOpenConns: 100\
+        \ # Grafana v5.4+\n    maxIdleConns: 100 # Grafana v5.4+\n    maxIdleConnsAuto:\
+        \ true # Grafana v9.5.1+\n    connMaxLifetime: 14400 # Grafana v5.4+\n   \
+        \ postgresVersion: 1500 # 903=9.3, 904=9.4, 905=9.5, 906=9.6, 1000=10\n  \
+        \  timescaledb: false"
+    enabled: true
+    labels:
+      grafana_datasources: '1'
+customDNS:
+  customTTL: 1h
+  filterUnmappedTypes: true
+  mapping: []
+  rewrite: []
+defaultUpstreams:
+- 1.1.1.1
+- 1.0.0.1
+- 8.8.8.8
+- 8.8.4.4
+- 9.9.9.9
+- 149.112.112.112
+- 208.67.222.222
+- 208.67.220.220
+- 8.26.56.26
+- 8.20.247.20
+dohUserAgent: ''
+filtering:
+  queryTypes: []
+hostsFile:
+  enabled: false
+  filePath: /etc/hosts
+  hostsTTL: 60m
+  refreshPeriod: 30m
+image:
+  pullPolicy: IfNotPresent
+  repository: spx01/blocky
+  tag: latest
+k8sgateway:
+  apex: ''
+  domains: []
+  enabled: true
+  forward:
+    enabled: false
+    options:
+    - name: tls_servername
+      value: cloudflare-dns.com
+    primary: tls://1.1.1.1
+    secondary: tls://1.0.0.1
+  secondary: ''
+  ttl: 300
+  watchedResources: []
+k8sgatewayImage:
+  pullPolicy: IfNotPresent
+  repository: quay.io/oriedge/k8s_gateway
+  tag: v0.4.0@sha256:7bdbd447c0244b8f89de9cd6f4826ed0ac66c9406fac3a4ac80081020c251c6b
+keyFile: ''
+logFormat: text
+logLevel: info
+logPrivacy: false
+logTimestamp: true
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: main
+    prometheusRule:
+      enabled: false
+      labels: {}
+      rules: []
+    type: servicemonitor
+minTlsServeVersion: 1.2
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: false
+queryLog:
+  creationAttempts: 3
+  creationCooldown: 2s
+  logRetentionDays: 0
+  type: postgresql
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - services
+      - namespaces
+      verbs:
+      - list
+      - watch
+    - apiGroups:
+      - extensions
+      - networking.k8s.io
+      resources:
+      - ingresses
+      verbs:
+      - list
+      - watch
+redis:
+  enabled: true
+  includeCommon: true
+service:
+  dns:
+    enabled: true
+    ports:
+      dns:
+        enabled: true
+        port: 53
+        protocol: udp
+        targetPort: 53
+      dnstcp:
+        enabled: true
+        port: '{{ .Values.service.dns.ports.dns.port }}'
+        protocol: tcp
+        targetPort: 53
+  dot:
+    enabled: true
+    ports:
+      dot:
+        enabled: true
+        port: 853
+        protocol: tcp
+        targetPort: 853
+  https:
+    enabled: true
+    ports:
+      https:
+        enabled: true
+        port: 4443
+        protocol: https
+        targetPort: 4443
+  k8sgateway:
+    enabled: true
+    ports:
+      k8sgateway:
+        enabled: true
+        port: 5353
+        protocol: udp
+        targetPort: 5353
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 4000
+        protocol: http
+        targetPort: 4000
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+upstreams: null
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              command:
+              - /app/blocky
+              - healthcheck
+              enabled: false
+              type: exec
+            readiness:
+              command:
+              - /app/blocky
+              - healthcheck
+              enabled: false
+              type: exec
+            startup:
+              command:
+              - /app/blocky
+              - healthcheck
+              enabled: false
+              type: exec
+    replicas: 2
+    strategy: RollingUpdate

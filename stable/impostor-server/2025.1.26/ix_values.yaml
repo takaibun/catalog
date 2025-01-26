@@ -1,0 +1,39 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: aeonlucid/impostor
+  tag: latest
+nightlyImage:
+  pullPolicy: IfNotPresent
+  repository: aeonlucid/impostor
+  tag: nightly@sha256:0dc8e95b5ea9a2ff2360c88c2990e58d2dcda9ccfb58715c31a9a4fc0aab9f6a
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 22023
+        protocol: udp
+        targetPort: 22023
+updated: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            IMPOSTOR_AntiCheat__BanIpFromGame: true
+            IMPOSTOR_AntiCheat__Enabled: true
+            IMPOSTOR_Debug__GameRecorderEnabled: false
+            IMPOSTOR_Debug__GameRecorderPath: ''
+            IMPOSTOR_Server__ListenIp: 0.0.0.0
+            IMPOSTOR_Server__PublicIp: 127.0.0.1
+          imageSelector: image
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

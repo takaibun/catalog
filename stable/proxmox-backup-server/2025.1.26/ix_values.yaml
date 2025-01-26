@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ayufan/proxmox-backup-server
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /etc/proxmox-backup
+  lib:
+    enabled: true
+    mountPath: /var/lib/proxmox-backup
+    type: emptyDir
+  log:
+    enabled: true
+    mountPath: /var/log/proxmox-backup
+    type: emptyDir
+  run:
+    enabled: true
+    mountPath: /run
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8007
+        protocol: https
+        targetPort: 8007
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: https
+            readiness:
+              type: https
+            startup:
+              type: tcp
+      hostname: pbs

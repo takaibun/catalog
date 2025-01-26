@@ -1,0 +1,39 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/galexrt/jts3servermod
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /jts3servermod/config
+  logs:
+    enabled: true
+    mountPath: /jts3servermod/logs
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 3000
+    runAsUser: 3000
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            JTS3_LOG: /jts3servermod/logs/JTS3ServerMod_InstanceManager.cfg
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: jorenn92/maintainerr
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /opt/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 6246
+        protocol: http
+        targetPort: 6246

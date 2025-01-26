@@ -1,0 +1,30 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: alexta69/metube
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  downloads:
+    enabled: true
+    mountPath: /downloads
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10216
+        targetPort: 8081
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DOWNLOAD_DIR: /downloads
+            OUTPUT_TEMPLATE: '%(title)s.%(ext)s'
+            STATE_DIR: /config
+            YTDL_OPTIONS: '{}'

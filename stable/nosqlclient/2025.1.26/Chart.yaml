@@ -1,0 +1,36 @@
+annotations:
+  truecharts.org/category: Tools-Utilities
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Cross-platform and self hosted, easy to use, intuitive mongodb management
+  tool - Formerly Mongoclient
+home: https://truecharts.org/charts/stable/nosqlclient
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/nosqlclient.webp
+keywords:
+- nosqlclient
+- Tools-Utilities
+- Other
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: nosqlclient
+sources:
+- https://github.com/nosqlclient/nosqlclient
+- https://github.com/truecharts/charts/tree/master/charts/stable/nosqlclient
+- https://hub.docker.com/r/mongoclient/mongoclient
+type: application
+version: 2025.1.26

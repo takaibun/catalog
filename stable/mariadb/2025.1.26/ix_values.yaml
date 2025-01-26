@@ -1,0 +1,84 @@
+configmap:
+  passinit:
+    data:
+      passinit.sql: 'ALTER USER root@''%'' IDENTIFIED VIA mysql_native_password USING
+        PASSWORD("{{ .Values.rootPassword }}");
+
+        ALTER USER {{ .Values.mariadbUsername }}@''%'' IDENTIFIED VIA mysql_native_password
+        USING PASSWORD("{{ .Values.password }}");
+
+        FLUSH PRIVILEGES;
+
+        '
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: bitnami/mariadb
+  tag: latest
+includeCommon: true
+mariadbDatabase: test
+mariadbUsername: test
+password: PLACEHOLDERPASSWORD
+persistence:
+  data:
+    enabled: true
+    mountPath: /bitnami/mariadb
+  passinit:
+    enabled: true
+    items:
+    - key: passinit.sql
+      path: passinit.sql
+    objectName: passinit
+    targetSelector:
+      main:
+        main:
+          mountPath: /init/passinit.sql
+          subPath: passinit.sql
+    type: configmap
+portal:
+  open:
+    enabled: false
+rootPassword: PLACEHOLDERROOTPASSWORD
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3306
+        targetPort: 3306
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MARIADB_DATABASE: '{{ .Values.mariadbDatabase }}'
+            MARIADB_EXTRA_FLAGS: --init-file=/init/passinit.sql
+            MARIADB_PASSWORD: '{{ .Values.password }}'
+            MARIADB_ROOT_PASSWORD: '{{ .Values.rootPassword }}'
+            MARIADB_USER: '{{ .Values.mariadbUsername }}'
+          probes:
+            liveness:
+              command:
+              - /bin/bash
+              - -ec
+              - until /opt/bitnami/scripts/mariadb/healthcheck.sh; do sleep 2; done
+              enabled: true
+              type: exec
+            readiness:
+              command:
+              - /bin/bash
+              - -ec
+              - until /opt/bitnami/scripts/mariadb/healthcheck.sh; do sleep 2; done
+              enabled: true
+              type: exec
+            startup:
+              command:
+              - /bin/bash
+              - -ec
+              - until /opt/bitnami/scripts/mariadb/healthcheck.sh; do sleep 2; done
+              enabled: true
+              type: exec

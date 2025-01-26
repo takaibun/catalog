@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: webreaper/damselfly
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  pictures:
+    enabled: true
+    mountPath: /pictures
+  thumbs:
+    enabled: true
+    mountPath: /thumbs
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 6363
+        protocol: tcp
+        targetPort: 6363

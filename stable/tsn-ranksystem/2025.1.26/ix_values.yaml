@@ -1,0 +1,112 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: serverlein/tsn-ranksystem-webserver
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: ranksystem
+  mariadbUsername: ranksystem
+persistence:
+  web:
+    enabled: true
+    targetSelector:
+      main:
+        download-ranksystem:
+          mountPath: /var/www/html
+        main:
+          mountPath: /var/www/html
+portal:
+  open:
+    enabled: true
+ranksystem:
+  cron_enabled: true
+  cron_schedule: '*/5 * * * *'
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 9300
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          lifecycle:
+            postStart:
+              command:
+              - /bin/sh
+              - -c
+              - "web_location={{ .Values.persistence.web.targetSelector.main.main.mountPath\
+                \ }}\nif [ -f \"${web_location}/install.php\" ]; then\n  curl -v -X\
+                \ POST -d \"dbtype=mysql&dbhost={{ .Values.mariadb.creds.plainhost\
+                \ | trimAll \"\\\"\" }}&dbname={{ .Values.mariadb.mariadbDatabase\
+                \ }}&dbuser={{ .Values.mariadb.mariadbUsername }}&dbpass={{ .Values.mariadb.creds.mariadbPassword\
+                \ | trimAll \"\\\"\" }}&install=&installchecked=\" http://localhost/install.php\n\
+                \  sleep 1;\n  curl -v -X POST -d \"user=ranksystem&pass=ranksystem&confweb=\"\
+                \ http://localhost/install.php\n  echo \"Install script executed.\"\
+                \nelse\n  echo \"Install script doesnt exists, no further action is\
+                \ needed.\"\nfi\n"
+              type: exec
+      initContainers:
+        download-ranksystem:
+          args:
+          - "web_location={{ .Values.persistence.web.targetSelector.main.main.mountPath\
+            \ }}\nindexFile=${web_location}/index.php\n\nif [ ! -f \"${indexFile}\"\
+            \ ]; then\n  # download with curl as git & wget not available\n  # automatically\
+            \ fetch newest version\n  LOCATION=$(curl -s https://api.github.com/repos/Newcomer1989/TSN-Ranksystem/releases/latest\
+            \ \\\n  | grep \"tarball_url\" \\\n  | awk '{ print $2 }' \\\n  | sed\
+            \ 's/,$//'       \\\n  | sed 's/\"//g' )     \\\n  ; curl -sL -o ${web_location}/ranksystem.tar.gz\
+            \ $LOCATION\n  # unzip file\n  tar -xzf ${web_location}/ranksystem.tar.gz\n\
+            \  # get topfolder\n  top_folder=$(find ${web_location} -type d -name\
+            \ \"Newcomer*\" -exec basename \\{} .po \\;)\n  # move to topfolder\n\
+            \  mv ${top_folder}/* ${web_location}\n  # delete obsolete folders & files\n\
+            \  rm -rf ${web_location}/ranksystem.tar.gz ${top_folder}\n\n  webinterface_location=${web_location}/webinterface\n\
+            \  navFile=${webinterface_location}/_nav.php\n  workerFile=${web_location}/worker.php\n\
+            \n  # remove annoying SSL message (doesnt work with traefik/ingress)\n\
+            \  sed -i \"$(($(wc -l < ${navFile})-4)),$(($(wc -l < ${navFile})))d\"\
+            \ ${navFile}\n\n  # change help() to check() in worker.php\n  sed -i \"\
+            s/\\bhelp();/check();/g\" ${workerFile}\n  echo \"Files downloaded and\
+            \ installed.\"\n  echo \"Folder :$PWD\"\n  echo \"Files:\"\n  ls\nelse\n\
+            \  echo \"Files Located. No action needed.\"\nfi\n"
+          command:
+          - /bin/sh
+          - -c
+          enabled: true
+          imageSelector: image
+          type: init
+  ranksystem-cron:
+    enabled: '{{ .Values.ranksystem.cron_enabled }}'
+    podSpec:
+      containers:
+        ranksystem-cron:
+          command:
+          - /bin/sh
+          - -c
+          - 'name={{ include "tc.v1.common.lib.chart.names.fullname" $ }}
+
+            port={{ .Values.service.main.ports.main.port }}
+
+            while ! curl -s -o -v /dev/null http://${name}:${port}/worker.php; do
+            sleep 1; done && \
+
+            curl -v -X GET -d "action=run_command" http://${name}:${port}/worker.php
+
+            '
+          enabled: true
+          imageSelector: image
+          primary: true
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+      restartPolicy: OnFailure
+    schedule: '{{ .Values.ranksystem.cron_schedule }}'
+    type: CronJob

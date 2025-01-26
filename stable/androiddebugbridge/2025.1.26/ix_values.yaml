@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: barnybbb/adb-hass-androidtv
+  tag: latest
+persistence: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5037
+        protocol: tcp
+        targetPort: 5037
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            bootwait: '10'
+            checkfreq: '30'
+            devicelist: 10.0.0.192:5555

@@ -1,0 +1,40 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: alturismo/guide2go
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  guide2go:
+    enabled: true
+    mountPath: /guide2go
+  tvh:
+    enabled: true
+    mountPath: /TVH
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

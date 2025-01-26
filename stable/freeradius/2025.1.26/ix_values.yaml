@@ -1,0 +1,44 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/tccr/freeradius
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /etc/raddb
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  accounting:
+    enabled: true
+    ports:
+      accounting:
+        enabled: true
+        port: 1813
+        protocol: udp
+        targetPort: 1813
+  main:
+    ports:
+      main:
+        port: 1812
+        protocol: udp
+        targetPort: 1812
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

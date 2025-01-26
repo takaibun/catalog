@@ -1,0 +1,32 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/alfhou/hammond
+  tag: latest
+persistence:
+  assets:
+    enabled: true
+    mountPath: /assets
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10186
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CONFIG: '{{.Values.persistence.config.mountPath }}'
+            DATA: '{{.Values.persistence.assets.mountPath }}'
+            JWT_SECRET:
+              secretKeyRef:
+                key: JWT_SECRET
+                name: secrets

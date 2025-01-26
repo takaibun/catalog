@@ -1,0 +1,558 @@
+alertmanager:
+  additionalPeers: []
+  affinity: {}
+  config:
+    global:
+      resolve_timeout: 5m
+    receivers:
+    - name: 'null'
+    route:
+      group_by:
+      - job
+      group_interval: 5m
+      group_wait: 30s
+      receiver: 'null'
+      repeat_interval: 12h
+      routes:
+      - match:
+          alertname: Watchdog
+        receiver: 'null'
+  configMaps: []
+  configNamespaceSelector: {}
+  configSelector: {}
+  containerSecurityContext:
+    allowPrivilegeEscalation: false
+    capabilities:
+      drop:
+      - ALL
+    enabled: true
+    readOnlyRootFilesystem: false
+    runAsNonRoot: true
+  containers: []
+  enabled: true
+  externalConfig: false
+  externalUrl: ''
+  listenLocal: false
+  livenessProbe:
+    enabled: true
+    failureThreshold: 120
+    initialDelaySeconds: 0
+    path: /-/healthy
+    periodSeconds: 5
+    successThreshold: 1
+    timeoutSeconds: 3
+  logFormat: logfmt
+  logLevel: info
+  nodeAffinityPreset:
+    key: ''
+    type: ''
+    values: []
+  nodeSelector: {}
+  paused: false
+  persistence:
+    accessModes:
+    - ReadWriteOnce
+    enabled: true
+    size: 999Gi
+    storageClass: ''
+  podAffinityPreset: ''
+  podAntiAffinityPreset: soft
+  podDisruptionBudget:
+    enabled: false
+    maxUnavailable: ''
+    minAvailable: 1
+  podMetadata:
+    annotations: {}
+    labels: {}
+  podSecurityContext:
+    enabled: true
+    fsGroup: 1001
+    runAsUser: 1001
+  portName: alertmanager
+  priorityClassName: ''
+  readinessProbe:
+    enabled: true
+    failureThreshold: 120
+    initialDelaySeconds: 0
+    path: /-/ready
+    periodSeconds: 5
+    successThreshold: 1
+    timeoutSeconds: 3
+  replicaCount: 1
+  resources: {}
+  retention: 240h
+  routePrefix: /
+  secrets: []
+  serviceAccount:
+    create: true
+    name: ''
+  serviceMonitor:
+    enabled: true
+    interval: ''
+    metricRelabelings: []
+    relabelings: []
+  storageSpec: {}
+  tolerations: []
+  volumeMounts: []
+  volumes: []
+alertmanagerImage:
+  repository: bitnami/alertmanager
+  tag: 0.27.0@sha256:fa86a659f22a216b8cc8452aeb10f722e7cc8d1b549744b173eb48d819359349
+configmap:
+  grafana-datasource:
+    data:
+      datasource.yaml: "apiVersion: 1\ndatasources:\n- name: Prometheus\n  type: prometheus\n\
+        \  uid: {{ .Values.grafana.datasource.uid | default \"prometheus\" }}\n  url:\
+        \ http://{{ include \"tc.v1.common.lib.chart.names.fullname\" $ }}.{{ include\
+        \ \"tc.v1.common.lib.metadata.namespace\" (dict \"rootCtx\" $ \"objectData\"\
+        \ . \"caller\" \"Configmap\") }}:{{ .Values.service.main.ports.main.port }}\n\
+        \  access: proxy\n  isDefault: {{ .Values.grafana.datasource.default | default\
+        \ true }}\n  jsonData:\n    httpMethod: {{ .Values.grafana.datasource.httpMethod\
+        \ | default \"POST\" }}\n    timeInterval: {{ .Values.grafana.datasource.scrapeInterval\
+        \ | default \"30s\" }}\n    {{- if .Values.grafana.datasource.timeout }}\n\
+        \    timeout: {{ .Values.grafana.datasource.timeout }}\n    {{- end }}"
+    enabled: '{{ if .Values.grafana.datasource.enabled }}true{{ else }}false{{ end
+      }}'
+    labels:
+      grafana_datasources: '1'
+env:
+  PROMETHEUS_CONFIG_RELOADER:
+    configMapKeyRef:
+      key: prometheus-config-reloader
+      name: prometheus-operator-config
+global:
+  labels: {}
+grafana:
+  datasource:
+    default: true
+    enabled: true
+    httpMethod: POST
+    scrapeInterval: 30s
+    uid: prometheus
+image:
+  repository: bitnami/prometheus
+  tag: latest
+ingress:
+  alertmanager:
+    enabled: false
+  main:
+    enabled: false
+  thanos:
+    enabled: false
+kps:
+  alertmanager:
+    enabled: false
+  coreDns:
+    enabled: true
+  crds:
+    enabled: false
+  defaultRules:
+    create: true
+  global:
+    rbac:
+      create: true
+  grafana:
+    defaultDashboardsEnabled: true
+    enabled: false
+    forceDeployDashboards: true
+  kubeApiServer:
+    enabled: true
+  kubeControllerManager:
+    enabled: true
+  kubeDns:
+    enabled: false
+  kubeEtcd:
+    enabled: true
+  kubeProxy:
+    enabled: false
+  kubeScheduler:
+    enabled: true
+  kubeStateMetrics:
+    enabled: true
+  kubelet:
+    enabled: true
+  kubernetesServiceMonitors:
+    enabled: true
+  nodeExporter:
+    enabled: true
+  prometheus:
+    enabled: false
+  prometheus-windows-exporter:
+    prometheus:
+      monitor:
+        enabled: false
+  prometheusOperator:
+    enabled: false
+  thanosRuler:
+    enabled: false
+  windowsMonitoring:
+    enabled: false
+operator:
+  prometheusConfigReloader:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
+      capabilities:
+        drop:
+        - ALL
+      enabled: true
+      readOnlyRootFilesystem: false
+      runAsNonRoot: true
+    livenessProbe:
+      enabled: true
+      failureThreshold: 6
+      initialDelaySeconds: 10
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    readinessProbe:
+      enabled: true
+      failureThreshold: 6
+      initialDelaySeconds: 15
+      periodSeconds: 20
+      successThreshold: 1
+      timeoutSeconds: 5
+  serviceMonitor:
+    enabled: false
+    interval: ''
+    metricRelabelings: []
+    relabelings: []
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: true
+probes:
+  liveness:
+    custom: true
+    spec:
+      httpGet:
+        path: /metrics
+        port: promop
+        scheme: HTTP
+  readiness:
+    custom: true
+    spec:
+      httpGet:
+        path: /metrics
+        port: promop
+        scheme: HTTP
+  startup:
+    custom: true
+    spec:
+      httpGet:
+        path: /metrics
+        port: promop
+        scheme: HTTP
+prometheus:
+  additionalAlertRelabelConfigsExternal:
+    enabled: false
+    key: ''
+    name: ''
+  additionalPrometheusRules: []
+  additionalScrapeConfigs:
+    enabled: false
+    external:
+      key: ''
+      name: ''
+    internal:
+      jobList: []
+    type: external
+  additionalScrapeConfigsExternal:
+    enabled: false
+    key: ''
+    name: ''
+  affinity: {}
+  alertingEndpoints: []
+  configMaps: []
+  containerSecurityContext:
+    allowPrivilegeEscalation: false
+    capabilities:
+      drop:
+      - ALL
+    enabled: true
+    readOnlyRootFilesystem: false
+    runAsNonRoot: true
+  containers: []
+  disableCompaction: false
+  enableAdminAPI: false
+  enableFeatures: []
+  enableRemoteWriteReceiver: false
+  enabled: true
+  evaluationInterval: 30s
+  externalLabels: {}
+  externalUrl: ''
+  listenLocal: false
+  livenessProbe:
+    enabled: true
+    failureThreshold: 10
+    initialDelaySeconds: 0
+    path: /-/healthy
+    periodSeconds: 10
+    successThreshold: 1
+    timeoutSeconds: 3
+  logFormat: logfmt
+  logLevel: info
+  matchLabels: {}
+  nodeAffinityPreset:
+    key: ''
+    type: ''
+    values: []
+  nodeSelector: {}
+  paused: false
+  persistence:
+    accessModes:
+    - ReadWriteOnce
+    enabled: true
+    size: 999Gi
+    storageClass: ''
+  podAffinityPreset: ''
+  podAntiAffinityPreset: soft
+  podMetadata:
+    annotations: {}
+    labels: {}
+  podMonitorNamespaceSelector: {}
+  podMonitorSelector: {}
+  podSecurityContext:
+    enabled: true
+    fsGroup: 1001
+    runAsUser: 1001
+  portName: main
+  priorityClassName: ''
+  probeNamespaceSelector: {}
+  probeSelector: {}
+  prometheusExternalLabelName: ''
+  prometheusExternalLabelNameClear: false
+  querySpec: {}
+  readinessProbe:
+    enabled: true
+    failureThreshold: 10
+    initialDelaySeconds: 0
+    path: /-/ready
+    periodSeconds: 10
+    successThreshold: 1
+    timeoutSeconds: 3
+  remoteRead: []
+  remoteWrite: []
+  replicaCount: 1
+  replicaExternalLabelName: ''
+  replicaExternalLabelNameClear: false
+  resources: {}
+  retention: 31d
+  retentionSize: ''
+  routePrefix: /
+  ruleNamespaceSelector: {}
+  ruleSelector: {}
+  scrapeConfigNamespaceSelector: {}
+  scrapeConfigSelector: {}
+  scrapeInterval: 15s
+  secrets: []
+  serviceAccount:
+    annotations: {}
+    create: true
+    name: ''
+  serviceMonitor:
+    enabled: true
+    interval: ''
+    metricRelabelings: []
+    relabelings: []
+  serviceMonitorNamespaceSelector: {}
+  serviceMonitorSelector: {}
+  storageSpec: {}
+  thanos:
+    containerSecurityContext:
+      allowPrivilegeEscalation: false
+      capabilities:
+        drop:
+        - ALL
+      enabled: true
+      readOnlyRootFilesystem: false
+      runAsNonRoot: true
+    create: false
+    extraArgs: []
+    extraVolumeMounts: []
+    livenessProbe:
+      enabled: true
+      failureThreshold: 120
+      initialDelaySeconds: 0
+      path: /-/healthy
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 3
+    objectStorageConfig: {}
+    prometheusUrl: ''
+    readinessProbe:
+      enabled: true
+      failureThreshold: 120
+      initialDelaySeconds: 0
+      path: /-/ready
+      periodSeconds: 5
+      successThreshold: 1
+      timeoutSeconds: 3
+    resources:
+      limits: {}
+      requests: {}
+    service:
+      annotations: {}
+      clusterIP: None
+      extraPorts: []
+      loadBalancerIP: ''
+      loadBalancerSourceRanges: []
+      nodePort: ''
+      port: 10901
+      type: ClusterIP
+  tolerations: []
+  volumeMounts: []
+  volumes: []
+  walCompression: false
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - apiextensions.k8s.io
+      resources:
+      - customresourcedefinitions
+      verbs:
+      - create
+    - apiGroups:
+      - apiextensions.k8s.io
+      resourceNames:
+      - alertmanagers.monitoring.coreos.com
+      - podmonitors.monitoring.coreos.com
+      - prometheuses.monitoring.coreos.com
+      - prometheusrules.monitoring.coreos.com
+      - servicemonitors.monitoring.coreos.com
+      - thanosrulers.monitoring.coreos.com
+      - probes.monitoring.coreos.com
+      resources:
+      - customresourcedefinitions
+      verbs:
+      - get
+      - update
+    - apiGroups:
+      - monitoring.coreos.com
+      resources:
+      - alertmanagers
+      - alertmanagers/finalizers
+      - alertmanagerconfigs
+      - prometheuses
+      - prometheuses/finalizers
+      - thanosrulers
+      - thanosrulers/finalizers
+      - servicemonitors
+      - podmonitors
+      - probes
+      - prometheusrules
+      verbs:
+      - '*'
+    - apiGroups:
+      - apps
+      resources:
+      - statefulsets
+      verbs:
+      - '*'
+    - apiGroups:
+      - ''
+      resources:
+      - configmaps
+      - secrets
+      verbs:
+      - '*'
+    - apiGroups:
+      - ''
+      resources:
+      - pods
+      verbs:
+      - list
+      - delete
+    - apiGroups:
+      - ''
+      resources:
+      - services
+      - services/finalizers
+      - endpoints
+      verbs:
+      - get
+      - create
+      - update
+      - delete
+    - apiGroups:
+      - ''
+      resources:
+      - nodes
+      verbs:
+      - list
+      - watch
+    - apiGroups:
+      - ''
+      resources:
+      - namespaces
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - networking.k8s.io
+      resources:
+      - ingresses
+      verbs:
+      - get
+      - list
+      - watch
+securityContext:
+  readOnlyRootFilesystem: false
+service:
+  alertmanager:
+    enabled: true
+    ports:
+      alertmanager:
+        enabled: true
+        port: 9093
+        protocol: http
+        targetPort: 9093
+    selectorLabels:
+      alertmanager: '{{ template "kube-prometheus.alertmanager.fullname" . }}'
+      app.kubernetes.io/name: alertmanager
+  main:
+    ports:
+      main:
+        port: 9090
+        protocol: http
+        targetPort: 9090
+    selectorLabels:
+      app.kubernetes.io/name: prometheus
+      prometheus: '{{ template "kube-prometheus.prometheus.fullname" . }}'
+  thanos:
+    enabled: true
+    ports:
+      thanos:
+        enabled: true
+        port: 10901
+        protocol: http
+        targetPort: 10901
+    selectorLabels:
+      app.kubernetes.io/name: prometheus
+      prometheus: '{{ template "kube-prometheus.prometheus.fullname" . }}'
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+thanosImage:
+  repository: quay.io/thanos/thanos
+  tag: v0.35.0@sha256:fa1d28718df00b68d6ad85d7c7d4703bd9f59e5cd8be8da6540ea398cf701a1f
+workload:
+  main:
+    enabled: false
+    podSpec:
+      containers:
+        main:
+          enabled: false
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

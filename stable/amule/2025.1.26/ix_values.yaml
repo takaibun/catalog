@@ -1,0 +1,64 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tchabaud/amule
+  tag: latest
+persistence:
+  complete:
+    enabled: true
+    mountPath: /incoming
+  config:
+    enabled: true
+    mountPath: /home/amule/.aMule
+  incomplete:
+    enabled: true
+    mountPath: /temp
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 4711
+        protocol: http
+        targetPort: 4711
+  porttcp:
+    enabled: true
+    ports:
+      porttcp:
+        enabled: true
+        port: 4662
+        protocol: tcp
+        targetPort: 4662
+  portudp:
+    enabled: true
+    ports:
+      portudp:
+        enabled: true
+        port: 4672
+        protocol: udp
+        targetPort: 4672
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            WEBUI_PWD: ''
+            WEBUI_TEMPLATE: default
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

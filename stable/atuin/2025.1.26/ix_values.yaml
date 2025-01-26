@@ -1,0 +1,50 @@
+atuin:
+  open_registration: false
+cnpg:
+  main:
+    database: atuin
+    enabled: true
+    user: atuin
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/atuinsh/atuin
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        port: 8888
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - server
+          - start
+          env:
+            ATUIN_CONFIG_DIR: /config
+            ATUIN_DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            ATUIN_DB_URI:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+            ATUIN_DB_USERNAME: '{{ .Values.cnpg.main.user }}'
+            ATUIN_HOST: 0.0.0.0
+            ATUIN_OPEN_REGISTRATION: '{{ .Values.atuin.open_registration }}'
+            ATUIN_PORT: '{{ .Values.service.main.ports.main.port }}'

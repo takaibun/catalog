@@ -1,0 +1,57 @@
+configmap:
+  libreddit:
+    data:
+      LIBREDDIT_DEFAULT_AUTOPLAY_VIDEOS: '{{ ternary "on" "off" .Values.libreddit.autoplay_videos
+        }}'
+      LIBREDDIT_DEFAULT_COMMENT_SORT: '{{ .Values.libreddit.comment_sort }}'
+      LIBREDDIT_DEFAULT_FRONT_PAGE: '{{ .Values.libreddit.front_page }}'
+      LIBREDDIT_DEFAULT_HIDE_HLS_NOTIFICATION: '{{ ternary "on" "off" .Values.libreddit.hide_hls_notification
+        }}'
+      LIBREDDIT_DEFAULT_LAYOUT: '{{ .Values.libreddit.layout }}'
+      LIBREDDIT_DEFAULT_POST_SORT: '{{ .Values.libreddit.post_sort }}'
+      LIBREDDIT_DEFAULT_SHOW_NSFW: '{{ ternary "on" "off" .Values.libreddit.show_nsfw
+        }}'
+      LIBREDDIT_DEFAULT_THEME: '{{ .Values.libreddit.theme }}'
+      LIBREDDIT_DEFAULT_USE_HLS: '{{ ternary "on" "off" .Values.libreddit.use_hls
+        }}'
+      LIBREDDIT_DEFAULT_WIDE: '{{ ternary "on" "off" .Values.libreddit.wide }}'
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: libreddit/libreddit
+  tag: latest
+libreddit:
+  autoplay_videos: false
+  comment_sort: confidence
+  front_page: default
+  hide_hls_notification: false
+  layout: card
+  post_sort: hot
+  show_nsfw: false
+  theme: system
+  use_hls: false
+  wide: false
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10257
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: libreddit
+          probes:
+            liveness:
+              path: /settings
+            readiness:
+              path: /settings
+            startup:
+              path: /settings

@@ -1,0 +1,36 @@
+annotations:
+  truecharts.org/category: torrent
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: rTorrent and ruTorrent chart.
+home: https://truecharts.org/charts/stable/rtorrent-rutorrent
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rtorrent-rutorrent.webp
+keywords:
+- rutorrent
+- torrent
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: rtorrent-rutorrent
+sources:
+- https://ghcr.io/crazy-max/rtorrent-rutorrent
+- https://ghcr.io/thde/rtorrent_exporter
+- https://github.com/crazy-max/docker-rtorrent-rutorrent
+- https://github.com/truecharts/charts/tree/master/charts/stable/rtorrent-rutorrent
+- https://truecharts.org/charts/stable/rtorrent-rutorrent
+type: application
+version: 2025.1.26

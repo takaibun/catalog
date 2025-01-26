@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: unraides/facturascripts
+  tag: latest
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /var/www/html
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 31000
+        protocol: tcp
+        targetPort: 80

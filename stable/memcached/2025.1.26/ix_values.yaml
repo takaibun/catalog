@@ -1,0 +1,22 @@
+configmap:
+  dashboard:
+    data:
+      memcached.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+image:
+  pullPolicy: IfNotPresent
+  repository: bitnami/memcached
+  tag: latest
+includeCommon: true
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 11211
+        protocol: tcp
+        targetPort: 11211

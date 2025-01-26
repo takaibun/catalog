@@ -1,0 +1,47 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: amacneil/bitcoinunlimited
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  communicationp:
+    enabled: true
+    ports:
+      communicationp:
+        enabled: true
+        port: 8333
+        protocol: tcp
+        targetPort: 8333
+  main:
+    ports:
+      main:
+        port: 8332
+        protocol: tcp
+        targetPort: 8332
+  testnetcommuni:
+    enabled: true
+    ports:
+      testnetcommuni:
+        enabled: true
+        port: 18333
+        protocol: tcp
+        targetPort: 18333
+  testnetrpcport:
+    enabled: true
+    ports:
+      testnetrpcport:
+        enabled: true
+        port: 18332
+        protocol: tcp
+        targetPort: 18332

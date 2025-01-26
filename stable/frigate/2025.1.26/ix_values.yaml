@@ -1,0 +1,78 @@
+frigateConfig: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/blakeblackshear/frigate
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+    targetSelector:
+      main:
+        init-config: {}
+        main: {}
+  media:
+    enabled: true
+    mountPath: /media
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10500
+        protocol: http
+        targetPort: 5000
+  rtmp:
+    enabled: true
+    ports:
+      rtmp:
+        enabled: true
+        port: 1935
+        targetPort: 1935
+  rtsp:
+    enabled: true
+    ports:
+      rtsp:
+        enabled: true
+        port: 8554
+        targetPort: 8554
+  webrtc:
+    enabled: true
+    ports:
+      webrtc-tcp:
+        enabled: true
+        port: 8555
+        targetPort: 8555
+      webrtc-udp:
+        enabled: true
+        port: 8555
+        protocol: udp
+        targetPort: 8555
+tensorrtImage:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/blakeblackshear/frigate
+  tag: 0.13.2-tensorrt@sha256:07cc224cdf2feef0af9c860c044ac7ea0ac4adfca7f68b37dc3958bc3a3ee357
+workload:
+  main:
+    podSpec:
+      initContainers:
+        init-config:
+          command:
+          - /bin/sh
+          - -c
+          - "mkdir -p /config\nif [ ! -f /config/config.yml ]; then\n  echo \"Config\
+            \ file not found, copying dummy...\"\n  cp /dummy-config/config.yml /config/config.yml\n\
+            \  echo \"Config file copied, you can now edit it at /config/config.yml\"\
+            \nelse\n  echo \"Config file found, you can edit it at /config/config.yml\"\
+            \nfi\n"
+          enabled: '{{ not .Values.frigateConfig }}'
+          imageSelector: alpineImage
+          type: init

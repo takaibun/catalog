@@ -1,0 +1,31 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: hoobs/hoobs
+  tag: latest
+persistence:
+  applicationpath:
+    enabled: true
+    mountPath: /hoobs
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  homebridgeport:
+    enabled: true
+    ports:
+      homebridgeport:
+        enabled: true
+        port: 51826
+        protocol: tcp
+        targetPort: 51826
+  main:
+    ports:
+      main:
+        port: 8082
+        protocol: http
+        targetPort: 80

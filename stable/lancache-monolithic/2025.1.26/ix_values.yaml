@@ -1,0 +1,127 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: lancachenet/monolithic
+  tag: latest
+monolithic:
+  cache_disk_size: 1000000m
+  cache_domains_branch: master
+  cache_domains_repo: https://github.com/uklans/cache-domains.git
+  cache_index_size: 500m
+  cache_max_age: 3560d
+  no_fetch: false
+  upstream_dns:
+  - 1.1.1.1
+  - 1.0.0.1
+persistence:
+  config:
+    enabled: true
+    mountPath: /data/cache
+  logs:
+    enabled: true
+    mountPath: /data/logs
+  prefill:
+    enabled: true
+    mountPath: /data/prefill
+    targetSelectAll: true
+portal:
+  open:
+    enabled: false
+prefill:
+  battlenet:
+    cron: 0 5 * * *
+    enabled: true
+    params: []
+  default_cron: ''
+  enabled: true
+  epic:
+    cron: 0 4 * * *
+    enabled: true
+    params: []
+  log_clean_up: true
+  on_start: false
+  steam:
+    cron: 0 2 * * *
+    enabled: true
+    params: []
+  updates: true
+prefillImage:
+  pullPolicy: IfNotPresent
+  repository: ich777/lancache-prefill
+  tag: latest@sha256:68a63d842ffdbf87292647f9b16e57e34d66f1f6f8b05944b8aa2ea4f86dc8ff
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  https:
+    enabled: true
+    ports:
+      https:
+        enabled: true
+        port: 10280
+        protocol: https
+        targetPort: 443
+  main:
+    ports:
+      main:
+        port: 10279
+        protocol: http
+        targetPort: 80
+updated: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CACHE_DISK_SIZE: '{{ .Values.monolithic.cache_disk_size }}'
+            CACHE_DOMAINS_BRANCH: '{{ .Values.monolithic.cache_domains_branch }}'
+            CACHE_DOMAINS_REPO: '{{ .Values.monolithic.cache_domains_repo }}'
+            CACHE_INDEX_SIZE: '{{ .Values.monolithic.cache_index_size }}'
+            CACHE_MAX_AGE: '{{ .Values.monolithic.cache_max_age }}'
+            NOFETCH: '{{ .Values.monolithic.no_fetch }}'
+            UPSTREAM_DNS: '{{ join " " .Values.monolithic.upstream_dns }}'
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp
+  prefill:
+    enabled: true
+    podSpec:
+      containers:
+        prefill:
+          enabled: true
+          env:
+            CRON_SCHED_BN: '{{ .Values.prefill.battlenet.cron }}'
+            CRON_SCHED_EPIC: '{{ .Values.prefill.epic.cron }}'
+            CRON_SCHED_GLOBAL: '{{ .Values.prefill.default_cron }}'
+            CRON_SCHED_STEAM: '{{ .Values.prefill.steam.cron }}'
+            DATA_DIR: '{{ .Values.persistence.prefill.mountPath }}'
+            DATA_PERM: 770
+            ENABLE_BN: '{{ .Values.prefill.battlenet.enabled }}'
+            ENABLE_EPIC: '{{ .Values.prefill.epic.enabled }}'
+            ENABLE_STEAM: '{{ .Values.prefill.steam.enabled }}'
+            LOGCLEANUP: '{{ .Values.prefill.log_clean_up }}'
+            PREFILL_ONSTARTUP: '{{ .Values.prefill.on_start }}'
+            PREFILL_PARAMS_BN: '{{ join " " .Values.prefill.battlenet.params }}'
+            PREFILL_PARAMS_EPIC: '{{ join " " .Values.prefill.epic.params }}'
+            PREFILL_PARAMS_STEAM: '{{ join " " .Values.prefill.steam.params }}'
+            UPDATES: '{{ .Values.prefill.updates }}'
+            USER: root
+          imageSelector: prefillImage
+          primary: true
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          stdin: true
+          tty: true
+    type: Deployment

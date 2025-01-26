@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/hotio/duplicacy
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /cache
+  config:
+    enabled: true
+    mountPath: /config
+  logs:
+    enabled: true
+    mountPath: /logs
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3875
+        protocol: http
+        targetPort: 3875

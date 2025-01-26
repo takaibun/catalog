@@ -1,0 +1,70 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: cryptpad/cryptpad
+  tag: latest
+persistence:
+  blobpath:
+    enabled: true
+    mountPath: /cryptpad/blob
+  blockpath:
+    enabled: true
+    mountPath: /cryptpad/block
+  customizepath:
+    enabled: true
+    mountPath: /cryptpad/customize
+  data:
+    enabled: true
+    mountPath: /cryptpad/data
+  datastorepath:
+    enabled: true
+    mountPath: /cryptpad/datastore
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: http
+        targetPort: 3000
+  port2:
+    enabled: true
+    ports:
+      port2:
+        enabled: true
+        port: 3001
+        protocol: tcp
+        targetPort: 3001
+  websocket:
+    enabled: true
+    ports:
+      websocket:
+        enabled: true
+        port: 3003
+        protocol: tcp
+        targetPort: 3003
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CPAD_CONF: /cryptpad/config/config.js
+            CPAD_MAIN_DOMAIN: https://your-main-domain.com
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

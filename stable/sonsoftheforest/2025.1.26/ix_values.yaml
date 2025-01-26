@@ -1,0 +1,119 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ich777/steamcmd
+  tag: latest
+persistence:
+  dedicatedserver-dscfg:
+    enabled: true
+    objectName: sonsoftheforest-dscfg
+    targetSelector:
+      main:
+        main:
+          mountPath: /serverdata/serverfiles/userdata/dedicatedserver.cfg
+          readOnly: true
+          subPath: dedicatedserver.cfg
+    type: configmap
+  serverfiles:
+    enabled: true
+    mountPath: /serverdata/serverfiles
+  steamcmd:
+    enabled: true
+    mountPath: /serverdata/steamcmd
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8766
+        protocol: udp
+  query:
+    enabled: true
+    ports:
+      query:
+        enabled: true
+        port: 27016
+        protocol: udp
+  sync:
+    enabled: true
+    ports:
+      sync:
+        enabled: true
+        port: 9700
+        protocol: udp
+sonsoftheforest:
+  game:
+    id: '2465200'
+    params: []
+    password: ''
+    user: ''
+    validate: false
+  server:
+    ActiveTargetFramerate: 60
+    BlobSyncPort: '{{ .Values.service.sync.ports.sync.port }}'
+    CustomGameModeSettings:
+      GameSetting.Environment.DayLength: default
+      GameSetting.Environment.PrecipitationFrequency: default
+      GameSetting.Environment.SeasonLength: default
+      GameSetting.Environment.StartingSeason: Summer
+      GameSetting.Multiplayer.Cheats: false
+      GameSetting.Survival.ColdPenalties: 'off'
+      GameSetting.Survival.ConsumableEffects: normal
+      GameSetting.Survival.PlayerStatsDamage: 'off'
+      GameSetting.Survival.ReducedFoodInContainers: false
+      GameSetting.Survival.SingleUssonsoftheforestntainers: false
+      GameSetting.Vail.AnimalSpawnRate: normal
+      GameSetting.Vail.EnemyAggression: normal
+      GameSetting.Vail.EnemyArmour: normal
+      GameSetting.Vail.EnemyDamage: normal
+      GameSetting.Vail.EnemyHealth: normal
+      GameSetting.Vail.EnemySpawn: true
+      Structure.Damage: true
+    GameMode: normal
+    GamePort: '{{ .Values.service.main.ports.main.port }}'
+    GameSettings:
+      Gameplay.TreeRegrowth: true
+      Structure.Damage: true
+    IdleDayCycleSpeed: '0.0'
+    IdleTargetFramerate: 5
+    IpAddress: 0.0.0.0
+    LanOnly: false
+    LogFilesEnabled: false
+    MaxPlayers: 8
+    Password: ''
+    QueryPort: '{{ .Values.service.query.ports.query.port }}'
+    SaveInterval: 600
+    SaveMode: continue
+    SaveSlot: 1
+    ServerName: Sons Of The Forest Docker Server
+    SkipNetworkAccessibilityTest: false
+    TimestampLogEntries: true
+    TimestampLogFilenames: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            GAME_ID: '{{ .Values.sonsoftheforest.game.id }}'
+            GAME_PARAMS: '{{ join " " .Values.sonsoftheforest.game.params }}'
+            GAME_PORT: '{{ .Values.service.main.ports.main.port }}'
+            PASSWRD: '{{ .Values.sonsoftheforest.game.password }}'
+            SERVER_DIR: '{{ .Values.persistence.serverfiles.mountPath }}'
+            STEAMCMD_DIR: '{{ .Values.persistence.steamcmd.mountPath }}'
+            USERNAME: '{{ .Values.sonsoftheforest.game.user }}'
+            VALIDATE: '{{ .Values.sonsoftheforest.game.validate }}'
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

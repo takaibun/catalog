@@ -1,0 +1,39 @@
+image:
+  pullPolicy: Always
+  repository: akhilrex/podgrab
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10093
+        targetPort: 8080
+  tcp:
+    enabled: true
+    ports:
+      tcp:
+        enabled: true
+        port: 51080
+        targetPort: 51080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CHECK_FREQUENCY: 240
+            PASSWORD: secretpasswordgoeshere
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

@@ -1,0 +1,65 @@
+cnpg:
+  main:
+    database: papermerge
+    enabled: true
+    user: papermerge
+image:
+  pullPolicy: IfNotPresent
+  repository: papermerge/papermerge
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  redisUsername: papermerge
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10141
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DJANGO_SUPERUSER_EMAIL: admin@example.com
+            DJANGO_SUPERUSER_PASSWORD: my_admin_password123
+            DJANGO_SUPERUSER_USENAME: admin
+            PAPERMERGE__DATABASE__HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            PAPERMERGE__DATABASE__NAME: '{{ .Values.cnpg.main.database }}'
+            PAPERMERGE__DATABASE__PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            PAPERMERGE__DATABASE__PORT: 5432
+            PAPERMERGE__DATABASE__TYPE: postgres
+            PAPERMERGE__DATABASE__USER: '{{ .Values.cnpg.main.user }}'
+            PAPERMERGE__MAIN__SECRET_KEY:
+              secretKeyRef:
+                key: PAPERMERGE__MAIN__SECRET_KEY
+                name: papermerge-secrets
+            PAPERMERGE__MAIN__TIMEZONE: '{{ .Values.TZ }}'
+            PAPERMERGE__REDIS__HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            PAPERMERGE__REDIS__PORT: 6379

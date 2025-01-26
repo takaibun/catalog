@@ -1,0 +1,33 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: draganczukp/simply-shorten
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config/db
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 4567
+        protocol: http
+        targetPort: 4567
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            db_url: /config/db/urls.sqlite
+            password: user
+            username: pass

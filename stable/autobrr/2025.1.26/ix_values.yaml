@@ -1,0 +1,38 @@
+autobrr:
+  log_level: DEBUG
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/autobrr/autobrr
+  tag: latest
+persistence:
+  autobrr-config:
+    enabled: true
+    mountPath: /config/config.toml
+    objectName: autobrr-config
+    readOnly: true
+    subPath: config.toml
+    type: configmap
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 7474
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: http
+            readiness:
+              type: http
+            startup:
+              type: tcp

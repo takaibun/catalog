@@ -1,0 +1,35 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: wekanteam/wekan
+  tag: latest
+mongodb:
+  enabled: true
+  includeCommon: true
+  mongodbDatabase: wekan
+  mongodbUsername: wekan
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10192
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MONGO_URL:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "mongodbcreds" }}'
+            ROOT_URL: http://localhost:8080
+            WRITABLE_PATH: /data

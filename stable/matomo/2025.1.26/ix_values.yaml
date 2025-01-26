@@ -1,0 +1,79 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: bitnami/matomo
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: matomo
+  mariadbUsername: matomo
+persistence:
+  data:
+    enabled: true
+    mountPath: /bitnami/matomo
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  https:
+    enabled: true
+    ports:
+      https:
+        enabled: true
+        port: 10173
+        protocol: https
+        targetPort: 10173
+  main:
+    ports:
+      main:
+        port: 10172
+        protocol: http
+        targetPort: 10172
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APACHE_HTTPS_PORT_NUMBER: '{{ .Values.service.https.ports.https.port }}'
+            APACHE_HTTP_PORT_NUMBER: '{{ .Values.service.main.ports.main.port }}'
+            MATOMO_DATABASE_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            MATOMO_DATABASE_NAME: '{{ .Values.mariadb.mariadbDatabase }}'
+            MATOMO_DATABASE_PASSWORD: '{{ .Values.mariadb.password }}'
+            MATOMO_DATABASE_PORT_NUMBER: 3306
+            MATOMO_DATABASE_USER: '{{ .Values.mariadb.mariadbUsername }}'
+            MATOMO_EMAIL: myemail@example.com
+            MATOMO_ENABLE_ASSUME_SECURE_PROTOCOL: false
+            MATOMO_ENABLE_FORCE_SSL: false
+            MATOMO_ENABLE_PROXY_URI_HEADER: false
+            MATOMO_HOST: 127.0.0.1
+            MATOMO_PASSWORD: password
+            MATOMO_SMTP_AUTH: Plain
+            MATOMO_SMTP_HOST: ''
+            MATOMO_SMTP_PASSWORD: ''
+            MATOMO_SMTP_PORT: ''
+            MATOMO_SMTP_PROTOCOL: ''
+            MATOMO_SMTP_USER: ''
+            MATOMO_USERNAME: admin
+            MATOMO_WEBSITE_HOST: https://web.example.com
+            MATOMO_WEBSITE_NAME: My Website
+            PHP_DATE_TIMEZONE: '{{ .Values.TZ }}'
+            PHP_ENABLE_OPCACHE: true
+            PHP_MEMORY_LIMIT: 2048M
+          probes:
+            liveness:
+              path: /index.php
+            readiness:
+              path: /index.php
+            startup:
+              path: /index.php

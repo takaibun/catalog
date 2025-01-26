@@ -1,0 +1,42 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/anotherstranger/borg-server
+  tag: latest
+persistence:
+  backups:
+    enabled: true
+    mountPath: /home/borg/backups
+  borg:
+    enabled: true
+    mountPath: /var/lib/docker-borg
+  ssh:
+    enabled: true
+    mountPath: /home/borg/.ssh
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8022
+        protocol: tcp
+        targetPort: 22
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BORG_GID: '{{ .Values.securityContext.pod.fsGroup }}'
+            BORG_UID: '{{ .Values.securityContext.container.PUID }}'
+          securityContext:
+            capabilities:
+              add:
+              - SYS_CHROOT
+              - KILL

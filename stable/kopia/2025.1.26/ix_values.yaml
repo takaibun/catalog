@@ -1,0 +1,53 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: kopia/kopia
+  tag: latest
+kopia:
+  password: secret
+  server_password: password
+  server_username: user
+  user: user
+persistence:
+  cache:
+    enabled: true
+    mountPath: /app/cache
+  config:
+    enabled: true
+    mountPath: /app/config
+  logs:
+    enabled: true
+    mountPath: /app/logs
+  rclone:
+    enabled: true
+    mountPath: /app/rclone
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10238
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - server
+          - start
+          - --address=http://0.0.0.0:{{ .Values.service.main.ports.main.port }}
+          - --insecure
+          - --server-username={{ .Values.kopia.server_username }}
+          - --server-password={{ .Values.kopia.server_password }}
+          envFrom:
+          - secretRef:
+              name: kopia-secrets
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

@@ -1,0 +1,41 @@
+clusterCertificates:
+  certificates: []
+clusterIssuer:
+  ACME: []
+  CA: []
+  selfSigned:
+    enabled: true
+    name: selfsigned
+image:
+  pullPolicy: IfNotPresent
+  repository: hello-world
+  tag: latest
+manifestManager:
+  enabled: true
+operator:
+  cert-manager:
+    namespace: cert-manager
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+        port: 9999
+workload:
+  main:
+    enabled: false
+    podSpec:
+      containers:
+        main:
+          enabled: false
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

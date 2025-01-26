@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: Downloaders
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: RadarrSync Syncs two Radarr servers through web API. This is a modified
+  version designed to be run in a Chart Chart. This version supports only two servers.
+home: https://truecharts.org/charts/stable/radarrsync
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/radarrsync.webp
+keywords:
+- radarrsync
+- Downloaders
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: radarrsync
+sources:
+- https://github.com/dairefinn/RadarrSync
+- https://github.com/truecharts/charts/tree/master/charts/stable/radarrsync
+- https://hub.docker.com/r/dmanius/radarrsync-docker
+type: application
+version: 2025.1.26

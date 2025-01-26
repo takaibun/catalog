@@ -1,0 +1,71 @@
+cnpg:
+  main:
+    database: joplin
+    enabled: true
+    user: joplin
+image:
+  pullPolicy: IfNotPresent
+  repository: joplin/server
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 22300
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_BASE_URL: ''
+            APP_PORT: '{{ .Values.service.main.ports.main.port }}'
+            DB_CLIENT: pg
+            MAILER_AUTH_PASSWORD: ''
+            MAILER_AUTH_USER: ''
+            MAILER_ENABLED: 0
+            MAILER_HOST: ''
+            MAILER_NOREPLY_EMAIL: ''
+            MAILER_NOREPLY_NAME: ''
+            MAILER_PORT: 465
+            MAILER_SECURITY: tls
+            POSTGRES_DATABASE: '{{ .Values.cnpg.main.database }}'
+            POSTGRES_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            POSTGRES_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            POSTGRES_PORT: '5432'
+            POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+          probes:
+            liveness:
+              httpHeaders:
+                Host: '{{ tpl .Values.workload.main.podSpec.containers.main.env.APP_BASE_URL
+                  $ | replace "https://" "" | replace "http://" "" }}'
+              path: /api/ping
+              port: '{{ .Values.service.main.ports.main.port }}'
+            readiness:
+              httpHeaders:
+                Host: '{{ tpl .Values.workload.main.podSpec.containers.main.env.APP_BASE_URL
+                  $ | replace "https://" "" | replace "http://" "" }}'
+              path: /api/ping
+              port: '{{ .Values.service.main.ports.main.port }}'
+            startup:
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: tcp

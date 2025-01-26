@@ -1,0 +1,30 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: homebridge/homebridge
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /homebridge
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8581
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HOMEBRIDGE_CONFIG_UI: 1

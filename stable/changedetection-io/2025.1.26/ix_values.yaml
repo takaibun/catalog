@@ -1,0 +1,28 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/dgtlmoon/changedetection.io
+  tag: latest
+persistence:
+  datastore:
+    enabled: true
+    mountPath: /datastore
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 5000
+        protocol: http
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BASE_URL: ''
+            FETCH_WORKERS: 10
+            HIDE_REFERER: true
+            USE_X_SETTINGS: true

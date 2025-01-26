@@ -1,0 +1,69 @@
+cnpg:
+  main:
+    database: misskey
+    enabled: true
+    user: misskey
+image:
+  pullPolicy: IfNotPresent
+  repository: misskey/misskey
+  tag: latest
+misskey:
+  id: aid
+  other:
+    allowedPrivateNetworks:
+    - 127.0.0.1/32
+    clusterLimit: 1
+    deliverJobConcurrency: 128
+    deliverJobMaxAttempts: 12
+    deliverJobPerSec: 128
+    disableHSTS: false
+    inboxJobConcurrency: 16
+    inboxJobMaxAttempts: 8
+    inboxJobPerSec: 16
+    maxFileSize: 262144000
+    proxyBypassHosts:
+    - api.deepl.com
+    - api-free.deepl.com
+    - www.recaptcha.net
+    - hcaptcha.com
+    - challenges.cloudflare.com
+    relashionshipJobConcurrency: 16
+    relashionshipJobPerSec: 64
+    signToActivityPubGet: true
+  url: https://example.tld/
+persistence:
+  files:
+    enabled: true
+    mountPath: /misskey/files
+  misskeyconfig:
+    enabled: true
+    mountPath: /misskey/.config
+    objectName: misskeyconfig
+    type: configmap
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+  username: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+  pod:
+    fsgroup: 33
+service:
+  main:
+    ports:
+      main:
+        port: 3003
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            NODE_ENV: production

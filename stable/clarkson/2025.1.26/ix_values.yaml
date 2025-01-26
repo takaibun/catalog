@@ -1,0 +1,44 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/clarkson
+  tag: latest
+mariadb:
+  enabled: true
+  mariadbDatabase: clarkson
+  mariadbUsername: clarkson
+persistence: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10244
+        protocol: http
+        targetPort: 3000
+strategy:
+  type: Recreate
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MYSQL_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            MYSQL_PASSWORD:
+              secretKeyRef:
+                expandObjectName: false
+                key: mariadb-password
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            MYSQL_USERNAME: '{{ .Values.mariadb.mariadbUsername }}'

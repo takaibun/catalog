@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: search
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: includeCommon
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Apache Solr
+home: https://truecharts.org/charts/stable/solr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/solr.webp
+keywords:
+- solr
+- apache
+- search
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: solr
+sources:
+- https://github.com/apache/solr
+- https://github.com/truecharts/charts/tree/master/charts/stable/solr
+- https://hub.docker.com/r/bitnami/solr
+type: application
+version: 2025.1.26

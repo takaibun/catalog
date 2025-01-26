@@ -1,0 +1,19 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: corentinth/it-tools
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /var/cache/nginx
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 18082
+        protocol: http
+        targetPort: 80

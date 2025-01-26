@@ -1,0 +1,37 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: modem7/docker-rickroll
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10289
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HEADLINE: ''
+            HEIGHT: 100vh
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            TITLE: Rickroll
+            WIDTH: 100%
+          probes:
+            liveness:
+              type: http
+            readiness:
+              type: http
+            startup:
+              type: http

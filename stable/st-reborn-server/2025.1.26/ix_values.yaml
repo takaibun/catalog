@@ -1,0 +1,36 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tiltedphoques/st-reborn-server
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /home/server/config
+  data:
+    enabled: true
+    mountPath: /home/server/Data
+  logs:
+    enabled: true
+    mountPath: /home/server/logs
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 10578
+        protocol: udp
+        targetPort: 10578
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

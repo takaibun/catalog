@@ -1,0 +1,64 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: minio/minio
+  tag: latest
+ingress:
+  api:
+    enabled: false
+    targetSelector:
+      api: api
+persistence:
+  config:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  api:
+    enabled: true
+    ports:
+      api:
+        enabled: true
+        port: 10106
+        targetPort: 10106
+  main:
+    ports:
+      main:
+        port: 10107
+        targetPort: 10107
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - server
+          - /data
+          - --address
+          - :10106
+          - --console-address
+          - :10107
+          env:
+            MINIO_BROWSER_REDIRECT_URL: ''
+            MINIO_ROOT_PASSWORD: changeme
+            MINIO_ROOT_USER: minio
+            MINIO_SERVER_URL: ''
+          probes:
+            liveness:
+              custom: true
+              spec:
+                httpGet:
+                  path: /minio/health/live
+                  port: 10106
+                  scheme: HTTP
+            readiness:
+              custom: true
+              spec:
+                httpGet:
+                  path: /minio/health/ready
+                  port: 10106
+                  scheme: HTTP

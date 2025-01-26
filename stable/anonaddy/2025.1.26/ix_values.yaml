@@ -1,0 +1,85 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: anonaddy/anonaddy
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: anonaddy
+  mariadbUsername: anonaddy
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10110
+        targetPort: 8000
+  smtp:
+    enabled: true
+    ports:
+      smtp:
+        enabled: true
+        port: 25
+        targetPort: 25
+strategy:
+  type: Recreate
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ANONADDY_DOMAIN: chart-example.local
+            ANONADDY_SECRET:
+              secretKeyRef:
+                key: ANONADDY_SECRET
+                name: anonaddy-secrets
+            APP_KEY:
+              secretKeyRef:
+                key: APP_KEY
+                name: anonaddy-secrets
+            APP_URL: http://localhost:10110
+            DB_DATABASE: '{{ .Values.mariadb.mariadbDatabase }}'
+            DB_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            DB_PASSWORD: '{{ .Values.mariadb.password }}'
+            DB_USERNAME: '{{ .Values.mariadb.mariadbUsername }}'
+            MAIL_DRIVER: smtp
+            MAIL_EHLO_DOMAIN: mail.example.com
+            MAIL_ENCRYPTION: tls
+            MAIL_FROM_ADDRESS: mailer@example.com
+            MAIL_FROM_NAME: Example
+            MAIL_HOST: mail.example.com
+            MAIL_PORT: 25
+            MAIL_VERIFY_PEER: false
+            REDIS_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_PASSWORD: '{{ .Values.redis.password }}'
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

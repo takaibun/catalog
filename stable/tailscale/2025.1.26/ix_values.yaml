@@ -1,0 +1,102 @@
+hostNetwork: true
+image:
+  pullPolicy: IfNotPresent
+  repository: tailscale/tailscale
+  tag: latest
+persistence:
+  tun:
+    enabled: true
+    hostPath: /dev/net/tun
+    hostPathType: ''
+    mountPath: /dev/net/tun
+    readOnly: false
+    type: hostPath
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: false
+rbac:
+  main:
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - secrets
+      verbs:
+      - create
+    - apiGroups:
+      - ''
+      resourceNames:
+      - '{{ printf "%s-tailscale-secret" (include "tc.v1.common.lib.chart.names.fullname"
+        .) }}'
+      resources:
+      - secrets
+      verbs:
+      - get
+      - update
+      - patch
+securityContext:
+  container:
+    capabilities:
+      add:
+      - NET_ADMIN
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+tailscale:
+  accept_dns: false
+  advertise_as_exit_node: false
+  auth_once: true
+  authkey: supersecret
+  daemon_extra_args: ''
+  dest_ip: ''
+  extra_args: ''
+  hostname: ''
+  outbound_http_proxy_listen: ''
+  routes: ''
+  sock5_server: ''
+  userspace: true
+workload:
+  main:
+    podSpec:
+      automountServiceAccountToken: true
+      containers:
+        main:
+          command:
+          - /usr/local/bin/containerboot
+          envFrom:
+          - configMapRef:
+              name: tailscale-config
+          probes:
+            liveness:
+              command:
+              - tailscale
+              - status
+              enabled: false
+              type: exec
+            readiness:
+              command:
+              - tailscale
+              - status
+              enabled: false
+              type: exec
+            startup:
+              command:
+              - tailscale
+              - status
+              enabled: false
+              type: exec

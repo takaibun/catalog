@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: f0rc3/barcodebuddy-docker
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8450
+        protocol: tcp
+        targetPort: 80

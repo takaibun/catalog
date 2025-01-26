@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: owasp/modsecurity-crs
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /modsecurity/data
+    type: emptyDir
+  temp:
+    enabled: true
+    mountPath: /modsecurity/temp
+    type: emptyDir
+  upload:
+    enabled: true
+    mountPath: /modsecurity/upload
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8081
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MODSEC_DATA_DIR: '{{ .Values.persistence.data.mountPath }}'
+            MODSEC_TMP_DIR: '{{ .Values.persistence.temp.mountPath }}'
+            MODSEC_UPLOAD_DIR: '{{ .Values.persistence.upload.mountPath }}'
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+          probes:
+            liveness:
+              path: /healthz
+            readiness:
+              path: /healthz
+            startup:
+              path: /healthz

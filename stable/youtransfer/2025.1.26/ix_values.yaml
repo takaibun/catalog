@@ -1,0 +1,33 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: remie/youtransfer
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/youtransfer/config
+  hostpath3:
+    enabled: true
+    mountPath: /opt/youtransfer/uploads
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5000
+        protocol: tcp
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}

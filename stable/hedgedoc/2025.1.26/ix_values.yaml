@@ -1,0 +1,54 @@
+cnpg:
+  main:
+    database: hedgedoc
+    enabled: true
+    user: hedgedoc
+image:
+  pullPolicy: IfNotPresent
+  repository: quay.io/hedgedoc/hedgedoc
+  tag: latest
+persistence:
+  uploads:
+    enabled: true
+    mountPath: /hedgedoc/public/uploads
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10132
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CMD_ALLOW_GRAVATAR: true
+            CMD_DB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            CMD_DB_DIALECT: postgres
+            CMD_DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            CMD_DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            CMD_DB_PORT: '5432'
+            CMD_DB_USERNAME: '{{ .Values.cnpg.main.user }}'
+            CMD_DOMAIN: false
+            CMD_FORBIDDEN_NOTE_IDS: robots.txt, favicon.ico, api, build, css, docs,
+              fonts, js, uploads, vendor, views
+            CMD_IMAGE_UPLOAD_TYPE: filesystem
+            CMD_PORT: '{{ .Values.service.main.ports.main.port }}'
+            CMD_PROTOCOL_USESSL: false
+            CMD_SESSION_SECRET:
+              secretKeyRef:
+                key: CMD_SESSION_SECRET
+                name: secrets
+            CMD_SOURCE_URL: ''
+            CMD_TOOBUSY_LAG: 70
+            CMD_URL_ADDPORT: false
+            NODE_ENV: production

@@ -1,0 +1,111 @@
+cnpg:
+  main:
+    database: twofauth
+    enabled: true
+    user: twofauth
+image:
+  pullPolicy: IfNotPresent
+  repository: 2fauth/2fauth
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /2fauth
+  varrun:
+    enabled: false
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        port: 8000
+        protocol: http
+        targetPort: 8000
+twofauth:
+  app:
+    name: 2FAuth
+    session_lifetime: 120
+    site_owner: mail@example.com
+    trusted_proxies: []
+  auth:
+    guard: web-guard
+    proxy_header_for_email: ''
+    proxy_header_for_user: ''
+    proxy_logout_url: ''
+  mail:
+    driver: log
+    encryption: STARTTLS
+    from: ''
+    from_address: changeme@example.com
+    from_name: 2FAuth
+    host: ''
+    pass: ''
+    port: 587
+    user: ''
+  webauthn:
+    icon: ''
+    id: ''
+    name: 2FAuth
+    user_verified: preferred
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_ENV: local
+            APP_KEY:
+              secretKeyRef:
+                key: APP_KEY
+                name: twofauth-secret
+            APP_NAME: '{{ .Values.twofauth.app.name }}'
+            APP_URL: '{{ .Values.chartContext.appUrl }}'
+            AUTHENTICATION_GUARD: '{{ .Values.twofauth.auth.guard }}'
+            AUTH_PROXY_HEADER_FOR_EMAIL: '{{ .Values.twofauth.auth.proxy_header_for_email
+              }}'
+            AUTH_PROXY_HEADER_FOR_USER: '{{ .Values.twofauth.auth.proxy_header_for_user
+              }}'
+            DB_CONNECTION: pgsql
+            DB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_PORT: 5432
+            DB_USERNAME: '{{ .Values.cnpg.main.user }}'
+            MAIL_DRIVER: '{{ .Values.twofauth.mail.driver }}'
+            MAIL_ENCRYPTION: '{{ .Values.twofauth.mail.encryption }}'
+            MAIL_FROM: '{{ .Values.twofauth.mail.from }}'
+            MAIL_FROM_ADDRESS: '{{ .Values.twofauth.mail.from_address }}'
+            MAIL_FROM_NAME: '{{ .Values.twofauth.mail.from_name }}'
+            MAIL_HOST: '{{ .Values.twofauth.mail.host }}'
+            MAIL_PASSWORD: '{{ .Values.twofauth.mail.pass }}'
+            MAIL_PORT: '{{ .Values.twofauth.mail.port }}'
+            MAIL_USERNAME: '{{ .Values.twofauth.mail.user }}'
+            PROXY_LOGOUT_URL: '{{ .Values.twofauth.auth.proxy_logout_url }}'
+            SESSION_LIFETIME: '{{ .Values.twofauth.app.session_lifetime }}'
+            SITE_OWNER: '{{ .Values.twofauth.app.site_owner }}'
+            TRUSTED_PROXIES: '{{ join "," .Values.twofauth.app.trusted_proxies }}'
+            WEBAUTHN_ICON: '{{ .Values.twofauth.webauthn.icon }}'
+            WEBAUTHN_ID: '{{ .Values.twofauth.webauthn.id }}'
+            WEBAUTHN_NAME: '{{ .Values.twofauth.webauthn.name }}'
+            WEBAUTHN_USER_VERIFICATION: '{{ .Values.twofauth.webauthn.user_verified
+              }}'
+          probes:
+            liveness:
+              path: /infos
+            readiness:
+              path: /infos
+            startup:
+              type: tcp

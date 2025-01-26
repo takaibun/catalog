@@ -1,0 +1,48 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/wizarrrr/wizarr
+  tag: latest
+persistence:
+  database:
+    enabled: true
+    mountPath: /data/database
+  nginxrun:
+    enabled: true
+    mountPath: /run/nginx
+    type: emptyDir
+  varrun:
+    enabled: false
+    mountPath: /var/run
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10596
+        protocol: http
+        targetPort: 5690
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DISABLE_BUILTIN_AUTH: false
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              type: tcp

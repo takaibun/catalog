@@ -1,0 +1,55 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/analogj/scrutiny
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/scrutiny/config
+  influxdb:
+    enabled: true
+    mountPath: /opt/scrutiny/influxdb
+  udev:
+    enabled: true
+    hostPath: /run/udev
+    mountPath: /run/udev
+    readOnly: true
+    type: hostPath
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    capabilities:
+      add:
+      - SYS_RAWIO
+      - SYS_ADMIN
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10151
+        targetPort: 8080
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            COLLECTOR_CRON_SCHEDULE: 0 0 * * *
+            COLLECTOR_HOST_ID: TrueNAS
+          probes:
+            liveness:
+              path: /api/health
+            readiness:
+              path: /api/health
+            startup:
+              path: /api/health

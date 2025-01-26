@@ -1,0 +1,39 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: billimek/prometheus-uptimerobot-exporter
+  tag: latest
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: main
+    prometheusRule:
+      enabled: false
+    type: servicemonitor
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        enabled: true
+        port: 9705
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            UPTIMEROBOT_API_KEY: ''
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

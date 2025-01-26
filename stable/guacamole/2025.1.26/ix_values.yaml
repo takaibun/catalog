@@ -1,0 +1,174 @@
+cnpg:
+  main:
+    database: guacamole
+    enabled: true
+    user: guacamole
+guacamole:
+  api:
+    API_SESSION_TIMEOUT: 60
+  cas: {}
+  duo: {}
+  general:
+    EXTENSION_PRIORITY: ''
+  header: {}
+  json: {}
+  ldap: {}
+  openid: {}
+  proxy: {}
+  radius: {}
+  saml: {}
+  totp: {}
+guacdImage:
+  pullPolicy: IfNotPresent
+  repository: guacamole/guacd
+  tag: 1.5.5@sha256:38232cae271361ef53db46faf5c49fe64049a1320a05b82c597425b69d6ce77e
+image:
+  pullPolicy: IfNotPresent
+  repository: guacamole/guacamole
+  tag: latest
+persistence:
+  db-seed:
+    defaultMode: '0770'
+    enabled: true
+    objectName: db-init
+    targetSelector:
+      main:
+        1-create-seed:
+          mountPath: /tc-scripts/create-seed.sh
+          subPath: create-seed.sh
+        2-apply-seed:
+          mountPath: /tc-scripts/apply-seed.sh
+          subPath: apply-seed.sh
+    type: configmap
+  drive:
+    enabled: true
+    targetSelector:
+      guacd:
+        guacd:
+          mountPath: /var/lib/guacamole/drive
+  recordings:
+    enabled: true
+    targetSelector:
+      guacd:
+        guacd:
+          mountPath: /var/lib/guacamole/recordings
+      main:
+        main:
+          mountPath: /var/lib/guacamole/recordings
+          readOnly: true
+  tc-init:
+    enabled: true
+    targetSelector:
+      main:
+        1-create-seed:
+          mountPath: /tc-init
+        2-apply-seed:
+          mountPath: /tc-init
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+service:
+  guacd:
+    enabled: true
+    ports:
+      guacd:
+        enabled: true
+        port: 10124
+        targetSelector: guacd
+    targetSelector: guacd
+  main:
+    ports:
+      main:
+        port: 10123
+        targetPort: 8080
+updated: true
+workload:
+  guacd:
+    enabled: true
+    podSpec:
+      containers:
+        guacd:
+          args:
+          - -b
+          - 0.0.0.0
+          - -l
+          - '{{ .Values.service.guacd.ports.guacd.port }}'
+          - -L
+          - info
+          - -f
+          command:
+          - /opt/guacamole/sbin/guacd
+          enabled: true
+          imageSelector: guacdImage
+          primary: true
+          probes:
+            liveness:
+              port: '{{ .Values.service.guacd.ports.guacd.port }}'
+              type: tcp
+            readiness:
+              port: '{{ .Values.service.guacd.ports.guacd.port }}'
+              type: tcp
+            startup:
+              port: '{{ .Values.service.guacd.ports.guacd.port }}'
+              type: tcp
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1000
+            runAsUser: 1000
+    strategy: RollingUpdate
+    type: Deployment
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: guacamole-config
+          probes:
+            liveness:
+              port: '{{ .Values.service.main.ports.main.targetPort }}'
+              type: http
+            readiness:
+              port: '{{ .Values.service.main.ports.main.targetPort }}'
+              type: http
+            startup:
+              port: '{{ .Values.service.main.ports.main.targetPort }}'
+              type: tcp
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1001
+            runAsUser: 1001
+      initContainers:
+        1-create-seed:
+          args:
+          - -c
+          - /tc-scripts/create-seed.sh
+          command:
+          - /bin/sh
+          enabled: true
+          envFrom:
+          - configMapRef:
+              name: guacamole-config
+          imageSelector: image
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1001
+            runAsUser: 1001
+          type: install
+        2-apply-seed:
+          args:
+          - -c
+          - /tc-scripts/apply-seed.sh
+          command:
+          - /bin/sh
+          enabled: true
+          envFrom:
+          - configMapRef:
+              name: guacamole-config
+          imageSelector: postgresClientImage
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 1001
+            runAsUser: 1001
+          type: install

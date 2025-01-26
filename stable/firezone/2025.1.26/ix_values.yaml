@@ -1,0 +1,155 @@
+cnpg:
+  main:
+    database: firezone
+    enabled: true
+    user: firezone
+firezone:
+  admin:
+    default_email: admin@email.com
+    default_password: '1234567890'
+    reset_admin_on_boot: false
+  authorization:
+    disable_vpn_on_oidc_error: false
+    local_auth_enabled: true
+  connectivity:
+    checks_enabled: true
+    checks_interval: 43200
+  devices:
+    allow_unprivileged_device_config: true
+    allow_unprivileged_device_management: true
+    client_allowed_ips:
+    - 0.0.0.0/0
+    client_dns:
+    - 1.1.1.1
+    - 1.0.0.1
+    client_endpoint: ''
+    client_persistent_keepalive: 25
+    default_client_mtu: 1280
+    max_devices_per_user: 10
+    vpn_session_duration: 0
+  other:
+    telemetry_enabled: false
+  web:
+    external_url: https://example.com
+    private_clients: []
+    trusted_proxies: []
+  wireguard:
+    ipv4_masquerade_enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: firezone/firezone
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /var/firezone
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    PUID: 0
+    capabilities:
+      add:
+      - NET_ADMIN
+      - SYS_MODULE
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 13000
+        protocol: http
+  wireguard:
+    enabled: true
+    ports:
+      wireguard:
+        enabled: true
+        port: 51820
+        protocol: udp
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ALLOW_UNPRIVILEGED_DEVICE_CONFIGURATION: '{{ .Values.firezone.devices.allow_unprivileged_device_config
+              }}'
+            ALLOW_UNPRIVILEGED_DEVICE_MANAGEMENT: '{{ .Values.firezone.devices.allow_unprivileged_device_management
+              }}'
+            CONNECTIVITY_CHECKS_ENABLED: '{{ .Values.firezone.connectivity.checks_enabled
+              }}'
+            CONNECTIVITY_CHECKS_INTERVAL: '{{ .Values.firezone.connectivity.checks_interval
+              }}'
+            COOKIE_ENCRYPTION_SALT:
+              secretKeyRef:
+                key: COOKIE_ENCRYPTION_SALT
+                name: firezone-secrets
+            COOKIE_SIGNING_SALT:
+              secretKeyRef:
+                key: COOKIE_SIGNING_SALT
+                name: firezone-secrets
+            DATABASE_ENCRYPTION_KEY:
+              secretKeyRef:
+                key: DATABASE_ENCRYPTION_KEY
+                name: firezone-secrets
+            DATABASE_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DATABASE_NAME: '{{ .Values.cnpg.main.database }}'
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_PORT: 5432
+            DATABASE_SSL_ENABLED: false
+            DATABASE_USER: '{{ .Values.cnpg.main.user }}'
+            DEFAULT_ADMIN_EMAIL: '{{ .Values.firezone.admin.default_email }}'
+            DEFAULT_ADMIN_PASSWORD: '{{ .Values.firezone.admin.default_password }}'
+            DEFAULT_CLIENT_ALLOWED_IPS: '{{ join "," .Values.firezone.devices.client_allowed_ips
+              }}'
+            DEFAULT_CLIENT_DNS: '{{ join "," .Values.firezone.devices.client_dns }}'
+            DEFAULT_CLIENT_ENDPOINT: '{{ .Values.firezone.devices.client_endpoint
+              }}'
+            DEFAULT_CLIENT_MTU: '{{ .Values.firezone.devices.default_client_mtu }}'
+            DEFAULT_CLIENT_PERSISTENT_KEEPALIVE: '{{ .Values.firezone.devices.client_persistent_keepalive
+              }}'
+            DISABLE_VPN_ON_OIDC_ERROR: '{{ .Values.firezone.authorization.disable_vpn_on_oidc_error
+              }}'
+            EXTERNAL_URL: '{{ .Values.firezone.web.external_url }}'
+            GUARDIAN_SECRET_KEY:
+              secretKeyRef:
+                key: GUARDIAN_SECRET_KEY
+                name: firezone-secrets
+            LIVE_VIEW_SIGNING_SALT:
+              secretKeyRef:
+                key: LIVE_VIEW_SIGNING_SALT
+                name: firezone-secrets
+            LOCAL_AUTH_ENABLED: '{{ .Values.firezone.authorization.local_auth_enabled
+              }}'
+            MAX_DEVICES_PER_USER: '{{ .Values.firezone.devices.max_devices_per_user
+              }}'
+            PHOENIX_EXTERNAL_TRUSTED_PROXIES: '{{ toJson .Values.firezone.web.trusted_proxies
+              }}'
+            PHOENIX_HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'
+            PHOENIX_PRIVATE_CLIENTS: '{{ toJson .Values.firezone.web.private_clients
+              }}'
+            PHOENIX_SECURE_COOKIES: '{{ .Values.firezone.web.secure_cookies }}'
+            RESET_ADMIN_ON_BOOT: '{{ .Values.firezone.admin.reset_admin_on_boot }}'
+            SECRET_KEY_BASE:
+              secretKeyRef:
+                key: SECRET_KEY_BASE
+                name: firezone-secrets
+            TELEMETRY_ENABLED: '{{ .Values.firezone.other.telemetry_enabled }}'
+            VPN_SESSION_DURATION: '{{ .Values.firezone.devices.vpn_session_duration
+              }}'
+            WIREGUARD_IPV4_ENABLED: true
+            WIREGUARD_IPV4_MASQUERADE: '{{ .Values.firezone.wireguard.ipv4_masquerade_enabled
+              }}'
+            WIREGUARD_IPV6_ENABLED: false
+            WIREGUARD_IPV6_MASQUERADE: false
+            WIREGUARD_PORT: '{{ .Values.service.wireguard.ports.wireguard.port }}'

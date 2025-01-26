@@ -1,0 +1,42 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/kiranshila/doplarr
+  tag: latest
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DISCORD__MAX_RESULTS: 25
+            DISCORD__REQUESTED_MSG_STYLE: :plain
+            DISCORD__ROLE_ID: ''
+            DISCORD__TOKEN: ''
+            LOG_LEVEL: :info
+            OVERSEERR__API: ''
+            OVERSEERR__DEFAULT_ID: ''
+            OVERSEERR__URL: ''
+            PARTIAL_SEASONS: true
+            RADARR__API: ''
+            RADARR__QUALITY_PROFILE: ''
+            RADARR__URL: ''
+            SONARR__API: ''
+            SONARR__LANGUAGE_PROFILE: ''
+            SONARR__QUALITY_PROFILE: ''
+            SONARR__URL: ''
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

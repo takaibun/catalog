@@ -1,0 +1,38 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: itzg/mc-router
+  tag: latest
+mcrouter:
+  host_minecraft: []
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 25564
+  minecraft:
+    enabled: true
+    ports:
+      minecraft:
+        enabled: true
+        port: 25565
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            API_BINDING: :{{ .Values.service.main.ports.main.port }}
+            PORT: '{{ .Values.service.minecraft.ports.minecraft.port }}'
+          envFrom:
+          - secretRef:
+              name: secrets
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

@@ -1,0 +1,45 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/sbondco/watcharr
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10684
+        protocol: http
+        targetPort: 3080
+watcharr:
+  debug: false
+  jellyfin_host: ''
+  mode: prod
+  signup_enabled: true
+  tmdb_key: ''
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DEBUG: '{{ .Values.watcharr.debug }}'
+            JELLYFIN_HOST: '{{ .Values.watcharr.jellyfin_host }}'
+            JWT_SECRET:
+              secretKeyRef:
+                key: JWT_SECRET
+                name: watcharr-secrets
+            MODE: '{{ .Values.watcharr.mode }}'
+            SIGNUP_ENABLED: '{{ .Values.watcharr.signup_enabled }}'
+            TMDB_KEY: '{{ .Values.watcharr.tmdb_key }}'

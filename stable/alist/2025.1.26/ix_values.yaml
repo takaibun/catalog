@@ -1,0 +1,48 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: xhofe/alist-aria2
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /opt/alist/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  aria2:
+    enabled: true
+    ports:
+      aria2:
+        enabled: true
+        port: 6800
+        protocol: http
+        targetPort: 6800
+  main:
+    ports:
+      main:
+        port: 10167
+        protocol: http
+        targetPort: 5244
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

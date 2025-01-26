@@ -1,0 +1,90 @@
+autodiscovery:
+  enabled: false
+broadcastProxyImage:
+  pullPolicy: IfNotPresent
+  repository: docker.io/alpine/socat
+  tag: 1.8.0.0@sha256:242ddfab3d263db7c0b2f193dd53e0bea3b6cbc0984af7bc63998e4aa597d1a3
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/jellyfin/jellyfin
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /cache
+    type: emptyDir
+  config:
+    enabled: true
+    mountPath: /config
+  transcode:
+    enabled: true
+    mountPath: /config/transcodes
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  autodiscovery:
+    enabled: true
+    ports:
+      autodiscovery:
+        enabled: true
+        port: 7359
+        protocol: udp
+        targetPort: 7359
+  main:
+    ports:
+      main:
+        port: 8096
+        targetPort: 8096
+updated: true
+workload:
+  broadcastproxy:
+    enabled: false
+    podSpec:
+      containers:
+        broadcastproxy:
+          args:
+          - -c
+          - export TARGET_IP=$(getent hosts '{{ printf "%v-autodiscovery" (include
+            "tc.v1.common.lib.chart.names.fullname" $) }}' | awk '{ print $1 }') &&
+            [[ ! -z $TARGET_IP ]] && touch /tmp/healthy && socat UDP4-LISTEN:7359,fork,reuseaddr,rcvbuf=8096
+            UDP4-SENDTO:${TARGET_IP}:7359,rcvbuf=8096 ; rm -rf /tmp/healthy
+          command:
+          - /bin/sh
+          enabled: true
+          imageSelector: broadcastProxyImage
+          primary: true
+          probes:
+            liveness:
+              command:
+              - cat
+              - /tmp/healthy
+              enabled: true
+              type: exec
+            readiness:
+              command:
+              - cat
+              - /tmp/healthy
+              enabled: true
+              type: exec
+            startup:
+              command:
+              - cat
+              - /tmp/healthy
+              enabled: true
+              type: exec
+          securityContext:
+            readOnlyRootFilesystem: true
+      hostNetwork: true
+      terminationGracePeriodSeconds: 3
+    type: DaemonSet
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            JELLYFIN_PublishedServerUrl: '{{ $.Values.chartContext.appUrl }}'

@@ -1,0 +1,33 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: bizmodeller/mymediaforalexa
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /datadir
+  media:
+    enabled: true
+    mountPath: /medialibrary
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 52051
+        targetPort: 52051
+  sub:
+    enabled: true
+    ports:
+      sub:
+        enabled: true
+        port: 52050
+        targetPort: 52050

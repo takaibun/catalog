@@ -1,0 +1,36 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: dchesterton/amcrest2mqtt
+  tag: latest
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            AMCREST_HOST: localhost
+            AMCREST_PASSWORD: changeme
+            AMCREST_PORT: 80
+            AMCREST_USERNAME: admin
+            HOME_ASSISTANT: 'false'
+            HOME_ASSISTANT_PREFIX: homeassistant
+            MQTT_HOST: localhost
+            MQTT_PASSWORD: changeme
+            MQTT_PORT: 1883
+            MQTT_USERNAME: mqttuser
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

@@ -1,0 +1,174 @@
+configmap:
+  config:
+    data:
+      graphite_mapping.conf: "mappings:\n################################################\
+        \ # memory mapping ################################################\n- match:\
+        \ \"truenas.*.system.ram.*\"\n  name: \"physical_memory\"\n  labels:\n   \
+        \ job: \"truenas\"\n    instance: \"${1}\"\n    kind: \"${2}\"\n\n- match:\
+        \ \"truenas.*.mem.*.*\"\n  name: \"memory_${2}\"\n  labels:\n    job: \"truenas\"\
+        \n    instance: \"${1}\"\n    kind: \"${3}\"\n\n- match: \"truenas.*.system.swap.*\"\
+        \n  name: \"swap\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\
+        \n    kind: \"${2}\"\n\n################################################ #\
+        \ disk smart metrics ################################################\n- match:\
+        \ \"truenas.*.smart.log.smart.disktemp.*.*\"\n  name: \"disk_temperature\"\
+        \n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n    serial: \"\
+        ${2}\"\n\n################################################ # disk operation\
+        \ mappings ################################################\n- match: \"truenas.*.disk.*.*\"\
+        \n  name: \"disk_io\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\
+        \n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_ops.*.*\"\
+        \n  name: \"disk_io_ops\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_ext.*.*\"\
+        \n  name: \"disk_io\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\
+        \n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_ext_ops.*.*\"\
+        \n  name: \"disk_io_ops\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_backlog.*.backlog\"\
+        \n  name: \"disk_io_backlog\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n\n- match: \"truenas.*.disk_busy.*.busy\"\n\
+        \  name: \"disk_busy\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    disk: \"${2}\"\n\n- match: \"truenas.*.disk_util.*.utilization\"\
+        \n  name: \"disk_utilization\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n\n- match: \"truenas.*.disk_mops.*.*\"\n \
+        \ name: \"disk_io\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\
+        \n    disk: \"${2}\"\n    op: \"merged_${3}\"\n\n- match: \"truenas.*.disk_ext_mops.*.*\"\
+        \n  name: \"disk_io\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\
+        \n    disk: \"${2}\"\n    op: \"merged_${3}\"\n\n- match: \"truenas.*.disk_iotime.*.*\"\
+        \n  name: \"disk_iotime\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_ext_iotime.*.*\"\
+        \n  name: \"disk_iotime\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_qops.*.operations\"\
+        \n  name: \"disk_qops\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    disk: \"${2}\"\n\n- match: \"truenas.*.disk_await.*.*\"\n  name:\
+        \ \"disk_await\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n\
+        \    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_ext_await.*.*\"\
+        \n  name: \"disk_await\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_avgsz.*.*\"\
+        \n  name: \"disk_io_size\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_ext_avgsz.*.*\"\
+        \n  name: \"disk_io_size\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    disk: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.disk_svctm.*.svctm\"\
+        \n  name: \"disk_svctm\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    disk: \"${2}\"\n\n- match: \"truenas.*.system.io.*\"\n  name:\
+        \ \"system_io\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n\
+        \    op: \"${2}\"\n\n################################################ # CPU\
+        \ mapping ################################################\n- match: \"truenas.*.system.intr.interrupts\"\
+        \n  name: \"interrupts\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    kind: \"hard\"\n\n- match: \"truenas.*.system.cpu.softirq\"\n\
+        \  name: \"interrupts\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    kind: \"soft\"\n\n- match: \"truenas.*.cpu.*.softirq\"\n  name:\
+        \ \"cpu_softirq\"\n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\
+        \n    cpu: \"${2}\"\n\n- match: \"truenas.*.system.ctxt.switches\"\n  name:\
+        \ \"context_switches\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n\n- match: \"truenas.*.system.cpu.*\"\n  name: \"cpu_total\"\n  labels:\n\
+        \    job: \"truenas\"\n    instance: \"${1}\"\n    kind: \"${2}\"\n\n- match:\
+        \ \"truenas.*.cputemp.temperatures.*\"\n  name: \"cpu_temperature\"\n  labels:\n\
+        \    job: \"truenas\"\n    instance: \"${1}\"\n    cpu: \"cpu${2}\"\n\n- match:\
+        \ \"truenas.*.cpu.core_throttling.*\"\n  name: \"cpu_throttling\"\n  labels:\n\
+        \    job: \"truenas\"\n    instance: \"${1}\"\n    cpu: \"${2}\"\n\n- match:\
+        \ \"truenas.*.cpu.cpufreq.*\"\n  name: \"cpu_frequency\"\n  labels:\n    job:\
+        \ \"truenas\"\n    instance: \"${1}\"\n    cpu: \"${2}\"\n\n- match: 'truenas\\\
+        .(.*)\\.cpu\\.(.*)_cpuidle\\.(.*)'\n  match_type: \"regex\"\n  name: \"cpu_idlestate\"\
+        \n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n    cpu: \"${2}\"\
+        \n    state: \"${3}\"\n\n- match: 'truenas\\.(.*)\\.cpu\\.(.*)\\.(.*)'\n \
+        \ match_type: \"regex\"\n  name: \"cpu_usage\"\n  labels:\n    job: \"truenas\"\
+        \n    instance: \"${1}\"\n    cpu: \"${2}\"\n    kind: \"${3}\"\n\n################################################\
+        \ # process mapping ################################################\n- match:\
+        \ \"truenas.*.system.forks.started\"\n  name: \"processes_forks\"\n  labels:\n\
+        \    job: \"truenas\"\n    instance: \"${1}\"\n\n- match: \"truenas.*.system.processes.*\"\
+        \n  name: \"processes\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    kind: \"${2}\"\n\n- match: \"truenas.*.system.active_processes.*\"\
+        \n  name: \"processes\"\n  labels:\n    job: \"truenas\"\n    instance: \"\
+        ${1}\"\n    kind: \"${2}\"\n\n################################################\
+        \ # uptime mapping ################################################\n- match:\
+        \ \"truenas.*.system.uptime.uptime\"\n  name: \"uptime\"\n  labels:\n    job:\
+        \ \"truenas\"\n    instance: \"${1}\"\n\n- match: \"truenas.*.system.clock_sync_state.state\"\
+        \n  name: \"clock_synced\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n\n- match: \"truenas.*.system.clock_status.*\"\n  name: \"clock_status\"\
+        \n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n    state: \"${2}\"\
+        \n\n- match: \"truenas.*.system.clock_sync_offset.offset\"\n  name: \"clock_offset\"\
+        \n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n\n################################################\
+        \ # load mapping ################################################\n- match:\
+        \ \"truenas.*.system.load.*\"\n  name: \"system_load\"\n  labels:\n    job:\
+        \ \"truenas\"\n    instance: \"${1}\"\n    kind: \"${2}\"\n\n################################################\
+        \ # nsfd mappings ################################################\n- match:\
+        \ \"truenas.*.nfsd.*.*\"\n  name: \"nfs_${2}\"\n  labels:\n    job: \"truenas\"\
+        \n    instance: \"${1}\"\n    op: \"${3}\"\n\n################################################\
+        \ # zfs mappings ################################################\n- match:\
+        \ \"truenas.*.zfs.*.*\"\n  name: \"zfs_${2}\"\n  labels:\n    job: \"truenas\"\
+        \n    instance: \"${1}\"\n    op: \"${3}\"\n\n- match: 'truenas\\.(.*)\\.zfspool\\\
+        .state_(.*)\\.(.*)'\n  match_type: \"regex\"\n  name: \"zfs_pool\"\n  labels:\n\
+        \    job: \"truenas\"\n    instance: \"${1}\"\n    pool: \"${2}\"\n    state:\
+        \ \"${3}\"\n\n################################################ # network mappings\
+        \ ################################################\n- match: \"truenas.*.net.*.*\"\
+        \n  name: \"interface_io\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.net_speed.*.speed\"\
+        \n  name: \"interface_speed\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n\n- match: \"truenas.*.net_duplex.*.*\"\
+        \n  name: \"interface_duplex\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n    state: \"${3}\"\n\n- match: \"truenas.*.net_operstate.*.*\"\
+        \n  name: \"interface_operationstate\"\n  labels:\n    job: \"truenas\"\n\
+        \    instance: \"${1}\"\n    interface: \"${2}\"\n    state: \"${3}\"\n\n\
+        - match: \"truenas.*.net_carrier.*.*\"\n  name: \"interface_carrierstate\"\
+        \n  labels:\n    job: \"truenas\"\n    instance: \"${1}\"\n    interface:\
+        \ \"${2}\"\n    state: \"${3}\"\n\n- match: \"truenas.*.net_mtu.*.mtu\"\n\
+        \  name: \"interface_mtu\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n\n- match: \"truenas.*.net_packets.*.*\"\
+        \n  name: \"interface_packets\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.net_errors.*.*\"\
+        \n  name: \"interface_errors\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.net_drops.*.*\"\
+        \n  name: \"interface_drops\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    interface: \"${2}\"\n    op: \"${3}\"\n\n- match: \"truenas.*.system.net.*\"\
+        \n  name: \"system_net_io\"\n  labels:\n    job: \"truenas\"\n    instance:\
+        \ \"${1}\"\n    op: \"${2}\""
+    enabled: true
+  dashboard:
+    data:
+      truenasexporter.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+image:
+  pullPolicy: IfNotPresent
+  repository: prom/graphite-exporter
+  tag: latest
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - port: metrics
+    targetSelector: metrics
+persistence:
+  config:
+    enabled: true
+    mountPath: /config/graphite_mapping.conf
+    objectName: config
+    readOnly: true
+    subPath: graphite_mapping.conf
+    type: configmap
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 9109
+        protocol: tcp
+      main-udp:
+        enabled: true
+        port: 9109
+        protocol: udp
+  metrics:
+    enabled: true
+    ports:
+      metrics:
+        enabled: true
+        port: 9108
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - --graphite.mapping-config=/config/graphite_mapping.conf

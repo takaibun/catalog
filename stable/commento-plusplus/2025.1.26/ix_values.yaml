@@ -1,0 +1,47 @@
+cnpg:
+  main:
+    database: comment-plusplus
+    enabled: true
+    user: comment-plusplus
+image:
+  pullPolicy: IfNotPresent
+  repository: caroga/commentoplusplus
+  tag: latest
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10240
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            COMMENTO_ENABLE_LOGGING: false
+            COMMENTO_ENABLE_WILDCARDS: true
+            COMMENTO_FORBID_NEW_OWNERS: false
+            COMMENTO_GZIP_STATIC: true
+            COMMENTO_ORIGIN: http://localhost:8080
+            COMMENTO_PORT: '{{ .Values.service.main.ports.main.port }}'
+            COMMENTO_POSTGRES:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+            COMMENTO_SMTP_FROM_ADDRESS: ''
+            COMMENTO_SMTP_HOST: ''
+            COMMENTO_SMTP_PASSWORD: ''
+            COMMENTO_SMTP_PORT: 587
+            COMMENTO_SMTP_USERNAME: ''
+            SMTP_SKIP_HOST_VERIFY: false
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

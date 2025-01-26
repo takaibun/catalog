@@ -1,0 +1,125 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: adguard/adguardhome
+  tag: latest
+ingress:
+  main:
+    integrations:
+      homepage:
+        widget:
+          type: adguard
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/adguardhome/conf
+  data:
+    enabled: true
+    mountPath: /opt/adguardhome/work
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  dns-crypt:
+    enabled: true
+    ports:
+      dns-crypt:
+        enabled: true
+        port: 5443
+        protocol: http
+        targetPort: 5443
+  dns-crypt-udp:
+    enabled: true
+    ports:
+      dns-crypt-udp:
+        enabled: true
+        port: 5443
+        protocol: udp
+        targetPort: 5443
+  dns-https:
+    enabled: true
+    ports:
+      dns-https:
+        enabled: true
+        port: 10234
+        protocol: https
+        targetPort: 443
+  dns-https-udp:
+    enabled: true
+    ports:
+      dns-https-udp:
+        enabled: true
+        port: 10234
+        protocol: udp
+        targetPort: 443
+  dns-quic-udp-1:
+    enabled: true
+    ports:
+      dns-quic-udp-1:
+        enabled: true
+        port: 784
+        protocol: udp
+        targetPort: 784
+      dns-quic-udp-2:
+        enabled: true
+        port: 853
+        protocol: udp
+        targetPort: 853
+      dns-quic-udp-3:
+        enabled: true
+        port: 8853
+        protocol: udp
+        targetPort: 8853
+  dns-tcp:
+    enabled: true
+    ports:
+      dns-tcp:
+        enabled: true
+        port: 53
+        targetPort: 53
+  dns-udp:
+    enabled: true
+    ports:
+      dns-udp:
+        enabled: true
+        port: 53
+        protocol: udp
+        targetPort: 53
+  main:
+    ports:
+      main:
+        port: 10232
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - --no-check-update
+          - --host
+          - 0.0.0.0
+          - --config
+          - /opt/adguardhome/conf/AdGuardHome.yaml
+          - --work-dir
+          - /opt/adguardhome/work
+          - --port
+          - '{{ .Values.service.main.ports.main.port }}'
+          command:
+          - /opt/adguardhome/AdGuardHome
+          env: {}
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

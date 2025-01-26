@@ -1,0 +1,55 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/ubooquity
+  tag: latest
+persistence:
+  books:
+    enabled: true
+    mountPath: /books
+  comics:
+    enabled: true
+    mountPath: /comics
+  config:
+    enabled: true
+    mountPath: /config
+  files:
+    enabled: true
+    mountPath: /files
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  admin:
+    enabled: true
+    ports:
+      admin:
+        enabled: true
+        port: 2203
+        targetPort: 2203
+  main:
+    ports:
+      main:
+        port: 2202
+        targetPort: 2202
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MAXMEM: 512
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

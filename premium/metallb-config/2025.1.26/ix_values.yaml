@@ -1,0 +1,38 @@
+BGPAdvertisements: []
+Communities: []
+L2Advertisements: []
+Peers: []
+image:
+  pullPolicy: IfNotPresent
+  repository: hello-world
+  tag: latest
+ipAddressPools: []
+manifestManager:
+  enabled: false
+operator:
+  metallb:
+    namespace: metallb
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+        port: 9999
+workload:
+  main:
+    enabled: false
+    podSpec:
+      containers:
+        main:
+          enabled: false
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

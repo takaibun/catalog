@@ -1,0 +1,38 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: benbusby/whoogle-search
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10052
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            WHOOGLE_CONFIG_ALTS: false
+            WHOOGLE_CONFIG_COUNTRY: ''
+            WHOOGLE_CONFIG_GET_ONLY: false
+            WHOOGLE_CONFIG_NEW_TAB: false
+            WHOOGLE_CONFIG_SAFE: true
+            WHOOGLE_CONFIG_STYLE: ''
+            WHOOGLE_CONFIG_THEME: dark
+            WHOOGLE_CONFIG_TOR: false
+            WHOOGLE_CONFIG_URL: https://<your url>/

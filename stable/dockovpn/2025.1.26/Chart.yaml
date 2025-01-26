@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: networking
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Out of the box stateless VPN server docker image which starts in just
+  a few seconds and doesn't require persistent storage.
+home: https://truecharts.org/charts/stable/dockovpn
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/dockovpn.webp
+keywords:
+- vpn
+- openvpn
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: dockovpn
+sources:
+- https://github.com/dockovpn/dockovpn
+- https://github.com/truecharts/charts/tree/master/charts/stable/dockovpn
+- https://hub.docker.com/r/alekslitvinenk/openvpn
+type: application
+version: 2025.1.26

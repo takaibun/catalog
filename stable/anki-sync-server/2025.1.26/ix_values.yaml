@@ -1,0 +1,41 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ankicommunity/anki-sync-server-rs
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 27701
+        targetPort: 27701
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ANKISYNCD_PASSWORD: '123456'
+            ANKISYNCD_USERNAME: test
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

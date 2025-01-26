@@ -1,0 +1,64 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: beromir/servas
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: servas
+  mariadbUsername: servas
+persistence:
+  nginx:
+    enabled: true
+    mountPath: /var/run/nginx
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 11080
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_DEBUG: false
+            APP_ENV: production
+            APP_KEY:
+              secretKeyRef:
+                key: APP_KEY
+                name: servas-secrets
+            APP_NAME: Servas
+            DB_CONNECTION: mysql
+            DB_DATABASE: '{{ .Values.mariadb.mariadbDatabase }}'
+            DB_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            DB_PASSWORD: '{{ .Values.mariadb.password }}'
+            DB_PORT: 3306
+            DB_USERNAME: '{{ .Values.mariadb.mariadbUsername }}'
+            SERVAS_ENABLE_REGISTRATION: true
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

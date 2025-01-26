@@ -1,0 +1,75 @@
+cnpg:
+  main:
+    database: discord_gsm
+    enabled: true
+    user: discord_gsm
+gsm:
+  app_activity_name: ''
+  app_activity_type: 3
+  app_presence_advertise: false
+  app_token: ''
+  command_query_cooldown: 5
+  command_query_public: false
+  factorio_auth_token: ''
+  factorio_username: ''
+  postgres_ssl_mode: disable
+  task_query_server: 60
+  timeout: 90
+  web_api_enable: false
+  whitelist_guilds: []
+  workers: 2
+image:
+  pullPolicy: IfNotPresent
+  repository: discordgsm/discord-game-server-monitor
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10230
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          command:
+          - /bin/sh
+          - -c
+          - 'gunicorn \
+
+            --bind 0.0.0.0:{{ .Values.service.main.ports.main.port }} \
+
+            --workers={{ .Values.gsm.workers }} \
+
+            --worker-class=gthread app:app \
+
+            --timeout {{ .Values.gsm.timeout }} & \
+
+            python -u main.py
+
+            '
+          env: {}
+          envFrom:
+          - secretRef:
+              name: gsm-secret
+          probes:
+            liveness:
+              type: http
+            readiness:
+              type: http
+            startup:
+              type: http

@@ -1,0 +1,256 @@
+configmap:
+  config:
+    data:
+      bookmarks.yaml: "---\n# For configuration options and examples, please see:\n\
+        # https://gethomepage.dev/latest/configs/bookmarks\n\n- Developer:\n    -\
+        \ Github:\n        - abbr: GH\n          href: https://github.com/\n\n- Social:\n\
+        \    - Reddit:\n        - abbr: RE\n          href: https://reddit.com/\n\n\
+        - Entertainment:\n    - YouTube:\n        - abbr: YT\n          href: https://youtube.com/\n\
+        \n- TrueCharts:\n    - TrueCharts:\n      - abbr: TC\n        icon: https://truecharts.org/svg/favicon.svg\n\
+        \        href: https://truecharts.org\n        description: \"TrueCharts Website\"\
+        \n    - Github:\n      - abbr: GH\n        icon: https://github.com/fluidicon.png\n\
+        \        href: https://github.com/truecharts\n        description: \"TrueCharts\
+        \ GitHub\"\n    - Open Collective:\n      - abbr: TC\n        icon: https://opencollective.com/favicon.ico\n\
+        \        href: https://opencollective.com/truecharts\n        description:\
+        \ \"TrueCharts Open Collective\"\n    - Discord:\n      - abbr: DC\n     \
+        \   icon: https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://discord.com&size=32\n\
+        \        href: https://truecharts.org/s/discord\n        description: \"TrueCharts\
+        \ Discord\"\n"
+      custom.css: ''
+      custom.js: ''
+      kubernetes.yaml: 'mode: cluster
+
+        '
+      services.yaml: "---\n# For configuration options and examples, please see:\n\
+        # https://gethomepage.dev/latest/configs/services\n\n- Arr:\n    - My First\
+        \ Service:\n        href: http://localhost/\n        description: Homepage\
+        \ is awesome\n\n- Media:\n    - My Second Service:\n        href: http://localhost/\n\
+        \        description: Homepage is the best\n\n- Infra:\n    - My Third Service:\n\
+        \        href: http://localhost/\n        description: Homepage is \U0001F60E\
+        \n"
+      settings.yaml: "---\n# For configuration options and examples, please see:\n\
+        # https://gethomepage.dev/latest/configs/settings\n\nproviders:\n  openweathermap:\
+        \ openweathermapapikey\n  weatherapi: weatherapiapikey\n"
+      widgets.yaml: "---\n# For configuration options and examples, please see:\n\
+        # https://gethomepage.dev/latest/configs/widgets\n\n- resources:\n    cpu:\
+        \ true\n    memory: true\n    disk: /\n\n- search:\n    provider: duckduckgo\n\
+        \    target: _blank\n"
+    enabled: true
+forceConfigFromValues: false
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/gethomepage/homepage
+  tag: latest
+persistence:
+  bookmarks-config:
+    enabled: '{{ not .Values.forceConfigFromValues }}'
+    mountPath: /dummy-config/bookmarks.yaml
+    objectName: config
+    readOnly: true
+    subPath: bookmarks.yaml
+    targetSelector:
+      main:
+        init-config: {}
+    type: configmap
+  config:
+    enabled: true
+    mountPath: /app/config
+    targetSelector:
+      main:
+        init-config: {}
+        main: {}
+  custom-css-config:
+    enabled: '{{ not .Values.forceConfigFromValues }}'
+    mountPath: /dummy-config/custom.css
+    objectName: config
+    readOnly: true
+    subPath: custom.css
+    targetSelector:
+      main:
+        init-config: {}
+    type: configmap
+  custom-js-config:
+    enabled: '{{ not .Values.forceConfigFromValues }}'
+    mountPath: /dummy-config/custom.js
+    objectName: config
+    readOnly: true
+    subPath: custom.js
+    targetSelector:
+      main:
+        init-config: {}
+    type: configmap
+  force-bookmarks-config:
+    enabled: '{{ .Values.forceConfigFromValues }}'
+    mountPath: /app/config/bookmarks.yaml
+    objectName: config
+    readOnly: true
+    subPath: bookmarks.yaml
+    type: configmap
+  force-custom-css-config:
+    enabled: '{{ .Values.forceConfigFromValues }}'
+    mountPath: /app/config/custom.css
+    objectName: config
+    readOnly: true
+    subPath: custom.css
+    type: configmap
+  force-custom-js-config:
+    enabled: '{{ .Values.forceConfigFromValues }}'
+    mountPath: /app/config/custom.js
+    objectName: config
+    readOnly: true
+    subPath: custom.js
+    type: configmap
+  force-services-config:
+    enabled: '{{ .Values.forceConfigFromValues }}'
+    mountPath: /app/config/services.yaml
+    objectName: config
+    readOnly: true
+    subPath: services.yaml
+    type: configmap
+  force-settings-config:
+    enabled: '{{ .Values.forceConfigFromValues }}'
+    mountPath: /app/config/settings.yaml
+    objectName: config
+    readOnly: true
+    subPath: settings.yaml
+    type: configmap
+  force-widgets-config:
+    enabled: '{{ .Values.forceConfigFromValues }}'
+    mountPath: /app/config/widgets.yaml
+    objectName: config
+    readOnly: true
+    subPath: widgets.yaml
+    type: configmap
+  kubernetes-config:
+    enabled: true
+    mountPath: /app/config/kubernetes.yaml
+    objectName: config
+    readOnly: true
+    subPath: kubernetes.yaml
+    type: configmap
+  services-config:
+    enabled: '{{ not .Values.forceConfigFromValues }}'
+    mountPath: /dummy-config/services.yaml
+    objectName: config
+    readOnly: true
+    subPath: services.yaml
+    targetSelector:
+      main:
+        init-config: {}
+    type: configmap
+  settings-config:
+    enabled: '{{ not .Values.forceConfigFromValues }}'
+    mountPath: /dummy-config/settings.yaml
+    objectName: config
+    readOnly: true
+    subPath: settings.yaml
+    targetSelector:
+      main:
+        init-config: {}
+    type: configmap
+  widgets-config:
+    enabled: '{{ not .Values.forceConfigFromValues }}'
+    mountPath: /dummy-config/widgets.yaml
+    objectName: config
+    readOnly: true
+    subPath: widgets.yaml
+    targetSelector:
+      main:
+        init-config: {}
+    type: configmap
+podOptions:
+  dnsConfig:
+    options:
+    - name: ndots
+      value: '3'
+portal:
+  open:
+    enabled: true
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - namespaces
+      - pods
+      - nodes
+      verbs:
+      - get
+      - list
+    - apiGroups:
+      - extensions
+      - networking.k8s.io
+      resources:
+      - ingresses
+      verbs:
+      - get
+      - list
+    - apiGroups:
+      - traefik.containo.us
+      - traefik.io
+      resources:
+      - ingressroutes
+      verbs:
+      - get
+      - list
+    - apiGroups:
+      - metrics.k8s.io
+      resources:
+      - nodes
+      - pods
+      verbs:
+      - get
+      - list
+    - apiGroups:
+      - apiextensions.k8s.io
+      resources:
+      - customresourcedefinitions/status
+      verbs:
+      - get
+service:
+  main:
+    ports:
+      main:
+        port: 10352
+        protocol: http
+        targetPort: 3000
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+workload:
+  main:
+    podSpec:
+      automountServiceAccountToken: true
+      initContainers:
+        init-config:
+          command:
+          - /bin/sh
+          - -c
+          - "mkdir -p /app/config\nif [ ! -f /app/config/bookmarks.yaml ]; then\n\
+            \  echo \"Bookmarks file not found, copying dummy...\"\n  cp /dummy-config/bookmarks.yaml\
+            \ /app/config/bookmarks.yaml\n  echo \"Config file copied, you can now\
+            \ edit it at /app/config/bookmarks.yaml\"\nfi\nif [ ! -f /app/config/services.yaml\
+            \ ]; then\n  echo \"services file not found, copying dummy...\"\n  cp\
+            \ /dummy-config/services.yaml /app/config/services.yaml\n  echo \"Config\
+            \ file copied, you can now edit it at /app/config/services.yaml\"\nfi\n\
+            if [ ! -f /app/config/settings.yaml ]; then\n  echo \"settings file not\
+            \ found, copying dummy...\"\n  cp /dummy-config/settings.yaml /app/config/settings.yaml\n\
+            \  echo \"Config file copied, you can now edit it at /app/config/settings.yaml\"\
+            \nfi\nif [ ! -f /app/config/widgets.yaml ]; then\n  echo \"widgets file\
+            \ not found, copying dummy...\"\n  cp /dummy-config/widgets.yaml /app/config/widgets.yaml\n\
+            \  echo \"Config file copied, you can now edit it at /app/config/widgets.yaml\"\
+            \nfi\nif [ ! -f /app/config/custom.css ]; then\n  echo \"custom.css file\
+            \ not found, copying dummy...\"\n  cp /dummy-config/custom.css /app/config/custom.css\n\
+            \  echo \"Config file copied, you can now edit it at /app/config/custom.css\"\
+            \nfi\nif [ ! -f /app/config/custom.js ]; then\n  echo \"custom.js file\
+            \ not found, copying dummy...\"\n  cp /dummy-config/custom.js /app/config/custom.js\n\
+            \  echo \"Config file copied, you can now edit it at /app/config/custom.js\"\
+            \nfi\n"
+          enabled: true
+          imageSelector: alpineImage
+          type: init

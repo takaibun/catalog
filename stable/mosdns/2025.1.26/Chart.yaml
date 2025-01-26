@@ -1,0 +1,33 @@
+annotations:
+  truecharts.org/category: networking
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: A location-based pluggable DNS forwarder/splitter.
+home: https://truecharts.org/charts/stable/mosdns
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/mosdns.webp
+keywords:
+- mosdns
+- dns
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: mosdns
+sources:
+- https://github.com/truecharts/charts/tree/master/charts/stable/mosdns
+- https://hub.docker.com/r/601096721/mosdns
+type: application
+version: 2025.1.26

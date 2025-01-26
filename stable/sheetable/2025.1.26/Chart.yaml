@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: music
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: SheetAble is an easy to use music sheet organiser for all the music enthusiasts
+  out there.
+home: https://truecharts.org/charts/stable/sheetable
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/sheetable.webp
+keywords:
+- sheetable
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: sheetable
+sources:
+- https://github.com/SheetAble
+- https://github.com/truecharts/charts/tree/master/charts/stable/sheetable
+- https://hub.docker.com/r/vallezw/sheetable
+- https://sheetable.net/docs
+type: application
+version: 2025.1.26

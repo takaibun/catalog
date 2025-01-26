@@ -1,0 +1,39 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/a-sync/game-server-watcher
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10690
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DATA_PATH: '{{.Values.persistence.data.mountPath }}'
+            DBG: 0
+            DISCORD_BOT_TOKEN: ''
+            HOST: 0.0.0.0
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            REFRESH_TIME_MINUTES: 2
+            SECRET: secret
+            SLACK_APP_TOKEN: ''
+            SLACK_BOT_TOKEN: ''
+            STEAM_WEB_API_KEY: ''
+            TELEGRAM_BOT_TOKEN: ''

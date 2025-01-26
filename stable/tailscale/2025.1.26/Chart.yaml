@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: network
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Tailscale lets you connect your devices and users together in your own
+  secure virtual private network
+home: https://truecharts.org/charts/stable/tailscale
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tailscale.webp
+keywords:
+- vpn
+- tailscale
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: tailscale
+sources:
+- https://github.com/tailscale/tailscale/blob/main/docs/k8s/run.sh
+- https://github.com/truecharts/charts/tree/master/charts/stable/tailscale
+- https://hub.docker.com/r/tailscale/tailscale
+type: application
+version: 2025.1.26

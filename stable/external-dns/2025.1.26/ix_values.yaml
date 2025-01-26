@@ -1,0 +1,265 @@
+externaldns:
+  cloudflareProxied: ''
+  domainFilters: []
+  interval: 1m
+  logFormat: text
+  logLevel: info
+  piholePassword: ''
+  piholeServer: ''
+  policy: ''
+  provider: inmemory
+  registry: txt
+  sources:
+  - service
+  - ingress
+  triggerLoopOnEvent: 'false'
+  txtOwnerId: ''
+  txtPrefix: ''
+  txtSuffix: ''
+  zoneidFilters: []
+image:
+  pullPolicy: IfNotPresent
+  repository: registry.k8s.io/external-dns/external-dns
+  tag: latest
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: false
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - nodes
+      verbs:
+      - list
+      - watch
+    - apiGroups:
+      - ''
+      resources:
+      - pods
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - ''
+      resources:
+      - services
+      - endpoints
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - extensions
+      - networking.k8s.io
+      resources:
+      - ingresses
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - networking.istio.io
+      resources:
+      - gateways
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - networking.istio.io
+      resources:
+      - virtualservices
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - getambassador.io
+      resources:
+      - hosts
+      - ingresses
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - projectcontour.io
+      resources:
+      - httpproxies
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - externaldns.k8s.io
+      resources:
+      - dnsendpoints
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - externaldns.k8s.io
+      resources:
+      - dnsendpoints/status
+      verbs:
+      - '*'
+    - apiGroups:
+      - gateway.networking.k8s.io
+      resources:
+      - gateways
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - gateway.networking.k8s.io
+      resources:
+      - httproutes
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - ''
+      resources:
+      - namespaces
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - gateway.networking.k8s.io
+      resources:
+      - grpcroutes
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - gateway.networking.k8s.io
+      resources:
+      - tlsroutes
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - gateway.networking.k8s.io
+      resources:
+      - tcproutes
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - gateway.networking.k8s.io
+      resources:
+      - udproutes
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - gloo.solo.io
+      - gateway.solo.io
+      resources:
+      - proxies
+      - virtualservices
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - configuration.konghq.com
+      resources:
+      - tcpingresses
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - traefik.containo.us
+      - traefik.io
+      resources:
+      - ingressroutes
+      - ingressroutetcps
+      - ingressrouteudps
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - route.openshift.io
+      resources:
+      - routes
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - zalando.org
+      resources:
+      - routegroups
+      verbs:
+      - get
+      - watch
+      - list
+    - apiGroups:
+      - zalando.org
+      resources:
+      - routegroups/status
+      verbs:
+      - patch
+      - update
+    - apiGroups:
+      - cis.f5.com
+      resources:
+      - virtualservers
+      verbs:
+      - get
+      - watch
+      - list
+service:
+  main:
+    ports:
+      main:
+        port: 7979
+        protocol: http
+        targetPort: 7979
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CF_API_EMAIL: ''
+            CF_API_KEY: ''
+            CF_API_TOKEN: ''
+            DNSIMPLE_OAUTH: ''
+            DO_TOKEN: ''
+            LINODE_TOKEN: ''
+            OVH_APPLICATION_KEY: ''
+            OVH_APPLICATION_SECRET: ''
+            OVH_CONSUMER_KEY: ''
+            SCW_ACCESS_KEY: ''
+            SCW_SECRET_KEY: ''
+          probes:
+            liveness:
+              path: /healthz
+            readiness:
+              path: /healthz
+            startup:
+              path: /healthz

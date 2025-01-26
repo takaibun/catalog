@@ -1,0 +1,74 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: registry.gitlab.com/crafty-controller/crafty-4
+  tag: latest
+persistence:
+  backups:
+    enabled: true
+    mountPath: /crafty/backups
+  config:
+    enabled: true
+    mountPath: /crafty/app/config
+  import:
+    enabled: true
+    mountPath: /crafty/import
+  logs:
+    enabled: true
+    mountPath: /crafty/logs
+  servers:
+    enabled: true
+    mountPath: /crafty/servers
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  bedrock:
+    enabled: true
+    ports:
+      bedrock:
+        enabled: true
+        port: 19132
+        protocol: udp
+        targetPort: 19132
+  main:
+    ports:
+      main:
+        port: 10586
+        protocol: https
+        targetPort: 8443
+  minecraft:
+    enabled: true
+    ports:
+      minecraft:
+        enabled: true
+        port: 25565
+        targetPort: 25565
+  redirects:
+    enabled: true
+    ports:
+      redirects:
+        enabled: true
+        port: 10587
+        protocol: https
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}
+          probes:
+            liveness:
+              path: /
+              type: https
+            readiness:
+              path: /
+              type: https
+            startup:
+              path: /
+              type: https

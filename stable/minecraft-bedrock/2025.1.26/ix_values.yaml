@@ -1,0 +1,88 @@
+image:
+  pullPolicy: Always
+  repository: itzg/minecraft-bedrock-server
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: false
+service:
+  main:
+    ports:
+      main:
+        port: 19132
+        protocol: udp
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ALLOW_CHEATS: false
+            CORRECT_PLAYER_MOVEMENT: false
+            DEFAULT_PLAYER_PERMISSION_LEVEL: member
+            DIFFICULTY: easy
+            ENABLE_LAN_VISIBILITY: false
+            EULA: true
+            GAMEMODE: survival
+            LEVEL_NAME: Bedrock level
+            LEVEL_SEED: ''
+            LEVEL_TYPE: DEFAULT
+            MAX_PLAYERS: 10
+            MAX_THREADS: 8
+            ONLINE_MODE: true
+            PLAYER_IDLE_TIMEOUT: 30
+            PLAYER_MOVEMENT_DISTANCE_THRESHOLD: 0.3
+            PLAYER_MOVEMENT_DURATION_THRESHOLD_IN_MS: 500
+            PLAYER_MOVEMENT_SCORE_THRESHOLD: 20
+            SERVER_AUTHORITATIVE_MOVEMENT: server-auth
+            SERVER_NAME: TrueCharts Dedicated Server!
+            SERVER_PORT: '{{ .Values.service.main.ports.main.port }}'
+            SERVER_PORT_V6: 19133
+            TEXTUREPACK_REQUIRED: false
+            TICK_DISTANCE: 4
+            VERSION: LATEST
+            VIEW_DISTANCE: 32
+            WHITE_LIST: false
+          probes:
+            liveness:
+              command:
+              - /usr/local/bin/mc-monitor
+              - status-bedrock
+              - --host
+              - 127.0.0.1
+              - --port
+              - '{{ .Values.service.main.ports.main.port }}'
+              enabled: true
+              spec:
+                periodSeconds: 60
+              type: exec
+            readiness:
+              command:
+              - /usr/local/bin/mc-monitor
+              - status-bedrock
+              - --host
+              - 127.0.0.1
+              - --port
+              - '{{ .Values.service.main.ports.main.port }}'
+              enabled: true
+              spec:
+                periodSeconds: 60
+              type: exec
+            startup:
+              command:
+              - /usr/local/bin/mc-monitor
+              - status-bedrock
+              - --host
+              - 127.0.0.1
+              - --port
+              - '{{ .Values.service.main.ports.main.port }}'
+              enabled: true
+              spec:
+                periodSeconds: 60
+              type: exec
+          stdin: true
+          tty: true

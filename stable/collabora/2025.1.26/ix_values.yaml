@@ -1,0 +1,56 @@
+collabora:
+  aliasgroup1: https://cloud.example.com
+  dictionaries:
+  - de_DE
+  - en_GB
+  - en_US
+  - el_GR
+  - es_ES
+  - fr_FR
+  - pt_BR
+  - pt_PT
+  - it
+  - nl
+  - ru
+  extra_params:
+  - --o:welcome.enable=false
+  interface: default
+  no_gen_ssl: true
+  password: changeme
+  server_name: example.com
+  ssl_enable: false
+  ssl_termination: true
+  username: admin
+image:
+  pullPolicy: IfNotPresent
+  repository: collabora/code
+  tag: latest
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 9980
+        protocol: http
+        targetPort: 9980
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: collabora-config
+          securityContext:
+            allowPrivilegeEscalation: true
+            capabilities:
+              add:
+              - CHOWN
+              - FOWNER
+              - SYS_CHROOT
+              - MKNOD
+            readOnlyRootFilesystem: false
+            runAsGroup: 102
+            runAsUser: 100

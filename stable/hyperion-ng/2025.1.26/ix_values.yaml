@@ -1,0 +1,43 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: sirfragalot/hyperion.ng
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /root/.hyperion
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  boblightservice:
+    enabled: true
+    ports:
+      boblightservice:
+        enabled: true
+        port: 19333
+        targetPort: 19333
+  jsonservice:
+    enabled: true
+    ports:
+      jsonservice:
+        enabled: true
+        port: 19444
+        targetPort: 19444
+  main:
+    ports:
+      main:
+        port: 10065
+        targetPort: 8090
+  protobufservice:
+    enabled: true
+    ports:
+      protobufservice:
+        enabled: true
+        port: 19445
+        targetPort: 19445

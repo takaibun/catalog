@@ -1,0 +1,98 @@
+cnpg:
+  main:
+    database: outline
+    enabled: true
+    user: outline
+image:
+  pullPolicy: IfNotPresent
+  repository: outlinewiki/outline
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /var/lib/outline/data
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10196
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DATABASE_URL:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+            DEFAULT_LANGUAGE: en_US
+            ENABLE_UPDATES: true
+            FILE_STORAGE: ''
+            FILE_STORAGE_UPLOAD_MAX_SIZE: ''
+            FORCE_HTTPS: false
+            MAXIMUM_IMPORT_SIZE: 5120000
+            PGSSLMODE: disable
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            REDIS_URL:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: secrets
+            SLACK_MESSAGE_ACTIONS: true
+            URL: http://localhost:{{ .Values.service.main.ports.main.port }}
+            UTILS_SECRET:
+              secretKeyRef:
+                key: UTILS_SECRET
+                name: secrets
+            WEB_CONCURRENCY: 1
+          probes:
+            liveness:
+              path: /_health
+            readiness:
+              path: /_health
+            startup:
+              path: /_health
+      initContainers:
+        1-migratedb:
+          command:
+          - sh
+          - -c
+          - yarn sequelize db:migrate --env=production-ssl-disabled
+          enabled: true
+          env:
+            DATABASE_URL:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+            REDIS_URL:
+              secretKeyRef:
+                key: REDIS_CUSTOM_URL
+                name: secrets
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: secrets
+            URL: '{{ tpl .Values.workload.main.podSpec.containers.main.env.URL $ }}'
+            UTILS_SECRET:
+              secretKeyRef:
+                key: UTILS_SECRET
+                name: secrets
+          imageSelector: image
+          type: init

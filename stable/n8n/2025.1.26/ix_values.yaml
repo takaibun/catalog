@@ -1,0 +1,80 @@
+cnpg:
+  main:
+    database: n8n
+    enabled: true
+    user: n8n
+credentials: {}
+deployment:
+  N8N_HOST: localhost
+endpoints: {}
+executions: {}
+externalhooks: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: n8nio/n8n
+  tag: latest
+logs:
+  N8N_LOG_FILE_LOCATION: /data/logs
+n8n_security: {}
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+securityContext:
+  container:
+    fsGroup: 1000
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5678
+        targetPort: 5678
+timezoneandlocale: {}
+usermanagement: {}
+workflows: {}
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_POSTGRESDB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            DB_POSTGRESDB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_POSTGRESDB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_POSTGRESDB_PORT: 5432
+            DB_POSTGRESDB_USER: '{{ .Values.cnpg.main.user }}'
+            DB_TYPE: postgresdb
+            GENERIC_TIMEZONE: '{{ .Values.TZ }}'
+            N8N_USER_FOLDER: /data
+            QUEUE_BULL_REDIS_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            QUEUE_BULL_REDIS_PASSWORD: '{{ .Values.redis.password }}'
+            QUEUE_BULL_REDIS_PORT: 6379
+          envFrom:
+          - configMapRef:
+              name: n8n-config
+          probes:
+            liveness:
+              path: /healthz
+            readiness:
+              path: /healthz
+            startup:
+              path: /healthz

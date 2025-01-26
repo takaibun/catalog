@@ -1,0 +1,38 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: A self-hosted static file serving app which does nothing more than just
+  serve up static files from a mounted volume.
+home: https://truecharts.org/charts/stable/static
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/static.webp
+keywords:
+- app
+- web
+- filesystem
+- static
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: static
+sources:
+- https://ghcr.io/nicholaswilde/static
+- https://github.com/nicholaswilde/docker-static
+- https://github.com/prologic/static
+- https://github.com/truecharts/charts/tree/master/charts/stable/static
+type: application
+version: 2025.1.26

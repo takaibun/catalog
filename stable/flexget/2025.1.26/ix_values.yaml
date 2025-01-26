@@ -1,0 +1,45 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: wiserain/flexget
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10174
+        targetPort: 5050
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            FG_LOG_FILE: flexget.log
+            FG_LOG_LEVEL: info
+            FG_WEBUI_PASSWD: jLeT78KBDPW
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

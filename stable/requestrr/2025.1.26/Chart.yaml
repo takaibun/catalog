@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Requestrr is a chatbot used to simplify using services like Sonarr/Radarr/Ombi
+  via the use of chat.
+home: https://truecharts.org/charts/stable/requestrr
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/requestrr.webp
+keywords:
+- requestrr
+- discord
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: requestrr
+sources:
+- https://github.com/thomst08/requestrr
+- https://github.com/truecharts/charts/tree/master/charts/stable/requestrr
+- https://hub.docker.com/r/thomst08/requestrr
+type: application
+version: 2025.1.26

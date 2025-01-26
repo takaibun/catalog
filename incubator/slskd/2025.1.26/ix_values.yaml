@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/slskd/slskd
+  tag: latest
+persistence:
+  complete:
+    enabled: true
+    mountPath: /downloads/complete
+  data:
+    enabled: true
+    mountPath: /app
+  incomplete:
+    enabled: true
+    mountPath: /downloads/incomplete
+  share:
+    enabled: true
+    mountPath: /share
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5030
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_DIR: '{{.Values.persistence.data.mountPath }}'
+            SLSKD_DOWNLOADS_DIR: '{{ .Values.persistence.complete.mountPath }}'
+            SLSKD_HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'
+            SLSKD_INCOMPLETE_DIR: '{{ .Values.persistence.incomplete.mountPath }}'
+            SLSKD_JWT_KEY:
+              secretKeyRef:
+                key: SLSKD_JWT_KEY
+                name: slskd-secrets
+            SLSKD_PASSWORD: admin123
+            SLSKD_SHARED_DIR: '{{.Values.persistence.share.mountPath }}'
+            SLSKD_SLSK_LISTEN_IP_ADDRESS: 0.0.0.0
+            SLSKD_SLSK_LISTEN_PORT: '{{ .Values.service.main.ports.main.port }}'
+            SLSKD_USERNAME: admin

@@ -1,0 +1,81 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: bitnami/solr
+  tag: latest
+includeCommon: true
+password: PLACEHOLDERPASSWORD
+persistence:
+  db:
+    enabled: true
+    mountPath: /bitnami/solr
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 1001
+service:
+  main:
+    ports:
+      main:
+        port: 8983
+        targetPort: 8983
+solrCores: testcore
+solrEnableAuthentication: 'yes'
+solrOpts: ''
+solrUsername: test
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SOLR_ADMIN_PASSWORD: '{{ .Values.password }}'
+            SOLR_ADMIN_USERNAME: '{{ .Values.solrUsername }}'
+            SOLR_CORES: '{{ .Values.solrCores }}'
+            SOLR_ENABLE_AUTHENTICATION: '{{ .Values.solrEnableAuthentication }}'
+            SOLR_OPTS: '{{ .Values.solrOpts }}'
+          probes:
+            liveness:
+              custom: true
+              enabled: true
+              spec:
+                exec:
+                  command:
+                  - /bin/bash
+                  - -ec
+                  - "if [ \"$SOLR_ENABLE_AUTHENTICATION\" == \"yes\" ]; then\n  until\
+                    \ curl --fail --user \"${SOLR_ADMIN_USERNAME}\":\"${SOLR_ADMIN_PASSWORD}\"\
+                    \ localhost:8983/solr/\"${SOLR_CORES}\"/admin/ping; do sleep 2;\
+                    \ done\nelse\n  until curl --fail localhost:8983/solr/\"${SOLR_CORES}\"\
+                    /admin/ping; do sleep 2; done\nfi;\n"
+            readiness:
+              custom: true
+              enabled: true
+              spec:
+                exec:
+                  command:
+                  - /bin/bash
+                  - -ec
+                  - "if [ \"$SOLR_ENABLE_AUTHENTICATION\" == \"yes\" ]; then\n  until\
+                    \ curl --fail --user \"${SOLR_ADMIN_USERNAME}\":\"${SOLR_ADMIN_PASSWORD}\"\
+                    \ localhost:8983/solr/\"${SOLR_CORES}\"/admin/ping; do sleep 2;\
+                    \ done\nelse\n  until curl --fail localhost:8983/solr/\"${SOLR_CORES}\"\
+                    /admin/ping; do sleep 2; done\nfi;\n"
+            startup:
+              custom: true
+              enabled: true
+              spec:
+                exec:
+                  command:
+                  - /bin/bash
+                  - -ec
+                  - "if [ \"$SOLR_ENABLE_AUTHENTICATION\" == \"yes\" ]; then\n  until\
+                    \ curl --fail --user \"${SOLR_ADMIN_USERNAME}\":\"${SOLR_ADMIN_PASSWORD}\"\
+                    \ localhost:8983/solr/\"${SOLR_CORES}\"/admin/ping; do sleep 2;\
+                    \ done\nelse\n  until curl --fail localhost:8983/solr/\"${SOLR_CORES}\"\
+                    /admin/ping; do sleep 2; done\nfi;\n"
+    replicas: 1

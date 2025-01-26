@@ -1,0 +1,30 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: edgd1er/webnut
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10585
+        protocol: http
+        targetPort: 6543
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            UPS_HOST: 127.0.0.1
+            UPS_PASSWORD: secret
+            UPS_PORT: 3493
+            UPS_USER: monuser

@@ -1,0 +1,55 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: mauricenino/dashdot
+  tag: latest
+persistence:
+  host-mnt:
+    enabled: true
+    hostPath: /
+    mountPath: /mnt/host
+    readOnly: true
+    type: hostPath
+  mem:
+    enabled: true
+    hostPath: /dev/mem
+    mountPath: /dev/mem
+    readOnly: true
+    type: hostPath
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    capabilities:
+      add:
+      - SYS_ADMIN
+      - SYS_RAWIO
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10044
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DASHDOT_PORT: '{{ .Values.service.main.ports.main.port}}'
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

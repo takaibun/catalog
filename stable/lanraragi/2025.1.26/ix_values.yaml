@@ -1,0 +1,34 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: difegue/lanraragi
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /home/koyomi/lanraragi/database
+  content:
+    enabled: true
+    mountPath: /home/koyomi/lanraragi/content
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10177
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            LRR_GID: '{{ .Values.securityContext.pod.fsGroup }}'
+            LRR_UID: '{{ .Values.securityContext.container.PUID }}'

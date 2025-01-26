@@ -1,0 +1,61 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: browserless/chrome
+  tag: latest
+persistence:
+  downloads:
+    enabled: true
+    mountPath: /downloads
+  metrics:
+    enabled: true
+    mountPath: /metrics
+portal:
+  open:
+    enabled: true
+puppeteerImage:
+  pullPolicy: IfNotPresent
+  repository: browserless/chrome
+  tag: 1.61.1-puppeteer-13.1.3@sha256:1562864d80cc4ed4436af2ba206edf7cafcecd560430658213b5d10d2dc7c999
+service:
+  main:
+    ports:
+      main:
+        port: 10194
+        protocol: http
+        targetPort: 3000
+updated: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CHROME_REFRESH_TIME: 3600000
+            CONNECTION_TIMEOUT: 30000
+            DEFAULT_BLOCK_ADS: true
+            DEFAULT_HEADLESS: true
+            DEFAULT_IGNORE_DEFAULT_ARGS: true
+            DEFAULT_IGNORE_HTTPS_ERRORS: true
+            DISABLE_AUTO_SET_DOWNLOAD_BEHAVIOR: false
+            ENABLE_API_GET: true
+            ENABLE_CORS: false
+            ENABLE_DEBUGGER: true
+            ENABLE_XVBF: true
+            EXIT_ON_HEALTH_FAILURE: true
+            FUNCTION_ENABLE_INCOGNITO_MODE: true
+            HOST: ''
+            MAX_CONCURRENT_SESSIONS: 5
+            MAX_QUEUE_LENGTH: 5
+            METRICS_JSON_PATH: /metrics/metrics.json
+            TOKEN: ''
+            WORKSPACE_DELETE_EXPIRED: false
+            WORKSPACE_DIR: /downloads
+            WORKSPACE_EXPIRE_DAYS: 30
+          imageSelector: image
+          probes:
+            liveness:
+              path: /metrics
+            readiness:
+              path: /metrics
+            startup:
+              path: /metrics

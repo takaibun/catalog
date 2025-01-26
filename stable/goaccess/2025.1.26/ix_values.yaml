@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: gregyankovoy/goaccess
+  tag: latest
+persistence:
+  goaccess:
+    enabled: true
+    mountPath: /opt/log
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 7889
+        protocol: tcp
+        targetPort: 7889

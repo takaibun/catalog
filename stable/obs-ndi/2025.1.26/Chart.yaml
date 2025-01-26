@@ -1,0 +1,37 @@
+annotations:
+  truecharts.org/category: GameServers
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: Docker Open Broadcaster Software (obs).
+home: https://truecharts.org/charts/stable/obs-ndi
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/obs-ndi.webp
+keywords:
+- obs-ndi
+- GameServers
+- Productivity
+- MediaApp-Video
+- MediaServer-Video
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: obs-ndi
+sources:
+- https://github.com/patrickstigler/docker-obs-ndi
+- https://github.com/truecharts/charts/tree/master/charts/stable/obs-ndi
+- https://hub.docker.com/r/patrickstigler/obs-ndi
+type: application
+version: 2025.1.26

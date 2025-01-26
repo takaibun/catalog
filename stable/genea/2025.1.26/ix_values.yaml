@@ -1,0 +1,19 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: biggiesize/genea-app
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3181
+        protocol: http
+        targetPort: 3181

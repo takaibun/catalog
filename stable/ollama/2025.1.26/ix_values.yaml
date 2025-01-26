@@ -1,0 +1,132 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ollama/ollama
+  tag: latest
+ingress:
+  api:
+    enabled: false
+    targetSelector:
+      api: api
+ollama:
+  rag:
+    model: all-MiniLM-L6-v2
+    model_device_type: cpu
+  registration:
+    def_user_role: pending
+    enabled: true
+  stable_diffusion:
+    base_url: ''
+  whisper:
+    model: base
+persistence:
+  config:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /root/.ollama
+  data:
+    enabled: true
+    targetSelector:
+      ui:
+        ui:
+          mountPath: /app/backend/data
+portal:
+  open:
+    enabled: true
+rocmImage:
+  pullPolicy: IfNotPresent
+  repository: ollama/ollama
+  tag: 0.1.39-rocm@sha256:cd03dbf7fe632e27334f5a47eadc629f45cf0779b23518e535c5f790b91cae94
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  api:
+    enabled: true
+    ports:
+      api:
+        enabled: true
+        port: 11434
+        protocol: http
+        targetPort: 11434
+        targetSelector: main
+    targetSelector: main
+  main:
+    ports:
+      main:
+        port: 10686
+        protocol: http
+        targetSelector: ui
+    targetSelector: ui
+uiImage:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/open-webui/open-webui
+  tag: latest@sha256:890bc5f373e14736e353b2f1dc793a3257349f8070bb18a2a5573ff3986d1679
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          imageSelector: image
+          probes:
+            liveness:
+              enabled: true
+              path: /api/version
+              port: '{{ .Values.service.api.ports.api.targetPort }}'
+              type: http
+            readiness:
+              enabled: true
+              path: /api/version
+              port: '{{ .Values.service.api.ports.api.targetPort }}'
+              type: http
+            startup:
+              enabled: true
+              port: '{{ .Values.service.api.ports.api.targetPort }}'
+              type: tcp
+  ui:
+    enabled: true
+    podSpec:
+      containers:
+        ui:
+          enabled: true
+          env:
+            AUTOMATIC1111_BASE_URL: '{{ .Values.ollama.stable_diffusion.base_url }}'
+            DEFAULT_USER_ROLE: '{{ .Values.ollama.registration.def_user_role }}'
+            ENABLE_SIGNUP: '{{ .Values.ollama.registration.enabled }}'
+            OLLAMA_BASE_URL: '{{ printf "http://%v-api:%v" (include "tc.v1.common.lib.chart.names.fullname"
+              $) .Values.service.api.ports.api.targetPort }}'
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            RAG_EMBEDDING_MODEL: '{{ .Values.ollama.rag.model }}'
+            RAG_EMBEDDING_MODEL_DEVICE_TYPE: '{{ .Values.ollama.rag.model_device_type
+              }}'
+            WEBUI_AUTH_TRUSTED_EMAIL_HEADER: '{{ .Values.ollama.registration.trusted_email_header
+              }}'
+            WEBUI_SECRET_KEY:
+              secretKeyRef:
+                key: WEBUI_SECRET_KEY
+                name: ollama-secrets
+            WHISPER_MODEL: '{{ .Values.ollama.whisper.model }}'
+          imageSelector: uiImage
+          primary: true
+          probes:
+            liveness:
+              enabled: true
+              path: /
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: http
+            readiness:
+              enabled: true
+              path: /
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: http
+            startup:
+              enabled: true
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: tcp
+          resources:
+            excludeExtra: true
+    type: Deployment

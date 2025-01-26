@@ -1,0 +1,70 @@
+answer:
+  admin:
+    email: admin@example.com
+    name: admin
+    password: super-secret-password
+  app:
+    language: en-US
+    log_level: DEBUG
+  site:
+    contact_email: contact@example.com
+    name: Answer
+    url: http://localhost:9080
+cnpg:
+  main:
+    database: answer
+    enabled: true
+    user: answer
+image:
+  pullPolicy: IfNotPresent
+  repository: answerdev/answer
+  tag: latest
+operator:
+  verify:
+    enabled: false
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 9080
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_EMAIL: '{{ .Values.answer.admin.email }}'
+            ADMIN_NAME: '{{ .Values.answer.admin.name }}'
+            ADMIN_PASSWORD: '{{ .Values.answer.admin.password }}'
+            AUTO_INSTALL: true
+            CONTACT_EMAIL: '{{ .Values.answer.site.contact_email }}'
+            DB_HOST: '{{ printf "%s:5432" (.Values.cnpg.main.creds.host | trimAll
+              "\"") }}'
+            DB_NAME: '{{ .Values.cnpg.main.database }}'
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_TYPE: postgres
+            DB_USERNAME: '{{ .Values.cnpg.main.user }}'
+            INSTALL_PORT: 80
+            LANGUAGE: '{{ .Values.answer.app.language }}'
+            LOG_LEVEL: '{{ .Values.answer.app.log_level }}'
+            SITE_NAME: '{{ .Values.answer.site.name }}'
+            SITE_URL: '{{ .Values.answer.site.url }}'
+          probes:
+            liveness:
+              path: /healthz
+            readiness:
+              path: /healthz
+            startup:
+              type: tcp

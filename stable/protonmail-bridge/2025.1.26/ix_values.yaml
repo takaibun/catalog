@@ -1,0 +1,56 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: shenxn/protonmail-bridge
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /root
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  imap:
+    enabled: true
+    ports:
+      imap:
+        enabled: true
+        port: 143
+        protcol: tcp
+        targetPort: 143
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+  smtp:
+    enabled: true
+    ports:
+      smtp:
+        enabled: true
+        port: 25
+        primary: true
+        protocol: tcp
+        targetPort: 25
+    primary: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              port: '{{ .Values.service.smtp.ports.smtp.targetPort }}'
+              type: tcp
+            readiness:
+              port: '{{ .Values.service.smtp.ports.smtp.targetPort }}'
+              type: tcp
+            startup:
+              port: '{{ .Values.service.smtp.ports.smtp.targetPort }}'
+              type: tcp

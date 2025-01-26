@@ -1,0 +1,42 @@
+image:
+  pullPolicy: Always
+  repository: koush/scrypted
+  tag: latest
+liteImage:
+  pullPolicy: Always
+  repository: koush/scrypted
+  tag: v0.105.0-jammy-lite@sha256:2daca814cf03d24a022c3298fef387535fed72b4e0fa50420e8775f68a5fae86
+nvidiaImage:
+  pullPolicy: Always
+  repository: koush/scrypted
+  tag: v0.105.0-jammy-nvidia@sha256:2ae3ceb8268ccf8e5632c82e122130d2389d57d356bc113386b3f124d8a78e40
+persistence:
+  media:
+    enabled: true
+    mountPath: /media/external
+  server:
+    enabled: true
+    mountPath: /server/volume
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10611
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SCRYPTED_INSECURE_PORT: '{{ .Values.service.main.ports.main.port }}'
+          imageSelector: image

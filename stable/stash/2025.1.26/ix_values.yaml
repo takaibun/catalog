@@ -1,0 +1,48 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: stashapp/stash
+  tag: latest
+persistence:
+  blobs:
+    enabled: true
+    mountPath: /blobs
+  cache:
+    enabled: true
+    mountPath: /cache
+  config:
+    enabled: true
+    mountPath: /root/.stash
+  data:
+    enabled: true
+    mountPath: /data
+  generated:
+    enabled: true
+    mountPath: /generated
+  metadata:
+    enabled: true
+    mountPath: /metadata
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9999
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            STASH_CACHE: /cache
+            STASH_GENERATED: /generated
+            STASH_METADATA: /metadata
+            STASH_PORT: '{{ .Values.service.main.ports.main.port }}'
+            STASH_STASH: /data

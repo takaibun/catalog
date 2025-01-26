@@ -1,0 +1,57 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: kometateam/kometa
+  tag: latest
+kometa:
+  no_countdown: true
+  run: false
+  time:
+  - 00:00
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+    targetSelectAll: true
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: secret
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+      initContainers:
+        create-init-config-file:
+          args:
+          - "echo \"Creating config.yml file...\"\nif [ -f /config/config.yml ]; then\n\
+            \  echo \"Config file exists! Skipping...\"\nelse\n  echo \"Config file\
+            \ is missing, getting a new one!\"\n  curl -fLvo /config/config.yml https://raw.githubusercontent.com/kometa-team/kometa/master/config/config.yml.template\
+            \ || (echo \"Downloading config file, FAILED...\" && exit 1)\nfi\n"
+          command:
+          - /bin/sh
+          - -c
+          enabled: true
+          imageSelector: image
+          type: init

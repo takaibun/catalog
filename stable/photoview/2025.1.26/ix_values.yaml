@@ -1,0 +1,42 @@
+cnpg:
+  main:
+    database: photoview
+    enabled: true
+    user: photoview
+image:
+  pullPolicy: IfNotPresent
+  repository: viktorstrate/photoview
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /cache
+  photos:
+    enabled: true
+    mountPath: /photos
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10159
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MAPBOX_TOKEN: ''
+            PHOTOVIEW_DATABASE_DRIVER: postgres
+            PHOTOVIEW_DISABLE_FACE_RECOGNITION: false
+            PHOTOVIEW_DISABLE_RAW_PROCESSING: false
+            PHOTOVIEW_DISABLE_VIDEO_ENCODING: false
+            PHOTOVIEW_LISTEN_IP: 127.0.0.1
+            PHOTOVIEW_LISTEN_PORT: '{{ .Values.service.main.ports.main.port }}'
+            PHOTOVIEW_MEDIA_CACHE: /cache
+            PHOTOVIEW_POSTGRES_URL:
+              secretKeyRef:
+                key: PHOTOVIEW_POSTGRES_URL
+                name: secrets

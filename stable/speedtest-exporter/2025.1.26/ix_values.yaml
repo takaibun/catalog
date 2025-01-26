@@ -1,0 +1,43 @@
+configmap:
+  dashboard:
+    data:
+      speedtest.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/miguelndecarvalho/speedtest-exporter
+  tag: latest
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - interval: 1h
+      path: /metrics
+      port: main
+      scrapeTimeout: 60s
+    prometheusRule:
+      enabled: false
+    type: servicemonitor
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 1000
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        enabled: true
+        port: 9798
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SPEEDTEST_PORT: '{{ .Values.service.main.ports.main.port }}'

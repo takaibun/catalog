@@ -1,0 +1,48 @@
+cnpg:
+  main:
+    database: wikijs
+    enabled: true
+    user: wikijs
+image:
+  pullPolicy: IfNotPresent
+  repository: requarks/wiki
+  tag: latest
+persistence:
+  wikicache:
+    enabled: true
+    mountPath: /wiki/data/
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10045
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_NAME: '{{ .Values.cnpg.main.database }}'
+            DB_PASS:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_PORT: '5432'
+            DB_TYPE: postgres
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+          probes:
+            liveness:
+              path: /healthz
+            readiness:
+              path: /healthz
+            startup:
+              path: /healthz

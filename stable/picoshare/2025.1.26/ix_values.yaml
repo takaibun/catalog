@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: mtlynch/picoshare
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10209
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            LITESTREAM_ACCESS_KEY_ID: ''
+            LITESTREAM_BUCKET: ''
+            LITESTREAM_ENDPOINT: ''
+            LITESTREAM_RETENTION: 72h
+            LITESTREAM_SECRET_ACCESS_KEY: ''
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            PS_SHARED_SECRET: somesecretcode

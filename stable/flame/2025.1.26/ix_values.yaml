@@ -1,0 +1,51 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: pawelmalak/flame
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /app/data
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: true
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - networking.k8s.io
+      resources:
+      - ingresses
+      verbs:
+      - get
+      - list
+      - watch
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10291
+        protocol: http
+        targetPort: 5005
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PASSWORD: flame_password
+            enable_integration: 'true'

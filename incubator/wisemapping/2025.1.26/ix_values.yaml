@@ -1,0 +1,54 @@
+cnpg:
+  main:
+    database: wisemapping
+    enabled: true
+    user: wisemapping
+image:
+  pullPolicy: IfNotPresent
+  repository: wisemapping/wisemapping
+  tag: latest
+persistence:
+  config:
+    enabled: false
+    mountPath: /usr/local/tomcat/webapps/ROOT/WEB-INF/
+    targetSelector:
+      main:
+        init-config: {}
+        main: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8080
+        targetPort: 8080
+wisemappingConfig: {}
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_EMAIL: change@me.com
+      initContainers:
+        init-config:
+          args:
+          - "mkdir -p /usr/local/tomcat/webapps/ROOT/WEB-INF/\nif [ ! -f /usr/local/tomcat/webapps/ROOT/WEB-INF/app.properties\
+            \ ]; then\n  echo \"Config file not found, copying dummy...\"\n  cp /usr/local/tomcat/webapps/ROOT/WEB-INF/app.properties.dummy\
+            \ /usr/local/tomcat/webapps/ROOT/WEB-INF/app.properties\n  echo \"Config\
+            \ file copied, you can now edit it at /usr/local/tomcat/webapps/ROOT/WEB-INF/app.properties\"\
+            \nfi\n"
+          command:
+          - /bin/sh
+          - -c
+          enabled: true
+          imageSelector: image
+          type: init

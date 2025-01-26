@@ -1,0 +1,61 @@
+cnpg:
+  main:
+    database: semaphore
+    enabled: true
+    user: semaphore
+image:
+  pullPolicy: IfNotPresent
+  repository: semaphoreui/semaphore
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /etc/semaphore
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: http
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SEMAPHORE_ACCESS_KEY_ENCRYPTION:
+              secretKeyRef:
+                key: SEMAPHORE_ACCESS_KEY_ENCRYPTION
+                name: semaphore-secrets
+            SEMAPHORE_ADMIN: admin
+            SEMAPHORE_ADMIN_EMAIL: admin@localhost
+            SEMAPHORE_ADMIN_NAME: admin
+            SEMAPHORE_ADMIN_PASSWORD: changeme
+            SEMAPHORE_DB: '{{ .Values.cnpg.main.database }}'
+            SEMAPHORE_DB_DIALECT: postgres
+            SEMAPHORE_DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            SEMAPHORE_DB_PASS:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            SEMAPHORE_DB_PORT: 5432
+            SEMAPHORE_DB_USER: '{{ .Values.cnpg.main.user }}'
+            SEMAPHORE_LDAP_ACTIVATED: 'no'
+            SEMAPHORE_LDAP_NEEDTLS: 'no'
+            SEMAPHORE_PLAYBOOK_PATH: '{{.Values.persistence.data.mountPath }}'

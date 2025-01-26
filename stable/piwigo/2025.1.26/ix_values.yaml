@@ -1,0 +1,64 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/piwigo
+  tag: latest
+mariadb:
+  enabled: true
+  includeCommon: true
+  mariadbDatabase: piwigo
+  mariadbUsername: piwigo
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+    size: 256Gi
+  gallery:
+    enabled: true
+    mountPath: /gallery
+    size: 256Gi
+  varrun:
+    enabled: true
+piwigo:
+  admin_email: admin@email.com
+  admin_pass: admin123
+  admin_user: admin
+  language: en_US
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10027
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          lifecycle:
+            postStart:
+              command:
+              - /bin/sh
+              - -c
+              - "if [ -f \"/config/POSTSETUP\" ]; then\n  echo \"POSTSETUP exists,\
+                \ no further action is needed.\"\nelse\n  while ! curl -s -o -v /dev/null\
+                \ http://localhost/install.php; do sleep 1; done && \\\n  curl -v\
+                \ -X POST -d \"language={{ .Values.piwigo.language }}&dbhost={{ .Values.mariadb.creds.plainhost\
+                \ | trimAll \"\\\"\" }}:3306&dbuser={{ .Values.mariadb.mariadbUsername\
+                \ }}&dbpasswd={{ .Values.mariadb.creds.mariadbPassword | trimAll \"\
+                \\\"\" }}&dbname={{ .Values.mariadb.mariadbDatabase }}&prefix=piwigo_&admin_name={{\
+                \ .Values.piwigo.admin_user }}&admin_pass1={{ .Values.piwigo.admin_pass\
+                \ }}&admin_pass2={{ .Values.piwigo.admin_pass }}&admin_mail={{ .Values.piwigo.admin_email\
+                \ }}&install=Start+installation\" http://localhost/install.php?language={{\
+                \ .Values.piwigo.language }} && \\\n  ( touch \"/config/POSTSETUP\"\
+                \ && echo \"Created POSTSETUP!\") || \\\n  ( echo \"Failed to create\
+                \ POSTSETUP file...\" && exit 1 )\nfi\n"
+              type: exec

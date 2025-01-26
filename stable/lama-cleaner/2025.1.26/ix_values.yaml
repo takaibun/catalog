@@ -1,0 +1,47 @@
+gpuImage:
+  pullPolicy: Always
+  repository: cwq1913/lama-cleaner
+  tag: gpu-0.33.0@sha256:c52f131701d4c21eae1f898ee59cdc26c73ccbe45b6cb8e75bf4b60989dd5015
+image:
+  pullPolicy: IfNotPresent
+  repository: cwq1913/lama-cleaner
+  tag: latest
+lamacleaner:
+  debug: false
+  hf_access_token: ''
+  input: ''
+  model: lama
+  sd_cpu_text_encoder: false
+  sd_disable_nsfw: false
+  sd_enable_xformers: false
+  sd_run_local: false
+persistence:
+  huggingface:
+    enabled: true
+    mountPath: /root/.cache/huggingface
+  torch:
+    enabled: true
+    mountPath: /root/.cache/torch
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10604
+        protocol: http
+updated: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          command: lama-cleaner
+          imageSelector: image

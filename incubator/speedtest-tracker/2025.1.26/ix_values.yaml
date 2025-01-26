@@ -1,0 +1,92 @@
+cnpg:
+  main:
+    database: speedtest-tracker
+    enabled: true
+    user: speedtest-tracker
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/speedtest-tracker
+  tag: latest
+ingress:
+  main:
+    integrations:
+      homepage:
+        widget:
+          type: speedtest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9004
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_KEY:
+              secretKeyRef:
+                key: APP_KEY
+                name: speedtest-tracker-secrets
+            APP_URL: ''
+            CACHE_DRIVER: redis
+            DB_CONNECTION: pgsql
+            DB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_PORT: '5432'
+            DB_USERNAME: '{{ .Values.cnpg.main.user }}'
+            MAIL_ENCRYPTION: SSL
+            MAIL_FROM_ADDRESS: ''
+            MAIL_FROM_NAME: Speedtest Tracker
+            MAIL_MAILER: smtp
+            MAIL_PASSWORD: ''
+            MAIL_PORT: 465
+            MAIL_USERNAME: ''
+            REDIS_URL:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            TELEGRAM_BOT_TOKEN: ''
+          probes:
+            liveness:
+              enabled: true
+              path: /api/healthcheck
+              type: http
+            readiness:
+              enabled: true
+              path: /api/healthcheck
+              type: http
+            startup:
+              enabled: true
+              path: /api/healthcheck
+              type: http
+          securityContext:
+            capabilities:
+              add:
+              - SYS_CHROOT
+              - KILL

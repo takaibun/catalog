@@ -1,0 +1,47 @@
+annotations:
+  truecharts.org/category: email
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+- alias: ''
+  condition: mariadb.enabled
+  import-values: []
+  name: mariadb
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.10
+- alias: ''
+  condition: redis.enabled
+  import-values: []
+  name: redis
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.5
+deprecated: false
+description: Protect your email from spam using disposable addresses.
+home: https://truecharts.org/charts/stable/anonaddy
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/anonaddy.webp
+keywords:
+- anonaddy
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: anonaddy
+sources:
+- https://github.com/anonaddy/docker
+- https://github.com/truecharts/charts/tree/master/charts/stable/anonaddy
+- https://hub.docker.com/r/anonaddy/anonaddy
+type: application
+version: 2025.1.26

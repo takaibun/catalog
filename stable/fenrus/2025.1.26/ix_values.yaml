@@ -1,0 +1,26 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: revenz/fenrus
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /app/data
+  images:
+    enabled: true
+    mountPath: /app/wwwroot/images
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: tcp
+        targetPort: 3000

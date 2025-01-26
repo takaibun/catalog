@@ -1,0 +1,89 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/xstar97/my-proxy-service
+  tag: latest
+ogkubeapps:
+  apprepository:
+    initialRepos:
+    - name: truecharts
+      url: https://charts.truecharts.org
+  frontend:
+    podLabels:
+      truecharts.org/kahack: frontend
+operator:
+  register: false
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: true
+rbac:
+  kubeapps-operator:
+    allServiceAccounts: true
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - '*'
+      resources:
+      - '*'
+      verbs:
+      - '*'
+service:
+  main:
+    enabled: false
+    expandObjectName: false
+    ports:
+      main:
+        enabled: false
+        port: 3000
+        primary: false
+        targetPort: 3000
+    primary: false
+  tckubeapps:
+    enabled: true
+    labels:
+      truecharts.org/flagged: 'true'
+    ports:
+      tckubeapps:
+        enabled: true
+        port: 8080
+        primary: true
+        targetPort: 8080
+    primary: true
+    selectorLabels:
+      app.kubernetes.io/component: frontend
+      truecharts.org/kahack: frontend
+serviceAccount:
+  kubeapps-operator:
+    enabled: true
+    primary: true
+    targetSelectAll: true
+workload:
+  main:
+    enabled: false
+    podSpec:
+      containers:
+        main:
+          enabled: false
+          env:
+            API_FILE: /var/run/secrets/kubernetes.io/serviceaccount/token
+            PORT: 3000
+            PROXY_TARGET: http://tckubeapps:8080
+          primary: true
+          probes:
+            liveness:
+              enabled: true
+              port: 3000
+              type: tcp
+            readiness:
+              enabled: true
+              port: 3000
+              type: tcp
+            startup:
+              enabled: true
+              port: 3000
+              type: tcp
+    primary: true
+    type: Deployment

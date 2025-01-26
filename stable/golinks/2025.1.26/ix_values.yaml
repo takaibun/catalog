@@ -1,0 +1,31 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/nicholaswilde/golinks
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10073
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}

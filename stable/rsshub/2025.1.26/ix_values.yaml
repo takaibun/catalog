@@ -1,0 +1,61 @@
+additionalContainers:
+  browserless:
+    image: '{{ .Values.browserlessImage.repository }}:{{ .Values.browserlessImage.tag
+      }}'
+    name: browserless
+    ports:
+    - containerPort: 3000
+      name: main
+browserlessImage:
+  repository: browserless/chrome
+  tag: 1.61.1-chrome-stable@sha256:efac47cfff3830d9a50b27d29f8bbb61949058ae336c823fbe9bd3c0d1debcc8
+image:
+  pullPolicy: IfNotPresent
+  repository: diygod/rsshub
+  tag: latest
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10191
+updated: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BITBUCKET_PASSWORD: ''
+            BITBUCKET_USERNAME: ''
+            CACHE_TYPE: redis
+            DISALLOW_ROBOT: false
+            GITHUB_ACCESS_TOKEN: ''
+            GOOGLE_FONTS_API_KEY: ''
+            HTTP_BASIC_AUTH_NAME: ''
+            HTTP_BASIC_AUTH_PASS: ''
+            LASTFM_API_KEY: ''
+            NODE_ENV: production
+            NODE_NAME: '{{ .Release.Name }}-{{ randAlphaNum 5 }}'
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            PUPPETEER_WS_ENDPOINT: ws://localhost:3000
+            REDIS_URL:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            TELEGRAM_TOKEN: ''
+            TITLE_LENGTH_LIMIT: 150
+            YOUTUBE_KEY: ''

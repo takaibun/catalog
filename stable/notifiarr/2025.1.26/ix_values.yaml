@@ -1,0 +1,73 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: golift/notifiarr
+  tag: latest
+notifiarr:
+  apikey: test
+  upstreams:
+  - 172.16.0.0/16
+persistence:
+  config:
+    enabled: true
+    targetSelector:
+      main:
+        init-conf:
+          mountPath: /config
+        main:
+          mountPath: /config
+  machine-id:
+    enabled: true
+    hostPath: /etc/machine-id
+    mountPath: /etc/machine-id
+    readOnly: true
+    type: hostPath
+  tmpdir:
+    enabled: true
+    medium: Memory
+    mountPath: /tmpdir
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 5454
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DN_API_KEY: '{{ .Values.notifiarr.apikey }}'
+            DN_BIND_ADDR: '{{ printf "0.0.0.0:%v" .Values.service.main.ports.main.port
+              }}'
+            DN_UPSTREAMS_0: '{{ join " " .Values.notifiarr.upstreams }}'
+            TMPDIR: /tmpdir
+      initContainers:
+        init-conf:
+          args:
+          - -c
+          - 'export CONF={{ printf "%s/notifiarr.conf" .Values.persistence.config.targetSelector.main.main.mountPath
+            }}
+
+
+            test -f "$CONF" && echo "Config exists, skipping creation..." && exit
+            0
+
+
+            echo "Creating a minimal config in [$CONF]..."
+
+
+            echo "# Dummy comment" > "$CONF" || echo "Failed to create a minimal config..."
+
+
+            echo "Finished."
+
+            '
+          command: /bin/sh
+          enabled: true
+          imageSelector: alpineImage
+          type: init

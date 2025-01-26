@@ -1,0 +1,54 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/kmahyyg/ztncui-aio
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/key-networks/ztncui/etc
+  mkworld:
+    enabled: true
+    mountPath: /etc/zt-mkworld
+  zerotier:
+    enabled: true
+    mountPath: /var/lib/zerotier-one
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10258
+  planet:
+    enabled: true
+    ports:
+      planet:
+        enabled: true
+        port: 9993
+        protocol: udp
+        targetPort: 9993
+  server:
+    enabled: true
+    ports:
+      web:
+        enabled: true
+        port: 3180
+        targetPort: 3180
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HTTP_ALL_INTERFACES: 'yes'
+            HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'
+            MYDOMAIN: test.truecharts.org
+            NODE_ENV: production
+            ZTNCUI_PASSWD: CHANGEME

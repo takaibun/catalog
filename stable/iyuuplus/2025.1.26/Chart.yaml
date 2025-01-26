@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: The IYUU automatic seeding tool can automatically seed most PT sites
+  in China, support downloader clusters, multiple disks, multiple download directories,
+  connecting to remote downloaders, etc.
+home: https://truecharts.org/charts/stable/iyuuplus
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/iyuuplus.webp
+keywords:
+- iyuuplus
+- pt
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: iyuuplus
+sources:
+- https://github.com/truecharts/charts/tree/master/charts/stable/iyuuplus
+- https://hub.docker.com/r/iyuucn/iyuuplus
+type: application
+version: 2025.1.26

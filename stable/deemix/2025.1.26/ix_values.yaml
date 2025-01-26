@@ -1,0 +1,46 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: registry.gitlab.com/bockiii/deemix-docker
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /downloads
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        port: 6595
+        protocol: http
+        targetPort: 6595
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DEEMIX_SINGLE_USER: false
+            INTPORT: '{{ .Values.service.main.ports.main.targetPort }}'
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

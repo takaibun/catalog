@@ -1,0 +1,89 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: utkuozdemir/nvidia_gpu_exporter
+  tag: latest
+logs:
+  general:
+    format: logfmt
+    level: info
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: '{{ .Values.metricsEndpoint }}'
+      port: main
+    type: servicemonitor
+metricsEndpoint: /metrics
+persistence:
+  libnvidiamlso:
+    enabled: true
+    hostPath: /usr/lib/x86_64-linux-gnu/libnvidia-ml.so
+    mountPath: /usr/lib/x86_64-linux-gnu/libnvidia-ml.so
+    readOnly: true
+    type: hostPath
+  libnvidiamlso1:
+    enabled: true
+    hostPath: /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1
+    mountPath: /usr/lib/x86_64-linux-gnu/libnvidia-ml.so.1
+    readOnly: true
+    type: hostPath
+  nviaictl:
+    enabled: true
+    hostPath: /dev/nvidiactl
+    mountPath: /dev/nvidiactl
+    readOnly: true
+    type: hostPath
+  nvidia0:
+    enabled: true
+    hostPath: /dev/nvidia0
+    mountPath: /dev/nvidia0
+    readOnly: true
+    type: hostPath
+  nvidiasmi:
+    enabled: true
+    hostPath: /usr/bin/nvidia-smi
+    mountPath: /usr/bin/nvidia-smi
+    readOnly: true
+    type: hostPath
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9835
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - --web.listen-address
+          - :{{ .Values.service.main.ports.main.port }}
+          - --web.telemetry-path
+          - '{{ .Values.metricsEndpoint }}'
+          - --nvidia-smi-command
+          - nvidia-smi
+          - --log.level
+          - '{{ .Values.logs.general.level }}'
+          - --log.format
+          - '{{ .Values.logs.general.format }}'
+          probes:
+            liveness:
+              path: '{{ .Values.metricsEndpoint }}'
+              port: main
+            readiness:
+              path: '{{ .Values.metricsEndpoint }}'
+              port: main
+            startup:
+              port: main
+              type: tcp
+    type: DaemonSet

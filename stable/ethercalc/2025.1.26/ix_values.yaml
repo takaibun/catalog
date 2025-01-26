@@ -1,0 +1,28 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: audreyt/ethercalc
+  tag: latest
+persistence: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8084
+        protocol: tcp
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            REDIS_PORT_6379_tcp_ADDR: ''
+            REDIS_PORT_6379_tcp_PORT: ''

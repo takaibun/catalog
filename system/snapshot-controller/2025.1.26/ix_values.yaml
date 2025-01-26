@@ -1,0 +1,198 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: registry.k8s.io/sig-storage/snapshot-controller
+  tag: latest
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: main
+    targetSelector: main
+    type: servicemonitor
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: false
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - persistentvolumes
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - ''
+      resources:
+      - persistentvolumeclaims
+      verbs:
+      - get
+      - list
+      - watch
+      - update
+    - apiGroups:
+      - storage.k8s.io
+      resources:
+      - storageclasses
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - ''
+      resources:
+      - events
+      verbs:
+      - list
+      - watch
+      - create
+      - update
+      - patch
+    - apiGroups:
+      - snapshot.storage.k8s.io
+      resources:
+      - volumesnapshotclasses
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - snapshot.storage.k8s.io
+      resources:
+      - volumesnapshotcontents
+      verbs:
+      - create
+      - get
+      - list
+      - watch
+      - update
+      - patch
+      - delete
+    - apiGroups:
+      - snapshot.storage.k8s.io
+      resources:
+      - volumesnapshotcontents/status
+      verbs:
+      - patch
+    - apiGroups:
+      - snapshot.storage.k8s.io
+      resources:
+      - volumesnapshots
+      verbs:
+      - get
+      - list
+      - watch
+      - update
+      - patch
+    - apiGroups:
+      - snapshot.storage.k8s.io
+      resources:
+      - volumesnapshots/status
+      verbs:
+      - update
+      - patch
+    - apiGroups:
+      - ''
+      resources:
+      - nodes
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - snapshot.storage.k8s.io
+      - groupsnapshot.storage.k8s.io
+      resources:
+      - volumesnapshotclasses
+      - volumegroupsnapshotclasses
+      verbs:
+      - list
+      - watch
+  role:
+    clusterWide: false
+    enabled: true
+    primary: false
+    rules:
+    - apiGroups:
+      - coordination.k8s.io
+      resources:
+      - leases
+      verbs:
+      - get
+      - watch
+      - list
+      - delete
+      - update
+      - create
+    serviceAccounts:
+    - main
+service:
+  main:
+    enabled: true
+    ports:
+      main:
+        enabled: true
+        port: 8080
+        protocol: http
+  webhook:
+    enabled: true
+    ports:
+      webhook:
+        enabled: true
+        port: 8443
+        protocol: https
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+    targetSelectAll: true
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - --http-endpoint=:{{ .Values.service.main.ports.main.port }}
+          - --leader-election=true
+          - --leader-election-namespace={{ .Release.Namespace }}
+          probes:
+            liveness:
+              path: /metrics
+            readiness:
+              path: /metrics
+            startup:
+              path: /metrics
+  webhook:
+    enabled: false
+    podSpec:
+      containers:
+        webhook:
+          args:
+          - --tlsPrivateKeyFile=/etc/snapshot-validation/tls.key
+          - --tlsCertFile=/etc/snapshot-validation/tls.crt
+          - --port={{ .Values.service.webhook.ports.webhook.port }}
+          enabled: false
+          probes:
+            liveness:
+              enabled: true
+              path: /readyz
+              port: 8443
+              type: https
+            readiness:
+              enabled: true
+              path: /readyz
+              port: 8443
+              type: https
+            startup:
+              enabled: true
+              path: /readyz
+              port: 8443
+              type: https

@@ -1,0 +1,20 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: davidspek/homelablabelmaker
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10581
+        protocol: http
+        targetPort: 80

@@ -1,0 +1,64 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: zedeus/nitter
+  tag: latest
+nitter:
+  cache:
+    listMinutes: 240
+    rssMinutes: 10
+  config:
+    base64Media: false
+    enableDebug: false
+    enableRSS: true
+    proxy: ''
+    proxyAuth: ''
+    tokenCount: 10
+  general:
+    hostname: localhost:10606
+    httpMaxConnections: 100
+    title: nitter
+  preferences:
+    hlsPlayback: false
+    infiniteScroll: false
+    proxyVideos: true
+    replaceInstagram: ''
+    replaceReddit: teddit.net
+    replaceTwitter: nitter.net
+    replaceYouTube: piped.video
+    theme: Nitter
+persistence:
+  nitter-config:
+    enabled: true
+    mountPath: /src/nitter.conf
+    objectName: nitter-config
+    readOnly: true
+    subPath: nitter.conf
+    type: configmap
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10606
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: true
+              path: /
+              type: http
+            readiness:
+              enabled: true
+              path: /
+              type: http
+            startup:
+              enabled: true
+              type: tcp

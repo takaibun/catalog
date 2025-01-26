@@ -1,0 +1,40 @@
+cnpg:
+  main:
+    database: traccar
+    enabled: true
+    user: traccar
+image:
+  pullPolicy: IfNotPresent
+  repository: traccar/traccar
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /opt/traccar/data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 8082
+        targetPort: 8082
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CONFIG_USE_ENVIRONMENT_VARIABLES: true
+            DATABASE_DRIVER: org.postgresql.Driver
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_URL:
+              secretKeyRef:
+                key: jdbc
+                name: cnpg-main-urls
+            DATABASE_USER: '{{ .Values.cnpg.main.user }}'
+            LOGGER_CONSOLE: true

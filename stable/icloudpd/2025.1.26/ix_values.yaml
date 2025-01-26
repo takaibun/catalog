@@ -1,0 +1,112 @@
+icloudpd:
+  apple_id: your@appleid.com
+  authentication_type: 2FA
+  auto_delete: false
+  command_line_options: ''
+  convert_heic_to_jpeg: false
+  delete_accompanying: false
+  delete_empty_directories: false
+  delete_notifications: true
+  download_notifications: true
+  icloud_china: false
+  jpeg_quality: 90
+  live_photo_size: original
+  notification_days: 7
+  notification_title: iCloud PD
+  notification_type: ''
+  photo_album: ''
+  photo_size: original
+  recent_only: 0
+  set_exif_datetime: false
+  skip_check: false
+  skip_live_photos: false
+  skip_videos: false
+  synchronisation_delay: 0
+  synchronisation_interval: 86400
+  until_found: 0
+image:
+  pullPolicy: IfNotPresent
+  repository: boredazfcuk/icloudpd
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /home/apps/iCloud
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    capabilities:
+      add:
+      - NET_RAW
+      - NET_ADMIN
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            apple_id: '{{ .Values.icloudpd.apple_id }}'
+            authentication_type: '{{ .Values.icloudpd.authentication_type }}'
+            auto_delete: '{{ ternary "True" "False" .Values.icloudpd.auto_delete }}'
+            command_line_options: '{{ .Values.icloudpd.command_line_options }}'
+            convert_heic_to_jpeg: '{{ ternary "True" "False" .Values.icloudpd.convert_heic_to_jpeg
+              }}'
+            delete_accompanying: '{{ ternary "True" "False" .Values.icloudpd.delete_accompanying
+              }}'
+            delete_empty_directories: '{{ ternary "True" "False" .Values.icloudpd.delete_empty_directories
+              }}'
+            delete_notifications: '{{ ternary "True" "False" .Values.icloudpd.delete_notifications
+              }}'
+            download_notifications: '{{ ternary "True" "False" .Values.icloudpd.download_notifications
+              }}'
+            download_path: /home/{{ .Values.workload.main.podSpec.containers.main.env.user
+              }}/iCloud
+            group: apps
+            group_id: '{{ .Values.securityContext.container.runAsGroup }}'
+            icloud_china: '{{ ternary "True" "" .Values.icloudpd.icloud_china }}'
+            jpeg_path: /home/{{ .Values.workload.main.podSpec.containers.main.env.user
+              }}/iCloud
+            jpeg_quality: '{{ .Values.icloudpd.jpeg_quality }}'
+            live_photo_size: '{{ .Values.icloudpd.live_photo_size }}'
+            notification_days: '{{ .Values.icloudpd.notification_days }}'
+            notification_title: '{{ .Values.icloudpd.notification_title }}'
+            notification_type: '{{ .Values.icloudpd.notification_type }}'
+            photo_album: '{{ .Values.icloudpd.photo_album }}'
+            photo_size: '{{ .Values.icloudpd.photo_size }}'
+            recent_only: '{{ ternary "" .Values.icloudpd.recent_only (eq 0 (int .Values.icloudpd.recent_only))
+              }}'
+            set_exif_datetime: '{{ ternary "True" "False" .Values.icloudpd.set_exif_datetime
+              }}'
+            skip_check: '{{ ternary "True" "False" .Values.icloudpd.skip_check }}'
+            skip_live_photos: '{{ ternary "True" "False" .Values.icloudpd.skip_live_photos
+              }}'
+            skip_videos: '{{ ternary "True" "False" .Values.icloudpd.skip_videos }}'
+            synchronisation_delay: '{{ .Values.icloudpd.synchronisation_delay }}'
+            synchronisation_interval: '{{ .Values.icloudpd.synchronisation_interval
+              }}'
+            until_found: '{{ ternary "" .Values.icloudpd.until_found (eq 0 (int .Values.icloudpd.until_found))
+              }}'
+            user: apps
+            user_id: '{{ .Values.securityContext.container.runAsUser }}'
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

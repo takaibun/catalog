@@ -1,0 +1,59 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: teamspeak
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /var/run/ts3server
+  data:
+    enabled: true
+    mountPath: /var/ts3server
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  files:
+    enabled: true
+    ports:
+      files:
+        enabled: true
+        port: 30033
+        targetPort: 30033
+  main:
+    ports:
+      main:
+        port: 10011
+        targetPort: 10011
+  query:
+    enabled: true
+    ports:
+      query:
+        enabled: true
+        port: 10022
+        targetPort: 10022
+  voice:
+    enabled: true
+    ports:
+      voice:
+        enabled: true
+        port: 9987
+        protocol: udp
+        targetPort: 9987
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            TS3SERVER_LICENSE: accept
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

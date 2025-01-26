@@ -1,0 +1,24 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: sameersbn/apt-cacher-ng
+  tag: latest
+persistence:
+  apt-cacher-ng:
+    enabled: true
+    mountPath: /var/cache/apt-cacher-ng
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3142
+        protocol: tcp
+        targetPort: 3142

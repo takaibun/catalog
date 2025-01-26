@@ -1,0 +1,53 @@
+cnpg:
+  main:
+    database: firefox-syncserver
+    enabled: true
+    user: firefox-syncserver
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/crazy-max/firefox-syncserver
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10051
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            FF_SYNCSERVER_ACCESSLOG: false
+            FF_SYNCSERVER_ALLOW_NEW_USERS: true
+            FF_SYNCSERVER_FORCE_WSGI_ENVIRON: true
+            FF_SYNCSERVER_FORWARDED_ALLOW_IPS: '*'
+            FF_SYNCSERVER_LOGLEVEL: info
+            FF_SYNCSERVER_PUBLIC_URL: firefox-syncserver.192.168.1.189.nip.io
+            FF_SYNCSERVER_SECRET: changeme
+            FF_SYNCSERVER_SQLURI:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

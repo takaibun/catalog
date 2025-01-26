@@ -1,0 +1,57 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/deluge
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8112
+        targetPort: 8112
+  rpc:
+    enabled: true
+    ports:
+      rpc:
+        enabled: true
+        port: 58846
+        targetPort: 58846
+  torrent:
+    enabled: true
+    ports:
+      tcp:
+        enabled: true
+        port: 6881
+        targetPort: 6881
+      udp:
+        enabled: true
+        port: '{{ .Values.service.torrent.ports.tcp.port }}'
+        protocol: udp
+        targetPort: '{{ .Values.service.torrent.ports.tcp.targetPort }}'
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

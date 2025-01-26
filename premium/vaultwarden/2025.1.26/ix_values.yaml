@@ -1,0 +1,74 @@
+betaImage:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/timshel/vaultwarden
+  tag: 1.30.5-9
+cnpg:
+  main:
+    database: vaultwarden
+    enabled: true
+    user: vaultwarden
+database:
+  type: postgresql
+  wal: true
+image:
+  pullPolicy: IfNotPresent
+  repository: docker.io/vaultwarden/server
+  tag: latest
+ingress:
+  main:
+    required: true
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10102
+        targetPort: 8080
+vaultwarden:
+  admin:
+    disableAdminToken: false
+    enabled: false
+  allowInvitation: true
+  allowSignups: true
+  enableWebVault: true
+  icons:
+    disableDownload: false
+  log:
+    file: ''
+    level: trace
+  orgCreationUsers: all
+  push:
+    enabled: false
+  requireEmail: false
+  showPasswordHint: true
+  smtp:
+    enabled: false
+    from: ''
+    host: ''
+  verifySignup: false
+  yubico:
+    enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DATABASE_URL:
+              secretKeyRef:
+                key: std
+                name: cnpg-main-urls
+            DOMAIN: https://{{ if .Values.ingress }}{{ if .Values.ingress.main.enabled
+              }}{{ ( index .Values.ingress.main.hosts 0 ).host }}{{ else }}placeholder.com{{
+              end }}{{ else }}placeholder.com{{ end }}
+          envFrom:
+          - configMapRef:
+              name: vaultwardenconfig
+          - secretRef:
+              name: vaultwardensecret

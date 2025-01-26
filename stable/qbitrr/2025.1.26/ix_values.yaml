@@ -1,0 +1,57 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: feramance/qbitrr
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+    targetSelector:
+      main:
+        1-create-config-file: {}
+        main: {}
+  downloads:
+    enabled: true
+    mountPath: /completed_downloads
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            QBITRR_OVERRIDES_DATA_PATH: /config
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+      initContainers:
+        1-create-config-file:
+          args:
+          - "conf=\"/config/config.toml\"\nexample=\"https://raw.githubusercontent.com/Feramance/qBitrr/master/config.example.toml\"\
+            \nif [ -f \"$conf\" ]; then\n  echo \"$conf exists. Skipping...\"\nelse\n\
+            \  echo \"$conf does not exist... Downloading the example from upstream...\"\
+            \n  wget \"$example\" -O $conf || echo \"Failed to download\"\nfi\n"
+          command:
+          - /bin/sh
+          - -c
+          enabled: true
+          imageSelector: image
+          type: install

@@ -1,0 +1,25 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/muximux
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10019
+        targetPort: 80

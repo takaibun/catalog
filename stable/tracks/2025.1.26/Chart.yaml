@@ -1,0 +1,34 @@
+annotations:
+  truecharts.org/category: Productivity
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: 'Tracks is a web-based todo application to help you implement the GTD
+  methodology. '
+home: https://truecharts.org/charts/stable/tracks
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/tracks.webp
+keywords:
+- tracks
+- Productivity
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: tracks
+sources:
+- https://github.com/truecharts/charts/tree/master/charts/stable/tracks
+- https://hub.docker.com/r/tracksapp/tracks
+type: application
+version: 2025.1.26

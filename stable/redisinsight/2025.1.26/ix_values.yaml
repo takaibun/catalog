@@ -1,0 +1,44 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: redislabs/redisinsight
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  logs:
+    enabled: true
+    mountPath: /logs
+portal:
+  open:
+    enabled: true
+redisinsight:
+  auth_prompt: false
+  auth_timer: 30
+  log_level: WARNING
+  trusted_origins: []
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10579
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            RIAUTHPROMPT: '{{ .Values.redisinsight.auth_prompt }}'
+            RIAUTHTIMER: '{{ .Values.redisinsight.auth_timer }}'
+            RIHOMEDIR: /config
+            RILOGDIR: /logs
+            RILOGLEVEL: '{{ .Values.redisinsight.log_level }}'
+            RIPORT: '{{ .Values.service.main.ports.main.port }}'
+            RITRUSTEDORIGINS: '{{ join "," .Values.redisinsight.trusted_origins }}'

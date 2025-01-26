@@ -1,0 +1,24 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: shokoanime/server
+  tag: latest
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /home/shoko/.shoko/
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8111
+        protocol: http
+        targetPort: 8111

@@ -1,0 +1,79 @@
+chevereto:
+  disable_update_cli: true
+  disable_update_http: true
+  https: false
+configmap:
+  chevereto:
+    data:
+      CHEVERETO_DISABLE_UPDATE_CLI: '{{ ternary "1" "0" .Values.chevereto.disable_update_cli
+        }}'
+      CHEVERETO_DISABLE_UPDATE_HTTP: '{{ ternary "1" "0" .Values.chevereto.disable_update_http
+        }}'
+      CHEVERETO_HTTPS: '{{ ternary "1" "0" .Values.chevereto.https }}'
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/rodber/chevereto-free
+  tag: latest
+mariadb:
+  enabled: true
+  mariadbDatabase: chevereto
+  mariadbUsername: chevereto
+persistence:
+  content:
+    enabled: true
+    mountPath: /var/www/html/content/
+  storage:
+    enabled: true
+    mountPath: /var/www/html/images/
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    fsGroup: 33
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10197
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CHEVERETO_DB_DRIVER: mysql
+            CHEVERETO_DB_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainporthost
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            CHEVERETO_DB_NAME: '{{ .Values.mariadb.mariadbUsername }}'
+            CHEVERETO_DB_PASS:
+              secretKeyRef:
+                expandObjectName: false
+                key: mariadb-password
+                name: '{{ printf "%s-%s" .Release.Name "mariadbcreds" }}'
+            CHEVERETO_DB_PORT: '3306'
+            CHEVERETO_DB_USER: '{{ .Values.mariadb.mariadbDatabase }}'
+            CHEVERETO_TAG: free
+          envFrom:
+          - configMapRef:
+              name: chevereto
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

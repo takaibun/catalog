@@ -1,0 +1,53 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: haveagitgat/tdarr
+  tag: latest
+persistence:
+  configs:
+    enabled: true
+    mountPath: /app/configs
+  logs:
+    enabled: true
+    mountPath: /app/logs
+  media:
+    enabled: true
+    mountPath: /media
+  server:
+    enabled: true
+    mountPath: /app/server
+  transcode-cache:
+    enabled: true
+    mountPath: /temp
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  comm:
+    enabled: true
+    ports:
+      comm:
+        enabled: true
+        port: 8266
+  main:
+    ports:
+      main:
+        port: 8265
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            internalNode: true
+            nodeID: Internal Node
+            serverIP: localhost
+            serverPort: '{{ .Values.service.comm.ports.comm.port }}'
+            webUIPort: '{{ .Values.service.main.ports.main.port }}'

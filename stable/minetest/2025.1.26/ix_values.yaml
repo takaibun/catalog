@@ -1,0 +1,38 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/linuxserver/minetest
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config/.minetest
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 30000
+        protocol: udp
+        targetPort: 30000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

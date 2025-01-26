@@ -1,0 +1,93 @@
+cnpg:
+  main:
+    database: paperless-ng
+    enabled: true
+    user: paperless-ng
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/paperless-ngx/paperless-ngx
+  tag: latest
+persistence:
+  consume:
+    enabled: true
+    mountPath: /consume
+  data:
+    enabled: true
+    mountPath: /data
+  media:
+    enabled: true
+    mountPath: /media
+  varrun:
+    enabled: false
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10140
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PAPERLESS_ADMIN_MAIL: admin@admin.com
+            PAPERLESS_ADMIN_PASSWORD: admin
+            PAPERLESS_ADMIN_USER: admin
+            PAPERLESS_CONSUMPTION_DIR: /consume/
+            PAPERLESS_DATA_DIR: /data/
+            PAPERLESS_DBHOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            PAPERLESS_DBNAME: '{{ .Values.cnpg.main.database }}'
+            PAPERLESS_DBPASS:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            PAPERLESS_DBPORT: '5432'
+            PAPERLESS_DBUSER: '{{ .Values.cnpg.main.user }}'
+            PAPERLESS_MEDIA_ROOT: /media/
+            PAPERLESS_OCR_LANGUAGE: eng
+            PAPERLESS_OCR_LANGUAGES: eng fra deu spa ita
+            PAPERLESS_PORT: '{{ .Values.service.main.ports.main.targetPort }}'
+            PAPERLESS_REDIS:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            PAPERLESS_SECRET_KEY:
+              secretKeyRef:
+                key: PAPERLESS_SECRET_KEY
+                name: secrets
+            PAPERLESS_TIME_ZONE: '{{ .Values.TZ }}'
+            PAPERLESS_URL: ''
+            PAPERLESS_WEBSERVER_WORKERS: 2
+            USERMAP_GID: '{{ .Values.securityContext.pod.fsGroup }}'
+            USERMAP_UID: '{{ .Values.securityContext.container.PUID }}'
+          probes:
+            liveness:
+              httpHeaders:
+                Host: localhost
+              type: http
+            readiness:
+              httpHeaders:
+                Host: localhost
+              type: http
+            startup:
+              httpHeaders:
+                Host: localhost
+              type: http

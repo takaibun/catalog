@@ -1,0 +1,45 @@
+cronjob:
+  annotations: {}
+  failedJobsHistoryLimit: 5
+  successfulJobsHistoryLimit: 2
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/taxel/plextraktsync
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/config
+plextraktsync:
+  cron_enabled: true
+  schedule: 0 */6 * * *
+  task: ''
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false
+          stdin: true
+          tty: true

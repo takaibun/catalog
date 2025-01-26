@@ -1,0 +1,134 @@
+cnpg:
+  main:
+    cluster:
+      initdb:
+        postInitApplicationSQL:
+        - CREATE EXTENSION IF NOT EXISTS cube;
+        - CREATE EXTENSION IF NOT EXISTS earthdistance;
+        - CREATE SCHEMA IF NOT EXISTS vectors;
+        - ALTER DATABASE immich SET search_path TO "immich", public, vectors;
+        - SET search_path TO "immich", public, vectors;
+        - GRANT SELECT ON TABLE pg_vector_index_stat TO PUBLIC;
+        - ALTER SCHEMA vectors OWNER TO immich;
+    database: immich
+    enabled: true
+    type: vectors
+    user: immich
+image:
+  pullPolicy: IfNotPresent
+  repository: altran1502/immich-server
+  tag: latest
+immich:
+  enable_ml: true
+  log_level: log
+  mlImageType: mlImage
+mlCudaImage:
+  pullPolicy: IfNotPresent
+  repository: altran1502/immich-machine-learning
+  tag: v1.105.1-cuda@sha256:6c34f6cfc85b1a34336e8eb2cf5ce14ec585395e404d4566826e8bf16e1a441b
+mlImage:
+  pullPolicy: IfNotPresent
+  repository: altran1502/immich-machine-learning
+  tag: v1.105.1@sha256:2e2736ba2f2270485c0b6fa33eee66ea0b2279b70b92ea838a015c4d5289c9f0
+mlOpenvinoImage:
+  pullPolicy: IfNotPresent
+  repository: altran1502/immich-machine-learning
+  tag: v1.105.1-openvino@sha256:7675497197b8600316d942444fb9f88106a91091b5011a806988a4afad0dc0cb
+persistence:
+  library:
+    enabled: true
+    mountPath: /usr/src/app/upload/library
+    targetSelector:
+      main:
+        main: {}
+      microservices:
+        microservices: {}
+  microcache:
+    enabled: true
+    targetSelector:
+      microservices:
+        microservices:
+          mountPath: /microcache
+    type: emptyDir
+  mlcache:
+    enabled: true
+    targetSelector:
+      machinelearning:
+        machinelearning:
+          mountPath: /mlcache
+    type: emptyDir
+  profile:
+    enabled: true
+    mountPath: /usr/src/app/upload/profile
+    targetSelector:
+      main:
+        main: {}
+      microservices:
+        microservices: {}
+  thumbs:
+    enabled: true
+    mountPath: /usr/src/app/upload/thumbs
+    targetSelector:
+      main:
+        main: {}
+      microservices:
+        microservices: {}
+  uploads:
+    enabled: true
+    mountPath: /usr/src/app/upload/upload
+    targetSelector:
+      main:
+        main: {}
+      microservices:
+        microservices: {}
+  video:
+    enabled: true
+    mountPath: /usr/src/app/upload/encoded-video
+    targetSelector:
+      main:
+        main: {}
+      microservices:
+        microservices: {}
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  machinelearning:
+    enabled: true
+    ports:
+      machinelearning:
+        enabled: true
+        port: 10003
+        primary: true
+        protocol: http
+        targetSelector: machinelearning
+    targetSelector: machinelearning
+    type: ClusterIP
+  main:
+    ports:
+      main:
+        port: 10323
+        protocol: http
+        targetSelector: main
+    targetSelector: main
+  microservices:
+    enabled: true
+    ports:
+      microservices:
+        enabled: true
+        port: 10004
+        primary: true
+        protocol: http
+        targetSelector: microservices
+    targetSelector: microservices
+    type: ClusterIP

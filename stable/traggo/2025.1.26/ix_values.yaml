@@ -1,0 +1,37 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: traggo/server
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/traggo/data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 12117
+        protocol: http
+traggo:
+  log_level: info
+  pass_strength: 10
+  password: admin
+  username: admin
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: secret
+          probes:
+            liveness:
+              type: http
+            readiness:
+              type: http
+            startup:
+              type: http

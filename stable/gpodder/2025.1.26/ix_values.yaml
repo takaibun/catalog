@@ -1,0 +1,35 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: xthursdayx/gpodder-docker
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  downloadspath:
+    enabled: true
+    mountPath: /downloads
+  varrun:
+    enabled: false
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: tcp
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PASSWORD: ''

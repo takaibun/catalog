@@ -1,0 +1,196 @@
+access_control:
+  default_policy: deny
+  networks_access_control: []
+  rules: []
+authentication_backend:
+  disable_reset_password: false
+  file:
+    enabled: true
+    password:
+      algorithm: argon2id
+      iterations: 1
+      key_length: 32
+      memory: 1024
+      parallelism: 8
+      salt_length: 16
+    path: /config/users_database.yml
+  ldap:
+    additional_groups_dn: OU=Groups
+    additional_users_dn: OU=Users
+    base_dn: DC=example,DC=com
+    display_name_attribute: displayname
+    enabled: false
+    group_name_attribute: cn
+    groups_filter: ''
+    implementation: activedirectory
+    mail_attribute: mail
+    plain_password: ''
+    start_tls: false
+    timeout: 5s
+    tls:
+      minimum_version: TLS1.2
+      server_name: ''
+      skip_verify: false
+    url: ldap://openldap.default.svc.cluster.local
+    user: CN=admin,DC=example,DC=com
+    username_attribute: uid
+    users_filter: ''
+  refresh_interval: 5m
+cnpg:
+  main:
+    database: authelia
+    enabled: true
+    user: authelia
+default_redirection_url: ''
+domain: example.com
+duo_api:
+  enabled: false
+  hostname: api-123456789.example.com
+  integration_key: ABCDEF
+  plain_api_key: ''
+identity_providers:
+  oidc:
+    access_token_lifespan: 1h
+    authorize_code_lifespan: 1m
+    clients: []
+    enable_client_debug_messages: false
+    enabled: false
+    id_token_lifespan: 1h
+    minimum_parameter_entropy: 8
+    refresh_token_lifespan: 90m
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/authelia/authelia
+  tag: latest
+ingress:
+  main:
+    required: true
+log:
+  format: text
+  level: trace
+notifier:
+  disable_startup_check: false
+  filesystem:
+    enabled: true
+    filename: /config/notification.txt
+  smtp:
+    disable_html_emails: false
+    disable_require_tls: false
+    enabled: false
+    enabledSecret: false
+    host: smtp.mail.svc.cluster.local
+    identifier: localhost
+    plain_password: test
+    port: 25
+    sender: admin@example.com
+    startup_check_address: test@authelia.com
+    subject: '[Authelia] {title}'
+    timeout: 5s
+    tls:
+      minimum_version: TLS1.2
+      server_name: ''
+      skip_verify: false
+    username: test
+ntp:
+  address: time.cloudflare.com:123
+  disable_failure: true
+  disable_startup_check: false
+  max_desync: 3s
+  version: 4
+password_policy:
+  standard:
+    enabled: false
+    max_length: 0
+    min_length: 8
+    require_lowercase: false
+    require_number: false
+    require_special: false
+    require_uppercase: false
+  zxcvbn:
+    enabled: false
+    min_score: 3
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+redisProvider:
+  database_index: 0
+  high_availability:
+    enabled: false
+    enabledSecret: false
+    nodes: []
+    route_by_latency: false
+    route_randomly: false
+    sentinel_name: mysentinel
+  maximum_active_connections: 8
+  minimum_idle_connections: 0
+  port: 6379
+  tls:
+    enabled: false
+    minimum_version: TLS1.2
+    server_name: ''
+    skip_verify: false
+  username: ''
+regulation:
+  ban_time: 5m
+  find_time: 2m
+  max_retries: 3
+server:
+  path: ''
+  port: 9091
+  read_buffer_size: 4096
+  write_buffer_size: 4096
+service:
+  main:
+    ports:
+      main:
+        port: 9091
+        targetPort: 9091
+session:
+  expiration: 1h
+  inactivity: 5m
+  name: authelia_session
+  remember_me_duration: 1M
+  same_site: lax
+storage:
+  postgres:
+    database: authelia
+    port: 5432
+    sslmode: disable
+    timeout: 5s
+    username: authelia
+theme: light
+totp:
+  issuer: ''
+  period: 30
+  skew: 1
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - --config=/configuration.yaml
+          command:
+          - authelia
+          envFrom:
+          - configMapRef:
+              name: authelia-paths
+          probes:
+            liveness:
+              path: /api/health
+              type: http
+            readiness:
+              path: /api/health
+              type: http
+            startup:
+              path: /api/health
+              type: http
+    replicas: 2
+    strategy: RollingUpdate

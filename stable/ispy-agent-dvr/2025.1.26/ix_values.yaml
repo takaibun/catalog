@@ -1,0 +1,98 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: doitandbedone/ispyagentdvr
+  tag: latest
+persistence:
+  commands:
+    enabled: true
+    mountPath: /agent/Commands
+  config:
+    enabled: true
+    mountPath: /agent/Media/XML
+  ffmpeg:
+    enabled: true
+    mountPath: /agent/ffmpeg6
+  media:
+    enabled: true
+    mountPath: /agent/Media/WebServerRoot/Media
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10184
+        targetPort: 8090
+  turn:
+    enabled: true
+    ports:
+      turn:
+        enabled: true
+        port: 3478
+        protocol: udp
+        targetPort: 3478
+  webrtc:
+    enabled: true
+    ports:
+      webrtc0:
+        enabled: true
+        port: 50000
+        protocol: udp
+        targetPort: 50000
+      webrtc1:
+        enabled: true
+        port: 50001
+        protocol: udp
+        targetPort: 50001
+      webrtc10:
+        enabled: true
+        port: 50010
+        protocol: udp
+        targetPort: 50010
+      webrtc2:
+        enabled: true
+        port: 50002
+        protocol: udp
+        targetPort: 50002
+      webrtc3:
+        enabled: true
+        port: 50003
+        protocol: udp
+        targetPort: 50003
+      webrtc4:
+        enabled: true
+        port: 50004
+        protocol: udp
+        targetPort: 50004
+      webrtc5:
+        enabled: true
+        port: 50005
+        protocol: udp
+        targetPort: 50005
+      webrtc6:
+        enabled: true
+        port: 50006
+        protocol: udp
+        targetPort: 60005
+      webrtc7:
+        enabled: true
+        port: 50007
+        protocol: udp
+        targetPort: 50007
+      webrtc8:
+        enabled: true
+        port: 50008
+        protocol: udp
+        targetPort: 50008
+      webrtc9:
+        enabled: true
+        port: 50009
+        protocol: udp
+        targetPort: 50009

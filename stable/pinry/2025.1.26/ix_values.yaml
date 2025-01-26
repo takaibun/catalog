@@ -1,0 +1,53 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: getpinry/pinry
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+    targetSelectAll: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10213
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: secrets
+      initContainers:
+        1-create-key-file:
+          args:
+          - "keyfile=\"/data/production_secret_key.txt\";\nif [ ! -f ${keyfile} ];\
+            \ then\n  echo \"No ${keyfile} File...\";\n  echo \"Creating ${keyfile}\
+            \ file...\";\n  echo \"${SECRET_KEY}\" > ${keyfile};\n  if [ -f ${keyfile}\
+            \ ];\n  then\n    echo \"Success!\";\n  else\n    echo \"Failed.\";\n\
+            \  fi;\nelse\n  echo \"${keyfile} File exists. Skipping...\";\nfi;\n"
+          command:
+          - sh
+          - -c
+          enabled: true
+          env:
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: secrets
+          imageSelector: image
+          type: install

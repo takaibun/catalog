@@ -1,0 +1,43 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ecodms/allinone-18.09
+  tag: latest
+persistence:
+  backuppath:
+    enabled: true
+    mountPath: /srv/backup
+  data:
+    enabled: true
+    mountPath: /srv/data
+  restorepath:
+    enabled: true
+    mountPath: /srv/restore
+  scaninputpath:
+    enabled: true
+    mountPath: /srv/scaninput
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

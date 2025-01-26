@@ -1,0 +1,87 @@
+cnpg:
+  main:
+    database: ferdi-server
+    enabled: true
+    user: ferdi-server
+image:
+  pullPolicy: IfNotPresent
+  repository: getferdi/ferdi-server
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /app/data
+    targetSelector:
+      main:
+        1-create-key-file: {}
+        main: {}
+  recipes:
+    enabled: true
+    mountPath: /app/recipes
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10206
+        targetPort: 3333
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_URL: http://localhost:3333
+            CONNECT_WITH_FRANZ: true
+            DATA_DIR: /app/data
+            DB_CONNECTION: pg
+            DB_DATABASE: '{{ .Values.cnpg.main.database }}'
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_PORT: '5432'
+            DB_SSL: false
+            DB_USER: '{{ .Values.cnpg.main.user }}'
+            IS_CREATION_ENABLED: true
+            IS_DASHBOARD_ENABLED: true
+            IS_REGISTRATION_ENABLED: true
+            NODE_ENV: production
+          probes:
+            liveness:
+              path: /health
+            readiness:
+              path: /health
+            startup:
+              path: /health
+      initContainers:
+        1-create-key-file:
+          args:
+          - "keyfile=\"/app/data/FERDI_APP_KEY.txt\";\nif [ ! -f ${keyfile} ]; then\n\
+            \  echo \"No APP_KEY File...\";\n  echo \"Creating APP_KEY file...\";\n\
+            \  echo \"${APP_KEY}\" > ${keyfile};\n  if [ -f ${keyfile} ]; then\n \
+            \   echo \"Success!\";\n  else\n    echo \"Failed.\";\n  fi;\nelse\n \
+            \ echo \"APP_KEY File exists. Skipping...\";\nfi;\n"
+          command:
+          - sh
+          - -c
+          enabled: true
+          env:
+            APP_KEY:
+              secretKeyRef:
+                key: APP_KEY
+                name: secrets
+          imageSelector: image
+          type: install

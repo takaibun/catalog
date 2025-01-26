@@ -1,0 +1,31 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tak786/trango-self-hosted
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  hostport2:
+    enabled: true
+    ports:
+      hostport2:
+        enabled: true
+        port: 5533
+        protocol: tcp
+        targetPort: 443
+  main:
+    ports:
+      main:
+        port: 7755
+        protocol: tcp
+        targetPort: 80

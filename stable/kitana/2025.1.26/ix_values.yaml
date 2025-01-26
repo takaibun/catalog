@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: pannal/kitana
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /app/data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 31337
+        protocol: tcp
+        targetPort: 31337

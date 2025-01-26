@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: corneliousjd/sui-startpage
+  tag: latest
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /usr/share/nginx/html
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8489
+        protocol: tcp
+        targetPort: 80

@@ -1,0 +1,27 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: thedaviddelta/lingva-translate
+  tag: latest
+persistence: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: tcp
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            site_domain: ''

@@ -1,0 +1,35 @@
+annotations:
+  truecharts.org/category: monitoring
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: webNUT (UPS network monitoring web ui).
+home: https://truecharts.org/charts/stable/webnut
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/webnut.webp
+keywords:
+- webnut
+- ups
+- monitoring
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: webnut
+sources:
+- https://github.com/rshipp/webNUT
+- https://github.com/truecharts/charts/tree/master/charts/stable/webnut
+- https://hub.docker.com/r/edgd1er/webnut
+type: application
+version: 2025.1.26

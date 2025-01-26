@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: jonnike/clipplex
+  tag: latest
+persistence:
+  clips:
+    enabled: true
+    mountPath: /app/app/static/media
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10602
+        protocol: http
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PLEX_TOKEN: ''
+            PLEX_URL: ''
+            PYTHONUNBUFFERED: '1'
+            STREAMABLE_LOGIN: ''
+            STREAMABLE_PASSWORD: ''

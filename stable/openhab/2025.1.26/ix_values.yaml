@@ -1,0 +1,67 @@
+configmap:
+  init:
+    data:
+      enable-console-logging.sh: 'echo ''Enabling console logging.''
+
+        sed -i -E ''s|(<AppenderRef ref="OSGI"/>).*|\1<AppenderRef ref="STDOUT"/>|''
+        /openhab/userdata/etc/log4j2.xml
+
+        '
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: openhab/openhab
+  tag: latest
+persistence:
+  addons:
+    enabled: true
+    mountPath: /openhab/addons
+  config:
+    enabled: true
+    mountPath: /openhab/conf
+  init:
+    enabled: true
+    mountPath: /etc/cont-init.d/enable-console-logging.sh
+    objectName: init
+    subPath: enable-console-logging.sh
+    type: configmap
+  userdata:
+    enabled: true
+    mountPath: /openhab/userdata
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  https:
+    enabled: true
+    ports:
+      https:
+        enabled: true
+        port: 10170
+        protocol: https
+  main:
+    ports:
+      main:
+        port: 10169
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            OPENHAB_HTTPS_PORT: '{{ .Values.service.https.ports.https.port }}'
+            OPENHAB_HTTP_PORT: '{{ .Values.service.main.ports.main.port }}'
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

@@ -1,0 +1,53 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: alekslitvinenk/openvpn
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/Dockovpn_data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    capabilities:
+      add:
+      - NET_ADMIN
+      - NET_RAW
+      - MKNOD
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8080
+  vpn:
+    enabled: true
+    ports:
+      vpn:
+        enabled: true
+        port: 1194
+        protocol: '{{ .Values.workload.main.podSpec.containers.main.env.HOST_TUN_PROTOCOL
+          }}'
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HOST_ADDR: vpn.example.com
+            HOST_CONF_PORT: '{{ .Values.service.main.ports.main.port }}'
+            HOST_TUN_PORT: '{{ .Values.service.vpn.ports.vpn.port }}'
+            HOST_TUN_PROTOCOL: udp
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

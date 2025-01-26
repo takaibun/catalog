@@ -1,0 +1,97 @@
+cnpg:
+  main:
+    database: weblate
+    enabled: true
+    user: weblate
+image:
+  pullPolicy: IfNotPresent
+  repository: weblate/weblate
+  tag: latest
+persistence:
+  cache:
+    enabled: true
+    mountPath: /app/cache
+    type: emptyDir
+  config:
+    enabled: true
+    mountPath: /app/data
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  redisUsername: default
+securityContext:
+  container:
+    fsGroup: 1000
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 1000
+service:
+  main:
+    ports:
+      main:
+        port: 10158
+        targetPort: 8080
+weblate:
+  auth:
+    azure: {}
+    azuretenant: {}
+    bitbucket: {}
+    facebook: {}
+    github: {}
+    gitlab: {}
+    google: {}
+    keycloak: {}
+    ldap: {}
+    linux: {}
+    saml: {}
+    slack: {}
+  email: {}
+  errorreport: {}
+  general:
+    WEBLATE_SITE_DOMAIN: weblate.example.com
+    WEBLATE_SITE_TITLE: My Project's Weblate
+  localization: {}
+  machinetranslate: {}
+  siteintegration: {}
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            POSTGRES_DATABASE: '{{ .Values.cnpg.main.database }}'
+            POSTGRES_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            POSTGRES_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            POSTGRES_PORT: 5432
+            POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+            REDIS_DB: '0'
+            REDIS_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_PASSWORD:
+              secretKeyRef:
+                expandObjectName: false
+                key: redis-password
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_PORT: 6379
+            WEBLATE_TIME_ZONE: '{{ .Values.TZ }}'
+          envFrom:
+          - configMapRef:
+              name: weblate-env
+          probes:
+            liveness:
+              path: /healthz
+            readiness:
+              path: /healthz
+            startup:
+              path: /healthz

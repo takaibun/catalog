@@ -1,0 +1,50 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: p3terx/aria2-pro
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  listen:
+    enabled: true
+    ports:
+      listen:
+        enabled: true
+        port: 6888
+        protocol: tcp
+  main:
+    ports:
+      main:
+        port: 6800
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CUSTOM_TRACKER_URL: https://trackerslist.com/all_aria2.txt
+            DISK_CACHE: 64M
+            IPV6_MODE: false
+            LISTEN_PORT: '{{ .Values.service.listen.ports.listen.port }}'
+            RPC_PORT: '{{ .Values.service.main.ports.main.port }}'
+            RPC_SECRET: ChangemeNow
+            UPDATE_TRACKERS: false
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

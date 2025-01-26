@@ -1,0 +1,75 @@
+existingSecret: ''
+image:
+  pullPolicy: IfNotPresent
+  repository: bitnami/mongodb
+  tag: latest
+includeCommon: true
+mongodbDatabase: test
+mongodbUsername: test
+password: PLACEHOLDERPASSWORD
+persistence:
+  data:
+    enabled: true
+    mountPath: /bitnami/mongodb
+portal:
+  open:
+    enabled: false
+rootPassword: PLACEHOLDERROOTPASSWORD
+secret:
+  credentials:
+    data:
+      mongodb-password: '{{ ( .Values.password | default "empty" ) }}'
+      mongodb-root-password: '{{ ( .Values.rootPassword | default "empty" ) }}'
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+service:
+  main:
+    ports:
+      main:
+        port: 27017
+        targetPort: 27017
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            MONGODB_DATABASE: '{{ .Values.mongodbDatabase }}'
+            MONGODB_PASSWORD: '{{ .Values.password }}'
+            MONGODB_ROOT_PASSWORD: '{{ .Values.rootPassword }}'
+            MONGODB_USERNAME: '{{ .Values.mongodbUsername }}'
+          probes:
+            liveness:
+              custom: true
+              enabled: true
+              spec:
+                exec:
+                  command:
+                  - /bin/bash
+                  - -ec
+                  - echo "db.runCommand(\"ping\")" | mongosh --host localhost --port
+                    27017 ${MONGODB_DATABASE} --quiet
+            readiness:
+              custom: true
+              enabled: true
+              spec:
+                exec:
+                  command:
+                  - /bin/bash
+                  - -ec
+                  - echo "db.runCommand(\"ping\")" | mongosh --host localhost --port
+                    27017 ${MONGODB_DATABASE} --quiet
+            startup:
+              custom: true
+              enabled: true
+              spec:
+                exec:
+                  command:
+                  - /bin/bash
+                  - -ec
+                  - echo "db.runCommand(\"ping\")" | mongosh --host localhost --port
+                    27017 ${MONGODB_DATABASE} --quiet
+    replicas: 1

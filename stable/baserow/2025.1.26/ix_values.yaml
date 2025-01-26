@@ -1,0 +1,78 @@
+cnpg:
+  main:
+    database: baserow
+    enabled: true
+    user: baserow
+image:
+  pullPolicy: IfNotPresent
+  repository: baserow/baserow
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /baserow/data
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10228
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BASEROW_CADDY_ADDRESSES: :{{ .Values.service.main.ports.main.port }}
+            BASEROW_PUBLIC_URL: http://localhost:10228
+            DATABASE_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DATABASE_NAME: '{{ .Values.cnpg.main.database }}'
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_PORT: '5432'
+            DATABASE_USER: '{{ .Values.cnpg.main.user }}'
+            EMAIL_SMTP: ''
+            EMAIL_SMTP_HOST: ''
+            EMAIL_SMTP_PASSWORD: ''
+            EMAIL_SMTP_PORT: 587
+            EMAIL_SMTP_USER: ''
+            EMAIL_SMTP_USE_TLS: ''
+            FROM_EMAIL: ''
+            REDIS_HOST:
+              secretKeyRef:
+                expandObjectName: false
+                key: plainhost
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            REDIS_PASSWORD: '{{ .Values.redis.password }}'
+            REDIS_PORT: '6379'
+            REDIS_PROTOCOL: redis
+            REDIS_USER: '{{ .Values.redis.redisUsername }}'
+            SECRET_KEY:
+              secretKeyRef:
+                key: SECRET_KEY
+                name: secrets
+          probes:
+            liveness:
+              path: /_health
+            readiness:
+              path: /_health
+            startup:
+              path: /_health

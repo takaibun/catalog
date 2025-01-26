@@ -1,0 +1,104 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/goofball222/unifi
+  tag: latest
+persistence:
+  certs:
+    enabled: true
+    mountPath: /usr/lib/unifi/cert
+  config:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /usr/lib/unifi/olddata
+        migrate:
+          mountPath: /usr/lib/unifi/olddata
+  data:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /usr/lib/unifi/data
+        migrate:
+          mountPath: /usr/lib/unifi/data
+  logs:
+    enabled: true
+    mountPath: /usr/lib/unifi/logs
+    type: emptyDir
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  comm:
+    enabled: true
+    ports:
+      comm:
+        enabled: true
+        port: 8080
+        targetPort: 8080
+  guestportal:
+    enabled: true
+    ports:
+      web:
+        enabled: true
+        port: 8880
+        protocol: http
+        targetPort: 8880
+      websecure:
+        enabled: true
+        port: 8843
+        protocol: https
+        targetPort: 8843
+  main:
+    ports:
+      main:
+        port: 8443
+        protocol: https
+        targetPort: 8443
+  speedtest:
+    enabled: true
+    ports:
+      speedtest:
+        enabled: true
+        port: 6789
+        targetPort: 6789
+  stun:
+    enabled: true
+    ports:
+      stun:
+        enabled: true
+        port: 3478
+        protocol: udp
+        targetPort: 3478
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DB_MONGO_LOCAL: true
+            RUN_CHOWN: true
+      initContainers:
+        migrate:
+          args:
+          - -c
+          - "newdatadir=\"/usr/lib/unifi/data\"\nolddatadir=\"/usr/lib/unifi/olddata/data\"\
+            \n# Check the dir exists\n[ ! -d \"$newdatadir\" ] && echo \"$newdatadir\
+            \ missing\" && exit 1\n# Check if there is a data/data dir to migrate\n\
+            [ ! -d \"$olddatadir\" ] && echo \"No $olddatadir dir found. Migration\
+            \ skipped\" && exit 0\n\n# Check if the new data dir is empty, ignoring\
+            \ the old data dir\ndirs=$(ls -A \"$newdatadir\" | grep -v \"data\")\n\
+            if [ -n \"$dirs\" ]; then\n  echo \"New data dir is empty. Migrating data\
+            \ one level up\"\n  cp -rf $olddatadir/* $newdatadir || echo \"Failed\
+            \ to move data\" && exit 1\n  echo \"Data migration complete\"\nfi\n"
+          command:
+          - /bin/sh
+          enabled: true
+          imageSelector: alpineImage
+          type: init

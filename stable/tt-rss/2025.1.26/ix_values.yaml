@@ -1,0 +1,210 @@
+cnpg:
+  main:
+    database: tt-rss
+    enabled: true
+    user: tt-rss
+configmap:
+  config:
+    data:
+      nginx.conf.template: "worker_processes auto;\npid /var/run/nginx.pid;\nevents\
+        \ {\n    worker_connections  1024;\n}\nhttp {\n  include /etc/nginx/mime.types;\n\
+        \  default_type  application/octet-stream;\n  access_log /dev/stdout;\n  error_log\
+        \ /dev/stderr warn;\n  sendfile on;\n  index index.php;\n  # Removed during\
+        \ app integration to Truecharts.\n  # See: https://github.com/truecharts/charts/pull/17293#discussion_r1461102952\n\
+        \  #resolver ${RESOLVER} valid=5s;\n  server {\n    listen {{ .Values.service.main.ports.main.port\
+        \ }};\n    root ${APP_WEB_ROOT};\n    location ${APP_BASE}/cache {\n     \
+        \ aio threads;\n      internal;\n    }\n    location ${APP_BASE}/backups {\n\
+        \      internal;\n    }\n    rewrite ${APP_BASE}/healthz ${APP_BASE}/public.php?op=healthcheck;\n\
+        \    location ~ \\.php$ {\n      # regex to split $uri to $fastcgi_script_name\
+        \ and $fastcgi_path\n      fastcgi_split_path_info ^(.+?\\.php)(/.*)$;\n \
+        \     # Check that the PHP script exists before passing it\n      try_files\
+        \ $fastcgi_script_name =404;\n      # Bypass the fact that try_files resets\
+        \ $fastcgi_path_info\n      # see: http://trac.nginx.org/nginx/ticket/321\n\
+        \      set $path_info $fastcgi_path_info;\n      fastcgi_param PATH_INFO $path_info;\n\
+        \      fastcgi_index index.php;\n      include fastcgi.conf;\n      # See\
+        \ note for `resolver` line above\n      #set $backend \"${APP_UPSTREAM}:9000\"\
+        ;\n      # See note for `resolver` line above\n      #fastcgi_pass $backend;\n\
+        \      fastcgi_pass ${APP_UPSTREAM}:9000;\n    }\n    location / {\n     \
+        \ try_files $uri $uri/ =404;\n    }\n\n  }\n}"
+    enabled: true
+image:
+  pullPolicy: IfNotPresent
+  repository: cthulhoo/ttrss-fpm-pgsql-static
+  tag: latest
+nginxImage:
+  pullPolicy: IfNotPresent
+  repository: cthulhoo/ttrss-web-nginx
+  tag: latest@sha256:d52c5d80d257f2abaf826685eca2fb2d8b0331a739399441dcceccee914ce0e7
+persistence:
+  config:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /opt/tt-rss/config.d
+      updater:
+        updater:
+          mountPath: /opt/tt-rss/config.d
+  html:
+    enabled: true
+    targetSelector:
+      main:
+        main:
+          mountPath: /var/www/html
+      nginx:
+        nginx:
+          mountPath: /var/www/html
+          readOnly: true
+      updater:
+        updater:
+          mountPath: /var/www/html
+  nginx-conf:
+    enabled: true
+    objectName: config
+    targetSelector:
+      nginx:
+        nginx:
+          mountPath: /etc/nginx/templates/nginx.conf.template
+          subPath: nginx.conf.template
+    type: configmap
+  plugins:
+    enabled: true
+    mountPath: /var/www/html/tt-rss/plugins.local
+  themes:
+    enabled: true
+    mountPath: /var/www/html/tt-rss/themes.local
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  app:
+    enabled: true
+    ports:
+      app:
+        enabled: true
+        port: 9000
+        targetPort: 9000
+        targetSelector: main
+    targetSelector: main
+  main:
+    ports:
+      main:
+        port: 10104
+        targetSelector: nginx
+    targetSelector: nginx
+updaterImage:
+  pullPolicy: IfNotPresent
+  repository: cthulhoo/ttrss-fpm-pgsql-static
+  tag: latest@sha256:27bca21708ce931b950fe8c09e7ba277e918c5d9b37794601da15b62e793d596
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_USER_PASS: ''
+            TTRSS_DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            TTRSS_DB_NAME: '{{ .Values.cnpg.main.database }}'
+            TTRSS_DB_PASS:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            TTRSS_DB_PORT: '5432'
+            TTRSS_DB_USER: '{{ .Values.cnpg.main.user }}'
+            TTRSS_SELF_URL_PATH: ''
+          probes:
+            liveness:
+              command:
+              - /bin/sh
+              - -c
+              - netstat -npl | grep :9000
+              type: exec
+            readiness:
+              command:
+              - /bin/sh
+              - -c
+              - ls /var/www/html/tt-rss/.app_is_ready
+              type: exec
+            startup:
+              port: '{{ .Values.service.app.ports.app.port }}'
+              type: tcp
+  nginx:
+    enabled: true
+    podSpec:
+      containers:
+        nginx:
+          enabled: true
+          env:
+            APP_BASE: ''
+            APP_UPSTREAM: '{{ printf "%s-app" (include "tc.v1.common.lib.chart.names.fullname"
+              .) }}'
+            APP_WEB_ROOT: /var/www/html/tt-rss
+          imageSelector: nginxImage
+          primary: true
+          probes:
+            liveness:
+              enabled: true
+              path: /public.php?op=healthcheck
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: http
+            readiness:
+              enabled: true
+              path: /public.php?op=healthcheck
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: http
+            startup:
+              enabled: true
+              port: '{{ .Values.service.main.ports.main.port }}'
+              type: tcp
+    type: Deployment
+  updater:
+    enabled: true
+    podSpec:
+      containers:
+        updater:
+          args: /opt/tt-rss/updater.sh
+          enabled: true
+          env:
+            TTRSS_DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            TTRSS_DB_NAME: '{{ .Values.cnpg.main.database }}'
+            TTRSS_DB_PASS:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            TTRSS_DB_PORT: '5432'
+            TTRSS_DB_USER: '{{ .Values.cnpg.main.user }}'
+            TTRSS_SELF_URL_PATH: ''
+          imageSelector: updaterImage
+          primary: true
+          probes:
+            liveness:
+              command:
+              - /usr/bin/test
+              - -f
+              - /var/www/html/tt-rss/lock/update_daemon.lock
+              type: exec
+            readiness:
+              command:
+              - /usr/bin/test
+              - -f
+              - /var/www/html/tt-rss/lock/update_daemon.lock
+              type: exec
+            startup:
+              command:
+              - /usr/bin/test
+              - -f
+              - /var/www/html/tt-rss/lock/update_daemon.lock
+              type: exec
+    type: Deployment

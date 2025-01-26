@@ -1,0 +1,52 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: balabit/syslog-ng
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 6601
+        targetPort: 601
+  syslog-tls:
+    enabled: true
+    ports:
+      syslog-tls:
+        enabled: true
+        port: 6514
+        targetPort: 6514
+  syslog-udp:
+    enabled: true
+    ports:
+      syslog-udp:
+        enabled: true
+        port: 5514
+        protocol: udp
+        targetPort: 514
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

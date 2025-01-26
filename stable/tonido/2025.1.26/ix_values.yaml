@@ -1,0 +1,23 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: captinsano/tonido
+  tag: latest
+persistence:
+  tonido:
+    enabled: true
+    mountPath: /unRAID
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10001
+        protocol: tcp
+        targetPort: 10001

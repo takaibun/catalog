@@ -1,0 +1,28 @@
+affinity: {}
+image:
+  pullPolicy: Always
+  repository: tenstartups/ser2sock
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10000
+        protocol: tcp
+        targetPort: 10000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            BAUD_RATE: 115200
+            LISTENER_PORT: '{{ .Values.service.main.ports.main.port }}'
+            SERIAL_DEVICE: ''

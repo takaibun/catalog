@@ -1,0 +1,61 @@
+cnpg:
+  main:
+    database: airsonic-advanced
+    enabled: true
+    user: airsonic-advanced
+image:
+  pullPolicy: IfNotPresent
+  repository: airsonicadvanced/airsonic-advanced
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /airsonic
+  music:
+    enabled: true
+    mountPath: /music
+  playlists:
+    enabled: true
+    mountPath: /playlists
+  podcasts:
+    enabled: true
+    mountPath: /podcasts
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 10122
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            AIRSONIC_DIR: /
+            AIRSONIC_PORT: '{{ .Values.service.main.ports.main.port }}'
+            CONTEXT_PATH: /
+            JAVA_OPTS: ''
+            spring_datasource_password:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            spring_datasource_url:
+              secretKeyRef:
+                key: jdbc
+                name: cnpg-main-urls
+            spring_datasource_username: '{{ .Values.cnpg.main.user }}'
+            spring_liquibase_parameters_userTableQuote: '"'
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp

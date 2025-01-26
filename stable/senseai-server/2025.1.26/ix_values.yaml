@@ -1,0 +1,17 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: codeproject/senseai-server
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /usr/share/CodeProject/SenseAI
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10118
+        targetPort: 5000

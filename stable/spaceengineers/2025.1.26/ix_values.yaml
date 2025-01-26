@@ -1,0 +1,86 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: devidian/spaceengineers
+  tag: latest
+persistence:
+  instances:
+    enabled: true
+    mountPath: /appdata/space-engineers/instances
+  plugins:
+    enabled: true
+    mountPath: /appdata/space-engineers/plugins
+  serverfiles:
+    enabled: true
+    mountPath: /appdata/space-engineers/SpaceEngineersDedicated
+  steamcmd:
+    enabled: true
+    mountPath: /root/.steam
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  api:
+    enabled: true
+    ports:
+      api:
+        enabled: true
+        port: 18080
+        protocol: http
+  main:
+    ports:
+      main:
+        port: 27017
+        protocol: udp
+  steam:
+    enabled: true
+    ports:
+      steam:
+        enabled: true
+        port: 27018
+        protocol: udp
+spaceengineers:
+  instance_name: TestInstance
+  public_ip: 1.2.3.4
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            INSTANCE_NAME: '{{ .Values.spaceengineers.instance_name }}'
+            PUBLIC_IP: '{{ .Values.spaceengineers.public_ip }}'
+          lifecycle:
+            postStart:
+              command:
+              - /bin/sh
+              - -c
+              - "INSTANCE_NAME=\"{{ .Values.spaceengineers.instance_name }}\"\nCONFIG_PATH=\"\
+                {{ .Values.persistence.instances.mountPath }}/$INSTANCE_NAME/SpaceEngineers-Dedicated.cfg\"\
+                \n\n# Define the new values for the port-related options\nServerPort=\"\
+                {{ .Values.service.main.ports.main.port }}\"\nSteamPort=\"{{ .Values.service.steam.ports.steam.port\
+                \ }}\"\nRemoteApiPort=\"{{ .Values.service.api.ports.api.port }}\"\
+                \n\n# Check if the configuration file exists\nif [ -f \"$CONFIG_PATH\"\
+                \ ]; then\n  # Update the XML file with the new values using sed\n\
+                \  sed -i \"s/<SteamPort>[0-9]*<\\/SteamPort>/<SteamPort>$SteamPort<\\\
+                /SteamPort>/\" \"$CONFIG_PATH\"\n  sed -i \"s/<ServerPort>[0-9]*<\\\
+                /ServerPort>/<ServerPort>$ServerPort<\\/ServerPort>/\" \"$CONFIG_PATH\"\
+                \n  sed -i \"s/<RemoteApiPort>[0-9]*<\\/RemoteApiPort>/<RemoteApiPort>$RemoteApiPort<\\\
+                /RemoteApiPort>/\" \"$CONFIG_PATH\"\n\n  echo \"Port-related options\
+                \ updated for instance $INSTANCE_NAME:\"\n  echo \"SteamPort: $SteamPort\"\
+                \n  echo \"ServerPort: $ServerPort\"\n  echo \"RemoteApiPort: $RemoteApiPort\"\
+                \nelse\n  echo \"Configuration file not found. Please create it manually\
+                \ or check the path: $CONFIG_PATH\"\nfi\n"
+              type: exec
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

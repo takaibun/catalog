@@ -1,0 +1,17 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/onedr0p/tautulli
+  tag: rolling
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 8181
+        targetPort: 8181

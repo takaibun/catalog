@@ -1,0 +1,24 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: yourselfhosted/slash
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /var/opt/slash
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 5231
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SLASH_PORT: '{{ .Values.service.main.ports.main.port }}'

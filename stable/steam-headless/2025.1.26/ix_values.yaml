@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: josh5/steam-headless
+  tag: latest
+persistence:
+  flatpak:
+    enabled: true
+    mountPath: /var/lib/flatpak
+  games:
+    enabled: true
+    mountPath: /mnt/games
+  home:
+    enabled: true
+    mountPath: /home/default
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8083
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ENABLE_EVDEV_INPUTS: false
+            ENABLE_SUNSHINE: false
+            ENABLE_VNC_AUDIO: false
+            MODE: primary
+            PORT_NOVNC_WEB: '{{ .Values.service.main.ports.main.port }}'
+            WEB_UI_MODE: vnc
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

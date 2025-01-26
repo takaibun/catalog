@@ -1,0 +1,54 @@
+cnpg:
+  main:
+    database: peppermint
+    enabled: true
+    user: peppermint
+image:
+  pullPolicy: IfNotPresent
+  repository: pepperlabs/peppermint
+  tag: latest
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  api:
+    enabled: true
+    ports:
+      api:
+        enabled: true
+        port: 5003
+        protocol: http
+    type: ClusterIP
+  main:
+    ports:
+      main:
+        port: 10699
+        protocol: http
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            API_URL: '{{ printf "http://%v:%v" (include "tc.v1.common.lib.chart.names.fullname"
+              $) .Values.service.api.ports.api.port }}'
+            DB_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DB_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DB_USERNAME: '{{ .Values.cnpg.main.user }}'
+            SECRET:
+              secretKeyRef:
+                key: SECRET
+                name: peppermint-secrets

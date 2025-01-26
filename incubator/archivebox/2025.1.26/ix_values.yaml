@@ -1,0 +1,39 @@
+config:
+  admin_password: changeme
+  admin_username: admin
+image:
+  pullPolicy: IfNotPresent
+  repository: archivebox/archivebox
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 9598
+        protocol: http
+        targetPort: 8000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_PASSWORD: '{{ .Values.config.admin_password }}'
+            ADMIN_USERNAME: '{{ .Values.config.admin_username }}'
+          probes:
+            liveness:
+              path: /health/
+              type: http

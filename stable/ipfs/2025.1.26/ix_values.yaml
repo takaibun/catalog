@@ -1,0 +1,71 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ipfs/kubo
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data/ipfs
+  ipfs:
+    enabled: true
+    mountPath: /ipfs
+  ipns:
+    enabled: true
+    mountPath: /ipns
+  staging:
+    enabled: true
+    mountPath: /export
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  gateway:
+    enabled: true
+    ports:
+      gateway:
+        enabled: true
+        port: 10147
+        targetPort: 8080
+    type: ClusterIP
+  main:
+    ports:
+      main:
+        port: 10125
+        targetPort: 5001
+  peer-tcp:
+    enabled: true
+    ports:
+      peer-tcp:
+        enabled: true
+        port: 4001
+        targetPort: 4001
+  peer-udp:
+    enabled: true
+    ports:
+      peer-udp:
+        enabled: true
+        port: 4001
+        protocol: udp
+        targetPort: 4001
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            IPFS_PROFILE: server
+            IPFS_SWARM_KEY: ''
+            IPFS_SWARM_KEY_FILE: ''
+          probes:
+            liveness:
+              path: /webui
+            readiness:
+              path: /webui
+            startup:
+              path: /webui

@@ -1,0 +1,46 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: esphome/esphome
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  platformio:
+    enabled: true
+    mountPath: /.platformio
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    allowPrivilegeEscalation: true
+    privileged: true
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 6052
+        targetPort: 6052
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ESPHOME_DASHBOARD_RELATIVE_URL: /
+            ESPHOME_DASHBOARD_USE_PING: false
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

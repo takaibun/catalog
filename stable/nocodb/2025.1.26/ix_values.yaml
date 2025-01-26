@@ -1,0 +1,71 @@
+cnpg:
+  main:
+    database: nocodb
+    enabled: true
+    user: nocodb
+image:
+  pullPolicy: IfNotPresent
+  repository: nocodb/nocodb
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /usr/app/data
+portal:
+  open:
+    enabled: true
+redis:
+  enabled: true
+  includeCommon: true
+  redisUsername: default
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10226
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            AWS_ACCESS_KEY_ID: ''
+            AWS_BUCKET: ''
+            AWS_BUCKET_PATH: ''
+            AWS_SECRET_ACCESS_KEY: ''
+            DISABLE_SPLASH_SCREEN: false
+            NC_AUTH_JWT_SECRET:
+              secretKeyRef:
+                key: NC_AUTH_JWT_SECRET
+                name: secrets
+            NC_DISABLE_CACHE: false
+            NC_DISABLE_ERR_REPORT: true
+            NC_DISABLE_TELE: true
+            NC_EXPORT_MAX_TIMEOUT: 5000
+            NC_INVITE_ONLY_SIGNUP: false
+            NC_JWT_EXPIRES_IN: 10h
+            NC_PUBLIC_URL: http://localhost:10226
+            NC_REDIS_URL:
+              secretKeyRef:
+                expandObjectName: false
+                key: url
+                name: '{{ printf "%s-%s" .Release.Name "rediscreds" }}'
+            NC_REQUEST_BODY_SIZE: 1MB
+            NC_SENTRY_DSN: ''
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+          envFrom:
+          - configMapRef:
+              name: configmap
+          probes:
+            liveness:
+              path: /dashboard
+            readiness:
+              path: /dashboard
+            startup:
+              path: /dashboard

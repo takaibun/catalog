@@ -1,0 +1,52 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: jenkins/jenkins
+  tag: latest
+jenkins:
+  java_opts: []
+  jenkins_java_opts: []
+  jenkins_opts: []
+  plugins_force_upgrade: false
+  upgrade_if_no_marker: false
+persistence:
+  data:
+    enabled: true
+    mountPath: /var/jenkins_home
+portal:
+  open:
+    enabled: true
+security:
+  container:
+    runAsGroup: 1000
+    runAsUser: 1000
+  pod:
+    fsGroup: 1000
+service:
+  agent:
+    enabled: true
+    ports:
+      agent:
+        enabled: true
+        port: 50000
+  main:
+    ports:
+      main:
+        port: 10280
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: jenkins-secret
+          probes:
+            liveness:
+              path: /login
+              type: http
+            readiness:
+              path: /login
+              type: http
+            startup:
+              type: tcp

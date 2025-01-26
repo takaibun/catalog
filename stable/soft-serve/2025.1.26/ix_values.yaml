@@ -1,0 +1,41 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: charmcli/soft-serve
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /soft-serve
+  repos:
+    enabled: true
+    mountPath: /repos
+  ssh:
+    enabled: true
+    mountPath: /.ssh
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 23231
+        protocol: tcp
+softserve:
+  host: localhost
+  init_admin_key: ''
+  key_path: /.ssh/soft_serve_server_ed25519
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: env-secret

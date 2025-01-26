@@ -1,0 +1,66 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: randomninjaatk/amd
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  data:
+    enabled: true
+    mountPath: /downloads-amd
+portal:
+  open:
+    enabled: false
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ALBUM_TYPE_FILTER: COMPILE
+            ARL_TOKEN: ARLTOKEN
+            AUTOSTART: true
+            BITRATE: 320
+            Concurrency: 1
+            DOWNLOADMODE: wanted
+            EMBEDDED_COVER_QUALITY: 80
+            ENABLEPOSTPROCESSING: true
+            FALLBACKSEARCH: true
+            FORCECONVERT: true
+            FORMAT: FLAC
+            FilePermissions: 666
+            FolderPermissions: 766
+            LIST: both
+            LidarrAPIkey: LIDARRAPI
+            LidarrUrl: http://x.x.x.x:8686
+            MBRAINZMIRROR: https://musicbrainz.org
+            MatchDistance: 10
+            NOTIFYPLEX: false
+            PLEXLIBRARYNAME: Music
+            PLEXTOKEN: plextoken
+            PLEXURL: http://x.x.x.x:32400
+            POSTPROCESSTHREADS: 1
+            SCRIPTINTERVAL: 1h
+            SearchType: both
+            replaygain: true
+            requirequality: true
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

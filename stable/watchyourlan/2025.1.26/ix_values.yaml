@@ -1,0 +1,58 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: aceberg/watchyourlan
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+podOptions:
+  hostNetwork: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    capabilities:
+      add:
+      - NET_RAW
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10355
+        protocol: http
+watchyourlan:
+  gui_ip: 0.0.0.0
+  interfaces:
+  - enp1s0
+  shoutrrr_url: ''
+  theme: darkly
+  timeout: 300
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DBPATH: /data/db.sqlite
+            GUIIP: '{{ .Values.watchyourlan.gui_ip }}'
+            GUIPORT: '{{ .Values.service.main.ports.main.port }}'
+            IFACE: '{{ join " " .Values.watchyourlan.interfaces }}'
+            SHOUTRRR_URL: '{{ .Values.watchyourlan.shoutrrr_url }}'
+            THEME: '{{ .Values.watchyourlan.theme }}'
+            TIMEOUT: '{{ .Values.watchyourlan.timeout }}'
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

@@ -1,0 +1,51 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/mintplex-labs/anything-llm
+  tag: latest
+persistence:
+  hotdir:
+    enabled: true
+    mountPath: /app/collector/hotdir
+  outputs:
+    enabled: true
+    mountPath: /app/collector/outputs
+  storage:
+    enabled: true
+    mountPath: /app/server/storage
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    capabilities:
+      add:
+      - SYS_ADMIN
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 3001
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ENABLE_HTTPS: false
+            JWT_SECRET:
+              secretKeyRef:
+                key: JWT_SECRET
+                name: anythinglmm-secrets
+            PASSWORDLOWERCASE: 1
+            PASSWORDMAXCHAR: 250
+            PASSWORDMINCHAR: 8
+            PASSWORDNUMERIC: 1
+            PASSWORDREQUIREMENTS: 4
+            PASSWORDSYMBOL: 1
+            PASSWORDUPPERCASE: 1
+            SERVER_PORT: '{{ .Values.service.main.ports.main.port }}'
+            STORAGE_DIR: '{{.Values.persistence.storage.mountPath }}'

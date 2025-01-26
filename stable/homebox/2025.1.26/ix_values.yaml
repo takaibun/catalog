@@ -1,0 +1,36 @@
+homebox:
+  allow_registration: true
+  auto_increment_asset_id: true
+  log_format: text
+  log_level: info
+  mailer_from: ''
+  mailer_host: ''
+  mailer_password: ''
+  mailer_port: 587
+  mailer_username: ''
+  max_upload_size: 10
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/hay-kot/homebox
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10603
+        protocol: http
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - secretRef:
+              name: homebox-secret

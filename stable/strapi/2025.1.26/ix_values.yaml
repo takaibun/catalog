@@ -1,0 +1,53 @@
+cnpg:
+  main:
+    database: strapi
+    enabled: true
+    user: strapi
+image:
+  pullPolicy: Always
+  repository: naskio/strapi
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /srv/app
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 1337
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_JWT_SECRET: my_admin_jwt_secret
+            APP_KEYS: '["keya", "keyb"]'
+            DATABASE_CLIENT: postgres
+            DATABASE_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            DATABASE_NAME: '{{ .Values.cnpg.main.database }}'
+            DATABASE_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            DATABASE_PORT: 5432
+            DATABASE_USERNAME: '{{ .Values.cnpg.main.user }}'
+            EXTRA_ARGS: ''
+            FAST_REFRESH: false
+            JWT_SECRET: my_jwt_secret
+            NODE_ENV: development
+            PORT: '{{ .Values.service.main.ports.main.port }}'
+            STRAPI_DISABLE_UPDATE_NOTIFICATION: true

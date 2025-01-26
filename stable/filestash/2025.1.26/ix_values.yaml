@@ -1,0 +1,35 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: machines/filestash
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /app/data/state
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 8334
+        protocol: http
+        targetPort: 8334
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APPLICATION_URL: http://localhost:8334
+            DROPBOX_CLIENT_ID: ''
+            GDRIVE_CLIENT_ID: ''
+            GDRIVE_CLIENT_SECRET: ''
+            ONLYOFFICE_URL: ''

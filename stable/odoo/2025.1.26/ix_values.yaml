@@ -1,0 +1,88 @@
+cnpg:
+  main:
+    database: odoo
+    enabled: true
+    user: odoo
+image:
+  pullPolicy: IfNotPresent
+  repository: docker.io/odoo
+  tag: latest
+odoo:
+  additionalConf: []
+persistence:
+  addons:
+    enabled: true
+    targetSelector:
+      main:
+        init-db:
+          mountPath: /mnt/extra-addons
+        main:
+          mountPath: /mnt/extra-addons
+  odoo:
+    enabled: true
+    targetSelector:
+      main:
+        init-db:
+          mountPath: /var/lib/odoo
+        main:
+          mountPath: /var/lib/odoo
+  odoo-config:
+    enabled: true
+    objectName: odoo-config
+    targetSelector:
+      main:
+        init-db:
+          mountPath: /etc/odoo/odoo.conf
+          readOnly: true
+          subPath: odoo.conf
+        main:
+          mountPath: /etc/odoo/odoo.conf
+          readOnly: true
+          subPath: odoo.conf
+    type: configmap
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 101
+    runAsUser: 101
+service:
+  main:
+    ports:
+      main:
+        port: 8069
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ODOO_RC: /etc/odoo/odoo.conf
+          probes:
+            liveness:
+              enabled: true
+              path: /web/health
+              type: http
+            readiness:
+              enabled: true
+              path: /web/health
+              type: http
+            startup:
+              enabled: true
+              path: /web/health
+              type: http
+      initContainers:
+        init-db:
+          args:
+          - -c
+          - "/usr/bin/odoo --config=/etc/odoo/odoo.conf \\\n              --stop-after-init\
+            \ \\\n              --without-demo=all \\\n              --init=base\n"
+          command:
+          - /bin/bash
+          enabled: true
+          env:
+            ODOO_RC: /etc/odoo/odoo.conf
+          imageSelector: image
+          type: install

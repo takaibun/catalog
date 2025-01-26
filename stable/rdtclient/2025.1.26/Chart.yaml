@@ -1,0 +1,36 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: This is a web interface to manage your torrents on Real-Debrid, AllDebrid
+  or Premiumize.
+home: https://truecharts.org/charts/stable/rdtclient
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/rdtclient.webp
+keywords:
+- rdtclient
+- torrent
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: rdtclient
+sources:
+- https://ghcr.io/rogerfar/rdtclient
+- https://github.com/rogerfar/rdt-client
+- https://github.com/truecharts/charts/tree/master/charts/stable/rdtclient
+- https://hub.docker.com/r/p3terx/aria2-pro
+type: application
+version: 2025.1.26

@@ -1,0 +1,41 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/techno-tim/littlelink-server
+  tag: latest
+littlelink:
+  avatar_2x_url: https://pbs.twimg.com/profile_images/1286144221217316864/qiaskopb_400x400.jpg
+  avatar_alt: techno tim profile pic
+  avatar_url: https://pbs.twimg.com/profile_images/1286144221217316864/qiaskopb_200x200.jpg
+  bio: hey! just a place where you can connect with me!
+  discord: https://discord.gg/djkexrj
+  favicon_url: https://pbs.twimg.com/profile_images/1286144221217316864/qiaskopb_200x200.jpg
+  footer: thanks for stopping by!
+  github: https://github.com/timothystewart6
+  instagram: https://www.instagram.com/techno.tim
+  kit: https://kit.co/technotim
+  meta_author: techno tim
+  meta_description: techno tim link page
+  meta_title: techno tim
+  name: technotim
+  theme: dark
+  tiktok: https://www.tiktok.com/@technotim
+  twitch: https://www.twitch.tv/technotim/
+  twitter: https://twitter.com/technotimlive
+  youtube: https://www.youtube.com/channel/ucok-ghyjcwznj3br4oxwh0a
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 10040
+        targetPort: 3000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          envFrom:
+          - configMapRef:
+              name: config

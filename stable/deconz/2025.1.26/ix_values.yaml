@@ -1,0 +1,54 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: deconzcommunity/deconz
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    mountPath: /opt/deCONZ
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10008
+  vnc:
+    enabled: true
+    ports:
+      vnc:
+        enabled: true
+        port: 10002
+  websocket:
+    enabled: true
+    ports:
+      websocket:
+        enabled: true
+        port: 10001
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            DECONZ_DEVICE: ''
+            DECONZ_GID: '{{ .Values.securityContext.pod.fsGroup }}'
+            DECONZ_START_VERBOSE: 0
+            DECONZ_UID: '{{ .Values.securityContext.container.PUID }}'
+            DECONZ_UPNP: 0
+            DECONZ_VNC_MODE: 1
+            DECONZ_VNC_PASSWORD: ''
+            DECONZ_VNC_PORT: '{{ .Values.service.vnc.ports.vnc.port }}'
+            DECONZ_WEB_PORT: '{{ .Values.service.main.ports.main.port }}'
+            DECONZ_WS_PORT: '{{ .Values.service.websocket.ports.websocket.port }}'
+          securityContext:
+            capabilities:
+              add:
+              - NET_BIND_SERVICE

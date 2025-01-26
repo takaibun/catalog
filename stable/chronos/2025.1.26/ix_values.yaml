@@ -1,0 +1,40 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: simsemand/chronos
+  tag: latest
+persistence:
+  chronos:
+    enabled: true
+    mountPath: /chronos
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10305
+        protocol: http
+        targetPort: 5000
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: {}
+          probes:
+            liveness:
+              path: /
+              type: http
+            readiness:
+              path: /
+              type: http
+            startup:
+              path: /
+              type: http

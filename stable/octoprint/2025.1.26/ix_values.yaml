@@ -1,0 +1,33 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: octoprint/octoprint
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /octoprint
+  varrun:
+    enabled: true
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 10021
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            CAMERA_DEV: null
+            ENABLE_MJPG_STREAMER: 'true'
+            MJPG_STREAMER_INPUT: null

@@ -1,0 +1,37 @@
+annotations:
+  truecharts.org/category: media
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+deprecated: false
+description: This is an all-in-one package for running a self-hosted Firefox Sync
+  server.
+home: https://truecharts.org/charts/stable/firefox-syncserver
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox-syncserver.webp
+keywords:
+- server
+- sync
+- syncserver
+- firefox
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: firefox-syncserver
+sources:
+- https://ghcr.io/crazy-max/firefox-syncserver
+- https://github.com/truecharts/charts/tree/master/charts/stable/firefox-syncserver
+- https://moz-services-docs.readthedocs.io/en/latest/howtos/run-sync-1.5.html
+type: application
+version: 2025.1.26

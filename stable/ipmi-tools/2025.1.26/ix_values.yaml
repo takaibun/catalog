@@ -1,0 +1,27 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: edchamberlain/ipmi-tools
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 4017
+        protocol: http
+        targetPort: 80
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            APP_IPMI_HOST: ''
+            APP_IPMI_PASS: ''
+            APP_IPMI_USER: ''

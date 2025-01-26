@@ -1,0 +1,68 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: rnagabhyrava/plexplaylistsync
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: false
+pps:
+  deezer:
+    playlist_id: []
+    user_id: ''
+  other:
+    add_playlist_description: true
+    add_playlist_poster: true
+    append_instead_of_sync: false
+    append_service_suffix: true
+    seconds_to_wait: 84000
+    write_missing_as_csv: false
+  plex:
+    token: plextoken123
+    url: http://localhost:32400
+  spotify:
+    client_id: ''
+    client_secret: ''
+    user_id: ''
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADD_PLAYLIST_DESCRIPTION: '{{ .Values.pps.other.add_playlist_description
+              }}'
+            ADD_PLAYLIST_POSTER: '{{ .Values.pps.other.add_playlist_poster }}'
+            APPEND_INSTEAD_OF_SYNC: '{{ .Values.pps.other.append_instead_of_sync }}'
+            APPEND_SERVICE_SUFFIX: '{{ .Values.pps.other.append_service_suffix }}'
+            DEEZER_PLAYLIST_ID: '{{ join " " .Values.pps.deezer.playlist_id }}'
+            DEEZER_USER_ID: '{{ .Values.pps.deezer.user_id }}'
+            PLEX_TOKEN: '{{ .Values.pps.plex.token }}'
+            PLEX_URL: '{{ .Values.pps.plex.url }}'
+            SECONDS_TO_WAIT: '{{ .Values.pps.other.seconds_to_wait }}'
+            SPOTIFY_CLIENT_ID: '{{ .Values.pps.spotify.client_id }}'
+            SPOTIFY_CLIENT_SECRET: '{{ .Values.pps.spotify.client_secret }}'
+            SPOTIFY_USER_ID: '{{ .Values.pps.spotify.user_id }}'
+            WRITE_MISSING_AS_CSV: '{{ .Values.pps.other.write_missing_as_csv }}'
+          probes:
+            liveness:
+              enabled: false
+            readiness:
+              enabled: false
+            startup:
+              enabled: false

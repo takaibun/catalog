@@ -1,0 +1,242 @@
+additionalArguments:
+- --serverstransport.insecureskipverify=true
+- --providers.kubernetesingress.allowexternalnameservices=true
+configmap:
+  dashboard:
+    data:
+      traefik.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+defaultCertificate: ''
+globalArguments:
+- --global.checknewversion
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/tccr/traefik
+  tag: latest
+ingressClass:
+  enabled: false
+  fallbackApiVersion: ''
+  isDefaultClass: false
+ingressRoute:
+  dashboard:
+    annotations: {}
+    enabled: true
+    labels: {}
+logs:
+  access:
+    enabled: false
+    fields:
+      general:
+        defaultmode: keep
+        names: {}
+      headers:
+        defaultmode: drop
+        names: {}
+    filters: {}
+    format: common
+  general:
+    format: common
+    level: ERROR
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: metrics
+    targetSelector: metrics
+    type: servicemonitor
+middlewares:
+  addPrefix: []
+  basicAuth: []
+  bouncer: []
+  buffering: []
+  chain: []
+  customFrameOptionsValue: []
+  customRequestHeaders: []
+  customResponseHeaders: []
+  forwardAuth: []
+  geoBlock: []
+  ipWhiteList: []
+  modsecurity: []
+  rateLimit: []
+  realIP: []
+  redirectRegex: []
+  redirectScheme: []
+  rewriteResponseHeaders: []
+  stripPrefixRegex: []
+  themePark: []
+operator:
+  register: true
+persistence:
+  crowdsec-bouncer-tls:
+    enabled: '{{ if .Values.middlewares.bouncer }}true{{ else }}false{{ end }}'
+    expandObjectName: false
+    mountPath: /etc/traefik/crowdsec-certs
+    objectName: crowdsec-bouncer-tls
+    type: secret
+  plugins:
+    enabled: true
+    mountPath: /plugins-storage
+    type: emptyDir
+podOptions:
+  automountServiceAccountToken: true
+portal:
+  open:
+    enabled: true
+    path: /dashboard/
+portalhook:
+  enabled: true
+providers:
+  kubernetesCRD:
+    enabled: true
+    namespaces: []
+  kubernetesIngress:
+    enabled: true
+    namespaces: []
+    publishedService:
+      enabled: true
+rbac:
+  main:
+    clusterWide: true
+    enabled: true
+    primary: true
+    rules:
+    - apiGroups:
+      - ''
+      resources:
+      - services
+      - endpoints
+      - secrets
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - extensions
+      - networking.k8s.io
+      resources:
+      - ingresses
+      - ingressclasses
+      verbs:
+      - get
+      - list
+      - watch
+    - apiGroups:
+      - extensions
+      - networking.k8s.io
+      resources:
+      - ingresses/status
+      verbs:
+      - update
+    - apiGroups:
+      - traefik.containo.us
+      - traefik.io
+      resources:
+      - middlewares
+      - middlewaretcps
+      - ingressroutes
+      - traefikservices
+      - ingressroutetcps
+      - ingressrouteudps
+      - tlsoptions
+      - tlsstores
+      - serverstransports
+      verbs:
+      - get
+      - list
+      - watch
+service:
+  main:
+    ports:
+      main:
+        forwardedHeaders:
+          enabled: false
+        port: 9000
+        protocol: http
+        proxyProtocol:
+          enabled: false
+        targetPort: 9000
+    type: LoadBalancer
+  metrics:
+    enabled: true
+    ports:
+      metrics:
+        enabled: true
+        forwardedHeaders:
+          enabled: false
+        port: 9180
+        protocol: http
+        proxyProtocol:
+          enabled: false
+        targetPort: 9180
+    type: ClusterIP
+  tcp:
+    enabled: true
+    externalTrafficPolicy: Cluster
+    ports:
+      web:
+        enabled: true
+        forwardedHeaders:
+          enabled: false
+          insecureMode: false
+          trustedIPs: []
+        port: 80
+        protocol: http
+        proxyProtocol:
+          enabled: false
+          insecureMode: false
+          trustedIPs: []
+        redirectTo: websecure
+      websecure:
+        enabled: true
+        forwardedHeaders:
+          enabled: false
+          insecureMode: false
+          trustedIPs: []
+        port: 443
+        protocol: https
+        proxyProtocol:
+          enabled: false
+          insecureMode: false
+          trustedIPs: []
+    type: LoadBalancer
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+tlsOptions:
+  default:
+    cipherSuites:
+    - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+    - TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+    - TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+    - TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384
+    - TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+    - TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
+    - TLS_AES_128_GCM_SHA256
+    - TLS_AES_256_GCM_SHA384
+    - TLS_CHACHA20_POLY1305_SHA256
+    curvePreferences:
+    - CurveP521
+    - CurveP384
+    - X25519
+    minVersion: VersionTLS12
+    sniStrict: false
+tlsStore: {}
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args: []
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp
+    replicas: 2
+    strategy: RollingUpdate

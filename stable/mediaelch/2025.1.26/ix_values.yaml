@@ -1,0 +1,29 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: masonxx/mediaelch
+  tag: latest
+persistence:
+  mediaelch:
+    enabled: true
+    mountPath: /shows
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 5800
+        protocol: tcp
+        targetPort: 5800
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env: null
