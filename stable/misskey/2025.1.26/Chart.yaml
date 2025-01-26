@@ -1,0 +1,45 @@
+annotations:
+  truecharts.org/category: Social
+  truecharts.org/max_helm_version: '3.14'
+  truecharts.org/min_helm_version: '3.11'
+  truecharts.org/train: stable
+apiVersion: v2
+appVersion: latest
+dependencies:
+- alias: ''
+  condition: ''
+  import-values: []
+  name: common
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 23.0.10
+- alias: ''
+  condition: redis.enabled
+  import-values: []
+  name: redis
+  repository: oci://tccr.io/truecharts
+  tags: []
+  version: 14.0.5
+deprecated: false
+description: Open source decentralized social media platform that's free forever!
+home: https://truecharts.org/charts/stable/misskey
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/misskey.webp
+keywords:
+- Misskey
+- Social
+- Friend
+- Social Media
+- Fediverse
+- ActivityPub
+kubeVersion: '>=1.24.0-0'
+maintainers:
+- email: info@truecharts.org
+  name: TrueCharts
+  url: https://truecharts.org
+name: misskey
+sources:
+- https://github.com/misskey-dev/misskey/
+- https://github.com/truecharts/charts/tree/master/charts/stable/misskey
+- https://hub.docker.com/r/misskey/misskey
+type: application
+version: 2025.1.26

@@ -1,0 +1,112 @@
+aria2:
+  custom_trackers_url: https://trackerslist.com/all_aria2.txt
+  disk_cache: 64M
+  enabled: true
+  rpc_secret: MY_SECRET
+  update_trackers: true
+aria2Image:
+  pullPolicy: IfNotPresent
+  repository: p3terx/aria2-pro
+  tag: latest@sha256:086d1a37c586edb07ec0fb956bf9edd89d1d38d138ad5309ff96d510c8c9a011
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/rogerfar/rdtclient
+  tag: latest
+persistence:
+  config:
+    enabled: true
+    targetSelector:
+      aria2:
+        aria2:
+          mountPath: /config
+  db:
+    enabled: true
+    mountPath: /data/db
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsNonRoot: false
+    runAsUser: 0
+service:
+  aria2:
+    enabled: true
+    ports:
+      rpc:
+        enabled: true
+        port: 6800
+        targetSelector: aria2
+    targetSelector: aria2
+    type: ClusterIP
+  main:
+    ports:
+      main:
+        port: 6500
+        protocol: http
+        targetPort: 6500
+  torrent:
+    enabled: true
+    ports:
+      torrent:
+        enabled: true
+        port: 6888
+        targetSelector: aria2
+      torrent-udp:
+        enabled: true
+        port: 6888
+        protocol: udp
+        targetSelector: aria2
+    targetSelector: aria2
+    type: ClusterIP
+workload:
+  aria2:
+    enabled: true
+    podSpec:
+      containers:
+        aria2:
+          enabled: true
+          env:
+            CUSTOM_TRACKER_URL: '{{ .Values.aria2.custom_trackers_url }}'
+            DISK_CACHE: '{{ .Values.aria2.disk_cache }}'
+            IPV6_MODE: false
+            LISTEN_PORT: '{{ .Values.service.torrent.ports.torrent.port }}'
+            RPC_PORT: '{{ .Values.service.aria2.ports.rpc.port }}'
+            RPC_SECRET: '{{ .Values.aria2.rpc_secret }}'
+            UPDATE_TRACKERS: '{{ .Values.aria2.update_trackers }}'
+          imageSelector: aria2Image
+          primary: true
+          probes:
+            liveness:
+              enabled: true
+              port: '{{ .Values.service.aria2.ports.rpc.port }}'
+              type: tcp
+            readiness:
+              enabled: true
+              port: '{{ .Values.service.aria2.ports.rpc.port }}'
+              type: tcp
+            startup:
+              enabled: true
+              port: '{{ .Values.service.aria2.ports.rpc.port }}'
+              type: tcp
+          securityContext:
+            readOnlyRootFilesystem: false
+            runAsGroup: 0
+            runAsNonRoot: false
+            runAsUser: 0
+    replicas: 1
+    strategy: RollingUpdate
+    type: Deployment
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: /
+            readiness:
+              path: /
+            startup:
+              path: /

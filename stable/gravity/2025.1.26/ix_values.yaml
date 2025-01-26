@@ -1,0 +1,49 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/beryju/gravity
+  tag: latest
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  dns:
+    enabled: true
+    ports:
+      dns-tcp:
+        enabled: true
+        port: 53
+        targetPort: 53
+      dns-udp:
+        enabled: true
+        port: 53
+        protocol: udp
+        targetPort: 53
+  main:
+    ports:
+      main:
+        port: 8008
+        protocol: http
+        targetPort: 8008
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ADMIN_PASSWORD: password
+            ADMIN_TOKEN:
+              secretKeyRef:
+                key: ADMIN_TOKEN
+                name: gravity-secret
+            BOOTSTRAP_ROLES: dns;api;etcd;discovery;backup;monitoring;tsdb
+            INSTANCE_IDENTIFIER: truecharts-dns-gravity
+            INSTANCE_IP: 127.0.0.1
+            INSTANCE_LISTEN: 0.0.0.0

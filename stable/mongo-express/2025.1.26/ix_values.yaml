@@ -1,0 +1,52 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: docker.io/mongo-express
+  tag: latest
+mongodb:
+  enabled: false
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+service:
+  main:
+    ports:
+      main:
+        port: 18081
+        protocol: http
+        targetPort: 8081
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            ME_CONFIG_BASICAUTH_PASSWORD: ''
+            ME_CONFIG_BASICAUTH_USERNAME: ''
+            ME_CONFIG_MONGODB_AUTH_DATABASE: ''
+            ME_CONFIG_MONGODB_AUTH_PASSWORD: ''
+            ME_CONFIG_MONGODB_AUTH_USERNAME: ''
+            ME_CONFIG_MONGODB_PORT: ''
+            ME_CONFIG_MONGODB_SERVER: ''
+            ME_CONFIG_OPTIONS_EDITORTHEME: default
+          probes:
+            liveness:
+              httpHeaders:
+                Authorization: '{{ printf "Basic %s" ((printf "%s:%s" .Values.workload.main.podSpec.containers.main.env.ME_CONFIG_BASICAUTH_USERNAME
+                  .Values.workload.main.podSpec.containers.main.env.ME_CONFIG_BASICAUTH_PASSWORD)
+                  | b64enc) }}'
+              type: http
+            readiness:
+              httpHeaders:
+                Authorization: '{{ printf "Basic %s" ((printf "%s:%s" .Values.workload.main.podSpec.containers.main.env.ME_CONFIG_BASICAUTH_USERNAME
+                  .Values.workload.main.podSpec.containers.main.env.ME_CONFIG_BASICAUTH_PASSWORD)
+                  | b64enc) }}'
+              type: http
+            startup:
+              httpHeaders:
+                Authorization: '{{ printf "Basic %s" ((printf "%s:%s" .Values.workload.main.podSpec.containers.main.env.ME_CONFIG_BASICAUTH_USERNAME
+                  .Values.workload.main.podSpec.containers.main.env.ME_CONFIG_BASICAUTH_PASSWORD)
+                  | b64enc) }}'
+              type: http

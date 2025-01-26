@@ -1,0 +1,99 @@
+cnpg:
+  main:
+    database: bitmagnet
+    enabled: true
+    user: bitmagnet
+configmap:
+  dashboard:
+    data:
+      bitmagnet.json: '{{ .Files.Get "dashboard.json" | indent 8 }}'
+    enabled: true
+    labels:
+      grafana_dashboard: '1'
+  datasource:
+    data:
+      bitmagnetpsql.yaml: "apiVersion: 1\ndatasources:\n- name: BitmagnetPostgres\n\
+        \  type: postgres\n  uid: bitmagnetpostgres\n  url: {{ printf \"%s.%s:5432\"\
+        \ (.Values.cnpg.main.creds.host | trimAll \"\\\"\") .Release.Namespace }}\n\
+        \  access: proxy\n  user: {{ .Values.cnpg.main.user }}\n  secureJsonData:\n\
+        \    password: {{ .Values.cnpg.main.creds.password | default \"na\" }}\n \
+        \ jsonData:\n    database: {{ .Values.cnpg.main.database }}\n    sslmode:\
+        \ 'disable' # disable/require/verify-ca/verify-full\n    maxOpenConns: 100\
+        \ # Grafana v5.4+\n    maxIdleConns: 100 # Grafana v5.4+\n    maxIdleConnsAuto:\
+        \ true # Grafana v9.5.1+\n    connMaxLifetime: 14400 # Grafana v5.4+\n   \
+        \ postgresVersion: 1500 # 903=9.3, 904=9.4, 905=9.5, 906=9.6, 1000=10\n  \
+        \  timescaledb: false"
+    enabled: true
+    labels:
+      grafana_datasources: '1'
+image:
+  pullPolicy: IfNotPresent
+  repository: ghcr.io/bitmagnet-io/bitmagnet
+  tag: latest
+metrics:
+  main:
+    enabled: true
+    endpoints:
+    - path: /metrics
+      port: main
+    prometheusRule:
+      enabled: false
+    targetSelector: main
+    type: servicemonitor
+portal:
+  open:
+    enabled: true
+service:
+  main:
+    ports:
+      main:
+        port: 3333
+        targetPort: 3333
+  torrent:
+    enabled: true
+    ports:
+      tcp:
+        enabled: true
+        port: 3334
+        protocol: tcp
+        targetPort: 3334
+      udp:
+        enabled: true
+        port: '{{ .Values.service.torrent.ports.tcp.port }}'
+        protocol: udp
+        targetPort: '{{ .Values.service.torrent.ports.tcp.targetPort }}'
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          args:
+          - worker
+          - run
+          - --all
+          env:
+            DHT_CRAWLER_SAVE_FILES_THRESHOLD: '100'
+            POSTGRES_HOST:
+              secretKeyRef:
+                key: host
+                name: cnpg-main-urls
+            POSTGRES_NAME: '{{ .Values.cnpg.main.database }}'
+            POSTGRES_PASSWORD:
+              secretKeyRef:
+                key: password
+                name: cnpg-main-user
+            POSTGRES_USER: '{{ .Values.cnpg.main.user }}'
+            TMDB_API_KEY: ''
+          probes:
+            liveness:
+              enabled: true
+              path: /status
+              type: http
+            readiness:
+              enabled: true
+              path: /status
+              type: http
+            startup:
+              enabled: true
+              path: /status
+              type: http
